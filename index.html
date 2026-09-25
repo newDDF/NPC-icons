@@ -136,6 +136,8 @@
 
 
 
+
+
     <script>
         // 👇 自动化脚本会自动重写此区域的数据，请勿删除或修改两行占位符注释
         /*[[BUILD_INSERT_ICONS]]*/
@@ -219,13 +221,13 @@ const MOCK_ICONS = [
             navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => showToast("复制失败"));
         }
 
-        // 📥 文件直接流式下载
+        // 📥 文件下载逻辑
         function downloadIcon(name, format, code) {
             const blob = format === 'svg' 
                 ? new Blob([code], { type: 'image/svg+xml' })
                 : (() => {
                     const base64Data = code.match(/base64,([^\"]+)/);
-                    const byteCharacters = atob(base64Data[1]);
+                    const byteCharacters = atob(base64Data ? base64Data[1] : '');
                     const byteNumbers = new Array(byteCharacters.length);
                     for (let i = 0; i < byteCharacters.length; i++) byteNumbers[i] = byteCharacters.charCodeAt(i);
                     return new Blob([new Uint8Array(byteNumbers)], { type: 'image/png' });
@@ -242,14 +244,20 @@ const MOCK_ICONS = [
             showToast(`已开始下载: ${name}.${format}`);
         }
 
+        // 🔍 核心渲染与全格式搜索修复
         function renderGrid() {
             iconGrid.innerHTML = '';
+            
+            // 🌟 修复后的过滤逻辑：同时模糊匹配 SVG 和 PNG 的名称，且兼容格式筛选
             let filtered = MOCK_ICONS.filter(icon => {
-                return (formatSelect.value === 'all' || icon.format === formatSelect.value) &&
-                       icon.name.toLowerCase().includes(searchInput.value.toLowerCase());
+                const matchesSearch = icon.name.toLowerCase().includes(searchInput.value.toLowerCase().trim());
+                const matchesFormat = formatSelect.value === 'all' || icon.format === formatSelect.value;
+                return matchesSearch && matchesFormat;
             });
 
+            // 排序
             filtered.sort((a, b) => sortSelect.value === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name));
+            
             const visibleIcons = filtered.slice(0, displayLimit);
             loadMoreBtn.style.display = visibleIcons.length >= filtered.length ? 'none' : 'inline-block';
 
@@ -261,7 +269,7 @@ const MOCK_ICONS = [
             visibleIcons.forEach(icon => {
                 const card = document.createElement('div');
                 
-                // 🌟 判断格式，如果非SVG（即PNG）则追加清除高宽与无颜色标注的专用类名
+                // 智能卡片样式划分
                 if (icon.format === 'svg') {
                     card.className = 'icon-card';
                     card.style.color = icon.color;
@@ -270,10 +278,10 @@ const MOCK_ICONS = [
                     card.style.color = 'var(--text-color)';
                 }
                 
-                // 🌟 核心判断：如果是 SVG 则生成对应的颜色值模块；如果是 PNG 则留空（完全隐藏）
+                // PNG 格式卡片完全剔除颜色信息栏
                 const colorDisplay = icon.format === 'svg' 
                     ? `<div class="icon-color" title="点击复制颜色值">${icon.color}</div>` 
-                    : ''; // 👈 空白字符串，直接在 DOM 树中剔除该元素
+                    : '';
 
                 card.innerHTML = `
                     <span class="format-badge">${icon.format}</span>
@@ -290,11 +298,13 @@ const MOCK_ICONS = [
                     </div>
                 `;
 
+                // 点击图标本体复制
                 card.querySelector('.icon-wrapper').addEventListener('click', () => {
                     if (icon.format === 'svg') copyToClipboard(icon.code, `已复制 SVG 代码: ${icon.name}`);
                     else copyToClipboard(icon.name, `已复制图标名称: ${icon.name}`);
                 });
                 
+                // 仅对带有颜色值的 SVG 绑定颜色点击事件
                 if (icon.format === 'svg') {
                     card.querySelector('.icon-color').addEventListener('click', (e) => {
                         e.stopPropagation();
@@ -302,7 +312,7 @@ const MOCK_ICONS = [
                     });
                 }
 
-                // 🔍 弹性模态详情触发
+                // 🔍 放大镜查看详情事件
                 card.querySelector('.view-btn').addEventListener('click', () => {
                     modalPreview.innerHTML = icon.code;
                     modalPreview.style.color = icon.color;
@@ -311,7 +321,7 @@ const MOCK_ICONS = [
                     detailModal.classList.add('active');
                 });
 
-                // 📥 下载触发
+                // 📥 下载事件
                 card.querySelector('.down-btn').addEventListener('click', () => {
                     downloadIcon(icon.name, icon.format, icon.code);
                 });
@@ -320,11 +330,14 @@ const MOCK_ICONS = [
             });
         }
 
+        // 弹窗与侧边栏控制监听
         modalClose.addEventListener('click', () => detailModal.classList.remove('active'));
         detailModal.addEventListener('click', (e) => { if (e.target === detailModal) detailModal.classList.remove('active'); });
 
         toggleMenuBtn.addEventListener('click', () => sidebarMenu.classList.toggle('active'));
         document.addEventListener('click', (e) => { if(!sidebarMenu.contains(e.target) && e.target !== toggleMenuBtn) sidebarMenu.classList.remove('active'); });
+        
+        // 输入框输入时实时触发全局重新过滤渲染
         searchInput.addEventListener('input', () => { displayLimit = 12; renderGrid(); });
         sortSelect.addEventListener('change', renderGrid);
         formatSelect.addEventListener('change', () => { displayLimit = 12; renderGrid(); });
