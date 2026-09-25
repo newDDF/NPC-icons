@@ -44,44 +44,42 @@
 
         .main-container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
         
-        /* 默认舒适网格：卡片宽约 180px */
-        .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 24px; }
-        
-        /* 紧凑密度网格：卡片宽约 130px */
+        /* 默认网格与紧凑网格布局控制 */
+        .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 24px; align-items: start; }
         .icon-grid.dense { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 14px; }
         .icon-grid.dense .icon-card { padding: 16px 12px; border-radius: 14px; }
-        
-        /* 🌟 紧凑模式下图标尺寸调大至 64px（约占容器 130px 的二分之一） */
         .icon-grid.dense .icon-wrapper { width: 64px; height: 64px; }
         .icon-grid.dense .card-actions { margin-top: 4px; gap: 8px; }
 
-        /* 苹果风卡片 */
-        .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 24px 20px; display: flex; flex-direction: column; align-items: center; gap: 10px; box-shadow: var(--shadow); position: relative; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s; }
+        /* 苹果风卡片容器 */
+        .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 24px 20px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 190px; box-shadow: var(--shadow); position: relative; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s; }
         .icon-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
         
+        /* 高度自适应修正（针对没有颜色值的PNG卡片） */
+        .icon-card.no-color-card { min-height: 165px; }
+        .icon-grid.dense .icon-card.no-color-card { min-height: 135px; }
+
         .format-badge { position: absolute; top: 10px; right: 12px; font-size: 0.65rem; opacity: 0.4; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
         
-        /* 🌟 默认舒适模式下图标尺寸调大至 80px（约占容器 180px 的二分之一） */
+        /* 图标1/2比例限制 */
         .icon-wrapper { width: 80px; height: 80px; display: flex; justify-content: center; align-items: center; cursor: pointer; border-radius: 14px; transition: background-color 0.2s; }
         .icon-wrapper:hover { background: rgba(0, 0, 0, 0.05); }
         [data-theme="dark"] .icon-wrapper:hover { background: rgba(255, 255, 255, 0.08); }
         .icon-wrapper svg, .icon-wrapper img { width: 100%; height: 100%; fill: currentColor; }
         
         .icon-name { font-weight: 600; font-size: 0.95rem; text-align: center; word-break: break-all; margin-top: 4px; }
-        .icon-color { font-size: 0.75rem; color: var(--text-muted); cursor: pointer; padding: 3px 8px; border-radius: 6px; background: rgba(0,0,0,0.03); font-family: monospace; }
+        .icon-color { font-size: 0.75rem; color: var(--text-muted); cursor: pointer; padding: 3px 8px; border-radius: 6px; background: rgba(0,0,0,0.03); font-family: monospace; margin: 2px 0; }
         [data-theme="dark"] .icon-color { background: rgba(255,255,255,0.05); }
         .icon-color:hover { color: var(--accent-color); }
 
-        /* 卡片底部功能键区域 */
         .card-actions { display: flex; gap: 14px; width: 100%; justify-content: center; margin-top: 8px; border-top: 1px solid var(--border-color); padding-top: 10px; }
         .action-btn { background: none; border: none; cursor: pointer; color: var(--text-muted); display: flex; align-items: center; justify-content: center; padding: 6px; border-radius: 8px; transition: color 0.2s, background-color 0.2s; }
         .action-btn:hover { color: var(--accent-color); background: rgba(0, 74, 255, 0.08); }
         .action-btn svg { width: 18px; height: 18px; fill: currentColor; }
 
-        /* 苹果风全屏详情模态弹窗 */
+        /* 全屏放大镜模态弹窗 */
         .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 1000; display: flex; justify-content: center; align-items: center; opacity: 0; pointer-events: none; transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); }
         .modal-overlay.active { opacity: 1; pointer-events: auto; }
-        
         .modal-content { background: var(--blur-bg); border: 1px solid var(--border-color); width: 90%; max-width: 420px; border-radius: 28px; padding: 30px; box-shadow: 0 20px 50px rgba(0,0,0,0.2); transform: scale(0.85) translateY(20px); transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); display: flex; flex-direction: column; align-items: center; gap: 20px; position: relative; }
         .modal-overlay.active .modal-content { transform: scale(1) translateY(0); }
         
@@ -92,7 +90,6 @@
         
         .load-more-container { text-align: center; margin: 50px 0; }
         .load-more-btn { background: var(--card-bg); border: 1px solid var(--border-color); padding: 14px 40px; border-radius: 25px; cursor: pointer; color: var(--text-color); font-size: 0.95rem; font-weight: 600; box-shadow: var(--shadow); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
-        .load-more-btn:hover { transform: scale(1.02); }
 
         .toast { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%) translateY(100px); background: rgba(0,0,0,0.8); color: #fff; padding: 12px 24px; border-radius: 14px; font-size: 0.9rem; font-weight: 500; z-index: 2000; opacity: 0; transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
         [data-theme="dark"] .toast { background: rgba(255,255,255,0.9); color: #000; }
@@ -124,7 +121,7 @@
         <div class="load-more-container"><button class="load-more-btn" id="loadMoreBtn">显示更多</button></div>
     </main>
 
-    <!-- 苹果风详情模态弹窗 -->
+    <!-- 苹果风全屏模态详情窗 -->
     <div class="modal-overlay" id="detailModal">
         <div class="modal-content">
             <button class="modal-close" id="modalClose">✕</button>
@@ -136,7 +133,6 @@
 
     <div class="toast" id="toast">复制成功！</div>
     <footer>Copyright@NPC2026</footer>
-
 
 
 
@@ -174,7 +170,7 @@
             navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => showToast("复制失败"));
         }
 
-        // 📥 文件打包异步下载
+        // 📥 文件直接流式下载
         function downloadIcon(name, format, code) {
             const blob = format === 'svg' 
                 ? new Blob([code], { type: 'image/svg+xml' })
@@ -215,23 +211,24 @@
 
             visibleIcons.forEach(icon => {
                 const card = document.createElement('div');
-                card.className = 'icon-card';
                 
-                // 智能色值处理
+                // 🌟 判断格式，如果非SVG（即PNG）则追加清除高宽与无颜色标注的专用类名
                 if (icon.format === 'svg') {
+                    card.className = 'icon-card';
                     card.style.color = icon.color;
                 } else {
+                    card.className = 'icon-card no-color-card';
                     card.style.color = 'var(--text-color)';
                 }
                 
-                // PNG 彻底不展示虚假色值，直接展现为原图色
+                // 🌟 核心判断：如果是 SVG 则生成对应的颜色值模块；如果是 PNG 则留空（完全隐藏）
                 const colorDisplay = icon.format === 'svg' 
-                    ? `<div class="icon-color" title="点击复制颜色值">${icon.color}</div>`
-                    : `<div class="icon-color" style="cursor:default; opacity:0.5;" title="PNG自带色彩">IMAGE</div>`;
+                    ? `<div class="icon-color" title="点击复制颜色值">${icon.color}</div>` 
+                    : ''; // 👈 空白字符串，直接在 DOM 树中剔除该元素
 
                 card.innerHTML = `
                     <span class="format-badge">${icon.format}</span>
-                    <div class="icon-wrapper" title="点击复制源码">${icon.code}</div>
+                    <div class="icon-wrapper" title="点击复制">${icon.code}</div>
                     <div class="icon-name" style="color:var(--text-color);">${icon.name}</div>
                     ${colorDisplay}
                     <div class="card-actions">
@@ -256,7 +253,7 @@
                     });
                 }
 
-                // 🔍 放大镜弹窗（弹性过渡）
+                // 🔍 弹性模态详情触发
                 card.querySelector('.view-btn').addEventListener('click', () => {
                     modalPreview.innerHTML = icon.code;
                     modalPreview.style.color = icon.color;
@@ -265,7 +262,7 @@
                     detailModal.classList.add('active');
                 });
 
-                // 📥 独立触发下载
+                // 📥 下载触发
                 card.querySelector('.down-btn').addEventListener('click', () => {
                     downloadIcon(icon.name, icon.format, icon.code);
                 });
@@ -294,4 +291,5 @@
     </script>
 </body>
 </html>
+
 
