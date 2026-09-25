@@ -3,50 +3,54 @@ const path = require('path');
 
 const iconsDir = path.join(__dirname, 'icons');
 const templatePath = path.join(__dirname, 'index.html');
+const configPath = path.join(__dirname, 'config.json');
 
-if (!fs.existsSync(iconsDir)) {
-    console.error("❌ 找不到 icons 文件夹！");
+// 1. 验证配置文件是否存在
+if (!fs.existsSync(configPath)) {
+    console.error("❌ 找不到清单配置文件 config.json！请先创建它。");
     process.exit(1);
 }
 
-// 1. 同时读取 icons 文件夹下的 .svg 和 .png 文件
-const files = fs.readdirSync(iconsDir).filter(file => file.endsWith('.svg') || file.endsWith('.png'));
+// 读取你手动配置的图标清单
+const iconConfig = JSON.parse(fs.readFileSync(configPath, 'utf8'));
 const iconList = [];
 
-// 随机颜色池
-const colorPalette = ['#0d6efd', '#198754', '#dc3545', '#ffc107', '#6f42c1', '#fd7e14', '#20c997', '#0dcaf0'];
+iconConfig.forEach((icon) => {
+    const filename = `${icon.name}.${icon.format}`;
+    const filePath = path.join(iconsDir, filename);
 
-files.forEach((file, index) => {
-    const filePath = path.join(iconsDir, file);
-    const ext = path.extname(file).toLowerCase();
-    const name = path.basename(file, ext);
-    const color = colorPalette[index % colorPalette.length];
+    // 检查对应的图标文件是否存在
+    if (!fs.existsSync(filePath)) {
+        console.warn(`⚠️ 警告: 清单中配置了 ${filename}，但 icons 文件夹中找不到该文件，已跳过。`);
+        return;
+    }
 
-    if (ext === '.svg') {
-        // 处理 SVG 文件：读取纯文本代码并压缩
+    if (icon.format === 'svg') {
         let content = fs.readFileSync(filePath, 'utf8');
+        // 压缩并清理换行
         content = content.replace(/[\r\n]/g, '').replace(/>\s+</g, '><').trim();
+        
         iconList.push({
-            name: name,
-            color: color,
+            name: icon.name,
+            color: icon.color || '#4a4a4a', // 如果清单没写颜色，给默认深灰
             format: 'svg',
             code: content
         });
-    } else if (ext === '.png') {
-        // 处理 PNG 文件：将其转化为 Base64 文本编码
+    } else if (icon.format === 'png') {
         const bitmap = fs.readFileSync(filePath);
         const base64Str = Buffer.from(bitmap).toString('base64');
         const imgTag = `<img src="data:image/png;base64,${base64Str}" style="width:100%;height:100%;object-fit:contain;" />`;
+        
         iconList.push({
-            name: name,
-            color: color,
+            name: icon.name,
+            color: icon.color || '#8e8e93',
             format: 'png',
-            code: imgTag  // 网页端直接使用这个标签渲染
+            code: imgTag
         });
     }
 });
 
-console.log(`📦 成功解析了 ${iconList.length} 个图标！`);
+console.log(`📦 成功根据清单解析了 ${iconList.length} 个图标！`);
 
 // 2. 将数据注入到 index.html 中
 if (!fs.existsSync(templatePath)) {
