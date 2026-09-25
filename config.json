@@ -1,0 +1,17 @@
+[
+  {
+    "name": "test",
+    "color": "#FF5722",
+    "format": "svg"
+  },
+  {
+    "name": "amd",
+    "color": "#198754",
+    "format": "svg"
+  },
+  {
+    "name": "my_logo",
+    "color": "#ffffff",
+    "format": "svg"
+  }
+]
