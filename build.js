@@ -4,34 +4,46 @@ const path = require('path');
 const iconsDir = path.join(__dirname, 'icons');
 const templatePath = path.join(__dirname, 'index.html');
 
-// 1. 读取 icons 文件夹下的所有 svg 文件
 if (!fs.existsSync(iconsDir)) {
     console.error("❌ 找不到 icons 文件夹！");
     process.exit(1);
 }
 
-const files = fs.readdirSync(iconsDir).filter(file => file.endsWith('.svg'));
+// 1. 同时读取 icons 文件夹下的 .svg 和 .png 文件
+const files = fs.readdirSync(iconsDir).filter(file => file.endsWith('.svg') || file.endsWith('.png'));
 const iconList = [];
 
-// 随机颜色池，当你的 SVG 没有自带颜色时，网页渲染会随机分配一个好看的颜色
+// 随机颜色池
 const colorPalette = ['#0d6efd', '#198754', '#dc3545', '#ffc107', '#6f42c1', '#fd7e14', '#20c997', '#0dcaf0'];
 
 files.forEach((file, index) => {
     const filePath = path.join(iconsDir, file);
-    let content = fs.readFileSync(filePath, 'utf8');
-    
-    // 清理换行和多余空格，压缩 SVG 代码
-    content = content.replace(/[\r\n]/g, '').replace(/>\s+</g, '><').trim();
-    
-    const name = path.basename(file, '.svg');
+    const ext = path.extname(file).toLowerCase();
+    const name = path.basename(file, ext);
     const color = colorPalette[index % colorPalette.length];
 
-    iconList.push({
-        name: name,
-        color: color,
-        format: 'svg',
-        code: content
-    });
+    if (ext === '.svg') {
+        // 处理 SVG 文件：读取纯文本代码并压缩
+        let content = fs.readFileSync(filePath, 'utf8');
+        content = content.replace(/[\r\n]/g, '').replace(/>\s+</g, '><').trim();
+        iconList.push({
+            name: name,
+            color: color,
+            format: 'svg',
+            code: content
+        });
+    } else if (ext === '.png') {
+        // 处理 PNG 文件：将其转化为 Base64 文本编码
+        const bitmap = fs.readFileSync(filePath);
+        const base64Str = Buffer.from(bitmap).toString('base64');
+        const imgTag = `<img src="data:image/png;base64,${base64Str}" style="width:100%;height:100%;object-fit:contain;" />`;
+        iconList.push({
+            name: name,
+            color: color,
+            format: 'png',
+            code: imgTag  // 网页端直接使用这个标签渲染
+        });
+    }
 });
 
 console.log(`📦 成功解析了 ${iconList.length} 个图标！`);
@@ -43,8 +55,6 @@ if (!fs.existsSync(templatePath)) {
 }
 
 let htmlContent = fs.readFileSync(templatePath, 'utf8');
-
-// 用正则匹配并替换代码中的占位符 /*[[BUILD_INSERT_ICONS]]*/
 const jsonString = JSON.stringify(iconList, null, 2);
 htmlContent = htmlContent.replace(/\/\*\[\[BUILD_INSERT_ICONS\]\]\*\/[\s\S]*?\/\*\[\[BUILD_INSERT_END\]\]\*\//, `/*[[BUILD_INSERT_ICONS]]*/\nconst MOCK_ICONS = ${jsonString};\n/*[[BUILD_INSERT_END]]*/`);
 
