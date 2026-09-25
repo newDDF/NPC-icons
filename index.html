@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPC-icons 图标库</title>
+    <style>
+        :root[data-theme="light"] {
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-color: #212529;
+            --text-muted: #6c757d;
+            --border-color: #dee2e6;
+            --accent-color: #0d6efd;
+            --shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        :root[data-theme="dark"] {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-color: #f8f9fa;
+            --text-muted: #a0a0a0;
+            --border-color: #333333;
+            --accent-color: #3985ff;
+            --shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; transition: background-color 0.2s, color 0.2s; }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background-color: var(--bg-color); color: var(--text-color); padding-bottom: 60px; }
+        header { text-align: center; padding: 40px 20px 20px 20px; font-size: 2.5rem; font-weight: bold; letter-spacing: 1px; }
+        .toolbar { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; gap: 15px; align-items: center; position: relative; }
+        .sidebar-toggle { background: var(--card-bg); border: 1px solid var(--border-color); padding: 10px 15px; border-radius: 8px; cursor: pointer; color: var(--text-color); font-weight: bold; }
+        .sidebar { position: absolute; top: 50px; left: 20px; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 15px; display: none; flex-direction: column; gap: 15px; z-index: 100; box-shadow: var(--shadow); min-width: 200px; }
+        .sidebar.active { display: flex; }
+        .menu-item { display: flex; flex-direction: column; gap: 5px; font-size: 0.9rem; }
+        .menu-item select, .menu-item button { padding: 6px; border-radius: 4px; border: 1px solid var(--border-color); background: var(--bg-color); color: var(--text-color); cursor: pointer; }
+        .search-box { flex: 1; position: relative; }
+        .search-box input { width: 100%; padding: 12px 20px; border-radius: 8px; border: 1px solid var(--border-color); background: var(--card-bg); color: var(--text-color); font-size: 1rem; outline: none; }
+        .search-box input:focus { border-color: var(--accent-color); }
+        .main-container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+        .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px; }
+        .icon-grid.dense { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 12px; }
+        .icon-grid.dense .icon-card { padding: 12px; }
+        .icon-grid.dense .icon-wrapper svg { width: 36px; height: 36px; }
+        .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; align-items: center; gap: 12px; box-shadow: var(--shadow); position: relative; }
+        .icon-wrapper { width: 100%; display: flex; justify-content: center; align-items: center; cursor: pointer; padding: 10px; border-radius: 8px; }
+        .icon-wrapper:hover { background: var(--bg-color); }
+        .icon-wrapper svg { width: 48px; height: 48px; fill: currentColor; }
+        .icon-name { font-weight: 500; font-size: 0.95rem; text-align: center; word-break: break-all; }
+        .icon-color { font-size: 0.8rem; color: var(--text-muted); cursor: pointer; padding: 2px 6px; border-radius: 4px; background: var(--bg-color); }
+        .icon-color:hover { color: var(--accent-color); }
+        .load-more-container { text-align: center; margin: 40px 0; }
+        .load-more-btn { background: var(--card-bg); border: 1px solid var(--border-color); padding: 12px 30px; border-radius: 25px; cursor: pointer; color: var(--text-color); font-size: 1rem; font-weight: 500; box-shadow: var(--shadow); }
+        .load-more-btn:hover { border-color: var(--accent-color); color: var(--accent-color); }
+        .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%) translateY(100px); background: #333; color: #fff; padding: 10px 20px; border-radius: 20px; font-size: 0.9rem; z-index: 1000; opacity: 0; transition: transform 0.3s, opacity 0.3s; pointer-events: none; }
+        .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+        footer { text-align: center; padding: 30px 20px; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid var(--border-color); margin-top: 50px; }
+    </style>
+</head>
+
+<body>
+    <header>NPC-icons</header>
+
+    <div class="toolbar">
+        <button class="sidebar-toggle" id="toggleMenu">☰ 功能</button>
+        <div class="sidebar" id="sidebarMenu">
+            <div class="menu-item">
+                <label>1. 图标排序</label>
+                <select id="sortSelect">
+                    <option value="asc">名称升序 (A-Z)</option>
+                    <option value="desc">名称降序 (Z-A)</option>
+                </select>
+            </div>
+            <div class="menu-item">
+                <label>2. 主题模式</label>
+                <button id="themeBtn">切换到黑夜模式</button>
+            </div>
+            <div class="menu-item">
+                <label>3. 格式筛选</label>
+                <select id="formatSelect">
+                    <option value="all">全部格式 (SVG/PNG)</option>
+                    <option value="svg">仅 SVG</option>
+                    <option value="png">仅 PNG</option>
+                </select>
+            </div>
+            <div class="menu-item">
+                <label>4. 显示密度</label>
+                <select id="densitySelect">
+                    <option value="normal">舒适</option>
+                    <option value="dense">紧凑</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="搜索图标...">
+        </div>
+    </div>
+
+    <main class="main-container">
+        <div class="icon-grid" id="iconGrid"></div>
+        <div class="load-more-container">
+            <button class="load-more-btn" id="loadMoreBtn">显示更多</button>
+        </div>
+    </main>
+
+    <div class="toast" id="toast">复制成功！</div>
+    <footer>Copyright@NPC2026</footer>
+
+    <script>
+        // 👇 自动化脚本会自动重写此区域的数据，请勿删除或修改两行占位符注释
+        /*[[BUILD_INSERT_ICONS]]*/
+        const MOCK_ICONS = [];
+        /*[[BUILD_INSERT_END]]*/
+
+        let displayLimit = 12;
+        const iconGrid = document.getElementById('iconGrid');
+        const sidebarMenu = document.getElementById('sidebarMenu');
+        const toggleMenuBtn = document.getElementById('toggleMenu');
+        const toast = document.getElementById('toast');
+        const themeBtn = document.getElementById('themeBtn');
+        const searchInput = document.getElementById('searchInput');
+        const sortSelect = document.getElementById('sortSelect');
+        const formatSelect = document.getElementById('formatSelect');
+        const densitySelect = document.getElementById('densitySelect');
+        const loadMoreBtn = document.getElementById('loadMoreBtn');
+
+        function showToast(message) {
+            toast.innerText = message;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 2000);
+        }
+
+        function copyToClipboard(text, message) {
+            navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => showToast("复制失败"));
+        }
+
+        function renderGrid() {
+            iconGrid.innerHTML = '';
+            let filtered = MOCK_ICONS.filter(icon => {
+                const matchesSearch = icon.name.toLowerCase().includes(searchInput.value.toLowerCase());
+                const matchesFormat = formatSelect.value === 'all' || icon.format === formatSelect.value;
+                return matchesSearch && matchesFormat;
+            });
+
+            filtered.sort((a, b) => sortSelect.value === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name));
+            
+            const visibleIcons = filtered.slice(0, displayLimit);
+            loadMoreBtn.style.display = visibleIcons.length >= filtered.length ? 'none' : 'inline-block';
+
+            if (visibleIcons.length === 0) {
+                iconGrid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; color: var(--text-muted); padding: 40px;">暂无匹配的图标</div>`;
+                return;
+            }
+
+            visibleIcons.forEach(icon => {
+                const card = document.createElement('div');
+                card.className = 'icon-card';
+                card.style.color = icon.color;
+                card.innerHTML = `
+                    <div class="icon-wrapper" title="点击复制SVG代码">${icon.code}</div>
+                    <div class="icon-name" style="color: var(--text-color);">${icon.name}</div>
+                    <div class="icon-color" title="点击复制颜色值">${icon.color}</div>
+                `;
+                card.querySelector('.icon-wrapper').addEventListener('click', () => copyToClipboard(icon.code, `成功复制图标: ${icon.name}`));
+                card.querySelector('.icon-color').addEventListener('click', (e) => { e.stopPropagation(); copyToClipboard(icon.color, `成功复制颜色值: ${icon.color}`); });
+                iconGrid.appendChild(card);
+            });
+        }
+
+        toggleMenuBtn.addEventListener('click', () => sidebarMenu.classList.toggle('active'));
+        document.addEventListener('click', (e) => { if(!sidebarMenu.contains(e.target) && e.target !== toggleMenuBtn) sidebarMenu.classList.remove('active'); });
+        searchInput.addEventListener('input', () => { displayLimit = 12; renderGrid(); });
+        sortSelect.addEventListener('change', renderGrid);
+        formatSelect.addEventListener('change', () => { displayLimit = 12; renderGrid(); });
+        themeBtn.addEventListener('click', () => {
+            const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+            document.documentElement.setAttribute('data-theme', isLight ? 'dark' : 'light');
+            themeBtn.innerText = isLight ? "切换到白天模式" : "切换到黑夜模式";
+        });
+        densitySelect.addEventListener('change', () => densitySelect.value === 'dense' ? iconGrid.classList.add('dense') : iconGrid.classList.remove('dense'));
+        loadMoreBtn.addEventListener('click', () => { displayLimit += 12; renderGrid(); });
+
+        renderGrid();
+    </script>
+</body>
+</html>
