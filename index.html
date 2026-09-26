@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NPC-icons 图标库</title>
+    <!-- 🌟 浏览器标签栏图标动态注入锚点 -->
+    <link id="favicon" rel="icon" href="">
     <style>
         :root[data-theme="light"] {
             --bg-color: #f2f2f7;
@@ -28,77 +30,92 @@
 
         * { box-sizing: border-box; margin: 0; padding: 0; transition: background-color 0.3s, color 0.3s, border-color 0.3s; }
         body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; background-color: var(--bg-color); color: var(--text-color); padding-bottom: 60px; -webkit-font-smoothing: antialiased; }
-        header { text-align: center; padding: 50px 20px 20px 20px; font-size: 2.8rem; font-weight: 700; letter-spacing: -0.5px; }
-
-        .toolbar { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; gap: 15px; align-items: center; position: relative; }
-        .sidebar-toggle { background: var(--card-bg); border: 1px solid var(--border-color); padding: 12px 18px; border-radius: 12px; cursor: pointer; color: var(--text-color); font-weight: 600; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); }
         
-        .sidebar { position: absolute; top: 55px; left: 20px; background: var(--blur-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 18px; display: none; flex-direction: column; gap: 15px; z-index: 100; box-shadow: var(--shadow); min-width: 220px; backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); }
+        /* 🌟 重新设计的 Apple 风双端对齐 Header */
+        .brand-header { max-width: 1200px; margin: 0 auto; padding: 40px 20px 20px 20px; display: flex; justify-content: space-between; align-items: center; }
+        .header-left { display: flex; align-items: center; gap: 14px; }
+        .header-logo-container { width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: var(--text-color); }
+        .header-logo-container svg, .header-logo-container img { width: 100%; height: 100%; object-fit: contain; }
+        .header-titles { display: flex; flex-direction: column; }
+        .header-titles h1 { font-size: 1.8rem; font-weight: 700; letter-spacing: -0.5px; line-height: 1.2; }
+        .header-counter { font-size: 0.8rem; color: var(--text-muted); font-weight: 500; margin-top: 2px; }
+        
+        .header-right { display: flex; gap: 16px; align-items: center; }
+        .nav-icon-link { color: var(--text-color); opacity: 0.7; transition: opacity 0.2s, transform 0.2s; display: flex; align-items: center; justify-content: center; }
+        .nav-icon-link:hover { opacity: 1; transform: scale(1.05); }
+        .nav-icon-link svg { width: 24px; height: 24px; fill: currentColor; }
+
+        /* 工具栏纯图标化设计 */
+        .toolbar { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; gap: 12px; align-items: center; position: relative; }
+        .sidebar-toggle { background: var(--card-bg); border: 1px solid var(--border-color); width: 46px; height: 46px; border-radius: 12px; cursor: pointer; color: var(--text-color); display: flex; align-items: center; justify-content: center; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); }
+        .sidebar-toggle svg { width: 20px; height: 20px; fill: currentColor; }
+        
+        .sidebar { position: absolute; top: 52px; left: 20px; background: var(--blur-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 18px; display: none; flex-direction: column; gap: 15px; z-index: 100; box-shadow: var(--shadow); min-width: 220px; backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); }
         .sidebar.active { display: flex; }
         .menu-item { display: flex; flex-direction: column; gap: 6px; font-size: 0.85rem; font-weight: 500; }
         .menu-item select, .menu-item button { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(255,255,255,0.1); color: var(--text-color); cursor: pointer; font-size: 0.85rem; }
 
+        /* 英文提示搜索框 */
         .search-box { flex: 1; }
-        .search-box input { width: 100%; padding: 14px 20px; border-radius: 14px; border: 1px solid var(--border-color); background: var(--card-bg); color: var(--text-color); font-size: 1rem; outline: none; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); }
+        .search-box input { width: 100%; padding: 12px 20px; height: 46px; border-radius: 12px; border: 1px solid var(--border-color); background: var(--card-bg); color: var(--text-color); font-size: 0.95rem; outline: none; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); }
         .search-box input:focus { border-color: var(--accent-color); }
 
         .main-container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
         
-        /* 默认网格与紧凑网格布局控制 */
-        .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 24px; align-items: start; }
+        /* 🌟 严格对齐控制线：解决高矮不一的情况 */
+        .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 24px; align-items: stretch; }
         .icon-grid.dense { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 14px; }
-        .icon-grid.dense .icon-card { padding: 16px 12px; border-radius: 14px; }
-        .icon-grid.dense .icon-wrapper { width: 64px; height: 64px; }
-        .icon-grid.dense .card-actions { margin-top: 4px; gap: 8px; }
-
-        /* 苹果风卡片容器 */
-        .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 24px 20px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 190px; box-shadow: var(--shadow); position: relative; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s; }
+        
+        .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 22px 16px 16px 16px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 220px; box-shadow: var(--shadow); position: relative; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s; }
         .icon-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
         
-        /* 高度自适应修正（针对没有颜色值的PNG卡片） */
-        .icon-card.no-color-card { min-height: 165px; }
-        .icon-grid.dense .icon-card.no-color-card { min-height: 135px; }
+        /* 🌟 无颜色状态下强制等高线对齐，防止PNG卡片突兀缩短 */
+        .icon-card.no-color-card { min-height: 220px; }
+        .icon-grid.dense .icon-card { min-height: 180px; padding: 14px 10px; }
+        .icon-grid.dense .icon-card.no-color-card { min-height: 180px; }
 
         .format-badge { position: absolute; top: 10px; right: 12px; font-size: 0.65rem; opacity: 0.4; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
         
-        /* 图标1/2比例限制 */
-        .icon-wrapper { width: 80px; height: 80px; display: flex; justify-content: center; align-items: center; cursor: pointer; border-radius: 14px; transition: background-color 0.2s; }
-        .icon-wrapper:hover { background: rgba(0, 0, 0, 0.05); }
-        [data-theme="dark"] .icon-wrapper:hover { background: rgba(255, 255, 255, 0.08); }
-        .icon-wrapper svg, .icon-wrapper img { width: 100%; height: 100%; fill: currentColor; }
+        /* 1/2 黄金尺寸缩放 */
+        .icon-wrapper { width: 80px; height: 80px; display: flex; justify-content: center; align-items: center; cursor: pointer; border-radius: 14px; }
+        .icon-grid.dense .icon-wrapper { width: 64px; height: 64px; }
+        .icon-wrapper svg, .icon-wrapper img { width: 100%; height: 100%; object-fit: contain; }
         
-        .icon-name { font-weight: 600; font-size: 0.95rem; text-align: center; word-break: break-all; margin-top: 4px; }
-        .icon-color { font-size: 0.75rem; color: var(--text-muted); cursor: pointer; padding: 3px 8px; border-radius: 6px; background: rgba(0,0,0,0.03); font-family: monospace; margin: 2px 0; }
+        /* 🌟 文字过长保护，多余部分打点，确保不对齐现象不再发生 */
+        .icon-name { font-weight: 600; font-size: 0.95rem; text-align: center; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 6px; }
+        .icon-color { font-size: 0.72rem; color: var(--text-muted); cursor: pointer; padding: 2px 8px; border-radius: 6px; background: rgba(0,0,0,0.03); font-family: monospace; }
         [data-theme="dark"] .icon-color { background: rgba(255,255,255,0.05); }
-        .icon-color:hover { color: var(--accent-color); }
 
         .card-actions { display: flex; gap: 14px; width: 100%; justify-content: center; margin-top: 8px; border-top: 1px solid var(--border-color); padding-top: 10px; }
-        .action-btn { background: none; border: none; cursor: pointer; color: var(--text-muted); display: flex; align-items: center; justify-content: center; padding: 6px; border-radius: 8px; transition: color 0.2s, background-color 0.2s; }
+        .action-btn { background: none; border: none; cursor: pointer; color: var(--text-muted); display: flex; align-items: center; justify-content: center; padding: 6px; border-radius: 8px; }
         .action-btn:hover { color: var(--accent-color); background: rgba(0, 74, 255, 0.08); }
         .action-btn svg { width: 18px; height: 18px; fill: currentColor; }
 
-        /* 全屏放大镜模态弹窗 */
+        /* 全屏详情窗与可点击 Source 超链接样式 */
         .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 1000; display: flex; justify-content: center; align-items: center; opacity: 0; pointer-events: none; transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); }
         .modal-overlay.active { opacity: 1; pointer-events: auto; }
-        .modal-content { background: var(--blur-bg); border: 1px solid var(--border-color); width: 90%; max-width: 420px; border-radius: 28px; padding: 30px; box-shadow: 0 20px 50px rgba(0,0,0,0.2); transform: scale(0.85) translateY(20px); transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); display: flex; flex-direction: column; align-items: center; gap: 20px; position: relative; }
+        .modal-content { background: var(--blur-bg); border: 1px solid var(--border-color); width: 90%; max-width: 420px; border-radius: 28px; padding: 35px 30px; box-shadow: 0 20px 50px rgba(0,0,0,0.2); transform: scale(0.85) translateY(20px); transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); display: flex; flex-direction: column; align-items: center; gap: 16px; position: relative; }
         .modal-overlay.active .modal-content { transform: scale(1) translateY(0); }
         
         .modal-close { position: absolute; top: 16px; right: 16px; background: rgba(0,0,0,0.05); border: none; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; color: var(--text-color); font-weight: bold; display: flex; align-items: center; justify-content: center; }
-        [data-theme="dark"] .modal-close { background: rgba(255,255,255,0.1); }
         .modal-preview { width: 120px; height: 120px; display: flex; align-items: center; justify-content: center; }
-        .modal-preview svg, .modal-preview img { width: 100%; height: 100%; fill: currentColor; }
+        .modal-preview svg, .modal-preview img { width: 100%; height: 100%; }
         
+        .modal-source-link { color: var(--accent-color); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; }
+        .modal-source-link:hover { text-decoration: underline; }
+
         .load-more-container { text-align: center; margin: 50px 0; }
         .load-more-btn { background: var(--card-bg); border: 1px solid var(--border-color); padding: 14px 40px; border-radius: 25px; cursor: pointer; color: var(--text-color); font-size: 0.95rem; font-weight: 600; box-shadow: var(--shadow); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
 
         .toast { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%) translateY(100px); background: rgba(0,0,0,0.8); color: #fff; padding: 12px 24px; border-radius: 14px; font-size: 0.9rem; font-weight: 500; z-index: 2000; opacity: 0; transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-        [data-theme="dark"] .toast { background: rgba(255,255,255,0.9); color: #000; }
         .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
-        
         footer { text-align: center; padding: 40px 20px; color: var(--text-muted); font-size: 0.85rem; font-weight: 500; border-top: 1px solid var(--border-color); margin-top: 60px; }
     </style>
 </head>
 
+
+
+    
 
 
 <body>
@@ -126,20 +143,80 @@
         <div class="modal-content">
             <button class="modal-close" id="modalClose">✕</button>
             <div class="modal-preview" id="modalPreview"></div>
-            <h3 id="modalName" style="font-size: 1.3rem; font-weight: 700;"></h3>
-            <p id="modalInfo" style="font-size: 0.9rem; color: var(--text-muted); text-align: center; line-height: 1.5;"></p>
+            <h3 id="modalName" style="font-<body>
+
+    <!-- 🌟 全新设计的 Apple 风双端对齐 Header 区域 -->
+    <div class="brand-header">
+        <div class="header-left">
+            <div class="header-logo-container">
+                <!-- 自动化构建脚本会自动在此位置注入 my_logo 原始资产 -->
+                /*[[LOGO_CODE_INSERT]]*/
+            </div>
+            <div class="header-titles">
+                <h1>NPC-icons</h1>
+                <!-- 🌟 智能英文小字统计栏 -->
+                <div class="header-counter">
+                    SVG: <span id="svg-total">0</span> | PNG: <span id="png-total">0</span>
+                </div>
+            </div>
+        </div>
+        <div class="header-right">
+            <!-- ⚖️ 天平免责声明外链 -->
+            <a class="nav-icon-link" href="https://github.com" target="_blank" title="Disclaimer">
+                <svg viewBox="0 0 24 24"><path d="M12 2a1 1 0 0 1 .993 .883L13 3v1.166l6.305 2.101a1 1 0 0 1 .684 .867L20 9.25v2.5a5.5 5.5 0 0 1-5.26 5.493l-.24.007H13v3.25h2.5a1 1 0 0 1 .117 1.993L15.5 23h-7a1 1 0 0 1-.117-1.993L8.5 21H11v-3.25H9.5a5.5 5.5 0 0 1-5.493-5.26L4 11.75v-2.5a1 1 0 0 1 .61-.924l.095-.034L11 4.167V3a1 1 0 0 1 .883-.993L12 2zm2.5 11.5h-5a3.5 3.5 0 0 0-3.493 3.25l-.007.25h12a3.5 3.5 0 0 0-3.493-3.25l-.007-.25zm-2.5-6.843l-4.5 1.5v2.593a3.502 3.502 0 0 0 4.5 3.356V6.657zm4.5 1.5l-4.5-1.5v7.45a3.502 3.502 0 0 0 4.5-3.356V8.157z"/></svg>
+            </a>
+            <!-- 🐱 GitHub 猫爪源码仓外链 -->
+            <a class="nav-icon-link" href="https://github.com" target="_blank" title="GitHub Repository">
+                <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+            </a>
         </div>
     </div>
 
-    <div class="toast" id="toast">复制成功！</div>
+    <!-- 工具栏（精简无字纯图标化） -->
+    <div class="toolbar">
+        <button class="sidebar-toggle" id="toggleMenu" title="Menu Settings">
+            <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
+        <div class="sidebar" id="sidebarMenu">
+            <div class="menu-item"><label>Sort Order</label><select id="sortSelect"><option value="asc">A-Z (Ascending)</option><option value="desc">Z-A (Descending)</option></select></div>
+            <div class="menu-item"><label>Theme Mode</label><button id="themeBtn">Switch Mode</button></div>
+            <div class="menu-item"><label>Filter Format</label><select id="formatSelect"><option value="all">All Formats</option><option value="svg">Only SVG</option><option value="png">Only PNG</option></select></div>
+            <div class="menu-item"><label>Display Density</label><select id="densitySelect"><option value="normal">Comfortable</option><option value="dense">Compact</option></select></div>
+        </div>
+        <!-- 🌟 纯英文占位符搜索框 -->
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search icons...">
+        </div>
+    </div>
+
+    <!-- 图标主体展示网格 -->
+    <main class="main-container">
+        <div class="icon-grid" id="iconGrid"></div>
+        <div class="load-more-container">
+            <button class="load-more-btn" id="loadMoreBtn">Show More</button>
+        </div>
+    </main>
+
+    <!-- 🌟 全新升级的详情模态大窗：支持富文本详情与超链接 -->
+    <div class="modal-overlay" id="detailModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">✕</button>
+            <div class="modal-preview" id="modalPreview"></div>
+            <h3 id="modalName" style="font-size: 1.4rem; font-weight: 700; margin-top: 5px;"></h3>
+            <p id="modalInfo" style="font-size: 0.95rem; color: var(--text-color); text-align: center; line-height: 1.6; max-width: 340px; word-break: break-word;"></p>
+        </div>
+    </div>
+
+    <div class="toast" id="toast">Copied to clipboard!</div>
     <footer>Copyright@NPC2026</footer>
 
 
 
 
 
-    <script>
-        // 👇 自动化脚本会自动重写此区域的数据，请勿删除或修改两行占位符注释
+
+      <script>
+        // 👇 自动化脚本会自动在此区域动态注入数据，切勿删除占位符注释
         /*[[BUILD_INSERT_ICONS]]*/
 const MOCK_ICONS = [];
 /*[[BUILD_INSERT_END]]*/
@@ -169,10 +246,10 @@ const MOCK_ICONS = [];
         }
 
         function copyToClipboard(text, message) {
-            navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => showToast("复制失败"));
+            navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => showToast("Copy failed"));
         }
 
-        // 📥 文件下载逻辑
+        // 📥 文件直接流式下载底层实现
         function downloadIcon(name, format, code) {
             const blob = format === 'svg' 
                 ? new Blob([code], { type: 'image/svg+xml' })
@@ -192,35 +269,32 @@ const MOCK_ICONS = [];
             a.click();
             document.body.removeChild(a);
             URL.revokeObjectURL(url);
-            showToast(`已开始下载: ${name}.${format}`);
+            showToast(`Download started: ${name}.${format}`);
         }
 
-        // 🔍 核心渲染与全格式搜索修复
+        // 🔍 核心等高渲染及全格式模糊匹配
         function renderGrid() {
             iconGrid.innerHTML = '';
             
-            // 🌟 修复后的过滤逻辑：同时模糊匹配 SVG 和 PNG 的名称，且兼容格式筛选
             let filtered = MOCK_ICONS.filter(icon => {
                 const matchesSearch = icon.name.toLowerCase().includes(searchInput.value.toLowerCase().trim());
                 const matchesFormat = formatSelect.value === 'all' || icon.format === formatSelect.value;
                 return matchesSearch && matchesFormat;
             });
 
-            // 排序
             filtered.sort((a, b) => sortSelect.value === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name));
-            
             const visibleIcons = filtered.slice(0, displayLimit);
             loadMoreBtn.style.display = visibleIcons.length >= filtered.length ? 'none' : 'inline-block';
 
             if (visibleIcons.length === 0) {
-                iconGrid.innerHTML = `<div style="grid-column:1/-1;text-align:center;color:var(--text-muted);padding:40px;">暂无匹配的图标</div>`;
+                iconGrid.innerHTML = `<div style="grid-column:1/-1;text-align:center;color:var(--text-muted);padding:40px;">No matching icons found</div>`;
                 return;
             }
 
             visibleIcons.forEach(icon => {
                 const card = document.createElement('div');
                 
-                // 智能卡片样式划分
+                // 依据格式划分物理布局控制类（解决大小不一错位）
                 if (icon.format === 'svg') {
                     card.className = 'icon-card';
                     card.style.color = icon.color;
@@ -229,50 +303,63 @@ const MOCK_ICONS = [];
                     card.style.color = 'var(--text-color)';
                 }
                 
-                // PNG 格式卡片完全剔除颜色信息栏
+                // 🌟 双轨色彩拦截：若为 PNG 则彻底移出色彩 DOM 组件，不留空隙
                 const colorDisplay = icon.format === 'svg' 
-                    ? `<div class="icon-color" title="点击复制颜色值">${icon.color}</div>` 
+                    ? `<div class="icon-color" title="Click to copy color">${icon.color}</div>` 
                     : '';
 
                 card.innerHTML = `
                     <span class="format-badge">${icon.format}</span>
-                    <div class="icon-wrapper" title="点击复制">${icon.code}</div>
-                    <div class="icon-name" style="color:var(--text-color);">${icon.name}</div>
+                    <div class="icon-wrapper" title="Click to copy asset">${icon.code}</div>
+                    <div class="icon-name" style="color:var(--text-color);" title="${icon.name}">${icon.name}</div>
                     ${colorDisplay}
                     <div class="card-actions">
-                        <button class="action-btn view-btn" title="放大镜查看详情">
+                        <button class="action-btn view-btn" title="Inspect Detail">
                             <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
                         </button>
-                        <button class="action-btn down-btn" title="下载图标">
+                        <button class="action-btn down-btn" title="Download Asset">
                             <svg viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
                         </button>
                     </div>
                 `;
 
-                // 点击图标本体复制
+                // 复制机制绑定
                 card.querySelector('.icon-wrapper').addEventListener('click', () => {
-                    if (icon.format === 'svg') copyToClipboard(icon.code, `已复制 SVG 代码: ${icon.name}`);
-                    else copyToClipboard(icon.name, `已复制图标名称: ${icon.name}`);
+                    if (icon.format === 'svg') copyToClipboard(icon.code, `Copied SVG code of ${icon.name}!`);
+                    else copyToClipboard(icon.name, `Copied icon name: ${icon.name}!`);
                 });
                 
-                // 仅对带有颜色值的 SVG 绑定颜色点击事件
                 if (icon.format === 'svg') {
                     card.querySelector('.icon-color').addEventListener('click', (e) => {
                         e.stopPropagation();
-                        copyToClipboard(icon.color, `已复制颜色值: ${icon.color}`);
+                        copyToClipboard(icon.color, `Copied color value: ${icon.color}!`);
                     });
                 }
 
-                // 🔍 放大镜查看详情事件
+                // 🔍 放大镜高级详情视图渲染（苹果风动画触发）
                 card.querySelector('.view-btn').addEventListener('click', () => {
                     modalPreview.innerHTML = icon.code;
                     modalPreview.style.color = icon.color;
                     modalName.innerText = icon.name;
-                    modalInfo.innerHTML = `格式: <b style="text-transform:uppercase;">${icon.format}</b><br>${icon.format === 'svg' ? '核心色值: <b>' + icon.color + '</b>' : '类型: <b>独立位图资产</b>'}<br><span style="font-size:0.8rem;opacity:0.7;">NPC-icons 专属视觉设计规范</span>`;
+                    
+                    // 🌟 动态转换 Source 链接为可点击的高亮外链
+                    const sourceHtml = icon.source 
+                        ? `<a class="modal-source-link" href="${icon.source}" target="_blank">Official Website <svg style="width:14px;height:14px;fill:currentColor;" viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42L17.59 5H14V3zM5 5h6V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-6h-2v6H5V5z"/></svg></a>` 
+                        : `<span style="color:var(--text-muted);">None</span>`;
+
+                    // 完美填入自定义 info 内容
+                    modalInfo.innerHTML = `
+                        Format: <b style="text-transform:uppercase; color:var(--accent-color);">${icon.format}</b><br>
+                        ${icon.format === 'svg' ? 'Hex Color: <b style="font-family:monospace;">' + icon.color + '</b><br>' : ''}
+                        Source: ${sourceHtml}<br><br>
+                        <div style="text-align:left; background:rgba(0,0,0,0.03); padding:12px; border-radius:12px; font-size:0.88rem; border:1px solid var(--border-color); color:var(--text-muted); font-weight:500;">
+                            ${icon.info}
+                        </div>
+                    `;
                     detailModal.classList.add('active');
                 });
 
-                // 📥 下载事件
+                // 下载机制绑定
                 card.querySelector('.down-btn').addEventListener('click', () => {
                     downloadIcon(icon.name, icon.format, icon.code);
                 });
@@ -281,21 +368,20 @@ const MOCK_ICONS = [];
             });
         }
 
-        // 弹窗与侧边栏控制监听
+        // 弹窗组件及行为配置
         modalClose.addEventListener('click', () => detailModal.classList.remove('active'));
         detailModal.addEventListener('click', (e) => { if (e.target === detailModal) detailModal.classList.remove('active'); });
 
         toggleMenuBtn.addEventListener('click', () => sidebarMenu.classList.toggle('active'));
         document.addEventListener('click', (e) => { if(!sidebarMenu.contains(e.target) && e.target !== toggleMenuBtn) sidebarMenu.classList.remove('active'); });
         
-        // 输入框输入时实时触发全局重新过滤渲染
         searchInput.addEventListener('input', () => { displayLimit = 12; renderGrid(); });
         sortSelect.addEventListener('change', renderGrid);
         formatSelect.addEventListener('change', () => { displayLimit = 12; renderGrid(); });
         themeBtn.addEventListener('click', () => {
             const isLight = document.documentElement.getAttribute('data-theme') === 'light';
             document.documentElement.setAttribute('data-theme', isLight ? 'dark' : 'light');
-            themeBtn.innerText = isLight ? "切换到白天模式" : "切换到黑夜模式";
+            themeBtn.innerText = isLight ? "Light Mode" : "Dark Mode";
         });
         densitySelect.addEventListener('change', () => densitySelect.value === 'dense' ? iconGrid.classList.add('dense') : iconGrid.classList.remove('dense'));
         loadMoreBtn.addEventListener('click', () => { displayLimit += 12; renderGrid(); });
@@ -304,5 +390,3 @@ const MOCK_ICONS = [];
     </script>
 </body>
 </html>
-
-
