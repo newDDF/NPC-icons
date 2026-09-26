@@ -4,9 +4,36 @@ const path = require('path');
 const baseIconsDir = path.join(__dirname, 'icons');
 const templatePath = path.join(__dirname, 'index.html');
 const configPath = path.join(__dirname, 'config.json');
+const preConfigPath = path.join(__dirname, 'pre_config.json'); // 🌟 自动化草稿清单路径
 
+// 确保目录完备
+const svgDir = path.join(baseIconsDir, 'svg');
+const pngDir = path.join(baseIconsDir, 'png');
+
+// --- 🛠️ 核心：自动扫描全目录，生成预配置草稿 pre_config.json ---
+const preConfigList = [];
+
+if (fs.existsSync(svgDir)) {
+    fs.readdirSync(svgDir).filter(f => f.endsWith('.svg')).forEach(file => {
+        const name = path.basename(file, '.svg');
+        preConfigList.push({ name: name, color: "#007aff", format: "svg", source: "", info: "NPC-icons library trademark design asset." });
+    });
+}
+if (fs.existsSync(pngDir)) {
+    fs.readdirSync(pngDir).filter(f => f.endsWith('.png')).forEach(file => {
+        const name = path.basename(file, '.png');
+        preConfigList.push({ name: name, color: "", format: "png", source: "", info: "NPC-icons library bitmapped graphic asset." });
+    });
+}
+
+// 自动写入 pre_config.json（每次构建时覆盖刷新，确保永最新）
+fs.writeFileSync(preConfigPath, JSON.stringify(preConfigList, null, 2), 'utf8');
+console.log(`📝 已自动扫描并更新了预配置草稿清单 pre_config.json (共 ${preConfigList.length} 个文件)`);
+
+
+// --- 🚀 核心：按照正式 config.json 构建网页逻辑 ---
 if (!fs.existsSync(configPath)) {
-    console.error("❌ 找不到清单配置文件 config.json！");
+    console.error("❌ 找不到正式清单配置文件 config.json！请先根据 pre_config.json 创建并配置它。");
     process.exit(1);
 }
 
@@ -16,13 +43,12 @@ let svgCount = 0;
 let pngCount = 0;
 
 iconConfig.forEach((icon) => {
-    // 🌟 根据不同格式，前往对应的 icons/svg/ 或 icons/png/ 细分子目录抓取
     const subFolder = icon.format === 'svg' ? 'svg' : 'png';
     const filename = `${icon.name}.${icon.format}`;
     const filePath = path.join(baseIconsDir, subFolder, filename);
 
     if (!fs.existsSync(filePath)) {
-        console.warn(`⚠️ 找不到文件: ${filePath}，已跳过。`);
+        console.warn(`⚠️ 找不到物理文件: ${filePath}，已跳过。`);
         return;
     }
 
@@ -54,7 +80,6 @@ iconConfig.forEach((icon) => {
     }
 });
 
-// 🌟 寻找 my_logo 资产代码
 const logoAsset = iconList.find(i => i.name === 'my_logo');
 const logoCode = logoAsset ? logoAsset.code : '';
 
@@ -65,15 +90,12 @@ if (!fs.existsSync(templatePath)) {
 
 let htmlContent = fs.readFileSync(templatePath, 'utf8');
 
-// 1. 注入核心 JSON 格式数据
 const jsonString = JSON.stringify(iconList, null, 2);
 htmlContent = htmlContent.replace(/\/\*\[\[BUILD_INSERT_ICONS\]\]\*\/[\s\S]*?\/\*\[\[BUILD_INSERT_END\]\]\*\//, `/*[[BUILD_INSERT_ICONS]]*/\nconst MOCK_ICONS = ${jsonString};\n/*[[BUILD_INSERT_END]]*/`);
 
-// 2. 注入实时 SVG / PNG 英文小字数量统计栏
 htmlContent = htmlContent.replace(/id="svg-total">[^<]*/, `id="svg-total">${svgCount}`);
 htmlContent = htmlContent.replace(/id="png-total">[^<]*/, `id="png-total">${pngCount}`);
 
-// 3. 注入浏览器标签栏 Favicon 与顶部 Header Logo 图标
 if (logoAsset) {
     let faviconUrl = '';
     if (logoAsset.format === 'svg') {
@@ -85,7 +107,6 @@ if (logoAsset) {
     htmlContent = htmlContent.replace(/id="favicon" href="[^"]*"/, `id="favicon" href="${faviconUrl}"`);
     htmlContent = htmlContent.replace(/\/\*\[\[LOGO_CODE_INSERT\]\]\*\//, logoCode);
 } else {
-    // 如果还没放 my_logo，默认塞一个临时发光的占位小圆点，防止前端网页崩塌
     const placeholderLogo = `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="currentColor"/></svg>`;
     htmlContent = htmlContent.replace(/\/\*\[\[LOGO_CODE_INSERT\]\]\*\//, placeholderLogo);
 }
