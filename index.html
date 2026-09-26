@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NPC-icons 图标库</title>
-    <!-- 🌟 浏览器标签栏图标动态注入锚点 -->
+    <!-- 🌟 浏览器标签栏图标动态注入锚点（会自动替换为你的 my_logo） -->
     <link id="favicon" rel="icon" href="">
     <style>
         :root[data-theme="light"] {
@@ -31,7 +31,7 @@
         * { box-sizing: border-box; margin: 0; padding: 0; transition: background-color 0.3s, color 0.3s, border-color 0.3s; }
         body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; background-color: var(--bg-color); color: var(--text-color); padding-bottom: 60px; -webkit-font-smoothing: antialiased; }
         
-        /* 🌟 重新设计的 Apple 风双端对齐 Header */
+        /* 🌟 全新设计的 Apple 风双端对齐 Header */
         .brand-header { max-width: 1200px; margin: 0 auto; padding: 40px 20px 20px 20px; display: flex; justify-content: space-between; align-items: center; }
         .header-left { display: flex; align-items: center; gap: 14px; }
         .header-logo-container { width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: var(--text-color); }
@@ -62,27 +62,29 @@
 
         .main-container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
         
-        /* 🌟 严格对齐控制线：解决高矮不一的情况 */
+        /* 🌟 严格等高控制：彻底解决由于文本长短和PNG没有颜色值产生的错位问题 */
         .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 24px; align-items: stretch; }
         .icon-grid.dense { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 14px; }
         
-        .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 22px 16px 16px 16px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 220px; box-shadow: var(--shadow); position: relative; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s; }
+        /* 使用 Flex 布局垂直平分空间，并限制最小高度 */
+        .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 22px 16px 16px 16px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 225px; box-shadow: var(--shadow); position: relative; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s; }
         .icon-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
         
-        /* 🌟 无颜色状态下强制等高线对齐，防止PNG卡片突兀缩短 */
-        .icon-card.no-color-card { min-height: 220px; }
-        .icon-grid.dense .icon-card { min-height: 180px; padding: 14px 10px; }
-        .icon-grid.dense .icon-card.no-color-card { min-height: 180px; }
+        /* 紧凑模式下的等高线锁定 */
+        .icon-grid.dense .icon-card { min-height: 185px; padding: 14px 10px; }
 
         .format-badge { position: absolute; top: 10px; right: 12px; font-size: 0.65rem; opacity: 0.4; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
         
-        /* 1/2 黄金尺寸缩放 */
+        /* 图标 1/2 尺寸锁定 */
         .icon-wrapper { width: 80px; height: 80px; display: flex; justify-content: center; align-items: center; cursor: pointer; border-radius: 14px; }
         .icon-grid.dense .icon-wrapper { width: 64px; height: 64px; }
         .icon-wrapper svg, .icon-wrapper img { width: 100%; height: 100%; object-fit: contain; }
         
-        /* 🌟 文字过长保护，多余部分打点，确保不对齐现象不再发生 */
+        /* 🌟 超长文本裁剪：防止超长字符拉伸或撑开容器 */
         .icon-name { font-weight: 600; font-size: 0.95rem; text-align: center; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 6px; }
+        
+        /* 颜色标签固定高度，防止 PNG 因没有此项导致排版高度塌陷 */
+        .color-slot-wrapper { height: 22px; display: flex; align-items: center; justify-content: center; width: 100%; }
         .icon-color { font-size: 0.72rem; color: var(--text-muted); cursor: pointer; padding: 2px 8px; border-radius: 6px; background: rgba(0,0,0,0.03); font-family: monospace; }
         [data-theme="dark"] .icon-color { background: rgba(255,255,255,0.05); }
 
@@ -91,7 +93,7 @@
         .action-btn:hover { color: var(--accent-color); background: rgba(0, 74, 255, 0.08); }
         .action-btn svg { width: 18px; height: 18px; fill: currentColor; }
 
-        /* 全屏详情窗与可点击 Source 超链接样式 */
+        /* 全屏放大镜模态弹窗与可点击 Source 样式 */
         .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 1000; display: flex; justify-content: center; align-items: center; opacity: 0; pointer-events: none; transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); }
         .modal-overlay.active { opacity: 1; pointer-events: auto; }
         .modal-content { background: var(--blur-bg); border: 1px solid var(--border-color); width: 90%; max-width: 420px; border-radius: 28px; padding: 35px 30px; box-shadow: 0 20px 50px rgba(0,0,0,0.2); transform: scale(0.85) translateY(20px); transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); display: flex; flex-direction: column; align-items: center; gap: 16px; position: relative; }
@@ -101,6 +103,7 @@
         .modal-preview { width: 120px; height: 120px; display: flex; align-items: center; justify-content: center; }
         .modal-preview svg, .modal-preview img { width: 100%; height: 100%; }
         
+        /* 🌟 Source 链接高亮及新标签页图标 */
         .modal-source-link { color: var(--accent-color); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; }
         .modal-source-link:hover { text-decoration: underline; }
 
@@ -115,46 +118,22 @@
 
 
 
-    
+
+
 
 
 <body>
-
-    <header>NPC-icons</header>
-
-    <div class="toolbar">
-        <button class="sidebar-toggle" id="toggleMenu">☰ 功能</button>
-        <div class="sidebar" id="sidebarMenu">
-            <div class="menu-item"><label>1. 图标排序</label><select id="sortSelect"><option value="asc">名称升序 (A-Z)</option><option value="desc">名称降序 (Z-A)</option></select></div>
-            <div class="menu-item"><label>2. 主题模式</label><button id="themeBtn">切换到黑夜模式</button></div>
-            <div class="menu-item"><label>3. 格式筛选</label><select id="formatSelect"><option value="all">全部格式 (SVG/PNG)</option><option value="svg">仅 SVG</option><option value="png">仅 PNG</option></select></div>
-            <div class="menu-item"><label>4. 显示密度</label><select id="densitySelect"><option value="normal">舒适</option><option value="dense">紧凑</option></select></div>
-        </div>
-        <div class="search-box"><input type="text" id="searchInput" placeholder="搜索图标..."></div>
-    </div>
-
-    <main class="main-container">
-        <div class="icon-grid" id="iconGrid"></div>
-        <div class="load-more-container"><button class="load-more-btn" id="loadMoreBtn">显示更多</button></div>
-    </main>
-
-    <!-- 苹果风全屏模态详情窗 -->
-    <div class="modal-overlay" id="detailModal">
-        <div class="modal-content">
-            <button class="modal-close" id="modalClose">✕</button>
-            <div class="modal-preview" id="modalPreview"></div>
-            <h3 id="modalName" style="font-<body>
 
     <!-- 🌟 全新设计的 Apple 风双端对齐 Header 区域 -->
     <div class="brand-header">
         <div class="header-left">
             <div class="header-logo-container">
-                <!-- 自动化构建脚本会自动在此位置注入 my_logo 原始资产 -->
+                <!-- 👇 自动化构建脚本在打包时，会自动在此位置注入 my_logo 原始资产 -->
                 /*[[LOGO_CODE_INSERT]]*/
             </div>
             <div class="header-titles">
                 <h1>NPC-icons</h1>
-                <!-- 🌟 智能英文小字统计栏 -->
+                <!-- 🌟 智能英文小字统计栏（由脚本在云端动态填入准确数值） -->
                 <div class="header-counter">
                     SVG: <span id="svg-total">0</span> | PNG: <span id="png-total">0</span>
                 </div>
@@ -172,7 +151,7 @@
         </div>
     </div>
 
-    <!-- 工具栏（精简无字纯图标化） -->
+    <!-- 工具栏（精简去字、纯图标化 Apple 设计） -->
     <div class="toolbar">
         <button class="sidebar-toggle" id="toggleMenu" title="Menu Settings">
             <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
@@ -197,7 +176,7 @@
         </div>
     </main>
 
-    <!-- 🌟 全新升级的详情模态大窗：支持富文本详情与超链接 -->
+    <!-- 🌟 全新升级的详情模态大窗：支持富文本自定义详情与超链接点击 -->
     <div class="modal-overlay" id="detailModal">
         <div class="modal-content">
             <button class="modal-close" id="modalClose">✕</button>
@@ -213,10 +192,8 @@
 
 
 
-
-
-      <script>
-        // 👇 自动化脚本会自动在此区域动态注入数据，切勿删除占位符注释
+    <script>
+        // 👇 自动化脚本在构建时会自动重写此区域的数据，请勿删除或修改两行占位符注释
         /*[[BUILD_INSERT_ICONS]]*/
         const MOCK_ICONS = [];
         /*[[BUILD_INSERT_END]]*/
@@ -249,7 +226,7 @@
             navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => showToast("Copy failed"));
         }
 
-        // 📥 文件直接流式下载底层实现
+        // 📥 文件直接流式下载底层实现 (完美支持 SVG 源码与 PNG 二进制 Base64)
         function downloadIcon(name, format, code) {
             const blob = format === 'svg' 
                 ? new Blob([code], { type: 'image/svg+xml' })
@@ -294,7 +271,7 @@
             visibleIcons.forEach(icon => {
                 const card = document.createElement('div');
                 
-                // 依据格式划分物理布局控制类（解决大小不一错位）
+                // 依据格式划分物理布局控制类
                 if (icon.format === 'svg') {
                     card.className = 'icon-card';
                     card.style.color = icon.color;
@@ -303,7 +280,7 @@
                     card.style.color = 'var(--text-color)';
                 }
                 
-                // 🌟 双轨色彩拦截：若为 PNG 则彻底移出色彩 DOM 组件，不留空隙
+                // 🌟 双轨色彩拦截：若为 PNG 则生成全空卡槽，不占用多余垂直像素空间，保证等高
                 const colorDisplay = icon.format === 'svg' 
                     ? `<div class="icon-color" title="Click to copy color">${icon.color}</div>` 
                     : '';
@@ -312,7 +289,7 @@
                     <span class="format-badge">${icon.format}</span>
                     <div class="icon-wrapper" title="Click to copy asset">${icon.code}</div>
                     <div class="icon-name" style="color:var(--text-color);" title="${icon.name}">${icon.name}</div>
-                    ${colorDisplay}
+                    <div class="color-slot-wrapper">${colorDisplay}</div>
                     <div class="card-actions">
                         <button class="action-btn view-btn" title="Inspect Detail">
                             <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
@@ -342,17 +319,17 @@
                     modalPreview.style.color = icon.color;
                     modalName.innerText = icon.name;
                     
-                    // 🌟 动态转换 Source 链接为可点击的高亮外链
+                    // 🌟 动态转换 Source 链接为新标签页打开的可点击超链接
                     const sourceHtml = icon.source 
                         ? `<a class="modal-source-link" href="${icon.source}" target="_blank">Official Website <svg style="width:14px;height:14px;fill:currentColor;" viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42L17.59 5H14V3zM5 5h6V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-6h-2v6H5V5z"/></svg></a>` 
-                        : `<span style="color:var(--text-muted);">None</span>`;
+                        : `<span style="color:var(--text-muted); font-size:0.9rem;">None</span>`;
 
-                    // 完美填入自定义 info 内容
+                    // 替换旧文本，全量展示用户维护的 config.json 内容
                     modalInfo.innerHTML = `
                         Format: <b style="text-transform:uppercase; color:var(--accent-color);">${icon.format}</b><br>
                         ${icon.format === 'svg' ? 'Hex Color: <b style="font-family:monospace;">' + icon.color + '</b><br>' : ''}
                         Source: ${sourceHtml}<br><br>
-                        <div style="text-align:left; background:rgba(0,0,0,0.03); padding:12px; border-radius:12px; font-size:0.88rem; border:1px solid var(--border-color); color:var(--text-muted); font-weight:500;">
+                        <div style="text-align:left; background:rgba(0,0,0,0.03); padding:14px; border-radius:14px; font-size:0.88rem; border:1px solid var(--border-color); color:var(--text-muted); font-weight:500; max-height:120px; overflow-y:auto; line-height:1.5;">
                             ${icon.info}
                         </div>
                     `;
@@ -390,3 +367,5 @@
     </script>
 </body>
 </html>
+
+    
