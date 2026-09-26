@@ -187,8 +187,7 @@
     </div>
 
     <div class="toast" id="toast">Copied to clipboard!</div>
-    <footer>Copyright@NPC2026</footer>
-
+    <footer>Copyright@NPC2026-2027</footer>
 
 
 
@@ -288,13 +287,13 @@ const MOCK_ICONS = [
             navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => showToast("Copy failed"));
         }
 
-        // 📥 文件流式下载
+        // 📥 流式直接下载
         function downloadIcon(name, format, code) {
             const blob = format === 'svg' 
                 ? new Blob([code], { type: 'image/svg+xml' })
                 : (() => {
                     const base64Data = code.match(/base64,([^\"]+)/);
-                    const byteCharacters = atob(base64Data ? base64Data : '');
+                    const byteCharacters = atob(base64Data ? base64Data[1] : '');
                     const byteNumbers = new Array(byteCharacters.length);
                     for (let i = 0; i < byteCharacters.length; i++) byteNumbers[i] = byteCharacters.charCodeAt(i);
                     return new Blob([new Uint8Array(byteNumbers)], { type: 'image/png' });
@@ -311,7 +310,21 @@ const MOCK_ICONS = [
             showToast(`Download started: ${name}.${format}`);
         }
 
-        // 🔍 核心等高渲染及全格式模糊匹配
+        // 🌟 强力上色处理器引擎：直接穿透多层 SVG 形状强行洗色
+        function applySvgColor(svgElement, color) {
+            if (!svgElement || !color) return;
+            svgElement.style.color = color;
+            const allShapes = svgElement.querySelectorAll('path, circle, rect, polygon, ellipse, line, polyline');
+            allShapes.forEach(shape => {
+                if (shape.getAttribute('fill') !== 'none') {
+                    shape.setAttribute('fill', color);
+                }
+                if (shape.hasAttribute('stroke') && shape.getAttribute('stroke') !== 'none') {
+                    shape.setAttribute('stroke', color);
+                }
+            });
+        }
+        // 🔍 核心网格等高渲染
         function renderGrid() {
             iconGrid.innerHTML = '';
             
@@ -332,18 +345,10 @@ const MOCK_ICONS = [
 
             visibleIcons.forEach(icon => {
                 const card = document.createElement('div');
-                let finalCode = icon.code;
                 
-                // 🌟 核心修复：智能着色器引擎
                 if (icon.format === 'svg') {
                     card.className = 'icon-card';
-                    card.style.color = icon.color; // 设置卡片基础文本和线条原色
-                    
-                    // 🔍 用正则表达式强行将 SVG 源码里的 fill 或 stroke 属性替换为你指定的定制颜色
-                    // 如果原本没有 fill/stroke，我们在外层容器使用 currentColor 也能完美染色
-                    finalCode = icon.code
-                        .replace(/fill="([^"]+)"/g, (match, p1) => p1 === 'none' ? 'fill="none"' : `fill="${icon.color}"`)
-                        .replace(/stroke="([^"]+)"/g, (match, p1) => p1 === 'none' ? 'stroke="none"' : `stroke="${icon.color}"`);
+                    card.style.color = icon.color; 
                 } else {
                     card.className = 'icon-card no-color-card';
                     card.style.color = 'var(--text-color)';
@@ -355,7 +360,7 @@ const MOCK_ICONS = [
 
                 card.innerHTML = `
                     <span class="format-badge">${icon.format}</span>
-                    <div class="icon-wrapper" title="Click to copy asset">${finalCode}</div>
+                    <div class="icon-wrapper" title="Click to copy asset">${icon.code}</div>
                     <div class="icon-name" style="color:var(--text-color);" title="${icon.name}">${icon.name}</div>
                     <div class="color-slot-wrapper">${colorDisplay}</div>
                     <div class="card-actions">
@@ -368,9 +373,15 @@ const MOCK_ICONS = [
                     </div>
                 `;
 
-                // 复制机制绑定
+                // 注入后瞬间激活强力变色引擎
+                if (icon.format === 'svg') {
+                    const embeddedSvg = card.querySelector('.icon-wrapper svg');
+                    applySvgColor(embeddedSvg, icon.color);
+                }
+
                 card.querySelector('.icon-wrapper').addEventListener('click', () => {
-                    if (icon.format === 'svg') copyToClipboard(finalCode, `Copied SVG code of ${icon.name}!`);
+                    const currentSvg = card.querySelector('.icon-wrapper').innerHTML;
+                    if (icon.format === 'svg') copyToClipboard(currentSvg, `Copied SVG code!`);
                     else copyToClipboard(icon.name, `Copied icon name: ${icon.name}!`);
                 });
                 
@@ -381,9 +392,10 @@ const MOCK_ICONS = [
                     });
                 }
 
-                // 🔍 放大镜高级详情视图渲染（苹果风动画触发）
+                // 🔍 详情弹窗解析
                 card.querySelector('.view-btn').addEventListener('click', () => {
-                    modalPreview.innerHTML = finalCode;
+                    const currentSvg = card.querySelector('.icon-wrapper').innerHTML;
+                    modalPreview.innerHTML = currentSvg;
                     modalPreview.style.color = icon.color;
                     modalName.innerText = icon.name;
                     
@@ -402,19 +414,24 @@ const MOCK_ICONS = [
                     detailModal.classList.add('active');
                 });
 
-                // 下载机制绑定
                 card.querySelector('.down-btn').addEventListener('click', () => {
-                    downloadIcon(icon.name, icon.format, finalCode);
+                    const currentSvg = card.querySelector('.icon-wrapper').innerHTML;
+                    downloadIcon(icon.name, icon.format, currentSvg);
                 });
 
                 iconGrid.appendChild(card);
             });
+            
+            // Header 的 my_logo 变色同步
+            const headerLogoSvg = document.querySelector('.header-logo-container svg');
+            const logoAsset = MOCK_ICONS.find(i => i.name === 'my_logo');
+            if (headerLogoSvg && logoAsset) {
+                applySvgColor(headerLogoSvg, logoAsset.color || 'var(--text-color)');
+            }
         }
 
-        // 弹窗组件及行为配置
         modalClose.addEventListener('click', () => detailModal.classList.remove('active'));
         detailModal.addEventListener('click', (e) => { if (e.target === detailModal) detailModal.classList.remove('active'); });
-
         toggleMenuBtn.addEventListener('click', () => sidebarMenu.classList.toggle('active'));
         document.addEventListener('click', (e) => { if(!sidebarMenu.contains(e.target) && e.target !== toggleMenuBtn) sidebarMenu.classList.remove('active'); });
         
