@@ -5,7 +5,7 @@ NPC-icons asks that its users read this disclaimer fully before including an ico
 ## Licenses, Copyrights & Trademarks
 
 > [!IMPORTANT]\
-> The addition of licenses to Simple Icons is an ongoing project. Hence, the absence of license data for a particular icon does not imply that the icon is not released under a license.
+> The addition of licenses to NPC-icons is not yet an ongoing project. Addistionary, the absence of license data for a particular icon does not imply that the icon is not released under a license.
 
 <!-- markdownlint-disable-next-line no-blanks-blockquote -->
 
