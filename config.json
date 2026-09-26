@@ -1,17 +1,23 @@
 [
   {
-    "name": "test",
-    "color": "#FF5722",
-    "format": "svg"
-  },
-  {
     "name": "amd",
     "color": "#ed1c24",
-    "format": "svg"
+    "format": "svg",
+    "source": "https://amd.com",
+    "info": "Advanced Micro Devices, Inc. official logo vector asset."
   },
   {
     "name": "my_logo",
     "color": "#000000",
-    "format": "svg"
+    "format": "svg",
+    "source": "https://x0u0x.xyz",
+    "info": "NPC-icons library official trademark branding mark."
+  },
+  {
+    "name": "DAYUAN",
+    "color": "",
+    "format": "png",
+    "source": "https://example.com",
+    "info": "DAYUAN brand production high-resolution asset identity."
   }
 ]
