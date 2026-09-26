@@ -12,22 +12,37 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 🌟 获取完整历史，防止推送冲突
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - name: Install
+      - name: Install dependencies
         run: npm install
 
-      - name: Run Build
+      - name: Run build script
         run: node build.js
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: 🌟 核心修复：自动将 pre_config.json 和注入后的 index.html 提交推回 main 分支
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          # 检查文件是否有发生变化
+          if [ -n "$(git status --porcelain index.html pre_config.json)" ]; then
+            git add index.html pre_config.json
+            git commit -m "chore: auto-update index.html and pre_config.json [skip ci]"
+            git push origin main
+          else
+            echo "No changes detected in index.html or pre_config.json"
+          fi
+
+      - name: Deploy static site to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
