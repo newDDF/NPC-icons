@@ -1,31 +1,17 @@
 [
   {
     "name": "amd",
-    "color": "#007aff",
+    "color": "#ed1c24",
     "format": "svg",
     "source": "",
     "info": "NPC-icons library trademark design asset."
   },
   {
     "name": "my_logo",
-    "color": "#007aff",
+    "color": "#000000",
     "format": "svg",
     "source": "",
     "info": "NPC-icons library trademark design asset."
-  },
-  {
-    "name": "t",
-    "color": "#007aff",
-    "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset."
-  },
-  {
-    "name": "1",
-    "color": "",
-    "format": "png",
-    "source": "",
-    "info": "NPC-icons library bitmapped graphic asset."
   },
   {
     "name": "DAYUAN",
