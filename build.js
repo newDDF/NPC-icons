@@ -16,7 +16,7 @@ let svgCount = 0;
 let pngCount = 0;
 
 iconConfig.forEach((icon) => {
-    // 🌟 根据格式划分前往子目录：icons/svg/ 或 icons/png/
+    // 🌟 根据不同格式，前往对应的 icons/svg/ 或 icons/png/ 细分子目录抓取
     const subFolder = icon.format === 'svg' ? 'svg' : 'png';
     const filename = `${icon.name}.${icon.format}`;
     const filePath = path.join(baseIconsDir, subFolder, filename);
@@ -34,7 +34,7 @@ iconConfig.forEach((icon) => {
             color: icon.color || '#4a4a4a',
             format: 'svg',
             source: icon.source || '',
-            info: icon.info || 'No description available.',
+            info: icon.info || 'NPC-icons 专属视觉设计规范。',
             code: content
         });
         svgCount++;
@@ -44,38 +44,51 @@ iconConfig.forEach((icon) => {
         const imgTag = `<img src="data:image/png;base64,${base64Str}" style="width:100%;height:100%;object-fit:contain;" />`;
         iconList.push({
             name: icon.name,
-            color: icon.color || '#8e8e93',
+            color: 'none',
             format: 'png',
             source: icon.source || '',
-            info: icon.info || 'No description available.',
+            info: icon.info || 'NPC-icons 专属独立位图资产。',
             code: imgTag
         });
         pngCount++;
     }
 });
 
-// 🌟 自动寻找 my_logo 转换出来的 Base64 或源码作为系统 Favicon 标志
+// 🌟 寻找 my_logo 资产代码
 const logoAsset = iconList.find(i => i.name === 'my_logo');
 const logoCode = logoAsset ? logoAsset.code : '';
 
-// 2. 将数据与统计计数一同注入 index.html 中
+if (!fs.existsSync(templatePath)) {
+    console.error("❌ 找不到 index.html 模板文件！");
+    process.exit(1);
+}
+
 let htmlContent = fs.readFileSync(templatePath, 'utf8');
 
-// 注入数据列表
+// 1. 注入核心 JSON 格式数据
 const jsonString = JSON.stringify(iconList, null, 2);
 htmlContent = htmlContent.replace(/\/\*\[\[BUILD_INSERT_ICONS\]\]\*\/[\s\S]*?\/\*\[\[BUILD_INSERT_END\]\]\*\//, `/*[[BUILD_INSERT_ICONS]]*/\nconst MOCK_ICONS = ${jsonString};\n/*[[BUILD_INSERT_END]]*/`);
 
-// 🌟 动态替换页面上的总数统计和标签页图标占位符
+// 2. 注入实时 SVG / PNG 英文小字数量统计栏
 htmlContent = htmlContent.replace(/id="svg-total">[^<]*/, `id="svg-total">${svgCount}`);
 htmlContent = htmlContent.replace(/id="png-total">[^<]*/, `id="png-total">${pngCount}`);
 
+// 3. 注入浏览器标签栏 Favicon 与顶部 Header Logo 图标
 if (logoAsset) {
-    const faviconUrl = logoAsset.format === 'svg' 
-        ? `data:image/svg+xml;utf8,${encodeURIComponent(logoCode)}`
-        : logoCode.match(/src="([^"]+)"/)[1];
+    let faviconUrl = '';
+    if (logoAsset.format === 'svg') {
+        faviconUrl = `data:image/svg+xml;utf8,${encodeURIComponent(logoCode)}`;
+    } else {
+        const matchSrc = logoCode.match(/src="([^"]+)"/);
+        faviconUrl = matchSrc ? matchSrc[1] : '';
+    }
     htmlContent = htmlContent.replace(/id="favicon" href="[^"]*"/, `id="favicon" href="${faviconUrl}"`);
     htmlContent = htmlContent.replace(/\/\*\[\[LOGO_CODE_INSERT\]\]\*\//, logoCode);
+} else {
+    // 如果还没放 my_logo，默认塞一个临时发光的占位小圆点，防止前端网页崩塌
+    const placeholderLogo = `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="currentColor"/></svg>`;
+    htmlContent = htmlContent.replace(/\/\*\[\[LOGO_CODE_INSERT\]\]\*\//, placeholderLogo);
 }
 
 fs.writeFileSync(templatePath, htmlContent, 'utf8');
-console.log(`🚀 成功注入！SVG: ${svgCount} | PNG: ${pngCount}`);
+console.log(`🚀 数据打包注入成功！当前统计：SVG: ${svgCount} | PNG: ${pngCount}`);
