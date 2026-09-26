@@ -21,59 +21,59 @@
     "info": "NPC-icons library bitmapped graphic asset."
   },
   {
+    "name": "DONGFANGCOLLEGE-png",
+    "color": "",
+    "format": "png",
+    "source": "",
+    "info": "NPC-icons library bitmapped graphic asset."
+  },
+  {
+    "name": "HAININGRUBLICBYCYCLE-png",
+    "color": "",
+    "format": "png",
+    "source": "",
+    "info": "NPC-icons library bitmapped graphic asset."
+  },
+  {
+    "name": "Hanghai-IR-png",
+    "color": "",
+    "format": "png",
+    "source": "",
+    "info": "NPC-icons library bitmapped graphic asset."
+  },
+  {
+    "name": "JIDIANCOLLEGE-png",
+    "color": "",
+    "format": "png",
+    "source": "",
+    "info": "NPC-icons library bitmapped graphic asset."
+  },
+  {
     "name": "DONGFANGCOLLEGE",
-    "color": "",
-    "format": "png",
-    "source": "",
-    "info": "NPC-icons library bitmapped graphic asset."
-  },
-  {
-    "name": "HAININGRUBLICBYCYCLE",
-    "color": "",
-    "format": "png",
-    "source": "",
-    "info": "NPC-icons library bitmapped graphic asset."
-  },
-  {
-    "name": "Hanghai-IR",
-    "color": "",
-    "format": "png",
-    "source": "",
-    "info": "NPC-icons library bitmapped graphic asset."
-  },
-  {
-    "name": "JIDIANCOLLEGE",
-    "color": "",
-    "format": "png",
-    "source": "",
-    "info": "NPC-icons library bitmapped graphic asset."
-  },
-    {
-    "name": "DONGFANGCOLLEGE",
-    "color": "0E6EB7",
+    "color": "#0E6EB7",
     "format": "svg",
     "source": "https://iceceng.zufedfc.edu.cn/xygk/xybs1.htm",
-    "info": "NPC-icons library bitmapped graphic asset."
+    "info": "NPC-icons library trademark vector asset."
   },
   {
     "name": "HAININGRUBLICBYCYCLE",
-    "color": "173783",
+    "color": "#173783",
     "format": "svg",
     "source": "",
-    "info": "NPC-icons library bitmapped graphic asset."
+    "info": "NPC-icons library trademark vector asset."
   },
   {
     "name": "Hanghai-IR",
-    "color": "B40101",
+    "color": "#B40101",
     "format": "svg",
     "source": "",
-    "info": "NPC-icons library bitmapped graphic asset."
+    "info": "NPC-icons library trademark vector asset."
   },
   {
     "name": "JIDIANCOLLEGE",
-    "color": "A1CB3C",
+    "color": "#A1CB3C",
     "format": "svg",
     "source": "https://www.zime.edu.cn/xqzl/xxjj.htm",
-    "info": "NPC-icons library bitmapped graphic asset."
+    "info": "NPC-icons library trademark vector asset."
   }
 ]
