@@ -357,7 +357,10 @@ const MOCK_ICONS = [
                 }
             });
         }
-        // 🔍 核心网格等高渲染
+
+
+
+            // 🔍 核心网格等高渲染
         function renderGrid() {
             iconGrid.innerHTML = '';
             
@@ -406,7 +409,7 @@ const MOCK_ICONS = [
                     </div>
                 `;
 
-                // 注入后瞬间激活强力变色引擎
+                // 激活物理强力变色引擎
                 if (icon.format === 'svg') {
                     const embeddedSvg = card.querySelector('.icon-wrapper svg');
                     applySvgColor(embeddedSvg, icon.color);
@@ -425,12 +428,24 @@ const MOCK_ICONS = [
                     });
                 }
 
-                // 🔍 详情弹窗解析
+                // 🔍 放大镜查看详情事件 (加入了严格的 ID 隔离机制)
                 card.querySelector('.view-btn').addEventListener('click', () => {
-                    const currentSvg = card.querySelector('.icon-wrapper').innerHTML;
-                    modalPreview.innerHTML = currentSvg;
+                    let currentSvgHtml = card.querySelector('.icon-wrapper').innerHTML;
+                    
+                    // 🌟 隔离机制：如果包含内联 ID 冲突源，自动加 modal- 前缀将其完全独立开
+                    const uniqueId = `modal-${icon.name}`;
+                    currentSvgHtml = currentSvgHtml.replace(/id="([^"]+)"/g, `id="${uniqueId}-$1"`)
+                                                   .replace(/url\(#([^)]+)\)/g, `url(#${uniqueId}-$1)`);
+
+                    modalPreview.innerHTML = currentSvgHtml;
                     modalPreview.style.color = icon.color;
                     modalName.innerText = icon.name;
+                    
+                    // 再次渲染弹窗里的 SVG 着色
+                    if (icon.format === 'svg') {
+                        const targetModalSvg = modalPreview.querySelector('svg');
+                        applySvgColor(targetModalSvg, icon.color);
+                    }
                     
                     const sourceHtml = icon.source 
                         ? `<a class="modal-source-link" href="${icon.source}" target="_blank">Official Website <svg style="width:14px;height:14px;fill:currentColor;" viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42L17.59 5H14V3zM5 5h6V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-6h-2v6H5V5z"/></svg></a>` 
@@ -455,7 +470,7 @@ const MOCK_ICONS = [
                 iconGrid.appendChild(card);
             });
             
-            // Header 的 my_logo 变色同步
+            // Header 的 my_logo 隔离
             const headerLogoSvg = document.querySelector('.header-logo-container svg');
             const logoAsset = MOCK_ICONS.find(i => i.name === 'my_logo');
             if (headerLogoSvg && logoAsset) {
@@ -483,3 +498,4 @@ const MOCK_ICONS = [
     </script>
 </body>
 </html>
+
