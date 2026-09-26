@@ -288,13 +288,13 @@ const MOCK_ICONS = [
             navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => showToast("Copy failed"));
         }
 
-        // 📥 流式直接下载
+        // 📥 文件流式下载实现
         function downloadIcon(name, format, code) {
             const blob = format === 'svg' 
                 ? new Blob([code], { type: 'image/svg+xml' })
                 : (() => {
                     const base64Data = code.match(/base64,([^\"]+)/);
-                    const byteCharacters = atob(base64Data ? base64Data[1] : '');
+                    const byteCharacters = atob(base64Data ? base64Data : '');
                     const byteNumbers = new Array(byteCharacters.length);
                     for (let i = 0; i < byteCharacters.length; i++) byteNumbers[i] = byteCharacters.charCodeAt(i);
                     return new Blob([new Uint8Array(byteNumbers)], { type: 'image/png' });
@@ -311,7 +311,7 @@ const MOCK_ICONS = [
             showToast(`Download started: ${name}.${format}`);
         }
 
-        // 🌟 强力上色处理器引擎：直接穿透多层 SVG 形状强行洗色
+        // 🌟 强力上色处理器引擎
         function applySvgColor(svgElement, color) {
             if (!svgElement || !color) return;
             svgElement.style.color = color;
@@ -328,7 +328,9 @@ const MOCK_ICONS = [
 
 
 
-            // 🔍 核心网格等高渲染
+
+
+        // 🔍 核心等高渲染（彻底修复重名干涉与吃掉卡片问题）
         function renderGrid() {
             iconGrid.innerHTML = '';
             
@@ -358,8 +360,11 @@ const MOCK_ICONS = [
                     card.style.color = 'var(--text-color)';
                 }
                 
+                // 🌟 自动容错修复：如果你漏写了 # 号，这里会自动补齐
+                const displayColor = icon.color && !icon.color.startsWith('#') && icon.color !== 'none' ? `#${icon.color}` : icon.color;
+
                 const colorDisplay = icon.format === 'svg' 
-                    ? `<div class="icon-color" title="Click to copy color">${icon.color}</div>` 
+                    ? `<div class="icon-color" title="Click to copy color">${displayColor}</div>` 
                     : '';
 
                 card.innerHTML = `
@@ -377,10 +382,9 @@ const MOCK_ICONS = [
                     </div>
                 `;
 
-                // 激活物理强力变色引擎
                 if (icon.format === 'svg') {
                     const embeddedSvg = card.querySelector('.icon-wrapper svg');
-                    applySvgColor(embeddedSvg, icon.color);
+                    applySvgColor(embeddedSvg, displayColor);
                 }
 
                 card.querySelector('.icon-wrapper').addEventListener('click', () => {
@@ -392,27 +396,25 @@ const MOCK_ICONS = [
                 if (icon.format === 'svg') {
                     card.querySelector('.icon-color').addEventListener('click', (e) => {
                         e.stopPropagation();
-                        copyToClipboard(icon.color, `Copied color value: ${icon.color}!`);
+                        copyToClipboard(displayColor, `Copied color value: ${displayColor}!`);
                     });
                 }
 
-                // 🔍 放大镜查看详情事件 (加入了严格的 ID 隔离机制)
+                // 🔍 详情窗（🌟 联合标识名称+格式双重锁定隔离区）
                 card.querySelector('.view-btn').addEventListener('click', () => {
                     let currentSvgHtml = card.querySelector('.icon-wrapper').innerHTML;
                     
-                    // 🌟 隔离机制：如果包含内联 ID 冲突源，自动加 modal- 前缀将其完全独立开
-                    const uniqueId = `modal-${icon.name}`;
+                    const uniqueId = `modal-${icon.name}-${icon.format}`;
                     currentSvgHtml = currentSvgHtml.replace(/id="([^"]+)"/g, `id="${uniqueId}-$1"`)
                                                    .replace(/url\(#([^)]+)\)/g, `url(#${uniqueId}-$1)`);
 
                     modalPreview.innerHTML = currentSvgHtml;
-                    modalPreview.style.color = icon.color;
+                    modalPreview.style.color = displayColor;
                     modalName.innerText = icon.name;
                     
-                    // 再次渲染弹窗里的 SVG 着色
                     if (icon.format === 'svg') {
                         const targetModalSvg = modalPreview.querySelector('svg');
-                        applySvgColor(targetModalSvg, icon.color);
+                        applySvgColor(targetModalSvg, displayColor);
                     }
                     
                     const sourceHtml = icon.source 
@@ -421,7 +423,7 @@ const MOCK_ICONS = [
 
                     modalInfo.innerHTML = `
                         Format: <b style="text-transform:uppercase; color:var(--accent-color);">${icon.format}</b><br>
-                        ${icon.format === 'svg' ? 'Hex Color: <b style="font-family:monospace;">' + icon.color + '</b><br>' : ''}
+                        ${icon.format === 'svg' ? 'Hex Color: <b style="font-family:monospace;">' + displayColor + '</b><br>' : ''}
                         Source: ${sourceHtml}<br><br>
                         <div style="text-align:left; background:rgba(0,0,0,0.03); padding:14px; border-radius:14px; font-size:0.88rem; border:1px solid var(--border-color); color:var(--text-muted); font-weight:500; max-height:120px; overflow-y:auto; line-height:1.5;">
                             ${icon.info}
@@ -438,7 +440,6 @@ const MOCK_ICONS = [
                 iconGrid.appendChild(card);
             });
             
-            // Header 的 my_logo 隔离
             const headerLogoSvg = document.querySelector('.header-logo-container svg');
             const logoAsset = MOCK_ICONS.find(i => i.name === 'my_logo');
             if (headerLogoSvg && logoAsset) {
