@@ -47,5 +47,33 @@
     "format": "png",
     "source": "",
     "info": "NPC-icons library bitmapped graphic asset."
+  },
+    {
+    "name": "DONGFANGCOLLEGE",
+    "color": "0E6EB7",
+    "format": "svg",
+    "source": "https://iceceng.zufedfc.edu.cn/xygk/xybs1.htm",
+    "info": "NPC-icons library bitmapped graphic asset."
+  },
+  {
+    "name": "HAININGRUBLICBYCYCLE",
+    "color": "173783",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library bitmapped graphic asset."
+  },
+  {
+    "name": "Hanghai-IR",
+    "color": "B40101",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library bitmapped graphic asset."
+  },
+  {
+    "name": "JIDIANCOLLEGE",
+    "color": "A1CB3C",
+    "format": "svg",
+    "source": "https://www.zime.edu.cn/xqzl/xxjj.htm",
+    "info": "NPC-icons library bitmapped graphic asset."
   }
 ]
