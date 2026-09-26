@@ -226,13 +226,13 @@
             navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => showToast("Copy failed"));
         }
 
-        // 📥 文件直接流式下载底层实现 (完美支持 SVG 源码与 PNG 二进制 Base64)
+        // 📥 文件流式下载
         function downloadIcon(name, format, code) {
             const blob = format === 'svg' 
                 ? new Blob([code], { type: 'image/svg+xml' })
                 : (() => {
                     const base64Data = code.match(/base64,([^\"]+)/);
-                    const byteCharacters = atob(base64Data ? base64Data[1] : '');
+                    const byteCharacters = atob(base64Data ? base64Data : '');
                     const byteNumbers = new Array(byteCharacters.length);
                     for (let i = 0; i < byteCharacters.length; i++) byteNumbers[i] = byteCharacters.charCodeAt(i);
                     return new Blob([new Uint8Array(byteNumbers)], { type: 'image/png' });
@@ -270,24 +270,30 @@
 
             visibleIcons.forEach(icon => {
                 const card = document.createElement('div');
+                let finalCode = icon.code;
                 
-                // 依据格式划分物理布局控制类
+                // 🌟 核心修复：智能着色器引擎
                 if (icon.format === 'svg') {
                     card.className = 'icon-card';
-                    card.style.color = icon.color;
+                    card.style.color = icon.color; // 设置卡片基础文本和线条原色
+                    
+                    // 🔍 用正则表达式强行将 SVG 源码里的 fill 或 stroke 属性替换为你指定的定制颜色
+                    // 如果原本没有 fill/stroke，我们在外层容器使用 currentColor 也能完美染色
+                    finalCode = icon.code
+                        .replace(/fill="([^"]+)"/g, (match, p1) => p1 === 'none' ? 'fill="none"' : `fill="${icon.color}"`)
+                        .replace(/stroke="([^"]+)"/g, (match, p1) => p1 === 'none' ? 'stroke="none"' : `stroke="${icon.color}"`);
                 } else {
                     card.className = 'icon-card no-color-card';
                     card.style.color = 'var(--text-color)';
                 }
                 
-                // 🌟 双轨色彩拦截：若为 PNG 则生成全空卡槽，不占用多余垂直像素空间，保证等高
                 const colorDisplay = icon.format === 'svg' 
                     ? `<div class="icon-color" title="Click to copy color">${icon.color}</div>` 
                     : '';
 
                 card.innerHTML = `
                     <span class="format-badge">${icon.format}</span>
-                    <div class="icon-wrapper" title="Click to copy asset">${icon.code}</div>
+                    <div class="icon-wrapper" title="Click to copy asset">${finalCode}</div>
                     <div class="icon-name" style="color:var(--text-color);" title="${icon.name}">${icon.name}</div>
                     <div class="color-slot-wrapper">${colorDisplay}</div>
                     <div class="card-actions">
@@ -302,7 +308,7 @@
 
                 // 复制机制绑定
                 card.querySelector('.icon-wrapper').addEventListener('click', () => {
-                    if (icon.format === 'svg') copyToClipboard(icon.code, `Copied SVG code of ${icon.name}!`);
+                    if (icon.format === 'svg') copyToClipboard(finalCode, `Copied SVG code of ${icon.name}!`);
                     else copyToClipboard(icon.name, `Copied icon name: ${icon.name}!`);
                 });
                 
@@ -315,16 +321,14 @@
 
                 // 🔍 放大镜高级详情视图渲染（苹果风动画触发）
                 card.querySelector('.view-btn').addEventListener('click', () => {
-                    modalPreview.innerHTML = icon.code;
+                    modalPreview.innerHTML = finalCode;
                     modalPreview.style.color = icon.color;
                     modalName.innerText = icon.name;
                     
-                    // 🌟 动态转换 Source 链接为新标签页打开的可点击超链接
                     const sourceHtml = icon.source 
                         ? `<a class="modal-source-link" href="${icon.source}" target="_blank">Official Website <svg style="width:14px;height:14px;fill:currentColor;" viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42L17.59 5H14V3zM5 5h6V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-6h-2v6H5V5z"/></svg></a>` 
                         : `<span style="color:var(--text-muted); font-size:0.9rem;">None</span>`;
 
-                    // 替换旧文本，全量展示用户维护的 config.json 内容
                     modalInfo.innerHTML = `
                         Format: <b style="text-transform:uppercase; color:var(--accent-color);">${icon.format}</b><br>
                         ${icon.format === 'svg' ? 'Hex Color: <b style="font-family:monospace;">' + icon.color + '</b><br>' : ''}
@@ -338,7 +342,7 @@
 
                 // 下载机制绑定
                 card.querySelector('.down-btn').addEventListener('click', () => {
-                    downloadIcon(icon.name, icon.format, icon.code);
+                    downloadIcon(icon.name, icon.format, finalCode);
                 });
 
                 iconGrid.appendChild(card);
@@ -367,5 +371,6 @@
     </script>
 </body>
 </html>
+
 
     
