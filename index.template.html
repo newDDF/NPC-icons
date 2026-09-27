@@ -414,6 +414,9 @@ let MOCK_ICONS = [];
 
                     detailModal.classList.add('active');
                 });
+                card.querySelector('.down-btn').addEventListener('click', () => {
+                    downloadIcon(icon.name, icon.format, icon.path);
+                });
                 iconGrid.appendChild(card);
             });
         }
@@ -451,6 +454,8 @@ let MOCK_ICONS = [];
     </script>
 </body>
 </html>
+
+
 
 
 
