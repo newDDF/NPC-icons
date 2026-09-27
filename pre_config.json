@@ -1,33 +1,5 @@
 [
   {
-    "name": "DONGFANGCOLLEGE",
-    "color": "#007aff",
-    "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset."
-  },
-  {
-    "name": "HAININGRUBLICBYCYCLE",
-    "color": "#007aff",
-    "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset."
-  },
-  {
-    "name": "Hanghai-IR",
-    "color": "#007aff",
-    "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset."
-  },
-  {
-    "name": "JIDIANCOLLEGE",
-    "color": "#007aff",
-    "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset."
-  },
-  {
     "name": "amd",
     "color": "#007aff",
     "format": "svg",
@@ -50,6 +22,41 @@
   },
   {
     "name": "archlinux",
+    "color": "#007aff",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset."
+  },
+  {
+    "name": "DONGFANGCOLLEGE",
+    "color": "#007aff",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset."
+  },
+  {
+    "name": "github",
+    "color": "#007aff",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset."
+  },
+  {
+    "name": "HAININGRUBLICBYCYCLE",
+    "color": "#007aff",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset."
+  },
+  {
+    "name": "Hanghai-IR",
+    "color": "#007aff",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset."
+  },
+  {
+    "name": "JIDIANCOLLEGE",
     "color": "#007aff",
     "format": "svg",
     "source": "",
