@@ -15,4 +15,10 @@
   { "name": "HAININGRUBLICBYCYCLE", "color": "#173783", "format": "svg", "source": "", "info": "NPC-icons library trademark vector asset." },
   { "name": "Hanghai-IR", "color": "#B40101", "format": "svg", "source": "", "info": "NPC-icons library trademark vector asset." },
   { "name": "JIDIANCOLLEGE", "color": "#A1CB3C", "format": "svg", "source": "https://www.zime.edu.cn/xqzl/xxjj.htm", "info": "NPC-icons library trademark vector asset." }
+  { "name": "line", "color": "#00C300", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "spotify", "color": "#1ED760", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "pinterest", "color": "#BD081C", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "whatapp", "color": "#25D366", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "telegram", "color": "#26A5E4", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "instagram", "color": "#FF0069", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
 ]
