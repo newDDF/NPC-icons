@@ -157,6 +157,18 @@ fs.writeFileSync(
     'utf8'
 );
 
+const stats = {
+    total: iconList.length,
+    svg: svgCount,
+    png: pngCount
+};
+
+fs.writeFileSync(
+    path.join(dataDir, 'stats.json'),
+    JSON.stringify(stats, null, 2),
+    'utf8'
+);
+
 let htmlContent = fs.readFileSync(
     templatePath,
     'utf8'
