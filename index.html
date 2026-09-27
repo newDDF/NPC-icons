@@ -28,8 +28,24 @@
             --blur-bg: rgba(28, 28, 30, 0.7);
             --card-border-radius: 16px;
         }
+
+        /* 🌟 核心升级：暗黑模式深色图标对比度增强引擎 */
+        /* 当系统处于暗黑模式下，自动为卡片中的 SVG 增加一层轻微的白色呼吸感发光，并在整体亮度上提升 40%，确保暗蓝色、深色图标在黑夜里彻底清晰 */
+        [data-theme="dark"] .icon-card .icon-wrapper svg {
+            filter: brightness(1.4) drop-shadow(0 0 6px rgba(255, 255, 255, 0.15));
+            transition: filter 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        /* 当鼠标悬停在卡片上或点击查看时，发光亮度进一步加强，模拟高阶苹果质感 */
+        [data-theme="dark"] .icon-card:hover .icon-wrapper svg {
+            filter: brightness(1.6) drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+        }
+
         * { box-sizing: border-box; margin: 0; padding: 0; transition: background-color 0.3s, color 0.3s, border-color 0.3s; }
         body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; background-color: var(--bg-color); color: var(--text-color); padding-bottom: 60px; -webkit-font-smoothing: antialiased; }
+
+
+
+
 
 
 
