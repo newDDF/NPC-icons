@@ -6,7 +6,7 @@ const templatePath = path.join(__dirname, 'index.html');
 const configPath = path.join(__dirname, 'config.json');
 const preConfigPath = path.join(__dirname, 'pre_config.json');
 
-// --- 1. 自动生成预配置草稿 pre_config.json ---
+// --- 1. 自动生成预配置草稿 ---
 const preConfigList = [];
 const svgDir = path.join(baseIconsDir, 'svg');
 const pngDir = path.join(baseIconsDir, 'png');
@@ -23,7 +23,7 @@ if (fs.existsSync(pngDir)) {
 }
 fs.writeFileSync(preConfigPath, JSON.stringify(preConfigList, null, 2), 'utf8');
 
-// --- 2. 按照正式 config.json 构建网页逻辑 ---
+// --- 2. 正式构建逻辑 ---
 if (!fs.existsSync(configPath)) {
     console.error("❌ 找不到正式清单配置文件 config.json！");
     process.exit(1);
@@ -40,14 +40,16 @@ iconConfig.forEach((icon) => {
     const filename = `${cleanRealName}.${icon.format}`;
     const filePath = path.join(baseIconsDir, subFolder, filename);
 
-    if (!fs.existsSync(filePath)) {
-        return;
-    }
+    if (!fs.existsSync(filePath)) return;
 
     if (icon.format === 'svg') {
         let content = fs.readFileSync(filePath, 'utf8');
-        // 🌟 物理真空隔离：移除云端高危的正则类名重写，将清洁的代码和色值原封不动打包给前端
         content = content.replace(/[\r\n]/g, '').replace(/>\s+</g, '><').trim();
+        
+        // 🌟 防污染防护罩：如果 SVG 标签内部没有指定 fill 或 stroke 颜色，强制在最外层拍上 fill="currentColor"
+        if (!content.includes('fill=') && !content.includes('stroke=')) {
+            content = content.replace('<svg', '<svg fill="currentColor"');
+        }
 
         iconList.push({
             name: icon.name,
@@ -94,4 +96,4 @@ if (logoAsset) {
 }
 
 fs.writeFileSync(templatePath, htmlContent, 'utf8');
-console.log(`✅ 智能双轨重名隔离构建成功！当前统计：SVG: ${svgCount} | PNG: ${pngCount}`);
+console.log(`✅ 脚本修正完毕！`);
