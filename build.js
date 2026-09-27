@@ -6,7 +6,7 @@ const templatePath = path.join(__dirname, 'index.html');
 const configPath = path.join(__dirname, 'config.json');
 const preConfigPath = path.join(__dirname, 'pre_config.json');
 
-// --- 1. 自动生成预配置草稿 ---
+// --- 1. 全自动扫描，刷新预配置草稿 pre_config.json ---
 const preConfigList = [];
 const svgDir = path.join(baseIconsDir, 'svg');
 const pngDir = path.join(baseIconsDir, 'png');
@@ -23,7 +23,7 @@ if (fs.existsSync(pngDir)) {
 }
 fs.writeFileSync(preConfigPath, JSON.stringify(preConfigList, null, 2), 'utf8');
 
-// --- 2. 正式构建逻辑 ---
+// --- 2. 严格根据正式 config.json 提取资产（🌟 纯净搬运模式，不改动任何源码） ---
 if (!fs.existsSync(configPath)) {
     console.error("❌ 找不到正式清单配置文件 config.json！");
     process.exit(1);
@@ -44,12 +44,8 @@ iconConfig.forEach((icon) => {
 
     if (icon.format === 'svg') {
         let content = fs.readFileSync(filePath, 'utf8');
+        // 只做最基础的去换行清理，100% 锁死和保护 SVG 原生属性及内部 class 选择器不被改坏
         content = content.replace(/[\r\n]/g, '').replace(/>\s+</g, '><').trim();
-        
-        // 🌟 防污染防护罩：如果 SVG 标签内部没有指定 fill 或 stroke 颜色，强制在最外层拍上 fill="currentColor"
-        if (!content.includes('fill=') && !content.includes('stroke=')) {
-            content = content.replace('<svg', '<svg fill="currentColor"');
-        }
 
         iconList.push({
             name: icon.name,
@@ -96,4 +92,4 @@ if (logoAsset) {
 }
 
 fs.writeFileSync(templatePath, htmlContent, 'utf8');
-console.log(`✅ 脚本修正完毕！`);
+console.log(`✅ 纯净版云端构建成功！`);
