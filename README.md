@@ -40,11 +40,13 @@
 <img width="2522" height="1287" alt="image" src="https://github.com/user-attachments/assets/4a8ada1f-1a96-4be7-a8d8-ed5f250aa397" />
 
 
+---
+
 ## 🌐 Live Website
 
 **[icons.x0u0x.xyz](https://icons.x0u0x.xyz/)**
 
-NPC-icons provides a simple web interface for browsing the icon library.
+NPC-icons provides a simple web interface for browsing and managing the icon library.
 
 You can:
 
@@ -52,41 +54,56 @@ You can:
 * 🌓 Switch between light and dark mode
 * 👁️ Preview icons
 * 📋 Copy SVG source
-* 🔗 Copy icon information
+* 📋 Copy icon names
 * 📥 Download SVG and PNG assets
 * 🎨 View icon colors and metadata
-* 📱 Use the interface on desktop and mobile devices
+* 📱 Browse the library on desktop and mobile
 
 ---
 
-## 📊 Current Library
+## 📊 Icon Library
 
-NPC-icons currently contains:
+The icon library is automatically counted during the build process.
 
-| Format        |  Count |
-| :------------ | -----: |
-| SVG           | **10** |
-| PNG           |  **5** |
-| Total entries | **15** |
+```text
+SVG icons
+PNG icons
+Total icons
+```
 
-The library is continuously expandable through the `icons/` directories and `config.json`.
+The generated statistics are available at:
 
-> Some icon names may have both SVG and PNG versions and are therefore counted as separate format entries.
+```text
+dist/data/stats.json
+```
+
+Example:
+
+```json
+{
+  "total": 15,
+  "svg": 10,
+  "png": 5
+}
+```
+
+Because the statistics are generated automatically, the README badges update as the icon library grows.
+
+> Some icon names may have both SVG and PNG versions and are therefore counted separately by format.
 
 ---
 
 ## ✨ Features
 
-### 🎨 SVG & PNG Support
+### 🎨 SVG & PNG
 
 NPC-icons supports both vector and bitmap assets.
 
 ```text
 icons/
 ├── svg/
-│   ├── amd.svg
-│   ├── apple.svg
 │   ├── github.svg
+│   ├── apple.svg
 │   └── ...
 └── png/
     ├── DAYUAN.png
@@ -94,38 +111,45 @@ icons/
     └── ...
 ```
 
-SVG files are processed during the build stage to reduce internal CSS/class-name collisions between different icons.
+### 🔎 Search
 
-### 🔎 Fast Search
+Search the icon library directly from the website without requiring a backend service.
 
-The website provides client-side icon searching and filtering, allowing icons to be located without navigating through multiple pages.
+### 👁️ Preview
 
-### 👁️ Icon Preview
+Click an icon to open a detailed preview containing:
 
-Click an icon to open a dedicated preview modal with its name, metadata, and full-size artwork.
+* Icon artwork
+* Icon name
+* Description
+* Color information
+* Available format
 
-### 📋 Copy & Download
+### 📋 Copy
 
-Supported actions include:
+SVG icons can be copied directly as SVG source.
 
-* Copy SVG source
-* Copy icon name
-* Download SVG
-* Download PNG
+Icon names can also be copied for use in other projects.
 
-### 🌓 Light & Dark Mode
+### 📥 Download
 
-The interface automatically adapts its visual presentation for light and dark environments.
+Download supported assets directly from the website.
 
-### 📱 Responsive Interface
+Both SVG and PNG assets are available when provided by the library.
 
-The interface is designed for desktop, tablet, and mobile screens, with larger touch targets for mobile interaction.
+### 🌓 Dark Mode
+
+The interface supports both light and dark visual themes.
+
+### 📱 Responsive Design
+
+The interface is designed for desktop, tablet, and mobile screens.
 
 ---
 
 ## 🏗️ Architecture
 
-NPC-icons uses a simple static-build architecture:
+NPC-icons uses a static build architecture:
 
 ```text
 icons/
@@ -137,10 +161,11 @@ icons/
    config.json
         │
         ▼
-   build.js
+     build.js
         │
         ├── dist/index.html
         ├── dist/data/icons.json
+        ├── dist/data/stats.json
         ├── dist/assets/svg/
         └── dist/assets/png/
         │
@@ -148,36 +173,24 @@ icons/
    GitHub Actions
         │
         ▼
-   gh-pages
+    gh-pages
         │
         ▼
    Cloudflare Pages
         │
         ▼
-   icons.x0u0x.xyz
+ icons.x0u0x.xyz
 ```
-
-### Build System
-
-The project uses `Node.js` and `build.js` to generate the production site.
-
-The build process:
-
-1. Reads icon files from `icons/svg/` and `icons/png/`
-2. Reads metadata from `config.json`
-3. Processes SVG class names and embedded styles
-4. Copies assets into `dist/assets/`
-5. Generates `dist/data/icons.json`
-6. Generates the production `dist/index.html`
-7. Records the current SVG and PNG counts
 
 The generated website is completely static and does not require a runtime backend.
 
 ---
 
-## 🚀 CI/CD
+## 🚀 Build & Deployment
 
-Every push to the `main` branch triggers GitHub Actions.
+The production site is automatically built and deployed through GitHub Actions.
+
+Every push to `main` triggers:
 
 ```text
 main
@@ -185,7 +198,7 @@ main
  ▼
 GitHub Actions
  │
- ├── Install Node.js
+ ├── Install dependencies
  ├── Run build.js
  └── Deploy ./dist
        │
@@ -196,38 +209,37 @@ GitHub Actions
 Cloudflare Pages
 ```
 
-The current workflow uses Node.js 22 and publishes the generated `dist/` directory to the `gh-pages` branch.
-
-This means the source repository and production assets remain clearly separated:
+The source repository and generated production files are kept separate:
 
 ```text
-main      → source code + icon definitions
-gh-pages  → generated production website
+main
+└── Source code + icon definitions
+
+gh-pages
+└── Generated production website
 ```
 
 ---
 
 ## 📦 Adding an Icon
 
-Adding an icon requires two steps.
-
 ### 1. Add the asset
 
-For SVG:
+SVG:
 
 ```text
 icons/svg/example.svg
 ```
 
-For PNG:
+PNG:
 
 ```text
 icons/png/example.png
 ```
 
-### 2. Register it in `config.json`
+### 2. Add the metadata
 
-Example SVG entry:
+Add an entry to `config.json`:
 
 ```json
 {
@@ -239,7 +251,7 @@ Example SVG entry:
 }
 ```
 
-Example PNG entry:
+For PNG:
 
 ```json
 {
@@ -253,15 +265,13 @@ Example PNG entry:
 
 ### Configuration fields
 
-| Field    | Description                   |
-| :------- | :---------------------------- |
-| `name`   | Icon name and filename        |
-| `color`  | Primary SVG color             |
-| `format` | `svg` or `png`                |
-| `source` | Optional source/reference URL |
-| `info`   | Optional icon description     |
-
-The current configuration follows this schema.
+| Field    | Description         |
+| :------- | :------------------ |
+| `name`   | Icon name           |
+| `color`  | Primary icon color  |
+| `format` | `svg` or `png`      |
+| `source` | Optional source URL |
+| `info`   | Icon description    |
 
 ---
 
@@ -274,26 +284,31 @@ git clone https://github.com/newDDF/NPC-icons.git
 cd NPC-icons
 ```
 
-Build the project:
+Install dependencies:
 
 ```bash
 npm install
-npm run build
 ```
 
-or:
+Build the production site:
 
 ```bash
 node build.js
 ```
 
-The generated production files will be placed in:
+or:
+
+```bash
+npm run build
+```
+
+Generated files are placed in:
 
 ```text
 dist/
 ```
 
-You can then serve the `dist/` directory with any static HTTP server.
+You can serve `dist/` using any static HTTP server.
 
 ---
 
@@ -314,7 +329,8 @@ NPC-icons/
 │   │   ├── svg/
 │   │   └── png/
 │   ├── data/
-│   │   └── icons.json
+│   │   ├── icons.json
+│   │   └── stats.json
 │   └── index.html
 │
 ├── build.js
@@ -328,11 +344,9 @@ NPC-icons/
 └── README.md
 ```
 
-> `dist/` is generated by the build process and represents the production-ready static site.
-
 ---
 
-## 🧩 Data Model
+## 🧩 Icon Data
 
 The production icon manifest is generated as:
 
@@ -340,7 +354,9 @@ The production icon manifest is generated as:
 dist/data/icons.json
 ```
 
-Each icon contains metadata similar to:
+Each icon contains metadata and its generated asset path.
+
+Example:
 
 ```json
 {
@@ -353,21 +369,33 @@ Each icon contains metadata similar to:
 }
 ```
 
-This allows the frontend to load icon metadata independently from the HTML document.
+Statistics are generated separately:
+
+```text
+dist/data/stats.json
+```
+
+```json
+{
+  "total": 15,
+  "svg": 10,
+  "png": 5
+}
+```
 
 ---
 
 ## 🛡️ Design Philosophy
 
-NPC-icons is intentionally designed around a few principles:
+NPC-icons follows several simple principles:
 
-* **Static first** — no runtime backend is required.
-* **Simple data model** — icon metadata remains human-readable.
+* **Static first** — no runtime backend required.
+* **Simple data model** — metadata remains human-readable.
 * **Independent assets** — SVG and PNG files are stored separately.
 * **Automated builds** — production files are generated automatically.
-* **Easy maintenance** — adding an icon requires only an asset and a configuration entry.
-* **Fast distribution** — the generated site is delivered through Cloudflare's edge network.
-* **Self-host friendly** — the generated `dist/` directory can be deployed to almost any static hosting provider.
+* **Easy maintenance** — adding an icon requires an asset and metadata.
+* **Fast distribution** — production files are delivered through Cloudflare Pages.
+* **Self-host friendly** — `dist/` can be deployed to almost any static hosting provider.
 
 ---
 
@@ -375,15 +403,15 @@ NPC-icons is intentionally designed around a few principles:
 
 NPC-icons may contain trademarks, logos, and other intellectual property belonging to their respective owners.
 
-The inclusion of an icon in this project does not imply ownership, endorsement, sponsorship, or affiliation with the respective trademark holder.
+The inclusion of an icon does not imply ownership, endorsement, sponsorship, or affiliation with the respective trademark holder.
 
-Please refer to [`DISCLAIMER.md`](./DISCLAIMER.md) for additional information.
+See [`DISCLAIMER.md`](./DISCLAIMER.md) for additional information.
 
 ---
 
 ## 📜 License
 
-Please see [`LICENSE`](./LICENSE) for the license applicable to this project.
+See [`LICENSE`](./LICENSE) for the license applicable to this project.
 
 Icon trademarks and third-party assets remain the property of their respective owners.
 
