@@ -20,5 +20,9 @@
   { "name": "pinterest", "color": "#BD081C", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
   { "name": "whatapp", "color": "#25D366", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
   { "name": "telegram", "color": "#26A5E4", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
-  { "name": "instagram", "color": "#FF0069", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." }
+  { "name": "instagram", "color": "#FF0069", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "bitcoin", "color": "#F7931A", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "visa", "color": "#1A1F71", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "mastercard", "color": "#EB001B", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "paypal", "color": "#002991", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." }
 ]
