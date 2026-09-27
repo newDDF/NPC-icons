@@ -16,6 +16,8 @@
             --shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
             --blur-bg: rgba(255, 255, 255, 0.7);
             --card-border-radius: 16px;
+            /* 🌟 白天模式下图标背后的淡灰垫底色 */
+            --wrapper-bg: rgba(0, 0, 0, 0.03); 
         }
         :root[data-theme="dark"] {
             --bg-color: #000000;
@@ -27,19 +29,67 @@
             --shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
             --blur-bg: rgba(28, 28, 30, 0.7);
             --card-border-radius: 16px;
+            /* 🌟 暗黑模式下图标背后的淡灰垫底色，完美衬托红色/深蓝色图标 */
+            --wrapper-bg: #2c2c2e; 
         }
 
-        /* 🌟 核心升级：暗黑模式深色与红色系图标“视网膜安全背光增强引擎” */
-        /* 在暗黑模式下，自动为卡片内部的 SVG 图标垫一层精细的半透明白色漫反射光（15%不透明度），并让红色、深蓝色元素整体对比度提升 30% */
-        [data-theme="dark"] .icon-card .icon-wrapper svg {
-            filter: contrast(1.3) drop-shadow(0 0 5px rgba(255, 255, 255, 0.25)) drop-shadow(0 0 12px rgba(255, 255, 255, 0.1));
-            transition: filter 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-        /* 当鼠标悬停在红色系卡片上时，背光效果线性加强，把 AMD 复杂的字母空隙和边缘线条完全“顶”出来，杜绝粘连 */
-        [data-theme="dark"] .icon-card:hover .icon-wrapper svg {
-            filter: contrast(1.5) drop-shadow(0 0 8px rgba(255, 255, 255, 0.4)) drop-shadow(0 0 20px rgba(255, 255, 255, 0.2));
-        }
+        .brand-header { max-width: 1200px; margin: 0 auto; padding: 40px 20px 20px 20px; display: flex; justify-content: space-between; align-items: center; }
+        .header-left { display: flex; align-items: center; gap: 14px; }
+        .header-logo-container { width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; }
+        .header-logo-container svg, .header-logo-container img { width: 100%; height: 100%; object-fit: contain; }
+        .header-titles { display: flex; flex-direction: column; }
+        .header-titles h1 { font-size: 1.8rem; font-weight: 700; letter-spacing: -0.5px; line-height: 1.2; }
+        .header-counter { font-size: 0.8rem; color: var(--text-muted); font-weight: 500; margin-top: 2px; }
+        .header-right { display: flex; gap: 16px; align-items: center; }
+        .nav-icon-link { color: var(--text-color); opacity: 0.7; transition: opacity 0.2s; display: flex; align-items: center; justify-content: center; }
+        .nav-icon-link:hover { opacity: 1; }
+        .nav-icon-link svg { width: 24px; height: 24px; fill: currentColor; }
 
+        .toolbar { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; gap: 12px; align-items: center; position: relative; }
+        .sidebar-toggle { background: var(--card-bg); border: 1px solid var(--border-color); width: 48px; height: 48px; border-radius: 12px; cursor: pointer; color: var(--text-color); display: flex; align-items: center; justify-content: center; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); padding: 0; outline: none; }
+        .sidebar-toggle svg { width: 22px; height: 22px; fill: currentColor; pointer-events: none; }
+        
+        .sidebar { position: absolute; top: 56px; left: 20px; background: var(--blur-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 18px; display: none; flex-direction: column; gap: 15px; z-index: 100; box-shadow: var(--shadow); min-width: 220px; backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); }
+        .sidebar.active { display: flex; }
+        .menu-item { display: flex; flex-direction: column; gap: 6px; font-size: 0.85rem; font-weight: 500; }
+        .menu-item select, .menu-item button { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(255,255,255,0.1); color: var(--text-color); cursor: pointer; font-size: 0.85rem; }
+
+        .search-box { flex: 1; }
+        .search-box input { width: 100%; padding: 12px 20px; height: 48px; border-radius: 12px; border: 1px solid var(--border-color); background: var(--card-bg); color: var(--text-color); font-size: 0.95rem; outline: none; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); }
+        .search-box input:focus { border-color: var(--accent-color); }
+
+        .main-container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+        .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 24px; align-items: stretch; }
+        .icon-grid.dense { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 14px; }
+
+        .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: var(--card-border-radius); display: flex; flex-direction: column; justify-content: space-between; min-height: 240px; box-shadow: var(--shadow); position: relative; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); overflow: hidden; }
+        .icon-grid.dense .icon-card { min-height: 190px; }
+        .format-badge { position: absolute; top: 10px; right: 12px; font-size: 0.65rem; opacity: 0.4; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; pointer-events: none; z-index: 5; }
+        
+        /* 🌟 升级：为包装容器应用淡灰色背景，并加上柔和圆角 */
+        .icon-wrapper { width: calc(100% - 24px); height: 120px; display: flex; justify-content: center; align-items: center; cursor: pointer; padding: 20px; margin: 12px 12px 0 12px; background: var(--wrapper-bg); border-radius: 12px; }
+        .icon-grid.dense .icon-wrapper { height: 95px; padding: 15px; margin: 8px 8px 0 8px; width: calc(100% - 16px); }
+        .icon-wrapper svg, .icon-wrapper img { width: 80px; height: 80px; object-fit: contain; max-width: 100%; max-height: 100%; }
+        .icon-grid.dense .icon-wrapper svg, .icon-grid.dense .icon-wrapper img { width: 64px; height: 64px; }
+        
+        .icon-name { font-weight: 600; font-size: 1.15rem; text-align: left; width: 100%; padding: 0 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 12px; margin-top: 4px; }
+        .icon-grid.dense .icon-name { padding: 0 10px; font-size: 0.95rem; margin-bottom: 8px; }
+
+        .card-bottom-bar { display: flex; width: 100%; height: 42px; border-top: 1px solid var(--border-color); background: rgba(0,0,0,0.01); }
+        .icon-grid.dense .card-bottom-bar { height: 36px; }
+        
+        .color-block-btn { flex: 1.3; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.78rem; font-weight: 700; cursor: pointer; font-family: monospace; letter-spacing: 0.2px; padding: 0 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .color-block-btn.no-color { background: rgba(0,0,0,0.04) !important; color: var(--text-muted); text-shadow: none; font-weight: 600; cursor: default; }
+        [data-theme="dark"] .color-block-btn.no-color { background: rgba(255,255,255,0.04) !important; }
+
+        .action-btn-zone { flex: 1.7; height: 100%; display: flex; border-left: 1px solid var(--border-color); }
+        .action-btn { flex: 1; height: 100%; background: none; border: none; cursor: pointer; color: var(--text-color); opacity: 0.75; display: flex; align-items: center; justify-content: center; transition: background-color 0.2s, opacity 0.2s; }
+        .action-btn:hover { opacity: 1; background: rgba(0, 0, 0, 0.03); }
+        [data-theme="dark"] .action-btn:hover { background: rgba(255, 255, 255, 0.05); }
+        .action-btn:first-child { border-right: 1px solid var(--border-color); }
+        .action-btn svg { width: 17px; height: 18px; fill: currentColor; }
+        .icon-grid.dense .action-btn svg { width: 15px; height: 16px; }
+        
         * { box-sizing: border-box; margin: 0; padding: 0; transition: background-color 0.3s, color 0.3s, border-color 0.3s; }
         body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; background-color: var(--bg-color); color: var(--text-color); padding-bottom: 60px; -webkit-font-smoothing: antialiased; }
 
@@ -157,10 +207,11 @@
         </div>
         <div class="search-box"><input type="text" id="searchInput" placeholder="Search icons..."></div>
     </div>
-    <main class="main-container">
+     <main class="main-container">
         <div class="icon-grid" id="iconGrid"></div>
         <div class="load-more-container"><button class="load-more-btn" id="loadMoreBtn">Show More</button></div>
     </main>
+
     <div class="modal-overlay" id="detailModal">
         <div class="modal-content">
             <button class="modal-close" id="modalClose">✕</button>
@@ -169,6 +220,7 @@
             <p id="modalInfo" style="font-size: 0.95rem; color: var(--text-color); text-align: center; line-height: 1.6; max-width: 340px; word-break: break-word;"></p>
         </div>
     </div>
+
     <div class="toast" id="toast">Copied to clipboard!</div>
     <footer>Copyright@NPC2026</footer>
 
@@ -178,7 +230,8 @@
 
 
 
-    <script>
+
+      <script>
         // 👇 自动化构建脚本在打包时，会自动往此占位符区域动态注入正式数据清单
         /*[[BUILD_INSERT_ICONS]]*/
 const MOCK_ICONS = [
@@ -269,7 +322,6 @@ const MOCK_ICONS = [
             navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => showToast("Copy failed"));
         }
 
-        // 📥 文件流式下载实现
         function downloadIcon(name, format, code) {
             const blob = format === 'svg' 
                 ? new Blob([code], { type: 'image/svg+xml' })
@@ -292,45 +344,31 @@ const MOCK_ICONS = [
             showToast(`Download started: ${name}.${format}`);
         }
 
-        // 🌟 智能黑白反转引擎：穿透全路径，实时动态洗掉锁死的黑夜/白天对冲色
-        function applySmartContrastColor(svgElement, originalColor, currentTheme) {
-            if (!svgElement) return originalColor;
-            let finalColor = originalColor;
-            const cleanHex = originalColor.replace('#', '').toLowerCase().trim();
-            
-            if (currentTheme === 'dark') {
-                // 夜间模式保护：将接近黑色或透明默认值的 SVG 强行翻转为纯白高亮
-                if (cleanHex === '000000' || cleanHex === '000' || cleanHex === 'none' || cleanHex === '') {
-                    finalColor = '#ffffff';
-                }
-            } else {
-                // 白天模式保护：将纯白色的 SVG 强行翻转为纯黑展示
-                if (cleanHex === 'ffffff' || cleanHex === 'fff') {
-                    finalColor = '#000000';
-                }
+        // 🌟 智能色彩亮度计算：自动扭转深色块上的文字，使其变白，确保 000000 永远清晰
+        function getContrastTextColor(hexColor) {
+            const cleanHex = hexColor.replace('#', '').trim();
+            if (cleanHex.length === 3) {
+                const r = parseInt(cleanHex.substr(0,1)+cleanHex.substr(0,1), 16);
+                const g = parseInt(cleanHex.substr(1,1)+cleanHex.substr(1,1), 16);
+                const b = parseInt(cleanHex.substr(2,1)+cleanHex.substr(2,1), 16);
+                return (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#1c1c1e' : '#ffffff';
+            } else if (cleanHex.length === 6) {
+                const r = parseInt(cleanHex.substr(0, 2), 16);
+                const g = parseInt(cleanHex.substr(2, 2), 16);
+                const b = parseInt(cleanHex.substr(4, 2), 16);
+                return (r * 0.299 + g * 0.587 + b * 0.114) > 186 ? '#1c1c1e' : '#ffffff';
             }
-
-            svgElement.style.color = finalColor;
-            const allShapes = svgElement.querySelectorAll('path, circle, rect, polygon, ellipse, line, polyline');
-            allShapes.forEach(shape => {
-                if (shape.getAttribute('fill') && shape.getAttribute('fill') !== 'none') {
-                    shape.setAttribute('fill', finalColor);
-                }
-                if (shape.getAttribute('stroke') && shape.getAttribute('stroke') !== 'none') {
-                    shape.setAttribute('stroke', finalColor);
-                }
-            });
-            return finalColor;
+            return '#ffffff';
         }
 
 
 
 
 
-        // 🔍 核心等高网格与截图布局还原渲染
+
+        // 🔍 核心等高渲染及全格式模糊匹配
         function renderGrid() {
             iconGrid.innerHTML = '';
-            const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
             
             let filtered = MOCK_ICONS.filter(icon => {
                 const matchesSearch = icon.name.toLowerCase().includes(searchInput.value.toLowerCase().trim());
@@ -350,19 +388,16 @@ const MOCK_ICONS = [
             visibleIcons.forEach(icon => {
                 const card = document.createElement('div');
                 
-                // 补全缺失的 # 号，并提供兜底色值
                 let displayColor = icon.color && !icon.color.startsWith('#') && icon.color !== 'none' ? `#${icon.color}` : icon.color;
                 if (!displayColor || displayColor === 'none') displayColor = '#000000';
 
-                if (icon.format === 'svg') {
-                    card.className = 'icon-card';
-                } else {
-                    card.className = 'icon-card no-color-card';
-                }
+                card.className = icon.format === 'svg' ? 'icon-card' : 'icon-card no-color-card';
 
-                // 🌟 完全复刻截图布局：左侧彩色灌满背景的色块按钮，右侧独立的操作区域
+                // 获取自适应前景色，完美解决纯黑色块字体看不清的问题
+                const textColor = getContrastTextColor(displayColor);
+
                 const bottomBarHtml = icon.format === 'svg'
-                    ? `<div class="color-block-btn" style="background:${displayColor};" title="Click to copy Hex">${displayColor}</div>`
+                    ? `<div class="color-block-btn" style="background:${displayColor}; color:${textColor};" title="Click to copy Hex">${displayColor}</div>`
                     : `<div class="color-block-btn no-color">PNG</div>`;
 
                 card.innerHTML = `
@@ -382,20 +417,6 @@ const MOCK_ICONS = [
                     </div>
                 `;
 
-                // 🌟 激活原色保留与智能黑白亮度反转
-                let activeColor = displayColor;
-                if (icon.format === 'svg') {
-                    const embeddedSvg = card.querySelector('.icon-wrapper svg');
-                    activeColor = applySmartContrastColor(embeddedSvg, displayColor, currentTheme);
-                    
-                    // 特殊关照：如果是 my_logo 因黑夜模式反转了颜色，同步刷新左下角背景色块
-                    if (activeColor !== displayColor && icon.name === 'my_logo') {
-                        const colorBlock = card.querySelector('.color-block-btn');
-                        if (colorBlock) colorBlock.style.background = activeColor;
-                    }
-                }
-
-                // 图标本体复制源码
                 card.querySelector('.icon-wrapper').addEventListener('click', () => {
                     const currentSvg = card.querySelector('.icon-wrapper').innerHTML;
                     if (icon.format === 'svg') copyToClipboard(currentSvg, `Copied SVG code of ${icon.name}!`);
@@ -404,11 +425,10 @@ const MOCK_ICONS = [
                 
                 if (icon.format === 'svg') {
                     card.querySelector('.color-block-btn').addEventListener('click', () => {
-                        copyToClipboard(activeColor, `Copied color value: ${activeColor}!`);
+                        copyToClipboard(displayColor, `Copied color value: ${displayColor}!`);
                     });
                 }
 
-                // 🔍 详情模态窗（基于 name + format 联合锁定，绝不重名冲突）
                 card.querySelector('.view-btn').addEventListener('click', () => {
                     let currentSvgHtml = card.querySelector('.icon-wrapper').innerHTML;
                     const uniqueId = `modal-${icon.name}-${icon.format}`;
@@ -419,19 +439,13 @@ const MOCK_ICONS = [
                     modalPreview.innerHTML = currentSvgHtml;
                     modalName.innerText = icon.name;
                     
-                    if (icon.format === 'svg') {
-                        const targetModalSvg = modalPreview.querySelector('svg');
-                        applySmartContrastColor(targetModalSvg, displayColor, currentTheme);
-                        modalPreview.style.color = activeColor;
-                    }
-                    
                     const sourceHtml = icon.source 
                         ? `<a class="modal-source-link" href="${icon.source}" target="_blank">Official Website <svg style="width:14px;height:14px;fill:currentColor;" viewBox="0 0 24 24"><path d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42L17.59 5H14V3zM5 5h6V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-6h-2v6H5V5z"/></svg></a>` 
                         : `<span style="color:var(--text-muted); font-size:0.9rem;">None</span>`;
 
                     modalInfo.innerHTML = `
                         Format: <b style="text-transform:uppercase; color:var(--accent-color);">${icon.format}</b><br>
-                        ${icon.format === 'svg' ? 'Hex Color: <b style="font-family:monospace;">' + activeColor + '</b><br>' : ''}
+                        ${icon.format === 'svg' ? 'Hex Color: <b style="font-family:monospace;">' + displayColor + '</b><br>' : ''}
                         Source: ${sourceHtml}<br><br>
                         <div style="text-align:left; background:rgba(0,0,0,0.03); padding:14px; border-radius:14px; font-size:0.88rem; border:1px solid var(--border-color); color:var(--text-muted); font-weight:500; max-height:120px; overflow-y:auto; line-height:1.5;">
                             ${icon.info}
@@ -447,19 +461,11 @@ const MOCK_ICONS = [
 
                 iconGrid.appendChild(card);
             });
-            
-            // 顶部 Header 的 my_logo 变色同步
-            const headerLogoSvg = document.querySelector('.header-logo-container svg');
-            const logoAsset = MOCK_ICONS.find(i => i.name === 'my_logo');
-            if (headerLogoSvg && logoAsset) {
-                applySmartContrastColor(headerLogoSvg, logoAsset.color || '#000000', currentTheme);
-            }
         }
 
         modalClose.addEventListener('click', () => detailModal.classList.remove('active'));
         detailModal.addEventListener('click', (e) => { if (e.target === detailModal) detailModal.classList.remove('active'); });
         
-        // 🌟 物理点击防误触事件机制隔离
         toggleMenuBtn.addEventListener('click', (e) => { e.stopPropagation(); sidebarMenu.classList.toggle('active'); });
         document.addEventListener('click', (e) => { if(!sidebarMenu.contains(e.target) && e.target !== toggleMenuBtn) sidebarMenu.classList.remove('active'); });
         
@@ -470,7 +476,7 @@ const MOCK_ICONS = [
             const isLight = document.documentElement.getAttribute('data-theme') === 'light';
             document.documentElement.setAttribute('data-theme', isLight ? 'dark' : 'light');
             themeBtn.innerText = isLight ? "Light Mode" : "Dark Mode";
-            renderGrid(); // 🌟 重新洗色，触发黑白反转切换计算
+            renderGrid();
         });
         densitySelect.addEventListener('change', () => densitySelect.value === 'dense' ? iconGrid.classList.add('dense') : iconGrid.classList.remove('dense'));
         loadMoreBtn.addEventListener('click', () => { displayLimit += 12; renderGrid(); });
@@ -479,3 +485,4 @@ const MOCK_ICONS = [
     </script>
 </body>
 </html>
+
