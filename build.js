@@ -4,36 +4,28 @@ const path = require('path');
 const baseIconsDir = path.join(__dirname, 'icons');
 const templatePath = path.join(__dirname, 'index.html');
 const configPath = path.join(__dirname, 'config.json');
-const preConfigPath = path.join(__dirname, 'pre_config.json'); // 🌟 自动化草稿清单路径
+const preConfigPath = path.join(__dirname, 'pre_config.json');
 
-// 确保目录完备
 const svgDir = path.join(baseIconsDir, 'svg');
 const pngDir = path.join(baseIconsDir, 'png');
 
-// --- 🛠️ 核心：自动扫描全目录，生成预配置草稿 pre_config.json ---
+// --- 1. 自动生成预配置草稿 pre_config.json ---
 const preConfigList = [];
-
 if (fs.existsSync(svgDir)) {
     fs.readdirSync(svgDir).filter(f => f.endsWith('.svg')).forEach(file => {
-        const name = path.basename(file, '.svg');
-        preConfigList.push({ name: name, color: "#007aff", format: "svg", source: "", info: "NPC-icons library trademark design asset." });
+        preConfigList.push({ name: path.basename(file, '.svg'), color: "#007aff", format: "svg", source: "", info: "NPC-icons library trademark design asset." });
     });
 }
 if (fs.existsSync(pngDir)) {
     fs.readdirSync(pngDir).filter(f => f.endsWith('.png')).forEach(file => {
-        const name = path.basename(file, '.png');
-        preConfigList.push({ name: name, color: "", format: "png", source: "", info: "NPC-icons library bitmapped graphic asset." });
+        preConfigList.push({ name: path.basename(file, '.png'), color: "", format: "png", source: "", info: "NPC-icons library bitmapped graphic asset." });
     });
 }
-
-// 自动写入 pre_config.json（每次构建时覆盖刷新，确保永最新）
 fs.writeFileSync(preConfigPath, JSON.stringify(preConfigList, null, 2), 'utf8');
-console.log(`📝 已自动扫描并更新了预配置草稿清单 pre_config.json (共 ${preConfigList.length} 个文件)`);
 
-
-// --- 🚀 核心：按照正式 config.json 构建网页逻辑 ---
+// --- 2. 按照正式 config.json 构建网页逻辑 ---
 if (!fs.existsSync(configPath)) {
-    console.error("❌ 找不到正式清单配置文件 config.json！请先根据 pre_config.json 创建并配置它。");
+    console.error("❌ 找不到正式清单配置文件 config.json！");
     process.exit(1);
 }
 
@@ -48,13 +40,31 @@ iconConfig.forEach((icon) => {
     const filePath = path.join(baseIconsDir, subFolder, filename);
 
     if (!fs.existsSync(filePath)) {
-        console.warn(`⚠️ 找不到物理文件: ${filePath}，已跳过。`);
         return;
     }
 
     if (icon.format === 'svg') {
         let content = fs.readFileSync(filePath, 'utf8');
         content = content.replace(/[\r\n]/g, '').replace(/>\s+</g, '><').trim();
+        
+        // 🌟 核心修复：样式真空隔离引擎
+        // 将 SVG 内部可能导致全局污染的通用类名（如 .cls-1）强行重写为带有图标名的专属类名（如 .home-cls-1）
+        const prefix = `${icon.name}-`;
+        
+        // 匹配 class="cls-1" 并重写
+        content = content.replace(/class="([^"]+)"/g, (match, p1) => {
+            const newClasses = p1.split(/\s+/).map(c => c.startsWith(prefix) ? c : prefix + c).join(' ');
+            return `class="${newClasses}"`;
+        });
+        
+        // 匹配 style 标签内部的选择器（如 .cls-1 { ... }）并同步重写
+        content = content.replace(/<style([^>]*)>([\s\S]*?)<\/style>/gi, (match, p1, p2) => {
+            const rewrittenStyle = p2.replace(/\.([a-zA-Z0-9_-]+)/g, (m, className) => {
+                return className.startsWith(prefix) ? `.${className}` : `.${prefix}${className}`;
+            });
+            return `<style${p1}>${rewrittenStyle}</style>`;
+        });
+
         iconList.push({
             name: icon.name,
             color: icon.color || '#4a4a4a',
@@ -84,12 +94,10 @@ const logoAsset = iconList.find(i => i.name === 'my_logo');
 const logoCode = logoAsset ? logoAsset.code : '';
 
 if (!fs.existsSync(templatePath)) {
-    console.error("❌ 找不到 index.html 模板文件！");
     process.exit(1);
 }
 
 let htmlContent = fs.readFileSync(templatePath, 'utf8');
-
 const jsonString = JSON.stringify(iconList, null, 2);
 htmlContent = htmlContent.replace(/\/\*\[\[BUILD_INSERT_ICONS\]\]\*\/[\s\S]*?\/\*\[\[BUILD_INSERT_END\]\]\*\//, `/*[[BUILD_INSERT_ICONS]]*/\nconst MOCK_ICONS = ${jsonString};\n/*[[BUILD_INSERT_END]]*/`);
 
@@ -112,4 +120,4 @@ if (logoAsset) {
 }
 
 fs.writeFileSync(templatePath, htmlContent, 'utf8');
-console.log(`🚀 数据打包注入成功！当前统计：SVG: ${svgCount} | PNG: ${pngCount}`);
+console.log(`✅ 隔离构建成功！当前统计：SVG: ${svgCount} | PNG: ${pngCount}`);
