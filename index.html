@@ -16,8 +16,8 @@
             --shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
             --blur-bg: rgba(255, 255, 255, 0.7);
             --card-border-radius: 16px;
-            /* 🌟 白天模式下图标背后的淡灰垫底色 */
-            --wrapper-bg: rgba(0, 0, 0, 0.03); 
+            /* 🌟 白天模式：更淡、更纯净的亮灰，拉开对比度 */
+            --wrapper-bg: #f2f2f7; 
         }
         :root[data-theme="dark"] {
             --bg-color: #000000;
@@ -29,8 +29,8 @@
             --shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
             --blur-bg: rgba(28, 28, 30, 0.7);
             --card-border-radius: 16px;
-            /* 🌟 暗黑模式下图标背后的淡灰垫底色，完美衬托红色/深蓝色图标 */
-            --wrapper-bg: #2c2c2e; 
+            /* 🌟 黑夜模式：由原先死沉的 #2c2c2e 大幅调浅至 #48484a 优雅浅高级灰，对比度瞬间拉满 */
+            --wrapper-bg: #48484a; 
         }
 
         .brand-header { max-width: 1200px; margin: 0 auto; padding: 40px 20px 20px 20px; display: flex; justify-content: space-between; align-items: center; }
@@ -62,18 +62,20 @@
         .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 24px; align-items: stretch; }
         .icon-grid.dense { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 14px; }
 
-        .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: var(--card-border-radius); display: flex; flex-direction: column; justify-content: space-between; min-height: 240px; box-shadow: var(--shadow); position: relative; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); overflow: hidden; }
-        .icon-grid.dense .icon-card { min-height: 190px; }
+        /* 🌟 重构：卡片彻底移除内部全局边距冲突，改由子组件按需延展，彻底解决不对称 */
+        .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: var(--card-border-radius); display: flex; flex-direction: column; justify-content: space-between; min-height: 240px; box-shadow: var(--shadow); position: relative; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); overflow: hidden; padding: 0 !important; }
+        .icon-grid.dense .icon-card { min-height: 195px; }
         .format-badge { position: absolute; top: 10px; right: 12px; font-size: 0.65rem; opacity: 0.4; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; pointer-events: none; z-index: 5; }
         
-        /* 🌟 升级：为包装容器应用淡灰色背景，并加上柔和圆角 */
-        .icon-wrapper { width: calc(100% - 24px); height: 120px; display: flex; justify-content: center; align-items: center; cursor: pointer; padding: 20px; margin: 12px 12px 0 12px; background: var(--wrapper-bg); border-radius: 12px; }
-        .icon-grid.dense .icon-wrapper { height: 95px; padding: 15px; margin: 8px 8px 0 8px; width: calc(100% - 16px); }
+        /* 🌟 隔离修复：移除 calc，容器左右留白通过外层透明 border 完美对称卡住，100% 绝对正中心 */
+        .icon-wrapper { width: 100%; height: 120px; display: flex; justify-content: center; align-items: center; cursor: pointer; padding: 20px; background: var(--wrapper-bg); border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 12px solid transparent; background-clip: padding-box; border-radius: 22px; }
+        .icon-grid.dense .icon-wrapper { height: 95px; padding: 15px; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 8px solid transparent; border-radius: 16px; }
         .icon-wrapper svg, .icon-wrapper img { width: 80px; height: 80px; object-fit: contain; max-width: 100%; max-height: 100%; }
         .icon-grid.dense .icon-wrapper svg, .icon-grid.dense .icon-wrapper img { width: 64px; height: 64px; }
         
-        .icon-name { font-weight: 600; font-size: 1.15rem; text-align: left; width: 100%; padding: 0 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 12px; margin-top: 4px; }
-        .icon-grid.dense .icon-name { padding: 0 10px; font-size: 0.95rem; margin-bottom: 8px; }
+        /* 靠左文本内边距同步修正 */
+        .icon-name { font-weight: 600; font-size: 1.15rem; text-align: left; width: 100%; padding: 0 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 12px; margin-top: 8px; }
+        .icon-grid.dense .icon-name { padding: 0 10px; font-size: 0.95rem; margin-bottom: 8px; margin-top: 6px; }
 
         .card-bottom-bar { display: flex; width: 100%; height: 42px; border-top: 1px solid var(--border-color); background: rgba(0,0,0,0.01); }
         .icon-grid.dense .card-bottom-bar { height: 36px; }
@@ -92,7 +94,6 @@
         
         * { box-sizing: border-box; margin: 0; padding: 0; transition: background-color 0.3s, color 0.3s, border-color 0.3s; }
         body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; background-color: var(--bg-color); color: var(--text-color); padding-bottom: 60px; -webkit-font-smoothing: antialiased; }
-
 
 
 
