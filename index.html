@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NPC-icons 图标库</title>
-    <link rel="icon" href="https://newddf.xyz/favicon.ico" type="image/x-icon">
-    <!-- 🌟 浏览器标签栏图标动态注入锚点（会自动替换为你的 my_logo） -->
     <link id="favicon" rel="icon" href="">
     <style>
         :root[data-theme="light"] {
@@ -17,6 +15,7 @@
             --accent-color: #007aff;
             --shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
             --blur-bg: rgba(255, 255, 255, 0.7);
+            --card-border-radius: 16px;
         }
         :root[data-theme="dark"] {
             --bg-color: #000000;
@@ -27,157 +26,125 @@
             --accent-color: #0a84ff;
             --shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
             --blur-bg: rgba(28, 28, 30, 0.7);
+            --card-border-radius: 16px;
         }
-
         * { box-sizing: border-box; margin: 0; padding: 0; transition: background-color 0.3s, color 0.3s, border-color 0.3s; }
         body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; background-color: var(--bg-color); color: var(--text-color); padding-bottom: 60px; -webkit-font-smoothing: antialiased; }
-        
-        /* 🌟 全新设计的 Apple 风双端对齐 Header */
+
+
+
+
+
         .brand-header { max-width: 1200px; margin: 0 auto; padding: 40px 20px 20px 20px; display: flex; justify-content: space-between; align-items: center; }
         .header-left { display: flex; align-items: center; gap: 14px; }
-        .header-logo-container { width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; color: var(--text-color); }
+        .header-logo-container { width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; }
         .header-logo-container svg, .header-logo-container img { width: 100%; height: 100%; object-fit: contain; }
         .header-titles { display: flex; flex-direction: column; }
         .header-titles h1 { font-size: 1.8rem; font-weight: 700; letter-spacing: -0.5px; line-height: 1.2; }
         .header-counter { font-size: 0.8rem; color: var(--text-muted); font-weight: 500; margin-top: 2px; }
-        
         .header-right { display: flex; gap: 16px; align-items: center; }
-        .nav-icon-link { color: var(--text-color); opacity: 0.7; transition: opacity 0.2s, transform 0.2s; display: flex; align-items: center; justify-content: center; }
-        .nav-icon-link:hover { opacity: 1; transform: scale(1.05); }
+        .nav-icon-link { color: var(--text-color); opacity: 0.7; transition: opacity 0.2s; display: flex; align-items: center; justify-content: center; }
+        .nav-icon-link:hover { opacity: 1; }
         .nav-icon-link svg { width: 24px; height: 24px; fill: currentColor; }
 
-        /* 工具栏纯图标化设计 */
         .toolbar { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; gap: 12px; align-items: center; position: relative; }
-        .sidebar-toggle { background: var(--card-bg); border: 1px solid var(--border-color); width: 46px; height: 46px; border-radius: 12px; cursor: pointer; color: var(--text-color); display: flex; align-items: center; justify-content: center; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); }
-        .sidebar-toggle svg { width: 20px; height: 20px; fill: currentColor; }
+        .sidebar-toggle { background: var(--card-bg); border: 1px solid var(--border-color); width: 48px; height: 48px; border-radius: 12px; cursor: pointer; color: var(--text-color); display: flex; align-items: center; justify-content: center; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); padding: 0; outline: none; }
+        .sidebar-toggle svg { width: 22px; height: 22px; fill: currentColor; pointer-events: none; }
         
-        .sidebar { position: absolute; top: 52px; left: 20px; background: var(--blur-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 18px; display: none; flex-direction: column; gap: 15px; z-index: 100; box-shadow: var(--shadow); min-width: 220px; backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); }
+        .sidebar { position: absolute; top: 56px; left: 20px; background: var(--blur-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 18px; display: none; flex-direction: column; gap: 15px; z-index: 100; box-shadow: var(--shadow); min-width: 220px; backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); }
         .sidebar.active { display: flex; }
         .menu-item { display: flex; flex-direction: column; gap: 6px; font-size: 0.85rem; font-weight: 500; }
         .menu-item select, .menu-item button { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(255,255,255,0.1); color: var(--text-color); cursor: pointer; font-size: 0.85rem; }
 
-        /* 英文提示搜索框 */
         .search-box { flex: 1; }
-        .search-box input { width: 100%; padding: 12px 20px; height: 46px; border-radius: 12px; border: 1px solid var(--border-color); background: var(--card-bg); color: var(--text-color); font-size: 0.95rem; outline: none; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); }
+        .search-box input { width: 100%; padding: 12px 20px; height: 48px; border-radius: 12px; border: 1px solid var(--border-color); background: var(--card-bg); color: var(--text-color); font-size: 0.95rem; outline: none; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); }
         .search-box input:focus { border-color: var(--accent-color); }
 
         .main-container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
-        
-        /* 🌟 严格等高控制：彻底解决由于文本长短和PNG没有颜色值产生的错位问题 */
         .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 24px; align-items: stretch; }
         .icon-grid.dense { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 14px; }
-        
-        /* 使用 Flex 布局垂直平分空间，并限制最小高度 */
-        .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 22px 16px 16px 16px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; min-height: 225px; box-shadow: var(--shadow); position: relative; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s; }
-        .icon-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
-        
-        /* 紧凑模式下的等高线锁定 */
-        .icon-grid.dense .icon-card { min-height: 185px; padding: 14px 10px; }
 
-        .format-badge { position: absolute; top: 10px; right: 12px; font-size: 0.65rem; opacity: 0.4; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
-        
-        /* 图标 1/2 尺寸锁定 */
-        .icon-wrapper { width: 80px; height: 80px; display: flex; justify-content: center; align-items: center; cursor: pointer; border-radius: 14px; }
-        .icon-grid.dense .icon-wrapper { width: 64px; height: 64px; }
-        .icon-wrapper svg, .icon-wrapper img { width: 100%; height: 100%; object-fit: contain; }
-        
-        /* 🌟 超长文本裁剪：防止超长字符拉伸或撑开容器 */
-        .icon-name { font-weight: 600; font-size: 0.95rem; text-align: center; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 6px; }
-        
-        /* 颜色标签固定高度，防止 PNG 因没有此项导致排版高度塌陷 */
-        .color-slot-wrapper { height: 22px; display: flex; align-items: center; justify-content: center; width: 100%; }
-        .icon-color { font-size: 0.72rem; color: var(--text-muted); cursor: pointer; padding: 2px 8px; border-radius: 6px; background: rgba(0,0,0,0.03); font-family: monospace; }
-        [data-theme="dark"] .icon-color { background: rgba(255,255,255,0.05); }
 
-        .card-actions { display: flex; gap: 14px; width: 100%; justify-content: center; margin-top: 8px; border-top: 1px solid var(--border-color); padding-top: 10px; }
-        .action-btn { background: none; border: none; cursor: pointer; color: var(--text-muted); display: flex; align-items: center; justify-content: center; padding: 6px; border-radius: 8px; }
-        .action-btn:hover { color: var(--accent-color); background: rgba(0, 74, 255, 0.08); }
-        .action-btn svg { width: 18px; height: 18px; fill: currentColor; }
 
-        /* 全屏放大镜模态弹窗与可点击 Source 样式 */
+
+            .icon-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: var(--card-border-radius); display: flex; flex-direction: column; justify-content: space-between; min-height: 240px; box-shadow: var(--shadow); position: relative; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); overflow: hidden; }
+        .icon-grid.dense .icon-card { min-height: 190px; }
+        .format-badge { position: absolute; top: 10px; right: 12px; font-size: 0.65rem; opacity: 0.4; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; pointer-events: none; z-index: 5; }
+        
+        .icon-wrapper { width: 100%; height: 120px; display: flex; justify-content: center; align-items: center; cursor: pointer; padding: 20px; margin-top: 10px; }
+        .icon-grid.dense .icon-wrapper { height: 95px; padding: 15px; margin-top: 5px; }
+        .icon-wrapper svg, .icon-wrapper img { width: 80px; height: 80px; object-fit: contain; max-width: 100%; max-height: 100%; }
+        .icon-grid.dense .icon-wrapper svg, .icon-grid.dense .icon-wrapper img { width: 64px; height: 64px; }
+        
+        .icon-name { font-weight: 600; font-size: 1.15rem; text-align: left; width: 100%; padding: 0 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 12px; }
+        .icon-grid.dense .icon-name { padding: 0 10px; font-size: 0.95rem; margin-bottom: 8px; }
+
+        .card-bottom-bar { display: flex; width: 100%; height: 42px; border-top: 1px solid var(--border-color); background: rgba(0,0,0,0.01); }
+        .icon-grid.dense .card-bottom-bar { height: 36px; }
+        
+        .color-block-btn { flex: 1.3; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 0.78rem; font-weight: 700; color: #ffffff; cursor: pointer; font-family: monospace; letter-spacing: 0.2px; text-shadow: 0 1px 2px rgba(0,0,0,0.15); padding: 0 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .color-block-btn.no-color { background: rgba(0,0,0,0.04) !important; color: var(--text-muted); text-shadow: none; font-weight: 600; cursor: default; }
+        [data-theme="dark"] .color-block-btn.no-color { background: rgba(255,255,255,0.04) !important; }
+
+        .action-btn-zone { flex: 1.7; height: 100%; display: flex; border-left: 1px solid var(--border-color); }
+        .action-btn { flex: 1; height: 100%; background: none; border: none; cursor: pointer; color: var(--text-color); opacity: 0.75; display: flex; align-items: center; justify-content: center; transition: background-color 0.2s, opacity 0.2s; }
+        .action-btn:hover { opacity: 1; background: rgba(0, 0, 0, 0.03); }
+        [data-theme="dark"] .action-btn:hover { background: rgba(255, 255, 255, 0.05); }
+        .action-btn:first-child { border-right: 1px solid var(--border-color); }
+        .action-btn svg { width: 17px; height: 18px; fill: currentColor; }
+        .icon-grid.dense .action-btn svg { width: 15px; height: 16px; }
+
+
+
+
         .modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.4); z-index: 1000; display: flex; justify-content: center; align-items: center; opacity: 0; pointer-events: none; transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1); backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); }
         .modal-overlay.active { opacity: 1; pointer-events: auto; }
         .modal-content { background: var(--blur-bg); border: 1px solid var(--border-color); width: 90%; max-width: 420px; border-radius: 28px; padding: 35px 30px; box-shadow: 0 20px 50px rgba(0,0,0,0.2); transform: scale(0.85) translateY(20px); transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); display: flex; flex-direction: column; align-items: center; gap: 16px; position: relative; }
         .modal-overlay.active .modal-content { transform: scale(1) translateY(0); }
-        
         .modal-close { position: absolute; top: 16px; right: 16px; background: rgba(0,0,0,0.05); border: none; width: 30px; height: 30px; border-radius: 50%; cursor: pointer; color: var(--text-color); font-weight: bold; display: flex; align-items: center; justify-content: center; }
         .modal-preview { width: 120px; height: 120px; display: flex; align-items: center; justify-content: center; }
         .modal-preview svg, .modal-preview img { width: 100%; height: 100%; }
-        
-        /* 🌟 Source 链接高亮及新标签页图标 */
         .modal-source-link { color: var(--accent-color); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; }
         .modal-source-link:hover { text-decoration: underline; }
-
         .load-more-container { text-align: center; margin: 50px 0; }
         .load-more-btn { background: var(--card-bg); border: 1px solid var(--border-color); padding: 14px 40px; border-radius: 25px; cursor: pointer; color: var(--text-color); font-size: 0.95rem; font-weight: 600; box-shadow: var(--shadow); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
-
         .toast { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%) translateY(100px); background: rgba(0,0,0,0.8); color: #fff; padding: 12px 24px; border-radius: 14px; font-size: 0.9rem; font-weight: 500; z-index: 2000; opacity: 0; transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
         .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
         footer { text-align: center; padding: 40px 20px; color: var(--text-muted); font-size: 0.85rem; font-weight: 500; border-top: 1px solid var(--border-color); margin-top: 60px; }
     </style>
 </head>
-
-
-
-
-
-
-
 <body>
-
-    <!-- 🌟 全新设计的 Apple 风双端对齐 Header 区域 -->
     <div class="brand-header">
         <div class="header-left">
-            <div class="header-logo-container">
-                <!-- 👇 自动化构建脚本在打包时，会自动在此位置注入 my_logo 原始资产 -->
-                <?xml version="1.0" encoding="UTF-8"?><svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs><style>      .cls-1, .cls-2 {        stroke-width: 0px;      }      .cls-2 {        fill: #fff;      }    </style></defs><rect class="cls-1" x="-.26" y="-.73" width="120" height="120" rx="30.16" ry="30.16"/><g><polygon class="cls-2" points="49.26 75.82 34.04 84.6 34.04 74.38 20.83 92.11 34.49 100 51.33 90.28 62.29 36.46 49.26 53.95 49.26 75.82"/><polygon class="cls-2" points="89.16 78.03 89.16 85.41 77.67 78.81 77.67 62.68 67.96 49.72 67.96 84.38 98.26 90.18 95.21 86.11 89.16 78.03"/><polygon class="cls-2" points="89.16 47.55 89.16 76.53 95.99 85.66 98.5 89.01 88.39 36.74 68.17 48.51 77.67 61.18 77.67 54.24 89.16 47.55"/><polygon class="cls-2" points="98.04 91.05 70.05 85.69 88.71 96.41 98.04 91.05"/><polygon class="cls-2" points="98.86 86.17 98.86 42.39 96.37 40.96 89.34 36.91 98.86 86.17"/><polygon class="cls-2" points="20.61 87.56 33.86 18.71 20.61 26.36 20.61 87.56"/><polygon class="cls-2" points="34.04 72.88 34.04 33.74 49.26 42.64 49.26 52.46 55.17 44.52 62.47 34.72 34.81 18.54 20.97 90.42 34.04 72.88"/><polygon class="cls-2" points="62.68 39.03 52.38 89.62 62.68 83.64 62.68 39.03"/></g></svg>
-            </div>
+            <div class="header-logo-container"><?xml version="1.0" encoding="UTF-8"?><svg id="_图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs><style>      .cls-1, .cls-2 {        stroke-width: 0px;      }      .cls-2 {        fill: #fff;      }    </style></defs><rect class="cls-1" x="-.26" y="-.73" width="120" height="120" rx="30.16" ry="30.16"/><g><polygon class="cls-2" points="49.26 75.82 34.04 84.6 34.04 74.38 20.83 92.11 34.49 100 51.33 90.28 62.29 36.46 49.26 53.95 49.26 75.82"/><polygon class="cls-2" points="89.16 78.03 89.16 85.41 77.67 78.81 77.67 62.68 67.96 49.72 67.96 84.38 98.26 90.18 95.21 86.11 89.16 78.03"/><polygon class="cls-2" points="89.16 47.55 89.16 76.53 95.99 85.66 98.5 89.01 88.39 36.74 68.17 48.51 77.67 61.18 77.67 54.24 89.16 47.55"/><polygon class="cls-2" points="98.04 91.05 70.05 85.69 88.71 96.41 98.04 91.05"/><polygon class="cls-2" points="98.86 86.17 98.86 42.39 96.37 40.96 89.34 36.91 98.86 86.17"/><polygon class="cls-2" points="20.61 87.56 33.86 18.71 20.61 26.36 20.61 87.56"/><polygon class="cls-2" points="34.04 72.88 34.04 33.74 49.26 42.64 49.26 52.46 55.17 44.52 62.47 34.72 34.81 18.54 20.97 90.42 34.04 72.88"/><polygon class="cls-2" points="62.68 39.03 52.38 89.62 62.68 83.64 62.68 39.03"/></g></svg></div>
             <div class="header-titles">
                 <h1>NPC-icons</h1>
-                <!-- 🌟 智能英文小字统计栏（由脚本在云端动态填入准确数值） -->
-                <div class="header-counter">
-                    SVG: <span id="svg-total">6</span> | PNG: <span id="png-total">1</span>
-                </div>
+                <div class="header-counter">SVG: <span id="svg-total">6</span> | PNG: <span id="png-total">1</span></div>
             </div>
         </div>
         <div class="header-right">
-            <!-- ⚖️ 天平免责声明外链 -->
-            <a class="nav-icon-link" href="https://github.com/newDDF/NPC-icons/blob/main/DISCLAIMER.md" target="_blank" title="Disclaimer">
-                <svg class="inline-flex" role="img" aria-hidden="true" width="21" height="21" aria-label="" viewBox="0 0 24 24"><path d="m23.9 9.7-3.54-7.89-.005-.01a.542.542 0 0 0-.041-.076l-.014-.018a.533.533 0 0 0-.122-.122l-.015-.011a.528.528 0 0 0-.08-.044l-.024-.009a.527.527 0 0 0-.067-.02l-.028-.007a.524.524 0 0 0-.096-.01h-6.85c-1.02-1.52-1.02-1.54-2 0h-6.86a.543.543 0 0 0-.096.01l-.028.007a.516.516 0 0 0-.067.02l-.024.01a.537.537 0 0 0-.08.043l-.015.011a.51.51 0 0 0-.057.047l-.02.02a.543.543 0 0 0-.045.055l-.014.018a.522.522 0 0 0-.041.075l-.005.01v.001L.116 9.72a.531.531 0 0 0-.096.304c0 2.28 1.86 4.14 4.14 4.14s4.14-1.86 4.14-4.14a.53.53 0 0 0-.096-.304l-3.25-6.37 6.07-.023v18.2c-2.55.294-7.01.381-7 2.5h16c0-2.03-4.48-2.27-7-2.5v-18.1l5.69-.02-2.92 6.49c0 .002 0 .003-.002.005l-.006.018a.545.545 0 0 0-.023.075l-.005.02a.524.524 0 0 0-.01.092v.008c0 2.28 1.86 4.14 4.14 4.14 2.28 0 4.14-1.86 4.14-4.14a.528.528 0 0 0-.12-.332z" fill=""><!----></path></svg>
+            <a class="nav-icon-link" href="https://github.com" target="_blank" title="Disclaimer">
+                <svg viewBox="0 0 24 24"><path d="M12 2a1 1 0 0 1 .993 .883L13 3v1.166l6.305 2.101a1 1 0 0 1 .684 .867L20 9.25v2.5a5.5 5.5 0 0 1-5.26 5.493l-.24.007H13v3.25h2.5a1 1 0 0 1 .117 1.993L15.5 23h-7a1 1 0 0 1-.117-1.993L8.5 21H11v-3.25H9.5a5.5 5.5 0 0 1-5.493-5.26L4 11.75v-2.5a1 1 0 0 1 .61-.924l.095-.034L11 4.167V3a1 1 0 0 1 .883-.993L12 2zm2.5 11.5h-5a3.5 3.5 0 0 0-3.493 3.25l-.007.25h12a3.5 3.5 0 0 0-3.493-3.25l-.007-.25zm-2.5-6.843l-4.5 1.5v2.593a3.502 3.502 0 0 0 4.5 3.356V6.657zm4.5 1.5l-4.5-1.5v7.45a3.502 3.502 0 0 0 4.5-3.356V8.157z"/></svg>
             </a>
-                <!-- 🐱 GitHub 猫爪源码仓外链 -->
-            <a class="nav-icon-link" href="https://github.com/newddf/" target="_blank" title="GitHub Repository">
-                <svg class="inline-flex" role="img" aria-hidden="true" width="25" height="25" aria-label="" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" fill=""><!----></path></svg>
+            <a class="nav-icon-link" href="https://github.com" target="_blank" title="GitHub Repository">
+                <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
             </a>
         </div>
     </div>
-
-    <!-- 工具栏（精简去字、纯图标化 Apple 设计） -->
     <div class="toolbar">
-        <button class="sidebar-toggle" id="toggleMenu" title="Menu Settings">
-            <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
-        </button>
+        <button class="sidebar-toggle" id="toggleMenu" title="Menu Settings"><svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></button>
         <div class="sidebar" id="sidebarMenu">
             <div class="menu-item"><label>Sort Order</label><select id="sortSelect"><option value="asc">A-Z (Ascending)</option><option value="desc">Z-A (Descending)</option></select></div>
             <div class="menu-item"><label>Theme Mode</label><button id="themeBtn">Switch Mode</button></div>
             <div class="menu-item"><label>Filter Format</label><select id="formatSelect"><option value="all">All Formats</option><option value="svg">Only SVG</option><option value="png">Only PNG</option></select></div>
             <div class="menu-item"><label>Display Density</label><select id="densitySelect"><option value="normal">Comfortable</option><option value="dense">Compact</option></select></div>
         </div>
-        <!-- 🌟 纯英文占位符搜索框 -->
-        <div class="search-box">
-            <input type="text" id="searchInput" placeholder="Search icons...">
-        </div>
+        <div class="search-box"><input type="text" id="searchInput" placeholder="Search icons..."></div>
     </div>
-
-    <!-- 图标主体展示网格 -->
     <main class="main-container">
         <div class="icon-grid" id="iconGrid"></div>
-        <div class="load-more-container">
-            <button class="load-more-btn" id="loadMoreBtn">Show More</button>
-        </div>
+        <div class="load-more-container"><button class="load-more-btn" id="loadMoreBtn">Show More</button></div>
     </main>
-
-    <!-- 🌟 全新升级的详情模态大窗：支持富文本自定义详情与超链接点击 -->
     <div class="modal-overlay" id="detailModal">
         <div class="modal-content">
             <button class="modal-close" id="modalClose">✕</button>
@@ -186,10 +153,8 @@
             <p id="modalInfo" style="font-size: 0.95rem; color: var(--text-color); text-align: center; line-height: 1.6; max-width: 340px; word-break: break-word;"></p>
         </div>
     </div>
-
     <div class="toast" id="toast">Copied to clipboard!</div>
-    <footer>Copyright@NPC2026-2027</footer>
-
+    <footer>Copyright@NPC2026</footer>
 
 
 
@@ -198,7 +163,7 @@
 
 
     <script>
-        // 👇 自动化脚本在构建时会自动重写此区域的数据，请勿删除或修改两行占位符注释
+        // 👇 自动化构建脚本在打包时，会自动往此占位符区域动态注入正式数据清单
         /*[[BUILD_INSERT_ICONS]]*/
 const MOCK_ICONS = [
   {
@@ -311,28 +276,45 @@ const MOCK_ICONS = [
             showToast(`Download started: ${name}.${format}`);
         }
 
-        // 🌟 强力上色处理器引擎
-        function applySvgColor(svgElement, color) {
-            if (!svgElement || !color) return;
-            svgElement.style.color = color;
+        // 🌟 智能黑白反转引擎：穿透全路径，实时动态洗掉锁死的黑夜/白天对冲色
+        function applySmartContrastColor(svgElement, originalColor, currentTheme) {
+            if (!svgElement) return originalColor;
+            let finalColor = originalColor;
+            const cleanHex = originalColor.replace('#', '').toLowerCase().trim();
+            
+            if (currentTheme === 'dark') {
+                // 夜间模式保护：将接近黑色或透明默认值的 SVG 强行翻转为纯白高亮
+                if (cleanHex === '000000' || cleanHex === '000' || cleanHex === 'none' || cleanHex === '') {
+                    finalColor = '#ffffff';
+                }
+            } else {
+                // 白天模式保护：将纯白色的 SVG 强行翻转为纯黑展示
+                if (cleanHex === 'ffffff' || cleanHex === 'fff') {
+                    finalColor = '#000000';
+                }
+            }
+
+            svgElement.style.color = finalColor;
             const allShapes = svgElement.querySelectorAll('path, circle, rect, polygon, ellipse, line, polyline');
             allShapes.forEach(shape => {
-                if (shape.getAttribute('fill') !== 'none') {
-                    shape.setAttribute('fill', color);
+                if (shape.getAttribute('fill') && shape.getAttribute('fill') !== 'none') {
+                    shape.setAttribute('fill', finalColor);
                 }
-                if (shape.hasAttribute('stroke') && shape.getAttribute('stroke') !== 'none') {
-                    shape.setAttribute('stroke', color);
+                if (shape.getAttribute('stroke') && shape.getAttribute('stroke') !== 'none') {
+                    shape.setAttribute('stroke', finalColor);
                 }
             });
+            return finalColor;
         }
 
 
 
 
 
-        // 🔍 核心等高渲染（彻底修复重名干涉与吃掉卡片问题）
+        // 🔍 核心等高网格与截图布局还原渲染
         function renderGrid() {
             iconGrid.innerHTML = '';
+            const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
             
             let filtered = MOCK_ICONS.filter(icon => {
                 const matchesSearch = icon.name.toLowerCase().includes(searchInput.value.toLowerCase().trim());
@@ -352,69 +334,79 @@ const MOCK_ICONS = [
             visibleIcons.forEach(icon => {
                 const card = document.createElement('div');
                 
+                // 补全缺失的 # 号，并提供兜底色值
+                let displayColor = icon.color && !icon.color.startsWith('#') && icon.color !== 'none' ? `#${icon.color}` : icon.color;
+                if (!displayColor || displayColor === 'none') displayColor = '#000000';
+
                 if (icon.format === 'svg') {
                     card.className = 'icon-card';
-                    card.style.color = icon.color; 
                 } else {
                     card.className = 'icon-card no-color-card';
-                    card.style.color = 'var(--text-color)';
                 }
-                
-                // 🌟 自动容错修复：如果你漏写了 # 号，这里会自动补齐
-                const displayColor = icon.color && !icon.color.startsWith('#') && icon.color !== 'none' ? `#${icon.color}` : icon.color;
 
-                const colorDisplay = icon.format === 'svg' 
-                    ? `<div class="icon-color" title="Click to copy color">${displayColor}</div>` 
-                    : '';
+                // 🌟 完全复刻截图布局：左侧彩色灌满背景的色块按钮，右侧独立的操作区域
+                const bottomBarHtml = icon.format === 'svg'
+                    ? `<div class="color-block-btn" style="background:${displayColor};" title="Click to copy Hex">${displayColor}</div>`
+                    : `<div class="color-block-btn no-color">PNG</div>`;
 
                 card.innerHTML = `
                     <span class="format-badge">${icon.format}</span>
-                    <div class="icon-wrapper" title="Click to copy asset">${icon.code}</div>
-                    <div class="icon-name" style="color:var(--text-color);" title="${icon.name}">${icon.name}</div>
-                    <div class="color-slot-wrapper">${colorDisplay}</div>
-                    <div class="card-actions">
-                        <button class="action-btn view-btn" title="Inspect Detail">
-                            <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-                        </button>
-                        <button class="action-btn down-btn" title="Download Asset">
-                            <svg viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
-                        </button>
+                    <div class="icon-wrapper" title="Click to copy asset code">${icon.code}</div>
+                    <div class="icon-name" style="color:var(--text-color);">${icon.name}</div>
+                    <div class="card-bottom-bar">
+                        ${bottomBarHtml}
+                        <div class="action-btn-zone">
+                            <button class="action-btn view-btn" title="Inspect Detail">
+                                <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                            </button>
+                            <button class="action-btn down-btn" title="Download Asset">
+                                <svg viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/></svg>
+                            </button>
+                        </div>
                     </div>
                 `;
 
+                // 🌟 激活原色保留与智能黑白亮度反转
+                let activeColor = displayColor;
                 if (icon.format === 'svg') {
                     const embeddedSvg = card.querySelector('.icon-wrapper svg');
-                    applySvgColor(embeddedSvg, displayColor);
+                    activeColor = applySmartContrastColor(embeddedSvg, displayColor, currentTheme);
+                    
+                    // 特殊关照：如果是 my_logo 因黑夜模式反转了颜色，同步刷新左下角背景色块
+                    if (activeColor !== displayColor && icon.name === 'my_logo') {
+                        const colorBlock = card.querySelector('.color-block-btn');
+                        if (colorBlock) colorBlock.style.background = activeColor;
+                    }
                 }
 
+                // 图标本体复制源码
                 card.querySelector('.icon-wrapper').addEventListener('click', () => {
                     const currentSvg = card.querySelector('.icon-wrapper').innerHTML;
-                    if (icon.format === 'svg') copyToClipboard(currentSvg, `Copied SVG code!`);
+                    if (icon.format === 'svg') copyToClipboard(currentSvg, `Copied SVG code of ${icon.name}!`);
                     else copyToClipboard(icon.name, `Copied icon name: ${icon.name}!`);
                 });
                 
                 if (icon.format === 'svg') {
-                    card.querySelector('.icon-color').addEventListener('click', (e) => {
-                        e.stopPropagation();
-                        copyToClipboard(displayColor, `Copied color value: ${displayColor}!`);
+                    card.querySelector('.color-block-btn').addEventListener('click', () => {
+                        copyToClipboard(activeColor, `Copied color value: ${activeColor}!`);
                     });
                 }
 
-                // 🔍 详情窗（🌟 联合标识名称+格式双重锁定隔离区）
+                // 🔍 详情模态窗（基于 name + format 联合锁定，绝不重名冲突）
                 card.querySelector('.view-btn').addEventListener('click', () => {
                     let currentSvgHtml = card.querySelector('.icon-wrapper').innerHTML;
-                    
                     const uniqueId = `modal-${icon.name}-${icon.format}`;
+                    
                     currentSvgHtml = currentSvgHtml.replace(/id="([^"]+)"/g, `id="${uniqueId}-$1"`)
                                                    .replace(/url\(#([^)]+)\)/g, `url(#${uniqueId}-$1)`);
 
                     modalPreview.innerHTML = currentSvgHtml;
-                    modalPreview.style.color = displayColor;
                     modalName.innerText = icon.name;
                     
                     if (icon.format === 'svg') {
                         const targetModalSvg = modalPreview.querySelector('svg');
-                        applySvgColor(targetModalSvg, displayColor);
+                        applySmartContrastColor(targetModalSvg, displayColor, currentTheme);
+                        modalPreview.style.color = activeColor;
                     }
                     
                     const sourceHtml = icon.source 
@@ -423,7 +415,7 @@ const MOCK_ICONS = [
 
                     modalInfo.innerHTML = `
                         Format: <b style="text-transform:uppercase; color:var(--accent-color);">${icon.format}</b><br>
-                        ${icon.format === 'svg' ? 'Hex Color: <b style="font-family:monospace;">' + displayColor + '</b><br>' : ''}
+                        ${icon.format === 'svg' ? 'Hex Color: <b style="font-family:monospace;">' + activeColor + '</b><br>' : ''}
                         Source: ${sourceHtml}<br><br>
                         <div style="text-align:left; background:rgba(0,0,0,0.03); padding:14px; border-radius:14px; font-size:0.88rem; border:1px solid var(--border-color); color:var(--text-muted); font-weight:500; max-height:120px; overflow-y:auto; line-height:1.5;">
                             ${icon.info}
@@ -440,16 +432,19 @@ const MOCK_ICONS = [
                 iconGrid.appendChild(card);
             });
             
+            // 顶部 Header 的 my_logo 变色同步
             const headerLogoSvg = document.querySelector('.header-logo-container svg');
             const logoAsset = MOCK_ICONS.find(i => i.name === 'my_logo');
             if (headerLogoSvg && logoAsset) {
-                applySvgColor(headerLogoSvg, logoAsset.color || 'var(--text-color)');
+                applySmartContrastColor(headerLogoSvg, logoAsset.color || '#000000', currentTheme);
             }
         }
 
         modalClose.addEventListener('click', () => detailModal.classList.remove('active'));
         detailModal.addEventListener('click', (e) => { if (e.target === detailModal) detailModal.classList.remove('active'); });
-        toggleMenuBtn.addEventListener('click', () => sidebarMenu.classList.toggle('active'));
+        
+        // 🌟 物理点击防误触事件机制隔离
+        toggleMenuBtn.addEventListener('click', (e) => { e.stopPropagation(); sidebarMenu.classList.toggle('active'); });
         document.addEventListener('click', (e) => { if(!sidebarMenu.contains(e.target) && e.target !== toggleMenuBtn) sidebarMenu.classList.remove('active'); });
         
         searchInput.addEventListener('input', () => { displayLimit = 12; renderGrid(); });
@@ -459,6 +454,7 @@ const MOCK_ICONS = [
             const isLight = document.documentElement.getAttribute('data-theme') === 'light';
             document.documentElement.setAttribute('data-theme', isLight ? 'dark' : 'light');
             themeBtn.innerText = isLight ? "Light Mode" : "Dark Mode";
+            renderGrid(); // 🌟 重新洗色，触发黑白反转切换计算
         });
         densitySelect.addEventListener('change', () => densitySelect.value === 'dense' ? iconGrid.classList.add('dense') : iconGrid.classList.remove('dense'));
         loadMoreBtn.addEventListener('click', () => { displayLimit += 12; renderGrid(); });
@@ -467,4 +463,3 @@ const MOCK_ICONS = [
     </script>
 </body>
 </html>
-
