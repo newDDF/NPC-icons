@@ -24,5 +24,20 @@
   { "name": "bitcoin", "color": "#F7931A", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
   { "name": "visa", "color": "#1A1F71", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
   { "name": "mastercard", "color": "#EB001B", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
-  { "name": "paypal", "color": "#002991", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." }
+  { "name": "paypal", "color": "#002991", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "soundcloud", "color": "#FF5500", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "cloudflare", "color": "#F38020", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "reddit", "color": "#FF4500", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "capsule", "color": "#000000", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "tomianime", "color": "#EF4E46", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "reddoribon", "color": "#EB1C25", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "hainingzhongxue", "color": "#814A2B", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "oracle", "color": "#ED0004", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "amazon", "color": "#FA6306", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "synology", "color": "#B5B5B6", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "duolingo", "color": "#58CC02", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "wise", "color": "#9FE870", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "netbird", "color": "#F68330", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "dedirock", "color": "#474596", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." },
+  { "name": "racknerd", "color": "#0877BA", "format": "svg", "source": "", "info": "NPC-icons library trademark design asset." }
 ]
