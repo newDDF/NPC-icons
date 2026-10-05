@@ -219,7 +219,7 @@
     <div class="toolbar">
         <button class="sidebar-toggle" id="toggleMenu" title="Menu Settings"><svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></button>
         <div class="sidebar" id="sidebarMenu">
-            <div class="menu-item"><label>Sort Order</label><select id="sortSelect"><option value="asc">A-Z (Ascending)</option><option value="desc">Z-A (Descending)</option></select></div>
+            <div class="menu-item"><label>Sort Order</label><select id="sortSelect"><option value="asc">A-Z (Ascending)</option><option value="desc">Z-A (Descending)</option><option value="color">Color</option></select></div>
             <div class="menu-item"><label>Theme Mode</label><button id="themeBtn">Switch Mode</button></div>
             <div class="menu-item"><label>Filter Format</label><select id="formatSelect"><option value="all">All Formats</option><option value="svg">Only SVG</option><option value="png">Only PNG</option></select></div>
             <div class="menu-item"><label>Display Density</label><select id="densitySelect"><option value="normal">Comfortable</option><option value="dense">Compact</option></select></div>
@@ -329,7 +329,45 @@ let MOCK_ICONS = [];
 
 
 
-        // 馃攳 鏍稿績绛夐珮娓叉煋鍙婂叏鏍煎紡妯＄硦鍖归厤
+        // Core rendering and filtering
+        function hexToHsl(hex) {
+            if (!hex || hex === 'none') return null;
+
+            let value = hex.replace('#', '').trim();
+            if (value.length === 3) {
+                value = value.split('').map(c => c + c).join('');
+            }
+            if (value.length !== 6 || !/^[0-9a-fA-F]{6}$/.test(value)) return null;
+
+            const r = parseInt(value.slice(0, 2), 16) / 255;
+            const g = parseInt(value.slice(2, 4), 16) / 255;
+            const b = parseInt(value.slice(4, 6), 16) / 255;
+
+            const max = Math.max(r, g, b);
+            const min = Math.min(r, g, b);
+            const lightness = (max + min) / 2;
+
+            if (max === min) {
+                return { h: 0, s: 0, l: lightness };
+            }
+
+            const delta = max - min;
+            const saturation = lightness > 0.5
+                ? delta / (2 - max - min)
+                : delta / (max + min);
+
+            let hue;
+            if (max === r) {
+                hue = ((g - b) / delta + (g < b ? 6 : 0)) / 6;
+            } else if (max === g) {
+                hue = ((b - r) / delta + 2) / 6;
+            } else {
+                hue = ((r - g) / delta + 4) / 6;
+            }
+
+            return { h: hue, s: saturation, l: lightness };
+        }
+
         function renderGrid() {
             iconGrid.innerHTML = '';
             
@@ -339,7 +377,25 @@ let MOCK_ICONS = [];
                 return matchesSearch && matchesFormat;
             });
 
-            filtered.sort((a, b) => sortSelect.value === 'asc' ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name));
+            filtered.sort((a, b) => {
+                if (sortSelect.value === 'color') {
+                    const colorA = hexToHsl(a.color);
+                    const colorB = hexToHsl(b.color);
+
+                    if (!colorA && !colorB) return a.name.localeCompare(b.name);
+                    if (!colorA) return 1;
+                    if (!colorB) return -1;
+
+                    return colorA.h - colorB.h ||
+                           colorA.s - colorB.s ||
+                           colorA.l - colorB.l ||
+                           a.name.localeCompare(b.name);
+                }
+
+                return sortSelect.value === 'asc'
+                    ? a.name.localeCompare(b.name)
+                    : b.name.localeCompare(a.name);
+            });
             const visibleIcons = filtered.slice(0, displayLimit);
             loadMoreBtn.style.display = visibleIcons.length >= filtered.length ? 'none' : 'inline-block';
 
