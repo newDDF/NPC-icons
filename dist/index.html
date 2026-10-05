@@ -82,7 +82,20 @@
         .icon-wrapper svg, .icon-wrapper img { width: 80px; height: 80px; object-fit: contain; max-width: 100%; max-height: 100%; }
         .icon-grid.dense .icon-wrapper svg, .icon-grid.dense .icon-wrapper img { width: 64px; height: 64px; }
         
-        .icon-name { font-weight: 600; font-size: 1.15rem; text-align: left; width: 100%; padding: 0 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 12px; margin-top: 6px; }
+        .icon-name { font-weight: 600; font-size: 1.15rem; text-align: left; width: 100%; padding: 0 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 12px; margin-top: 6px; cursor: pointer; }
+
+        .icon-name.is-overflowing {
+            text-overflow: clip;
+        }
+
+        .icon-name.is-overflowing:hover {
+            animation: icon-name-scroll 4s ease-in-out infinite alternate;
+        }
+
+        @keyframes icon-name-scroll {
+            0%, 20% { transform: translateX(0); }
+            80%, 100% { transform: translateX(var(--name-scroll-distance)); }
+        }
         .icon-grid.dense .icon-name { padding: 0 10px; font-size: 0.95rem; margin-bottom: 8px; margin-top: 4px; }
 
         /* 鍗＄墖璐┛鏍忓簳锛堝姞鍏ュ渾瑙掕鍓慨姝ｏ紝闃叉鏀惧ぇ鏃跺簳閮ㄨ竟缂樻孩鍑哄皷瑙掞級 */
@@ -435,6 +448,21 @@ let MOCK_ICONS = [];
                         </div>
                     </div>
                 `;
+
+                card.querySelector('.icon-name').addEventListener('click', () => {
+                    copyToClipboard(icon.name, `Copied icon name: ${icon.name}!`);
+                });
+
+                const nameElement = card.querySelector('.icon-name');
+                nameElement.title = icon.name;
+
+                if (nameElement.scrollWidth > nameElement.clientWidth) {
+                    nameElement.classList.add('is-overflowing');
+                    nameElement.style.setProperty(
+                        '--name-scroll-distance',
+                        `-${nameElement.scrollWidth - nameElement.clientWidth}px`
+                    );
+                }
 
                 card.querySelector('.icon-wrapper').addEventListener('click', async () => {
                     if (icon.format === 'svg') {
