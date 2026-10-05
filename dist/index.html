@@ -45,18 +45,12 @@
         .nav-icon-link { color: var(--text-color); opacity: 0.7; transition: opacity 0.2s; display: flex; align-items: center; justify-content: center; }
         .nav-icon-link:hover { opacity: 1; }
         .nav-icon-link svg { width: 24px; height: 24px; fill: currentColor; }
-
-        .toolbar { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; gap: 12px; align-items: center; position: relative; z-index: 100; }
-        .sidebar-toggle { background: var(--card-bg); border: 1px solid var(--border-color); width: 48px; height: 48px; border-radius: 12px; cursor: pointer; color: var(--text-color); display: flex; align-items: center; justify-content: center; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); padding: 0; outline: none; }
         .sidebar-toggle svg { width: 22px; height: 22px; fill: currentColor; pointer-events: none; }
         
         .sidebar { position: absolute; top: 56px; left: 20px; background: var(--blur-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 18px; display: none; flex-direction: column; gap: 15px; z-index: 150; box-shadow: var(--shadow); min-width: 220px; backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); }
         .sidebar.active { display: flex; }
         .menu-item { display: flex; flex-direction: column; gap: 6px; font-size: 0.85rem; font-weight: 500; }
         .menu-item select, .menu-item button { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(255,255,255,0.1); color: var(--text-color); cursor: pointer; font-size: 0.85rem; }
-
-        .search-box { flex: 1; }
-        .search-box input { width: 100%; padding: 12px 20px; height: 48px; border-radius: 12px; border: 1px solid var(--border-color); background: var(--card-bg); color: var(--text-color); font-size: 0.95rem; outline: none; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); }
         .search-box input:focus { border-color: var(--accent-color); }
 
         /* 馃専 1. 杈圭紭闃茶鍓殧绂伙細鎵╁睍 main 瀹瑰櫒鐨勫唴杈硅窛锛屽苟寮哄埗瑙ｉ櫎浠讳綍鐗╃悊鎴柇闄愬埗 */
@@ -133,21 +127,264 @@
         .nav-icon-link { color: var(--text-color); opacity: 0.7; transition: opacity 0.2s; display: flex; align-items: center; justify-content: center; }
         .nav-icon-link:hover { opacity: 1; }
         .nav-icon-link svg { width: 24px; height: 24px; fill: currentColor; }
+        .top-shell {
+            position: relative;
+        }
 
-        .toolbar { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; gap: 12px; align-items: center; position: relative; }
-        .sidebar-toggle { background: var(--card-bg); border: 1px solid var(--border-color); width: 48px; height: 48px; border-radius: 12px; cursor: pointer; color: var(--text-color); display: flex; align-items: center; justify-content: center; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); padding: 0; outline: none; }
-        .sidebar-toggle svg { width: 22px; height: 22px; fill: currentColor; pointer-events: none; }
-        
-        .sidebar { position: absolute; top: 56px; left: 20px; background: var(--blur-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 18px; display: none; flex-direction: column; gap: 15px; z-index: 100; box-shadow: var(--shadow); min-width: 220px; backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); }
+        .top-shell > * {
+            position: relative;
+        }
+
+        .toolbar {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+
+    width: min(1200px, calc(100% - 40px));
+    max-width: 1200px;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+
+    transform: translateX(-50%);
+
+    transition:
+        top 0.68s cubic-bezier(0.22, 1, 0.36, 1),
+        transform 0.68s cubic-bezier(0.22, 1, 0.36, 1);
+
+    z-index: 1000;
+    box-sizing: border-box;
+    will-change: top, transform;
+}
+
+.toolbar .sidebar-toggle,
+.toolbar .search-box {
+    position: relative;
+
+    background: var(--blur-bg);
+    border: 1px solid var(--border-color);
+
+    backdrop-filter: blur(24px) saturate(150%);
+    -webkit-backdrop-filter: blur(24px) saturate(150%);
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.08),
+        0 2px 8px rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.38);
+
+    overflow: hidden;
+
+    transition:
+        background 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.35s ease,
+        transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.toolbar .sidebar-toggle::before,
+.toolbar .search-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.28) 0%,
+            rgba(255, 255, 255, 0.08) 32%,
+            rgba(255, 255, 255, 0) 68%
+        );
+
+    opacity: 0.9;
+}
+
+.toolbar .sidebar-toggle::after,
+.toolbar .search-box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 1px;
+
+    background: rgba(255, 255, 255, 0.42);
+    pointer-events: none;
+}
+
+.toolbar .sidebar-toggle {
+    flex: 0 0 48px;
+    width: 48px;
+    height: 48px;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 13px;
+    color: var(--text-color);
+
+    cursor: pointer;
+    outline: none;
+    z-index: 2;
+}
+
+.toolbar .sidebar-toggle:hover {
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 13px 34px rgba(0, 0, 0, 0.11),
+        0 3px 10px rgba(0, 0, 0, 0.06),
+        inset 0 1px 0 rgba(255, 255, 255, 0.42);
+}
+
+.toolbar .sidebar-toggle:active {
+    transform: scale(0.94);
+}
+
+.toolbar .sidebar-toggle svg {
+    position: relative;
+    z-index: 2;
+
+    width: 22px;
+    height: 22px;
+
+    fill: currentColor;
+    pointer-events: none;
+
+    transition:
+        transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.toolbar .sidebar-toggle:hover svg {
+    transform: scale(1.04);
+}
+
+.toolbar .search-box {
+    flex: 1;
+    min-width: 0;
+
+    height: 48px;
+    border-radius: 13px;
+
+    background: color-mix(
+        in srgb,
+        var(--blur-bg) 58%,
+        transparent
+    );
+
+    isolation: isolate;
+
+    z-index: 2;
+}
+
+.toolbar .search-box:hover {
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 13px 34px rgba(0, 0, 0, 0.11),
+        0 3px 10px rgba(0, 0, 0, 0.06),
+        inset 0 1px 0 rgba(255, 255, 255, 0.42);
+}
+
+.toolbar .search-box:active {
+    transform: scale(0.985);
+}
+
+.toolbar .search-box input {
+    position: relative;
+    z-index: 2;
+
+    display: block;
+
+    width: 100%;
+    height: 48px;
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 12px 20px;
+
+    border: 0;
+    outline: none;
+
+    
+    color: var(--text-color);
+
+    font-size: 0.95rem;
+    font-family: inherit;
+    
+    background: transparent !important;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.toolbar .search-box input:focus,
+.toolbar .search-box input:focus-visible {
+    border: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.toolbar .search-box input::placeholder {
+    color: var(--text-muted);
+    opacity: 0.75;
+    transition: opacity 0.25s ease;
+}
+
+
+
+.toolbar.toolbar-hidden {
+    transform: translateX(-50%) translateY(-110px);
+}
+
+@media (max-width: 600px) {
+    .toolbar {
+        width: calc(100% - 24px);
+        gap: 8px;
+    }
+
+    .toolbar .sidebar-toggle {
+        flex-basis: 44px;
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
+    }
+
+    .toolbar .search-box {
+        height: 44px;
+        border-radius: 12px;
+    }
+
+    .toolbar .search-box input {
+        height: 44px;
+        padding: 10px 14px;
+    }
+}
+
+.sidebar { position: absolute; top: 56px; left: 20px; background: var(--blur-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 18px; display: none; flex-direction: column; gap: 15px; z-index: 100; box-shadow: var(--shadow); min-width: 220px; backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); }
         .sidebar.active { display: flex; }
         .menu-item { display: flex; flex-direction: column; gap: 6px; font-size: 0.85rem; font-weight: 500; }
         .menu-item select, .menu-item button { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(255,255,255,0.1); color: var(--text-color); cursor: pointer; font-size: 0.85rem; }
-
-        .search-box { flex: 1; }
-        .search-box input { width: 100%; padding: 12px 20px; height: 48px; border-radius: 12px; border: 1px solid var(--border-color); background: var(--card-bg); color: var(--text-color); font-size: 0.95rem; outline: none; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: var(--shadow); }
         .search-box input:focus { border-color: var(--accent-color); }
 
-        .main-container { max-width: 1200px; margin: 30px auto; padding: 0 20px; }
+        .main-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px 40px;
+        }
         .icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 24px; align-items: stretch; }
         .icon-grid.dense { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 14px; }
 
@@ -217,7 +454,56 @@
         @media (max-width: 600px) {
             .share-container { right: 16px; bottom: 16px; }
         }
-    </style>
+
+        /* Toolbar glass — match modal-content */
+        .toolbar .sidebar-toggle,
+        .toolbar .search-box input {
+            background: var(--blur-bg);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+        }
+
+        .toolbar .sidebar-toggle {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            padding: 0;
+            cursor: pointer;
+            color: var(--text-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            outline: none;
+        }
+
+        .toolbar .sidebar-toggle svg {
+            width: 22px;
+            height: 22px;
+            fill: currentColor;
+            pointer-events: none;
+        }
+
+        .toolbar .search-box {
+            flex: 1;
+        }
+
+        .toolbar .search-box input {
+            width: 100%;
+            height: 48px;
+            padding: 12px 20px;
+            border-radius: 12px;
+            color: var(--text-color);
+            font-size: 0.95rem;
+            outline: none;
+        }
+
+        .toolbar .search-box input:focus {
+            border-color: var(--accent-color);
+        }
+
+</style>
 </head>
 
 
@@ -226,9 +512,12 @@
 
     <body>
 
+        <div class="top-shell">
     <div class="brand-header">
         <div class="header-left">
-            <div class="header-logo-container"><?xml version="1.0" encoding="UTF-8"?><svg id="_鍥惧眰_1" data-name="鍥惧眰 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs><style>      .my_logo-cls-1, .my_logo-cls-2 {        stroke-width: 0px;      }      .my_logo-cls-2 {        fill: #fff;      }    </style></defs><rect class="my_logo-cls-1" x="-.26" y="-.73" width="120" height="120" rx="30.16" ry="30.16"/><g><polygon class="my_logo-cls-2" points="49.26 75.82 34.04 84.6 34.04 74.38 20.83 92.11 34.49 100 51.33 90.28 62.29 36.46 49.26 53.95 49.26 75.82"/><polygon class="my_logo-cls-2" points="89.16 78.03 89.16 85.41 77.67 78.81 77.67 62.68 67.96 49.72 67.96 84.38 98.26 90.18 95.21 86.11 89.16 78.03"/><polygon class="my_logo-cls-2" points="89.16 47.55 89.16 76.53 95.99 85.66 98.5 89.01 88.39 36.74 68.17 48.51 77.67 61.18 77.67 54.24 89.16 47.55"/><polygon class="my_logo-cls-2" points="98.04 91.05 70.05 85.69 88.71 96.41 98.04 91.05"/><polygon class="my_logo-cls-2" points="98.86 86.17 98.86 42.39 96.37 40.96 89.34 36.91 98.86 86.17"/><polygon class="my_logo-cls-2" points="20.61 87.56 33.86 18.71 20.61 26.36 20.61 87.56"/><polygon class="my_logo-cls-2" points="34.04 72.88 34.04 33.74 49.26 42.64 49.26 52.46 55.17 44.52 62.47 34.72 34.81 18.54 20.97 90.42 34.04 72.88"/><polygon class="my_logo-cls-2" points="62.68 39.03 52.38 89.62 62.68 83.64 62.68 39.03"/></g></svg></div>
+            <div class="header-logo-container"><?xml version="1.0" encoding="UTF-8"?><svg id="_鍥惧眰_1" data-name="鍥惧眰 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs><style>      .my_logo-cls-1, .my_logo-cls-2 {        stroke-width: 0px;      }      .my_logo-cls-2 {        fill: #fff;      }    
+
+</style></defs><rect class="my_logo-cls-1" x="-.26" y="-.73" width="120" height="120" rx="30.16" ry="30.16"/><g><polygon class="my_logo-cls-2" points="49.26 75.82 34.04 84.6 34.04 74.38 20.83 92.11 34.49 100 51.33 90.28 62.29 36.46 49.26 53.95 49.26 75.82"/><polygon class="my_logo-cls-2" points="89.16 78.03 89.16 85.41 77.67 78.81 77.67 62.68 67.96 49.72 67.96 84.38 98.26 90.18 95.21 86.11 89.16 78.03"/><polygon class="my_logo-cls-2" points="89.16 47.55 89.16 76.53 95.99 85.66 98.5 89.01 88.39 36.74 68.17 48.51 77.67 61.18 77.67 54.24 89.16 47.55"/><polygon class="my_logo-cls-2" points="98.04 91.05 70.05 85.69 88.71 96.41 98.04 91.05"/><polygon class="my_logo-cls-2" points="98.86 86.17 98.86 42.39 96.37 40.96 89.34 36.91 98.86 86.17"/><polygon class="my_logo-cls-2" points="20.61 87.56 33.86 18.71 20.61 26.36 20.61 87.56"/><polygon class="my_logo-cls-2" points="34.04 72.88 34.04 33.74 49.26 42.64 49.26 52.46 55.17 44.52 62.47 34.72 34.81 18.54 20.97 90.42 34.04 72.88"/><polygon class="my_logo-cls-2" points="62.68 39.03 52.38 89.62 62.68 83.64 62.68 39.03"/></g></svg></div>
             <div class="header-titles">
                 <h1>NPC-icons</h1>
                 <div class="header-counter">
@@ -259,6 +548,7 @@
             <div class="menu-item"><label>Display Density</label><select id="densitySelect"><option value="normal">Comfortable</option><option value="dense">Compact</option></select></div>
         </div>
         <div class="search-box"><input type="text" id="searchInput" placeholder="Search icons..."></div>
+    </div>
     </div>
 
     <main class="main-container">
@@ -318,7 +608,103 @@ let MOCK_ICONS = [];
         const formatSelect = document.getElementById('formatSelect');
         const densitySelect = document.getElementById('densitySelect');
         const loadMoreBtn = document.getElementById('loadMoreBtn');
-        
+        const toolbar = document.querySelector('.toolbar');
+const brandHeader = document.querySelector('.brand-header');
+const brandTitle = document.querySelector('.header-titles h1');
+const mainContainer = document.querySelector('.main-container');
+
+const HEADER_GAP = 14;
+const TOOLBAR_GAP = 24;
+const TOP_GAP = 20;
+
+let lastScrollY = window.scrollY;
+let toolbarVisible = true;
+let ticking = false;
+
+function updateToolbarLayout() {
+    if (!toolbar || !brandHeader || !brandTitle || !mainContainer) {
+        return;
+    }
+
+    const headerRect = brandHeader.getBoundingClientRect();
+    const titleRect = brandTitle.getBoundingClientRect();
+    const toolbarHeight = toolbar.offsetHeight;
+
+    if (titleRect.bottom > 0) {
+        const toolbarTop = Math.max(
+            TOP_GAP,
+            headerRect.bottom + HEADER_GAP
+        );
+
+        toolbar.style.top = `${toolbarTop}px`;
+
+        const toolbarBottom = toolbarTop + toolbarHeight;
+
+        mainContainer.style.paddingTop =
+            `${Math.max(
+                0,
+                toolbarBottom + TOOLBAR_GAP - headerRect.bottom
+            )}px`;
+
+        return;
+    }
+
+    toolbar.style.top = `${TOP_GAP}px`;
+
+    mainContainer.style.paddingTop =
+        `${toolbarHeight + TOOLBAR_GAP}px`;
+}
+
+function requestToolbarLayout() {
+    if (ticking) return;
+
+    ticking = true;
+
+    requestAnimationFrame(() => {
+        updateToolbarLayout();
+        ticking = false;
+    });
+}
+
+function showToolbar() {
+    if (!toolbarVisible) {
+        toolbar.classList.remove('toolbar-hidden');
+        toolbarVisible = true;
+    }
+
+    requestToolbarLayout();
+}
+
+function hideToolbar() {
+    if (!toolbarVisible) return;
+
+    toolbar.classList.add('toolbar-hidden');
+    toolbarVisible = false;
+}
+
+updateToolbarLayout();
+
+window.addEventListener('scroll', () => {
+    const currentScrollY = window.scrollY;
+    const delta = currentScrollY - lastScrollY;
+
+    if (currentScrollY <= TOP_GAP) {
+        showToolbar();
+    } else if (delta > 3) {
+        hideToolbar();
+    } else if (delta < -3) {
+        showToolbar();
+    }
+
+    if (toolbarVisible) {
+        requestToolbarLayout();
+    }
+
+    lastScrollY = currentScrollY;
+}, { passive: true });
+
+window.addEventListener('resize', requestToolbarLayout);
+
         const detailModal = document.getElementById('detailModal');
         const modalClose = document.getElementById('modalClose');
         const modalPreview = document.getElementById('modalPreview');
