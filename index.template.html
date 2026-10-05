@@ -208,6 +208,15 @@
         .toast { position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%) translateY(100px); background: rgba(0,0,0,0.8); color: #fff; padding: 12px 24px; border-radius: 14px; font-size: 0.9rem; font-weight: 500; z-index: 2000; opacity: 0; transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
         .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
         footer { text-align: center; padding: 40px 20px; color: var(--text-muted); font-size: 0.85rem; font-weight: 500; border-top: 1px solid var(--border-color); margin-top: 60px; }
+        .share-container { position: fixed; right: 24px; bottom: 24px; z-index: 1500; display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+        .share-btn { border: 1px solid var(--border-color); background: var(--blur-bg); color: var(--text-color); padding: 10px 18px; border-radius: 999px; cursor: pointer; font-size: 0.9rem; font-weight: 600; box-shadow: var(--shadow); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+        .share-menu { display: none; flex-direction: column; align-items: stretch; min-width: 130px; padding: 8px; gap: 4px; border: 1px solid var(--border-color); background: var(--blur-bg); border-radius: 16px; box-shadow: var(--shadow); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+        .share-menu.show { display: flex; }
+        .share-menu a, .share-menu button { border: 0; background: transparent; color: var(--text-color); padding: 8px 10px; border-radius: 10px; text-align: left; cursor: pointer; font: inherit; font-size: 0.85rem; text-decoration: none; }
+        .share-menu a:hover, .share-menu button:hover { background: var(--card-bg); }
+        @media (max-width: 600px) {
+            .share-container { right: 16px; bottom: 16px; }
+        }
     </style>
 </head>
 
@@ -268,6 +277,20 @@
     </div>
 
     <div class="toast" id="toast">Copied to clipboard!</div>
+
+    <div class="share-container" id="shareContainer">
+        <div class="share-menu" id="shareMenu">
+            <a href="#" data-share="x" title="Share on X">X</a>
+            <a href="#" data-share="telegram" title="Share on Telegram">Telegram</a>
+            <a href="#" data-share="facebook" title="Share on Facebook">Facebook</a>
+            <a href="#" data-share="reddit" title="Share on Reddit">Reddit</a>
+            <a href="#" data-share="pinterest" title="Share on Pinterest">Pinterest</a>
+            <a href="#" data-share="bluesky" title="Share on Bluesky">Bluesky</a>
+            <button type="button" data-share="discord" title="Share to Discord">Discord</button>
+        </div>
+        <button class="share-btn" id="shareBtn" type="button" title="Share">Share</button>
+    </div>
+
     <footer>Copyright@NPC2026</footer>
 
 
@@ -312,6 +335,50 @@ let MOCK_ICONS = [];
         function copyToClipboard(text, message) {
             navigator.clipboard.writeText(text).then(() => showToast(message)).catch(() => showToast("Copy failed"));
         }
+
+        const shareBtn = document.getElementById('shareBtn');
+        const shareMenu = document.getElementById('shareMenu');
+        const shareContainer = document.getElementById('shareContainer');
+
+        shareBtn.addEventListener('click', () => {
+            shareMenu.classList.toggle('show');
+        });
+
+        shareMenu.querySelectorAll('[data-share]').forEach(item => {
+            item.addEventListener('click', event => {
+                event.preventDefault();
+
+                const pageUrl = window.location.href;
+                const shareText = 'NPC-icons';
+
+                if (item.dataset.share === 'discord') {
+                    copyToClipboard(pageUrl, 'Link copied. Paste it into Discord.');
+                    shareMenu.classList.remove('show');
+                    return;
+                }
+
+                const shareUrls = {
+                    x: `https://x.com/intent/post?text=${encodeURIComponent(`${shareText} ${pageUrl}`)}`,
+                    telegram: `https://t.me/share/url?url=${encodeURIComponent(pageUrl)}&text=${encodeURIComponent(shareText)}`,
+                    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(pageUrl)}`,
+                    reddit: `https://www.reddit.com/submit?url=${encodeURIComponent(pageUrl)}&title=${encodeURIComponent(shareText)}`,
+                    pinterest: `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(pageUrl)}&description=${encodeURIComponent(shareText)}`,
+                    bluesky: `https://bsky.app/intent/compose?text=${encodeURIComponent(`${shareText} ${pageUrl}`)}`
+                };
+
+                const url = shareUrls[item.dataset.share];
+                if (url) {
+                    window.open(url, '_blank', 'noopener,noreferrer');
+                    shareMenu.classList.remove('show');
+                }
+            });
+        });
+
+        document.addEventListener('click', event => {
+            if (!shareContainer.contains(event.target)) {
+                shareMenu.classList.remove('show');
+            }
+        });
 
         async function downloadIcon(name, format, path) {
             try {
