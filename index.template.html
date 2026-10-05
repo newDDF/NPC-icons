@@ -193,6 +193,15 @@
         .modal-source-link { color: var(--accent-color); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 4px; }
         .modal-source-link:hover { text-decoration: underline; }
         .modal-categories { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; width: 100%; }
+
+        .modal-info-scroll {
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        .modal-info-scroll::-webkit-scrollbar {
+            display: none;
+        }
         .modal-category { padding: 4px 10px; border-radius: 999px; background: var(--accent-color); color: #fff; font-size: 0.78rem; font-weight: 600; line-height: 1.4; }
         .load-more-container { text-align: center; margin: 50px 0; }
         .load-more-btn { background: var(--card-bg); border: 1px solid var(--border-color); padding: 14px 40px; border-radius: 25px; cursor: pointer; color: var(--text-color); font-size: 0.95rem; font-weight: 600; box-shadow: var(--shadow); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
@@ -499,7 +508,7 @@ let MOCK_ICONS = [];
                         Format: <b style="text-transform:uppercase; color:var(--accent-color);">${icon.format}</b><br>
                         ${icon.format === 'svg' ? 'Hex Color: <b style="font-family:monospace;">' + displayColor + '</b><br>' : ''}
                         Source: ${sourceHtml}<br><br>
-                        <div style="text-align:left; background:rgba(0,0,0,0.03); padding:14px; border-radius:14px; font-size:0.88rem; border:1px solid var(--border-color); color:var(--text-muted); font-weight:500; max-height:120px; overflow-y:auto; line-height:1.5;">
+                        <div class="modal-info-scroll" style="text-align:left; background:rgba(0,0,0,0.03); padding:14px; border-radius:14px; font-size:0.88rem; border:1px solid var(--border-color); color:var(--text-muted); font-weight:500; max-height:120px; overflow-y:auto; line-height:1.5;">
                             ${icon.info}
                         </div>
                     `;
