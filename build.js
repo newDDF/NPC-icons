@@ -129,6 +129,7 @@ iconConfig.forEach((icon) => {
             format: 'svg',
             source: icon.source || '',
             info: icon.info || 'NPC-icons visual design asset.',
+            category: Array.isArray(icon.category) ? icon.category : [],
             path: `./assets/svg/${filename}`
         });
 
@@ -144,6 +145,7 @@ iconConfig.forEach((icon) => {
             format: 'png',
             source: icon.source || '',
             info: icon.info || 'NPC-icons bitmap asset.',
+            category: Array.isArray(icon.category) ? icon.category : [],
             path: `./assets/png/${filename}`
         });
 
