@@ -8,12 +8,16 @@ const configPath = path.join(__dirname, 'config.json');
 const distDir = path.join(__dirname, 'dist');
 const dataDir = path.join(distDir, 'data');
 const assetsDir = path.join(distDir, 'assets');
+const svgDir = path.join(assetsDir, 'svg');
+const pngDir = path.join(assetsDir, 'png');
+const cssDir = path.join(assetsDir, 'css');
+const jsDir = path.join(assetsDir, 'js');
 
 fs.rmSync(distDir, { recursive: true, force: true });
 fs.mkdirSync(dataDir, { recursive: true });
-fs.mkdirSync(path.join(assetsDir, 'svg'), { recursive: true });
-fs.mkdirSync(path.join(assetsDir, 'png'), { recursive: true });
-fs.mkdirSync(path.join(assetsDir, 'css'), { recursive: true });
+fs.mkdirSync(svgDir, { recursive: true });
+fs.mkdirSync(pngDir, { recursive: true });
+fs.mkdirSync(cssDir, { recursive: true });
 
 if (!fs.existsSync(configPath)) {
     console.error('Missing config.json!');
@@ -150,14 +154,14 @@ htmlContent = htmlContent.replace(
 
 fs.copyFileSync(
     path.join(__dirname, 'src/styles/global.css'),
-    path.join(assetsDir, 'css/global.css')
+    path.join(cssDir, 'global.css')
 );
 
-fs.mkdirSync(path.join(assetsDir, 'js'), { recursive: true });
+fs.mkdirSync(jsDir, { recursive: true });
 
 fs.copyFileSync(
     path.join(__dirname, 'src/scripts/main.js'),
-    path.join(assetsDir, 'js/main.js')
+    path.join(jsDir, 'main.js')
 );
 
 fs.writeFileSync(
