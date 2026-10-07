@@ -9,3 +9,12 @@
 # Local backups
 *.before-*
 *.backup
+
+# Astro
+.astro/
+
+# Dependencies
+node_modules/
+
+# Generated Astro public assets
+public/

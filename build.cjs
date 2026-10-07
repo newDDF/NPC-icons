@@ -170,5 +170,11 @@ fs.writeFileSync(
     'utf8'
 );
 
+const publicDir = path.join(__dirname, "public");
+fs.rmSync(publicDir, { recursive: true, force: true });
+fs.mkdirSync(publicDir, { recursive: true });
+fs.cpSync(assetsDir, path.join(publicDir, "assets"), { recursive: true });
+fs.cpSync(dataDir, path.join(publicDir, "data"), { recursive: true });
+
 console.log(`Build complete: ${svgCount} SVG, ${pngCount} PNG`);
 console.log(`Output: ${path.join(distDir, 'index.html')}`);
