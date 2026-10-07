@@ -379,9 +379,9 @@ function renderGrid() {
                 copyToClipboard(icon.name, `Copied icon name: ${icon.name}!`);
             }
         });
-            card.querySelector('.color-block-btn').addEventListener('click', () => {
-                copyToClipboard(displayColor, `Copied color value: ${displayColor}!`);
-            });
+        card.querySelector('.color-block-btn').addEventListener('click', () => {
+            copyToClipboard(displayColor, `Copied color value: ${displayColor}!`);
+        });
         card.querySelector('.view-btn').addEventListener('click', () => {
             modalPreview.innerHTML = `<img src="${icon.path}" alt="${icon.name}">`;
             modalName.innerText = icon.name;
