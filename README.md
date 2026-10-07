@@ -81,8 +81,8 @@ Example:
 
 ```json
 {
-  "total": 15,
-  "svg": 10,
+  "total": 349,
+  "svg": 344,
   "png": 5
 }
 ```
@@ -247,7 +247,8 @@ Add an entry to `config.json`:
   "color": "#000000",
   "format": "svg",
   "source": "",
-  "info": "NPC-icons library trademark design asset."
+  "info": "NPC-icons library trademark design asset.",
+  "category": ["Other"]
 }
 ```
 
@@ -259,19 +260,21 @@ For PNG:
   "color": "",
   "format": "png",
   "source": "",
-  "info": "NPC-icons library bitmapped graphic asset."
+  "info": "NPC-icons library bitmapped graphic asset.",
+  "category": ["Other"]
 }
 ```
 
 ### Configuration fields
 
-| Field    | Description         |
-| :------- | :------------------ |
-| `name`   | Icon name           |
-| `color`  | Primary icon color  |
-| `format` | `svg` or `png`      |
-| `source` | Optional source URL |
-| `info`   | Icon description    |
+| Field      | Description |
+| :--------- | :---------- |
+| `name`     | Icon name |
+| `color`    | Primary icon color; PNG icons may leave this empty |
+| `format`   | `svg` or `png` |
+| `source`   | Optional source URL |
+| `info`     | Icon description |
+| `category` | Array of categories used for classification |
 
 ---
 
@@ -291,12 +294,6 @@ npm install
 ```
 
 Build the production site:
-
-```bash
-node build.js
-```
-
-or:
 
 ```bash
 npm run build
@@ -325,6 +322,8 @@ NPC-icons/
 │   └── png/
 │
 ├── src/
+│   ├── scripts/
+│   │   └── main.js
 │   └── styles/
 │       └── global.css
 │
@@ -332,6 +331,8 @@ NPC-icons/
 │   ├── assets/
 │   │   ├── css/
 │   │   │   └── global.css
+│   │   ├── js/
+│   │   │   └── main.js
 │   │   ├── svg/
 │   │   └── png/
 │   ├── data/
@@ -382,8 +383,8 @@ dist/data/stats.json
 
 ```json
 {
-  "total": 15,
-  "svg": 10,
+  "total": 349,
+  "svg": 344,
   "png": 5
 }
 ```
