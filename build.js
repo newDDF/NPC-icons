@@ -153,6 +153,13 @@ fs.copyFileSync(
     path.join(assetsDir, 'css/global.css')
 );
 
+fs.mkdirSync(path.join(assetsDir, 'js'), { recursive: true });
+
+fs.copyFileSync(
+    path.join(__dirname, 'src/scripts/main.js'),
+    path.join(assetsDir, 'js/main.js')
+);
+
 fs.writeFileSync(
     path.join(distDir, 'index.html'),
     htmlContent,
