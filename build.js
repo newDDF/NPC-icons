@@ -1,10 +1,9 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 
 const baseIconsDir = path.join(__dirname, 'icons');
 const templatePath = path.join(__dirname, 'index.template.html');
 const configPath = path.join(__dirname, 'config.json');
-const preConfigPath = path.join(__dirname, 'pre_config.json');
 
 const distDir = path.join(__dirname, 'dist');
 const dataDir = path.join(distDir, 'data');
@@ -14,45 +13,7 @@ fs.rmSync(distDir, { recursive: true, force: true });
 fs.mkdirSync(dataDir, { recursive: true });
 fs.mkdirSync(path.join(assetsDir, 'svg'), { recursive: true });
 fs.mkdirSync(path.join(assetsDir, 'png'), { recursive: true });
-
-// Generate pre_config.json
-const preConfigList = [];
-const svgDir = path.join(baseIconsDir, 'svg');
-const pngDir = path.join(baseIconsDir, 'png');
-
-if (fs.existsSync(svgDir)) {
-    fs.readdirSync(svgDir)
-        .filter(f => f.endsWith('.svg'))
-        .forEach(file => {
-            preConfigList.push({
-                name: path.basename(file, '.svg'),
-                color: '#007aff',
-                format: 'svg',
-                source: '',
-                info: 'NPC-icons library trademark design asset.'
-            });
-        });
-}
-
-if (fs.existsSync(pngDir)) {
-    fs.readdirSync(pngDir)
-        .filter(f => f.endsWith('.png'))
-        .forEach(file => {
-            preConfigList.push({
-                name: path.basename(file, '.png'),
-                color: '',
-                format: 'png',
-                source: '',
-                info: 'NPC-icons library bitmapped graphic asset.'
-            });
-        });
-}
-
-fs.writeFileSync(
-    preConfigPath,
-    JSON.stringify(preConfigList, null, 2),
-    'utf8'
-);
+fs.mkdirSync(path.join(assetsDir, 'css'), { recursive: true });
 
 if (!fs.existsSync(configPath)) {
     console.error('Missing config.json!');
@@ -176,10 +137,6 @@ let htmlContent = fs.readFileSync(
     'utf8'
 );
 
-htmlContent = htmlContent.replace(
-    /\/\*\[\[BUILD_INSERT_ICONS\]\]\*\/[\s\S]*?\/\*\[\[BUILD_INSERT_END\]\]\*\//,
-    '/*[[BUILD_INSERT_ICONS]]*/\nlet MOCK_ICONS = [];\n/*[[BUILD_INSERT_END]]*/'
-);
 
 htmlContent = htmlContent.replace(
     /id="svg-total">[^<]*/,
@@ -189,6 +146,11 @@ htmlContent = htmlContent.replace(
 htmlContent = htmlContent.replace(
     /id="png-total">[^<]*/,
     'id="png-total">' + pngCount
+);
+
+fs.copyFileSync(
+    path.join(__dirname, 'src/styles/global.css'),
+    path.join(assetsDir, 'css/global.css')
 );
 
 fs.writeFileSync(

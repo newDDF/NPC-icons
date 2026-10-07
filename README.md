@@ -324,8 +324,14 @@ NPC-icons/
 │   ├── svg/
 │   └── png/
 │
+├── src/
+│   └── styles/
+│       └── global.css
+│
 ├── dist/
 │   ├── assets/
+│   │   ├── css/
+│   │   │   └── global.css
 │   │   ├── svg/
 │   │   └── png/
 │   ├── data/
@@ -335,10 +341,9 @@ NPC-icons/
 │
 ├── build.js
 ├── config.json
-├── pre_config.json
-├── index.html
 ├── index.template.html
 ├── package.json
+├── .gitignore
 ├── LICENSE
 ├── DISCLAIMER.md
 └── README.md
