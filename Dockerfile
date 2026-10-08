@@ -1,4 +1,4 @@
-ARG NGINX_IMAGE=swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/library/nginx:alpine
+ARG NGINX_IMAGE=ghcr.io/nscaledev/docker.io/library/nginx:1.28.0-alpine
 
 FROM ${NGINX_IMAGE}
 
