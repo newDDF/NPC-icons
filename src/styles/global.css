@@ -196,7 +196,7 @@ body {
     background: var(--blur-bg);
     border: 1px solid var(--border-color);
     backdrop-filter: blur(24px) saturate(150%);
-    -webkit-backdrop-filter: blur(24px) saturate(150%);
+    backdrop-filter: blur(24px) saturate(150%);
     box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.08),
         0 2px 8px rgba(0, 0, 0, 0.05),
@@ -291,7 +291,7 @@ body {
     box-shadow: var(--shadow);
     min-width: 220px;
     backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
 }
 
 .sidebar.active {
@@ -444,7 +444,7 @@ body {
             box-shadow: var(--shadow);
             position: relative;
             backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
             overflow: hidden;
             padding: 0 !important;
             z-index: 10;
@@ -660,7 +660,7 @@ body {
             pointer-events: none;
             transition: opacity 0.3s ease;
             backdrop-filter: blur(15px);
-            -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
         }
 
         .modal-overlay.active {
@@ -786,7 +786,7 @@ body {
             font-weight: 600;
             box-shadow: var(--shadow);
             backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
         }
 
         .toast {
@@ -804,7 +804,7 @@ body {
             opacity: 0;
             transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s;
             backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
         }
 
         .toast.show {
@@ -844,7 +844,7 @@ body {
             font-weight: 600;
             box-shadow: var(--shadow);
             backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
         }
 
         .share-menu {
@@ -859,7 +859,7 @@ body {
             border-radius: 16px;
             box-shadow: var(--shadow);
             backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
         }
 
         .share-menu.show {
