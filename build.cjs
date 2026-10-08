@@ -2,22 +2,20 @@ const fs = require('fs');
 const path = require('path');
 
 const baseIconsDir = path.join(__dirname, 'icons');
-const templatePath = path.join(__dirname, 'index.template.html');
 const configPath = path.join(__dirname, 'config.json');
 
-const distDir = path.join(__dirname, 'dist');
-const dataDir = path.join(distDir, 'data');
-const assetsDir = path.join(distDir, 'assets');
+const publicDir = path.join(__dirname, 'public');
+const dataDir = path.join(publicDir, 'data');
+const assetsDir = path.join(publicDir, 'assets');
 const svgDir = path.join(assetsDir, 'svg');
 const pngDir = path.join(assetsDir, 'png');
-const cssDir = path.join(assetsDir, 'css');
 const jsDir = path.join(assetsDir, 'js');
 
-fs.rmSync(distDir, { recursive: true, force: true });
+fs.rmSync(publicDir, { recursive: true, force: true });
 fs.mkdirSync(dataDir, { recursive: true });
 fs.mkdirSync(svgDir, { recursive: true });
 fs.mkdirSync(pngDir, { recursive: true });
-fs.mkdirSync(cssDir, { recursive: true });
+fs.mkdirSync(jsDir, { recursive: true });
 
 if (!fs.existsSync(configPath)) {
     console.error('Missing config.json!');
@@ -136,45 +134,9 @@ fs.writeFileSync(
     'utf8'
 );
 
-let htmlContent = fs.readFileSync(
-    templatePath,
-    'utf8'
-);
-
-
-htmlContent = htmlContent.replace(
-    /id="svg-total">[^<]*/,
-    'id="svg-total">' + svgCount
-);
-
-htmlContent = htmlContent.replace(
-    /id="png-total">[^<]*/,
-    'id="png-total">' + pngCount
-);
-
-fs.copyFileSync(
-    path.join(__dirname, 'src/styles/global.css'),
-    path.join(cssDir, 'global.css')
-);
-
-fs.mkdirSync(jsDir, { recursive: true });
-
 fs.copyFileSync(
     path.join(__dirname, 'src/scripts/main.js'),
     path.join(jsDir, 'main.js')
 );
 
-fs.writeFileSync(
-    path.join(distDir, 'index.html'),
-    htmlContent,
-    'utf8'
-);
-
-const publicDir = path.join(__dirname, "public");
-fs.rmSync(publicDir, { recursive: true, force: true });
-fs.mkdirSync(publicDir, { recursive: true });
-fs.cpSync(assetsDir, path.join(publicDir, "assets"), { recursive: true });
-fs.cpSync(dataDir, path.join(publicDir, "data"), { recursive: true });
-
 console.log(`Build complete: ${svgCount} SVG, ${pngCount} PNG`);
-console.log(`Output: ${path.join(distDir, 'index.html')}`);

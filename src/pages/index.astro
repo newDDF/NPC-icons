@@ -1,6 +1,8 @@
 ---
 import fs from "node:fs";
 import path from "node:path";
+import "../styles/global.css";
+import "../styles/global.css";
 
 const config = JSON.parse(fs.readFileSync(path.join(process.cwd(), "config.json"), "utf8"));
 const svgTotal = config.filter((icon) => icon.format === "svg").length;
@@ -13,7 +15,6 @@ const pngTotal = config.filter((icon) => icon.format === "png").length;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NPC-icons</title>
     <link rel="icon" href="https://newddf.xyz/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/assets/css/global.css">
 </head>
 
 
