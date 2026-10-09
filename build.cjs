@@ -134,4 +134,20 @@ fs.writeFileSync(
 
 
 
+// NPC_ICONS_SEO_FILES
+fs.writeFileSync(
+    path.join(publicDir, 'robots.txt'),
+    'User-agent: *\nAllow: /\n\nSitemap: https://icons.x0u0x.xyz/sitemap.xml\n',
+    'utf8'
+);
+
+fs.writeFileSync(
+    path.join(publicDir, 'sitemap.xml'),
+    '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    '  <url><loc>https://icons.x0u0x.xyz/</loc></url>\n' +
+    '</urlset>\n',
+    'utf8'
+);
+
 console.log(`Build complete: ${svgCount} SVG, ${pngCount} PNG`);
