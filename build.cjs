@@ -9,13 +9,11 @@ const dataDir = path.join(publicDir, 'data');
 const assetsDir = path.join(publicDir, 'assets');
 const svgDir = path.join(assetsDir, 'svg');
 const pngDir = path.join(assetsDir, 'png');
-const jsDir = path.join(assetsDir, 'js');
 
 fs.rmSync(publicDir, { recursive: true, force: true });
 fs.mkdirSync(dataDir, { recursive: true });
 fs.mkdirSync(svgDir, { recursive: true });
 fs.mkdirSync(pngDir, { recursive: true });
-fs.mkdirSync(jsDir, { recursive: true });
 
 if (!fs.existsSync(configPath)) {
     console.error('Missing config.json!');
@@ -134,9 +132,6 @@ fs.writeFileSync(
     'utf8'
 );
 
-fs.copyFileSync(
-    path.join(__dirname, 'src/scripts/main.js'),
-    path.join(jsDir, 'main.js')
-);
+
 
 console.log(`Build complete: ${svgCount} SVG, ${pngCount} PNG`);
