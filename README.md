@@ -407,7 +407,6 @@ NPC-icons/
 │
 ├── build.js
 ├── config.json
-├── index.template.html
 ├── package.json
 ├── .gitignore
 ├── LICENSE
