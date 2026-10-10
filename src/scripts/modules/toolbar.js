@@ -1,92 +1,80 @@
-export function initToolbar({ toolbar, brandHeader, brandTitle, mainContainer }) {
-    const HEADER_GAP = 14;
-    const TOOLBAR_GAP = 24;
-    const TOP_GAP = 20;
+export function initToolbar({ toolbar }) {
+    if (!toolbar) return;
+
+    const placeholder = document.createElement('div');
+    placeholder.className = 'toolbar-placeholder';
+    toolbar.before(placeholder);
 
     let lastScrollY = window.scrollY;
-    let toolbarVisible = true;
     let ticking = false;
+    let directionDistance = 0;
+    let lastDirection = 0;
+    let toolbarStart = toolbar.getBoundingClientRect().top + window.scrollY;
 
-    function updateToolbarLayout() {
-        if (!toolbar || !brandHeader || !brandTitle || !mainContainer) {
-            return;
+    function setFloating(enabled) {
+        const isFloating = toolbar.classList.contains('toolbar-floating');
+        if (enabled === isFloating) return;
+
+        if (enabled) {
+            toolbar.classList.add('toolbar-floating');
+            placeholder.style.height = `${toolbar.offsetHeight}px`;
+            placeholder.style.marginBottom = getComputedStyle(toolbar).marginBottom;
+            placeholder.style.display = 'block';
+        } else {
+            toolbar.classList.remove('toolbar-floating');
+            placeholder.style.display = 'none';
+            placeholder.style.height = '';
+            placeholder.style.marginBottom = '';
+        }
+    }
+
+    function update() {
+        const currentY = window.scrollY;
+        const delta = currentY - lastScrollY;
+        const direction = Math.sign(delta);
+        const isFloating = toolbar.classList.contains('toolbar-floating');
+
+        if (currentY <= 4) {
+            directionDistance = 0;
+            lastDirection = 0;
+            setFloating(false);
+        } else if (Math.abs(delta) > 0) {
+            if (direction !== lastDirection) directionDistance = 0;
+            directionDistance += Math.abs(delta);
+            lastDirection = direction;
+
+            if (isFloating) {
+                // 向下累计滚动 28px 才收起，避免微小反向滚动导致闪动
+                if (direction === 1 && directionDistance >= 28) {
+                    setFloating(false);
+                    directionDistance = 0;
+                }
+            } else {
+                const threshold = toolbarStart + toolbar.offsetHeight;
+
+                // 向上累计滚动 8px 后唤出工具栏
+                if (direction === -1 && directionDistance >= 8 && currentY > threshold) {
+                    setFloating(true);
+                    directionDistance = 0;
+                }
+            }
         }
 
-        const headerRect = brandHeader.getBoundingClientRect();
-        const titleRect = brandTitle.getBoundingClientRect();
-        const toolbarHeight = toolbar.offsetHeight;
-
-        if (titleRect.bottom > 0) {
-            const toolbarTop = Math.max(
-                TOP_GAP,
-                headerRect.bottom + HEADER_GAP
-            );
-
-            toolbar.style.top = `${toolbarTop}px`;
-
-            const toolbarBottom = toolbarTop + toolbarHeight;
-
-            mainContainer.style.paddingTop =
-                `${Math.max(
-                    0,
-                    toolbarBottom + TOOLBAR_GAP - headerRect.bottom
-                )}px`;
-
-            return;
-        }
-
-        toolbar.style.top = `${TOP_GAP}px`;
-        mainContainer.style.paddingTop =
-            `${toolbarHeight + TOOLBAR_GAP}px`;
+        lastScrollY = currentY;
+        ticking = false;
     }
-
-    function requestToolbarLayout() {
-        if (ticking) return;
-
-        ticking = true;
-
-        requestAnimationFrame(() => {
-            updateToolbarLayout();
-            ticking = false;
-        });
-    }
-
-    function showToolbar() {
-        if (!toolbarVisible) {
-            toolbar.classList.remove('toolbar-hidden');
-            toolbarVisible = true;
-        }
-
-        requestToolbarLayout();
-    }
-
-    function hideToolbar() {
-        if (!toolbarVisible) return;
-
-        toolbar.classList.add('toolbar-hidden');
-        toolbarVisible = false;
-    }
-
-    updateToolbarLayout();
 
     window.addEventListener('scroll', () => {
-        const currentScrollY = window.scrollY;
-        const delta = currentScrollY - lastScrollY;
-
-        if (currentScrollY <= TOP_GAP) {
-            showToolbar();
-        } else if (delta > 3) {
-            hideToolbar();
-        } else if (delta < -3) {
-            showToolbar();
-        }
-
-        if (toolbarVisible) {
-            requestToolbarLayout();
-        }
-
-        lastScrollY = currentScrollY;
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(update);
     }, { passive: true });
 
-    window.addEventListener('resize', requestToolbarLayout);
+    window.addEventListener('resize', () => {
+        if (!toolbar.classList.contains('toolbar-floating')) {
+            toolbarStart = toolbar.getBoundingClientRect().top + window.scrollY;
+        }
+    });
+
+    setFloating(false);
 }

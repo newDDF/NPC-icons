@@ -140,12 +140,12 @@ body {
 }
 
 .toolbar {
-    position: fixed;
-    top: 20px;
-    left: 50%;
+    position: relative;
+    top: auto;
+    left: auto;
     width: min(1200px, calc(100% - 40px));
     max-width: 1200px;
-    margin: 0;
+    margin: 0 auto 24px;
     padding: 0;
     display: flex;
     align-items: center;
@@ -153,22 +153,20 @@ body {
     background: transparent;
     border: 0;
     box-shadow: none;
-    transform: translateX(-50%);
-    transition:
-        top 0.68s cubic-bezier(0.22, 1, 0.36, 1),
-        transform 0.68s cubic-bezier(0.22, 1, 0.36, 1);
+    transform: none;
+    transition: none;
     z-index: 1000;
     box-sizing: border-box;
-    will-change: top, transform;
+    will-change: auto;
 }
 
 .toolbar .sidebar-toggle,
 .toolbar .search-box {
     position: relative;
     background: var(--blur-bg);
-    border: 1px solid var(--border-color);
-    backdrop-filter: blur(24px) saturate(150%);
-    backdrop-filter: blur(24px) saturate(150%);
+    border: 1px solid var(--glass-border);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
     box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.08),
         0 2px 8px rgba(0, 0, 0, 0.05),
@@ -179,34 +177,6 @@ body {
         border-color 0.3s ease,
         box-shadow 0.35s ease,
         transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-.toolbar .sidebar-toggle::before,
-.toolbar .search-box::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    background:
-        linear-gradient(
-            180deg,
-            rgba(255, 255, 255, 0.28) 0%,
-            rgba(255, 255, 255, 0.08) 32%,
-            rgba(255, 255, 255, 0) 68%
-        );
-    opacity: 0.9;
-}
-
-.toolbar .sidebar-toggle::after,
-.toolbar .search-box::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 10%;
-    right: 10%;
-    height: 1px;
-    background: rgba(255, 255, 255, 0.42);
-    pointer-events: none;
 }
 
 .toolbar .sidebar-toggle {
@@ -253,17 +223,17 @@ body {
     top: 56px;
     left: 20px;
     background: var(--blur-bg);
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--glass-border);
     border-radius: 16px;
     padding: 18px;
     display: none;
     flex-direction: column;
     gap: 15px;
     z-index: 100;
-    box-shadow: var(--shadow);
+    box-shadow: var(--glass-shadow);
     min-width: 220px;
-    backdrop-filter: blur(30px);
-    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(var(--glass-blur-strong)) saturate(var(--glass-saturate));
+    backdrop-filter: blur(var(--glass-blur-strong)) saturate(var(--glass-saturate));
 }
 
 .sidebar.active {
@@ -282,7 +252,7 @@ body {
 .menu-item button {
     padding: 8px 10px;
     border-radius: 8px;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--glass-border);
     background: rgba(255, 255, 255, 0.1);
     color: var(--text-color);
     cursor: pointer;
@@ -303,7 +273,7 @@ body {
     min-width: 0;
     height: 48px;
     border-radius: 13px;
-    background: color-mix(in srgb, var(--blur-bg) 58%, transparent);
+    background: var(--blur-bg);
     isolation: isolate;
     z-index: 2;
 }
@@ -354,9 +324,7 @@ body {
     transition: opacity 0.25s ease;
 }
 
-.toolbar.toolbar-hidden {
-    transform: translateX(-50%) translateY(-110px);
-}
+.toolbar.toolbar-hidden { transform: none; }
 
 @media (max-width: 600px) {
     .toolbar {
@@ -382,3 +350,89 @@ body {
     }
 }
 
+
+/* B 区：滚动时悬浮 */
+.toolbar.toolbar-floating {
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    width: min(1200px, calc(100% - 40px));
+    margin: 0;
+    transform: translateX(-50%);
+    z-index: 1000;
+    transition: none;
+}
+
+.toolbar.toolbar-hidden {
+    transform: none;
+}
+
+.toolbar-placeholder {
+    display: none;
+    width: 100%;
+    pointer-events: none;
+}
+
+@media (max-width: 600px) {
+    .toolbar.toolbar-floating {
+        width: calc(100% - 24px);
+    }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    .toolbar.toolbar-floating {
+        animation: none;
+    }
+}
+
+
+
+@media (prefers-reduced-motion: reduce) {
+    .toolbar.toolbar-floating {
+        animation: none;
+    }
+}
+
+/* B 区：轻盈、自然的 Apple 风格入场，不增加外层玻璃托盘 */
+.toolbar.toolbar-floating {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    animation: toolbar-float-in 240ms ease-out both;
+    will-change: transform;
+}
+
+@keyframes toolbar-float-in {
+    from { transform: translate(-50%, -18px); }
+    to   { transform: translate(-50%, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .toolbar.toolbar-floating {
+        animation: none;
+    }
+}
+
+/* B 悬浮时：玻璃效果分别作用于按钮和搜索框，不作用于外层 */
+.toolbar.toolbar-floating {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+}
+
+.toolbar.toolbar-floating .sidebar-toggle,
+.toolbar.toolbar-floating .search-box {
+    background: var(--blur-bg) !important;
+    border: 1px solid var(--glass-border) !important;
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate)) !important;
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate)) !important;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.08),
+        0 2px 8px rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.38) !important;
+}
