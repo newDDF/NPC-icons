@@ -1,0 +1,9 @@
+services:
+  npc-icons:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: npc-icons
+    ports:
+      - "8080:80"
+    restart: unless-stopped

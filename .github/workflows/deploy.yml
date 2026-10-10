@@ -1,4 +1,4 @@
-﻿name: Build and Deploy Icon Site
+name: Build and Deploy Icon Site
 
 on:
   push:
@@ -22,10 +22,10 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build site
-        run: node build.js
+        run: npm run build
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4

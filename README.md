@@ -81,8 +81,8 @@ Example:
 
 ```json
 {
-  "total": 15,
-  "svg": 10,
+  "total": 349,
+  "svg": 344,
   "png": 5
 }
 ```
@@ -221,6 +221,71 @@ gh-pages
 
 ---
 
+## 🐳 Docker Deployment
+
+Docker provides a simple way to run NPC-icons without manually installing Node.js or building the website.
+
+### Requirements
+
+- Docker Engine
+- Docker Compose v2 (`docker compose`)
+
+### 1. Clone the repository
+
+```bash
+git clone -b v3.3-astro https://github.com/newDDF/NPC-icons.git
+cd NPC-icons
+```
+
+### 2. Build and start
+
+```bash
+docker compose up -d --build
+```
+
+Docker automatically installs the required dependencies, builds the static website, and starts the Nginx container.
+
+### 3. Open the website
+
+Visit:
+
+```text
+http://localhost:8080
+```
+
+By default, port `8080` on the host maps to port `80` inside the container.
+
+### Manage the container
+
+View running containers:
+
+```bash
+docker compose ps
+```
+
+View logs:
+
+```bash
+docker compose logs -f
+```
+
+Stop the website:
+
+```bash
+docker compose down
+```
+
+Update the source and rebuild:
+
+```bash
+git pull
+docker compose up -d --build
+```
+
+The NPC-icons image is built locally. You do not need a prebuilt NPC-icons image or separate `npm install` / `npm run build` commands.
+
+---
+
 ## 📦 Adding an Icon
 
 ### 1. Add the asset
@@ -247,7 +312,8 @@ Add an entry to `config.json`:
   "color": "#000000",
   "format": "svg",
   "source": "",
-  "info": "NPC-icons library trademark design asset."
+  "info": "NPC-icons library trademark design asset.",
+  "category": ["Other"]
 }
 ```
 
@@ -259,19 +325,21 @@ For PNG:
   "color": "",
   "format": "png",
   "source": "",
-  "info": "NPC-icons library bitmapped graphic asset."
+  "info": "NPC-icons library bitmapped graphic asset.",
+  "category": ["Other"]
 }
 ```
 
 ### Configuration fields
 
-| Field    | Description         |
-| :------- | :------------------ |
-| `name`   | Icon name           |
-| `color`  | Primary icon color  |
-| `format` | `svg` or `png`      |
-| `source` | Optional source URL |
-| `info`   | Icon description    |
+| Field      | Description |
+| :--------- | :---------- |
+| `name`     | Icon name |
+| `color`    | Primary icon color; PNG icons may leave this empty |
+| `format`   | `svg` or `png` |
+| `source`   | Optional source URL |
+| `info`     | Icon description |
+| `category` | Array of categories used for classification |
 
 ---
 
@@ -291,12 +359,6 @@ npm install
 ```
 
 Build the production site:
-
-```bash
-node build.js
-```
-
-or:
 
 ```bash
 npm run build
@@ -324,8 +386,18 @@ NPC-icons/
 │   ├── svg/
 │   └── png/
 │
+├── src/
+│   ├── scripts/
+│   │   └── main.js
+│   └── styles/
+│       └── global.css
+│
 ├── dist/
 │   ├── assets/
+│   │   ├── css/
+│   │   │   └── global.css
+│   │   ├── js/
+│   │   │   └── main.js
 │   │   ├── svg/
 │   │   └── png/
 │   ├── data/
@@ -335,10 +407,8 @@ NPC-icons/
 │
 ├── build.js
 ├── config.json
-├── pre_config.json
-├── index.html
-├── index.template.html
 ├── package.json
+├── .gitignore
 ├── LICENSE
 ├── DISCLAIMER.md
 └── README.md
@@ -377,8 +447,8 @@ dist/data/stats.json
 
 ```json
 {
-  "total": 15,
-  "svg": 10,
+  "total": 349,
+  "svg": 344,
   "png": 5
 }
 ```

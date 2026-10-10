@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Editor / temporary files
+*.swp
+*.swo
+*~
+
+# Local backups
+*.before-*
+*.backup
+
+# Astro
+.astro/
+
+# Dependencies
+node_modules/
+
+# Generated Astro public assets
+public/
+
+# Build output
+/dist/

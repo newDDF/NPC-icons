@@ -1,30 +1,20 @@
-﻿<!DOCTYPE html>
-<html lang="zh-CN" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NPC-icons</title>
-    <link rel="icon" href="https://newddf.xyz/favicon.ico" type="image/x-icon">
-    <link id="favicon" rel="icon" href="">
-    <link rel="stylesheet" href="./assets/css/global.css">
-</head>
+---
+interface Props {
+  svgTotal: number;
+  pngTotal: number;
+}
 
-
-
-
-
-    <body>
-
-        <div class="top-shell">
-    <div class="brand-header">
+const { svgTotal, pngTotal } = Astro.props;
+---
+<div class="brand-header">
         <div class="header-left">
-            <div class="header-logo-container"><?xml version="1.0" encoding="UTF-8"?><svg id="_layer_1" data-name="layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs><style>      .my_logo-cls-1, .my_logo-cls-2 {        stroke-width: 0px;      }      .my_logo-cls-2 {        fill: #fff;      }    
+            <div class="header-logo-container"><svg id="_layer_1" data-name="layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><defs><style>      .my_logo-cls-1, .my_logo-cls-2 {        stroke-width: 0px;      }      .my_logo-cls-2 {        fill: #fff;      }    
 
 </style></defs><rect class="my_logo-cls-1" x="-.26" y="-.73" width="120" height="120" rx="30.16" ry="30.16"/><g><polygon class="my_logo-cls-2" points="49.26 75.82 34.04 84.6 34.04 74.38 20.83 92.11 34.49 100 51.33 90.28 62.29 36.46 49.26 53.95 49.26 75.82"/><polygon class="my_logo-cls-2" points="89.16 78.03 89.16 85.41 77.67 78.81 77.67 62.68 67.96 49.72 67.96 84.38 98.26 90.18 95.21 86.11 89.16 78.03"/><polygon class="my_logo-cls-2" points="89.16 47.55 89.16 76.53 95.99 85.66 98.5 89.01 88.39 36.74 68.17 48.51 77.67 61.18 77.67 54.24 89.16 47.55"/><polygon class="my_logo-cls-2" points="98.04 91.05 70.05 85.69 88.71 96.41 98.04 91.05"/><polygon class="my_logo-cls-2" points="98.86 86.17 98.86 42.39 96.37 40.96 89.34 36.91 98.86 86.17"/><polygon class="my_logo-cls-2" points="20.61 87.56 33.86 18.71 20.61 26.36 20.61 87.56"/><polygon class="my_logo-cls-2" points="34.04 72.88 34.04 33.74 49.26 42.64 49.26 52.46 55.17 44.52 62.47 34.72 34.81 18.54 20.97 90.42 34.04 72.88"/><polygon class="my_logo-cls-2" points="62.68 39.03 52.38 89.62 62.68 83.64 62.68 39.03"/></g></svg></div>
             <div class="header-titles">
                 <h1>NPC-icons</h1>
                 <div class="header-counter">
-                    SVG: <span id="svg-total">9</span> | PNG: <span id="png-total">5</span>
+                    SVG: <span id="svg-total">{svgTotal}</span> | PNG: <span id="png-total">{pngTotal}</span>
                 </div>
             </div>
         </div>
@@ -41,67 +31,3 @@
             </a>
         </div>
     </div>
-
-    <div class="toolbar">
-        <button class="sidebar-toggle" id="toggleMenu" title="Menu Settings"><svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></button>
-        <div class="sidebar" id="sidebarMenu">
-            <div class="menu-item"><label>Sort Order</label><select id="sortSelect"><option value="asc">A-Z (Ascending)</option><option value="desc">Z-A (Descending)</option><option value="color">Color</option></select></div>
-            <div class="menu-item"><label>Theme Mode</label><button id="themeBtn">Switch Mode</button></div>
-            <div class="menu-item"><label>Filter Format</label><select id="formatSelect"><option value="all">All Formats</option><option value="svg">Only SVG</option><option value="png">Only PNG</option></select></div>
-            <div class="menu-item"><label>Display Density</label><select id="densitySelect"><option value="normal">Comfortable</option><option value="dense">Compact</option></select></div>
-        </div>
-        <div class="search-box"><input type="text" id="searchInput" placeholder="Search icons..."></div>
-    </div>
-
-    <main class="main-container">
-        <div class="icon-grid" id="iconGrid"></div>
-        <div class="load-more-container"><button class="load-more-btn" id="loadMoreBtn">Show More</button></div>
-    </main>
-
-    <div class="modal-overlay" id="detailModal">
-        <div class="modal-content">
-            <button class="modal-close" id="modalClose">×</button>
-            <div class="modal-preview" id="modalPreview"></div>
-            <h3 id="modalName"></h3>
-            <div id="modalCategories" class="modal-categories"></div>
-            <p id="modalInfo"></p>
-        </div>
-    </div>
-
-    <div class="toast" id="toast">Copied to clipboard!</div>
-
-    <div class="share-container" id="shareContainer">
-        <div class="share-menu" id="shareMenu">
-            <a href="#" data-share="x" title="Share on X">X</a>
-            <a href="#" data-share="telegram" title="Share on Telegram">Telegram</a>
-            <a href="#" data-share="facebook" title="Share on Facebook">Facebook</a>
-            <a href="#" data-share="reddit" title="Share on Reddit">Reddit</a>
-            <a href="#" data-share="pinterest" title="Share on Pinterest">Pinterest</a>
-            <a href="#" data-share="bluesky" title="Share on Bluesky">Bluesky</a>
-            <button type="button" data-share="discord" title="Share to Discord">Discord</button>
-        </div>
-        <button class="share-btn" id="shareBtn" type="button" title="Share">Share</button>
-    </div>
-
-    <footer>Copyright@NPC2026</footer>
-
-
-
-
-
-
-
-
-
-      <script src="./assets/js/main.js"></script>
-</body>
-</html>
-
-
-
-
-
-
-
-
-

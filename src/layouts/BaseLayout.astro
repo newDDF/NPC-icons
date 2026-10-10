@@ -1,0 +1,45 @@
+---
+import "../styles/global.css";
+
+const {
+  title = "NPC-icons — Free SVG & PNG Icon Library",
+  description = "Discover, search, and download free SVG and PNG icons. Explore a growing collection of brand, technology, and community icons with NPC-icons.",
+  lang = "en",
+  theme = "light"
+} = Astro.props;
+
+const canonical = "https://icons.x0u0x.xyz/";
+---
+<!DOCTYPE html>
+<html lang={lang} data-theme={theme}>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content={description}>
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href={canonical}>
+  <title>{title}</title>
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NPC-icons">
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:url" content={canonical}>
+  <meta property="og:image" content="https://icons.x0u0x.xyz/assets/share-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="NPC-icons — Free SVG & PNG Icon Library">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content={title}>
+  <meta name="twitter:description" content={description}>
+  <meta name="twitter:image" content="https://icons.x0u0x.xyz/assets/share-preview.png">
+
+  <link rel="icon" href="https://newddf.xyz/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <slot />
+  <script src="../scripts/main.js"></script>
+</body>
+</html>
