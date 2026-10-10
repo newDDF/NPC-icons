@@ -10,9 +10,9 @@ import IconModal from "../components/IconModal.astro";
 import ShareMenu from "../components/ShareMenu.astro";
 import Footer from "../components/Footer.astro";
 
-const config = JSON.parse(fs.readFileSync(path.join(process.cwd(), "config.json"), "utf8"));
-const svgTotal = config.filter((icon) => icon.format === "svg").length;
-const pngTotal = config.filter((icon) => icon.format === "png").length;
+const stats = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/stats.json"), "utf8"));
+const svgTotal = stats.svg;
+const pngTotal = stats.png;
 ---
 
 <BaseLayout>

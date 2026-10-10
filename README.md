@@ -87,7 +87,7 @@ Example:
 }
 ```
 
-Because the statistics are generated automatically, the README badges update as the icon library grows.
+The statistics file is regenerated on each build. README badge values are not updated automatically.
 
 > Some icon names may have both SVG and PNG versions and are therefore counted separately by format.
 
@@ -161,7 +161,7 @@ icons/
    config.json
         │
         ▼
-     build.js
+     build.cjs
         │
         ├── dist/index.html
         ├── dist/data/icons.json
@@ -199,7 +199,7 @@ main
 GitHub Actions
  │
  ├── Install dependencies
- ├── Run build.js
+ ├── Run npm run build (build.cjs + Astro)
  └── Deploy ./dist
        │
        ▼
@@ -233,7 +233,7 @@ Docker provides a simple way to run NPC-icons without manually installing Node.j
 ### 1. Clone the repository
 
 ```bash
-git clone -b v3.3-astro https://github.com/newDDF/NPC-icons.git
+git clone https://github.com/newDDF/NPC-icons.git
 cd NPC-icons
 ```
 
@@ -380,40 +380,47 @@ You can serve `dist/` using any static HTTP server.
 NPC-icons/
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml
-│
+│       ├── deploy.yml
+│       └── docker-build-check.yml
 ├── icons/
 │   ├── svg/
 │   └── png/
-│
-├── src/
-│   ├── scripts/
-│   │   └── main.js
-│   └── styles/
-│       └── global.css
-│
-├── dist/
+├── public/                 # Generated static assets and data
 │   ├── assets/
-│   │   ├── css/
-│   │   │   └── global.css
-│   │   ├── js/
-│   │   │   └── main.js
 │   │   ├── svg/
 │   │   └── png/
-│   ├── data/
-│   │   ├── icons.json
-│   │   └── stats.json
-│   └── index.html
-│
-├── build.js
+│   └── data/
+│       ├── icons.json
+│       └── stats.json
+├── src/
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
+│   ├── scripts/
+│   └── styles/
+├── docker/
+│   └── nginx.conf
+├── build.cjs
+├── astro.config.mjs
 ├── config.json
 ├── package.json
+├── package-lock.json
 ├── .gitignore
+├── Dockerfile
+├── docker-compose.yml
 ├── LICENSE
 ├── DISCLAIMER.md
 └── README.md
-```
 
+# Build output (generated; not source files)
+dist/
+├── _astro/                  # Astro-generated CSS and JavaScript
+├── assets/
+├── data/
+│   ├── icons.json
+│   └── stats.json
+└── index.html
+```
 ---
 
 ## 🧩 Icon Data
@@ -439,19 +446,8 @@ Example:
 }
 ```
 
-Statistics are generated separately:
-
-```text
-dist/data/stats.json
-```
-
-```json
-{
-  "total": 349,
-  "svg": 344,
-  "png": 5
-}
-```
+The build also writes the generated statistics to `dist/data/stats.json`.
+Counts change when icons are added or removed.
 
 ---
 
