@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#dfe8f5"/></linearGradient></defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<rect x="65" y="55" width="1070" height="520" rx="36" fill="#fff" fill-opacity=".8" stroke="#fff" stroke-width="3"/>
+<rect x="120" y="115" width="62" height="62" rx="18" fill="#17191d"/>
+<path d="M136 130h31v7h-23v8h19v7h-19v8h23v7h-31z" fill="#fff"/>
+<text x="120" y="290" font-family="Arial,sans-serif" font-size="86" font-weight="700" fill="#17191d">NPC-icons</text>
+<text x="124" y="350" font-family="Arial,sans-serif" font-size="28" fill="#596273">Free SVG &amp; PNG Icon Library</text>
+<g fill="#fff" stroke="#e1e6ee" stroke-width="2"><rect x="124" y="405" width="76" height="76" rx="20"/><rect x="216" y="405" width="76" height="76" rx="20"/><rect x="308" y="405" width="76" height="76" rx="20"/><rect x="400" y="405" width="76" height="76" rx="20"/></g>
+<circle cx="254" cy="443" r="20" fill="none" stroke="#4385f5" stroke-width="7"/>
+<path d="M330 426h32v34h-32z" fill="none" stroke="#25a269" stroke-width="5"/>
+<path d="M438 422l22 22-22 22-22-22z" fill="#f5a623"/>
+<text x="1070" y="530" text-anchor="end" font-family="Arial,sans-serif" font-size="18" fill="#7b8492">icons.x0u0x.xyz</text>
+</svg>

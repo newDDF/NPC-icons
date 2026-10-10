@@ -15,6 +15,15 @@ fs.mkdirSync(dataDir, { recursive: true });
 fs.mkdirSync(svgDir, { recursive: true });
 fs.mkdirSync(pngDir, { recursive: true });
 
+// Preserve social sharing preview images across builds.
+for (const ext of ['svg', 'png']) {
+    const source = path.join(__dirname, 'assets', `share-preview.${ext}`);
+    if (fs.existsSync(source)) {
+        fs.copyFileSync(source, path.join(assetsDir, `share-preview.${ext}`));
+    }
+}
+
+
 if (!fs.existsSync(configPath)) {
     console.error('Missing config.json!');
     process.exit(1);
