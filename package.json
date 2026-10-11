@@ -7,10 +7,10 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "node build.cjs && astro build",
+    "build": "node build.cjs && node ecosystem.cjs && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "predev": "node build.cjs"
+    "predev": "node build.cjs && node ecosystem.cjs"
   },
   "dependencies": {
     "astro": "^7.3.6"
