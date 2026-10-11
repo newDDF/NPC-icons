@@ -1,0 +1,15 @@
+{
+  "name": "Greendot",
+  "color": "#01a43b",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "path": "/assets/svg/Greendot.svg",
+  "id": "greendot-svg",
+  "filename": "Greendot.svg",
+  "url": "/assets/svg/Greendot.svg",
+  "apiUrl": "/api/icons/greendot-svg.json"
+}

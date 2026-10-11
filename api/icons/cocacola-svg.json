@@ -1,0 +1,15 @@
+{
+  "name": "cocacola",
+  "color": "#d50115",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Food & Beverage"
+  ],
+  "path": "/assets/svg/cocacola.svg",
+  "id": "cocacola-svg",
+  "filename": "cocacola.svg",
+  "url": "/assets/svg/cocacola.svg",
+  "apiUrl": "/api/icons/cocacola-svg.json"
+}

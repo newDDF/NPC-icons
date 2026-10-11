@@ -1,0 +1,15 @@
+{
+  "name": "broadcastchannel",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/broadcastchannel.svg",
+  "id": "broadcastchannel-svg",
+  "filename": "broadcastchannel.svg",
+  "url": "/assets/svg/broadcastchannel.svg",
+  "apiUrl": "/api/icons/broadcastchannel-svg.json"
+}

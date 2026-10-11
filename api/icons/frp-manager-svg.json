@@ -1,0 +1,15 @@
+{
+  "name": "frp-manager",
+  "color": "#4ade80",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/frp-manager.svg",
+  "id": "frp-manager-svg",
+  "filename": "frp-manager.svg",
+  "url": "/assets/svg/frp-manager.svg",
+  "apiUrl": "/api/icons/frp-manager-svg.json"
+}

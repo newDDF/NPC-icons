@@ -1,0 +1,15 @@
+{
+  "name": "capsule",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "path": "/assets/svg/capsule.svg",
+  "id": "capsule-svg",
+  "filename": "capsule.svg",
+  "url": "/assets/svg/capsule.svg",
+  "apiUrl": "/api/icons/capsule-svg.json"
+}

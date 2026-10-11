@@ -1,0 +1,15 @@
+{
+  "name": "bitcoin",
+  "color": "#F7931A",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "path": "/assets/svg/bitcoin.svg",
+  "id": "bitcoin-svg",
+  "filename": "bitcoin.svg",
+  "url": "/assets/svg/bitcoin.svg",
+  "apiUrl": "/api/icons/bitcoin-svg.json"
+}

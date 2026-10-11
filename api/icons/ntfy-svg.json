@@ -1,0 +1,15 @@
+{
+  "name": "ntfy",
+  "color": "#45a28f",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "path": "/assets/svg/ntfy.svg",
+  "id": "ntfy-svg",
+  "filename": "ntfy.svg",
+  "url": "/assets/svg/ntfy.svg",
+  "apiUrl": "/api/icons/ntfy-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "SKHynix",
+  "color": "#e51837",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/SKHynix.svg",
+  "id": "skhynix-svg",
+  "filename": "SKHynix.svg",
+  "url": "/assets/svg/SKHynix.svg",
+  "apiUrl": "/api/icons/skhynix-svg.json"
+}

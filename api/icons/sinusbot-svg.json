@@ -1,0 +1,15 @@
+{
+  "name": "sinusbot",
+  "color": "#e13438",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/sinusbot.svg",
+  "id": "sinusbot-svg",
+  "filename": "sinusbot.svg",
+  "url": "/assets/svg/sinusbot.svg",
+  "apiUrl": "/api/icons/sinusbot-svg.json"
+}

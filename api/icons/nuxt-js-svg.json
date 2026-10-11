@@ -1,0 +1,15 @@
+{
+  "name": "nuxt-js",
+  "color": "#0cc97c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/nuxt-js.svg",
+  "id": "nuxt-js-svg",
+  "filename": "nuxt-js.svg",
+  "url": "/assets/svg/nuxt-js.svg",
+  "apiUrl": "/api/icons/nuxt-js-svg.json"
+}

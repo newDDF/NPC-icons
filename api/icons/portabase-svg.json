@@ -1,0 +1,15 @@
+{
+  "name": "portabase",
+  "color": "#ff6600",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/portabase.svg",
+  "id": "portabase-svg",
+  "filename": "portabase.svg",
+  "url": "/assets/svg/portabase.svg",
+  "apiUrl": "/api/icons/portabase-svg.json"
+}

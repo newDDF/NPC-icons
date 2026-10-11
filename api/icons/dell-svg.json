@@ -1,0 +1,15 @@
+{
+  "name": "dell",
+  "color": "#007db8",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/dell.svg",
+  "id": "dell-svg",
+  "filename": "dell.svg",
+  "url": "/assets/svg/dell.svg",
+  "apiUrl": "/api/icons/dell-svg.json"
+}

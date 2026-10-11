@@ -1,0 +1,16 @@
+{
+  "name": "nginx",
+  "color": "#019639",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure",
+    "Open Source"
+  ],
+  "path": "/assets/svg/nginx.svg",
+  "id": "nginx-svg",
+  "filename": "nginx.svg",
+  "url": "/assets/svg/nginx.svg",
+  "apiUrl": "/api/icons/nginx-svg.json"
+}

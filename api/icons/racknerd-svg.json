@@ -1,0 +1,15 @@
+{
+  "name": "racknerd",
+  "color": "#0877BA",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "path": "/assets/svg/racknerd.svg",
+  "id": "racknerd-svg",
+  "filename": "racknerd.svg",
+  "url": "/assets/svg/racknerd.svg",
+  "apiUrl": "/api/icons/racknerd-svg.json"
+}

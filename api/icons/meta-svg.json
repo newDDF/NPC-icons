@@ -1,0 +1,15 @@
+{
+  "name": "meta",
+  "color": "#0f6fd3",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "path": "/assets/svg/meta.svg",
+  "id": "meta-svg",
+  "filename": "meta.svg",
+  "url": "/assets/svg/meta.svg",
+  "apiUrl": "/api/icons/meta-svg.json"
+}

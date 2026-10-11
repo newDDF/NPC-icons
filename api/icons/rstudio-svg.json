@@ -1,0 +1,16 @@
+{
+  "name": "rstudio",
+  "color": "#1c97f5",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/rstudio.svg",
+  "id": "rstudio-svg",
+  "filename": "rstudio.svg",
+  "url": "/assets/svg/rstudio.svg",
+  "apiUrl": "/api/icons/rstudio-svg.json"
+}

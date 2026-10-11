@@ -1,0 +1,15 @@
+{
+  "name": "Seagate",
+  "color": "#70c04e",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/Seagate.svg",
+  "id": "seagate-svg",
+  "filename": "Seagate.svg",
+  "url": "/assets/svg/Seagate.svg",
+  "apiUrl": "/api/icons/seagate-svg.json"
+}

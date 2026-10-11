@@ -1,0 +1,15 @@
+{
+  "name": "syncthing",
+  "color": "#108fcd",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/syncthing.svg",
+  "id": "syncthing-svg",
+  "filename": "syncthing.svg",
+  "url": "/assets/svg/syncthing.svg",
+  "apiUrl": "/api/icons/syncthing-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "dvd",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/dvd.svg",
+  "id": "dvd-svg",
+  "filename": "dvd.svg",
+  "url": "/assets/svg/dvd.svg",
+  "apiUrl": "/api/icons/dvd-svg.json"
+}

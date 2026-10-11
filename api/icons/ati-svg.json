@@ -1,0 +1,15 @@
+{
+  "name": "ATI",
+  "color": "#e43425",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/ATI.svg",
+  "id": "ati-svg",
+  "filename": "ATI.svg",
+  "url": "/assets/svg/ATI.svg",
+  "apiUrl": "/api/icons/ati-svg.json"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "libretranslate",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/libretranslate.svg",
+  "id": "libretranslate-svg",
+  "filename": "libretranslate.svg",
+  "url": "/assets/svg/libretranslate.svg",
+  "apiUrl": "/api/icons/libretranslate-svg.json"
+}

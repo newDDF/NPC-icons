@@ -1,0 +1,15 @@
+{
+  "name": "soundcloud",
+  "color": "#FF5500",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/soundcloud.svg",
+  "id": "soundcloud-svg",
+  "filename": "soundcloud.svg",
+  "url": "/assets/svg/soundcloud.svg",
+  "apiUrl": "/api/icons/soundcloud-svg.json"
+}

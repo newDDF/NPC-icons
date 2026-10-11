@@ -1,0 +1,15 @@
+{
+  "name": "portainer-alt",
+  "color": "#13bef9",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/portainer-alt.svg",
+  "id": "portainer-alt-svg",
+  "filename": "portainer-alt.svg",
+  "url": "/assets/svg/portainer-alt.svg",
+  "apiUrl": "/api/icons/portainer-alt-svg.json"
+}

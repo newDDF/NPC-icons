@@ -1,0 +1,15 @@
+{
+  "name": "peacock",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/peacock.svg",
+  "id": "peacock-svg",
+  "filename": "peacock.svg",
+  "url": "/assets/svg/peacock.svg",
+  "apiUrl": "/api/icons/peacock-svg.json"
+}

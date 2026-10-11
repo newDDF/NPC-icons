@@ -1,0 +1,15 @@
+{
+  "name": "DAYUAN",
+  "color": "none",
+  "format": "png",
+  "source": "",
+  "info": "NPC-icons library bitmapped graphic asset.",
+  "category": [
+    "Education"
+  ],
+  "path": "/assets/png/DAYUAN.png",
+  "id": "dayuan-png",
+  "filename": "DAYUAN.png",
+  "url": "/assets/png/DAYUAN.png",
+  "apiUrl": "/api/icons/dayuan-png.json"
+}

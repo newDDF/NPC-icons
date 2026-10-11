@@ -1,0 +1,15 @@
+{
+  "name": "formbricks",
+  "color": "#00dbc4",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "path": "/assets/svg/formbricks.svg",
+  "id": "formbricks-svg",
+  "filename": "formbricks.svg",
+  "url": "/assets/svg/formbricks.svg",
+  "apiUrl": "/api/icons/formbricks-svg.json"
+}

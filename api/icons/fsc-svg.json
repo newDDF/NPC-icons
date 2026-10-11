@@ -1,0 +1,15 @@
+{
+  "name": "FSC",
+  "color": "#5a772a",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "path": "/assets/svg/FSC.svg",
+  "id": "fsc-svg",
+  "filename": "FSC.svg",
+  "url": "/assets/svg/FSC.svg",
+  "apiUrl": "/api/icons/fsc-svg.json"
+}

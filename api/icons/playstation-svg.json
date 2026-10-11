@@ -1,0 +1,15 @@
+{
+  "name": "playstation",
+  "color": "#de0029",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "path": "/assets/svg/playstation.svg",
+  "id": "playstation-svg",
+  "filename": "playstation.svg",
+  "url": "/assets/svg/playstation.svg",
+  "apiUrl": "/api/icons/playstation-svg.json"
+}

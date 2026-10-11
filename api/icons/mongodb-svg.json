@@ -1,0 +1,15 @@
+{
+  "name": "mongodb",
+  "color": "#119d4f",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/mongodb.svg",
+  "id": "mongodb-svg",
+  "filename": "mongodb.svg",
+  "url": "/assets/svg/mongodb.svg",
+  "apiUrl": "/api/icons/mongodb-svg.json"
+}

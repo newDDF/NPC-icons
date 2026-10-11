@@ -1,0 +1,15 @@
+{
+  "name": "emby",
+  "color": "#52b54b",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/emby.svg",
+  "id": "emby-svg",
+  "filename": "emby.svg",
+  "url": "/assets/svg/emby.svg",
+  "apiUrl": "/api/icons/emby-svg.json"
+}

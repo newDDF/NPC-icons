@@ -1,0 +1,15 @@
+{
+  "name": "mailgun",
+  "color": "#ad2a2e",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "path": "/assets/svg/mailgun.svg",
+  "id": "mailgun-svg",
+  "filename": "mailgun.svg",
+  "url": "/assets/svg/mailgun.svg",
+  "apiUrl": "/api/icons/mailgun-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "postman",
+  "color": "#ff6c37",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/postman.svg",
+  "id": "postman-svg",
+  "filename": "postman.svg",
+  "url": "/assets/svg/postman.svg",
+  "apiUrl": "/api/icons/postman-svg.json"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "WiFi",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking",
+    "Hardware"
+  ],
+  "path": "/assets/svg/WiFi.svg",
+  "id": "wifi-svg",
+  "filename": "WiFi.svg",
+  "url": "/assets/svg/WiFi.svg",
+  "apiUrl": "/api/icons/wifi-svg.json"
+}

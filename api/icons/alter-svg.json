@@ -1,0 +1,15 @@
+{
+  "name": "alter",
+  "color": "#e60118",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "path": "/assets/svg/alter.svg",
+  "id": "alter-svg",
+  "filename": "alter.svg",
+  "url": "/assets/svg/alter.svg",
+  "apiUrl": "/api/icons/alter-svg.json"
+}

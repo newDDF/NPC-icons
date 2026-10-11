@@ -1,0 +1,15 @@
+{
+  "name": "x",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "path": "/assets/svg/x.svg",
+  "id": "x-svg",
+  "filename": "x.svg",
+  "url": "/assets/svg/x.svg",
+  "apiUrl": "/api/icons/x-svg.json"
+}

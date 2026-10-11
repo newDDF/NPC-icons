@@ -1,0 +1,15 @@
+{
+  "name": "cd",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/cd.svg",
+  "id": "cd-svg",
+  "filename": "cd.svg",
+  "url": "/assets/svg/cd.svg",
+  "apiUrl": "/api/icons/cd-svg.json"
+}

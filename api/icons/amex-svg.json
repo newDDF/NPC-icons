@@ -1,0 +1,15 @@
+{
+  "name": "amex",
+  "color": "#016fd0",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "path": "/assets/svg/amex.svg",
+  "id": "amex-svg",
+  "filename": "amex.svg",
+  "url": "/assets/svg/amex.svg",
+  "apiUrl": "/api/icons/amex-svg.json"
+}

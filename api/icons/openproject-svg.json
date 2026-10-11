@@ -1,0 +1,16 @@
+{
+  "name": "openproject",
+  "color": "#0671b9",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure",
+    "Productivity"
+  ],
+  "path": "/assets/svg/openproject.svg",
+  "id": "openproject-svg",
+  "filename": "openproject.svg",
+  "url": "/assets/svg/openproject.svg",
+  "apiUrl": "/api/icons/openproject-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "origin",
+  "color": "#f15a23",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "path": "/assets/svg/origin.svg",
+  "id": "origin-svg",
+  "filename": "origin.svg",
+  "url": "/assets/svg/origin.svg",
+  "apiUrl": "/api/icons/origin-svg.json"
+}

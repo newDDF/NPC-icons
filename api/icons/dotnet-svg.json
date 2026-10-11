@@ -1,0 +1,15 @@
+{
+  "name": "dotnet",
+  "color": "#512bd3",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/dotnet.svg",
+  "id": "dotnet-svg",
+  "filename": "dotnet.svg",
+  "url": "/assets/svg/dotnet.svg",
+  "apiUrl": "/api/icons/dotnet-svg.json"
+}

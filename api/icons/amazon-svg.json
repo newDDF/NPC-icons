@@ -1,0 +1,16 @@
+{
+  "name": "amazon",
+  "color": "#FA6306",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud",
+    "E-commerce"
+  ],
+  "path": "/assets/svg/amazon.svg",
+  "id": "amazon-svg",
+  "filename": "amazon.svg",
+  "url": "/assets/svg/amazon.svg",
+  "apiUrl": "/api/icons/amazon-svg.json"
+}

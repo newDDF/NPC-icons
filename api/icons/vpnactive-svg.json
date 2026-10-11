@@ -1,0 +1,15 @@
+{
+  "name": "vpnactive",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "path": "/assets/svg/vpnactive.svg",
+  "id": "vpnactive-svg",
+  "filename": "vpnactive.svg",
+  "url": "/assets/svg/vpnactive.svg",
+  "apiUrl": "/api/icons/vpnactive-svg.json"
+}

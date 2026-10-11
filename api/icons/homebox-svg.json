@@ -1,0 +1,15 @@
+{
+  "name": "homebox",
+  "color": "#dadada",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/homebox.svg",
+  "id": "homebox-svg",
+  "filename": "homebox.svg",
+  "url": "/assets/svg/homebox.svg",
+  "apiUrl": "/api/icons/homebox-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "proton",
+  "color": "#705cf7",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "path": "/assets/svg/proton.svg",
+  "id": "proton-svg",
+  "filename": "proton.svg",
+  "url": "/assets/svg/proton.svg",
+  "apiUrl": "/api/icons/proton-svg.json"
+}

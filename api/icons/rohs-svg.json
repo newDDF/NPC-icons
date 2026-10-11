@@ -1,0 +1,15 @@
+{
+  "name": "RoHS",
+  "color": "#42c249",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/RoHS.svg",
+  "id": "rohs-svg",
+  "filename": "RoHS.svg",
+  "url": "/assets/svg/RoHS.svg",
+  "apiUrl": "/api/icons/rohs-svg.json"
+}

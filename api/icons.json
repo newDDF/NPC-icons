@@ -1,0 +1,5278 @@
+[
+  {
+    "name": "amd",
+    "color": "#ed1c24",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems",
+      "Hardware"
+    ],
+    "path": "/assets/svg/amd.svg",
+    "id": "amd-svg",
+    "filename": "amd.svg",
+    "url": "/assets/svg/amd.svg",
+    "apiUrl": "/api/icons/amd-svg.json"
+  },
+  {
+    "name": "apple",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems",
+      "Hardware"
+    ],
+    "path": "/assets/svg/apple.svg",
+    "id": "apple-svg",
+    "filename": "apple.svg",
+    "url": "/assets/svg/apple.svg",
+    "apiUrl": "/api/icons/apple-svg.json"
+  },
+  {
+    "name": "android",
+    "color": "#3DDC84",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems"
+    ],
+    "path": "/assets/svg/android.svg",
+    "id": "android-svg",
+    "filename": "android.svg",
+    "url": "/assets/svg/android.svg",
+    "apiUrl": "/api/icons/android-svg.json"
+  },
+  {
+    "name": "archlinux",
+    "color": "#1793D1",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems",
+      "Open Source"
+    ],
+    "path": "/assets/svg/archlinux.svg",
+    "id": "archlinux-svg",
+    "filename": "archlinux.svg",
+    "url": "/assets/svg/archlinux.svg",
+    "apiUrl": "/api/icons/archlinux-svg.json"
+  },
+  {
+    "name": "my_logo",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/my_logo.svg",
+    "id": "my-logo-svg",
+    "filename": "my_logo.svg",
+    "url": "/assets/svg/my_logo.svg",
+    "apiUrl": "/api/icons/my-logo-svg.json"
+  },
+  {
+    "name": "github",
+    "color": "#181717",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/github.svg",
+    "id": "github-svg",
+    "filename": "github.svg",
+    "url": "/assets/svg/github.svg",
+    "apiUrl": "/api/icons/github-svg.json"
+  },
+  {
+    "name": "git",
+    "color": "#F03C2E",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/git.svg",
+    "id": "git-svg",
+    "filename": "git.svg",
+    "url": "/assets/svg/git.svg",
+    "apiUrl": "/api/icons/git-svg.json"
+  },
+  {
+    "name": "DAYUAN",
+    "color": "none",
+    "format": "png",
+    "source": "",
+    "info": "NPC-icons library bitmapped graphic asset.",
+    "category": [
+      "Education"
+    ],
+    "path": "/assets/png/DAYUAN.png",
+    "id": "dayuan-png",
+    "filename": "DAYUAN.png",
+    "url": "/assets/png/DAYUAN.png",
+    "apiUrl": "/api/icons/dayuan-png.json"
+  },
+  {
+    "name": "DONGFANGCOLLEGE",
+    "color": "none",
+    "format": "png",
+    "source": "",
+    "info": "NPC-icons library bitmapped graphic asset.",
+    "category": [
+      "Education"
+    ],
+    "path": "/assets/png/DONGFANGCOLLEGE.png",
+    "id": "dongfangcollege-png",
+    "filename": "DONGFANGCOLLEGE.png",
+    "url": "/assets/png/DONGFANGCOLLEGE.png",
+    "apiUrl": "/api/icons/dongfangcollege-png.json"
+  },
+  {
+    "name": "HAININGRUBLICBYCYCLE",
+    "color": "none",
+    "format": "png",
+    "source": "",
+    "info": "NPC-icons library bitmapped graphic asset.",
+    "category": [
+      "Education"
+    ],
+    "path": "/assets/png/HAININGRUBLICBYCYCLE.png",
+    "id": "hainingrublicbycycle-png",
+    "filename": "HAININGRUBLICBYCYCLE.png",
+    "url": "/assets/png/HAININGRUBLICBYCYCLE.png",
+    "apiUrl": "/api/icons/hainingrublicbycycle-png.json"
+  },
+  {
+    "name": "Hanghai-IR",
+    "color": "none",
+    "format": "png",
+    "source": "",
+    "info": "NPC-icons library bitmapped graphic asset.",
+    "category": [
+      "Education"
+    ],
+    "path": "/assets/png/Hanghai-IR.png",
+    "id": "hanghai-ir-png",
+    "filename": "Hanghai-IR.png",
+    "url": "/assets/png/Hanghai-IR.png",
+    "apiUrl": "/api/icons/hanghai-ir-png.json"
+  },
+  {
+    "name": "JIDIANCOLLEGE",
+    "color": "none",
+    "format": "png",
+    "source": "",
+    "info": "NPC-icons library bitmapped graphic asset.",
+    "category": [
+      "Education"
+    ],
+    "path": "/assets/png/JIDIANCOLLEGE.png",
+    "id": "jidiancollege-png",
+    "filename": "JIDIANCOLLEGE.png",
+    "url": "/assets/png/JIDIANCOLLEGE.png",
+    "apiUrl": "/api/icons/jidiancollege-png.json"
+  },
+  {
+    "name": "DONGFANGCOLLEGE",
+    "color": "#0E6EB7",
+    "format": "svg",
+    "source": "https://iceceng.zufedfc.edu.cn/xygk/xybs1.htm",
+    "info": "NPC-icons library trademark vector asset.",
+    "category": [
+      "Education"
+    ],
+    "path": "/assets/svg/DONGFANGCOLLEGE.svg",
+    "id": "dongfangcollege-svg",
+    "filename": "DONGFANGCOLLEGE.svg",
+    "url": "/assets/svg/DONGFANGCOLLEGE.svg",
+    "apiUrl": "/api/icons/dongfangcollege-svg.json"
+  },
+  {
+    "name": "HAININGRUBLICBYCYCLE",
+    "color": "#173783",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark vector asset.",
+    "category": [
+      "Education"
+    ],
+    "path": "/assets/svg/HAININGRUBLICBYCYCLE.svg",
+    "id": "hainingrublicbycycle-svg",
+    "filename": "HAININGRUBLICBYCYCLE.svg",
+    "url": "/assets/svg/HAININGRUBLICBYCYCLE.svg",
+    "apiUrl": "/api/icons/hainingrublicbycycle-svg.json"
+  },
+  {
+    "name": "Hanghai-IR",
+    "color": "#B40101",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark vector asset.",
+    "category": [
+      "Education"
+    ],
+    "path": "/assets/svg/Hanghai-IR.svg",
+    "id": "hanghai-ir-svg",
+    "filename": "Hanghai-IR.svg",
+    "url": "/assets/svg/Hanghai-IR.svg",
+    "apiUrl": "/api/icons/hanghai-ir-svg.json"
+  },
+  {
+    "name": "JIDIANCOLLEGE",
+    "color": "#A1CB3C",
+    "format": "svg",
+    "source": "https://www.zime.edu.cn/xqzl/xxjj.htm",
+    "info": "NPC-icons library trademark vector asset.",
+    "category": [
+      "Education"
+    ],
+    "path": "/assets/svg/JIDIANCOLLEGE.svg",
+    "id": "jidiancollege-svg",
+    "filename": "JIDIANCOLLEGE.svg",
+    "url": "/assets/svg/JIDIANCOLLEGE.svg",
+    "apiUrl": "/api/icons/jidiancollege-svg.json"
+  },
+  {
+    "name": "line",
+    "color": "#00C300",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/line.svg",
+    "id": "line-svg",
+    "filename": "line.svg",
+    "url": "/assets/svg/line.svg",
+    "apiUrl": "/api/icons/line-svg.json"
+  },
+  {
+    "name": "spotify",
+    "color": "#1ED760",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/spotify.svg",
+    "id": "spotify-svg",
+    "filename": "spotify.svg",
+    "url": "/assets/svg/spotify.svg",
+    "apiUrl": "/api/icons/spotify-svg.json"
+  },
+  {
+    "name": "pinterest",
+    "color": "#BD081C",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/pinterest.svg",
+    "id": "pinterest-svg",
+    "filename": "pinterest.svg",
+    "url": "/assets/svg/pinterest.svg",
+    "apiUrl": "/api/icons/pinterest-svg.json"
+  },
+  {
+    "name": "whatsapp",
+    "color": "#25D366",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/whatsapp.svg",
+    "id": "whatsapp-svg",
+    "filename": "whatsapp.svg",
+    "url": "/assets/svg/whatsapp.svg",
+    "apiUrl": "/api/icons/whatsapp-svg.json"
+  },
+  {
+    "name": "telegram",
+    "color": "#26A5E4",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/telegram.svg",
+    "id": "telegram-svg",
+    "filename": "telegram.svg",
+    "url": "/assets/svg/telegram.svg",
+    "apiUrl": "/api/icons/telegram-svg.json"
+  },
+  {
+    "name": "instagram",
+    "color": "#FF0069",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/instagram.svg",
+    "id": "instagram-svg",
+    "filename": "instagram.svg",
+    "url": "/assets/svg/instagram.svg",
+    "apiUrl": "/api/icons/instagram-svg.json"
+  },
+  {
+    "name": "bitcoin",
+    "color": "#F7931A",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Finance"
+    ],
+    "path": "/assets/svg/bitcoin.svg",
+    "id": "bitcoin-svg",
+    "filename": "bitcoin.svg",
+    "url": "/assets/svg/bitcoin.svg",
+    "apiUrl": "/api/icons/bitcoin-svg.json"
+  },
+  {
+    "name": "visa",
+    "color": "#1A1F71",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Finance"
+    ],
+    "path": "/assets/svg/visa.svg",
+    "id": "visa-svg",
+    "filename": "visa.svg",
+    "url": "/assets/svg/visa.svg",
+    "apiUrl": "/api/icons/visa-svg.json"
+  },
+  {
+    "name": "mastercard",
+    "color": "#EB001B",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Finance"
+    ],
+    "path": "/assets/svg/mastercard.svg",
+    "id": "mastercard-svg",
+    "filename": "mastercard.svg",
+    "url": "/assets/svg/mastercard.svg",
+    "apiUrl": "/api/icons/mastercard-svg.json"
+  },
+  {
+    "name": "paypal",
+    "color": "#002991",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Finance"
+    ],
+    "path": "/assets/svg/paypal.svg",
+    "id": "paypal-svg",
+    "filename": "paypal.svg",
+    "url": "/assets/svg/paypal.svg",
+    "apiUrl": "/api/icons/paypal-svg.json"
+  },
+  {
+    "name": "soundcloud",
+    "color": "#FF5500",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/soundcloud.svg",
+    "id": "soundcloud-svg",
+    "filename": "soundcloud.svg",
+    "url": "/assets/svg/soundcloud.svg",
+    "apiUrl": "/api/icons/soundcloud-svg.json"
+  },
+  {
+    "name": "cloudflare",
+    "color": "#F38020",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/cloudflare.svg",
+    "id": "cloudflare-svg",
+    "filename": "cloudflare.svg",
+    "url": "/assets/svg/cloudflare.svg",
+    "apiUrl": "/api/icons/cloudflare-svg.json"
+  },
+  {
+    "name": "reddit",
+    "color": "#FF4500",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/reddit.svg",
+    "id": "reddit-svg",
+    "filename": "reddit.svg",
+    "url": "/assets/svg/reddit.svg",
+    "apiUrl": "/api/icons/reddit-svg.json"
+  },
+  {
+    "name": "capsule",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/capsule.svg",
+    "id": "capsule-svg",
+    "filename": "capsule.svg",
+    "url": "/assets/svg/capsule.svg",
+    "apiUrl": "/api/icons/capsule-svg.json"
+  },
+  {
+    "name": "tomianime",
+    "color": "#EF4E46",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/tomianime.svg",
+    "id": "tomianime-svg",
+    "filename": "tomianime.svg",
+    "url": "/assets/svg/tomianime.svg",
+    "apiUrl": "/api/icons/tomianime-svg.json"
+  },
+  {
+    "name": "reddoribon",
+    "color": "#EB1C25",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/reddoribon.svg",
+    "id": "reddoribon-svg",
+    "filename": "reddoribon.svg",
+    "url": "/assets/svg/reddoribon.svg",
+    "apiUrl": "/api/icons/reddoribon-svg.json"
+  },
+  {
+    "name": "hainingzhongxue",
+    "color": "#814A2B",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Education"
+    ],
+    "path": "/assets/svg/hainingzhongxue.svg",
+    "id": "hainingzhongxue-svg",
+    "filename": "hainingzhongxue.svg",
+    "url": "/assets/svg/hainingzhongxue.svg",
+    "apiUrl": "/api/icons/hainingzhongxue-svg.json"
+  },
+  {
+    "name": "oracle",
+    "color": "#ED0004",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/oracle.svg",
+    "id": "oracle-svg",
+    "filename": "oracle.svg",
+    "url": "/assets/svg/oracle.svg",
+    "apiUrl": "/api/icons/oracle-svg.json"
+  },
+  {
+    "name": "amazon",
+    "color": "#FA6306",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud",
+      "E-commerce"
+    ],
+    "path": "/assets/svg/amazon.svg",
+    "id": "amazon-svg",
+    "filename": "amazon.svg",
+    "url": "/assets/svg/amazon.svg",
+    "apiUrl": "/api/icons/amazon-svg.json"
+  },
+  {
+    "name": "synology",
+    "color": "#B5B5B6",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/synology.svg",
+    "id": "synology-svg",
+    "filename": "synology.svg",
+    "url": "/assets/svg/synology.svg",
+    "apiUrl": "/api/icons/synology-svg.json"
+  },
+  {
+    "name": "duolingo",
+    "color": "#58CC02",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Education"
+    ],
+    "path": "/assets/svg/duolingo.svg",
+    "id": "duolingo-svg",
+    "filename": "duolingo.svg",
+    "url": "/assets/svg/duolingo.svg",
+    "apiUrl": "/api/icons/duolingo-svg.json"
+  },
+  {
+    "name": "wise",
+    "color": "#9FE870",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Finance"
+    ],
+    "path": "/assets/svg/wise.svg",
+    "id": "wise-svg",
+    "filename": "wise.svg",
+    "url": "/assets/svg/wise.svg",
+    "apiUrl": "/api/icons/wise-svg.json"
+  },
+  {
+    "name": "netbird",
+    "color": "#F68330",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/netbird.svg",
+    "id": "netbird-svg",
+    "filename": "netbird.svg",
+    "url": "/assets/svg/netbird.svg",
+    "apiUrl": "/api/icons/netbird-svg.json"
+  },
+  {
+    "name": "dedirock",
+    "color": "#474596",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/dedirock.svg",
+    "id": "dedirock-svg",
+    "filename": "dedirock.svg",
+    "url": "/assets/svg/dedirock.svg",
+    "apiUrl": "/api/icons/dedirock-svg.json"
+  },
+  {
+    "name": "racknerd",
+    "color": "#0877BA",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/racknerd.svg",
+    "id": "racknerd-svg",
+    "filename": "racknerd.svg",
+    "url": "/assets/svg/racknerd.svg",
+    "apiUrl": "/api/icons/racknerd-svg.json"
+  },
+  {
+    "name": "7zip",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/7zip.svg",
+    "id": "7zip-svg",
+    "filename": "7zip.svg",
+    "url": "/assets/svg/7zip.svg",
+    "apiUrl": "/api/icons/7zip-svg.json"
+  },
+  {
+    "name": "affine",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Design"
+    ],
+    "path": "/assets/svg/affine.svg",
+    "id": "affine-svg",
+    "filename": "affine.svg",
+    "url": "/assets/svg/affine.svg",
+    "apiUrl": "/api/icons/affine-svg.json"
+  },
+  {
+    "name": "aliexpress",
+    "color": "#dc3326",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "E-commerce"
+    ],
+    "path": "/assets/svg/aliexpress.svg",
+    "id": "aliexpress-svg",
+    "filename": "aliexpress.svg",
+    "url": "/assets/svg/aliexpress.svg",
+    "apiUrl": "/api/icons/aliexpress-svg.json"
+  },
+  {
+    "name": "amazon-prime",
+    "color": "#00a8e1",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "E-commerce"
+    ],
+    "path": "/assets/svg/amazon-prime.svg",
+    "id": "amazon-prime-svg",
+    "filename": "amazon-prime.svg",
+    "url": "/assets/svg/amazon-prime.svg",
+    "apiUrl": "/api/icons/amazon-prime-svg.json"
+  },
+  {
+    "name": "anaconda",
+    "color": "#43b02a",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/anaconda.svg",
+    "id": "anaconda-svg",
+    "filename": "anaconda.svg",
+    "url": "/assets/svg/anaconda.svg",
+    "apiUrl": "/api/icons/anaconda-svg.json"
+  },
+  {
+    "name": "ansible",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/ansible.svg",
+    "id": "ansible-svg",
+    "filename": "ansible.svg",
+    "url": "/assets/svg/ansible.svg",
+    "apiUrl": "/api/icons/ansible-svg.json"
+  },
+  {
+    "name": "archivedotorg",
+    "color": "#2c2c2c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/archivedotorg.svg",
+    "id": "archivedotorg-svg",
+    "filename": "archivedotorg.svg",
+    "url": "/assets/svg/archivedotorg.svg",
+    "apiUrl": "/api/icons/archivedotorg-svg.json"
+  },
+  {
+    "name": "arm",
+    "color": "#0091bd",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/arm.svg",
+    "id": "arm-svg",
+    "filename": "arm.svg",
+    "url": "/assets/svg/arm.svg",
+    "apiUrl": "/api/icons/arm-svg.json"
+  },
+  {
+    "name": "aruba",
+    "color": "#ff8300",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/aruba.svg",
+    "id": "aruba-svg",
+    "filename": "aruba.svg",
+    "url": "/assets/svg/aruba.svg",
+    "apiUrl": "/api/icons/aruba-svg.json"
+  },
+  {
+    "name": "astro",
+    "color": "#bc52ee",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/astro.svg",
+    "id": "astro-svg",
+    "filename": "astro.svg",
+    "url": "/assets/svg/astro.svg",
+    "apiUrl": "/api/icons/astro-svg.json"
+  },
+  {
+    "name": "at-t",
+    "color": "#119bd7",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/at-t.svg",
+    "id": "at-t-svg",
+    "filename": "at-t.svg",
+    "url": "/assets/svg/at-t.svg",
+    "apiUrl": "/api/icons/at-t-svg.json"
+  },
+  {
+    "name": "behance",
+    "color": "#1d63f7",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/behance.svg",
+    "id": "behance-svg",
+    "filename": "behance.svg",
+    "url": "/assets/svg/behance.svg",
+    "apiUrl": "/api/icons/behance-svg.json"
+  },
+  {
+    "name": "bitwarden",
+    "color": "#175ddc",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/bitwarden.svg",
+    "id": "bitwarden-svg",
+    "filename": "bitwarden.svg",
+    "url": "/assets/svg/bitwarden.svg",
+    "apiUrl": "/api/icons/bitwarden-svg.json"
+  },
+  {
+    "name": "blender",
+    "color": "#ea7600",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Design"
+    ],
+    "path": "/assets/svg/blender.svg",
+    "id": "blender-svg",
+    "filename": "blender.svg",
+    "url": "/assets/svg/blender.svg",
+    "apiUrl": "/api/icons/blender-svg.json"
+  },
+  {
+    "name": "blogger",
+    "color": "#ef6a35",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/blogger.svg",
+    "id": "blogger-svg",
+    "filename": "blogger.svg",
+    "url": "/assets/svg/blogger.svg",
+    "apiUrl": "/api/icons/blogger-svg.json"
+  },
+  {
+    "name": "blu-ray-3d",
+    "color": "#1185fe",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/blu-ray-3d.svg",
+    "id": "blu-ray-3d-svg",
+    "filename": "blu-ray-3d.svg",
+    "url": "/assets/svg/blu-ray-3d.svg",
+    "apiUrl": "/api/icons/blu-ray-3d-svg.json"
+  },
+  {
+    "name": "bluesky",
+    "color": "#0082fc",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/bluesky.svg",
+    "id": "bluesky-svg",
+    "filename": "bluesky.svg",
+    "url": "/assets/svg/bluesky.svg",
+    "apiUrl": "/api/icons/bluesky-svg.json"
+  },
+  {
+    "name": "bluetooth",
+    "color": "#007dc5",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/bluetooth.svg",
+    "id": "bluetooth-svg",
+    "filename": "bluetooth.svg",
+    "url": "/assets/svg/bluetooth.svg",
+    "apiUrl": "/api/icons/bluetooth-svg.json"
+  },
+  {
+    "name": "bootstrap",
+    "color": "#7511f6",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/bootstrap.svg",
+    "id": "bootstrap-svg",
+    "filename": "bootstrap.svg",
+    "url": "/assets/svg/bootstrap.svg",
+    "apiUrl": "/api/icons/bootstrap-svg.json"
+  },
+  {
+    "name": "brave",
+    "color": "#f1542b",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/brave.svg",
+    "id": "brave-svg",
+    "filename": "brave.svg",
+    "url": "/assets/svg/brave.svg",
+    "apiUrl": "/api/icons/brave-svg.json"
+  },
+  {
+    "name": "bright-move",
+    "color": "#4d4d4d",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/bright-move.svg",
+    "id": "bright-move-svg",
+    "filename": "bright-move.svg",
+    "url": "/assets/svg/bright-move.svg",
+    "apiUrl": "/api/icons/bright-move-svg.json"
+  },
+  {
+    "name": "broadcastchannel",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/broadcastchannel.svg",
+    "id": "broadcastchannel-svg",
+    "filename": "broadcastchannel.svg",
+    "url": "/assets/svg/broadcastchannel.svg",
+    "apiUrl": "/api/icons/broadcastchannel-svg.json"
+  },
+  {
+    "name": "broadcom",
+    "color": "#cc092f",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/broadcom.svg",
+    "id": "broadcom-svg",
+    "filename": "broadcom.svg",
+    "url": "/assets/svg/broadcom.svg",
+    "apiUrl": "/api/icons/broadcom-svg.json"
+  },
+  {
+    "name": "brother",
+    "color": "#1535a3",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/brother.svg",
+    "id": "brother-svg",
+    "filename": "brother.svg",
+    "url": "/assets/svg/brother.svg",
+    "apiUrl": "/api/icons/brother-svg.json"
+  },
+  {
+    "name": "carrefour",
+    "color": "#014fa0",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "E-commerce"
+    ],
+    "path": "/assets/svg/carrefour.svg",
+    "id": "carrefour-svg",
+    "filename": "carrefour.svg",
+    "url": "/assets/svg/carrefour.svg",
+    "apiUrl": "/api/icons/carrefour-svg.json"
+  },
+  {
+    "name": "cc",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Technology"
+    ],
+    "path": "/assets/svg/cc.svg",
+    "id": "cc-svg",
+    "filename": "cc.svg",
+    "url": "/assets/svg/cc.svg",
+    "apiUrl": "/api/icons/cc-svg.json"
+  },
+  {
+    "name": "cd",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/cd.svg",
+    "id": "cd-svg",
+    "filename": "cd.svg",
+    "url": "/assets/svg/cd.svg",
+    "apiUrl": "/api/icons/cd-svg.json"
+  },
+  {
+    "name": "cloudbeaver",
+    "color": "#4598d3",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/cloudbeaver.svg",
+    "id": "cloudbeaver-svg",
+    "filename": "cloudbeaver.svg",
+    "url": "/assets/svg/cloudbeaver.svg",
+    "apiUrl": "/api/icons/cloudbeaver-svg.json"
+  },
+  {
+    "name": "cockpit",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/cockpit.svg",
+    "id": "cockpit-svg",
+    "filename": "cockpit.svg",
+    "url": "/assets/svg/cockpit.svg",
+    "apiUrl": "/api/icons/cockpit-svg.json"
+  },
+  {
+    "name": "convertio-dark",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/convertio-dark.svg",
+    "id": "convertio-dark-svg",
+    "filename": "convertio-dark.svg",
+    "url": "/assets/svg/convertio-dark.svg",
+    "apiUrl": "/api/icons/convertio-dark-svg.json"
+  },
+  {
+    "name": "couchdb",
+    "color": "#e42528",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/couchdb.svg",
+    "id": "couchdb-svg",
+    "filename": "couchdb.svg",
+    "url": "/assets/svg/couchdb.svg",
+    "apiUrl": "/api/icons/couchdb-svg.json"
+  },
+  {
+    "name": "cpanel",
+    "color": "#ff6c2c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/cpanel.svg",
+    "id": "cpanel-svg",
+    "filename": "cpanel.svg",
+    "url": "/assets/svg/cpanel.svg",
+    "apiUrl": "/api/icons/cpanel-svg.json"
+  },
+  {
+    "name": "crunchyroll",
+    "color": "#f78b24",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/crunchyroll.svg",
+    "id": "crunchyroll-svg",
+    "filename": "crunchyroll.svg",
+    "url": "/assets/svg/crunchyroll.svg",
+    "apiUrl": "/api/icons/crunchyroll-svg.json"
+  },
+  {
+    "name": "discord",
+    "color": "#5865f2",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/discord.svg",
+    "id": "discord-svg",
+    "filename": "discord.svg",
+    "url": "/assets/svg/discord.svg",
+    "apiUrl": "/api/icons/discord-svg.json"
+  },
+  {
+    "name": "dlna",
+    "color": "#64b452",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/dlna.svg",
+    "id": "dlna-svg",
+    "filename": "dlna.svg",
+    "url": "/assets/svg/dlna.svg",
+    "apiUrl": "/api/icons/dlna-svg.json"
+  },
+  {
+    "name": "docker",
+    "color": "#2396ed",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure",
+      "Open Source"
+    ],
+    "path": "/assets/svg/docker.svg",
+    "id": "docker-svg",
+    "filename": "docker.svg",
+    "url": "/assets/svg/docker.svg",
+    "apiUrl": "/api/icons/docker-svg.json"
+  },
+  {
+    "name": "dockpeek",
+    "color": "#1a202c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/dockpeek.svg",
+    "id": "dockpeek-svg",
+    "filename": "dockpeek.svg",
+    "url": "/assets/svg/dockpeek.svg",
+    "apiUrl": "/api/icons/dockpeek-svg.json"
+  },
+  {
+    "name": "docuform",
+    "color": "#fe4503",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/docuform.svg",
+    "id": "docuform-svg",
+    "filename": "docuform.svg",
+    "url": "/assets/svg/docuform.svg",
+    "apiUrl": "/api/icons/docuform-svg.json"
+  },
+  {
+    "name": "documenso",
+    "color": "#a7e575",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/documenso.svg",
+    "id": "documenso-svg",
+    "filename": "documenso.svg",
+    "url": "/assets/svg/documenso.svg",
+    "apiUrl": "/api/icons/documenso-svg.json"
+  },
+  {
+    "name": "dotnet",
+    "color": "#512bd3",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/dotnet.svg",
+    "id": "dotnet-svg",
+    "filename": "dotnet.svg",
+    "url": "/assets/svg/dotnet.svg",
+    "apiUrl": "/api/icons/dotnet-svg.json"
+  },
+  {
+    "name": "draw-io",
+    "color": "#f08705",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Design"
+    ],
+    "path": "/assets/svg/draw-io.svg",
+    "id": "draw-io-svg",
+    "filename": "draw-io.svg",
+    "url": "/assets/svg/draw-io.svg",
+    "apiUrl": "/api/icons/draw-io-svg.json"
+  },
+  {
+    "name": "dropbox",
+    "color": "#007ee5",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/dropbox.svg",
+    "id": "dropbox-svg",
+    "filename": "dropbox.svg",
+    "url": "/assets/svg/dropbox.svg",
+    "apiUrl": "/api/icons/dropbox-svg.json"
+  },
+  {
+    "name": "dropout",
+    "color": "#feea3b",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/dropout.svg",
+    "id": "dropout-svg",
+    "filename": "dropout.svg",
+    "url": "/assets/svg/dropout.svg",
+    "apiUrl": "/api/icons/dropout-svg.json"
+  },
+  {
+    "name": "duckdns",
+    "color": "#fcfc01",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/duckdns.svg",
+    "id": "duckdns-svg",
+    "filename": "duckdns.svg",
+    "url": "/assets/svg/duckdns.svg",
+    "apiUrl": "/api/icons/duckdns-svg.json"
+  },
+  {
+    "name": "dvd",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/dvd.svg",
+    "id": "dvd-svg",
+    "filename": "dvd.svg",
+    "url": "/assets/svg/dvd.svg",
+    "apiUrl": "/api/icons/dvd-svg.json"
+  },
+  {
+    "name": "electron",
+    "color": "#2b2e3a",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/electron.svg",
+    "id": "electron-svg",
+    "filename": "electron.svg",
+    "url": "/assets/svg/electron.svg",
+    "apiUrl": "/api/icons/electron-svg.json"
+  },
+  {
+    "name": "electronic-arts",
+    "color": "#ff4747",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/electronic-arts.svg",
+    "id": "electronic-arts-svg",
+    "filename": "electronic-arts.svg",
+    "url": "/assets/svg/electronic-arts.svg",
+    "apiUrl": "/api/icons/electronic-arts-svg.json"
+  },
+  {
+    "name": "emby",
+    "color": "#52b54b",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/emby.svg",
+    "id": "emby-svg",
+    "filename": "emby.svg",
+    "url": "/assets/svg/emby.svg",
+    "apiUrl": "/api/icons/emby-svg.json"
+  },
+  {
+    "name": "etherpad",
+    "color": "#50b790",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/etherpad.svg",
+    "id": "etherpad-svg",
+    "filename": "etherpad.svg",
+    "url": "/assets/svg/etherpad.svg",
+    "apiUrl": "/api/icons/etherpad-svg.json"
+  },
+  {
+    "name": "fedora-alt",
+    "color": "#51a2da",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems",
+      "Open Source"
+    ],
+    "path": "/assets/svg/fedora-alt.svg",
+    "id": "fedora-alt-svg",
+    "filename": "fedora-alt.svg",
+    "url": "/assets/svg/fedora-alt.svg",
+    "apiUrl": "/api/icons/fedora-alt-svg.json"
+  },
+  {
+    "name": "fluffychat",
+    "color": "#4d3f92",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/fluffychat.svg",
+    "id": "fluffychat-svg",
+    "filename": "fluffychat.svg",
+    "url": "/assets/svg/fluffychat.svg",
+    "apiUrl": "/api/icons/fluffychat-svg.json"
+  },
+  {
+    "name": "forgejo",
+    "color": "#d40000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Open Source"
+    ],
+    "path": "/assets/svg/forgejo.svg",
+    "id": "forgejo-svg",
+    "filename": "forgejo.svg",
+    "url": "/assets/svg/forgejo.svg",
+    "apiUrl": "/api/icons/forgejo-svg.json"
+  },
+  {
+    "name": "formbricks",
+    "color": "#00dbc4",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/formbricks.svg",
+    "id": "formbricks-svg",
+    "filename": "formbricks.svg",
+    "url": "/assets/svg/formbricks.svg",
+    "apiUrl": "/api/icons/formbricks-svg.json"
+  },
+  {
+    "name": "fortinet",
+    "color": "#ee3124",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/fortinet.svg",
+    "id": "fortinet-svg",
+    "filename": "fortinet.svg",
+    "url": "/assets/svg/fortinet.svg",
+    "apiUrl": "/api/icons/fortinet-svg.json"
+  },
+  {
+    "name": "friendica",
+    "color": "#f7c130",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/friendica.svg",
+    "id": "friendica-svg",
+    "filename": "friendica.svg",
+    "url": "/assets/svg/friendica.svg",
+    "apiUrl": "/api/icons/friendica-svg.json"
+  },
+  {
+    "name": "frp-manager",
+    "color": "#4ade80",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/frp-manager.svg",
+    "id": "frp-manager-svg",
+    "filename": "frp-manager.svg",
+    "url": "/assets/svg/frp-manager.svg",
+    "apiUrl": "/api/icons/frp-manager-svg.json"
+  },
+  {
+    "name": "frp",
+    "color": "#307fec",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/frp.svg",
+    "id": "frp-svg",
+    "filename": "frp.svg",
+    "url": "/assets/svg/frp.svg",
+    "apiUrl": "/api/icons/frp-svg.json"
+  },
+  {
+    "name": "github-copilot",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/github-copilot.svg",
+    "id": "github-copilot-svg",
+    "filename": "github-copilot.svg",
+    "url": "/assets/svg/github-copilot.svg",
+    "apiUrl": "/api/icons/github-copilot-svg.json"
+  },
+  {
+    "name": "golang",
+    "color": "#00add8",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/golang.svg",
+    "id": "golang-svg",
+    "filename": "golang.svg",
+    "url": "/assets/svg/golang.svg",
+    "apiUrl": "/api/icons/golang-svg.json"
+  },
+  {
+    "name": "grok",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "AI"
+    ],
+    "path": "/assets/svg/grok.svg",
+    "id": "grok-svg",
+    "filename": "grok.svg",
+    "url": "/assets/svg/grok.svg",
+    "apiUrl": "/api/icons/grok-svg.json"
+  },
+  {
+    "name": "hashicorp-nomad",
+    "color": "#00ca8e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/hashicorp-nomad.svg",
+    "id": "hashicorp-nomad-svg",
+    "filename": "hashicorp-nomad.svg",
+    "url": "/assets/svg/hashicorp-nomad.svg",
+    "apiUrl": "/api/icons/hashicorp-nomad-svg.json"
+  },
+  {
+    "name": "hifiberry",
+    "color": "#e11e4a",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/hifiberry.svg",
+    "id": "hifiberry-svg",
+    "filename": "hifiberry.svg",
+    "url": "/assets/svg/hifiberry.svg",
+    "apiUrl": "/api/icons/hifiberry-svg.json"
+  },
+  {
+    "name": "home-assistant",
+    "color": "#18bcf2",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/home-assistant.svg",
+    "id": "home-assistant-svg",
+    "filename": "home-assistant.svg",
+    "url": "/assets/svg/home-assistant.svg",
+    "apiUrl": "/api/icons/home-assistant-svg.json"
+  },
+  {
+    "name": "homebox",
+    "color": "#dadada",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/homebox.svg",
+    "id": "homebox-svg",
+    "filename": "homebox.svg",
+    "url": "/assets/svg/homebox.svg",
+    "apiUrl": "/api/icons/homebox-svg.json"
+  },
+  {
+    "name": "homebrew",
+    "color": "#fbb040",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/homebrew.svg",
+    "id": "homebrew-svg",
+    "filename": "homebrew.svg",
+    "url": "/assets/svg/homebrew.svg",
+    "apiUrl": "/api/icons/homebrew-svg.json"
+  },
+  {
+    "name": "hostinger",
+    "color": "#6747c7",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/hostinger.svg",
+    "id": "hostinger-svg",
+    "filename": "hostinger.svg",
+    "url": "/assets/svg/hostinger.svg",
+    "apiUrl": "/api/icons/hostinger-svg.json"
+  },
+  {
+    "name": "html",
+    "color": "#e44d26",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/html.svg",
+    "id": "html-svg",
+    "filename": "html.svg",
+    "url": "/assets/svg/html.svg",
+    "apiUrl": "/api/icons/html-svg.json"
+  },
+  {
+    "name": "hugging-face",
+    "color": "#ffd21e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "AI"
+    ],
+    "path": "/assets/svg/hugging-face.svg",
+    "id": "hugging-face-svg",
+    "filename": "hugging-face.svg",
+    "url": "/assets/svg/hugging-face.svg",
+    "apiUrl": "/api/icons/hugging-face-svg.json"
+  },
+  {
+    "name": "hugo",
+    "color": "#ff4088",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/hugo.svg",
+    "id": "hugo-svg",
+    "filename": "hugo.svg",
+    "url": "/assets/svg/hugo.svg",
+    "apiUrl": "/api/icons/hugo-svg.json"
+  },
+  {
+    "name": "hulu",
+    "color": "#1ce783",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/hulu.svg",
+    "id": "hulu-svg",
+    "filename": "hulu.svg",
+    "url": "/assets/svg/hulu.svg",
+    "apiUrl": "/api/icons/hulu-svg.json"
+  },
+  {
+    "name": "ibm",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/ibm.svg",
+    "id": "ibm-svg",
+    "filename": "ibm.svg",
+    "url": "/assets/svg/ibm.svg",
+    "apiUrl": "/api/icons/ibm-svg.json"
+  },
+  {
+    "name": "dell",
+    "color": "#007db8",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/dell.svg",
+    "id": "dell-svg",
+    "filename": "dell.svg",
+    "url": "/assets/svg/dell.svg",
+    "apiUrl": "/api/icons/dell-svg.json"
+  },
+  {
+    "name": "instacart",
+    "color": "#ff8200",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "E-commerce"
+    ],
+    "path": "/assets/svg/instacart.svg",
+    "id": "instacart-svg",
+    "filename": "instacart.svg",
+    "url": "/assets/svg/instacart.svg",
+    "apiUrl": "/api/icons/instacart-svg.json"
+  },
+  {
+    "name": "istio",
+    "color": "#466bb0",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/istio.svg",
+    "id": "istio-svg",
+    "filename": "istio.svg",
+    "url": "/assets/svg/istio.svg",
+    "apiUrl": "/api/icons/istio-svg.json"
+  },
+  {
+    "name": "it-tools",
+    "color": "#18a058",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/it-tools.svg",
+    "id": "it-tools-svg",
+    "filename": "it-tools.svg",
+    "url": "/assets/svg/it-tools.svg",
+    "apiUrl": "/api/icons/it-tools-svg.json"
+  },
+  {
+    "name": "ivanti-icon",
+    "color": "#ff0d01",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/ivanti-icon.svg",
+    "id": "ivanti-icon-svg",
+    "filename": "ivanti-icon.svg",
+    "url": "/assets/svg/ivanti-icon.svg",
+    "apiUrl": "/api/icons/ivanti-icon-svg.json"
+  },
+  {
+    "name": "jamstack",
+    "color": "#f0047f",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/jamstack.svg",
+    "id": "jamstack-svg",
+    "filename": "jamstack.svg",
+    "url": "/assets/svg/jamstack.svg",
+    "apiUrl": "/api/icons/jamstack-svg.json"
+  },
+  {
+    "name": "java",
+    "color": "#5585a4",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/java.svg",
+    "id": "java-svg",
+    "filename": "java.svg",
+    "url": "/assets/svg/java.svg",
+    "apiUrl": "/api/icons/java-svg.json"
+  },
+  {
+    "name": "javascript",
+    "color": "#f7df1e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/javascript.svg",
+    "id": "javascript-svg",
+    "filename": "javascript.svg",
+    "url": "/assets/svg/javascript.svg",
+    "apiUrl": "/api/icons/javascript-svg.json"
+  },
+  {
+    "name": "jio",
+    "color": "#ff0000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/jio.svg",
+    "id": "jio-svg",
+    "filename": "jio.svg",
+    "url": "/assets/svg/jio.svg",
+    "apiUrl": "/api/icons/jio-svg.json"
+  },
+  {
+    "name": "jumpserver",
+    "color": "#1ab394",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/jumpserver.svg",
+    "id": "jumpserver-svg",
+    "filename": "jumpserver.svg",
+    "url": "/assets/svg/jumpserver.svg",
+    "apiUrl": "/api/icons/jumpserver-svg.json"
+  },
+  {
+    "name": "k3s",
+    "color": "#ffc61c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/k3s.svg",
+    "id": "k3s-svg",
+    "filename": "k3s.svg",
+    "url": "/assets/svg/k3s.svg",
+    "apiUrl": "/api/icons/k3s-svg.json"
+  },
+  {
+    "name": "kagi",
+    "color": "#ffb319",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/kagi.svg",
+    "id": "kagi-svg",
+    "filename": "kagi.svg",
+    "url": "/assets/svg/kagi.svg",
+    "apiUrl": "/api/icons/kagi-svg.json"
+  },
+  {
+    "name": "kaufland",
+    "color": "#e10915",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "E-commerce"
+    ],
+    "path": "/assets/svg/kaufland.svg",
+    "id": "kaufland-svg",
+    "filename": "kaufland.svg",
+    "url": "/assets/svg/kaufland.svg",
+    "apiUrl": "/api/icons/kaufland-svg.json"
+  },
+  {
+    "name": "keeper-security",
+    "color": "#ffc700",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/keeper-security.svg",
+    "id": "keeper-security-svg",
+    "filename": "keeper-security.svg",
+    "url": "/assets/svg/keeper-security.svg",
+    "apiUrl": "/api/icons/keeper-security-svg.json"
+  },
+  {
+    "name": "keila",
+    "color": "#10bc83",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/keila.svg",
+    "id": "keila-svg",
+    "filename": "keila.svg",
+    "url": "/assets/svg/keila.svg",
+    "apiUrl": "/api/icons/keila-svg.json"
+  },
+  {
+    "name": "kodi",
+    "color": "#17b2e7",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/kodi.svg",
+    "id": "kodi-svg",
+    "filename": "kodi.svg",
+    "url": "/assets/svg/kodi.svg",
+    "apiUrl": "/api/icons/kodi-svg.json"
+  },
+  {
+    "name": "kubernetes",
+    "color": "#326ce5",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure",
+      "Open Source"
+    ],
+    "path": "/assets/svg/kubernetes.svg",
+    "id": "kubernetes-svg",
+    "filename": "kubernetes.svg",
+    "url": "/assets/svg/kubernetes.svg",
+    "apiUrl": "/api/icons/kubernetes-svg.json"
+  },
+  {
+    "name": "libretranslate",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/libretranslate.svg",
+    "id": "libretranslate-svg",
+    "filename": "libretranslate.svg",
+    "url": "/assets/svg/libretranslate.svg",
+    "apiUrl": "/api/icons/libretranslate-svg.json"
+  },
+  {
+    "name": "linear",
+    "color": "#222326",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Design",
+      "Productivity"
+    ],
+    "path": "/assets/svg/linear.svg",
+    "id": "linear-svg",
+    "filename": "linear.svg",
+    "url": "/assets/svg/linear.svg",
+    "apiUrl": "/api/icons/linear-svg.json"
+  },
+  {
+    "name": "linkedin",
+    "color": "#007ebb",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/linkedin.svg",
+    "id": "linkedin-svg",
+    "filename": "linkedin.svg",
+    "url": "/assets/svg/linkedin.svg",
+    "apiUrl": "/api/icons/linkedin-svg.json"
+  },
+  {
+    "name": "linux-mint",
+    "color": "#69b53f",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems",
+      "Open Source"
+    ],
+    "path": "/assets/svg/linux-mint.svg",
+    "id": "linux-mint-svg",
+    "filename": "linux-mint.svg",
+    "url": "/assets/svg/linux-mint.svg",
+    "apiUrl": "/api/icons/linux-mint-svg.json"
+  },
+  {
+    "name": "macmon",
+    "color": "#003594",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems"
+    ],
+    "path": "/assets/svg/macmon.svg",
+    "id": "macmon-svg",
+    "filename": "macmon.svg",
+    "url": "/assets/svg/macmon.svg",
+    "apiUrl": "/api/icons/macmon-svg.json"
+  },
+  {
+    "name": "mailbox",
+    "color": "#abe659",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/mailbox.svg",
+    "id": "mailbox-svg",
+    "filename": "mailbox.svg",
+    "url": "/assets/svg/mailbox.svg",
+    "apiUrl": "/api/icons/mailbox-svg.json"
+  },
+  {
+    "name": "mailgun",
+    "color": "#ad2a2e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/mailgun.svg",
+    "id": "mailgun-svg",
+    "filename": "mailgun.svg",
+    "url": "/assets/svg/mailgun.svg",
+    "apiUrl": "/api/icons/mailgun-svg.json"
+  },
+  {
+    "name": "mailjet",
+    "color": "#9585f4",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/mailjet.svg",
+    "id": "mailjet-svg",
+    "filename": "mailjet.svg",
+    "url": "/assets/svg/mailjet.svg",
+    "apiUrl": "/api/icons/mailjet-svg.json"
+  },
+  {
+    "name": "manjaro-linux",
+    "color": "#35bf5c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems"
+    ],
+    "path": "/assets/svg/manjaro-linux.svg",
+    "id": "manjaro-linux-svg",
+    "filename": "manjaro-linux.svg",
+    "url": "/assets/svg/manjaro-linux.svg",
+    "apiUrl": "/api/icons/manjaro-linux-svg.json"
+  },
+  {
+    "name": "mantrae-dark",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/mantrae-dark.svg",
+    "id": "mantrae-dark-svg",
+    "filename": "mantrae-dark.svg",
+    "url": "/assets/svg/mantrae-dark.svg",
+    "apiUrl": "/api/icons/mantrae-dark-svg.json"
+  },
+  {
+    "name": "mariadb",
+    "color": "#c49a6c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/mariadb.svg",
+    "id": "mariadb-svg",
+    "filename": "mariadb.svg",
+    "url": "/assets/svg/mariadb.svg",
+    "apiUrl": "/api/icons/mariadb-svg.json"
+  },
+  {
+    "name": "max",
+    "color": "#002be7",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/max.svg",
+    "id": "max-svg",
+    "filename": "max.svg",
+    "url": "/assets/svg/max.svg",
+    "apiUrl": "/api/icons/max-svg.json"
+  },
+  {
+    "name": "mcaffee",
+    "color": "#c01818",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/mcaffee.svg",
+    "id": "mcaffee-svg",
+    "filename": "mcaffee.svg",
+    "url": "/assets/svg/mcaffee.svg",
+    "apiUrl": "/api/icons/mcaffee-svg.json"
+  },
+  {
+    "name": "mealie",
+    "color": "#e58325",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Food & Beverage"
+    ],
+    "path": "/assets/svg/mealie.svg",
+    "id": "mealie-svg",
+    "filename": "mealie.svg",
+    "url": "/assets/svg/mealie.svg",
+    "apiUrl": "/api/icons/mealie-svg.json"
+  },
+  {
+    "name": "medama",
+    "color": "#17cd8c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Technology"
+    ],
+    "path": "/assets/svg/medama.svg",
+    "id": "medama-svg",
+    "filename": "medama.svg",
+    "url": "/assets/svg/medama.svg",
+    "apiUrl": "/api/icons/medama-svg.json"
+  },
+  {
+    "name": "mega-nz",
+    "color": "#d31b00",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/mega-nz.svg",
+    "id": "mega-nz-svg",
+    "filename": "mega-nz.svg",
+    "url": "/assets/svg/mega-nz.svg",
+    "apiUrl": "/api/icons/mega-nz-svg.json"
+  },
+  {
+    "name": "meilisearch",
+    "color": "#fe599c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/meilisearch.svg",
+    "id": "meilisearch-svg",
+    "filename": "meilisearch.svg",
+    "url": "/assets/svg/meilisearch.svg",
+    "apiUrl": "/api/icons/meilisearch-svg.json"
+  },
+  {
+    "name": "mergeable",
+    "color": "#d33d17",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/mergeable.svg",
+    "id": "mergeable-svg",
+    "filename": "mergeable.svg",
+    "url": "/assets/svg/mergeable.svg",
+    "apiUrl": "/api/icons/mergeable-svg.json"
+  },
+  {
+    "name": "meta",
+    "color": "#0f6fd3",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/meta.svg",
+    "id": "meta-svg",
+    "filename": "meta.svg",
+    "url": "/assets/svg/meta.svg",
+    "apiUrl": "/api/icons/meta-svg.json"
+  },
+  {
+    "name": "microsoft-sql-server",
+    "color": "#a91f23",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/microsoft-sql-server.svg",
+    "id": "microsoft-sql-server-svg",
+    "filename": "microsoft-sql-server.svg",
+    "url": "/assets/svg/microsoft-sql-server.svg",
+    "apiUrl": "/api/icons/microsoft-sql-server-svg.json"
+  },
+  {
+    "name": "minio",
+    "color": "#cf5831",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/minio.svg",
+    "id": "minio-svg",
+    "filename": "minio.svg",
+    "url": "/assets/svg/minio.svg",
+    "apiUrl": "/api/icons/minio-svg.json"
+  },
+  {
+    "name": "mojeek",
+    "color": "#7ab93c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/mojeek.svg",
+    "id": "mojeek-svg",
+    "filename": "mojeek.svg",
+    "url": "/assets/svg/mojeek.svg",
+    "apiUrl": "/api/icons/mojeek-svg.json"
+  },
+  {
+    "name": "monarch-money",
+    "color": "#ff692d",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Finance"
+    ],
+    "path": "/assets/svg/monarch-money.svg",
+    "id": "monarch-money-svg",
+    "filename": "monarch-money.svg",
+    "url": "/assets/svg/monarch-money.svg",
+    "apiUrl": "/api/icons/monarch-money-svg.json"
+  },
+  {
+    "name": "mongodb",
+    "color": "#119d4f",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/mongodb.svg",
+    "id": "mongodb-svg",
+    "filename": "mongodb.svg",
+    "url": "/assets/svg/mongodb.svg",
+    "apiUrl": "/api/icons/mongodb-svg.json"
+  },
+  {
+    "name": "mysql",
+    "color": "#cf860e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/mysql.svg",
+    "id": "mysql-svg",
+    "filename": "mysql.svg",
+    "url": "/assets/svg/mysql.svg",
+    "apiUrl": "/api/icons/mysql-svg.json"
+  },
+  {
+    "name": "netflix",
+    "color": "#e50914",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/netflix.svg",
+    "id": "netflix-svg",
+    "filename": "netflix.svg",
+    "url": "/assets/svg/netflix.svg",
+    "apiUrl": "/api/icons/netflix-svg.json"
+  },
+  {
+    "name": "nginx",
+    "color": "#019639",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure",
+      "Open Source"
+    ],
+    "path": "/assets/svg/nginx.svg",
+    "id": "nginx-svg",
+    "filename": "nginx.svg",
+    "url": "/assets/svg/nginx.svg",
+    "apiUrl": "/api/icons/nginx-svg.json"
+  },
+  {
+    "name": "nintendo-switch",
+    "color": "#dd2f28",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/nintendo-switch.svg",
+    "id": "nintendo-switch-svg",
+    "filename": "nintendo-switch.svg",
+    "url": "/assets/svg/nintendo-switch.svg",
+    "apiUrl": "/api/icons/nintendo-switch-svg.json"
+  },
+  {
+    "name": "nixos",
+    "color": "#5277c3",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems",
+      "Open Source"
+    ],
+    "path": "/assets/svg/nixos.svg",
+    "id": "nixos-svg",
+    "filename": "nixos.svg",
+    "url": "/assets/svg/nixos.svg",
+    "apiUrl": "/api/icons/nixos-svg.json"
+  },
+  {
+    "name": "nocodb",
+    "color": "#3b41d3",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/nocodb.svg",
+    "id": "nocodb-svg",
+    "filename": "nocodb.svg",
+    "url": "/assets/svg/nocodb.svg",
+    "apiUrl": "/api/icons/nocodb-svg.json"
+  },
+  {
+    "name": "nodebb",
+    "color": "#2062bc",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/nodebb.svg",
+    "id": "nodebb-svg",
+    "filename": "nodebb.svg",
+    "url": "/assets/svg/nodebb.svg",
+    "apiUrl": "/api/icons/nodebb-svg.json"
+  },
+  {
+    "name": "nodejs-alt",
+    "color": "#79b461",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/nodejs-alt.svg",
+    "id": "nodejs-alt-svg",
+    "filename": "nodejs-alt.svg",
+    "url": "/assets/svg/nodejs-alt.svg",
+    "apiUrl": "/api/icons/nodejs-alt-svg.json"
+  },
+  {
+    "name": "nodejs",
+    "color": "#8cc84b",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/nodejs.svg",
+    "id": "nodejs-svg",
+    "filename": "nodejs.svg",
+    "url": "/assets/svg/nodejs.svg",
+    "apiUrl": "/api/icons/nodejs-svg.json"
+  },
+  {
+    "name": "notion",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/notion.svg",
+    "id": "notion-svg",
+    "filename": "notion.svg",
+    "url": "/assets/svg/notion.svg",
+    "apiUrl": "/api/icons/notion-svg.json"
+  },
+  {
+    "name": "npm",
+    "color": "#cb3837",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/npm.svg",
+    "id": "npm-svg",
+    "filename": "npm.svg",
+    "url": "/assets/svg/npm.svg",
+    "apiUrl": "/api/icons/npm-svg.json"
+  },
+  {
+    "name": "nsg",
+    "color": "#50e6ff",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/nsg.svg",
+    "id": "nsg-svg",
+    "filename": "nsg.svg",
+    "url": "/assets/svg/nsg.svg",
+    "apiUrl": "/api/icons/nsg-svg.json"
+  },
+  {
+    "name": "ntfy",
+    "color": "#45a28f",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/ntfy.svg",
+    "id": "ntfy-svg",
+    "filename": "ntfy.svg",
+    "url": "/assets/svg/ntfy.svg",
+    "apiUrl": "/api/icons/ntfy-svg.json"
+  },
+  {
+    "name": "nuxt-js",
+    "color": "#0cc97c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/nuxt-js.svg",
+    "id": "nuxt-js-svg",
+    "filename": "nuxt-js.svg",
+    "url": "/assets/svg/nuxt-js.svg",
+    "apiUrl": "/api/icons/nuxt-js-svg.json"
+  },
+  {
+    "name": "nvidia",
+    "color": "#77b900",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/nvidia.svg",
+    "id": "nvidia-svg",
+    "filename": "nvidia.svg",
+    "url": "/assets/svg/nvidia.svg",
+    "apiUrl": "/api/icons/nvidia-svg.json"
+  },
+  {
+    "name": "office-365",
+    "color": "#ea3e23",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/office-365.svg",
+    "id": "office-365-svg",
+    "filename": "office-365.svg",
+    "url": "/assets/svg/office-365.svg",
+    "apiUrl": "/api/icons/office-365-svg.json"
+  },
+  {
+    "name": "oh-my-posh",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/oh-my-posh.svg",
+    "id": "oh-my-posh-svg",
+    "filename": "oh-my-posh.svg",
+    "url": "/assets/svg/oh-my-posh.svg",
+    "apiUrl": "/api/icons/oh-my-posh-svg.json"
+  },
+  {
+    "name": "ollama",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "AI"
+    ],
+    "path": "/assets/svg/ollama.svg",
+    "id": "ollama-svg",
+    "filename": "ollama.svg",
+    "url": "/assets/svg/ollama.svg",
+    "apiUrl": "/api/icons/ollama-svg.json"
+  },
+  {
+    "name": "onedev",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/onedev.svg",
+    "id": "onedev-svg",
+    "filename": "onedev.svg",
+    "url": "/assets/svg/onedev.svg",
+    "apiUrl": "/api/icons/onedev-svg.json"
+  },
+  {
+    "name": "onlyfans",
+    "color": "#008ccf",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/onlyfans.svg",
+    "id": "onlyfans-svg",
+    "filename": "onlyfans.svg",
+    "url": "/assets/svg/onlyfans.svg",
+    "apiUrl": "/api/icons/onlyfans-svg.json"
+  },
+  {
+    "name": "open-source-initiative",
+    "color": "#3da638",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Open Source"
+    ],
+    "path": "/assets/svg/open-source-initiative.svg",
+    "id": "open-source-initiative-svg",
+    "filename": "open-source-initiative.svg",
+    "url": "/assets/svg/open-source-initiative.svg",
+    "apiUrl": "/api/icons/open-source-initiative-svg.json"
+  },
+  {
+    "name": "open-webui",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/open-webui.svg",
+    "id": "open-webui-svg",
+    "filename": "open-webui.svg",
+    "url": "/assets/svg/open-webui.svg",
+    "apiUrl": "/api/icons/open-webui-svg.json"
+  },
+  {
+    "name": "openai",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "AI"
+    ],
+    "path": "/assets/svg/openai.svg",
+    "id": "openai-svg",
+    "filename": "openai.svg",
+    "url": "/assets/svg/openai.svg",
+    "apiUrl": "/api/icons/openai-svg.json"
+  },
+  {
+    "name": "openbao",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/openbao.svg",
+    "id": "openbao-svg",
+    "filename": "openbao.svg",
+    "url": "/assets/svg/openbao.svg",
+    "apiUrl": "/api/icons/openbao-svg.json"
+  },
+  {
+    "name": "openpanel",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/openpanel.svg",
+    "id": "openpanel-svg",
+    "filename": "openpanel.svg",
+    "url": "/assets/svg/openpanel.svg",
+    "apiUrl": "/api/icons/openpanel-svg.json"
+  },
+  {
+    "name": "openproject",
+    "color": "#0671b9",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure",
+      "Productivity"
+    ],
+    "path": "/assets/svg/openproject.svg",
+    "id": "openproject-svg",
+    "filename": "openproject.svg",
+    "url": "/assets/svg/openproject.svg",
+    "apiUrl": "/api/icons/openproject-svg.json"
+  },
+  {
+    "name": "opensuse",
+    "color": "#73ba25",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems",
+      "Open Source"
+    ],
+    "path": "/assets/svg/opensuse.svg",
+    "id": "opensuse-svg",
+    "filename": "opensuse.svg",
+    "url": "/assets/svg/opensuse.svg",
+    "apiUrl": "/api/icons/opensuse-svg.json"
+  },
+  {
+    "name": "openvpn",
+    "color": "#ed7f22",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/openvpn.svg",
+    "id": "openvpn-svg",
+    "filename": "openvpn.svg",
+    "url": "/assets/svg/openvpn.svg",
+    "apiUrl": "/api/icons/openvpn-svg.json"
+  },
+  {
+    "name": "origin",
+    "color": "#f15a23",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/origin.svg",
+    "id": "origin-svg",
+    "filename": "origin.svg",
+    "url": "/assets/svg/origin.svg",
+    "apiUrl": "/api/icons/origin-svg.json"
+  },
+  {
+    "name": "osu",
+    "color": "#ff7db6",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/osu.svg",
+    "id": "osu-svg",
+    "filename": "osu.svg",
+    "url": "/assets/svg/osu.svg",
+    "apiUrl": "/api/icons/osu-svg.json"
+  },
+  {
+    "name": "outline",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Design",
+      "Productivity"
+    ],
+    "path": "/assets/svg/outline.svg",
+    "id": "outline-svg",
+    "filename": "outline.svg",
+    "url": "/assets/svg/outline.svg",
+    "apiUrl": "/api/icons/outline-svg.json"
+  },
+  {
+    "name": "pangolin",
+    "color": "#f36118",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/pangolin.svg",
+    "id": "pangolin-svg",
+    "filename": "pangolin.svg",
+    "url": "/assets/svg/pangolin.svg",
+    "apiUrl": "/api/icons/pangolin-svg.json"
+  },
+  {
+    "name": "papercut",
+    "color": "#27aa27",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/papercut.svg",
+    "id": "papercut-svg",
+    "filename": "papercut.svg",
+    "url": "/assets/svg/papercut.svg",
+    "apiUrl": "/api/icons/papercut-svg.json"
+  },
+  {
+    "name": "papra",
+    "color": "#d9ff7a",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/papra.svg",
+    "id": "papra-svg",
+    "filename": "papra.svg",
+    "url": "/assets/svg/papra.svg",
+    "apiUrl": "/api/icons/papra-svg.json"
+  },
+  {
+    "name": "paramount-plus",
+    "color": "#0064ff",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/paramount-plus.svg",
+    "id": "paramount-plus-svg",
+    "filename": "paramount-plus.svg",
+    "url": "/assets/svg/paramount-plus.svg",
+    "apiUrl": "/api/icons/paramount-plus-svg.json"
+  },
+  {
+    "name": "passbolt",
+    "color": "#e10600",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/passbolt.svg",
+    "id": "passbolt-svg",
+    "filename": "passbolt.svg",
+    "url": "/assets/svg/passbolt.svg",
+    "apiUrl": "/api/icons/passbolt-svg.json"
+  },
+  {
+    "name": "pdfforge",
+    "color": "#db2325",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/pdfforge.svg",
+    "id": "pdfforge-svg",
+    "filename": "pdfforge.svg",
+    "url": "/assets/svg/pdfforge.svg",
+    "apiUrl": "/api/icons/pdfforge-svg.json"
+  },
+  {
+    "name": "peacock",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/peacock.svg",
+    "id": "peacock-svg",
+    "filename": "peacock.svg",
+    "url": "/assets/svg/peacock.svg",
+    "apiUrl": "/api/icons/peacock-svg.json"
+  },
+  {
+    "name": "peppermint",
+    "color": "#d4f14e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems"
+    ],
+    "path": "/assets/svg/peppermint.svg",
+    "id": "peppermint-svg",
+    "filename": "peppermint.svg",
+    "url": "/assets/svg/peppermint.svg",
+    "apiUrl": "/api/icons/peppermint-svg.json"
+  },
+  {
+    "name": "perplexity",
+    "color": "#22b8cd",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "AI"
+    ],
+    "path": "/assets/svg/perplexity.svg",
+    "id": "perplexity-svg",
+    "filename": "perplexity.svg",
+    "url": "/assets/svg/perplexity.svg",
+    "apiUrl": "/api/icons/perplexity-svg.json"
+  },
+  {
+    "name": "pgadmin",
+    "color": "#336791",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/pgadmin.svg",
+    "id": "pgadmin-svg",
+    "filename": "pgadmin.svg",
+    "url": "/assets/svg/pgadmin.svg",
+    "apiUrl": "/api/icons/pgadmin-svg.json"
+  },
+  {
+    "name": "php",
+    "color": "#777bb3",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/php.svg",
+    "id": "php-svg",
+    "filename": "php.svg",
+    "url": "/assets/svg/php.svg",
+    "apiUrl": "/api/icons/php-svg.json"
+  },
+  {
+    "name": "pi-hole",
+    "color": "#f42e1c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/pi-hole.svg",
+    "id": "pi-hole-svg",
+    "filename": "pi-hole.svg",
+    "url": "/assets/svg/pi-hole.svg",
+    "apiUrl": "/api/icons/pi-hole-svg.json"
+  },
+  {
+    "name": "pigallery2",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/pigallery2.svg",
+    "id": "pigallery2-svg",
+    "filename": "pigallery2.svg",
+    "url": "/assets/svg/pigallery2.svg",
+    "apiUrl": "/api/icons/pigallery2-svg.json"
+  },
+  {
+    "name": "pikapods",
+    "color": "#43a047",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/pikapods.svg",
+    "id": "pikapods-svg",
+    "filename": "pikapods.svg",
+    "url": "/assets/svg/pikapods.svg",
+    "apiUrl": "/api/icons/pikapods-svg.json"
+  },
+  {
+    "name": "pinia",
+    "color": "#ffcf49",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/pinia.svg",
+    "id": "pinia-svg",
+    "filename": "pinia.svg",
+    "url": "/assets/svg/pinia.svg",
+    "apiUrl": "/api/icons/pinia-svg.json"
+  },
+  {
+    "name": "pioneer",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/pioneer.svg",
+    "id": "pioneer-svg",
+    "filename": "pioneer.svg",
+    "url": "/assets/svg/pioneer.svg",
+    "apiUrl": "/api/icons/pioneer-svg.json"
+  },
+  {
+    "name": "piwigo",
+    "color": "#f58127",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/piwigo.svg",
+    "id": "piwigo-svg",
+    "filename": "piwigo.svg",
+    "url": "/assets/svg/piwigo.svg",
+    "apiUrl": "/api/icons/piwigo-svg.json"
+  },
+  {
+    "name": "playstation",
+    "color": "#de0029",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/playstation.svg",
+    "id": "playstation-svg",
+    "filename": "playstation.svg",
+    "url": "/assets/svg/playstation.svg",
+    "apiUrl": "/api/icons/playstation-svg.json"
+  },
+  {
+    "name": "plex-alt",
+    "color": "#ebaf00",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/plex-alt.svg",
+    "id": "plex-alt-svg",
+    "filename": "plex-alt.svg",
+    "url": "/assets/svg/plex-alt.svg",
+    "apiUrl": "/api/icons/plex-alt-svg.json"
+  },
+  {
+    "name": "pocket-casts",
+    "color": "#f43e37",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/pocket-casts.svg",
+    "id": "pocket-casts-svg",
+    "filename": "pocket-casts.svg",
+    "url": "/assets/svg/pocket-casts.svg",
+    "apiUrl": "/api/icons/pocket-casts-svg.json"
+  },
+  {
+    "name": "podfetch",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/podfetch.svg",
+    "id": "podfetch-svg",
+    "filename": "podfetch.svg",
+    "url": "/assets/svg/podfetch.svg",
+    "apiUrl": "/api/icons/podfetch-svg.json"
+  },
+  {
+    "name": "podify",
+    "color": "#212c3b",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/podify.svg",
+    "id": "podify-svg",
+    "filename": "podify.svg",
+    "url": "/assets/svg/podify.svg",
+    "apiUrl": "/api/icons/podify-svg.json"
+  },
+  {
+    "name": "portabase",
+    "color": "#ff6600",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/portabase.svg",
+    "id": "portabase-svg",
+    "filename": "portabase.svg",
+    "url": "/assets/svg/portabase.svg",
+    "apiUrl": "/api/icons/portabase-svg.json"
+  },
+  {
+    "name": "portainer-alt",
+    "color": "#13bef9",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/portainer-alt.svg",
+    "id": "portainer-alt-svg",
+    "filename": "portainer-alt.svg",
+    "url": "/assets/svg/portainer-alt.svg",
+    "apiUrl": "/api/icons/portainer-alt-svg.json"
+  },
+  {
+    "name": "postman",
+    "color": "#ff6c37",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/postman.svg",
+    "id": "postman-svg",
+    "filename": "postman.svg",
+    "url": "/assets/svg/postman.svg",
+    "apiUrl": "/api/icons/postman-svg.json"
+  },
+  {
+    "name": "powerbi",
+    "color": "#eec12f",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/powerbi.svg",
+    "id": "powerbi-svg",
+    "filename": "powerbi.svg",
+    "url": "/assets/svg/powerbi.svg",
+    "apiUrl": "/api/icons/powerbi-svg.json"
+  },
+  {
+    "name": "powershell",
+    "color": "#146fbf",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/powershell.svg",
+    "id": "powershell-svg",
+    "filename": "powershell.svg",
+    "url": "/assets/svg/powershell.svg",
+    "apiUrl": "/api/icons/powershell-svg.json"
+  },
+  {
+    "name": "proton-mail",
+    "color": "#705cf7",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security",
+      "Communication"
+    ],
+    "path": "/assets/svg/proton-mail.svg",
+    "id": "proton-mail-svg",
+    "filename": "proton-mail.svg",
+    "url": "/assets/svg/proton-mail.svg",
+    "apiUrl": "/api/icons/proton-mail-svg.json"
+  },
+  {
+    "name": "proton",
+    "color": "#705cf7",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/proton.svg",
+    "id": "proton-svg",
+    "filename": "proton.svg",
+    "url": "/assets/svg/proton.svg",
+    "apiUrl": "/api/icons/proton-svg.json"
+  },
+  {
+    "name": "proxmox",
+    "color": "#e57000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/proxmox.svg",
+    "id": "proxmox-svg",
+    "filename": "proxmox.svg",
+    "url": "/assets/svg/proxmox.svg",
+    "apiUrl": "/api/icons/proxmox-svg.json"
+  },
+  {
+    "name": "puppy-linux",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems"
+    ],
+    "path": "/assets/svg/puppy-linux.svg",
+    "id": "puppy-linux-svg",
+    "filename": "puppy-linux.svg",
+    "url": "/assets/svg/puppy-linux.svg",
+    "apiUrl": "/api/icons/puppy-linux-svg.json"
+  },
+  {
+    "name": "python",
+    "color": "#336c9c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/python.svg",
+    "id": "python-svg",
+    "filename": "python.svg",
+    "url": "/assets/svg/python.svg",
+    "apiUrl": "/api/icons/python-svg.json"
+  },
+  {
+    "name": "rainloop",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/rainloop.svg",
+    "id": "rainloop-svg",
+    "filename": "rainloop.svg",
+    "url": "/assets/svg/rainloop.svg",
+    "apiUrl": "/api/icons/rainloop-svg.json"
+  },
+  {
+    "name": "rallly",
+    "color": "#4f46e5",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/rallly.svg",
+    "id": "rallly-svg",
+    "filename": "rallly.svg",
+    "url": "/assets/svg/rallly.svg",
+    "apiUrl": "/api/icons/rallly-svg.json"
+  },
+  {
+    "name": "raspberry-pi",
+    "color": "#bc1142",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/raspberry-pi.svg",
+    "id": "raspberry-pi-svg",
+    "filename": "raspberry-pi.svg",
+    "url": "/assets/svg/raspberry-pi.svg",
+    "apiUrl": "/api/icons/raspberry-pi-svg.json"
+  },
+  {
+    "name": "rclone",
+    "color": "#70caf2",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/rclone.svg",
+    "id": "rclone-svg",
+    "filename": "rclone.svg",
+    "url": "/assets/svg/rclone.svg",
+    "apiUrl": "/api/icons/rclone-svg.json"
+  },
+  {
+    "name": "reactjs",
+    "color": "#61dafb",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/reactjs.svg",
+    "id": "reactjs-svg",
+    "filename": "reactjs.svg",
+    "url": "/assets/svg/reactjs.svg",
+    "apiUrl": "/api/icons/reactjs-svg.json"
+  },
+  {
+    "name": "recipesage",
+    "color": "#559545",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Food & Beverage"
+    ],
+    "path": "/assets/svg/recipesage.svg",
+    "id": "recipesage-svg",
+    "filename": "recipesage.svg",
+    "url": "/assets/svg/recipesage.svg",
+    "apiUrl": "/api/icons/recipesage-svg.json"
+  },
+  {
+    "name": "recyclarr",
+    "color": "#6db653",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/recyclarr.svg",
+    "id": "recyclarr-svg",
+    "filename": "recyclarr.svg",
+    "url": "/assets/svg/recyclarr.svg",
+    "apiUrl": "/api/icons/recyclarr-svg.json"
+  },
+  {
+    "name": "redhat-linux",
+    "color": "#ee0000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems"
+    ],
+    "path": "/assets/svg/redhat-linux.svg",
+    "id": "redhat-linux-svg",
+    "filename": "redhat-linux.svg",
+    "url": "/assets/svg/redhat-linux.svg",
+    "apiUrl": "/api/icons/redhat-linux-svg.json"
+  },
+  {
+    "name": "redis",
+    "color": "#c6302b",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/redis.svg",
+    "id": "redis-svg",
+    "filename": "redis.svg",
+    "url": "/assets/svg/redis.svg",
+    "apiUrl": "/api/icons/redis-svg.json"
+  },
+  {
+    "name": "remmina",
+    "color": "#20aa73",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/remmina.svg",
+    "id": "remmina-svg",
+    "filename": "remmina.svg",
+    "url": "/assets/svg/remmina.svg",
+    "apiUrl": "/api/icons/remmina-svg.json"
+  },
+  {
+    "name": "rocky-linux",
+    "color": "#10b981",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems"
+    ],
+    "path": "/assets/svg/rocky-linux.svg",
+    "id": "rocky-linux-svg",
+    "filename": "rocky-linux.svg",
+    "url": "/assets/svg/rocky-linux.svg",
+    "apiUrl": "/api/icons/rocky-linux-svg.json"
+  },
+  {
+    "name": "rstudio",
+    "color": "#1c97f5",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/rstudio.svg",
+    "id": "rstudio-svg",
+    "filename": "rstudio.svg",
+    "url": "/assets/svg/rstudio.svg",
+    "apiUrl": "/api/icons/rstudio-svg.json"
+  },
+  {
+    "name": "rust",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/rust.svg",
+    "id": "rust-svg",
+    "filename": "rust.svg",
+    "url": "/assets/svg/rust.svg",
+    "apiUrl": "/api/icons/rust-svg.json"
+  },
+  {
+    "name": "rustdesk",
+    "color": "#0071ff",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/rustdesk.svg",
+    "id": "rustdesk-svg",
+    "filename": "rustdesk.svg",
+    "url": "/assets/svg/rustdesk.svg",
+    "apiUrl": "/api/icons/rustdesk-svg.json"
+  },
+  {
+    "name": "send",
+    "color": "#45a0fe",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/send.svg",
+    "id": "send-svg",
+    "filename": "send.svg",
+    "url": "/assets/svg/send.svg",
+    "apiUrl": "/api/icons/send-svg.json"
+  },
+  {
+    "name": "shell-tips",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/shell-tips.svg",
+    "id": "shell-tips-svg",
+    "filename": "shell-tips.svg",
+    "url": "/assets/svg/shell-tips.svg",
+    "apiUrl": "/api/icons/shell-tips-svg.json"
+  },
+  {
+    "name": "shell",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/shell.svg",
+    "id": "shell-svg",
+    "filename": "shell.svg",
+    "url": "/assets/svg/shell.svg",
+    "apiUrl": "/api/icons/shell-svg.json"
+  },
+  {
+    "name": "sinusbot",
+    "color": "#e13438",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/sinusbot.svg",
+    "id": "sinusbot-svg",
+    "filename": "sinusbot.svg",
+    "url": "/assets/svg/sinusbot.svg",
+    "apiUrl": "/api/icons/sinusbot-svg.json"
+  },
+  {
+    "name": "skype",
+    "color": "#009bd9",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/skype.svg",
+    "id": "skype-svg",
+    "filename": "skype.svg",
+    "url": "/assets/svg/skype.svg",
+    "apiUrl": "/api/icons/skype-svg.json"
+  },
+  {
+    "name": "sun-panel",
+    "color": "#4fb2ba",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/sun-panel.svg",
+    "id": "sun-panel-svg",
+    "filename": "sun-panel.svg",
+    "url": "/assets/svg/sun-panel.svg",
+    "apiUrl": "/api/icons/sun-panel-svg.json"
+  },
+  {
+    "name": "supabase",
+    "color": "#3ece8d",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Cloud"
+    ],
+    "path": "/assets/svg/supabase.svg",
+    "id": "supabase-svg",
+    "filename": "supabase.svg",
+    "url": "/assets/svg/supabase.svg",
+    "apiUrl": "/api/icons/supabase-svg.json"
+  },
+  {
+    "name": "surfshark",
+    "color": "#44caca",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/surfshark.svg",
+    "id": "surfshark-svg",
+    "filename": "surfshark.svg",
+    "url": "/assets/svg/surfshark.svg",
+    "apiUrl": "/api/icons/surfshark-svg.json"
+  },
+  {
+    "name": "swagger",
+    "color": "#85e92c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/swagger.svg",
+    "id": "swagger-svg",
+    "filename": "swagger.svg",
+    "url": "/assets/svg/swagger.svg",
+    "apiUrl": "/api/icons/swagger-svg.json"
+  },
+  {
+    "name": "swift",
+    "color": "#f07637",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/swift.svg",
+    "id": "swift-svg",
+    "filename": "swift.svg",
+    "url": "/assets/svg/swift.svg",
+    "apiUrl": "/api/icons/swift-svg.json"
+  },
+  {
+    "name": "syncthing",
+    "color": "#108fcd",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/syncthing.svg",
+    "id": "syncthing-svg",
+    "filename": "syncthing.svg",
+    "url": "/assets/svg/syncthing.svg",
+    "apiUrl": "/api/icons/syncthing-svg.json"
+  },
+  {
+    "name": "tailscale",
+    "color": "#3e3e3e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/tailscale.svg",
+    "id": "tailscale-svg",
+    "filename": "tailscale.svg",
+    "url": "/assets/svg/tailscale.svg",
+    "apiUrl": "/api/icons/tailscale-svg.json"
+  },
+  {
+    "name": "telekom",
+    "color": "#e20074",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/telekom.svg",
+    "id": "telekom-svg",
+    "filename": "telekom.svg",
+    "url": "/assets/svg/telekom.svg",
+    "apiUrl": "/api/icons/telekom-svg.json"
+  },
+  {
+    "name": "threads",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/threads.svg",
+    "id": "threads-svg",
+    "filename": "threads.svg",
+    "url": "/assets/svg/threads.svg",
+    "apiUrl": "/api/icons/threads-svg.json"
+  },
+  {
+    "name": "traefik",
+    "color": "#24a1c1",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Infrastructure"
+    ],
+    "path": "/assets/svg/traefik.svg",
+    "id": "traefik-svg",
+    "filename": "traefik.svg",
+    "url": "/assets/svg/traefik.svg",
+    "apiUrl": "/api/icons/traefik-svg.json"
+  },
+  {
+    "name": "tumblr",
+    "color": "#30455f",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/tumblr.svg",
+    "id": "tumblr-svg",
+    "filename": "tumblr.svg",
+    "url": "/assets/svg/tumblr.svg",
+    "apiUrl": "/api/icons/tumblr-svg.json"
+  },
+  {
+    "name": "twitch",
+    "color": "#6441a5",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/twitch.svg",
+    "id": "twitch-svg",
+    "filename": "twitch.svg",
+    "url": "/assets/svg/twitch.svg",
+    "apiUrl": "/api/icons/twitch-svg.json"
+  },
+  {
+    "name": "twitter",
+    "color": "#1d9bf0",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/twitter.svg",
+    "id": "twitter-svg",
+    "filename": "twitter.svg",
+    "url": "/assets/svg/twitter.svg",
+    "apiUrl": "/api/icons/twitter-svg.json"
+  },
+  {
+    "name": "tyepcho",
+    "color": "#2c2c2c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/tyepcho.svg",
+    "id": "tyepcho-svg",
+    "filename": "tyepcho.svg",
+    "url": "/assets/svg/tyepcho.svg",
+    "apiUrl": "/api/icons/tyepcho-svg.json"
+  },
+  {
+    "name": "typescript",
+    "color": "#3178c6",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/typescript.svg",
+    "id": "typescript-svg",
+    "filename": "typescript.svg",
+    "url": "/assets/svg/typescript.svg",
+    "apiUrl": "/api/icons/typescript-svg.json"
+  },
+  {
+    "name": "ubuntu-linux",
+    "color": "#ea4f06",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems",
+      "Open Source"
+    ],
+    "path": "/assets/svg/ubuntu-linux.svg",
+    "id": "ubuntu-linux-svg",
+    "filename": "ubuntu-linux.svg",
+    "url": "/assets/svg/ubuntu-linux.svg",
+    "apiUrl": "/api/icons/ubuntu-linux-svg.json"
+  },
+  {
+    "name": "unreal-engine",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/unreal-engine.svg",
+    "id": "unreal-engine-svg",
+    "filename": "unreal-engine.svg",
+    "url": "/assets/svg/unreal-engine.svg",
+    "apiUrl": "/api/icons/unreal-engine-svg.json"
+  },
+  {
+    "name": "vim",
+    "color": "#019733",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Open Source"
+    ],
+    "path": "/assets/svg/vim.svg",
+    "id": "vim-svg",
+    "filename": "vim.svg",
+    "url": "/assets/svg/vim.svg",
+    "apiUrl": "/api/icons/vim-svg.json"
+  },
+  {
+    "name": "visual-studio-code",
+    "color": "#3ca9f2",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/visual-studio-code.svg",
+    "id": "visual-studio-code-svg",
+    "filename": "visual-studio-code.svg",
+    "url": "/assets/svg/visual-studio-code.svg",
+    "apiUrl": "/api/icons/visual-studio-code-svg.json"
+  },
+  {
+    "name": "vodafone",
+    "color": "#e60000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/vodafone.svg",
+    "id": "vodafone-svg",
+    "filename": "vodafone.svg",
+    "url": "/assets/svg/vodafone.svg",
+    "apiUrl": "/api/icons/vodafone-svg.json"
+  },
+  {
+    "name": "vue-js",
+    "color": "#42b883",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer"
+    ],
+    "path": "/assets/svg/vue-js.svg",
+    "id": "vue-js-svg",
+    "filename": "vue-js.svg",
+    "url": "/assets/svg/vue-js.svg",
+    "apiUrl": "/api/icons/vue-js-svg.json"
+  },
+  {
+    "name": "webhook",
+    "color": "#7547dc",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Developer",
+      "Networking"
+    ],
+    "path": "/assets/svg/webhook.svg",
+    "id": "webhook-svg",
+    "filename": "webhook.svg",
+    "url": "/assets/svg/webhook.svg",
+    "apiUrl": "/api/icons/webhook-svg.json"
+  },
+  {
+    "name": "windows-10",
+    "color": "#00adef",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems"
+    ],
+    "path": "/assets/svg/windows-10.svg",
+    "id": "windows-10-svg",
+    "filename": "windows-10.svg",
+    "url": "/assets/svg/windows-10.svg",
+    "apiUrl": "/api/icons/windows-10-svg.json"
+  },
+  {
+    "name": "windows-11",
+    "color": "#0981d9",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems"
+    ],
+    "path": "/assets/svg/windows-11.svg",
+    "id": "windows-11-svg",
+    "filename": "windows-11.svg",
+    "url": "/assets/svg/windows-11.svg",
+    "apiUrl": "/api/icons/windows-11-svg.json"
+  },
+  {
+    "name": "windows-explorer",
+    "color": "#fcd569",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Productivity"
+    ],
+    "path": "/assets/svg/windows-explorer.svg",
+    "id": "windows-explorer-svg",
+    "filename": "windows-explorer.svg",
+    "url": "/assets/svg/windows-explorer.svg",
+    "apiUrl": "/api/icons/windows-explorer-svg.json"
+  },
+  {
+    "name": "wordpress",
+    "color": "#0073aa",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Open Source"
+    ],
+    "path": "/assets/svg/wordpress.svg",
+    "id": "wordpress-svg",
+    "filename": "wordpress.svg",
+    "url": "/assets/svg/wordpress.svg",
+    "apiUrl": "/api/icons/wordpress-svg.json"
+  },
+  {
+    "name": "x",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Social"
+    ],
+    "path": "/assets/svg/x.svg",
+    "id": "x-svg",
+    "filename": "x.svg",
+    "url": "/assets/svg/x.svg",
+    "apiUrl": "/api/icons/x-svg.json"
+  },
+  {
+    "name": "xbox",
+    "color": "#107c10",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/xbox.svg",
+    "id": "xbox-svg",
+    "filename": "xbox.svg",
+    "url": "/assets/svg/xbox.svg",
+    "apiUrl": "/api/icons/xbox-svg.json"
+  },
+  {
+    "name": "xubuntu-linux",
+    "color": "#0044aa",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Operating Systems"
+    ],
+    "path": "/assets/svg/xubuntu-linux.svg",
+    "id": "xubuntu-linux-svg",
+    "filename": "xubuntu-linux.svg",
+    "url": "/assets/svg/xubuntu-linux.svg",
+    "apiUrl": "/api/icons/xubuntu-linux-svg.json"
+  },
+  {
+    "name": "yahoo",
+    "color": "#5f01d1",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Technology"
+    ],
+    "path": "/assets/svg/yahoo.svg",
+    "id": "yahoo-svg",
+    "filename": "yahoo.svg",
+    "url": "/assets/svg/yahoo.svg",
+    "apiUrl": "/api/icons/yahoo-svg.json"
+  },
+  {
+    "name": "yandex",
+    "color": "#d94327",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Technology"
+    ],
+    "path": "/assets/svg/yandex.svg",
+    "id": "yandex-svg",
+    "filename": "yandex.svg",
+    "url": "/assets/svg/yandex.svg",
+    "apiUrl": "/api/icons/yandex-svg.json"
+  },
+  {
+    "name": "youtube",
+    "color": "#ff0000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/youtube.svg",
+    "id": "youtube-svg",
+    "filename": "youtube.svg",
+    "url": "/assets/svg/youtube.svg",
+    "apiUrl": "/api/icons/youtube-svg.json"
+  },
+  {
+    "name": "250",
+    "color": "#ff0000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/250.svg",
+    "id": "250-svg",
+    "filename": "250.svg",
+    "url": "/assets/svg/250.svg",
+    "apiUrl": "/api/icons/250-svg.json"
+  },
+  {
+    "name": "3m",
+    "color": "#a58059",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/3m.svg",
+    "id": "3m-svg",
+    "filename": "3m.svg",
+    "url": "/assets/svg/3m.svg",
+    "apiUrl": "/api/icons/3m-svg.json"
+  },
+  {
+    "name": "alter",
+    "color": "#e60118",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/alter.svg",
+    "id": "alter-svg",
+    "filename": "alter.svg",
+    "url": "/assets/svg/alter.svg",
+    "apiUrl": "/api/icons/alter-svg.json"
+  },
+  {
+    "name": "amex",
+    "color": "#016fd0",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Finance"
+    ],
+    "path": "/assets/svg/amex.svg",
+    "id": "amex-svg",
+    "filename": "amex.svg",
+    "url": "/assets/svg/amex.svg",
+    "apiUrl": "/api/icons/amex-svg.json"
+  },
+  {
+    "name": "Aniplex",
+    "color": "#0d131a",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/Aniplex.svg",
+    "id": "aniplex-svg",
+    "filename": "Aniplex.svg",
+    "url": "/assets/svg/Aniplex.svg",
+    "apiUrl": "/api/icons/aniplex-svg.json"
+  },
+  {
+    "name": "ASML",
+    "color": "#0f238c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/ASML.svg",
+    "id": "asml-svg",
+    "filename": "ASML.svg",
+    "url": "/assets/svg/ASML.svg",
+    "apiUrl": "/api/icons/asml-svg.json"
+  },
+  {
+    "name": "ATI",
+    "color": "#e43425",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/ATI.svg",
+    "id": "ati-svg",
+    "filename": "ATI.svg",
+    "url": "/assets/svg/ATI.svg",
+    "apiUrl": "/api/icons/ati-svg.json"
+  },
+  {
+    "name": "Bandai",
+    "color": "#ff0000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/Bandai.svg",
+    "id": "bandai-svg",
+    "filename": "Bandai.svg",
+    "url": "/assets/svg/Bandai.svg",
+    "apiUrl": "/api/icons/bandai-svg.json"
+  },
+  {
+    "name": "BandaiNamco",
+    "color": "#ed6d00",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/BandaiNamco.svg",
+    "id": "bandainamco-svg",
+    "filename": "BandaiNamco.svg",
+    "url": "/assets/svg/BandaiNamco.svg",
+    "apiUrl": "/api/icons/bandainamco-svg.json"
+  },
+  {
+    "name": "Banpresto",
+    "color": "#e60000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/Banpresto.svg",
+    "id": "banpresto-svg",
+    "filename": "Banpresto.svg",
+    "url": "/assets/svg/Banpresto.svg",
+    "apiUrl": "/api/icons/banpresto-svg.json"
+  },
+  {
+    "name": "boa",
+    "color": "#e31837",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Finance"
+    ],
+    "path": "/assets/svg/boa.svg",
+    "id": "boa-svg",
+    "filename": "boa.svg",
+    "url": "/assets/svg/boa.svg",
+    "apiUrl": "/api/icons/boa-svg.json"
+  },
+  {
+    "name": "BochsVector",
+    "color": "#ffe680",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/BochsVector.svg",
+    "id": "bochsvector-svg",
+    "filename": "BochsVector.svg",
+    "url": "/assets/svg/BochsVector.svg",
+    "apiUrl": "/api/icons/bochsvector-svg.json"
+  },
+  {
+    "name": "boeing",
+    "color": "#0033a1",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/boeing.svg",
+    "id": "boeing-svg",
+    "filename": "boeing.svg",
+    "url": "/assets/svg/boeing.svg",
+    "apiUrl": "/api/icons/boeing-svg.json"
+  },
+  {
+    "name": "BurgerKing",
+    "color": "#ec1d23",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Food & Beverage"
+    ],
+    "path": "/assets/svg/BurgerKing.svg",
+    "id": "burgerking-svg",
+    "filename": "BurgerKing.svg",
+    "url": "/assets/svg/BurgerKing.svg",
+    "apiUrl": "/api/icons/burgerking-svg.json"
+  },
+  {
+    "name": "Caterpillar",
+    "color": "#fec40e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/Caterpillar.svg",
+    "id": "caterpillar-svg",
+    "filename": "Caterpillar.svg",
+    "url": "/assets/svg/Caterpillar.svg",
+    "apiUrl": "/api/icons/caterpillar-svg.json"
+  },
+  {
+    "name": "cisco",
+    "color": "#12a6de",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking",
+      "Hardware"
+    ],
+    "path": "/assets/svg/cisco.svg",
+    "id": "cisco-svg",
+    "filename": "cisco.svg",
+    "url": "/assets/svg/cisco.svg",
+    "apiUrl": "/api/icons/cisco-svg.json"
+  },
+  {
+    "name": "cocacola",
+    "color": "#d50115",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Food & Beverage"
+    ],
+    "path": "/assets/svg/cocacola.svg",
+    "id": "cocacola-svg",
+    "filename": "cocacola.svg",
+    "url": "/assets/svg/cocacola.svg",
+    "apiUrl": "/api/icons/cocacola-svg.json"
+  },
+  {
+    "name": "Daemonphk",
+    "color": "#ce0201",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/Daemonphk.svg",
+    "id": "daemonphk-svg",
+    "filename": "Daemonphk.svg",
+    "url": "/assets/svg/Daemonphk.svg",
+    "apiUrl": "/api/icons/daemonphk-svg.json"
+  },
+  {
+    "name": "dashboardicons",
+    "color": "#000000",
+    "format": "svg",
+    "source": "https://dashboardicons.com/",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Technology"
+    ],
+    "path": "/assets/svg/dashboardicons.svg",
+    "id": "dashboardicons-svg",
+    "filename": "dashboardicons.svg",
+    "url": "/assets/svg/dashboardicons.svg",
+    "apiUrl": "/api/icons/dashboardicons-svg.json"
+  },
+  {
+    "name": "Dassaultsystemes",
+    "color": "#206a98",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/Dassaultsystemes.svg",
+    "id": "dassaultsystemes-svg",
+    "filename": "Dassaultsystemes.svg",
+    "url": "/assets/svg/Dassaultsystemes.svg",
+    "apiUrl": "/api/icons/dassaultsystemes-svg.json"
+  },
+  {
+    "name": "debian",
+    "color": "#a80030",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Open Source"
+    ],
+    "path": "/assets/svg/debian.svg",
+    "id": "debian-svg",
+    "filename": "debian.svg",
+    "url": "/assets/svg/debian.svg",
+    "apiUrl": "/api/icons/debian-svg.json"
+  },
+  {
+    "name": "DisneyChannel",
+    "color": "#2e2f61",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/DisneyChannel.svg",
+    "id": "disneychannel-svg",
+    "filename": "DisneyChannel.svg",
+    "url": "/assets/svg/DisneyChannel.svg",
+    "apiUrl": "/api/icons/disneychannel-svg.json"
+  },
+  {
+    "name": "Dominos",
+    "color": "#006491",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Food & Beverage"
+    ],
+    "path": "/assets/svg/Dominos.svg",
+    "id": "dominos-svg",
+    "filename": "Dominos.svg",
+    "url": "/assets/svg/Dominos.svg",
+    "apiUrl": "/api/icons/dominos-svg.json"
+  },
+  {
+    "name": "dzfdd",
+    "color": "#f6bd0e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/dzfdd.svg",
+    "id": "dzfdd-svg",
+    "filename": "dzfdd.svg",
+    "url": "/assets/svg/dzfdd.svg",
+    "apiUrl": "/api/icons/dzfdd-svg.json"
+  },
+  {
+    "name": "fanta",
+    "color": "#ff8300",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Food & Beverage"
+    ],
+    "path": "/assets/svg/fanta.svg",
+    "id": "fanta-svg",
+    "filename": "fanta.svg",
+    "url": "/assets/svg/fanta.svg",
+    "apiUrl": "/api/icons/fanta-svg.json"
+  },
+  {
+    "name": "FCCsymbol",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/FCCsymbol.svg",
+    "id": "fccsymbol-svg",
+    "filename": "FCCsymbol.svg",
+    "url": "/assets/svg/FCCsymbol.svg",
+    "apiUrl": "/api/icons/fccsymbol-svg.json"
+  },
+  {
+    "name": "fedex",
+    "color": "#2a007c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "E-commerce"
+    ],
+    "path": "/assets/svg/fedex.svg",
+    "id": "fedex-svg",
+    "filename": "fedex.svg",
+    "url": "/assets/svg/fedex.svg",
+    "apiUrl": "/api/icons/fedex-svg.json"
+  },
+  {
+    "name": "Fila",
+    "color": "#002d62",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/Fila.svg",
+    "id": "fila-svg",
+    "filename": "Fila.svg",
+    "url": "/assets/svg/Fila.svg",
+    "apiUrl": "/api/icons/fila-svg.json"
+  },
+  {
+    "name": "FSC",
+    "color": "#5a772a",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/FSC.svg",
+    "id": "fsc-svg",
+    "filename": "FSC.svg",
+    "url": "/assets/svg/FSC.svg",
+    "apiUrl": "/api/icons/fsc-svg.json"
+  },
+  {
+    "name": "generalelectric",
+    "color": "#0870d8",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/generalelectric.svg",
+    "id": "generalelectric-svg",
+    "filename": "generalelectric.svg",
+    "url": "/assets/svg/generalelectric.svg",
+    "apiUrl": "/api/icons/generalelectric-svg.json"
+  },
+  {
+    "name": "GoodSmile",
+    "color": "#ec8924",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/GoodSmile.svg",
+    "id": "goodsmile-svg",
+    "filename": "GoodSmile.svg",
+    "url": "/assets/svg/GoodSmile.svg",
+    "apiUrl": "/api/icons/goodsmile-svg.json"
+  },
+  {
+    "name": "Greendot",
+    "color": "#01a43b",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Finance"
+    ],
+    "path": "/assets/svg/Greendot.svg",
+    "id": "greendot-svg",
+    "filename": "Greendot.svg",
+    "url": "/assets/svg/Greendot.svg",
+    "apiUrl": "/api/icons/greendot-svg.json"
+  },
+  {
+    "name": "hellokitty",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/hellokitty.svg",
+    "id": "hellokitty-svg",
+    "filename": "hellokitty.svg",
+    "url": "/assets/svg/hellokitty.svg",
+    "apiUrl": "/api/icons/hellokitty-svg.json"
+  },
+  {
+    "name": "HSBC",
+    "color": "#e52713",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Finance"
+    ],
+    "path": "/assets/svg/HSBC.svg",
+    "id": "hsbc-svg",
+    "filename": "HSBC.svg",
+    "url": "/assets/svg/HSBC.svg",
+    "apiUrl": "/api/icons/hsbc-svg.json"
+  },
+  {
+    "name": "ISO90012015",
+    "color": "#00539f",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/ISO90012015.svg",
+    "id": "iso90012015-svg",
+    "filename": "ISO90012015.svg",
+    "url": "/assets/svg/ISO90012015.svg",
+    "apiUrl": "/api/icons/iso90012015-svg.json"
+  },
+  {
+    "name": "kfc",
+    "color": "#a3080c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "E-commerce",
+      "Food & Beverage"
+    ],
+    "path": "/assets/svg/kfc.svg",
+    "id": "kfc-svg",
+    "filename": "kfc.svg",
+    "url": "/assets/svg/kfc.svg",
+    "apiUrl": "/api/icons/kfc-svg.json"
+  },
+  {
+    "name": "Kodak",
+    "color": "#e30613",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/Kodak.svg",
+    "id": "kodak-svg",
+    "filename": "Kodak.svg",
+    "url": "/assets/svg/Kodak.svg",
+    "apiUrl": "/api/icons/kodak-svg.json"
+  },
+  {
+    "name": "kotobukiya",
+    "color": "#00a54f",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/kotobukiya.svg",
+    "id": "kotobukiya-svg",
+    "filename": "kotobukiya.svg",
+    "url": "/assets/svg/kotobukiya.svg",
+    "apiUrl": "/api/icons/kotobukiya-svg.json"
+  },
+  {
+    "name": "kuromi",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/kuromi.svg",
+    "id": "kuromi-svg",
+    "filename": "kuromi.svg",
+    "url": "/assets/svg/kuromi.svg",
+    "apiUrl": "/api/icons/kuromi-svg.json"
+  },
+  {
+    "name": "l3harris",
+    "color": "#f9000a",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/l3harris.svg",
+    "id": "l3harris-svg",
+    "filename": "l3harris.svg",
+    "url": "/assets/svg/l3harris.svg",
+    "apiUrl": "/api/icons/l3harris-svg.json"
+  },
+  {
+    "name": "LEGO",
+    "color": "#e3000b",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/LEGO.svg",
+    "id": "lego-svg",
+    "filename": "LEGO.svg",
+    "url": "/assets/svg/LEGO.svg",
+    "apiUrl": "/api/icons/lego-svg.json"
+  },
+  {
+    "name": "man",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Automotive"
+    ],
+    "path": "/assets/svg/man.svg",
+    "id": "man-svg",
+    "filename": "man.svg",
+    "url": "/assets/svg/man.svg",
+    "apiUrl": "/api/icons/man-svg.json"
+  },
+  {
+    "name": "Marvel",
+    "color": "#ed1d24",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/Marvel.svg",
+    "id": "marvel-svg",
+    "filename": "Marvel.svg",
+    "url": "/assets/svg/Marvel.svg",
+    "apiUrl": "/api/icons/marvel-svg.json"
+  },
+  {
+    "name": "McDonalds",
+    "color": "#d52b1e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Food & Beverage"
+    ],
+    "path": "/assets/svg/McDonalds.svg",
+    "id": "mcdonalds-svg",
+    "filename": "McDonalds.svg",
+    "url": "/assets/svg/McDonalds.svg",
+    "apiUrl": "/api/icons/mcdonalds-svg.json"
+  },
+  {
+    "name": "Mærsk",
+    "color": "#00adef",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "E-commerce"
+    ],
+    "path": "/assets/svg/Mærsk.svg",
+    "id": "m-rsk-svg",
+    "filename": "Mærsk.svg",
+    "url": "/assets/svg/Mærsk.svg",
+    "apiUrl": "/api/icons/m-rsk-svg.json"
+  },
+  {
+    "name": "NASDAQ",
+    "color": "#0996c7",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Finance"
+    ],
+    "path": "/assets/svg/NASDAQ.svg",
+    "id": "nasdaq-svg",
+    "filename": "NASDAQ.svg",
+    "url": "/assets/svg/NASDAQ.svg",
+    "apiUrl": "/api/icons/nasdaq-svg.json"
+  },
+  {
+    "name": "NBC",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Media"
+    ],
+    "path": "/assets/svg/NBC.svg",
+    "id": "nbc-svg",
+    "filename": "NBC.svg",
+    "url": "/assets/svg/NBC.svg",
+    "apiUrl": "/api/icons/nbc-svg.json"
+  },
+  {
+    "name": "NoEWaste",
+    "color": "#c71f1f",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/NoEWaste.svg",
+    "id": "noewaste-svg",
+    "filename": "NoEWaste.svg",
+    "url": "/assets/svg/NoEWaste.svg",
+    "apiUrl": "/api/icons/noewaste-svg.json"
+  },
+  {
+    "name": "Pepsi",
+    "color": "#0e7cc2",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Food & Beverage"
+    ],
+    "path": "/assets/svg/Pepsi.svg",
+    "id": "pepsi-svg",
+    "filename": "Pepsi.svg",
+    "url": "/assets/svg/Pepsi.svg",
+    "apiUrl": "/api/icons/pepsi-svg.json"
+  },
+  {
+    "name": "reachcompliant",
+    "color": "#01459a",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/reachcompliant.svg",
+    "id": "reachcompliant-svg",
+    "filename": "reachcompliant.svg",
+    "url": "/assets/svg/reachcompliant.svg",
+    "apiUrl": "/api/icons/reachcompliant-svg.json"
+  },
+  {
+    "name": "reachcompliant1",
+    "color": "#01459a",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Security"
+    ],
+    "path": "/assets/svg/reachcompliant1.svg",
+    "id": "reachcompliant1-svg",
+    "filename": "reachcompliant1.svg",
+    "url": "/assets/svg/reachcompliant1.svg",
+    "apiUrl": "/api/icons/reachcompliant1-svg.json"
+  },
+  {
+    "name": "Recycle001",
+    "color": "#009900",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/Recycle001.svg",
+    "id": "recycle001-svg",
+    "filename": "Recycle001.svg",
+    "url": "/assets/svg/Recycle001.svg",
+    "apiUrl": "/api/icons/recycle001-svg.json"
+  },
+  {
+    "name": "redbull",
+    "color": "#db0a40",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Food & Beverage"
+    ],
+    "path": "/assets/svg/redbull.svg",
+    "id": "redbull-svg",
+    "filename": "redbull.svg",
+    "url": "/assets/svg/redbull.svg",
+    "apiUrl": "/api/icons/redbull-svg.json"
+  },
+  {
+    "name": "Rheinmetall",
+    "color": "#00406e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/Rheinmetall.svg",
+    "id": "rheinmetall-svg",
+    "filename": "Rheinmetall.svg",
+    "url": "/assets/svg/Rheinmetall.svg",
+    "apiUrl": "/api/icons/rheinmetall-svg.json"
+  },
+  {
+    "name": "RockstarGames",
+    "color": "#ffab00",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Gaming"
+    ],
+    "path": "/assets/svg/RockstarGames.svg",
+    "id": "rockstargames-svg",
+    "filename": "RockstarGames.svg",
+    "url": "/assets/svg/RockstarGames.svg",
+    "apiUrl": "/api/icons/rockstargames-svg.json"
+  },
+  {
+    "name": "RoHS",
+    "color": "#42c249",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/RoHS.svg",
+    "id": "rohs-svg",
+    "filename": "RoHS.svg",
+    "url": "/assets/svg/RoHS.svg",
+    "apiUrl": "/api/icons/rohs-svg.json"
+  },
+  {
+    "name": "RoHSCompliance",
+    "color": "#0f6d38",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/RoHSCompliance.svg",
+    "id": "rohscompliance-svg",
+    "filename": "RoHSCompliance.svg",
+    "url": "/assets/svg/RoHSCompliance.svg",
+    "apiUrl": "/api/icons/rohscompliance-svg.json"
+  },
+  {
+    "name": "RoHSCompliance2",
+    "color": "#139b47",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/RoHSCompliance2.svg",
+    "id": "rohscompliance2-svg",
+    "filename": "RoHSCompliance2.svg",
+    "url": "/assets/svg/RoHSCompliance2.svg",
+    "apiUrl": "/api/icons/rohscompliance2-svg.json"
+  },
+  {
+    "name": "RoHSCompliance3",
+    "color": "#93c021",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/RoHSCompliance3.svg",
+    "id": "rohscompliance3-svg",
+    "filename": "RoHSCompliance3.svg",
+    "url": "/assets/svg/RoHSCompliance3.svg",
+    "apiUrl": "/api/icons/rohscompliance3-svg.json"
+  },
+  {
+    "name": "RTX",
+    "color": "#ce1126",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/RTX.svg",
+    "id": "rtx-svg",
+    "filename": "RTX.svg",
+    "url": "/assets/svg/RTX.svg",
+    "apiUrl": "/api/icons/rtx-svg.json"
+  },
+  {
+    "name": "scania",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/scania.svg",
+    "id": "scania-svg",
+    "filename": "scania.svg",
+    "url": "/assets/svg/scania.svg",
+    "apiUrl": "/api/icons/scania-svg.json"
+  },
+  {
+    "name": "Seagate",
+    "color": "#70c04e",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/Seagate.svg",
+    "id": "seagate-svg",
+    "filename": "Seagate.svg",
+    "url": "/assets/svg/Seagate.svg",
+    "apiUrl": "/api/icons/seagate-svg.json"
+  },
+  {
+    "name": "Siemens",
+    "color": "#009999",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/Siemens.svg",
+    "id": "siemens-svg",
+    "filename": "Siemens.svg",
+    "url": "/assets/svg/Siemens.svg",
+    "apiUrl": "/api/icons/siemens-svg.json"
+  },
+  {
+    "name": "simpleicons",
+    "color": "#000000",
+    "format": "svg",
+    "source": "https://simpleicons.org/",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Design",
+      "Open Source"
+    ],
+    "path": "/assets/svg/simpleicons.svg",
+    "id": "simpleicons-svg",
+    "filename": "simpleicons.svg",
+    "url": "/assets/svg/simpleicons.svg",
+    "apiUrl": "/api/icons/simpleicons-svg.json"
+  },
+  {
+    "name": "SKHynix",
+    "color": "#e51837",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/SKHynix.svg",
+    "id": "skhynix-svg",
+    "filename": "SKHynix.svg",
+    "url": "/assets/svg/SKHynix.svg",
+    "apiUrl": "/api/icons/skhynix-svg.json"
+  },
+  {
+    "name": "spacex",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/spacex.svg",
+    "id": "spacex-svg",
+    "filename": "spacex.svg",
+    "url": "/assets/svg/spacex.svg",
+    "apiUrl": "/api/icons/spacex-svg.json"
+  },
+  {
+    "name": "starbucks",
+    "color": "#006241",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Food & Beverage"
+    ],
+    "path": "/assets/svg/starbucks.svg",
+    "id": "starbucks-svg",
+    "filename": "starbucks.svg",
+    "url": "/assets/svg/starbucks.svg",
+    "apiUrl": "/api/icons/starbucks-svg.json"
+  },
+  {
+    "name": "Sunrise",
+    "color": "#e71c22",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Communication"
+    ],
+    "path": "/assets/svg/Sunrise.svg",
+    "id": "sunrise-svg",
+    "filename": "Sunrise.svg",
+    "url": "/assets/svg/Sunrise.svg",
+    "apiUrl": "/api/icons/sunrise-svg.json"
+  },
+  {
+    "name": "tata",
+    "color": "#486aae",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/tata.svg",
+    "id": "tata-svg",
+    "filename": "tata.svg",
+    "url": "/assets/svg/tata.svg",
+    "apiUrl": "/api/icons/tata-svg.json"
+  },
+  {
+    "name": "TÜVRheinland",
+    "color": "#0171be",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/TÜVRheinland.svg",
+    "id": "tuvrheinland-svg",
+    "filename": "TÜVRheinland.svg",
+    "url": "/assets/svg/TÜVRheinland.svg",
+    "apiUrl": "/api/icons/tuvrheinland-svg.json"
+  },
+  {
+    "name": "TÜVRheinland1",
+    "color": "#0171be",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/TÜVRheinland1.svg",
+    "id": "tuvrheinland1-svg",
+    "filename": "TÜVRheinland1.svg",
+    "url": "/assets/svg/TÜVRheinland1.svg",
+    "apiUrl": "/api/icons/tuvrheinland1-svg.json"
+  },
+  {
+    "name": "TÜVSüd",
+    "color": "#1964b6",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/TÜVSüd.svg",
+    "id": "tuvsud-svg",
+    "filename": "TÜVSüd.svg",
+    "url": "/assets/svg/TÜVSüd.svg",
+    "apiUrl": "/api/icons/tuvsud-svg.json"
+  },
+  {
+    "name": "ULcertified",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/ULcertified.svg",
+    "id": "ulcertified-svg",
+    "filename": "ULcertified.svg",
+    "url": "/assets/svg/ULcertified.svg",
+    "apiUrl": "/api/icons/ulcertified-svg.json"
+  },
+  {
+    "name": "ULcertified1",
+    "color": "#ce1642",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/ULcertified1.svg",
+    "id": "ulcertified1-svg",
+    "filename": "ULcertified1.svg",
+    "url": "/assets/svg/ULcertified1.svg",
+    "apiUrl": "/api/icons/ulcertified1-svg.json"
+  },
+  {
+    "name": "Underground",
+    "color": "#263d96",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Other"
+    ],
+    "path": "/assets/svg/Underground.svg",
+    "id": "underground-svg",
+    "filename": "Underground.svg",
+    "url": "/assets/svg/Underground.svg",
+    "apiUrl": "/api/icons/underground-svg.json"
+  },
+  {
+    "name": "USB",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/USB.svg",
+    "id": "usb-svg",
+    "filename": "USB.svg",
+    "url": "/assets/svg/USB.svg",
+    "apiUrl": "/api/icons/usb-svg.json"
+  },
+  {
+    "name": "uspostalservice",
+    "color": "#00609d",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "E-commerce"
+    ],
+    "path": "/assets/svg/uspostalservice.svg",
+    "id": "uspostalservice-svg",
+    "filename": "uspostalservice.svg",
+    "url": "/assets/svg/uspostalservice.svg",
+    "apiUrl": "/api/icons/uspostalservice-svg.json"
+  },
+  {
+    "name": "vpnactive",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking"
+    ],
+    "path": "/assets/svg/vpnactive.svg",
+    "id": "vpnactive-svg",
+    "filename": "vpnactive.svg",
+    "url": "/assets/svg/vpnactive.svg",
+    "apiUrl": "/api/icons/vpnactive-svg.json"
+  },
+  {
+    "name": "WEEE",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/WEEE.svg",
+    "id": "weee-svg",
+    "filename": "WEEE.svg",
+    "url": "/assets/svg/WEEE.svg",
+    "apiUrl": "/api/icons/weee-svg.json"
+  },
+  {
+    "name": "WEEECompliance",
+    "color": "#98ae4c",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Hardware"
+    ],
+    "path": "/assets/svg/WEEECompliance.svg",
+    "id": "weeecompliance-svg",
+    "filename": "WEEECompliance.svg",
+    "url": "/assets/svg/WEEECompliance.svg",
+    "apiUrl": "/api/icons/weeecompliance-svg.json"
+  },
+  {
+    "name": "WiFi",
+    "color": "#000000",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Networking",
+      "Hardware"
+    ],
+    "path": "/assets/svg/WiFi.svg",
+    "id": "wifi-svg",
+    "filename": "WiFi.svg",
+    "url": "/assets/svg/WiFi.svg",
+    "apiUrl": "/api/icons/wifi-svg.json"
+  },
+  {
+    "name": "wikimedia",
+    "color": "#339966",
+    "format": "svg",
+    "source": "https://commons.wikimedia.org/",
+    "info": "NPC-icons library trademark design asset.",
+    "category": [
+      "Open Source"
+    ],
+    "path": "/assets/svg/wikimedia.svg",
+    "id": "wikimedia-svg",
+    "filename": "wikimedia.svg",
+    "url": "/assets/svg/wikimedia.svg",
+    "apiUrl": "/api/icons/wikimedia-svg.json"
+  }
+]

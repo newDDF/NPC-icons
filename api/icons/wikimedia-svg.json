@@ -1,0 +1,15 @@
+{
+  "name": "wikimedia",
+  "color": "#339966",
+  "format": "svg",
+  "source": "https://commons.wikimedia.org/",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Open Source"
+  ],
+  "path": "/assets/svg/wikimedia.svg",
+  "id": "wikimedia-svg",
+  "filename": "wikimedia.svg",
+  "url": "/assets/svg/wikimedia.svg",
+  "apiUrl": "/api/icons/wikimedia-svg.json"
+}

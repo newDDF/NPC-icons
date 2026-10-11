@@ -1,0 +1,15 @@
+{
+  "name": "mojeek",
+  "color": "#7ab93c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "path": "/assets/svg/mojeek.svg",
+  "id": "mojeek-svg",
+  "filename": "mojeek.svg",
+  "url": "/assets/svg/mojeek.svg",
+  "apiUrl": "/api/icons/mojeek-svg.json"
+}

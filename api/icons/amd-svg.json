@@ -1,0 +1,16 @@
+{
+  "name": "amd",
+  "color": "#ed1c24",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems",
+    "Hardware"
+  ],
+  "path": "/assets/svg/amd.svg",
+  "id": "amd-svg",
+  "filename": "amd.svg",
+  "url": "/assets/svg/amd.svg",
+  "apiUrl": "/api/icons/amd-svg.json"
+}

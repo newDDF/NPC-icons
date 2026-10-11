@@ -1,0 +1,15 @@
+{
+  "name": "redbull",
+  "color": "#db0a40",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Food & Beverage"
+  ],
+  "path": "/assets/svg/redbull.svg",
+  "id": "redbull-svg",
+  "filename": "redbull.svg",
+  "url": "/assets/svg/redbull.svg",
+  "apiUrl": "/api/icons/redbull-svg.json"
+}

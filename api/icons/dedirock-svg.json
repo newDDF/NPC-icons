@@ -1,0 +1,15 @@
+{
+  "name": "dedirock",
+  "color": "#474596",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "path": "/assets/svg/dedirock.svg",
+  "id": "dedirock-svg",
+  "filename": "dedirock.svg",
+  "url": "/assets/svg/dedirock.svg",
+  "apiUrl": "/api/icons/dedirock-svg.json"
+}

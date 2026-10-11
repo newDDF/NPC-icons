@@ -1,0 +1,15 @@
+{
+  "name": "behance",
+  "color": "#1d63f7",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "path": "/assets/svg/behance.svg",
+  "id": "behance-svg",
+  "filename": "behance.svg",
+  "url": "/assets/svg/behance.svg",
+  "apiUrl": "/api/icons/behance-svg.json"
+}

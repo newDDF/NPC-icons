@@ -1,0 +1,15 @@
+{
+  "name": "ivanti-icon",
+  "color": "#ff0d01",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "path": "/assets/svg/ivanti-icon.svg",
+  "id": "ivanti-icon-svg",
+  "filename": "ivanti-icon.svg",
+  "url": "/assets/svg/ivanti-icon.svg",
+  "apiUrl": "/api/icons/ivanti-icon-svg.json"
+}

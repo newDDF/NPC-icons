@@ -1,0 +1,15 @@
+{
+  "name": "notion",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "path": "/assets/svg/notion.svg",
+  "id": "notion-svg",
+  "filename": "notion.svg",
+  "url": "/assets/svg/notion.svg",
+  "apiUrl": "/api/icons/notion-svg.json"
+}

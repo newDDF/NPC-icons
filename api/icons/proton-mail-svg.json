@@ -1,0 +1,16 @@
+{
+  "name": "proton-mail",
+  "color": "#705cf7",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security",
+    "Communication"
+  ],
+  "path": "/assets/svg/proton-mail.svg",
+  "id": "proton-mail-svg",
+  "filename": "proton-mail.svg",
+  "url": "/assets/svg/proton-mail.svg",
+  "apiUrl": "/api/icons/proton-mail-svg.json"
+}

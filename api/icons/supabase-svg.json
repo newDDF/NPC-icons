@@ -1,0 +1,15 @@
+{
+  "name": "supabase",
+  "color": "#3ece8d",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "path": "/assets/svg/supabase.svg",
+  "id": "supabase-svg",
+  "filename": "supabase.svg",
+  "url": "/assets/svg/supabase.svg",
+  "apiUrl": "/api/icons/supabase-svg.json"
+}

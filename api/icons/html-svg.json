@@ -1,0 +1,15 @@
+{
+  "name": "html",
+  "color": "#e44d26",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/html.svg",
+  "id": "html-svg",
+  "filename": "html.svg",
+  "url": "/assets/svg/html.svg",
+  "apiUrl": "/api/icons/html-svg.json"
+}

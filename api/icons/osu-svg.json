@@ -1,0 +1,15 @@
+{
+  "name": "osu",
+  "color": "#ff7db6",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "path": "/assets/svg/osu.svg",
+  "id": "osu-svg",
+  "filename": "osu.svg",
+  "url": "/assets/svg/osu.svg",
+  "apiUrl": "/api/icons/osu-svg.json"
+}

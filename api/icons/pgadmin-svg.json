@@ -1,0 +1,15 @@
+{
+  "name": "pgadmin",
+  "color": "#336791",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/pgadmin.svg",
+  "id": "pgadmin-svg",
+  "filename": "pgadmin.svg",
+  "url": "/assets/svg/pgadmin.svg",
+  "apiUrl": "/api/icons/pgadmin-svg.json"
+}

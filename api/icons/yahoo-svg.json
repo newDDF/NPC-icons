@@ -1,0 +1,15 @@
+{
+  "name": "yahoo",
+  "color": "#5f01d1",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Technology"
+  ],
+  "path": "/assets/svg/yahoo.svg",
+  "id": "yahoo-svg",
+  "filename": "yahoo.svg",
+  "url": "/assets/svg/yahoo.svg",
+  "apiUrl": "/api/icons/yahoo-svg.json"
+}

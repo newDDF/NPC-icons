@@ -1,0 +1,15 @@
+{
+  "name": "my_logo",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "path": "/assets/svg/my_logo.svg",
+  "id": "my-logo-svg",
+  "filename": "my_logo.svg",
+  "url": "/assets/svg/my_logo.svg",
+  "apiUrl": "/api/icons/my-logo-svg.json"
+}

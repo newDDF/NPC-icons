@@ -1,0 +1,16 @@
+{
+  "name": "simpleicons",
+  "color": "#000000",
+  "format": "svg",
+  "source": "https://simpleicons.org/",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Design",
+    "Open Source"
+  ],
+  "path": "/assets/svg/simpleicons.svg",
+  "id": "simpleicons-svg",
+  "filename": "simpleicons.svg",
+  "url": "/assets/svg/simpleicons.svg",
+  "apiUrl": "/api/icons/simpleicons-svg.json"
+}

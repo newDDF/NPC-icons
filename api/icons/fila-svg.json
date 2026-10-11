@@ -1,0 +1,15 @@
+{
+  "name": "Fila",
+  "color": "#002d62",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "path": "/assets/svg/Fila.svg",
+  "id": "fila-svg",
+  "filename": "Fila.svg",
+  "url": "/assets/svg/Fila.svg",
+  "apiUrl": "/api/icons/fila-svg.json"
+}

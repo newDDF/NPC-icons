@@ -1,0 +1,15 @@
+{
+  "name": "typescript",
+  "color": "#3178c6",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/typescript.svg",
+  "id": "typescript-svg",
+  "filename": "typescript.svg",
+  "url": "/assets/svg/typescript.svg",
+  "apiUrl": "/api/icons/typescript-svg.json"
+}

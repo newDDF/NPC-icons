@@ -1,0 +1,15 @@
+{
+  "name": "pi-hole",
+  "color": "#f42e1c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/pi-hole.svg",
+  "id": "pi-hole-svg",
+  "filename": "pi-hole.svg",
+  "url": "/assets/svg/pi-hole.svg",
+  "apiUrl": "/api/icons/pi-hole-svg.json"
+}

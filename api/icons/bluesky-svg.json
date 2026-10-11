@@ -1,0 +1,15 @@
+{
+  "name": "bluesky",
+  "color": "#0082fc",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "path": "/assets/svg/bluesky.svg",
+  "id": "bluesky-svg",
+  "filename": "bluesky.svg",
+  "url": "/assets/svg/bluesky.svg",
+  "apiUrl": "/api/icons/bluesky-svg.json"
+}

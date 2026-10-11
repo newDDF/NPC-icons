@@ -1,0 +1,15 @@
+{
+  "name": "ASML",
+  "color": "#0f238c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/ASML.svg",
+  "id": "asml-svg",
+  "filename": "ASML.svg",
+  "url": "/assets/svg/ASML.svg",
+  "apiUrl": "/api/icons/asml-svg.json"
+}

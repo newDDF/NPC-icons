@@ -1,0 +1,15 @@
+{
+  "name": "Marvel",
+  "color": "#ed1d24",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/Marvel.svg",
+  "id": "marvel-svg",
+  "filename": "Marvel.svg",
+  "url": "/assets/svg/Marvel.svg",
+  "apiUrl": "/api/icons/marvel-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "pocket-casts",
+  "color": "#f43e37",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/pocket-casts.svg",
+  "id": "pocket-casts-svg",
+  "filename": "pocket-casts.svg",
+  "url": "/assets/svg/pocket-casts.svg",
+  "apiUrl": "/api/icons/pocket-casts-svg.json"
+}

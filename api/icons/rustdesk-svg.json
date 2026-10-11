@@ -1,0 +1,16 @@
+{
+  "name": "rustdesk",
+  "color": "#0071ff",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/rustdesk.svg",
+  "id": "rustdesk-svg",
+  "filename": "rustdesk.svg",
+  "url": "/assets/svg/rustdesk.svg",
+  "apiUrl": "/api/icons/rustdesk-svg.json"
+}

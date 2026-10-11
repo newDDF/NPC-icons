@@ -1,0 +1,15 @@
+{
+  "name": "hugging-face",
+  "color": "#ffd21e",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "AI"
+  ],
+  "path": "/assets/svg/hugging-face.svg",
+  "id": "hugging-face-svg",
+  "filename": "hugging-face.svg",
+  "url": "/assets/svg/hugging-face.svg",
+  "apiUrl": "/api/icons/hugging-face-svg.json"
+}

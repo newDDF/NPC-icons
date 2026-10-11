@@ -1,0 +1,15 @@
+{
+  "name": "DisneyChannel",
+  "color": "#2e2f61",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/DisneyChannel.svg",
+  "id": "disneychannel-svg",
+  "filename": "DisneyChannel.svg",
+  "url": "/assets/svg/DisneyChannel.svg",
+  "apiUrl": "/api/icons/disneychannel-svg.json"
+}

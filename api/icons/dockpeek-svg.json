@@ -1,0 +1,15 @@
+{
+  "name": "dockpeek",
+  "color": "#1a202c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/dockpeek.svg",
+  "id": "dockpeek-svg",
+  "filename": "dockpeek.svg",
+  "url": "/assets/svg/dockpeek.svg",
+  "apiUrl": "/api/icons/dockpeek-svg.json"
+}

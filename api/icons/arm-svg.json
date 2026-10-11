@@ -1,0 +1,15 @@
+{
+  "name": "arm",
+  "color": "#0091bd",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/arm.svg",
+  "id": "arm-svg",
+  "filename": "arm.svg",
+  "url": "/assets/svg/arm.svg",
+  "apiUrl": "/api/icons/arm-svg.json"
+}

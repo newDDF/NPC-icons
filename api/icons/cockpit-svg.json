@@ -1,0 +1,15 @@
+{
+  "name": "cockpit",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/cockpit.svg",
+  "id": "cockpit-svg",
+  "filename": "cockpit.svg",
+  "url": "/assets/svg/cockpit.svg",
+  "apiUrl": "/api/icons/cockpit-svg.json"
+}

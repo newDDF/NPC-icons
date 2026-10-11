@@ -1,0 +1,15 @@
+{
+  "name": "openbao",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "path": "/assets/svg/openbao.svg",
+  "id": "openbao-svg",
+  "filename": "openbao.svg",
+  "url": "/assets/svg/openbao.svg",
+  "apiUrl": "/api/icons/openbao-svg.json"
+}

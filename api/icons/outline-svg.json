@@ -1,0 +1,16 @@
+{
+  "name": "outline",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Design",
+    "Productivity"
+  ],
+  "path": "/assets/svg/outline.svg",
+  "id": "outline-svg",
+  "filename": "outline.svg",
+  "url": "/assets/svg/outline.svg",
+  "apiUrl": "/api/icons/outline-svg.json"
+}

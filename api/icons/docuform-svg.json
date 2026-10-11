@@ -1,0 +1,15 @@
+{
+  "name": "docuform",
+  "color": "#fe4503",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "path": "/assets/svg/docuform.svg",
+  "id": "docuform-svg",
+  "filename": "docuform.svg",
+  "url": "/assets/svg/docuform.svg",
+  "apiUrl": "/api/icons/docuform-svg.json"
+}

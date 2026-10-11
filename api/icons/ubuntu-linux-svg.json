@@ -1,0 +1,16 @@
+{
+  "name": "ubuntu-linux",
+  "color": "#ea4f06",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems",
+    "Open Source"
+  ],
+  "path": "/assets/svg/ubuntu-linux.svg",
+  "id": "ubuntu-linux-svg",
+  "filename": "ubuntu-linux.svg",
+  "url": "/assets/svg/ubuntu-linux.svg",
+  "apiUrl": "/api/icons/ubuntu-linux-svg.json"
+}

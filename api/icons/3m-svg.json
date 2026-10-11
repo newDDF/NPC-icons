@@ -1,0 +1,15 @@
+{
+  "name": "3m",
+  "color": "#a58059",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/3m.svg",
+  "id": "3m-svg",
+  "filename": "3m.svg",
+  "url": "/assets/svg/3m.svg",
+  "apiUrl": "/api/icons/3m-svg.json"
+}

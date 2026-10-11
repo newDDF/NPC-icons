@@ -1,0 +1,15 @@
+{
+  "name": "RoHSCompliance",
+  "color": "#0f6d38",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/RoHSCompliance.svg",
+  "id": "rohscompliance-svg",
+  "filename": "RoHSCompliance.svg",
+  "url": "/assets/svg/RoHSCompliance.svg",
+  "apiUrl": "/api/icons/rohscompliance-svg.json"
+}

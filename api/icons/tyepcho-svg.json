@@ -1,0 +1,15 @@
+{
+  "name": "tyepcho",
+  "color": "#2c2c2c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/tyepcho.svg",
+  "id": "tyepcho-svg",
+  "filename": "tyepcho.svg",
+  "url": "/assets/svg/tyepcho.svg",
+  "apiUrl": "/api/icons/tyepcho-svg.json"
+}

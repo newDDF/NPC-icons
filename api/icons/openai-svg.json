@@ -1,0 +1,15 @@
+{
+  "name": "openai",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "AI"
+  ],
+  "path": "/assets/svg/openai.svg",
+  "id": "openai-svg",
+  "filename": "openai.svg",
+  "url": "/assets/svg/openai.svg",
+  "apiUrl": "/api/icons/openai-svg.json"
+}

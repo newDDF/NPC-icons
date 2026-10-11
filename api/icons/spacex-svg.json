@@ -1,0 +1,15 @@
+{
+  "name": "spacex",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/spacex.svg",
+  "id": "spacex-svg",
+  "filename": "spacex.svg",
+  "url": "/assets/svg/spacex.svg",
+  "apiUrl": "/api/icons/spacex-svg.json"
+}

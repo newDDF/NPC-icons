@@ -1,0 +1,15 @@
+{
+  "name": "passbolt",
+  "color": "#e10600",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "path": "/assets/svg/passbolt.svg",
+  "id": "passbolt-svg",
+  "filename": "passbolt.svg",
+  "url": "/assets/svg/passbolt.svg",
+  "apiUrl": "/api/icons/passbolt-svg.json"
+}

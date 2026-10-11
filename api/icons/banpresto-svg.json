@@ -1,0 +1,15 @@
+{
+  "name": "Banpresto",
+  "color": "#e60000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "path": "/assets/svg/Banpresto.svg",
+  "id": "banpresto-svg",
+  "filename": "Banpresto.svg",
+  "url": "/assets/svg/Banpresto.svg",
+  "apiUrl": "/api/icons/banpresto-svg.json"
+}

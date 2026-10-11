@@ -1,0 +1,16 @@
+{
+  "name": "kfc",
+  "color": "#a3080c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "E-commerce",
+    "Food & Beverage"
+  ],
+  "path": "/assets/svg/kfc.svg",
+  "id": "kfc-svg",
+  "filename": "kfc.svg",
+  "url": "/assets/svg/kfc.svg",
+  "apiUrl": "/api/icons/kfc-svg.json"
+}

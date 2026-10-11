@@ -1,0 +1,16 @@
+{
+  "name": "draw-io",
+  "color": "#f08705",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Design"
+  ],
+  "path": "/assets/svg/draw-io.svg",
+  "id": "draw-io-svg",
+  "filename": "draw-io.svg",
+  "url": "/assets/svg/draw-io.svg",
+  "apiUrl": "/api/icons/draw-io-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "pinia",
+  "color": "#ffcf49",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/pinia.svg",
+  "id": "pinia-svg",
+  "filename": "pinia.svg",
+  "url": "/assets/svg/pinia.svg",
+  "apiUrl": "/api/icons/pinia-svg.json"
+}

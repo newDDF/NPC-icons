@@ -1,0 +1,15 @@
+{
+  "name": "kagi",
+  "color": "#ffb319",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "path": "/assets/svg/kagi.svg",
+  "id": "kagi-svg",
+  "filename": "kagi.svg",
+  "url": "/assets/svg/kagi.svg",
+  "apiUrl": "/api/icons/kagi-svg.json"
+}

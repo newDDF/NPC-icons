@@ -1,0 +1,15 @@
+{
+  "name": "raspberry-pi",
+  "color": "#bc1142",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/raspberry-pi.svg",
+  "id": "raspberry-pi-svg",
+  "filename": "raspberry-pi.svg",
+  "url": "/assets/svg/raspberry-pi.svg",
+  "apiUrl": "/api/icons/raspberry-pi-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "affine",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Design"
+  ],
+  "path": "/assets/svg/affine.svg",
+  "id": "affine-svg",
+  "filename": "affine.svg",
+  "url": "/assets/svg/affine.svg",
+  "apiUrl": "/api/icons/affine-svg.json"
+}

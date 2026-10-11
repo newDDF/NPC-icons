@@ -1,0 +1,15 @@
+{
+  "name": "boeing",
+  "color": "#0033a1",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/boeing.svg",
+  "id": "boeing-svg",
+  "filename": "boeing.svg",
+  "url": "/assets/svg/boeing.svg",
+  "apiUrl": "/api/icons/boeing-svg.json"
+}

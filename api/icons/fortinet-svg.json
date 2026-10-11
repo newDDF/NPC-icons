@@ -1,0 +1,15 @@
+{
+  "name": "fortinet",
+  "color": "#ee3124",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "path": "/assets/svg/fortinet.svg",
+  "id": "fortinet-svg",
+  "filename": "fortinet.svg",
+  "url": "/assets/svg/fortinet.svg",
+  "apiUrl": "/api/icons/fortinet-svg.json"
+}

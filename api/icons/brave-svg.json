@@ -1,0 +1,15 @@
+{
+  "name": "brave",
+  "color": "#f1542b",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "path": "/assets/svg/brave.svg",
+  "id": "brave-svg",
+  "filename": "brave.svg",
+  "url": "/assets/svg/brave.svg",
+  "apiUrl": "/api/icons/brave-svg.json"
+}

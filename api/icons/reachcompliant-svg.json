@@ -1,0 +1,15 @@
+{
+  "name": "reachcompliant",
+  "color": "#01459a",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "path": "/assets/svg/reachcompliant.svg",
+  "id": "reachcompliant-svg",
+  "filename": "reachcompliant.svg",
+  "url": "/assets/svg/reachcompliant.svg",
+  "apiUrl": "/api/icons/reachcompliant-svg.json"
+}

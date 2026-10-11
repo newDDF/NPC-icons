@@ -1,0 +1,15 @@
+{
+  "name": "xubuntu-linux",
+  "color": "#0044aa",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems"
+  ],
+  "path": "/assets/svg/xubuntu-linux.svg",
+  "id": "xubuntu-linux-svg",
+  "filename": "xubuntu-linux.svg",
+  "url": "/assets/svg/xubuntu-linux.svg",
+  "apiUrl": "/api/icons/xubuntu-linux-svg.json"
+}

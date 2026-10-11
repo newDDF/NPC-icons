@@ -1,0 +1,16 @@
+{
+  "name": "fedora-alt",
+  "color": "#51a2da",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems",
+    "Open Source"
+  ],
+  "path": "/assets/svg/fedora-alt.svg",
+  "id": "fedora-alt-svg",
+  "filename": "fedora-alt.svg",
+  "url": "/assets/svg/fedora-alt.svg",
+  "apiUrl": "/api/icons/fedora-alt-svg.json"
+}

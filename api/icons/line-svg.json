@@ -1,0 +1,15 @@
+{
+  "name": "line",
+  "color": "#00C300",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "path": "/assets/svg/line.svg",
+  "id": "line-svg",
+  "filename": "line.svg",
+  "url": "/assets/svg/line.svg",
+  "apiUrl": "/api/icons/line-svg.json"
+}

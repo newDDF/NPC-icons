@@ -1,0 +1,15 @@
+{
+  "name": "mega-nz",
+  "color": "#d31b00",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "path": "/assets/svg/mega-nz.svg",
+  "id": "mega-nz-svg",
+  "filename": "mega-nz.svg",
+  "url": "/assets/svg/mega-nz.svg",
+  "apiUrl": "/api/icons/mega-nz-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "windows-explorer",
+  "color": "#fcd569",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "path": "/assets/svg/windows-explorer.svg",
+  "id": "windows-explorer-svg",
+  "filename": "windows-explorer.svg",
+  "url": "/assets/svg/windows-explorer.svg",
+  "apiUrl": "/api/icons/windows-explorer-svg.json"
+}

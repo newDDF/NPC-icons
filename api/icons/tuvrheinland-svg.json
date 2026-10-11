@@ -1,0 +1,15 @@
+{
+  "name": "TÜVRheinland",
+  "color": "#0171be",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/TÜVRheinland.svg",
+  "id": "tuvrheinland-svg",
+  "filename": "TÜVRheinland.svg",
+  "url": "/assets/svg/TÜVRheinland.svg",
+  "apiUrl": "/api/icons/tuvrheinland-svg.json"
+}

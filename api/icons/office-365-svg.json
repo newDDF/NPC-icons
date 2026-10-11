@@ -1,0 +1,15 @@
+{
+  "name": "office-365",
+  "color": "#ea3e23",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "path": "/assets/svg/office-365.svg",
+  "id": "office-365-svg",
+  "filename": "office-365.svg",
+  "url": "/assets/svg/office-365.svg",
+  "apiUrl": "/api/icons/office-365-svg.json"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "kubernetes",
+  "color": "#326ce5",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure",
+    "Open Source"
+  ],
+  "path": "/assets/svg/kubernetes.svg",
+  "id": "kubernetes-svg",
+  "filename": "kubernetes.svg",
+  "url": "/assets/svg/kubernetes.svg",
+  "apiUrl": "/api/icons/kubernetes-svg.json"
+}

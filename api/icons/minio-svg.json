@@ -1,0 +1,15 @@
+{
+  "name": "minio",
+  "color": "#cf5831",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "path": "/assets/svg/minio.svg",
+  "id": "minio-svg",
+  "filename": "minio.svg",
+  "url": "/assets/svg/minio.svg",
+  "apiUrl": "/api/icons/minio-svg.json"
+}

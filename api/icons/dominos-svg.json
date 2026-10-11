@@ -1,0 +1,15 @@
+{
+  "name": "Dominos",
+  "color": "#006491",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Food & Beverage"
+  ],
+  "path": "/assets/svg/Dominos.svg",
+  "id": "dominos-svg",
+  "filename": "Dominos.svg",
+  "url": "/assets/svg/Dominos.svg",
+  "apiUrl": "/api/icons/dominos-svg.json"
+}

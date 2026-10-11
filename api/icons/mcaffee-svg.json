@@ -1,0 +1,15 @@
+{
+  "name": "mcaffee",
+  "color": "#c01818",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "path": "/assets/svg/mcaffee.svg",
+  "id": "mcaffee-svg",
+  "filename": "mcaffee.svg",
+  "url": "/assets/svg/mcaffee.svg",
+  "apiUrl": "/api/icons/mcaffee-svg.json"
+}

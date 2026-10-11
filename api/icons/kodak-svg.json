@@ -1,0 +1,15 @@
+{
+  "name": "Kodak",
+  "color": "#e30613",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/Kodak.svg",
+  "id": "kodak-svg",
+  "filename": "Kodak.svg",
+  "url": "/assets/svg/Kodak.svg",
+  "apiUrl": "/api/icons/kodak-svg.json"
+}

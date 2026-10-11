@@ -1,0 +1,15 @@
+{
+  "name": "RTX",
+  "color": "#ce1126",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/RTX.svg",
+  "id": "rtx-svg",
+  "filename": "RTX.svg",
+  "url": "/assets/svg/RTX.svg",
+  "apiUrl": "/api/icons/rtx-svg.json"
+}

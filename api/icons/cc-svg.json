@@ -1,0 +1,15 @@
+{
+  "name": "cc",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Technology"
+  ],
+  "path": "/assets/svg/cc.svg",
+  "id": "cc-svg",
+  "filename": "cc.svg",
+  "url": "/assets/svg/cc.svg",
+  "apiUrl": "/api/icons/cc-svg.json"
+}

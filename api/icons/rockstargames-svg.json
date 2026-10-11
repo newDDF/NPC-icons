@@ -1,0 +1,15 @@
+{
+  "name": "RockstarGames",
+  "color": "#ffab00",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "path": "/assets/svg/RockstarGames.svg",
+  "id": "rockstargames-svg",
+  "filename": "RockstarGames.svg",
+  "url": "/assets/svg/RockstarGames.svg",
+  "apiUrl": "/api/icons/rockstargames-svg.json"
+}

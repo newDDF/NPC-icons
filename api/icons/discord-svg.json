@@ -1,0 +1,15 @@
+{
+  "name": "discord",
+  "color": "#5865f2",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "path": "/assets/svg/discord.svg",
+  "id": "discord-svg",
+  "filename": "discord.svg",
+  "url": "/assets/svg/discord.svg",
+  "apiUrl": "/api/icons/discord-svg.json"
+}

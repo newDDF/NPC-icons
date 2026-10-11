@@ -1,0 +1,15 @@
+{
+  "name": "reddit",
+  "color": "#FF4500",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "path": "/assets/svg/reddit.svg",
+  "id": "reddit-svg",
+  "filename": "reddit.svg",
+  "url": "/assets/svg/reddit.svg",
+  "apiUrl": "/api/icons/reddit-svg.json"
+}

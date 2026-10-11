@@ -1,0 +1,16 @@
+{
+  "name": "meilisearch",
+  "color": "#fe599c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/meilisearch.svg",
+  "id": "meilisearch-svg",
+  "filename": "meilisearch.svg",
+  "url": "/assets/svg/meilisearch.svg",
+  "apiUrl": "/api/icons/meilisearch-svg.json"
+}

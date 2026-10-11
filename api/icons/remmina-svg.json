@@ -1,0 +1,16 @@
+{
+  "name": "remmina",
+  "color": "#20aa73",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/remmina.svg",
+  "id": "remmina-svg",
+  "filename": "remmina.svg",
+  "url": "/assets/svg/remmina.svg",
+  "apiUrl": "/api/icons/remmina-svg.json"
+}

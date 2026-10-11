@@ -1,0 +1,15 @@
+{
+  "name": "surfshark",
+  "color": "#44caca",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "path": "/assets/svg/surfshark.svg",
+  "id": "surfshark-svg",
+  "filename": "surfshark.svg",
+  "url": "/assets/svg/surfshark.svg",
+  "apiUrl": "/api/icons/surfshark-svg.json"
+}

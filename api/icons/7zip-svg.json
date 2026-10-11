@@ -1,0 +1,16 @@
+{
+  "name": "7zip",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/7zip.svg",
+  "id": "7zip-svg",
+  "filename": "7zip.svg",
+  "url": "/assets/svg/7zip.svg",
+  "apiUrl": "/api/icons/7zip-svg.json"
+}

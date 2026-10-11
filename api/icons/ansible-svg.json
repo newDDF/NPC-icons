@@ -1,0 +1,16 @@
+{
+  "name": "ansible",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/ansible.svg",
+  "id": "ansible-svg",
+  "filename": "ansible.svg",
+  "url": "/assets/svg/ansible.svg",
+  "apiUrl": "/api/icons/ansible-svg.json"
+}

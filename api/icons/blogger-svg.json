@@ -1,0 +1,15 @@
+{
+  "name": "blogger",
+  "color": "#ef6a35",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "path": "/assets/svg/blogger.svg",
+  "id": "blogger-svg",
+  "filename": "blogger.svg",
+  "url": "/assets/svg/blogger.svg",
+  "apiUrl": "/api/icons/blogger-svg.json"
+}

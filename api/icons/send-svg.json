@@ -1,0 +1,15 @@
+{
+  "name": "send",
+  "color": "#45a0fe",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "path": "/assets/svg/send.svg",
+  "id": "send-svg",
+  "filename": "send.svg",
+  "url": "/assets/svg/send.svg",
+  "apiUrl": "/api/icons/send-svg.json"
+}

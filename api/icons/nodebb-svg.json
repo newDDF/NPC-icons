@@ -1,0 +1,15 @@
+{
+  "name": "nodebb",
+  "color": "#2062bc",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/nodebb.svg",
+  "id": "nodebb-svg",
+  "filename": "nodebb.svg",
+  "url": "/assets/svg/nodebb.svg",
+  "apiUrl": "/api/icons/nodebb-svg.json"
+}

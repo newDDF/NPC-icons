@@ -1,0 +1,15 @@
+{
+  "name": "rclone",
+  "color": "#70caf2",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/rclone.svg",
+  "id": "rclone-svg",
+  "filename": "rclone.svg",
+  "url": "/assets/svg/rclone.svg",
+  "apiUrl": "/api/icons/rclone-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "carrefour",
+  "color": "#014fa0",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "E-commerce"
+  ],
+  "path": "/assets/svg/carrefour.svg",
+  "id": "carrefour-svg",
+  "filename": "carrefour.svg",
+  "url": "/assets/svg/carrefour.svg",
+  "apiUrl": "/api/icons/carrefour-svg.json"
+}

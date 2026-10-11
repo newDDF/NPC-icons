@@ -1,0 +1,16 @@
+{
+  "name": "vim",
+  "color": "#019733",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/vim.svg",
+  "id": "vim-svg",
+  "filename": "vim.svg",
+  "url": "/assets/svg/vim.svg",
+  "apiUrl": "/api/icons/vim-svg.json"
+}

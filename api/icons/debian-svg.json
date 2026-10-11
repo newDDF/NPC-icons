@@ -1,0 +1,15 @@
+{
+  "name": "debian",
+  "color": "#a80030",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Open Source"
+  ],
+  "path": "/assets/svg/debian.svg",
+  "id": "debian-svg",
+  "filename": "debian.svg",
+  "url": "/assets/svg/debian.svg",
+  "apiUrl": "/api/icons/debian-svg.json"
+}

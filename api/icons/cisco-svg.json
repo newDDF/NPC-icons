@@ -1,0 +1,16 @@
+{
+  "name": "cisco",
+  "color": "#12a6de",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking",
+    "Hardware"
+  ],
+  "path": "/assets/svg/cisco.svg",
+  "id": "cisco-svg",
+  "filename": "cisco.svg",
+  "url": "/assets/svg/cisco.svg",
+  "apiUrl": "/api/icons/cisco-svg.json"
+}

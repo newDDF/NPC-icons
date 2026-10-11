@@ -1,0 +1,15 @@
+{
+  "name": "keila",
+  "color": "#10bc83",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "path": "/assets/svg/keila.svg",
+  "id": "keila-svg",
+  "filename": "keila.svg",
+  "url": "/assets/svg/keila.svg",
+  "apiUrl": "/api/icons/keila-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "redis",
+  "color": "#c6302b",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/redis.svg",
+  "id": "redis-svg",
+  "filename": "redis.svg",
+  "url": "/assets/svg/redis.svg",
+  "apiUrl": "/api/icons/redis-svg.json"
+}

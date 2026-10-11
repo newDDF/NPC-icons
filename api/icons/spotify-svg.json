@@ -1,0 +1,15 @@
+{
+  "name": "spotify",
+  "color": "#1ED760",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/spotify.svg",
+  "id": "spotify-svg",
+  "filename": "spotify.svg",
+  "url": "/assets/svg/spotify.svg",
+  "apiUrl": "/api/icons/spotify-svg.json"
+}

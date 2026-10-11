@@ -1,0 +1,15 @@
+{
+  "name": "monarch-money",
+  "color": "#ff692d",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "path": "/assets/svg/monarch-money.svg",
+  "id": "monarch-money-svg",
+  "filename": "monarch-money.svg",
+  "url": "/assets/svg/monarch-money.svg",
+  "apiUrl": "/api/icons/monarch-money-svg.json"
+}

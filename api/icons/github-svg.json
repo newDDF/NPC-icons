@@ -1,0 +1,16 @@
+{
+  "name": "github",
+  "color": "#181717",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/github.svg",
+  "id": "github-svg",
+  "filename": "github.svg",
+  "url": "/assets/svg/github.svg",
+  "apiUrl": "/api/icons/github-svg.json"
+}

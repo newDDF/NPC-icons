@@ -1,0 +1,16 @@
+{
+  "name": "apple",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems",
+    "Hardware"
+  ],
+  "path": "/assets/svg/apple.svg",
+  "id": "apple-svg",
+  "filename": "apple.svg",
+  "url": "/assets/svg/apple.svg",
+  "apiUrl": "/api/icons/apple-svg.json"
+}

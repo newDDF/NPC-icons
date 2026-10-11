@@ -1,0 +1,15 @@
+{
+  "name": "dlna",
+  "color": "#64b452",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/dlna.svg",
+  "id": "dlna-svg",
+  "filename": "dlna.svg",
+  "url": "/assets/svg/dlna.svg",
+  "apiUrl": "/api/icons/dlna-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "telekom",
+  "color": "#e20074",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "path": "/assets/svg/telekom.svg",
+  "id": "telekom-svg",
+  "filename": "telekom.svg",
+  "url": "/assets/svg/telekom.svg",
+  "apiUrl": "/api/icons/telekom-svg.json"
+}

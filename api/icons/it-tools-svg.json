@@ -1,0 +1,15 @@
+{
+  "name": "it-tools",
+  "color": "#18a058",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/it-tools.svg",
+  "id": "it-tools-svg",
+  "filename": "it-tools.svg",
+  "url": "/assets/svg/it-tools.svg",
+  "apiUrl": "/api/icons/it-tools-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "sun-panel",
+  "color": "#4fb2ba",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/sun-panel.svg",
+  "id": "sun-panel-svg",
+  "filename": "sun-panel.svg",
+  "url": "/assets/svg/sun-panel.svg",
+  "apiUrl": "/api/icons/sun-panel-svg.json"
+}

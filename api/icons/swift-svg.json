@@ -1,0 +1,15 @@
+{
+  "name": "swift",
+  "color": "#f07637",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/swift.svg",
+  "id": "swift-svg",
+  "filename": "swift.svg",
+  "url": "/assets/svg/swift.svg",
+  "apiUrl": "/api/icons/swift-svg.json"
+}

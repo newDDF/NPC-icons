@@ -1,0 +1,15 @@
+{
+  "name": "nsg",
+  "color": "#50e6ff",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "path": "/assets/svg/nsg.svg",
+  "id": "nsg-svg",
+  "filename": "nsg.svg",
+  "url": "/assets/svg/nsg.svg",
+  "apiUrl": "/api/icons/nsg-svg.json"
+}

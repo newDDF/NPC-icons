@@ -1,0 +1,15 @@
+{
+  "name": "rocky-linux",
+  "color": "#10b981",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems"
+  ],
+  "path": "/assets/svg/rocky-linux.svg",
+  "id": "rocky-linux-svg",
+  "filename": "rocky-linux.svg",
+  "url": "/assets/svg/rocky-linux.svg",
+  "apiUrl": "/api/icons/rocky-linux-svg.json"
+}

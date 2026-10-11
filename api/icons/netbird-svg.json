@@ -1,0 +1,15 @@
+{
+  "name": "netbird",
+  "color": "#F68330",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "path": "/assets/svg/netbird.svg",
+  "id": "netbird-svg",
+  "filename": "netbird.svg",
+  "url": "/assets/svg/netbird.svg",
+  "apiUrl": "/api/icons/netbird-svg.json"
+}

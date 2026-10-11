@@ -1,0 +1,15 @@
+{
+  "name": "rainloop",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "path": "/assets/svg/rainloop.svg",
+  "id": "rainloop-svg",
+  "filename": "rainloop.svg",
+  "url": "/assets/svg/rainloop.svg",
+  "apiUrl": "/api/icons/rainloop-svg.json"
+}

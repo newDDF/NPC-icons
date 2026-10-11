@@ -1,0 +1,15 @@
+{
+  "name": "nvidia",
+  "color": "#77b900",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/nvidia.svg",
+  "id": "nvidia-svg",
+  "filename": "nvidia.svg",
+  "url": "/assets/svg/nvidia.svg",
+  "apiUrl": "/api/icons/nvidia-svg.json"
+}

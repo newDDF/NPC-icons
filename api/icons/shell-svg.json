@@ -1,0 +1,15 @@
+{
+  "name": "shell",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/shell.svg",
+  "id": "shell-svg",
+  "filename": "shell.svg",
+  "url": "/assets/svg/shell.svg",
+  "apiUrl": "/api/icons/shell-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "k3s",
+  "color": "#ffc61c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/k3s.svg",
+  "id": "k3s-svg",
+  "filename": "k3s.svg",
+  "url": "/assets/svg/k3s.svg",
+  "apiUrl": "/api/icons/k3s-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "github-copilot",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/github-copilot.svg",
+  "id": "github-copilot-svg",
+  "filename": "github-copilot.svg",
+  "url": "/assets/svg/github-copilot.svg",
+  "apiUrl": "/api/icons/github-copilot-svg.json"
+}

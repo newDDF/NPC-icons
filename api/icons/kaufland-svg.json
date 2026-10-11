@@ -1,0 +1,15 @@
+{
+  "name": "kaufland",
+  "color": "#e10915",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "E-commerce"
+  ],
+  "path": "/assets/svg/kaufland.svg",
+  "id": "kaufland-svg",
+  "filename": "kaufland.svg",
+  "url": "/assets/svg/kaufland.svg",
+  "apiUrl": "/api/icons/kaufland-svg.json"
+}

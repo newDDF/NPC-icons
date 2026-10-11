@@ -1,0 +1,15 @@
+{
+  "name": "npm",
+  "color": "#cb3837",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/npm.svg",
+  "id": "npm-svg",
+  "filename": "npm.svg",
+  "url": "/assets/svg/npm.svg",
+  "apiUrl": "/api/icons/npm-svg.json"
+}

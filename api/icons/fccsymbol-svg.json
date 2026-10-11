@@ -1,0 +1,15 @@
+{
+  "name": "FCCsymbol",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/FCCsymbol.svg",
+  "id": "fccsymbol-svg",
+  "filename": "FCCsymbol.svg",
+  "url": "/assets/svg/FCCsymbol.svg",
+  "apiUrl": "/api/icons/fccsymbol-svg.json"
+}

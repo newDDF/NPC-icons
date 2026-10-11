@@ -1,0 +1,15 @@
+{
+  "name": "JIDIANCOLLEGE",
+  "color": "none",
+  "format": "png",
+  "source": "",
+  "info": "NPC-icons library bitmapped graphic asset.",
+  "category": [
+    "Education"
+  ],
+  "path": "/assets/png/JIDIANCOLLEGE.png",
+  "id": "jidiancollege-png",
+  "filename": "JIDIANCOLLEGE.png",
+  "url": "/assets/png/JIDIANCOLLEGE.png",
+  "apiUrl": "/api/icons/jidiancollege-png.json"
+}

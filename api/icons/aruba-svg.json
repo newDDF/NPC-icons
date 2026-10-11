@@ -1,0 +1,15 @@
+{
+  "name": "aruba",
+  "color": "#ff8300",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "path": "/assets/svg/aruba.svg",
+  "id": "aruba-svg",
+  "filename": "aruba.svg",
+  "url": "/assets/svg/aruba.svg",
+  "apiUrl": "/api/icons/aruba-svg.json"
+}

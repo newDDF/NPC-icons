@@ -1,0 +1,15 @@
+{
+  "name": "crunchyroll",
+  "color": "#f78b24",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/crunchyroll.svg",
+  "id": "crunchyroll-svg",
+  "filename": "crunchyroll.svg",
+  "url": "/assets/svg/crunchyroll.svg",
+  "apiUrl": "/api/icons/crunchyroll-svg.json"
+}

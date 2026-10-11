@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap",
+  "color": "#7511f6",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/bootstrap.svg",
+  "id": "bootstrap-svg",
+  "filename": "bootstrap.svg",
+  "url": "/assets/svg/bootstrap.svg",
+  "apiUrl": "/api/icons/bootstrap-svg.json"
+}

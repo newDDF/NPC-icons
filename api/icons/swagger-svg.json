@@ -1,0 +1,15 @@
+{
+  "name": "swagger",
+  "color": "#85e92c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/swagger.svg",
+  "id": "swagger-svg",
+  "filename": "swagger.svg",
+  "url": "/assets/svg/swagger.svg",
+  "apiUrl": "/api/icons/swagger-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "visa",
+  "color": "#1A1F71",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "path": "/assets/svg/visa.svg",
+  "id": "visa-svg",
+  "filename": "visa.svg",
+  "url": "/assets/svg/visa.svg",
+  "apiUrl": "/api/icons/visa-svg.json"
+}

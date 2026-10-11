@@ -1,0 +1,16 @@
+{
+  "name": "astro",
+  "color": "#bc52ee",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/astro.svg",
+  "id": "astro-svg",
+  "filename": "astro.svg",
+  "url": "/assets/svg/astro.svg",
+  "apiUrl": "/api/icons/astro-svg.json"
+}

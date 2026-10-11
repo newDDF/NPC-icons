@@ -1,0 +1,15 @@
+{
+  "name": "DONGFANGCOLLEGE",
+  "color": "none",
+  "format": "png",
+  "source": "",
+  "info": "NPC-icons library bitmapped graphic asset.",
+  "category": [
+    "Education"
+  ],
+  "path": "/assets/png/DONGFANGCOLLEGE.png",
+  "id": "dongfangcollege-png",
+  "filename": "DONGFANGCOLLEGE.png",
+  "url": "/assets/png/DONGFANGCOLLEGE.png",
+  "apiUrl": "/api/icons/dongfangcollege-png.json"
+}

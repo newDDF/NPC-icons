@@ -1,0 +1,15 @@
+{
+  "name": "open-webui",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/open-webui.svg",
+  "id": "open-webui-svg",
+  "filename": "open-webui.svg",
+  "url": "/assets/svg/open-webui.svg",
+  "apiUrl": "/api/icons/open-webui-svg.json"
+}

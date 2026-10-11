@@ -1,0 +1,16 @@
+{
+  "name": "linux-mint",
+  "color": "#69b53f",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems",
+    "Open Source"
+  ],
+  "path": "/assets/svg/linux-mint.svg",
+  "id": "linux-mint-svg",
+  "filename": "linux-mint.svg",
+  "url": "/assets/svg/linux-mint.svg",
+  "apiUrl": "/api/icons/linux-mint-svg.json"
+}

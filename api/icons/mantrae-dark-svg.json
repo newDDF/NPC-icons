@@ -1,0 +1,15 @@
+{
+  "name": "mantrae-dark",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "path": "/assets/svg/mantrae-dark.svg",
+  "id": "mantrae-dark-svg",
+  "filename": "mantrae-dark.svg",
+  "url": "/assets/svg/mantrae-dark.svg",
+  "apiUrl": "/api/icons/mantrae-dark-svg.json"
+}

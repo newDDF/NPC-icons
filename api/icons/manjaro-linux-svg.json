@@ -1,0 +1,15 @@
+{
+  "name": "manjaro-linux",
+  "color": "#35bf5c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems"
+  ],
+  "path": "/assets/svg/manjaro-linux.svg",
+  "id": "manjaro-linux-svg",
+  "filename": "manjaro-linux.svg",
+  "url": "/assets/svg/manjaro-linux.svg",
+  "apiUrl": "/api/icons/manjaro-linux-svg.json"
+}

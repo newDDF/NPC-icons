@@ -1,0 +1,15 @@
+{
+  "name": "paypal",
+  "color": "#002991",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "path": "/assets/svg/paypal.svg",
+  "id": "paypal-svg",
+  "filename": "paypal.svg",
+  "url": "/assets/svg/paypal.svg",
+  "apiUrl": "/api/icons/paypal-svg.json"
+}

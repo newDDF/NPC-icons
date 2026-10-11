@@ -1,0 +1,15 @@
+{
+  "name": "java",
+  "color": "#5585a4",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/java.svg",
+  "id": "java-svg",
+  "filename": "java.svg",
+  "url": "/assets/svg/java.svg",
+  "apiUrl": "/api/icons/java-svg.json"
+}

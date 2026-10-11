@@ -1,0 +1,15 @@
+{
+  "name": "Mærsk",
+  "color": "#00adef",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "E-commerce"
+  ],
+  "path": "/assets/svg/Mærsk.svg",
+  "id": "m-rsk-svg",
+  "filename": "Mærsk.svg",
+  "url": "/assets/svg/Mærsk.svg",
+  "apiUrl": "/api/icons/m-rsk-svg.json"
+}

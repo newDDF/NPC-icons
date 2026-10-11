@@ -1,0 +1,15 @@
+{
+  "name": "powerbi",
+  "color": "#eec12f",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "path": "/assets/svg/powerbi.svg",
+  "id": "powerbi-svg",
+  "filename": "powerbi.svg",
+  "url": "/assets/svg/powerbi.svg",
+  "apiUrl": "/api/icons/powerbi-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "LEGO",
+  "color": "#e3000b",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "path": "/assets/svg/LEGO.svg",
+  "id": "lego-svg",
+  "filename": "LEGO.svg",
+  "url": "/assets/svg/LEGO.svg",
+  "apiUrl": "/api/icons/lego-svg.json"
+}

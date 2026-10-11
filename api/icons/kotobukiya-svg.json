@@ -1,0 +1,15 @@
+{
+  "name": "kotobukiya",
+  "color": "#00a54f",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/kotobukiya.svg",
+  "id": "kotobukiya-svg",
+  "filename": "kotobukiya.svg",
+  "url": "/assets/svg/kotobukiya.svg",
+  "apiUrl": "/api/icons/kotobukiya-svg.json"
+}

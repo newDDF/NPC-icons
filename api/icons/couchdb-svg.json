@@ -1,0 +1,15 @@
+{
+  "name": "couchdb",
+  "color": "#e42528",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/couchdb.svg",
+  "id": "couchdb-svg",
+  "filename": "couchdb.svg",
+  "url": "/assets/svg/couchdb.svg",
+  "apiUrl": "/api/icons/couchdb-svg.json"
+}

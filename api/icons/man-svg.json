@@ -1,0 +1,15 @@
+{
+  "name": "man",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Automotive"
+  ],
+  "path": "/assets/svg/man.svg",
+  "id": "man-svg",
+  "filename": "man.svg",
+  "url": "/assets/svg/man.svg",
+  "apiUrl": "/api/icons/man-svg.json"
+}

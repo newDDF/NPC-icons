@@ -1,0 +1,15 @@
+{
+  "name": "NoEWaste",
+  "color": "#c71f1f",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "path": "/assets/svg/NoEWaste.svg",
+  "id": "noewaste-svg",
+  "filename": "NoEWaste.svg",
+  "url": "/assets/svg/NoEWaste.svg",
+  "apiUrl": "/api/icons/noewaste-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "pikapods",
+  "color": "#43a047",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "path": "/assets/svg/pikapods.svg",
+  "id": "pikapods-svg",
+  "filename": "pikapods.svg",
+  "url": "/assets/svg/pikapods.svg",
+  "apiUrl": "/api/icons/pikapods-svg.json"
+}

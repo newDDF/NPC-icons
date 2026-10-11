@@ -1,0 +1,15 @@
+{
+  "name": "broadcom",
+  "color": "#cc092f",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/broadcom.svg",
+  "id": "broadcom-svg",
+  "filename": "broadcom.svg",
+  "url": "/assets/svg/broadcom.svg",
+  "apiUrl": "/api/icons/broadcom-svg.json"
+}

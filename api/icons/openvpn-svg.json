@@ -1,0 +1,15 @@
+{
+  "name": "openvpn",
+  "color": "#ed7f22",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "path": "/assets/svg/openvpn.svg",
+  "id": "openvpn-svg",
+  "filename": "openvpn.svg",
+  "url": "/assets/svg/openvpn.svg",
+  "apiUrl": "/api/icons/openvpn-svg.json"
+}

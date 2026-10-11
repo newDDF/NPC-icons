@@ -1,0 +1,15 @@
+{
+  "name": "papercut",
+  "color": "#27aa27",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "path": "/assets/svg/papercut.svg",
+  "id": "papercut-svg",
+  "filename": "papercut.svg",
+  "url": "/assets/svg/papercut.svg",
+  "apiUrl": "/api/icons/papercut-svg.json"
+}

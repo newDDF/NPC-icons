@@ -1,0 +1,15 @@
+{
+  "name": "perplexity",
+  "color": "#22b8cd",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "AI"
+  ],
+  "path": "/assets/svg/perplexity.svg",
+  "id": "perplexity-svg",
+  "filename": "perplexity.svg",
+  "url": "/assets/svg/perplexity.svg",
+  "apiUrl": "/api/icons/perplexity-svg.json"
+}

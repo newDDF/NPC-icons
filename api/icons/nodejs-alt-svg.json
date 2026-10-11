@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-alt",
+  "color": "#79b461",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/nodejs-alt.svg",
+  "id": "nodejs-alt-svg",
+  "filename": "nodejs-alt.svg",
+  "url": "/assets/svg/nodejs-alt.svg",
+  "apiUrl": "/api/icons/nodejs-alt-svg.json"
+}

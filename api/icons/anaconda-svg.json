@@ -1,0 +1,16 @@
+{
+  "name": "anaconda",
+  "color": "#43b02a",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/anaconda.svg",
+  "id": "anaconda-svg",
+  "filename": "anaconda.svg",
+  "url": "/assets/svg/anaconda.svg",
+  "apiUrl": "/api/icons/anaconda-svg.json"
+}

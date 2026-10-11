@@ -1,0 +1,15 @@
+{
+  "name": "fluffychat",
+  "color": "#4d3f92",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "path": "/assets/svg/fluffychat.svg",
+  "id": "fluffychat-svg",
+  "filename": "fluffychat.svg",
+  "url": "/assets/svg/fluffychat.svg",
+  "apiUrl": "/api/icons/fluffychat-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "oh-my-posh",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/oh-my-posh.svg",
+  "id": "oh-my-posh-svg",
+  "filename": "oh-my-posh.svg",
+  "url": "/assets/svg/oh-my-posh.svg",
+  "apiUrl": "/api/icons/oh-my-posh-svg.json"
+}

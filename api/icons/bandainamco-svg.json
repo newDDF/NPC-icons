@@ -1,0 +1,15 @@
+{
+  "name": "BandaiNamco",
+  "color": "#ed6d00",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "path": "/assets/svg/BandaiNamco.svg",
+  "id": "bandainamco-svg",
+  "filename": "BandaiNamco.svg",
+  "url": "/assets/svg/BandaiNamco.svg",
+  "apiUrl": "/api/icons/bandainamco-svg.json"
+}

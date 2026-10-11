@@ -1,0 +1,15 @@
+{
+  "name": "duckdns",
+  "color": "#fcfc01",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "path": "/assets/svg/duckdns.svg",
+  "id": "duckdns-svg",
+  "filename": "duckdns.svg",
+  "url": "/assets/svg/duckdns.svg",
+  "apiUrl": "/api/icons/duckdns-svg.json"
+}

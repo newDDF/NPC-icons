@@ -1,0 +1,15 @@
+{
+  "name": "pdfforge",
+  "color": "#db2325",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/pdfforge.svg",
+  "id": "pdfforge-svg",
+  "filename": "pdfforge.svg",
+  "url": "/assets/svg/pdfforge.svg",
+  "apiUrl": "/api/icons/pdfforge-svg.json"
+}

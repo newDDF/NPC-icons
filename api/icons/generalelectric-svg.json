@@ -1,0 +1,15 @@
+{
+  "name": "generalelectric",
+  "color": "#0870d8",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/generalelectric.svg",
+  "id": "generalelectric-svg",
+  "filename": "generalelectric.svg",
+  "url": "/assets/svg/generalelectric.svg",
+  "apiUrl": "/api/icons/generalelectric-svg.json"
+}

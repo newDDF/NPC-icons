@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp",
+  "color": "#25D366",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "path": "/assets/svg/whatsapp.svg",
+  "id": "whatsapp-svg",
+  "filename": "whatsapp.svg",
+  "url": "/assets/svg/whatsapp.svg",
+  "apiUrl": "/api/icons/whatsapp-svg.json"
+}

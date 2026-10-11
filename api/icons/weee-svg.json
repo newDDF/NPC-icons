@@ -1,0 +1,15 @@
+{
+  "name": "WEEE",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/WEEE.svg",
+  "id": "weee-svg",
+  "filename": "WEEE.svg",
+  "url": "/assets/svg/WEEE.svg",
+  "apiUrl": "/api/icons/weee-svg.json"
+}

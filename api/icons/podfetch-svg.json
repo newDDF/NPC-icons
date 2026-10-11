@@ -1,0 +1,15 @@
+{
+  "name": "podfetch",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/podfetch.svg",
+  "id": "podfetch-svg",
+  "filename": "podfetch.svg",
+  "url": "/assets/svg/podfetch.svg",
+  "apiUrl": "/api/icons/podfetch-svg.json"
+}

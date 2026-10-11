@@ -1,0 +1,15 @@
+{
+  "name": "NASDAQ",
+  "color": "#0996c7",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "path": "/assets/svg/NASDAQ.svg",
+  "id": "nasdaq-svg",
+  "filename": "NASDAQ.svg",
+  "url": "/assets/svg/NASDAQ.svg",
+  "apiUrl": "/api/icons/nasdaq-svg.json"
+}

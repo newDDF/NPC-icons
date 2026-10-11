@@ -1,0 +1,15 @@
+{
+  "name": "pioneer",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "path": "/assets/svg/pioneer.svg",
+  "id": "pioneer-svg",
+  "filename": "pioneer.svg",
+  "url": "/assets/svg/pioneer.svg",
+  "apiUrl": "/api/icons/pioneer-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "mailbox",
+  "color": "#abe659",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "path": "/assets/svg/mailbox.svg",
+  "id": "mailbox-svg",
+  "filename": "mailbox.svg",
+  "url": "/assets/svg/mailbox.svg",
+  "apiUrl": "/api/icons/mailbox-svg.json"
+}

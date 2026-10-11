@@ -1,0 +1,16 @@
+{
+  "name": "docker",
+  "color": "#2396ed",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure",
+    "Open Source"
+  ],
+  "path": "/assets/svg/docker.svg",
+  "id": "docker-svg",
+  "filename": "docker.svg",
+  "url": "/assets/svg/docker.svg",
+  "apiUrl": "/api/icons/docker-svg.json"
+}

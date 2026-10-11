@@ -1,0 +1,15 @@
+{
+  "name": "twitch",
+  "color": "#6441a5",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/twitch.svg",
+  "id": "twitch-svg",
+  "filename": "twitch.svg",
+  "url": "/assets/svg/twitch.svg",
+  "apiUrl": "/api/icons/twitch-svg.json"
+}

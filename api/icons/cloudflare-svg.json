@@ -1,0 +1,15 @@
+{
+  "name": "cloudflare",
+  "color": "#F38020",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "path": "/assets/svg/cloudflare.svg",
+  "id": "cloudflare-svg",
+  "filename": "cloudflare.svg",
+  "url": "/assets/svg/cloudflare.svg",
+  "apiUrl": "/api/icons/cloudflare-svg.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "boa",
+  "color": "#e31837",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "path": "/assets/svg/boa.svg",
+  "id": "boa-svg",
+  "filename": "boa.svg",
+  "url": "/assets/svg/boa.svg",
+  "apiUrl": "/api/icons/boa-svg.json"
+}

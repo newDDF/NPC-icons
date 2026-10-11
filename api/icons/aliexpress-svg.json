@@ -1,0 +1,15 @@
+{
+  "name": "aliexpress",
+  "color": "#dc3326",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "E-commerce"
+  ],
+  "path": "/assets/svg/aliexpress.svg",
+  "id": "aliexpress-svg",
+  "filename": "aliexpress.svg",
+  "url": "/assets/svg/aliexpress.svg",
+  "apiUrl": "/api/icons/aliexpress-svg.json"
+}

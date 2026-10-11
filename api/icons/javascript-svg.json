@@ -1,0 +1,15 @@
+{
+  "name": "javascript",
+  "color": "#f7df1e",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "path": "/assets/svg/javascript.svg",
+  "id": "javascript-svg",
+  "filename": "javascript.svg",
+  "url": "/assets/svg/javascript.svg",
+  "apiUrl": "/api/icons/javascript-svg.json"
+}

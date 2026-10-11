@@ -1,0 +1,15 @@
+{
+  "name": "onedev",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/onedev.svg",
+  "id": "onedev-svg",
+  "filename": "onedev.svg",
+  "url": "/assets/svg/onedev.svg",
+  "apiUrl": "/api/icons/onedev-svg.json"
+}

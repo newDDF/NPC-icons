@@ -1,0 +1,15 @@
+{
+  "name": "fedex",
+  "color": "#2a007c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "E-commerce"
+  ],
+  "path": "/assets/svg/fedex.svg",
+  "id": "fedex-svg",
+  "filename": "fedex.svg",
+  "url": "/assets/svg/fedex.svg",
+  "apiUrl": "/api/icons/fedex-svg.json"
+}

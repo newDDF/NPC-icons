@@ -1,0 +1,15 @@
+{
+  "name": "twitter",
+  "color": "#1d9bf0",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "path": "/assets/svg/twitter.svg",
+  "id": "twitter-svg",
+  "filename": "twitter.svg",
+  "url": "/assets/svg/twitter.svg",
+  "apiUrl": "/api/icons/twitter-svg.json"
+}

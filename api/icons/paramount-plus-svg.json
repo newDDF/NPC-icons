@@ -1,0 +1,15 @@
+{
+  "name": "paramount-plus",
+  "color": "#0064ff",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/paramount-plus.svg",
+  "id": "paramount-plus-svg",
+  "filename": "paramount-plus.svg",
+  "url": "/assets/svg/paramount-plus.svg",
+  "apiUrl": "/api/icons/paramount-plus-svg.json"
+}

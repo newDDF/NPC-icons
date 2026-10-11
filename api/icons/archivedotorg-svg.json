@@ -1,0 +1,15 @@
+{
+  "name": "archivedotorg",
+  "color": "#2c2c2c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "path": "/assets/svg/archivedotorg.svg",
+  "id": "archivedotorg-svg",
+  "filename": "archivedotorg.svg",
+  "url": "/assets/svg/archivedotorg.svg",
+  "apiUrl": "/api/icons/archivedotorg-svg.json"
+}

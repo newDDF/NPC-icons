@@ -1,0 +1,15 @@
+{
+  "name": "kuromi",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "path": "/assets/svg/kuromi.svg",
+  "id": "kuromi-svg",
+  "filename": "kuromi.svg",
+  "url": "/assets/svg/kuromi.svg",
+  "apiUrl": "/api/icons/kuromi-svg.json"
+}

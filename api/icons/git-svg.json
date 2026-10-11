@@ -1,0 +1,16 @@
+{
+  "name": "git",
+  "color": "#F03C2E",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "path": "/assets/svg/git.svg",
+  "id": "git-svg",
+  "filename": "git.svg",
+  "url": "/assets/svg/git.svg",
+  "apiUrl": "/api/icons/git-svg.json"
+}

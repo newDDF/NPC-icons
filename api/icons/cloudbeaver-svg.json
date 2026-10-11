@@ -1,0 +1,15 @@
+{
+  "name": "cloudbeaver",
+  "color": "#4598d3",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "path": "/assets/svg/cloudbeaver.svg",
+  "id": "cloudbeaver-svg",
+  "filename": "cloudbeaver.svg",
+  "url": "/assets/svg/cloudbeaver.svg",
+  "apiUrl": "/api/icons/cloudbeaver-svg.json"
+}

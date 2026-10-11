@@ -1,0 +1,15 @@
+{
+  "name": "USB",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "path": "/assets/svg/USB.svg",
+  "id": "usb-svg",
+  "filename": "USB.svg",
+  "url": "/assets/svg/USB.svg",
+  "apiUrl": "/api/icons/usb-svg.json"
+}
