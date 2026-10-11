@@ -5,10 +5,11 @@ const {
   title = "NPC-icons — Free SVG & PNG Icon Library",
   description = "Discover, search, and download free SVG and PNG icons. Explore a growing collection of brand, technology, and community icons with NPC-icons.",
   lang = "en",
-  theme = "light"
+  theme = "light",
+  canonical = "https://icons.x0u0x.xyz/",
+  includeMainScript = true
 } = Astro.props;
 
-const canonical = "https://icons.x0u0x.xyz/";
 ---
 <!DOCTYPE html>
 <html lang={lang} data-theme={theme}>
@@ -40,6 +41,6 @@ const canonical = "https://icons.x0u0x.xyz/";
 </head>
 <body>
   <slot />
-  <script src="../scripts/main.js"></script>
+  {includeMainScript && <script src="../scripts/main.js"></script>}
 </body>
 </html>

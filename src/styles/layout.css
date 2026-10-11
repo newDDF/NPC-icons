@@ -436,3 +436,131 @@ body {
         0 2px 8px rgba(0, 0, 0, 0.05),
         inset 0 1px 0 rgba(255, 255, 255, 0.38) !important;
 }
+
+
+/* NPC-icons refined brand header */
+.brand-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 24px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    min-width: 0;
+}
+
+.header-logo-container {
+    width: 46px;
+    height: 46px;
+    flex: 0 0 46px;
+    overflow: hidden;
+    border-radius: 13px;
+}
+
+.header-logo-container svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.header-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+}
+
+.header-titles h1 {
+    margin: 0;
+    font-size: clamp(1.35rem, 2.5vw, 1.65rem);
+    line-height: 1.15;
+    letter-spacing: -0.045em;
+    font-weight: 720;
+}
+
+.header-subtitle {
+    color: var(--text-muted);
+    font-size: 0.76rem;
+    letter-spacing: 0.015em;
+}
+
+.header-counter {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 10px 15px;
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    background: var(--blur-bg);
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    flex: 0 0 auto;
+}
+
+.counter-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    white-space: nowrap;
+    font-size: 0.8rem;
+}
+
+.counter-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.counter-dot-svg { background: #0a84ff; }
+.counter-dot-png { background: #30b36b; }
+
+.counter-label { color: var(--text-muted); }
+
+.counter-item strong {
+    color: var(--text-color);
+    font-size: 0.88rem;
+    font-weight: 650;
+    font-variant-numeric: tabular-nums;
+}
+
+.counter-divider {
+    width: 1px;
+    height: 20px;
+    background: var(--glass-border);
+}
+
+@media (max-width: 560px) {
+    .brand-header {
+        padding: 22px 16px 18px;
+        gap: 12px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .header-logo-container {
+        width: 39px;
+        height: 39px;
+        flex-basis: 39px;
+        border-radius: 11px;
+    }
+
+    .header-left { gap: 10px; }
+    .header-subtitle { font-size: 0.7rem; }
+
+    .header-counter {
+        margin-left: 49px;
+        padding: 8px 11px;
+        gap: 13px;
+        border-radius: 11px;
+    }
+}

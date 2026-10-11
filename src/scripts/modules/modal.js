@@ -20,7 +20,17 @@ export function initModal() {
     });
 
     return function openIconModal(icon, displayColor) {
-        modalPreview.innerHTML = `<img src="${icon.path}" alt="${icon.name}">`;
+        const detailLink = document.createElement('a');
+        detailLink.className = 'modal-preview-link';
+        detailLink.href = `/icons/${encodeURIComponent(icon.id || icon.name)}/`;
+        detailLink.setAttribute('aria-label', `Open ${icon.name} icon details`);
+
+        const previewImage = document.createElement('img');
+        previewImage.src = icon.path;
+        previewImage.alt = icon.name;
+
+        detailLink.appendChild(previewImage);
+        modalPreview.replaceChildren(detailLink);
         modalName.innerText = icon.name;
 
         modalCategories.innerHTML = (icon.category || [])

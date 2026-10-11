@@ -308,3 +308,85 @@
 }
 
 
+
+
+/* NPC-icons compact shared footer */
+footer.site-footer {
+    max-width: 1200px;
+    margin: 28px auto 0;
+    padding: 20px 24px 24px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    text-align: left;
+    font-size: 0.82rem;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 160ms ease;
+}
+
+.footer-links a:hover {
+    color: var(--text-color);
+}
+
+.footer-copyright {
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+    footer.site-footer {
+        margin-top: 20px;
+        padding: 18px 16px 22px;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .footer-links { gap: 16px; }
+}
+
+
+/* Social platform icons in share menu */
+.share-menu a,
+.share-menu button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+}
+
+.share-menu .share-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+}
+
+.share-menu a span,
+.share-menu button span {
+    line-height: 1.35;
+}
+
+
+
+/* Use NPC-icons library assets in the share menu */
+.share-menu img.share-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+    object-fit: contain;
+}

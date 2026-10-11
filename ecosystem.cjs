@@ -56,6 +56,22 @@ const records = icons.map(icon => {
   };
 });
 
+
+// Generate a sitemap containing the homepage and every icon detail page.
+const sitemapUrls = [
+  '  <url><loc>https://icons.x0u0x.xyz/</loc></url>',
+  ...records.map(icon =>
+    `  <url><loc>https://icons.x0u0x.xyz/icons/${encodeURIComponent(icon.id)}/</loc></url>`
+  )
+];
+fs.writeFileSync(
+  path.join(publicDir, 'sitemap.xml'),
+  '<?xml version="1.0" encoding="UTF-8"?>\n' +
+  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+  sitemapUrls.join('\n') + '\n</urlset>\n',
+  'utf8'
+);
+
 // Static JSON API
 writeJson(path.join(publicDir, 'api', 'icons.json'), records);
 writeJson(path.join(publicDir, 'api', 'stats.json'), stats);

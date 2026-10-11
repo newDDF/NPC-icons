@@ -137,7 +137,7 @@ searchInput.addEventListener('input', () => { displayLimit = 30; renderGrid(); }
 sortSelect.addEventListener('change', renderGrid);
 formatSelect.addEventListener('change', () => { displayLimit = 30; renderGrid(); });
 loadMoreBtn.addEventListener('click', () => { displayLimit += 30; renderGrid(); });
-fetch('./data/icons.json')
+fetch('/api/icons.json')
     .then(response => {
         if (!response.ok) throw new Error('Failed to load icons.json');
         return response.json();
