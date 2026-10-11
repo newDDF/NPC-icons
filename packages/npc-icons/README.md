@@ -5,7 +5,7 @@ NPC-icons icon library for Node.js.
 ## Usage
 
 ```js
-import { getIcons, getIcon, searchIcons, getIconSvg, getStats } from 'npc-icons';
+import { getIcons, getIcon, searchIcons, getIconSvg, getStats } from '@newddf/npc-icons';
 const icons = getIcons();
 const svgIcons = getIcons({ format: 'svg' });
 const educationIcons = getIcons({ category: 'Education' });

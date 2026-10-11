@@ -1,5 +1,5 @@
 {
-  "name": "npc-icons",
+  "name": "@newddf/npc-icons",
   "version": "1.0.0",
   "description": "NPC-icons library with searchable SVG and PNG assets",
   "type": "module",
