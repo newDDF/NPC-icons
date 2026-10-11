@@ -2,8 +2,8 @@
   "name": "anaconda",
   "color": "#43b02a",
   "format": "svg",
-  "source": "",
-  "info": "NPC-icons library trademark design asset.",
+  "source": "https://www.anaconda.com/",
+  "info": "Anaconda provides tools and services for Python and data science, including package management, environments, and enterprise AI infrastructure used by developers, researchers, and organizations worldwide.",
   "category": [
     "Developer",
     "Open Source"

@@ -2,8 +2,8 @@
   "name": "ansible",
   "color": "#000000",
   "format": "svg",
-  "source": "",
-  "info": "NPC-icons library trademark design asset.",
+  "source": "https://www.ansible.com/",
+  "info": "Ansible is an open-source automation platform used to configure systems, deploy applications, and orchestrate IT infrastructure through readable playbooks and agentless remote management.",
   "category": [
     "Developer",
     "Open Source"

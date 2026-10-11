@@ -624,8 +624,8 @@
     "name": "7zip",
     "color": "#000000",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.7-zip.org/",
+    "info": "7-Zip is a free, open-source file archiver supporting numerous compression formats. It offers high compression ratios, strong encryption, and file-management tools for users across Windows and other supported platforms.",
     "category": [
       "Developer",
       "Open Source"
@@ -640,8 +640,8 @@
     "name": "affine",
     "color": "#000000",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://affine.pro/",
+    "info": "AFFiNE is an open-source workspace combining documents, whiteboards, and knowledge management. It helps individuals and teams organize ideas, collaborate visually, and manage projects across modern digital workflows.",
     "category": [
       "Design"
     ],
@@ -655,8 +655,8 @@
     "name": "aliexpress",
     "color": "#dc3326",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.aliexpress.com/",
+    "info": "AliExpress is a global online marketplace connecting consumers with merchants worldwide. It offers products across electronics, fashion, home goods, and many other categories, supporting cross-border e-commerce.",
     "category": [
       "E-commerce"
     ],
@@ -670,8 +670,8 @@
     "name": "amazon-prime",
     "color": "#00a8e1",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.amazon.com/prime",
+    "info": "Amazon Prime is a subscription service offering eligible members shipping benefits, streaming entertainment, exclusive deals, and additional digital services across Amazon's international retail ecosystem.",
     "category": [
       "E-commerce"
     ],
@@ -685,8 +685,8 @@
     "name": "anaconda",
     "color": "#43b02a",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.anaconda.com/",
+    "info": "Anaconda provides tools and services for Python and data science, including package management, environments, and enterprise AI infrastructure used by developers, researchers, and organizations worldwide.",
     "category": [
       "Developer",
       "Open Source"
@@ -701,8 +701,8 @@
     "name": "ansible",
     "color": "#000000",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.ansible.com/",
+    "info": "Ansible is an open-source automation platform used to configure systems, deploy applications, and orchestrate IT infrastructure through readable playbooks and agentless remote management.",
     "category": [
       "Developer",
       "Open Source"
@@ -717,7 +717,7 @@
     "name": "archivedotorg",
     "color": "#2c2c2c",
     "format": "svg",
-    "source": "",
+    "source": "https://archive.org/",
     "info": "NPC-icons library trademark design asset.",
     "category": [
       "Infrastructure"
@@ -732,7 +732,7 @@
     "name": "arm",
     "color": "#0091bd",
     "format": "svg",
-    "source": "",
+    "source": "https://www.arm.com/",
     "info": "NPC-icons library trademark design asset.",
     "category": [
       "Hardware"
@@ -4043,7 +4043,7 @@
   },
   {
     "name": "250",
-    "color": "#ff0000",
+    "color": "#000000",
     "format": "svg",
     "source": "",
     "info": "NPC-icons library trademark design asset.",
@@ -4058,7 +4058,7 @@
   },
   {
     "name": "3m",
-    "color": "#a58059",
+    "color": "#ff0000",
     "format": "svg",
     "source": "",
     "info": "NPC-icons library trademark design asset.",
@@ -4103,7 +4103,7 @@
   },
   {
     "name": "Aniplex",
-    "color": "#0d131a",
+    "color": "#ffffff",
     "format": "svg",
     "source": "",
     "info": "NPC-icons library trademark design asset.",
@@ -4314,7 +4314,7 @@
   },
   {
     "name": "dashboardicons",
-    "color": "#000000",
+    "color": "#ffffff",
     "format": "svg",
     "source": "https://dashboardicons.com/",
     "info": "NPC-icons library trademark design asset.",
@@ -4735,7 +4735,7 @@
   },
   {
     "name": "NBC",
-    "color": "#000000",
+    "color": "#ffffff",
     "format": "svg",
     "source": "",
     "info": "NPC-icons library trademark design asset.",

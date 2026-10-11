@@ -2,8 +2,8 @@
   "name": "aliexpress",
   "color": "#dc3326",
   "format": "svg",
-  "source": "",
-  "info": "NPC-icons library trademark design asset.",
+  "source": "https://www.aliexpress.com/",
+  "info": "AliExpress is a global online marketplace connecting consumers with merchants worldwide. It offers products across electronics, fashion, home goods, and many other categories, supporting cross-border e-commerce.",
   "category": [
     "E-commerce"
   ],
