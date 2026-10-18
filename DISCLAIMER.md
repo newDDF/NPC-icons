@@ -1,27 +1,46 @@
 # Disclaimer
 
-NPC-icons asks that its users read this disclaimer fully before including an icon in their project.
+Please read this disclaimer before using or redistributing any assets from NPC-icons.
 
-## Licenses, Copyrights & Trademarks
+## Licenses, Copyrights, and Trademarks
 
-> [!IMPORTANT]
-> The addition of licenses to NPC-icons is not yet an ongoing project. Additionally, the absence of license data for a particular icon does not imply that the icon is not released under a license.
+### 1. Project Independence
 
-<!-- markdownlint-disable-next-line no-blanks-blockquote -->
+NPC-icons is an independent icon repository. It is not affiliated with, endorsed by, or officially connected to Simple Icons or its maintainers.
 
-### 1. Project Reference & Affiliation
-This project is an independent, community-driven icon repository. While it structurally and conceptually references the design patterns and layout of the [Simple Icons](https://simpleicons.org) project, this repository is **NOT** affiliated with, endorsed by, or officially connected to the Simple Icons team or any of its maintainers.
+Any references to other projects are for identification and comparison purposes only.
 
-### 2. Source of Icons & Copyrights
-The brand icons and logos included in this repository are gathered and collected from various public resources across the internet. All registered trademarks, brand names, and logos remain the sole property of their respective owners. The inclusion of these logos in this repository is intended strictly for developer convenience, personal customization, and educational purposes.
+### 2. Third-Party Assets and Intellectual Property
 
-### 3. Trace/Redraw & Accuracy Warning
-Please note that certain icons in this repository have been manually traced, redrawn, or modified to fit custom design requirements (such as 24x24 single-path specifications). As a result of this manual recreation process, some icons may exhibit minor distortion, inaccuracies, or deviations from the official brand guidelines.
+This repository contains icons, logos, brand names, and other visual materials associated with third parties. These materials may be protected by copyright, trademark rights, or other applicable laws.
+
+All third-party rights remain with their respective owners. Inclusion in NPC-icons does not imply ownership, endorsement, sponsorship, or authorization by the relevant rights holders.
+
+Assets may be collected from public sources and may have been modified or recreated. The source and licensing information recorded for an asset may be incomplete, outdated, or unverified. The absence of licensing information does not mean that an asset is free to use.
+
+The MIT License covering the project's software code does not automatically grant permission to use third-party icons, logos, or trademarks. Users are responsible for reviewing and complying with the terms applicable to each asset and their intended use.
+
+### 3. Modifications and Accuracy
+
+Some icons may have been traced, redrawn, converted, or modified to meet technical or design requirements.
+
+These modifications may introduce inaccuracies or deviations from official brand guidelines. NPC-icons does not guarantee that every asset is accurate, current, or approved by its associated rights holder.
 
 ### 4. No Warranty
-The assets in this repository are provided "as is", without warranty of any kind, express or implied. The maintainers do not guarantee the absolute accuracy, up-to-date status, or legal compliance of any icon provided herein. Users assume all responsibility and legal risks when deploying these assets in production environments.
 
----
+The project and its assets are provided "as is", without warranties of any kind, to the extent permitted by applicable law.
 
-## Removal of Brands
-Should a brand wish for their icon to be removed from the package, contact the project through [GitHub](https://github.com/newDDF/) and provide your affiliation with the company and the reason for the removal request.
+No guarantee is made regarding the accuracy, completeness, availability, licensing status, or suitability of any asset for a particular purpose. Users are responsible for evaluating the assets and their use.
+
+Nothing in this disclaimer excludes or limits liability where such exclusion or limitation is prohibited by applicable law.
+
+## Requests for Asset Removal
+
+Rights holders who believe an asset should be removed may open an issue through the [NPC-icons GitHub repository](https://github.com/newDDF/NPC-icons).
+
+Please identify the relevant asset and provide sufficient information about the rights involved so that the request can be reviewed.
+
+## Contact and Project Links
+
+- Website: https://icons.x0u0x.xyz/
+- GitHub: https://github.com/newDDF/NPC-icons
