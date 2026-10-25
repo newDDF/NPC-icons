@@ -10,7 +10,8 @@
     "build": "node build.cjs && node ecosystem.cjs && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "predev": "node build.cjs && node ecosystem.cjs"
+    "predev": "node build.cjs && node ecosystem.cjs",
+    "build:smoke": "node tests/smoke/build.cjs"
   },
   "dependencies": {
     "astro": "^7.3.6"
