@@ -10,10 +10,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/amd.svg",
-    "id": "amd-svg",
+    "id": "000001",
+    "status": "active",
+    "legacyId": "amd-svg",
+    "legacyIds": [
+      "amd-svg"
+    ],
     "filename": "amd.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/amd.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/amd-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000001.json",
+    "legacyApiUrl": "/api/icons/amd-svg.json"
   },
   {
     "name": "apple",
@@ -26,10 +32,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/apple.svg",
-    "id": "apple-svg",
+    "id": "000002",
+    "status": "active",
+    "legacyId": "apple-svg",
+    "legacyIds": [
+      "apple-svg"
+    ],
     "filename": "apple.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/apple.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/apple-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000002.json",
+    "legacyApiUrl": "/api/icons/apple-svg.json"
   },
   {
     "name": "android",
@@ -41,10 +53,16 @@
       "Operating Systems"
     ],
     "path": "./assets/svg/android.svg",
-    "id": "android-svg",
+    "id": "000003",
+    "status": "active",
+    "legacyId": "android-svg",
+    "legacyIds": [
+      "android-svg"
+    ],
     "filename": "android.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/android.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/android-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000003.json",
+    "legacyApiUrl": "/api/icons/android-svg.json"
   },
   {
     "name": "archlinux",
@@ -57,10 +75,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/archlinux.svg",
-    "id": "archlinux-svg",
+    "id": "000004",
+    "status": "active",
+    "legacyId": "archlinux-svg",
+    "legacyIds": [
+      "archlinux-svg"
+    ],
     "filename": "archlinux.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/archlinux.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/archlinux-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000004.json",
+    "legacyApiUrl": "/api/icons/archlinux-svg.json"
   },
   {
     "name": "my_logo",
@@ -72,10 +96,16 @@
       "Other"
     ],
     "path": "./assets/svg/my_logo.svg",
-    "id": "my-logo-svg",
+    "id": "000005",
+    "status": "active",
+    "legacyId": "my-logo-svg",
+    "legacyIds": [
+      "my-logo-svg"
+    ],
     "filename": "my_logo.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/my_logo.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/my-logo-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000005.json",
+    "legacyApiUrl": "/api/icons/my-logo-svg.json"
   },
   {
     "name": "github",
@@ -88,10 +118,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/github.svg",
-    "id": "github-svg",
+    "id": "000006",
+    "status": "active",
+    "legacyId": "github-svg",
+    "legacyIds": [
+      "github-svg"
+    ],
     "filename": "github.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/github.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/github-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000006.json",
+    "legacyApiUrl": "/api/icons/github-svg.json"
   },
   {
     "name": "git",
@@ -104,10 +140,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/git.svg",
-    "id": "git-svg",
+    "id": "000007",
+    "status": "active",
+    "legacyId": "git-svg",
+    "legacyIds": [
+      "git-svg"
+    ],
     "filename": "git.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/git.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/git-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000007.json",
+    "legacyApiUrl": "/api/icons/git-svg.json"
   },
   {
     "name": "DAYUAN",
@@ -119,10 +161,16 @@
       "Education"
     ],
     "path": "./assets/png/DAYUAN.png",
-    "id": "dayuan-png",
+    "id": "000008",
+    "status": "active",
+    "legacyId": "dayuan-png",
+    "legacyIds": [
+      "dayuan-png"
+    ],
     "filename": "DAYUAN.png",
     "url": "https://icons.x0u0x.xyz/assets/png/DAYUAN.png",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dayuan-png.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000008.json",
+    "legacyApiUrl": "/api/icons/dayuan-png.json"
   },
   {
     "name": "DONGFANGCOLLEGE",
@@ -134,10 +182,16 @@
       "Education"
     ],
     "path": "./assets/png/DONGFANGCOLLEGE.png",
-    "id": "dongfangcollege-png",
+    "id": "000009",
+    "status": "active",
+    "legacyId": "dongfangcollege-png",
+    "legacyIds": [
+      "dongfangcollege-png"
+    ],
     "filename": "DONGFANGCOLLEGE.png",
     "url": "https://icons.x0u0x.xyz/assets/png/DONGFANGCOLLEGE.png",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dongfangcollege-png.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000009.json",
+    "legacyApiUrl": "/api/icons/dongfangcollege-png.json"
   },
   {
     "name": "HAININGRUBLICBYCYCLE",
@@ -149,10 +203,16 @@
       "Education"
     ],
     "path": "./assets/png/HAININGRUBLICBYCYCLE.png",
-    "id": "hainingrublicbycycle-png",
+    "id": "000010",
+    "status": "active",
+    "legacyId": "hainingrublicbycycle-png",
+    "legacyIds": [
+      "hainingrublicbycycle-png"
+    ],
     "filename": "HAININGRUBLICBYCYCLE.png",
     "url": "https://icons.x0u0x.xyz/assets/png/HAININGRUBLICBYCYCLE.png",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hainingrublicbycycle-png.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000010.json",
+    "legacyApiUrl": "/api/icons/hainingrublicbycycle-png.json"
   },
   {
     "name": "Hanghai-IR",
@@ -164,10 +224,16 @@
       "Education"
     ],
     "path": "./assets/png/Hanghai-IR.png",
-    "id": "hanghai-ir-png",
+    "id": "000011",
+    "status": "active",
+    "legacyId": "hanghai-ir-png",
+    "legacyIds": [
+      "hanghai-ir-png"
+    ],
     "filename": "Hanghai-IR.png",
     "url": "https://icons.x0u0x.xyz/assets/png/Hanghai-IR.png",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hanghai-ir-png.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000011.json",
+    "legacyApiUrl": "/api/icons/hanghai-ir-png.json"
   },
   {
     "name": "JIDIANCOLLEGE",
@@ -179,10 +245,16 @@
       "Education"
     ],
     "path": "./assets/png/JIDIANCOLLEGE.png",
-    "id": "jidiancollege-png",
+    "id": "000012",
+    "status": "active",
+    "legacyId": "jidiancollege-png",
+    "legacyIds": [
+      "jidiancollege-png"
+    ],
     "filename": "JIDIANCOLLEGE.png",
     "url": "https://icons.x0u0x.xyz/assets/png/JIDIANCOLLEGE.png",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/jidiancollege-png.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000012.json",
+    "legacyApiUrl": "/api/icons/jidiancollege-png.json"
   },
   {
     "name": "DONGFANGCOLLEGE",
@@ -194,10 +266,16 @@
       "Education"
     ],
     "path": "./assets/svg/DONGFANGCOLLEGE.svg",
-    "id": "dongfangcollege-svg",
+    "id": "000013",
+    "status": "active",
+    "legacyId": "dongfangcollege-svg",
+    "legacyIds": [
+      "dongfangcollege-svg"
+    ],
     "filename": "DONGFANGCOLLEGE.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/DONGFANGCOLLEGE.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dongfangcollege-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000013.json",
+    "legacyApiUrl": "/api/icons/dongfangcollege-svg.json"
   },
   {
     "name": "HAININGRUBLICBYCYCLE",
@@ -209,10 +287,16 @@
       "Education"
     ],
     "path": "./assets/svg/HAININGRUBLICBYCYCLE.svg",
-    "id": "hainingrublicbycycle-svg",
+    "id": "000014",
+    "status": "active",
+    "legacyId": "hainingrublicbycycle-svg",
+    "legacyIds": [
+      "hainingrublicbycycle-svg"
+    ],
     "filename": "HAININGRUBLICBYCYCLE.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/HAININGRUBLICBYCYCLE.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hainingrublicbycycle-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000014.json",
+    "legacyApiUrl": "/api/icons/hainingrublicbycycle-svg.json"
   },
   {
     "name": "Hanghai-IR",
@@ -224,10 +308,16 @@
       "Education"
     ],
     "path": "./assets/svg/Hanghai-IR.svg",
-    "id": "hanghai-ir-svg",
+    "id": "000015",
+    "status": "active",
+    "legacyId": "hanghai-ir-svg",
+    "legacyIds": [
+      "hanghai-ir-svg"
+    ],
     "filename": "Hanghai-IR.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Hanghai-IR.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hanghai-ir-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000015.json",
+    "legacyApiUrl": "/api/icons/hanghai-ir-svg.json"
   },
   {
     "name": "JIDIANCOLLEGE",
@@ -239,10 +329,16 @@
       "Education"
     ],
     "path": "./assets/svg/JIDIANCOLLEGE.svg",
-    "id": "jidiancollege-svg",
+    "id": "000016",
+    "status": "active",
+    "legacyId": "jidiancollege-svg",
+    "legacyIds": [
+      "jidiancollege-svg"
+    ],
     "filename": "JIDIANCOLLEGE.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/JIDIANCOLLEGE.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/jidiancollege-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000016.json",
+    "legacyApiUrl": "/api/icons/jidiancollege-svg.json"
   },
   {
     "name": "line",
@@ -254,10 +350,16 @@
       "Communication"
     ],
     "path": "./assets/svg/line.svg",
-    "id": "line-svg",
+    "id": "000017",
+    "status": "active",
+    "legacyId": "line-svg",
+    "legacyIds": [
+      "line-svg"
+    ],
     "filename": "line.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/line.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/line-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000017.json",
+    "legacyApiUrl": "/api/icons/line-svg.json"
   },
   {
     "name": "spotify",
@@ -269,10 +371,16 @@
       "Media"
     ],
     "path": "./assets/svg/spotify.svg",
-    "id": "spotify-svg",
+    "id": "000018",
+    "status": "active",
+    "legacyId": "spotify-svg",
+    "legacyIds": [
+      "spotify-svg"
+    ],
     "filename": "spotify.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/spotify.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/spotify-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000018.json",
+    "legacyApiUrl": "/api/icons/spotify-svg.json"
   },
   {
     "name": "pinterest",
@@ -284,10 +392,16 @@
       "Social"
     ],
     "path": "./assets/svg/pinterest.svg",
-    "id": "pinterest-svg",
+    "id": "000019",
+    "status": "active",
+    "legacyId": "pinterest-svg",
+    "legacyIds": [
+      "pinterest-svg"
+    ],
     "filename": "pinterest.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/pinterest.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/pinterest-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000019.json",
+    "legacyApiUrl": "/api/icons/pinterest-svg.json"
   },
   {
     "name": "whatsapp",
@@ -299,10 +413,16 @@
       "Communication"
     ],
     "path": "./assets/svg/whatsapp.svg",
-    "id": "whatsapp-svg",
+    "id": "000020",
+    "status": "active",
+    "legacyId": "whatsapp-svg",
+    "legacyIds": [
+      "whatsapp-svg"
+    ],
     "filename": "whatsapp.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/whatsapp.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/whatsapp-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000020.json",
+    "legacyApiUrl": "/api/icons/whatsapp-svg.json"
   },
   {
     "name": "telegram",
@@ -314,10 +434,16 @@
       "Communication"
     ],
     "path": "./assets/svg/telegram.svg",
-    "id": "telegram-svg",
+    "id": "000021",
+    "status": "active",
+    "legacyId": "telegram-svg",
+    "legacyIds": [
+      "telegram-svg"
+    ],
     "filename": "telegram.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/telegram.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/telegram-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000021.json",
+    "legacyApiUrl": "/api/icons/telegram-svg.json"
   },
   {
     "name": "instagram",
@@ -329,10 +455,16 @@
       "Social"
     ],
     "path": "./assets/svg/instagram.svg",
-    "id": "instagram-svg",
+    "id": "000022",
+    "status": "active",
+    "legacyId": "instagram-svg",
+    "legacyIds": [
+      "instagram-svg"
+    ],
     "filename": "instagram.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/instagram.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/instagram-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000022.json",
+    "legacyApiUrl": "/api/icons/instagram-svg.json"
   },
   {
     "name": "bitcoin",
@@ -344,10 +476,16 @@
       "Finance"
     ],
     "path": "./assets/svg/bitcoin.svg",
-    "id": "bitcoin-svg",
+    "id": "000023",
+    "status": "active",
+    "legacyId": "bitcoin-svg",
+    "legacyIds": [
+      "bitcoin-svg"
+    ],
     "filename": "bitcoin.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/bitcoin.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/bitcoin-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000023.json",
+    "legacyApiUrl": "/api/icons/bitcoin-svg.json"
   },
   {
     "name": "visa",
@@ -359,10 +497,16 @@
       "Finance"
     ],
     "path": "./assets/svg/visa.svg",
-    "id": "visa-svg",
+    "id": "000024",
+    "status": "active",
+    "legacyId": "visa-svg",
+    "legacyIds": [
+      "visa-svg"
+    ],
     "filename": "visa.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/visa.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/visa-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000024.json",
+    "legacyApiUrl": "/api/icons/visa-svg.json"
   },
   {
     "name": "mastercard",
@@ -374,10 +518,16 @@
       "Finance"
     ],
     "path": "./assets/svg/mastercard.svg",
-    "id": "mastercard-svg",
+    "id": "000025",
+    "status": "active",
+    "legacyId": "mastercard-svg",
+    "legacyIds": [
+      "mastercard-svg"
+    ],
     "filename": "mastercard.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mastercard.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mastercard-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000025.json",
+    "legacyApiUrl": "/api/icons/mastercard-svg.json"
   },
   {
     "name": "paypal",
@@ -389,10 +539,16 @@
       "Finance"
     ],
     "path": "./assets/svg/paypal.svg",
-    "id": "paypal-svg",
+    "id": "000026",
+    "status": "active",
+    "legacyId": "paypal-svg",
+    "legacyIds": [
+      "paypal-svg"
+    ],
     "filename": "paypal.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/paypal.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/paypal-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000026.json",
+    "legacyApiUrl": "/api/icons/paypal-svg.json"
   },
   {
     "name": "soundcloud",
@@ -404,10 +560,16 @@
       "Media"
     ],
     "path": "./assets/svg/soundcloud.svg",
-    "id": "soundcloud-svg",
+    "id": "000027",
+    "status": "active",
+    "legacyId": "soundcloud-svg",
+    "legacyIds": [
+      "soundcloud-svg"
+    ],
     "filename": "soundcloud.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/soundcloud.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/soundcloud-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000027.json",
+    "legacyApiUrl": "/api/icons/soundcloud-svg.json"
   },
   {
     "name": "cloudflare",
@@ -419,10 +581,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/cloudflare.svg",
-    "id": "cloudflare-svg",
+    "id": "000028",
+    "status": "active",
+    "legacyId": "cloudflare-svg",
+    "legacyIds": [
+      "cloudflare-svg"
+    ],
     "filename": "cloudflare.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/cloudflare.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/cloudflare-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000028.json",
+    "legacyApiUrl": "/api/icons/cloudflare-svg.json"
   },
   {
     "name": "reddit",
@@ -434,10 +602,16 @@
       "Social"
     ],
     "path": "./assets/svg/reddit.svg",
-    "id": "reddit-svg",
+    "id": "000029",
+    "status": "active",
+    "legacyId": "reddit-svg",
+    "legacyIds": [
+      "reddit-svg"
+    ],
     "filename": "reddit.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/reddit.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/reddit-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000029.json",
+    "legacyApiUrl": "/api/icons/reddit-svg.json"
   },
   {
     "name": "capsule",
@@ -449,10 +623,16 @@
       "Other"
     ],
     "path": "./assets/svg/capsule.svg",
-    "id": "capsule-svg",
+    "id": "000030",
+    "status": "active",
+    "legacyId": "capsule-svg",
+    "legacyIds": [
+      "capsule-svg"
+    ],
     "filename": "capsule.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/capsule.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/capsule-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000030.json",
+    "legacyApiUrl": "/api/icons/capsule-svg.json"
   },
   {
     "name": "tomianime",
@@ -464,10 +644,16 @@
       "Media"
     ],
     "path": "./assets/svg/tomianime.svg",
-    "id": "tomianime-svg",
+    "id": "000031",
+    "status": "active",
+    "legacyId": "tomianime-svg",
+    "legacyIds": [
+      "tomianime-svg"
+    ],
     "filename": "tomianime.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/tomianime.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/tomianime-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000031.json",
+    "legacyApiUrl": "/api/icons/tomianime-svg.json"
   },
   {
     "name": "reddoribon",
@@ -479,10 +665,16 @@
       "Media"
     ],
     "path": "./assets/svg/reddoribon.svg",
-    "id": "reddoribon-svg",
+    "id": "000032",
+    "status": "active",
+    "legacyId": "reddoribon-svg",
+    "legacyIds": [
+      "reddoribon-svg"
+    ],
     "filename": "reddoribon.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/reddoribon.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/reddoribon-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000032.json",
+    "legacyApiUrl": "/api/icons/reddoribon-svg.json"
   },
   {
     "name": "hainingzhongxue",
@@ -494,10 +686,16 @@
       "Education"
     ],
     "path": "./assets/svg/hainingzhongxue.svg",
-    "id": "hainingzhongxue-svg",
+    "id": "000033",
+    "status": "active",
+    "legacyId": "hainingzhongxue-svg",
+    "legacyIds": [
+      "hainingzhongxue-svg"
+    ],
     "filename": "hainingzhongxue.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/hainingzhongxue.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hainingzhongxue-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000033.json",
+    "legacyApiUrl": "/api/icons/hainingzhongxue-svg.json"
   },
   {
     "name": "oracle",
@@ -509,10 +707,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/oracle.svg",
-    "id": "oracle-svg",
+    "id": "000034",
+    "status": "active",
+    "legacyId": "oracle-svg",
+    "legacyIds": [
+      "oracle-svg"
+    ],
     "filename": "oracle.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/oracle.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/oracle-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000034.json",
+    "legacyApiUrl": "/api/icons/oracle-svg.json"
   },
   {
     "name": "amazon",
@@ -525,10 +729,16 @@
       "E-commerce"
     ],
     "path": "./assets/svg/amazon.svg",
-    "id": "amazon-svg",
+    "id": "000035",
+    "status": "active",
+    "legacyId": "amazon-svg",
+    "legacyIds": [
+      "amazon-svg"
+    ],
     "filename": "amazon.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/amazon.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/amazon-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000035.json",
+    "legacyApiUrl": "/api/icons/amazon-svg.json"
   },
   {
     "name": "synology",
@@ -540,10 +750,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/synology.svg",
-    "id": "synology-svg",
+    "id": "000036",
+    "status": "active",
+    "legacyId": "synology-svg",
+    "legacyIds": [
+      "synology-svg"
+    ],
     "filename": "synology.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/synology.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/synology-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000036.json",
+    "legacyApiUrl": "/api/icons/synology-svg.json"
   },
   {
     "name": "duolingo",
@@ -555,10 +771,16 @@
       "Education"
     ],
     "path": "./assets/svg/duolingo.svg",
-    "id": "duolingo-svg",
+    "id": "000037",
+    "status": "active",
+    "legacyId": "duolingo-svg",
+    "legacyIds": [
+      "duolingo-svg"
+    ],
     "filename": "duolingo.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/duolingo.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/duolingo-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000037.json",
+    "legacyApiUrl": "/api/icons/duolingo-svg.json"
   },
   {
     "name": "wise",
@@ -570,10 +792,16 @@
       "Finance"
     ],
     "path": "./assets/svg/wise.svg",
-    "id": "wise-svg",
+    "id": "000038",
+    "status": "active",
+    "legacyId": "wise-svg",
+    "legacyIds": [
+      "wise-svg"
+    ],
     "filename": "wise.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/wise.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/wise-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000038.json",
+    "legacyApiUrl": "/api/icons/wise-svg.json"
   },
   {
     "name": "netbird",
@@ -585,10 +813,16 @@
       "Networking"
     ],
     "path": "./assets/svg/netbird.svg",
-    "id": "netbird-svg",
+    "id": "000039",
+    "status": "active",
+    "legacyId": "netbird-svg",
+    "legacyIds": [
+      "netbird-svg"
+    ],
     "filename": "netbird.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/netbird.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/netbird-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000039.json",
+    "legacyApiUrl": "/api/icons/netbird-svg.json"
   },
   {
     "name": "dedirock",
@@ -600,10 +834,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/dedirock.svg",
-    "id": "dedirock-svg",
+    "id": "000040",
+    "status": "active",
+    "legacyId": "dedirock-svg",
+    "legacyIds": [
+      "dedirock-svg"
+    ],
     "filename": "dedirock.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/dedirock.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dedirock-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000040.json",
+    "legacyApiUrl": "/api/icons/dedirock-svg.json"
   },
   {
     "name": "racknerd",
@@ -615,10 +855,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/racknerd.svg",
-    "id": "racknerd-svg",
+    "id": "000041",
+    "status": "active",
+    "legacyId": "racknerd-svg",
+    "legacyIds": [
+      "racknerd-svg"
+    ],
     "filename": "racknerd.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/racknerd.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/racknerd-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000041.json",
+    "legacyApiUrl": "/api/icons/racknerd-svg.json"
   },
   {
     "name": "7zip",
@@ -631,10 +877,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/7zip.svg",
-    "id": "7zip-svg",
+    "id": "000042",
+    "status": "active",
+    "legacyId": "7zip-svg",
+    "legacyIds": [
+      "7zip-svg"
+    ],
     "filename": "7zip.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/7zip.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/7zip-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000042.json",
+    "legacyApiUrl": "/api/icons/7zip-svg.json"
   },
   {
     "name": "affine",
@@ -646,10 +898,16 @@
       "Design"
     ],
     "path": "./assets/svg/affine.svg",
-    "id": "affine-svg",
+    "id": "000043",
+    "status": "active",
+    "legacyId": "affine-svg",
+    "legacyIds": [
+      "affine-svg"
+    ],
     "filename": "affine.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/affine.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/affine-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000043.json",
+    "legacyApiUrl": "/api/icons/affine-svg.json"
   },
   {
     "name": "aliexpress",
@@ -661,10 +919,16 @@
       "E-commerce"
     ],
     "path": "./assets/svg/aliexpress.svg",
-    "id": "aliexpress-svg",
+    "id": "000044",
+    "status": "active",
+    "legacyId": "aliexpress-svg",
+    "legacyIds": [
+      "aliexpress-svg"
+    ],
     "filename": "aliexpress.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/aliexpress.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/aliexpress-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000044.json",
+    "legacyApiUrl": "/api/icons/aliexpress-svg.json"
   },
   {
     "name": "amazon-prime",
@@ -676,10 +940,16 @@
       "E-commerce"
     ],
     "path": "./assets/svg/amazon-prime.svg",
-    "id": "amazon-prime-svg",
+    "id": "000045",
+    "status": "active",
+    "legacyId": "amazon-prime-svg",
+    "legacyIds": [
+      "amazon-prime-svg"
+    ],
     "filename": "amazon-prime.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/amazon-prime.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/amazon-prime-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000045.json",
+    "legacyApiUrl": "/api/icons/amazon-prime-svg.json"
   },
   {
     "name": "anaconda",
@@ -692,10 +962,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/anaconda.svg",
-    "id": "anaconda-svg",
+    "id": "000046",
+    "status": "active",
+    "legacyId": "anaconda-svg",
+    "legacyIds": [
+      "anaconda-svg"
+    ],
     "filename": "anaconda.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/anaconda.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/anaconda-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000046.json",
+    "legacyApiUrl": "/api/icons/anaconda-svg.json"
   },
   {
     "name": "ansible",
@@ -708,10 +984,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/ansible.svg",
-    "id": "ansible-svg",
+    "id": "000047",
+    "status": "active",
+    "legacyId": "ansible-svg",
+    "legacyIds": [
+      "ansible-svg"
+    ],
     "filename": "ansible.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/ansible.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/ansible-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000047.json",
+    "legacyApiUrl": "/api/icons/ansible-svg.json"
   },
   {
     "name": "archivedotorg",
@@ -723,10 +1005,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/archivedotorg.svg",
-    "id": "archivedotorg-svg",
+    "id": "000048",
+    "status": "active",
+    "legacyId": "archivedotorg-svg",
+    "legacyIds": [
+      "archivedotorg-svg"
+    ],
     "filename": "archivedotorg.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/archivedotorg.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/archivedotorg-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000048.json",
+    "legacyApiUrl": "/api/icons/archivedotorg-svg.json"
   },
   {
     "name": "arm",
@@ -738,10 +1026,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/arm.svg",
-    "id": "arm-svg",
+    "id": "000049",
+    "status": "active",
+    "legacyId": "arm-svg",
+    "legacyIds": [
+      "arm-svg"
+    ],
     "filename": "arm.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/arm.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/arm-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000049.json",
+    "legacyApiUrl": "/api/icons/arm-svg.json"
   },
   {
     "name": "aruba",
@@ -753,10 +1047,16 @@
       "Networking"
     ],
     "path": "./assets/svg/aruba.svg",
-    "id": "aruba-svg",
+    "id": "000050",
+    "status": "active",
+    "legacyId": "aruba-svg",
+    "legacyIds": [
+      "aruba-svg"
+    ],
     "filename": "aruba.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/aruba.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/aruba-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000050.json",
+    "legacyApiUrl": "/api/icons/aruba-svg.json"
   },
   {
     "name": "astro",
@@ -769,10 +1069,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/astro.svg",
-    "id": "astro-svg",
+    "id": "000051",
+    "status": "active",
+    "legacyId": "astro-svg",
+    "legacyIds": [
+      "astro-svg"
+    ],
     "filename": "astro.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/astro.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/astro-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000051.json",
+    "legacyApiUrl": "/api/icons/astro-svg.json"
   },
   {
     "name": "at-t",
@@ -784,10 +1090,16 @@
       "Communication"
     ],
     "path": "./assets/svg/at-t.svg",
-    "id": "at-t-svg",
+    "id": "000052",
+    "status": "active",
+    "legacyId": "at-t-svg",
+    "legacyIds": [
+      "at-t-svg"
+    ],
     "filename": "at-t.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/at-t.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/at-t-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000052.json",
+    "legacyApiUrl": "/api/icons/at-t-svg.json"
   },
   {
     "name": "behance",
@@ -799,10 +1111,16 @@
       "Social"
     ],
     "path": "./assets/svg/behance.svg",
-    "id": "behance-svg",
+    "id": "000053",
+    "status": "active",
+    "legacyId": "behance-svg",
+    "legacyIds": [
+      "behance-svg"
+    ],
     "filename": "behance.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/behance.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/behance-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000053.json",
+    "legacyApiUrl": "/api/icons/behance-svg.json"
   },
   {
     "name": "bitwarden",
@@ -814,10 +1132,16 @@
       "Security"
     ],
     "path": "./assets/svg/bitwarden.svg",
-    "id": "bitwarden-svg",
+    "id": "000054",
+    "status": "active",
+    "legacyId": "bitwarden-svg",
+    "legacyIds": [
+      "bitwarden-svg"
+    ],
     "filename": "bitwarden.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/bitwarden.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/bitwarden-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000054.json",
+    "legacyApiUrl": "/api/icons/bitwarden-svg.json"
   },
   {
     "name": "blender",
@@ -829,10 +1153,16 @@
       "Design"
     ],
     "path": "./assets/svg/blender.svg",
-    "id": "blender-svg",
+    "id": "000055",
+    "status": "active",
+    "legacyId": "blender-svg",
+    "legacyIds": [
+      "blender-svg"
+    ],
     "filename": "blender.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/blender.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/blender-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000055.json",
+    "legacyApiUrl": "/api/icons/blender-svg.json"
   },
   {
     "name": "blogger",
@@ -844,10 +1174,16 @@
       "Social"
     ],
     "path": "./assets/svg/blogger.svg",
-    "id": "blogger-svg",
+    "id": "000056",
+    "status": "active",
+    "legacyId": "blogger-svg",
+    "legacyIds": [
+      "blogger-svg"
+    ],
     "filename": "blogger.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/blogger.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/blogger-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000056.json",
+    "legacyApiUrl": "/api/icons/blogger-svg.json"
   },
   {
     "name": "blu-ray-3d",
@@ -859,10 +1195,16 @@
       "Media"
     ],
     "path": "./assets/svg/blu-ray-3d.svg",
-    "id": "blu-ray-3d-svg",
+    "id": "000057",
+    "status": "active",
+    "legacyId": "blu-ray-3d-svg",
+    "legacyIds": [
+      "blu-ray-3d-svg"
+    ],
     "filename": "blu-ray-3d.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/blu-ray-3d.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/blu-ray-3d-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000057.json",
+    "legacyApiUrl": "/api/icons/blu-ray-3d-svg.json"
   },
   {
     "name": "bluesky",
@@ -874,10 +1216,16 @@
       "Social"
     ],
     "path": "./assets/svg/bluesky.svg",
-    "id": "bluesky-svg",
+    "id": "000058",
+    "status": "active",
+    "legacyId": "bluesky-svg",
+    "legacyIds": [
+      "bluesky-svg"
+    ],
     "filename": "bluesky.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/bluesky.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/bluesky-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000058.json",
+    "legacyApiUrl": "/api/icons/bluesky-svg.json"
   },
   {
     "name": "bluetooth",
@@ -889,10 +1237,16 @@
       "Networking"
     ],
     "path": "./assets/svg/bluetooth.svg",
-    "id": "bluetooth-svg",
+    "id": "000059",
+    "status": "active",
+    "legacyId": "bluetooth-svg",
+    "legacyIds": [
+      "bluetooth-svg"
+    ],
     "filename": "bluetooth.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/bluetooth.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/bluetooth-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000059.json",
+    "legacyApiUrl": "/api/icons/bluetooth-svg.json"
   },
   {
     "name": "bootstrap",
@@ -905,10 +1259,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/bootstrap.svg",
-    "id": "bootstrap-svg",
+    "id": "000060",
+    "status": "active",
+    "legacyId": "bootstrap-svg",
+    "legacyIds": [
+      "bootstrap-svg"
+    ],
     "filename": "bootstrap.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/bootstrap.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/bootstrap-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000060.json",
+    "legacyApiUrl": "/api/icons/bootstrap-svg.json"
   },
   {
     "name": "brave",
@@ -920,10 +1280,16 @@
       "Networking"
     ],
     "path": "./assets/svg/brave.svg",
-    "id": "brave-svg",
+    "id": "000061",
+    "status": "active",
+    "legacyId": "brave-svg",
+    "legacyIds": [
+      "brave-svg"
+    ],
     "filename": "brave.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/brave.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/brave-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000061.json",
+    "legacyApiUrl": "/api/icons/brave-svg.json"
   },
   {
     "name": "bright-move",
@@ -935,10 +1301,16 @@
       "Media"
     ],
     "path": "./assets/svg/bright-move.svg",
-    "id": "bright-move-svg",
+    "id": "000062",
+    "status": "active",
+    "legacyId": "bright-move-svg",
+    "legacyIds": [
+      "bright-move-svg"
+    ],
     "filename": "bright-move.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/bright-move.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/bright-move-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000062.json",
+    "legacyApiUrl": "/api/icons/bright-move-svg.json"
   },
   {
     "name": "broadcastchannel",
@@ -950,10 +1322,16 @@
       "Media"
     ],
     "path": "./assets/svg/broadcastchannel.svg",
-    "id": "broadcastchannel-svg",
+    "id": "000063",
+    "status": "active",
+    "legacyId": "broadcastchannel-svg",
+    "legacyIds": [
+      "broadcastchannel-svg"
+    ],
     "filename": "broadcastchannel.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/broadcastchannel.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/broadcastchannel-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000063.json",
+    "legacyApiUrl": "/api/icons/broadcastchannel-svg.json"
   },
   {
     "name": "broadcom",
@@ -965,10 +1343,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/broadcom.svg",
-    "id": "broadcom-svg",
+    "id": "000064",
+    "status": "active",
+    "legacyId": "broadcom-svg",
+    "legacyIds": [
+      "broadcom-svg"
+    ],
     "filename": "broadcom.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/broadcom.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/broadcom-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000064.json",
+    "legacyApiUrl": "/api/icons/broadcom-svg.json"
   },
   {
     "name": "brother",
@@ -980,10 +1364,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/brother.svg",
-    "id": "brother-svg",
+    "id": "000065",
+    "status": "active",
+    "legacyId": "brother-svg",
+    "legacyIds": [
+      "brother-svg"
+    ],
     "filename": "brother.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/brother.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/brother-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000065.json",
+    "legacyApiUrl": "/api/icons/brother-svg.json"
   },
   {
     "name": "carrefour",
@@ -995,10 +1385,16 @@
       "E-commerce"
     ],
     "path": "./assets/svg/carrefour.svg",
-    "id": "carrefour-svg",
+    "id": "000066",
+    "status": "active",
+    "legacyId": "carrefour-svg",
+    "legacyIds": [
+      "carrefour-svg"
+    ],
     "filename": "carrefour.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/carrefour.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/carrefour-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000066.json",
+    "legacyApiUrl": "/api/icons/carrefour-svg.json"
   },
   {
     "name": "cc",
@@ -1010,10 +1406,16 @@
       "Technology"
     ],
     "path": "./assets/svg/cc.svg",
-    "id": "cc-svg",
+    "id": "000067",
+    "status": "active",
+    "legacyId": "cc-svg",
+    "legacyIds": [
+      "cc-svg"
+    ],
     "filename": "cc.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/cc.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/cc-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000067.json",
+    "legacyApiUrl": "/api/icons/cc-svg.json"
   },
   {
     "name": "cd",
@@ -1025,10 +1427,16 @@
       "Media"
     ],
     "path": "./assets/svg/cd.svg",
-    "id": "cd-svg",
+    "id": "000068",
+    "status": "active",
+    "legacyId": "cd-svg",
+    "legacyIds": [
+      "cd-svg"
+    ],
     "filename": "cd.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/cd.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/cd-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000068.json",
+    "legacyApiUrl": "/api/icons/cd-svg.json"
   },
   {
     "name": "cloudbeaver",
@@ -1040,10 +1448,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/cloudbeaver.svg",
-    "id": "cloudbeaver-svg",
+    "id": "000069",
+    "status": "active",
+    "legacyId": "cloudbeaver-svg",
+    "legacyIds": [
+      "cloudbeaver-svg"
+    ],
     "filename": "cloudbeaver.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/cloudbeaver.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/cloudbeaver-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000069.json",
+    "legacyApiUrl": "/api/icons/cloudbeaver-svg.json"
   },
   {
     "name": "cockpit",
@@ -1055,10 +1469,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/cockpit.svg",
-    "id": "cockpit-svg",
+    "id": "000070",
+    "status": "active",
+    "legacyId": "cockpit-svg",
+    "legacyIds": [
+      "cockpit-svg"
+    ],
     "filename": "cockpit.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/cockpit.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/cockpit-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000070.json",
+    "legacyApiUrl": "/api/icons/cockpit-svg.json"
   },
   {
     "name": "convertio-dark",
@@ -1070,10 +1490,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/convertio-dark.svg",
-    "id": "convertio-dark-svg",
+    "id": "000071",
+    "status": "active",
+    "legacyId": "convertio-dark-svg",
+    "legacyIds": [
+      "convertio-dark-svg"
+    ],
     "filename": "convertio-dark.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/convertio-dark.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/convertio-dark-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000071.json",
+    "legacyApiUrl": "/api/icons/convertio-dark-svg.json"
   },
   {
     "name": "couchdb",
@@ -1085,10 +1511,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/couchdb.svg",
-    "id": "couchdb-svg",
+    "id": "000072",
+    "status": "active",
+    "legacyId": "couchdb-svg",
+    "legacyIds": [
+      "couchdb-svg"
+    ],
     "filename": "couchdb.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/couchdb.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/couchdb-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000072.json",
+    "legacyApiUrl": "/api/icons/couchdb-svg.json"
   },
   {
     "name": "cpanel",
@@ -1100,10 +1532,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/cpanel.svg",
-    "id": "cpanel-svg",
+    "id": "000073",
+    "status": "active",
+    "legacyId": "cpanel-svg",
+    "legacyIds": [
+      "cpanel-svg"
+    ],
     "filename": "cpanel.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/cpanel.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/cpanel-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000073.json",
+    "legacyApiUrl": "/api/icons/cpanel-svg.json"
   },
   {
     "name": "crunchyroll",
@@ -1115,10 +1553,16 @@
       "Media"
     ],
     "path": "./assets/svg/crunchyroll.svg",
-    "id": "crunchyroll-svg",
+    "id": "000074",
+    "status": "active",
+    "legacyId": "crunchyroll-svg",
+    "legacyIds": [
+      "crunchyroll-svg"
+    ],
     "filename": "crunchyroll.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/crunchyroll.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/crunchyroll-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000074.json",
+    "legacyApiUrl": "/api/icons/crunchyroll-svg.json"
   },
   {
     "name": "discord",
@@ -1130,10 +1574,16 @@
       "Communication"
     ],
     "path": "./assets/svg/discord.svg",
-    "id": "discord-svg",
+    "id": "000075",
+    "status": "active",
+    "legacyId": "discord-svg",
+    "legacyIds": [
+      "discord-svg"
+    ],
     "filename": "discord.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/discord.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/discord-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000075.json",
+    "legacyApiUrl": "/api/icons/discord-svg.json"
   },
   {
     "name": "dlna",
@@ -1145,10 +1595,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/dlna.svg",
-    "id": "dlna-svg",
+    "id": "000076",
+    "status": "active",
+    "legacyId": "dlna-svg",
+    "legacyIds": [
+      "dlna-svg"
+    ],
     "filename": "dlna.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/dlna.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dlna-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000076.json",
+    "legacyApiUrl": "/api/icons/dlna-svg.json"
   },
   {
     "name": "docker",
@@ -1161,10 +1617,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/docker.svg",
-    "id": "docker-svg",
+    "id": "000077",
+    "status": "active",
+    "legacyId": "docker-svg",
+    "legacyIds": [
+      "docker-svg"
+    ],
     "filename": "docker.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/docker.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/docker-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000077.json",
+    "legacyApiUrl": "/api/icons/docker-svg.json"
   },
   {
     "name": "dockpeek",
@@ -1176,10 +1638,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/dockpeek.svg",
-    "id": "dockpeek-svg",
+    "id": "000078",
+    "status": "active",
+    "legacyId": "dockpeek-svg",
+    "legacyIds": [
+      "dockpeek-svg"
+    ],
     "filename": "dockpeek.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/dockpeek.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dockpeek-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000078.json",
+    "legacyApiUrl": "/api/icons/dockpeek-svg.json"
   },
   {
     "name": "docuform",
@@ -1191,10 +1659,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/docuform.svg",
-    "id": "docuform-svg",
+    "id": "000079",
+    "status": "active",
+    "legacyId": "docuform-svg",
+    "legacyIds": [
+      "docuform-svg"
+    ],
     "filename": "docuform.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/docuform.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/docuform-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000079.json",
+    "legacyApiUrl": "/api/icons/docuform-svg.json"
   },
   {
     "name": "documenso",
@@ -1206,10 +1680,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/documenso.svg",
-    "id": "documenso-svg",
+    "id": "000080",
+    "status": "active",
+    "legacyId": "documenso-svg",
+    "legacyIds": [
+      "documenso-svg"
+    ],
     "filename": "documenso.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/documenso.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/documenso-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000080.json",
+    "legacyApiUrl": "/api/icons/documenso-svg.json"
   },
   {
     "name": "dotnet",
@@ -1221,10 +1701,16 @@
       "Developer"
     ],
     "path": "./assets/svg/dotnet.svg",
-    "id": "dotnet-svg",
+    "id": "000081",
+    "status": "active",
+    "legacyId": "dotnet-svg",
+    "legacyIds": [
+      "dotnet-svg"
+    ],
     "filename": "dotnet.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/dotnet.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dotnet-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000081.json",
+    "legacyApiUrl": "/api/icons/dotnet-svg.json"
   },
   {
     "name": "draw-io",
@@ -1237,10 +1723,16 @@
       "Design"
     ],
     "path": "./assets/svg/draw-io.svg",
-    "id": "draw-io-svg",
+    "id": "000082",
+    "status": "active",
+    "legacyId": "draw-io-svg",
+    "legacyIds": [
+      "draw-io-svg"
+    ],
     "filename": "draw-io.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/draw-io.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/draw-io-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000082.json",
+    "legacyApiUrl": "/api/icons/draw-io-svg.json"
   },
   {
     "name": "dropbox",
@@ -1252,10 +1744,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/dropbox.svg",
-    "id": "dropbox-svg",
+    "id": "000083",
+    "status": "active",
+    "legacyId": "dropbox-svg",
+    "legacyIds": [
+      "dropbox-svg"
+    ],
     "filename": "dropbox.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/dropbox.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dropbox-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000083.json",
+    "legacyApiUrl": "/api/icons/dropbox-svg.json"
   },
   {
     "name": "dropout",
@@ -1267,10 +1765,16 @@
       "Media"
     ],
     "path": "./assets/svg/dropout.svg",
-    "id": "dropout-svg",
+    "id": "000084",
+    "status": "active",
+    "legacyId": "dropout-svg",
+    "legacyIds": [
+      "dropout-svg"
+    ],
     "filename": "dropout.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/dropout.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dropout-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000084.json",
+    "legacyApiUrl": "/api/icons/dropout-svg.json"
   },
   {
     "name": "duckdns",
@@ -1282,10 +1786,16 @@
       "Networking"
     ],
     "path": "./assets/svg/duckdns.svg",
-    "id": "duckdns-svg",
+    "id": "000085",
+    "status": "active",
+    "legacyId": "duckdns-svg",
+    "legacyIds": [
+      "duckdns-svg"
+    ],
     "filename": "duckdns.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/duckdns.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/duckdns-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000085.json",
+    "legacyApiUrl": "/api/icons/duckdns-svg.json"
   },
   {
     "name": "dvd",
@@ -1297,10 +1807,16 @@
       "Media"
     ],
     "path": "./assets/svg/dvd.svg",
-    "id": "dvd-svg",
+    "id": "000086",
+    "status": "active",
+    "legacyId": "dvd-svg",
+    "legacyIds": [
+      "dvd-svg"
+    ],
     "filename": "dvd.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/dvd.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dvd-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000086.json",
+    "legacyApiUrl": "/api/icons/dvd-svg.json"
   },
   {
     "name": "electron",
@@ -1313,10 +1829,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/electron.svg",
-    "id": "electron-svg",
+    "id": "000087",
+    "status": "active",
+    "legacyId": "electron-svg",
+    "legacyIds": [
+      "electron-svg"
+    ],
     "filename": "electron.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/electron.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/electron-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000087.json",
+    "legacyApiUrl": "/api/icons/electron-svg.json"
   },
   {
     "name": "electronic-arts",
@@ -1328,10 +1850,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/electronic-arts.svg",
-    "id": "electronic-arts-svg",
+    "id": "000088",
+    "status": "active",
+    "legacyId": "electronic-arts-svg",
+    "legacyIds": [
+      "electronic-arts-svg"
+    ],
     "filename": "electronic-arts.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/electronic-arts.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/electronic-arts-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000088.json",
+    "legacyApiUrl": "/api/icons/electronic-arts-svg.json"
   },
   {
     "name": "emby",
@@ -1343,10 +1871,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/emby.svg",
-    "id": "emby-svg",
+    "id": "000089",
+    "status": "active",
+    "legacyId": "emby-svg",
+    "legacyIds": [
+      "emby-svg"
+    ],
     "filename": "emby.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/emby.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/emby-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000089.json",
+    "legacyApiUrl": "/api/icons/emby-svg.json"
   },
   {
     "name": "etherpad",
@@ -1358,10 +1892,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/etherpad.svg",
-    "id": "etherpad-svg",
+    "id": "000090",
+    "status": "active",
+    "legacyId": "etherpad-svg",
+    "legacyIds": [
+      "etherpad-svg"
+    ],
     "filename": "etherpad.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/etherpad.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/etherpad-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000090.json",
+    "legacyApiUrl": "/api/icons/etherpad-svg.json"
   },
   {
     "name": "fedora-alt",
@@ -1374,10 +1914,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/fedora-alt.svg",
-    "id": "fedora-alt-svg",
+    "id": "000091",
+    "status": "active",
+    "legacyId": "fedora-alt-svg",
+    "legacyIds": [
+      "fedora-alt-svg"
+    ],
     "filename": "fedora-alt.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/fedora-alt.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/fedora-alt-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000091.json",
+    "legacyApiUrl": "/api/icons/fedora-alt-svg.json"
   },
   {
     "name": "fluffychat",
@@ -1389,10 +1935,16 @@
       "Communication"
     ],
     "path": "./assets/svg/fluffychat.svg",
-    "id": "fluffychat-svg",
+    "id": "000092",
+    "status": "active",
+    "legacyId": "fluffychat-svg",
+    "legacyIds": [
+      "fluffychat-svg"
+    ],
     "filename": "fluffychat.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/fluffychat.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/fluffychat-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000092.json",
+    "legacyApiUrl": "/api/icons/fluffychat-svg.json"
   },
   {
     "name": "forgejo",
@@ -1404,10 +1956,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/forgejo.svg",
-    "id": "forgejo-svg",
+    "id": "000093",
+    "status": "active",
+    "legacyId": "forgejo-svg",
+    "legacyIds": [
+      "forgejo-svg"
+    ],
     "filename": "forgejo.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/forgejo.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/forgejo-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000093.json",
+    "legacyApiUrl": "/api/icons/forgejo-svg.json"
   },
   {
     "name": "formbricks",
@@ -1419,10 +1977,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/formbricks.svg",
-    "id": "formbricks-svg",
+    "id": "000094",
+    "status": "active",
+    "legacyId": "formbricks-svg",
+    "legacyIds": [
+      "formbricks-svg"
+    ],
     "filename": "formbricks.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/formbricks.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/formbricks-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000094.json",
+    "legacyApiUrl": "/api/icons/formbricks-svg.json"
   },
   {
     "name": "fortinet",
@@ -1434,10 +1998,16 @@
       "Security"
     ],
     "path": "./assets/svg/fortinet.svg",
-    "id": "fortinet-svg",
+    "id": "000095",
+    "status": "active",
+    "legacyId": "fortinet-svg",
+    "legacyIds": [
+      "fortinet-svg"
+    ],
     "filename": "fortinet.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/fortinet.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/fortinet-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000095.json",
+    "legacyApiUrl": "/api/icons/fortinet-svg.json"
   },
   {
     "name": "friendica",
@@ -1449,10 +2019,16 @@
       "Social"
     ],
     "path": "./assets/svg/friendica.svg",
-    "id": "friendica-svg",
+    "id": "000096",
+    "status": "active",
+    "legacyId": "friendica-svg",
+    "legacyIds": [
+      "friendica-svg"
+    ],
     "filename": "friendica.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/friendica.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/friendica-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000096.json",
+    "legacyApiUrl": "/api/icons/friendica-svg.json"
   },
   {
     "name": "frp-manager",
@@ -1464,10 +2040,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/frp-manager.svg",
-    "id": "frp-manager-svg",
+    "id": "000097",
+    "status": "active",
+    "legacyId": "frp-manager-svg",
+    "legacyIds": [
+      "frp-manager-svg"
+    ],
     "filename": "frp-manager.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/frp-manager.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/frp-manager-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000097.json",
+    "legacyApiUrl": "/api/icons/frp-manager-svg.json"
   },
   {
     "name": "frp",
@@ -1479,10 +2061,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/frp.svg",
-    "id": "frp-svg",
+    "id": "000098",
+    "status": "active",
+    "legacyId": "frp-svg",
+    "legacyIds": [
+      "frp-svg"
+    ],
     "filename": "frp.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/frp.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/frp-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000098.json",
+    "legacyApiUrl": "/api/icons/frp-svg.json"
   },
   {
     "name": "github-copilot",
@@ -1494,10 +2082,16 @@
       "Developer"
     ],
     "path": "./assets/svg/github-copilot.svg",
-    "id": "github-copilot-svg",
+    "id": "000099",
+    "status": "active",
+    "legacyId": "github-copilot-svg",
+    "legacyIds": [
+      "github-copilot-svg"
+    ],
     "filename": "github-copilot.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/github-copilot.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/github-copilot-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000099.json",
+    "legacyApiUrl": "/api/icons/github-copilot-svg.json"
   },
   {
     "name": "golang",
@@ -1509,10 +2103,16 @@
       "Developer"
     ],
     "path": "./assets/svg/golang.svg",
-    "id": "golang-svg",
+    "id": "000100",
+    "status": "active",
+    "legacyId": "golang-svg",
+    "legacyIds": [
+      "golang-svg"
+    ],
     "filename": "golang.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/golang.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/golang-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000100.json",
+    "legacyApiUrl": "/api/icons/golang-svg.json"
   },
   {
     "name": "grok",
@@ -1524,10 +2124,16 @@
       "AI"
     ],
     "path": "./assets/svg/grok.svg",
-    "id": "grok-svg",
+    "id": "000101",
+    "status": "active",
+    "legacyId": "grok-svg",
+    "legacyIds": [
+      "grok-svg"
+    ],
     "filename": "grok.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/grok.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/grok-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000101.json",
+    "legacyApiUrl": "/api/icons/grok-svg.json"
   },
   {
     "name": "hashicorp-nomad",
@@ -1539,10 +2145,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/hashicorp-nomad.svg",
-    "id": "hashicorp-nomad-svg",
+    "id": "000102",
+    "status": "active",
+    "legacyId": "hashicorp-nomad-svg",
+    "legacyIds": [
+      "hashicorp-nomad-svg"
+    ],
     "filename": "hashicorp-nomad.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/hashicorp-nomad.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hashicorp-nomad-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000102.json",
+    "legacyApiUrl": "/api/icons/hashicorp-nomad-svg.json"
   },
   {
     "name": "hifiberry",
@@ -1554,10 +2166,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/hifiberry.svg",
-    "id": "hifiberry-svg",
+    "id": "000103",
+    "status": "active",
+    "legacyId": "hifiberry-svg",
+    "legacyIds": [
+      "hifiberry-svg"
+    ],
     "filename": "hifiberry.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/hifiberry.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hifiberry-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000103.json",
+    "legacyApiUrl": "/api/icons/hifiberry-svg.json"
   },
   {
     "name": "home-assistant",
@@ -1569,10 +2187,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/home-assistant.svg",
-    "id": "home-assistant-svg",
+    "id": "000104",
+    "status": "active",
+    "legacyId": "home-assistant-svg",
+    "legacyIds": [
+      "home-assistant-svg"
+    ],
     "filename": "home-assistant.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/home-assistant.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/home-assistant-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000104.json",
+    "legacyApiUrl": "/api/icons/home-assistant-svg.json"
   },
   {
     "name": "homebox",
@@ -1584,10 +2208,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/homebox.svg",
-    "id": "homebox-svg",
+    "id": "000105",
+    "status": "active",
+    "legacyId": "homebox-svg",
+    "legacyIds": [
+      "homebox-svg"
+    ],
     "filename": "homebox.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/homebox.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/homebox-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000105.json",
+    "legacyApiUrl": "/api/icons/homebox-svg.json"
   },
   {
     "name": "homebrew",
@@ -1600,10 +2230,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/homebrew.svg",
-    "id": "homebrew-svg",
+    "id": "000106",
+    "status": "active",
+    "legacyId": "homebrew-svg",
+    "legacyIds": [
+      "homebrew-svg"
+    ],
     "filename": "homebrew.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/homebrew.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/homebrew-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000106.json",
+    "legacyApiUrl": "/api/icons/homebrew-svg.json"
   },
   {
     "name": "hostinger",
@@ -1615,10 +2251,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/hostinger.svg",
-    "id": "hostinger-svg",
+    "id": "000107",
+    "status": "active",
+    "legacyId": "hostinger-svg",
+    "legacyIds": [
+      "hostinger-svg"
+    ],
     "filename": "hostinger.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/hostinger.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hostinger-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000107.json",
+    "legacyApiUrl": "/api/icons/hostinger-svg.json"
   },
   {
     "name": "html",
@@ -1630,10 +2272,16 @@
       "Developer"
     ],
     "path": "./assets/svg/html.svg",
-    "id": "html-svg",
+    "id": "000108",
+    "status": "active",
+    "legacyId": "html-svg",
+    "legacyIds": [
+      "html-svg"
+    ],
     "filename": "html.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/html.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/html-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000108.json",
+    "legacyApiUrl": "/api/icons/html-svg.json"
   },
   {
     "name": "hugging-face",
@@ -1645,10 +2293,16 @@
       "AI"
     ],
     "path": "./assets/svg/hugging-face.svg",
-    "id": "hugging-face-svg",
+    "id": "000109",
+    "status": "active",
+    "legacyId": "hugging-face-svg",
+    "legacyIds": [
+      "hugging-face-svg"
+    ],
     "filename": "hugging-face.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/hugging-face.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hugging-face-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000109.json",
+    "legacyApiUrl": "/api/icons/hugging-face-svg.json"
   },
   {
     "name": "hugo",
@@ -1661,10 +2315,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/hugo.svg",
-    "id": "hugo-svg",
+    "id": "000110",
+    "status": "active",
+    "legacyId": "hugo-svg",
+    "legacyIds": [
+      "hugo-svg"
+    ],
     "filename": "hugo.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/hugo.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hugo-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000110.json",
+    "legacyApiUrl": "/api/icons/hugo-svg.json"
   },
   {
     "name": "hulu",
@@ -1676,10 +2336,16 @@
       "Media"
     ],
     "path": "./assets/svg/hulu.svg",
-    "id": "hulu-svg",
+    "id": "000111",
+    "status": "active",
+    "legacyId": "hulu-svg",
+    "legacyIds": [
+      "hulu-svg"
+    ],
     "filename": "hulu.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/hulu.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hulu-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000111.json",
+    "legacyApiUrl": "/api/icons/hulu-svg.json"
   },
   {
     "name": "ibm",
@@ -1691,10 +2357,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/ibm.svg",
-    "id": "ibm-svg",
+    "id": "000112",
+    "status": "active",
+    "legacyId": "ibm-svg",
+    "legacyIds": [
+      "ibm-svg"
+    ],
     "filename": "ibm.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/ibm.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/ibm-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000112.json",
+    "legacyApiUrl": "/api/icons/ibm-svg.json"
   },
   {
     "name": "dell",
@@ -1706,10 +2378,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/dell.svg",
-    "id": "dell-svg",
+    "id": "000113",
+    "status": "active",
+    "legacyId": "dell-svg",
+    "legacyIds": [
+      "dell-svg"
+    ],
     "filename": "dell.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/dell.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dell-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000113.json",
+    "legacyApiUrl": "/api/icons/dell-svg.json"
   },
   {
     "name": "instacart",
@@ -1721,10 +2399,16 @@
       "E-commerce"
     ],
     "path": "./assets/svg/instacart.svg",
-    "id": "instacart-svg",
+    "id": "000114",
+    "status": "active",
+    "legacyId": "instacart-svg",
+    "legacyIds": [
+      "instacart-svg"
+    ],
     "filename": "instacart.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/instacart.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/instacart-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000114.json",
+    "legacyApiUrl": "/api/icons/instacart-svg.json"
   },
   {
     "name": "istio",
@@ -1736,10 +2420,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/istio.svg",
-    "id": "istio-svg",
+    "id": "000115",
+    "status": "active",
+    "legacyId": "istio-svg",
+    "legacyIds": [
+      "istio-svg"
+    ],
     "filename": "istio.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/istio.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/istio-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000115.json",
+    "legacyApiUrl": "/api/icons/istio-svg.json"
   },
   {
     "name": "it-tools",
@@ -1751,10 +2441,16 @@
       "Developer"
     ],
     "path": "./assets/svg/it-tools.svg",
-    "id": "it-tools-svg",
+    "id": "000116",
+    "status": "active",
+    "legacyId": "it-tools-svg",
+    "legacyIds": [
+      "it-tools-svg"
+    ],
     "filename": "it-tools.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/it-tools.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/it-tools-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000116.json",
+    "legacyApiUrl": "/api/icons/it-tools-svg.json"
   },
   {
     "name": "ivanti-icon",
@@ -1766,10 +2462,16 @@
       "Security"
     ],
     "path": "./assets/svg/ivanti-icon.svg",
-    "id": "ivanti-icon-svg",
+    "id": "000117",
+    "status": "active",
+    "legacyId": "ivanti-icon-svg",
+    "legacyIds": [
+      "ivanti-icon-svg"
+    ],
     "filename": "ivanti-icon.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/ivanti-icon.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/ivanti-icon-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000117.json",
+    "legacyApiUrl": "/api/icons/ivanti-icon-svg.json"
   },
   {
     "name": "jamstack",
@@ -1781,10 +2483,16 @@
       "Developer"
     ],
     "path": "./assets/svg/jamstack.svg",
-    "id": "jamstack-svg",
+    "id": "000118",
+    "status": "active",
+    "legacyId": "jamstack-svg",
+    "legacyIds": [
+      "jamstack-svg"
+    ],
     "filename": "jamstack.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/jamstack.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/jamstack-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000118.json",
+    "legacyApiUrl": "/api/icons/jamstack-svg.json"
   },
   {
     "name": "java",
@@ -1796,10 +2504,16 @@
       "Developer"
     ],
     "path": "./assets/svg/java.svg",
-    "id": "java-svg",
+    "id": "000119",
+    "status": "active",
+    "legacyId": "java-svg",
+    "legacyIds": [
+      "java-svg"
+    ],
     "filename": "java.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/java.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/java-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000119.json",
+    "legacyApiUrl": "/api/icons/java-svg.json"
   },
   {
     "name": "javascript",
@@ -1811,10 +2525,16 @@
       "Developer"
     ],
     "path": "./assets/svg/javascript.svg",
-    "id": "javascript-svg",
+    "id": "000120",
+    "status": "active",
+    "legacyId": "javascript-svg",
+    "legacyIds": [
+      "javascript-svg"
+    ],
     "filename": "javascript.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/javascript.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/javascript-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000120.json",
+    "legacyApiUrl": "/api/icons/javascript-svg.json"
   },
   {
     "name": "jio",
@@ -1826,10 +2546,16 @@
       "Communication"
     ],
     "path": "./assets/svg/jio.svg",
-    "id": "jio-svg",
+    "id": "000121",
+    "status": "active",
+    "legacyId": "jio-svg",
+    "legacyIds": [
+      "jio-svg"
+    ],
     "filename": "jio.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/jio.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/jio-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000121.json",
+    "legacyApiUrl": "/api/icons/jio-svg.json"
   },
   {
     "name": "jumpserver",
@@ -1841,10 +2567,16 @@
       "Security"
     ],
     "path": "./assets/svg/jumpserver.svg",
-    "id": "jumpserver-svg",
+    "id": "000122",
+    "status": "active",
+    "legacyId": "jumpserver-svg",
+    "legacyIds": [
+      "jumpserver-svg"
+    ],
     "filename": "jumpserver.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/jumpserver.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/jumpserver-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000122.json",
+    "legacyApiUrl": "/api/icons/jumpserver-svg.json"
   },
   {
     "name": "k3s",
@@ -1856,10 +2588,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/k3s.svg",
-    "id": "k3s-svg",
+    "id": "000123",
+    "status": "active",
+    "legacyId": "k3s-svg",
+    "legacyIds": [
+      "k3s-svg"
+    ],
     "filename": "k3s.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/k3s.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/k3s-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000123.json",
+    "legacyApiUrl": "/api/icons/k3s-svg.json"
   },
   {
     "name": "kagi",
@@ -1871,10 +2609,16 @@
       "Networking"
     ],
     "path": "./assets/svg/kagi.svg",
-    "id": "kagi-svg",
+    "id": "000124",
+    "status": "active",
+    "legacyId": "kagi-svg",
+    "legacyIds": [
+      "kagi-svg"
+    ],
     "filename": "kagi.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/kagi.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/kagi-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000124.json",
+    "legacyApiUrl": "/api/icons/kagi-svg.json"
   },
   {
     "name": "kaufland",
@@ -1886,10 +2630,16 @@
       "E-commerce"
     ],
     "path": "./assets/svg/kaufland.svg",
-    "id": "kaufland-svg",
+    "id": "000125",
+    "status": "active",
+    "legacyId": "kaufland-svg",
+    "legacyIds": [
+      "kaufland-svg"
+    ],
     "filename": "kaufland.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/kaufland.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/kaufland-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000125.json",
+    "legacyApiUrl": "/api/icons/kaufland-svg.json"
   },
   {
     "name": "keeper-security",
@@ -1901,10 +2651,16 @@
       "Security"
     ],
     "path": "./assets/svg/keeper-security.svg",
-    "id": "keeper-security-svg",
+    "id": "000126",
+    "status": "active",
+    "legacyId": "keeper-security-svg",
+    "legacyIds": [
+      "keeper-security-svg"
+    ],
     "filename": "keeper-security.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/keeper-security.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/keeper-security-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000126.json",
+    "legacyApiUrl": "/api/icons/keeper-security-svg.json"
   },
   {
     "name": "keila",
@@ -1916,10 +2672,16 @@
       "Communication"
     ],
     "path": "./assets/svg/keila.svg",
-    "id": "keila-svg",
+    "id": "000127",
+    "status": "active",
+    "legacyId": "keila-svg",
+    "legacyIds": [
+      "keila-svg"
+    ],
     "filename": "keila.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/keila.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/keila-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000127.json",
+    "legacyApiUrl": "/api/icons/keila-svg.json"
   },
   {
     "name": "kodi",
@@ -1931,10 +2693,16 @@
       "Media"
     ],
     "path": "./assets/svg/kodi.svg",
-    "id": "kodi-svg",
+    "id": "000128",
+    "status": "active",
+    "legacyId": "kodi-svg",
+    "legacyIds": [
+      "kodi-svg"
+    ],
     "filename": "kodi.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/kodi.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/kodi-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000128.json",
+    "legacyApiUrl": "/api/icons/kodi-svg.json"
   },
   {
     "name": "kubernetes",
@@ -1947,10 +2715,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/kubernetes.svg",
-    "id": "kubernetes-svg",
+    "id": "000129",
+    "status": "active",
+    "legacyId": "kubernetes-svg",
+    "legacyIds": [
+      "kubernetes-svg"
+    ],
     "filename": "kubernetes.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/kubernetes.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/kubernetes-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000129.json",
+    "legacyApiUrl": "/api/icons/kubernetes-svg.json"
   },
   {
     "name": "libretranslate",
@@ -1963,10 +2737,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/libretranslate.svg",
-    "id": "libretranslate-svg",
+    "id": "000130",
+    "status": "active",
+    "legacyId": "libretranslate-svg",
+    "legacyIds": [
+      "libretranslate-svg"
+    ],
     "filename": "libretranslate.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/libretranslate.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/libretranslate-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000130.json",
+    "legacyApiUrl": "/api/icons/libretranslate-svg.json"
   },
   {
     "name": "linear",
@@ -1979,10 +2759,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/linear.svg",
-    "id": "linear-svg",
+    "id": "000131",
+    "status": "active",
+    "legacyId": "linear-svg",
+    "legacyIds": [
+      "linear-svg"
+    ],
     "filename": "linear.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/linear.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/linear-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000131.json",
+    "legacyApiUrl": "/api/icons/linear-svg.json"
   },
   {
     "name": "linkedin",
@@ -1994,10 +2780,16 @@
       "Social"
     ],
     "path": "./assets/svg/linkedin.svg",
-    "id": "linkedin-svg",
+    "id": "000132",
+    "status": "active",
+    "legacyId": "linkedin-svg",
+    "legacyIds": [
+      "linkedin-svg"
+    ],
     "filename": "linkedin.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/linkedin.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/linkedin-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000132.json",
+    "legacyApiUrl": "/api/icons/linkedin-svg.json"
   },
   {
     "name": "linux-mint",
@@ -2010,10 +2802,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/linux-mint.svg",
-    "id": "linux-mint-svg",
+    "id": "000133",
+    "status": "active",
+    "legacyId": "linux-mint-svg",
+    "legacyIds": [
+      "linux-mint-svg"
+    ],
     "filename": "linux-mint.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/linux-mint.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/linux-mint-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000133.json",
+    "legacyApiUrl": "/api/icons/linux-mint-svg.json"
   },
   {
     "name": "macmon",
@@ -2025,10 +2823,16 @@
       "Operating Systems"
     ],
     "path": "./assets/svg/macmon.svg",
-    "id": "macmon-svg",
+    "id": "000134",
+    "status": "active",
+    "legacyId": "macmon-svg",
+    "legacyIds": [
+      "macmon-svg"
+    ],
     "filename": "macmon.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/macmon.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/macmon-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000134.json",
+    "legacyApiUrl": "/api/icons/macmon-svg.json"
   },
   {
     "name": "mailbox",
@@ -2040,10 +2844,16 @@
       "Communication"
     ],
     "path": "./assets/svg/mailbox.svg",
-    "id": "mailbox-svg",
+    "id": "000135",
+    "status": "active",
+    "legacyId": "mailbox-svg",
+    "legacyIds": [
+      "mailbox-svg"
+    ],
     "filename": "mailbox.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mailbox.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mailbox-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000135.json",
+    "legacyApiUrl": "/api/icons/mailbox-svg.json"
   },
   {
     "name": "mailgun",
@@ -2055,10 +2865,16 @@
       "Communication"
     ],
     "path": "./assets/svg/mailgun.svg",
-    "id": "mailgun-svg",
+    "id": "000136",
+    "status": "active",
+    "legacyId": "mailgun-svg",
+    "legacyIds": [
+      "mailgun-svg"
+    ],
     "filename": "mailgun.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mailgun.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mailgun-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000136.json",
+    "legacyApiUrl": "/api/icons/mailgun-svg.json"
   },
   {
     "name": "mailjet",
@@ -2070,10 +2886,16 @@
       "Communication"
     ],
     "path": "./assets/svg/mailjet.svg",
-    "id": "mailjet-svg",
+    "id": "000137",
+    "status": "active",
+    "legacyId": "mailjet-svg",
+    "legacyIds": [
+      "mailjet-svg"
+    ],
     "filename": "mailjet.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mailjet.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mailjet-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000137.json",
+    "legacyApiUrl": "/api/icons/mailjet-svg.json"
   },
   {
     "name": "manjaro-linux",
@@ -2085,10 +2907,16 @@
       "Operating Systems"
     ],
     "path": "./assets/svg/manjaro-linux.svg",
-    "id": "manjaro-linux-svg",
+    "id": "000138",
+    "status": "active",
+    "legacyId": "manjaro-linux-svg",
+    "legacyIds": [
+      "manjaro-linux-svg"
+    ],
     "filename": "manjaro-linux.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/manjaro-linux.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/manjaro-linux-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000138.json",
+    "legacyApiUrl": "/api/icons/manjaro-linux-svg.json"
   },
   {
     "name": "mantrae-dark",
@@ -2100,10 +2928,16 @@
       "Other"
     ],
     "path": "./assets/svg/mantrae-dark.svg",
-    "id": "mantrae-dark-svg",
+    "id": "000139",
+    "status": "active",
+    "legacyId": "mantrae-dark-svg",
+    "legacyIds": [
+      "mantrae-dark-svg"
+    ],
     "filename": "mantrae-dark.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mantrae-dark.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mantrae-dark-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000139.json",
+    "legacyApiUrl": "/api/icons/mantrae-dark-svg.json"
   },
   {
     "name": "mariadb",
@@ -2115,10 +2949,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/mariadb.svg",
-    "id": "mariadb-svg",
+    "id": "000140",
+    "status": "active",
+    "legacyId": "mariadb-svg",
+    "legacyIds": [
+      "mariadb-svg"
+    ],
     "filename": "mariadb.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mariadb.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mariadb-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000140.json",
+    "legacyApiUrl": "/api/icons/mariadb-svg.json"
   },
   {
     "name": "max",
@@ -2130,10 +2970,16 @@
       "Media"
     ],
     "path": "./assets/svg/max.svg",
-    "id": "max-svg",
+    "id": "000141",
+    "status": "active",
+    "legacyId": "max-svg",
+    "legacyIds": [
+      "max-svg"
+    ],
     "filename": "max.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/max.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/max-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000141.json",
+    "legacyApiUrl": "/api/icons/max-svg.json"
   },
   {
     "name": "mcaffee",
@@ -2145,10 +2991,16 @@
       "Security"
     ],
     "path": "./assets/svg/mcaffee.svg",
-    "id": "mcaffee-svg",
+    "id": "000142",
+    "status": "active",
+    "legacyId": "mcaffee-svg",
+    "legacyIds": [
+      "mcaffee-svg"
+    ],
     "filename": "mcaffee.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mcaffee.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mcaffee-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000142.json",
+    "legacyApiUrl": "/api/icons/mcaffee-svg.json"
   },
   {
     "name": "mealie",
@@ -2160,10 +3012,16 @@
       "Food & Beverage"
     ],
     "path": "./assets/svg/mealie.svg",
-    "id": "mealie-svg",
+    "id": "000143",
+    "status": "active",
+    "legacyId": "mealie-svg",
+    "legacyIds": [
+      "mealie-svg"
+    ],
     "filename": "mealie.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mealie.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mealie-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000143.json",
+    "legacyApiUrl": "/api/icons/mealie-svg.json"
   },
   {
     "name": "medama",
@@ -2175,10 +3033,16 @@
       "Technology"
     ],
     "path": "./assets/svg/medama.svg",
-    "id": "medama-svg",
+    "id": "000144",
+    "status": "active",
+    "legacyId": "medama-svg",
+    "legacyIds": [
+      "medama-svg"
+    ],
     "filename": "medama.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/medama.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/medama-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000144.json",
+    "legacyApiUrl": "/api/icons/medama-svg.json"
   },
   {
     "name": "mega-nz",
@@ -2190,10 +3054,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/mega-nz.svg",
-    "id": "mega-nz-svg",
+    "id": "000145",
+    "status": "active",
+    "legacyId": "mega-nz-svg",
+    "legacyIds": [
+      "mega-nz-svg"
+    ],
     "filename": "mega-nz.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mega-nz.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mega-nz-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000145.json",
+    "legacyApiUrl": "/api/icons/mega-nz-svg.json"
   },
   {
     "name": "meilisearch",
@@ -2206,10 +3076,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/meilisearch.svg",
-    "id": "meilisearch-svg",
+    "id": "000146",
+    "status": "active",
+    "legacyId": "meilisearch-svg",
+    "legacyIds": [
+      "meilisearch-svg"
+    ],
     "filename": "meilisearch.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/meilisearch.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/meilisearch-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000146.json",
+    "legacyApiUrl": "/api/icons/meilisearch-svg.json"
   },
   {
     "name": "mergeable",
@@ -2221,10 +3097,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/mergeable.svg",
-    "id": "mergeable-svg",
+    "id": "000147",
+    "status": "active",
+    "legacyId": "mergeable-svg",
+    "legacyIds": [
+      "mergeable-svg"
+    ],
     "filename": "mergeable.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mergeable.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mergeable-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000147.json",
+    "legacyApiUrl": "/api/icons/mergeable-svg.json"
   },
   {
     "name": "meta",
@@ -2236,10 +3118,16 @@
       "Social"
     ],
     "path": "./assets/svg/meta.svg",
-    "id": "meta-svg",
+    "id": "000148",
+    "status": "active",
+    "legacyId": "meta-svg",
+    "legacyIds": [
+      "meta-svg"
+    ],
     "filename": "meta.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/meta.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/meta-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000148.json",
+    "legacyApiUrl": "/api/icons/meta-svg.json"
   },
   {
     "name": "microsoft-sql-server",
@@ -2251,10 +3139,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/microsoft-sql-server.svg",
-    "id": "microsoft-sql-server-svg",
+    "id": "000149",
+    "status": "active",
+    "legacyId": "microsoft-sql-server-svg",
+    "legacyIds": [
+      "microsoft-sql-server-svg"
+    ],
     "filename": "microsoft-sql-server.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/microsoft-sql-server.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/microsoft-sql-server-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000149.json",
+    "legacyApiUrl": "/api/icons/microsoft-sql-server-svg.json"
   },
   {
     "name": "minio",
@@ -2266,10 +3160,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/minio.svg",
-    "id": "minio-svg",
+    "id": "000150",
+    "status": "active",
+    "legacyId": "minio-svg",
+    "legacyIds": [
+      "minio-svg"
+    ],
     "filename": "minio.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/minio.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/minio-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000150.json",
+    "legacyApiUrl": "/api/icons/minio-svg.json"
   },
   {
     "name": "mojeek",
@@ -2281,10 +3181,16 @@
       "Networking"
     ],
     "path": "./assets/svg/mojeek.svg",
-    "id": "mojeek-svg",
+    "id": "000151",
+    "status": "active",
+    "legacyId": "mojeek-svg",
+    "legacyIds": [
+      "mojeek-svg"
+    ],
     "filename": "mojeek.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mojeek.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mojeek-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000151.json",
+    "legacyApiUrl": "/api/icons/mojeek-svg.json"
   },
   {
     "name": "monarch-money",
@@ -2296,10 +3202,16 @@
       "Finance"
     ],
     "path": "./assets/svg/monarch-money.svg",
-    "id": "monarch-money-svg",
+    "id": "000152",
+    "status": "active",
+    "legacyId": "monarch-money-svg",
+    "legacyIds": [
+      "monarch-money-svg"
+    ],
     "filename": "monarch-money.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/monarch-money.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/monarch-money-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000152.json",
+    "legacyApiUrl": "/api/icons/monarch-money-svg.json"
   },
   {
     "name": "mongodb",
@@ -2311,10 +3223,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/mongodb.svg",
-    "id": "mongodb-svg",
+    "id": "000153",
+    "status": "active",
+    "legacyId": "mongodb-svg",
+    "legacyIds": [
+      "mongodb-svg"
+    ],
     "filename": "mongodb.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mongodb.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mongodb-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000153.json",
+    "legacyApiUrl": "/api/icons/mongodb-svg.json"
   },
   {
     "name": "mysql",
@@ -2326,10 +3244,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/mysql.svg",
-    "id": "mysql-svg",
+    "id": "000154",
+    "status": "active",
+    "legacyId": "mysql-svg",
+    "legacyIds": [
+      "mysql-svg"
+    ],
     "filename": "mysql.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/mysql.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mysql-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000154.json",
+    "legacyApiUrl": "/api/icons/mysql-svg.json"
   },
   {
     "name": "netflix",
@@ -2341,10 +3265,16 @@
       "Media"
     ],
     "path": "./assets/svg/netflix.svg",
-    "id": "netflix-svg",
+    "id": "000155",
+    "status": "active",
+    "legacyId": "netflix-svg",
+    "legacyIds": [
+      "netflix-svg"
+    ],
     "filename": "netflix.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/netflix.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/netflix-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000155.json",
+    "legacyApiUrl": "/api/icons/netflix-svg.json"
   },
   {
     "name": "nginx",
@@ -2357,10 +3287,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/nginx.svg",
-    "id": "nginx-svg",
+    "id": "000156",
+    "status": "active",
+    "legacyId": "nginx-svg",
+    "legacyIds": [
+      "nginx-svg"
+    ],
     "filename": "nginx.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/nginx.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nginx-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000156.json",
+    "legacyApiUrl": "/api/icons/nginx-svg.json"
   },
   {
     "name": "nintendo-switch",
@@ -2372,10 +3308,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/nintendo-switch.svg",
-    "id": "nintendo-switch-svg",
+    "id": "000157",
+    "status": "active",
+    "legacyId": "nintendo-switch-svg",
+    "legacyIds": [
+      "nintendo-switch-svg"
+    ],
     "filename": "nintendo-switch.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/nintendo-switch.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nintendo-switch-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000157.json",
+    "legacyApiUrl": "/api/icons/nintendo-switch-svg.json"
   },
   {
     "name": "nixos",
@@ -2388,10 +3330,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/nixos.svg",
-    "id": "nixos-svg",
+    "id": "000158",
+    "status": "active",
+    "legacyId": "nixos-svg",
+    "legacyIds": [
+      "nixos-svg"
+    ],
     "filename": "nixos.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/nixos.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nixos-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000158.json",
+    "legacyApiUrl": "/api/icons/nixos-svg.json"
   },
   {
     "name": "nocodb",
@@ -2403,10 +3351,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/nocodb.svg",
-    "id": "nocodb-svg",
+    "id": "000159",
+    "status": "active",
+    "legacyId": "nocodb-svg",
+    "legacyIds": [
+      "nocodb-svg"
+    ],
     "filename": "nocodb.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/nocodb.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nocodb-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000159.json",
+    "legacyApiUrl": "/api/icons/nocodb-svg.json"
   },
   {
     "name": "nodebb",
@@ -2418,10 +3372,16 @@
       "Developer"
     ],
     "path": "./assets/svg/nodebb.svg",
-    "id": "nodebb-svg",
+    "id": "000160",
+    "status": "active",
+    "legacyId": "nodebb-svg",
+    "legacyIds": [
+      "nodebb-svg"
+    ],
     "filename": "nodebb.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/nodebb.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nodebb-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000160.json",
+    "legacyApiUrl": "/api/icons/nodebb-svg.json"
   },
   {
     "name": "nodejs-alt",
@@ -2433,10 +3393,16 @@
       "Developer"
     ],
     "path": "./assets/svg/nodejs-alt.svg",
-    "id": "nodejs-alt-svg",
+    "id": "000161",
+    "status": "active",
+    "legacyId": "nodejs-alt-svg",
+    "legacyIds": [
+      "nodejs-alt-svg"
+    ],
     "filename": "nodejs-alt.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/nodejs-alt.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nodejs-alt-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000161.json",
+    "legacyApiUrl": "/api/icons/nodejs-alt-svg.json"
   },
   {
     "name": "nodejs",
@@ -2449,10 +3415,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/nodejs.svg",
-    "id": "nodejs-svg",
+    "id": "000162",
+    "status": "active",
+    "legacyId": "nodejs-svg",
+    "legacyIds": [
+      "nodejs-svg"
+    ],
     "filename": "nodejs.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/nodejs.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nodejs-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000162.json",
+    "legacyApiUrl": "/api/icons/nodejs-svg.json"
   },
   {
     "name": "notion",
@@ -2464,10 +3436,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/notion.svg",
-    "id": "notion-svg",
+    "id": "000163",
+    "status": "active",
+    "legacyId": "notion-svg",
+    "legacyIds": [
+      "notion-svg"
+    ],
     "filename": "notion.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/notion.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/notion-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000163.json",
+    "legacyApiUrl": "/api/icons/notion-svg.json"
   },
   {
     "name": "npm",
@@ -2479,10 +3457,16 @@
       "Developer"
     ],
     "path": "./assets/svg/npm.svg",
-    "id": "npm-svg",
+    "id": "000164",
+    "status": "active",
+    "legacyId": "npm-svg",
+    "legacyIds": [
+      "npm-svg"
+    ],
     "filename": "npm.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/npm.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/npm-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000164.json",
+    "legacyApiUrl": "/api/icons/npm-svg.json"
   },
   {
     "name": "nsg",
@@ -2494,10 +3478,16 @@
       "Other"
     ],
     "path": "./assets/svg/nsg.svg",
-    "id": "nsg-svg",
+    "id": "000165",
+    "status": "active",
+    "legacyId": "nsg-svg",
+    "legacyIds": [
+      "nsg-svg"
+    ],
     "filename": "nsg.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/nsg.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nsg-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000165.json",
+    "legacyApiUrl": "/api/icons/nsg-svg.json"
   },
   {
     "name": "ntfy",
@@ -2509,10 +3499,16 @@
       "Communication"
     ],
     "path": "./assets/svg/ntfy.svg",
-    "id": "ntfy-svg",
+    "id": "000166",
+    "status": "active",
+    "legacyId": "ntfy-svg",
+    "legacyIds": [
+      "ntfy-svg"
+    ],
     "filename": "ntfy.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/ntfy.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/ntfy-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000166.json",
+    "legacyApiUrl": "/api/icons/ntfy-svg.json"
   },
   {
     "name": "nuxt-js",
@@ -2524,10 +3520,16 @@
       "Developer"
     ],
     "path": "./assets/svg/nuxt-js.svg",
-    "id": "nuxt-js-svg",
+    "id": "000167",
+    "status": "active",
+    "legacyId": "nuxt-js-svg",
+    "legacyIds": [
+      "nuxt-js-svg"
+    ],
     "filename": "nuxt-js.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/nuxt-js.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nuxt-js-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000167.json",
+    "legacyApiUrl": "/api/icons/nuxt-js-svg.json"
   },
   {
     "name": "nvidia",
@@ -2539,10 +3541,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/nvidia.svg",
-    "id": "nvidia-svg",
+    "id": "000168",
+    "status": "active",
+    "legacyId": "nvidia-svg",
+    "legacyIds": [
+      "nvidia-svg"
+    ],
     "filename": "nvidia.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/nvidia.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nvidia-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000168.json",
+    "legacyApiUrl": "/api/icons/nvidia-svg.json"
   },
   {
     "name": "office-365",
@@ -2554,10 +3562,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/office-365.svg",
-    "id": "office-365-svg",
+    "id": "000169",
+    "status": "active",
+    "legacyId": "office-365-svg",
+    "legacyIds": [
+      "office-365-svg"
+    ],
     "filename": "office-365.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/office-365.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/office-365-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000169.json",
+    "legacyApiUrl": "/api/icons/office-365-svg.json"
   },
   {
     "name": "oh-my-posh",
@@ -2569,10 +3583,16 @@
       "Developer"
     ],
     "path": "./assets/svg/oh-my-posh.svg",
-    "id": "oh-my-posh-svg",
+    "id": "000170",
+    "status": "active",
+    "legacyId": "oh-my-posh-svg",
+    "legacyIds": [
+      "oh-my-posh-svg"
+    ],
     "filename": "oh-my-posh.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/oh-my-posh.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/oh-my-posh-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000170.json",
+    "legacyApiUrl": "/api/icons/oh-my-posh-svg.json"
   },
   {
     "name": "ollama",
@@ -2584,10 +3604,16 @@
       "AI"
     ],
     "path": "./assets/svg/ollama.svg",
-    "id": "ollama-svg",
+    "id": "000171",
+    "status": "active",
+    "legacyId": "ollama-svg",
+    "legacyIds": [
+      "ollama-svg"
+    ],
     "filename": "ollama.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/ollama.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/ollama-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000171.json",
+    "legacyApiUrl": "/api/icons/ollama-svg.json"
   },
   {
     "name": "onedev",
@@ -2599,10 +3625,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/onedev.svg",
-    "id": "onedev-svg",
+    "id": "000172",
+    "status": "active",
+    "legacyId": "onedev-svg",
+    "legacyIds": [
+      "onedev-svg"
+    ],
     "filename": "onedev.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/onedev.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/onedev-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000172.json",
+    "legacyApiUrl": "/api/icons/onedev-svg.json"
   },
   {
     "name": "onlyfans",
@@ -2614,10 +3646,16 @@
       "Social"
     ],
     "path": "./assets/svg/onlyfans.svg",
-    "id": "onlyfans-svg",
+    "id": "000173",
+    "status": "active",
+    "legacyId": "onlyfans-svg",
+    "legacyIds": [
+      "onlyfans-svg"
+    ],
     "filename": "onlyfans.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/onlyfans.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/onlyfans-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000173.json",
+    "legacyApiUrl": "/api/icons/onlyfans-svg.json"
   },
   {
     "name": "open-source-initiative",
@@ -2629,10 +3667,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/open-source-initiative.svg",
-    "id": "open-source-initiative-svg",
+    "id": "000174",
+    "status": "active",
+    "legacyId": "open-source-initiative-svg",
+    "legacyIds": [
+      "open-source-initiative-svg"
+    ],
     "filename": "open-source-initiative.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/open-source-initiative.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/open-source-initiative-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000174.json",
+    "legacyApiUrl": "/api/icons/open-source-initiative-svg.json"
   },
   {
     "name": "open-webui",
@@ -2644,10 +3688,16 @@
       "Developer"
     ],
     "path": "./assets/svg/open-webui.svg",
-    "id": "open-webui-svg",
+    "id": "000175",
+    "status": "active",
+    "legacyId": "open-webui-svg",
+    "legacyIds": [
+      "open-webui-svg"
+    ],
     "filename": "open-webui.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/open-webui.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/open-webui-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000175.json",
+    "legacyApiUrl": "/api/icons/open-webui-svg.json"
   },
   {
     "name": "openai",
@@ -2659,10 +3709,16 @@
       "AI"
     ],
     "path": "./assets/svg/openai.svg",
-    "id": "openai-svg",
+    "id": "000176",
+    "status": "active",
+    "legacyId": "openai-svg",
+    "legacyIds": [
+      "openai-svg"
+    ],
     "filename": "openai.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/openai.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/openai-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000176.json",
+    "legacyApiUrl": "/api/icons/openai-svg.json"
   },
   {
     "name": "openbao",
@@ -2674,10 +3730,16 @@
       "Security"
     ],
     "path": "./assets/svg/openbao.svg",
-    "id": "openbao-svg",
+    "id": "000177",
+    "status": "active",
+    "legacyId": "openbao-svg",
+    "legacyIds": [
+      "openbao-svg"
+    ],
     "filename": "openbao.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/openbao.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/openbao-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000177.json",
+    "legacyApiUrl": "/api/icons/openbao-svg.json"
   },
   {
     "name": "openpanel",
@@ -2689,10 +3751,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/openpanel.svg",
-    "id": "openpanel-svg",
+    "id": "000178",
+    "status": "active",
+    "legacyId": "openpanel-svg",
+    "legacyIds": [
+      "openpanel-svg"
+    ],
     "filename": "openpanel.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/openpanel.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/openpanel-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000178.json",
+    "legacyApiUrl": "/api/icons/openpanel-svg.json"
   },
   {
     "name": "openproject",
@@ -2705,10 +3773,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/openproject.svg",
-    "id": "openproject-svg",
+    "id": "000179",
+    "status": "active",
+    "legacyId": "openproject-svg",
+    "legacyIds": [
+      "openproject-svg"
+    ],
     "filename": "openproject.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/openproject.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/openproject-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000179.json",
+    "legacyApiUrl": "/api/icons/openproject-svg.json"
   },
   {
     "name": "opensuse",
@@ -2721,10 +3795,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/opensuse.svg",
-    "id": "opensuse-svg",
+    "id": "000180",
+    "status": "active",
+    "legacyId": "opensuse-svg",
+    "legacyIds": [
+      "opensuse-svg"
+    ],
     "filename": "opensuse.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/opensuse.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/opensuse-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000180.json",
+    "legacyApiUrl": "/api/icons/opensuse-svg.json"
   },
   {
     "name": "openvpn",
@@ -2736,10 +3816,16 @@
       "Networking"
     ],
     "path": "./assets/svg/openvpn.svg",
-    "id": "openvpn-svg",
+    "id": "000181",
+    "status": "active",
+    "legacyId": "openvpn-svg",
+    "legacyIds": [
+      "openvpn-svg"
+    ],
     "filename": "openvpn.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/openvpn.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/openvpn-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000181.json",
+    "legacyApiUrl": "/api/icons/openvpn-svg.json"
   },
   {
     "name": "origin",
@@ -2751,10 +3837,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/origin.svg",
-    "id": "origin-svg",
+    "id": "000182",
+    "status": "active",
+    "legacyId": "origin-svg",
+    "legacyIds": [
+      "origin-svg"
+    ],
     "filename": "origin.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/origin.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/origin-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000182.json",
+    "legacyApiUrl": "/api/icons/origin-svg.json"
   },
   {
     "name": "osu",
@@ -2766,10 +3858,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/osu.svg",
-    "id": "osu-svg",
+    "id": "000183",
+    "status": "active",
+    "legacyId": "osu-svg",
+    "legacyIds": [
+      "osu-svg"
+    ],
     "filename": "osu.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/osu.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/osu-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000183.json",
+    "legacyApiUrl": "/api/icons/osu-svg.json"
   },
   {
     "name": "outline",
@@ -2782,10 +3880,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/outline.svg",
-    "id": "outline-svg",
+    "id": "000184",
+    "status": "active",
+    "legacyId": "outline-svg",
+    "legacyIds": [
+      "outline-svg"
+    ],
     "filename": "outline.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/outline.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/outline-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000184.json",
+    "legacyApiUrl": "/api/icons/outline-svg.json"
   },
   {
     "name": "pangolin",
@@ -2797,10 +3901,16 @@
       "Networking"
     ],
     "path": "./assets/svg/pangolin.svg",
-    "id": "pangolin-svg",
+    "id": "000185",
+    "status": "active",
+    "legacyId": "pangolin-svg",
+    "legacyIds": [
+      "pangolin-svg"
+    ],
     "filename": "pangolin.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/pangolin.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/pangolin-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000185.json",
+    "legacyApiUrl": "/api/icons/pangolin-svg.json"
   },
   {
     "name": "papercut",
@@ -2812,10 +3922,16 @@
       "Security"
     ],
     "path": "./assets/svg/papercut.svg",
-    "id": "papercut-svg",
+    "id": "000186",
+    "status": "active",
+    "legacyId": "papercut-svg",
+    "legacyIds": [
+      "papercut-svg"
+    ],
     "filename": "papercut.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/papercut.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/papercut-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000186.json",
+    "legacyApiUrl": "/api/icons/papercut-svg.json"
   },
   {
     "name": "papra",
@@ -2827,10 +3943,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/papra.svg",
-    "id": "papra-svg",
+    "id": "000187",
+    "status": "active",
+    "legacyId": "papra-svg",
+    "legacyIds": [
+      "papra-svg"
+    ],
     "filename": "papra.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/papra.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/papra-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000187.json",
+    "legacyApiUrl": "/api/icons/papra-svg.json"
   },
   {
     "name": "paramount-plus",
@@ -2842,10 +3964,16 @@
       "Media"
     ],
     "path": "./assets/svg/paramount-plus.svg",
-    "id": "paramount-plus-svg",
+    "id": "000188",
+    "status": "active",
+    "legacyId": "paramount-plus-svg",
+    "legacyIds": [
+      "paramount-plus-svg"
+    ],
     "filename": "paramount-plus.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/paramount-plus.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/paramount-plus-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000188.json",
+    "legacyApiUrl": "/api/icons/paramount-plus-svg.json"
   },
   {
     "name": "passbolt",
@@ -2857,10 +3985,16 @@
       "Security"
     ],
     "path": "./assets/svg/passbolt.svg",
-    "id": "passbolt-svg",
+    "id": "000189",
+    "status": "active",
+    "legacyId": "passbolt-svg",
+    "legacyIds": [
+      "passbolt-svg"
+    ],
     "filename": "passbolt.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/passbolt.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/passbolt-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000189.json",
+    "legacyApiUrl": "/api/icons/passbolt-svg.json"
   },
   {
     "name": "pdfforge",
@@ -2872,10 +4006,16 @@
       "Developer"
     ],
     "path": "./assets/svg/pdfforge.svg",
-    "id": "pdfforge-svg",
+    "id": "000190",
+    "status": "active",
+    "legacyId": "pdfforge-svg",
+    "legacyIds": [
+      "pdfforge-svg"
+    ],
     "filename": "pdfforge.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/pdfforge.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/pdfforge-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000190.json",
+    "legacyApiUrl": "/api/icons/pdfforge-svg.json"
   },
   {
     "name": "peacock",
@@ -2887,10 +4027,16 @@
       "Media"
     ],
     "path": "./assets/svg/peacock.svg",
-    "id": "peacock-svg",
+    "id": "000191",
+    "status": "active",
+    "legacyId": "peacock-svg",
+    "legacyIds": [
+      "peacock-svg"
+    ],
     "filename": "peacock.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/peacock.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/peacock-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000191.json",
+    "legacyApiUrl": "/api/icons/peacock-svg.json"
   },
   {
     "name": "peppermint",
@@ -2902,10 +4048,16 @@
       "Operating Systems"
     ],
     "path": "./assets/svg/peppermint.svg",
-    "id": "peppermint-svg",
+    "id": "000192",
+    "status": "active",
+    "legacyId": "peppermint-svg",
+    "legacyIds": [
+      "peppermint-svg"
+    ],
     "filename": "peppermint.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/peppermint.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/peppermint-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000192.json",
+    "legacyApiUrl": "/api/icons/peppermint-svg.json"
   },
   {
     "name": "perplexity",
@@ -2917,10 +4069,16 @@
       "AI"
     ],
     "path": "./assets/svg/perplexity.svg",
-    "id": "perplexity-svg",
+    "id": "000193",
+    "status": "active",
+    "legacyId": "perplexity-svg",
+    "legacyIds": [
+      "perplexity-svg"
+    ],
     "filename": "perplexity.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/perplexity.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/perplexity-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000193.json",
+    "legacyApiUrl": "/api/icons/perplexity-svg.json"
   },
   {
     "name": "pgadmin",
@@ -2932,10 +4090,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/pgadmin.svg",
-    "id": "pgadmin-svg",
+    "id": "000194",
+    "status": "active",
+    "legacyId": "pgadmin-svg",
+    "legacyIds": [
+      "pgadmin-svg"
+    ],
     "filename": "pgadmin.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/pgadmin.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/pgadmin-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000194.json",
+    "legacyApiUrl": "/api/icons/pgadmin-svg.json"
   },
   {
     "name": "php",
@@ -2947,10 +4111,16 @@
       "Developer"
     ],
     "path": "./assets/svg/php.svg",
-    "id": "php-svg",
+    "id": "000195",
+    "status": "active",
+    "legacyId": "php-svg",
+    "legacyIds": [
+      "php-svg"
+    ],
     "filename": "php.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/php.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/php-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000195.json",
+    "legacyApiUrl": "/api/icons/php-svg.json"
   },
   {
     "name": "pi-hole",
@@ -2962,10 +4132,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/pi-hole.svg",
-    "id": "pi-hole-svg",
+    "id": "000196",
+    "status": "active",
+    "legacyId": "pi-hole-svg",
+    "legacyIds": [
+      "pi-hole-svg"
+    ],
     "filename": "pi-hole.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/pi-hole.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/pi-hole-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000196.json",
+    "legacyApiUrl": "/api/icons/pi-hole-svg.json"
   },
   {
     "name": "pigallery2",
@@ -2977,10 +4153,16 @@
       "Media"
     ],
     "path": "./assets/svg/pigallery2.svg",
-    "id": "pigallery2-svg",
+    "id": "000197",
+    "status": "active",
+    "legacyId": "pigallery2-svg",
+    "legacyIds": [
+      "pigallery2-svg"
+    ],
     "filename": "pigallery2.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/pigallery2.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/pigallery2-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000197.json",
+    "legacyApiUrl": "/api/icons/pigallery2-svg.json"
   },
   {
     "name": "pikapods",
@@ -2992,10 +4174,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/pikapods.svg",
-    "id": "pikapods-svg",
+    "id": "000198",
+    "status": "active",
+    "legacyId": "pikapods-svg",
+    "legacyIds": [
+      "pikapods-svg"
+    ],
     "filename": "pikapods.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/pikapods.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/pikapods-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000198.json",
+    "legacyApiUrl": "/api/icons/pikapods-svg.json"
   },
   {
     "name": "pinia",
@@ -3007,10 +4195,16 @@
       "Developer"
     ],
     "path": "./assets/svg/pinia.svg",
-    "id": "pinia-svg",
+    "id": "000199",
+    "status": "active",
+    "legacyId": "pinia-svg",
+    "legacyIds": [
+      "pinia-svg"
+    ],
     "filename": "pinia.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/pinia.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/pinia-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000199.json",
+    "legacyApiUrl": "/api/icons/pinia-svg.json"
   },
   {
     "name": "pioneer",
@@ -3022,10 +4216,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/pioneer.svg",
-    "id": "pioneer-svg",
+    "id": "000200",
+    "status": "active",
+    "legacyId": "pioneer-svg",
+    "legacyIds": [
+      "pioneer-svg"
+    ],
     "filename": "pioneer.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/pioneer.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/pioneer-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000200.json",
+    "legacyApiUrl": "/api/icons/pioneer-svg.json"
   },
   {
     "name": "piwigo",
@@ -3037,10 +4237,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/piwigo.svg",
-    "id": "piwigo-svg",
+    "id": "000201",
+    "status": "active",
+    "legacyId": "piwigo-svg",
+    "legacyIds": [
+      "piwigo-svg"
+    ],
     "filename": "piwigo.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/piwigo.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/piwigo-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000201.json",
+    "legacyApiUrl": "/api/icons/piwigo-svg.json"
   },
   {
     "name": "playstation",
@@ -3052,10 +4258,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/playstation.svg",
-    "id": "playstation-svg",
+    "id": "000202",
+    "status": "active",
+    "legacyId": "playstation-svg",
+    "legacyIds": [
+      "playstation-svg"
+    ],
     "filename": "playstation.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/playstation.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/playstation-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000202.json",
+    "legacyApiUrl": "/api/icons/playstation-svg.json"
   },
   {
     "name": "plex-alt",
@@ -3067,10 +4279,16 @@
       "Media"
     ],
     "path": "./assets/svg/plex-alt.svg",
-    "id": "plex-alt-svg",
+    "id": "000203",
+    "status": "active",
+    "legacyId": "plex-alt-svg",
+    "legacyIds": [
+      "plex-alt-svg"
+    ],
     "filename": "plex-alt.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/plex-alt.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/plex-alt-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000203.json",
+    "legacyApiUrl": "/api/icons/plex-alt-svg.json"
   },
   {
     "name": "pocket-casts",
@@ -3082,10 +4300,16 @@
       "Media"
     ],
     "path": "./assets/svg/pocket-casts.svg",
-    "id": "pocket-casts-svg",
+    "id": "000204",
+    "status": "active",
+    "legacyId": "pocket-casts-svg",
+    "legacyIds": [
+      "pocket-casts-svg"
+    ],
     "filename": "pocket-casts.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/pocket-casts.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/pocket-casts-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000204.json",
+    "legacyApiUrl": "/api/icons/pocket-casts-svg.json"
   },
   {
     "name": "podfetch",
@@ -3097,10 +4321,16 @@
       "Media"
     ],
     "path": "./assets/svg/podfetch.svg",
-    "id": "podfetch-svg",
+    "id": "000205",
+    "status": "active",
+    "legacyId": "podfetch-svg",
+    "legacyIds": [
+      "podfetch-svg"
+    ],
     "filename": "podfetch.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/podfetch.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/podfetch-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000205.json",
+    "legacyApiUrl": "/api/icons/podfetch-svg.json"
   },
   {
     "name": "podify",
@@ -3112,10 +4342,16 @@
       "Media"
     ],
     "path": "./assets/svg/podify.svg",
-    "id": "podify-svg",
+    "id": "000206",
+    "status": "active",
+    "legacyId": "podify-svg",
+    "legacyIds": [
+      "podify-svg"
+    ],
     "filename": "podify.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/podify.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/podify-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000206.json",
+    "legacyApiUrl": "/api/icons/podify-svg.json"
   },
   {
     "name": "portabase",
@@ -3127,10 +4363,16 @@
       "Developer"
     ],
     "path": "./assets/svg/portabase.svg",
-    "id": "portabase-svg",
+    "id": "000207",
+    "status": "active",
+    "legacyId": "portabase-svg",
+    "legacyIds": [
+      "portabase-svg"
+    ],
     "filename": "portabase.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/portabase.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/portabase-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000207.json",
+    "legacyApiUrl": "/api/icons/portabase-svg.json"
   },
   {
     "name": "portainer-alt",
@@ -3142,10 +4384,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/portainer-alt.svg",
-    "id": "portainer-alt-svg",
+    "id": "000208",
+    "status": "active",
+    "legacyId": "portainer-alt-svg",
+    "legacyIds": [
+      "portainer-alt-svg"
+    ],
     "filename": "portainer-alt.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/portainer-alt.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/portainer-alt-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000208.json",
+    "legacyApiUrl": "/api/icons/portainer-alt-svg.json"
   },
   {
     "name": "postman",
@@ -3157,10 +4405,16 @@
       "Developer"
     ],
     "path": "./assets/svg/postman.svg",
-    "id": "postman-svg",
+    "id": "000209",
+    "status": "active",
+    "legacyId": "postman-svg",
+    "legacyIds": [
+      "postman-svg"
+    ],
     "filename": "postman.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/postman.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/postman-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000209.json",
+    "legacyApiUrl": "/api/icons/postman-svg.json"
   },
   {
     "name": "powerbi",
@@ -3172,10 +4426,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/powerbi.svg",
-    "id": "powerbi-svg",
+    "id": "000210",
+    "status": "active",
+    "legacyId": "powerbi-svg",
+    "legacyIds": [
+      "powerbi-svg"
+    ],
     "filename": "powerbi.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/powerbi.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/powerbi-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000210.json",
+    "legacyApiUrl": "/api/icons/powerbi-svg.json"
   },
   {
     "name": "powershell",
@@ -3187,10 +4447,16 @@
       "Developer"
     ],
     "path": "./assets/svg/powershell.svg",
-    "id": "powershell-svg",
+    "id": "000211",
+    "status": "active",
+    "legacyId": "powershell-svg",
+    "legacyIds": [
+      "powershell-svg"
+    ],
     "filename": "powershell.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/powershell.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/powershell-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000211.json",
+    "legacyApiUrl": "/api/icons/powershell-svg.json"
   },
   {
     "name": "proton-mail",
@@ -3203,10 +4469,16 @@
       "Communication"
     ],
     "path": "./assets/svg/proton-mail.svg",
-    "id": "proton-mail-svg",
+    "id": "000212",
+    "status": "active",
+    "legacyId": "proton-mail-svg",
+    "legacyIds": [
+      "proton-mail-svg"
+    ],
     "filename": "proton-mail.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/proton-mail.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/proton-mail-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000212.json",
+    "legacyApiUrl": "/api/icons/proton-mail-svg.json"
   },
   {
     "name": "proton",
@@ -3218,10 +4490,16 @@
       "Security"
     ],
     "path": "./assets/svg/proton.svg",
-    "id": "proton-svg",
+    "id": "000213",
+    "status": "active",
+    "legacyId": "proton-svg",
+    "legacyIds": [
+      "proton-svg"
+    ],
     "filename": "proton.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/proton.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/proton-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000213.json",
+    "legacyApiUrl": "/api/icons/proton-svg.json"
   },
   {
     "name": "proxmox",
@@ -3233,10 +4511,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/proxmox.svg",
-    "id": "proxmox-svg",
+    "id": "000214",
+    "status": "active",
+    "legacyId": "proxmox-svg",
+    "legacyIds": [
+      "proxmox-svg"
+    ],
     "filename": "proxmox.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/proxmox.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/proxmox-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000214.json",
+    "legacyApiUrl": "/api/icons/proxmox-svg.json"
   },
   {
     "name": "puppy-linux",
@@ -3248,10 +4532,16 @@
       "Operating Systems"
     ],
     "path": "./assets/svg/puppy-linux.svg",
-    "id": "puppy-linux-svg",
+    "id": "000215",
+    "status": "active",
+    "legacyId": "puppy-linux-svg",
+    "legacyIds": [
+      "puppy-linux-svg"
+    ],
     "filename": "puppy-linux.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/puppy-linux.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/puppy-linux-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000215.json",
+    "legacyApiUrl": "/api/icons/puppy-linux-svg.json"
   },
   {
     "name": "python",
@@ -3264,10 +4554,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/python.svg",
-    "id": "python-svg",
+    "id": "000216",
+    "status": "active",
+    "legacyId": "python-svg",
+    "legacyIds": [
+      "python-svg"
+    ],
     "filename": "python.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/python.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/python-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000216.json",
+    "legacyApiUrl": "/api/icons/python-svg.json"
   },
   {
     "name": "rainloop",
@@ -3279,10 +4575,16 @@
       "Communication"
     ],
     "path": "./assets/svg/rainloop.svg",
-    "id": "rainloop-svg",
+    "id": "000217",
+    "status": "active",
+    "legacyId": "rainloop-svg",
+    "legacyIds": [
+      "rainloop-svg"
+    ],
     "filename": "rainloop.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/rainloop.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rainloop-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000217.json",
+    "legacyApiUrl": "/api/icons/rainloop-svg.json"
   },
   {
     "name": "rallly",
@@ -3294,10 +4596,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/rallly.svg",
-    "id": "rallly-svg",
+    "id": "000218",
+    "status": "active",
+    "legacyId": "rallly-svg",
+    "legacyIds": [
+      "rallly-svg"
+    ],
     "filename": "rallly.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/rallly.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rallly-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000218.json",
+    "legacyApiUrl": "/api/icons/rallly-svg.json"
   },
   {
     "name": "raspberry-pi",
@@ -3309,10 +4617,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/raspberry-pi.svg",
-    "id": "raspberry-pi-svg",
+    "id": "000219",
+    "status": "active",
+    "legacyId": "raspberry-pi-svg",
+    "legacyIds": [
+      "raspberry-pi-svg"
+    ],
     "filename": "raspberry-pi.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/raspberry-pi.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/raspberry-pi-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000219.json",
+    "legacyApiUrl": "/api/icons/raspberry-pi-svg.json"
   },
   {
     "name": "rclone",
@@ -3324,10 +4638,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/rclone.svg",
-    "id": "rclone-svg",
+    "id": "000220",
+    "status": "active",
+    "legacyId": "rclone-svg",
+    "legacyIds": [
+      "rclone-svg"
+    ],
     "filename": "rclone.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/rclone.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rclone-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000220.json",
+    "legacyApiUrl": "/api/icons/rclone-svg.json"
   },
   {
     "name": "reactjs",
@@ -3339,10 +4659,16 @@
       "Developer"
     ],
     "path": "./assets/svg/reactjs.svg",
-    "id": "reactjs-svg",
+    "id": "000221",
+    "status": "active",
+    "legacyId": "reactjs-svg",
+    "legacyIds": [
+      "reactjs-svg"
+    ],
     "filename": "reactjs.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/reactjs.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/reactjs-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000221.json",
+    "legacyApiUrl": "/api/icons/reactjs-svg.json"
   },
   {
     "name": "recipesage",
@@ -3354,10 +4680,16 @@
       "Food & Beverage"
     ],
     "path": "./assets/svg/recipesage.svg",
-    "id": "recipesage-svg",
+    "id": "000222",
+    "status": "active",
+    "legacyId": "recipesage-svg",
+    "legacyIds": [
+      "recipesage-svg"
+    ],
     "filename": "recipesage.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/recipesage.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/recipesage-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000222.json",
+    "legacyApiUrl": "/api/icons/recipesage-svg.json"
   },
   {
     "name": "recyclarr",
@@ -3369,10 +4701,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/recyclarr.svg",
-    "id": "recyclarr-svg",
+    "id": "000223",
+    "status": "active",
+    "legacyId": "recyclarr-svg",
+    "legacyIds": [
+      "recyclarr-svg"
+    ],
     "filename": "recyclarr.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/recyclarr.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/recyclarr-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000223.json",
+    "legacyApiUrl": "/api/icons/recyclarr-svg.json"
   },
   {
     "name": "redhat-linux",
@@ -3384,10 +4722,16 @@
       "Operating Systems"
     ],
     "path": "./assets/svg/redhat-linux.svg",
-    "id": "redhat-linux-svg",
+    "id": "000224",
+    "status": "active",
+    "legacyId": "redhat-linux-svg",
+    "legacyIds": [
+      "redhat-linux-svg"
+    ],
     "filename": "redhat-linux.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/redhat-linux.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/redhat-linux-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000224.json",
+    "legacyApiUrl": "/api/icons/redhat-linux-svg.json"
   },
   {
     "name": "redis",
@@ -3399,10 +4743,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/redis.svg",
-    "id": "redis-svg",
+    "id": "000225",
+    "status": "active",
+    "legacyId": "redis-svg",
+    "legacyIds": [
+      "redis-svg"
+    ],
     "filename": "redis.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/redis.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/redis-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000225.json",
+    "legacyApiUrl": "/api/icons/redis-svg.json"
   },
   {
     "name": "remmina",
@@ -3415,10 +4765,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/remmina.svg",
-    "id": "remmina-svg",
+    "id": "000226",
+    "status": "active",
+    "legacyId": "remmina-svg",
+    "legacyIds": [
+      "remmina-svg"
+    ],
     "filename": "remmina.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/remmina.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/remmina-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000226.json",
+    "legacyApiUrl": "/api/icons/remmina-svg.json"
   },
   {
     "name": "rocky-linux",
@@ -3430,10 +4786,16 @@
       "Operating Systems"
     ],
     "path": "./assets/svg/rocky-linux.svg",
-    "id": "rocky-linux-svg",
+    "id": "000227",
+    "status": "active",
+    "legacyId": "rocky-linux-svg",
+    "legacyIds": [
+      "rocky-linux-svg"
+    ],
     "filename": "rocky-linux.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/rocky-linux.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rocky-linux-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000227.json",
+    "legacyApiUrl": "/api/icons/rocky-linux-svg.json"
   },
   {
     "name": "rstudio",
@@ -3446,10 +4808,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/rstudio.svg",
-    "id": "rstudio-svg",
+    "id": "000228",
+    "status": "active",
+    "legacyId": "rstudio-svg",
+    "legacyIds": [
+      "rstudio-svg"
+    ],
     "filename": "rstudio.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/rstudio.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rstudio-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000228.json",
+    "legacyApiUrl": "/api/icons/rstudio-svg.json"
   },
   {
     "name": "rust",
@@ -3462,10 +4830,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/rust.svg",
-    "id": "rust-svg",
+    "id": "000229",
+    "status": "active",
+    "legacyId": "rust-svg",
+    "legacyIds": [
+      "rust-svg"
+    ],
     "filename": "rust.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/rust.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rust-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000229.json",
+    "legacyApiUrl": "/api/icons/rust-svg.json"
   },
   {
     "name": "rustdesk",
@@ -3478,10 +4852,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/rustdesk.svg",
-    "id": "rustdesk-svg",
+    "id": "000230",
+    "status": "active",
+    "legacyId": "rustdesk-svg",
+    "legacyIds": [
+      "rustdesk-svg"
+    ],
     "filename": "rustdesk.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/rustdesk.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rustdesk-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000230.json",
+    "legacyApiUrl": "/api/icons/rustdesk-svg.json"
   },
   {
     "name": "send",
@@ -3493,10 +4873,16 @@
       "Communication"
     ],
     "path": "./assets/svg/send.svg",
-    "id": "send-svg",
+    "id": "000231",
+    "status": "active",
+    "legacyId": "send-svg",
+    "legacyIds": [
+      "send-svg"
+    ],
     "filename": "send.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/send.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/send-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000231.json",
+    "legacyApiUrl": "/api/icons/send-svg.json"
   },
   {
     "name": "shell-tips",
@@ -3508,10 +4894,16 @@
       "Developer"
     ],
     "path": "./assets/svg/shell-tips.svg",
-    "id": "shell-tips-svg",
+    "id": "000232",
+    "status": "active",
+    "legacyId": "shell-tips-svg",
+    "legacyIds": [
+      "shell-tips-svg"
+    ],
     "filename": "shell-tips.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/shell-tips.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/shell-tips-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000232.json",
+    "legacyApiUrl": "/api/icons/shell-tips-svg.json"
   },
   {
     "name": "shell",
@@ -3523,10 +4915,16 @@
       "Developer"
     ],
     "path": "./assets/svg/shell.svg",
-    "id": "shell-svg",
+    "id": "000233",
+    "status": "active",
+    "legacyId": "shell-svg",
+    "legacyIds": [
+      "shell-svg"
+    ],
     "filename": "shell.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/shell.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/shell-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000233.json",
+    "legacyApiUrl": "/api/icons/shell-svg.json"
   },
   {
     "name": "sinusbot",
@@ -3538,10 +4936,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/sinusbot.svg",
-    "id": "sinusbot-svg",
+    "id": "000234",
+    "status": "active",
+    "legacyId": "sinusbot-svg",
+    "legacyIds": [
+      "sinusbot-svg"
+    ],
     "filename": "sinusbot.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/sinusbot.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/sinusbot-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000234.json",
+    "legacyApiUrl": "/api/icons/sinusbot-svg.json"
   },
   {
     "name": "skype",
@@ -3553,10 +4957,16 @@
       "Communication"
     ],
     "path": "./assets/svg/skype.svg",
-    "id": "skype-svg",
+    "id": "000235",
+    "status": "active",
+    "legacyId": "skype-svg",
+    "legacyIds": [
+      "skype-svg"
+    ],
     "filename": "skype.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/skype.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/skype-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000235.json",
+    "legacyApiUrl": "/api/icons/skype-svg.json"
   },
   {
     "name": "sun-panel",
@@ -3568,10 +4978,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/sun-panel.svg",
-    "id": "sun-panel-svg",
+    "id": "000236",
+    "status": "active",
+    "legacyId": "sun-panel-svg",
+    "legacyIds": [
+      "sun-panel-svg"
+    ],
     "filename": "sun-panel.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/sun-panel.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/sun-panel-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000236.json",
+    "legacyApiUrl": "/api/icons/sun-panel-svg.json"
   },
   {
     "name": "supabase",
@@ -3583,10 +4999,16 @@
       "Cloud"
     ],
     "path": "./assets/svg/supabase.svg",
-    "id": "supabase-svg",
+    "id": "000237",
+    "status": "active",
+    "legacyId": "supabase-svg",
+    "legacyIds": [
+      "supabase-svg"
+    ],
     "filename": "supabase.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/supabase.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/supabase-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000237.json",
+    "legacyApiUrl": "/api/icons/supabase-svg.json"
   },
   {
     "name": "surfshark",
@@ -3598,10 +5020,16 @@
       "Networking"
     ],
     "path": "./assets/svg/surfshark.svg",
-    "id": "surfshark-svg",
+    "id": "000238",
+    "status": "active",
+    "legacyId": "surfshark-svg",
+    "legacyIds": [
+      "surfshark-svg"
+    ],
     "filename": "surfshark.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/surfshark.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/surfshark-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000238.json",
+    "legacyApiUrl": "/api/icons/surfshark-svg.json"
   },
   {
     "name": "swagger",
@@ -3613,10 +5041,16 @@
       "Developer"
     ],
     "path": "./assets/svg/swagger.svg",
-    "id": "swagger-svg",
+    "id": "000239",
+    "status": "active",
+    "legacyId": "swagger-svg",
+    "legacyIds": [
+      "swagger-svg"
+    ],
     "filename": "swagger.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/swagger.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/swagger-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000239.json",
+    "legacyApiUrl": "/api/icons/swagger-svg.json"
   },
   {
     "name": "swift",
@@ -3628,10 +5062,16 @@
       "Developer"
     ],
     "path": "./assets/svg/swift.svg",
-    "id": "swift-svg",
+    "id": "000240",
+    "status": "active",
+    "legacyId": "swift-svg",
+    "legacyIds": [
+      "swift-svg"
+    ],
     "filename": "swift.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/swift.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/swift-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000240.json",
+    "legacyApiUrl": "/api/icons/swift-svg.json"
   },
   {
     "name": "syncthing",
@@ -3643,10 +5083,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/syncthing.svg",
-    "id": "syncthing-svg",
+    "id": "000241",
+    "status": "active",
+    "legacyId": "syncthing-svg",
+    "legacyIds": [
+      "syncthing-svg"
+    ],
     "filename": "syncthing.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/syncthing.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/syncthing-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000241.json",
+    "legacyApiUrl": "/api/icons/syncthing-svg.json"
   },
   {
     "name": "tailscale",
@@ -3658,10 +5104,16 @@
       "Networking"
     ],
     "path": "./assets/svg/tailscale.svg",
-    "id": "tailscale-svg",
+    "id": "000242",
+    "status": "active",
+    "legacyId": "tailscale-svg",
+    "legacyIds": [
+      "tailscale-svg"
+    ],
     "filename": "tailscale.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/tailscale.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/tailscale-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000242.json",
+    "legacyApiUrl": "/api/icons/tailscale-svg.json"
   },
   {
     "name": "telekom",
@@ -3673,10 +5125,16 @@
       "Networking"
     ],
     "path": "./assets/svg/telekom.svg",
-    "id": "telekom-svg",
+    "id": "000243",
+    "status": "active",
+    "legacyId": "telekom-svg",
+    "legacyIds": [
+      "telekom-svg"
+    ],
     "filename": "telekom.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/telekom.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/telekom-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000243.json",
+    "legacyApiUrl": "/api/icons/telekom-svg.json"
   },
   {
     "name": "threads",
@@ -3688,10 +5146,16 @@
       "Social"
     ],
     "path": "./assets/svg/threads.svg",
-    "id": "threads-svg",
+    "id": "000244",
+    "status": "active",
+    "legacyId": "threads-svg",
+    "legacyIds": [
+      "threads-svg"
+    ],
     "filename": "threads.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/threads.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/threads-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000244.json",
+    "legacyApiUrl": "/api/icons/threads-svg.json"
   },
   {
     "name": "traefik",
@@ -3703,10 +5167,16 @@
       "Infrastructure"
     ],
     "path": "./assets/svg/traefik.svg",
-    "id": "traefik-svg",
+    "id": "000245",
+    "status": "active",
+    "legacyId": "traefik-svg",
+    "legacyIds": [
+      "traefik-svg"
+    ],
     "filename": "traefik.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/traefik.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/traefik-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000245.json",
+    "legacyApiUrl": "/api/icons/traefik-svg.json"
   },
   {
     "name": "tumblr",
@@ -3718,10 +5188,16 @@
       "Social"
     ],
     "path": "./assets/svg/tumblr.svg",
-    "id": "tumblr-svg",
+    "id": "000246",
+    "status": "active",
+    "legacyId": "tumblr-svg",
+    "legacyIds": [
+      "tumblr-svg"
+    ],
     "filename": "tumblr.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/tumblr.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/tumblr-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000246.json",
+    "legacyApiUrl": "/api/icons/tumblr-svg.json"
   },
   {
     "name": "twitch",
@@ -3733,10 +5209,16 @@
       "Media"
     ],
     "path": "./assets/svg/twitch.svg",
-    "id": "twitch-svg",
+    "id": "000247",
+    "status": "active",
+    "legacyId": "twitch-svg",
+    "legacyIds": [
+      "twitch-svg"
+    ],
     "filename": "twitch.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/twitch.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/twitch-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000247.json",
+    "legacyApiUrl": "/api/icons/twitch-svg.json"
   },
   {
     "name": "twitter",
@@ -3748,10 +5230,16 @@
       "Social"
     ],
     "path": "./assets/svg/twitter.svg",
-    "id": "twitter-svg",
+    "id": "000248",
+    "status": "active",
+    "legacyId": "twitter-svg",
+    "legacyIds": [
+      "twitter-svg"
+    ],
     "filename": "twitter.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/twitter.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/twitter-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000248.json",
+    "legacyApiUrl": "/api/icons/twitter-svg.json"
   },
   {
     "name": "tyepcho",
@@ -3763,10 +5251,16 @@
       "Developer"
     ],
     "path": "./assets/svg/tyepcho.svg",
-    "id": "tyepcho-svg",
+    "id": "000249",
+    "status": "active",
+    "legacyId": "tyepcho-svg",
+    "legacyIds": [
+      "tyepcho-svg"
+    ],
     "filename": "tyepcho.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/tyepcho.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/tyepcho-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000249.json",
+    "legacyApiUrl": "/api/icons/tyepcho-svg.json"
   },
   {
     "name": "typescript",
@@ -3778,10 +5272,16 @@
       "Developer"
     ],
     "path": "./assets/svg/typescript.svg",
-    "id": "typescript-svg",
+    "id": "000250",
+    "status": "active",
+    "legacyId": "typescript-svg",
+    "legacyIds": [
+      "typescript-svg"
+    ],
     "filename": "typescript.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/typescript.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/typescript-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000250.json",
+    "legacyApiUrl": "/api/icons/typescript-svg.json"
   },
   {
     "name": "ubuntu-linux",
@@ -3794,10 +5294,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/ubuntu-linux.svg",
-    "id": "ubuntu-linux-svg",
+    "id": "000251",
+    "status": "active",
+    "legacyId": "ubuntu-linux-svg",
+    "legacyIds": [
+      "ubuntu-linux-svg"
+    ],
     "filename": "ubuntu-linux.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/ubuntu-linux.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/ubuntu-linux-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000251.json",
+    "legacyApiUrl": "/api/icons/ubuntu-linux-svg.json"
   },
   {
     "name": "unreal-engine",
@@ -3809,10 +5315,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/unreal-engine.svg",
-    "id": "unreal-engine-svg",
+    "id": "000252",
+    "status": "active",
+    "legacyId": "unreal-engine-svg",
+    "legacyIds": [
+      "unreal-engine-svg"
+    ],
     "filename": "unreal-engine.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/unreal-engine.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/unreal-engine-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000252.json",
+    "legacyApiUrl": "/api/icons/unreal-engine-svg.json"
   },
   {
     "name": "vim",
@@ -3825,10 +5337,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/vim.svg",
-    "id": "vim-svg",
+    "id": "000253",
+    "status": "active",
+    "legacyId": "vim-svg",
+    "legacyIds": [
+      "vim-svg"
+    ],
     "filename": "vim.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/vim.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/vim-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000253.json",
+    "legacyApiUrl": "/api/icons/vim-svg.json"
   },
   {
     "name": "visual-studio-code",
@@ -3840,10 +5358,16 @@
       "Developer"
     ],
     "path": "./assets/svg/visual-studio-code.svg",
-    "id": "visual-studio-code-svg",
+    "id": "000254",
+    "status": "active",
+    "legacyId": "visual-studio-code-svg",
+    "legacyIds": [
+      "visual-studio-code-svg"
+    ],
     "filename": "visual-studio-code.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/visual-studio-code.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/visual-studio-code-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000254.json",
+    "legacyApiUrl": "/api/icons/visual-studio-code-svg.json"
   },
   {
     "name": "vodafone",
@@ -3855,10 +5379,16 @@
       "Communication"
     ],
     "path": "./assets/svg/vodafone.svg",
-    "id": "vodafone-svg",
+    "id": "000255",
+    "status": "active",
+    "legacyId": "vodafone-svg",
+    "legacyIds": [
+      "vodafone-svg"
+    ],
     "filename": "vodafone.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/vodafone.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/vodafone-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000255.json",
+    "legacyApiUrl": "/api/icons/vodafone-svg.json"
   },
   {
     "name": "vue-js",
@@ -3870,10 +5400,16 @@
       "Developer"
     ],
     "path": "./assets/svg/vue-js.svg",
-    "id": "vue-js-svg",
+    "id": "000256",
+    "status": "active",
+    "legacyId": "vue-js-svg",
+    "legacyIds": [
+      "vue-js-svg"
+    ],
     "filename": "vue-js.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/vue-js.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/vue-js-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000256.json",
+    "legacyApiUrl": "/api/icons/vue-js-svg.json"
   },
   {
     "name": "webhook",
@@ -3886,10 +5422,16 @@
       "Networking"
     ],
     "path": "./assets/svg/webhook.svg",
-    "id": "webhook-svg",
+    "id": "000257",
+    "status": "active",
+    "legacyId": "webhook-svg",
+    "legacyIds": [
+      "webhook-svg"
+    ],
     "filename": "webhook.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/webhook.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/webhook-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000257.json",
+    "legacyApiUrl": "/api/icons/webhook-svg.json"
   },
   {
     "name": "windows-10",
@@ -3901,10 +5443,16 @@
       "Operating Systems"
     ],
     "path": "./assets/svg/windows-10.svg",
-    "id": "windows-10-svg",
+    "id": "000258",
+    "status": "active",
+    "legacyId": "windows-10-svg",
+    "legacyIds": [
+      "windows-10-svg"
+    ],
     "filename": "windows-10.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/windows-10.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/windows-10-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000258.json",
+    "legacyApiUrl": "/api/icons/windows-10-svg.json"
   },
   {
     "name": "windows-11",
@@ -3916,10 +5464,16 @@
       "Operating Systems"
     ],
     "path": "./assets/svg/windows-11.svg",
-    "id": "windows-11-svg",
+    "id": "000259",
+    "status": "active",
+    "legacyId": "windows-11-svg",
+    "legacyIds": [
+      "windows-11-svg"
+    ],
     "filename": "windows-11.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/windows-11.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/windows-11-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000259.json",
+    "legacyApiUrl": "/api/icons/windows-11-svg.json"
   },
   {
     "name": "windows-explorer",
@@ -3931,10 +5485,16 @@
       "Productivity"
     ],
     "path": "./assets/svg/windows-explorer.svg",
-    "id": "windows-explorer-svg",
+    "id": "000260",
+    "status": "active",
+    "legacyId": "windows-explorer-svg",
+    "legacyIds": [
+      "windows-explorer-svg"
+    ],
     "filename": "windows-explorer.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/windows-explorer.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/windows-explorer-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000260.json",
+    "legacyApiUrl": "/api/icons/windows-explorer-svg.json"
   },
   {
     "name": "wordpress",
@@ -3946,10 +5506,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/wordpress.svg",
-    "id": "wordpress-svg",
+    "id": "000261",
+    "status": "active",
+    "legacyId": "wordpress-svg",
+    "legacyIds": [
+      "wordpress-svg"
+    ],
     "filename": "wordpress.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/wordpress.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/wordpress-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000261.json",
+    "legacyApiUrl": "/api/icons/wordpress-svg.json"
   },
   {
     "name": "x",
@@ -3961,10 +5527,16 @@
       "Social"
     ],
     "path": "./assets/svg/x.svg",
-    "id": "x-svg",
+    "id": "000262",
+    "status": "active",
+    "legacyId": "x-svg",
+    "legacyIds": [
+      "x-svg"
+    ],
     "filename": "x.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/x.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/x-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000262.json",
+    "legacyApiUrl": "/api/icons/x-svg.json"
   },
   {
     "name": "xbox",
@@ -3976,10 +5548,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/xbox.svg",
-    "id": "xbox-svg",
+    "id": "000263",
+    "status": "active",
+    "legacyId": "xbox-svg",
+    "legacyIds": [
+      "xbox-svg"
+    ],
     "filename": "xbox.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/xbox.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/xbox-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000263.json",
+    "legacyApiUrl": "/api/icons/xbox-svg.json"
   },
   {
     "name": "xubuntu-linux",
@@ -3991,10 +5569,16 @@
       "Operating Systems"
     ],
     "path": "./assets/svg/xubuntu-linux.svg",
-    "id": "xubuntu-linux-svg",
+    "id": "000264",
+    "status": "active",
+    "legacyId": "xubuntu-linux-svg",
+    "legacyIds": [
+      "xubuntu-linux-svg"
+    ],
     "filename": "xubuntu-linux.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/xubuntu-linux.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/xubuntu-linux-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000264.json",
+    "legacyApiUrl": "/api/icons/xubuntu-linux-svg.json"
   },
   {
     "name": "yahoo",
@@ -4006,10 +5590,16 @@
       "Technology"
     ],
     "path": "./assets/svg/yahoo.svg",
-    "id": "yahoo-svg",
+    "id": "000265",
+    "status": "active",
+    "legacyId": "yahoo-svg",
+    "legacyIds": [
+      "yahoo-svg"
+    ],
     "filename": "yahoo.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/yahoo.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/yahoo-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000265.json",
+    "legacyApiUrl": "/api/icons/yahoo-svg.json"
   },
   {
     "name": "yandex",
@@ -4021,10 +5611,16 @@
       "Technology"
     ],
     "path": "./assets/svg/yandex.svg",
-    "id": "yandex-svg",
+    "id": "000266",
+    "status": "active",
+    "legacyId": "yandex-svg",
+    "legacyIds": [
+      "yandex-svg"
+    ],
     "filename": "yandex.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/yandex.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/yandex-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000266.json",
+    "legacyApiUrl": "/api/icons/yandex-svg.json"
   },
   {
     "name": "youtube",
@@ -4036,10 +5632,16 @@
       "Media"
     ],
     "path": "./assets/svg/youtube.svg",
-    "id": "youtube-svg",
+    "id": "000267",
+    "status": "active",
+    "legacyId": "youtube-svg",
+    "legacyIds": [
+      "youtube-svg"
+    ],
     "filename": "youtube.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/youtube.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/youtube-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000267.json",
+    "legacyApiUrl": "/api/icons/youtube-svg.json"
   },
   {
     "name": "250",
@@ -4051,10 +5653,16 @@
       "Other"
     ],
     "path": "./assets/svg/250.svg",
-    "id": "250-svg",
+    "id": "000268",
+    "status": "active",
+    "legacyId": "250-svg",
+    "legacyIds": [
+      "250-svg"
+    ],
     "filename": "250.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/250.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/250-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000268.json",
+    "legacyApiUrl": "/api/icons/250-svg.json"
   },
   {
     "name": "3m",
@@ -4066,10 +5674,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/3m.svg",
-    "id": "3m-svg",
+    "id": "000269",
+    "status": "active",
+    "legacyId": "3m-svg",
+    "legacyIds": [
+      "3m-svg"
+    ],
     "filename": "3m.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/3m.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/3m-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000269.json",
+    "legacyApiUrl": "/api/icons/3m-svg.json"
   },
   {
     "name": "alter",
@@ -4081,10 +5695,16 @@
       "Other"
     ],
     "path": "./assets/svg/alter.svg",
-    "id": "alter-svg",
+    "id": "000270",
+    "status": "active",
+    "legacyId": "alter-svg",
+    "legacyIds": [
+      "alter-svg"
+    ],
     "filename": "alter.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/alter.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/alter-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000270.json",
+    "legacyApiUrl": "/api/icons/alter-svg.json"
   },
   {
     "name": "amex",
@@ -4096,10 +5716,16 @@
       "Finance"
     ],
     "path": "./assets/svg/amex.svg",
-    "id": "amex-svg",
+    "id": "000271",
+    "status": "active",
+    "legacyId": "amex-svg",
+    "legacyIds": [
+      "amex-svg"
+    ],
     "filename": "amex.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/amex.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/amex-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000271.json",
+    "legacyApiUrl": "/api/icons/amex-svg.json"
   },
   {
     "name": "Aniplex",
@@ -4111,10 +5737,16 @@
       "Media"
     ],
     "path": "./assets/svg/Aniplex.svg",
-    "id": "aniplex-svg",
+    "id": "000272",
+    "status": "active",
+    "legacyId": "aniplex-svg",
+    "legacyIds": [
+      "aniplex-svg"
+    ],
     "filename": "Aniplex.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Aniplex.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/aniplex-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000272.json",
+    "legacyApiUrl": "/api/icons/aniplex-svg.json"
   },
   {
     "name": "ASML",
@@ -4126,10 +5758,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/ASML.svg",
-    "id": "asml-svg",
+    "id": "000273",
+    "status": "active",
+    "legacyId": "asml-svg",
+    "legacyIds": [
+      "asml-svg"
+    ],
     "filename": "ASML.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/ASML.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/asml-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000273.json",
+    "legacyApiUrl": "/api/icons/asml-svg.json"
   },
   {
     "name": "ATI",
@@ -4141,10 +5779,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/ATI.svg",
-    "id": "ati-svg",
+    "id": "000274",
+    "status": "active",
+    "legacyId": "ati-svg",
+    "legacyIds": [
+      "ati-svg"
+    ],
     "filename": "ATI.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/ATI.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/ati-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000274.json",
+    "legacyApiUrl": "/api/icons/ati-svg.json"
   },
   {
     "name": "Bandai",
@@ -4156,10 +5800,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/Bandai.svg",
-    "id": "bandai-svg",
+    "id": "000275",
+    "status": "active",
+    "legacyId": "bandai-svg",
+    "legacyIds": [
+      "bandai-svg"
+    ],
     "filename": "Bandai.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Bandai.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/bandai-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000275.json",
+    "legacyApiUrl": "/api/icons/bandai-svg.json"
   },
   {
     "name": "BandaiNamco",
@@ -4171,10 +5821,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/BandaiNamco.svg",
-    "id": "bandainamco-svg",
+    "id": "000276",
+    "status": "active",
+    "legacyId": "bandainamco-svg",
+    "legacyIds": [
+      "bandainamco-svg"
+    ],
     "filename": "BandaiNamco.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/BandaiNamco.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/bandainamco-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000276.json",
+    "legacyApiUrl": "/api/icons/bandainamco-svg.json"
   },
   {
     "name": "Banpresto",
@@ -4186,10 +5842,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/Banpresto.svg",
-    "id": "banpresto-svg",
+    "id": "000277",
+    "status": "active",
+    "legacyId": "banpresto-svg",
+    "legacyIds": [
+      "banpresto-svg"
+    ],
     "filename": "Banpresto.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Banpresto.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/banpresto-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000277.json",
+    "legacyApiUrl": "/api/icons/banpresto-svg.json"
   },
   {
     "name": "boa",
@@ -4201,10 +5863,16 @@
       "Finance"
     ],
     "path": "./assets/svg/boa.svg",
-    "id": "boa-svg",
+    "id": "000278",
+    "status": "active",
+    "legacyId": "boa-svg",
+    "legacyIds": [
+      "boa-svg"
+    ],
     "filename": "boa.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/boa.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/boa-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000278.json",
+    "legacyApiUrl": "/api/icons/boa-svg.json"
   },
   {
     "name": "BochsVector",
@@ -4216,10 +5884,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/BochsVector.svg",
-    "id": "bochsvector-svg",
+    "id": "000279",
+    "status": "active",
+    "legacyId": "bochsvector-svg",
+    "legacyIds": [
+      "bochsvector-svg"
+    ],
     "filename": "BochsVector.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/BochsVector.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/bochsvector-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000279.json",
+    "legacyApiUrl": "/api/icons/bochsvector-svg.json"
   },
   {
     "name": "boeing",
@@ -4231,10 +5905,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/boeing.svg",
-    "id": "boeing-svg",
+    "id": "000280",
+    "status": "active",
+    "legacyId": "boeing-svg",
+    "legacyIds": [
+      "boeing-svg"
+    ],
     "filename": "boeing.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/boeing.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/boeing-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000280.json",
+    "legacyApiUrl": "/api/icons/boeing-svg.json"
   },
   {
     "name": "BurgerKing",
@@ -4246,10 +5926,16 @@
       "Food & Beverage"
     ],
     "path": "./assets/svg/BurgerKing.svg",
-    "id": "burgerking-svg",
+    "id": "000281",
+    "status": "active",
+    "legacyId": "burgerking-svg",
+    "legacyIds": [
+      "burgerking-svg"
+    ],
     "filename": "BurgerKing.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/BurgerKing.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/burgerking-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000281.json",
+    "legacyApiUrl": "/api/icons/burgerking-svg.json"
   },
   {
     "name": "Caterpillar",
@@ -4261,10 +5947,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/Caterpillar.svg",
-    "id": "caterpillar-svg",
+    "id": "000282",
+    "status": "active",
+    "legacyId": "caterpillar-svg",
+    "legacyIds": [
+      "caterpillar-svg"
+    ],
     "filename": "Caterpillar.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Caterpillar.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/caterpillar-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000282.json",
+    "legacyApiUrl": "/api/icons/caterpillar-svg.json"
   },
   {
     "name": "cisco",
@@ -4277,10 +5969,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/cisco.svg",
-    "id": "cisco-svg",
+    "id": "000283",
+    "status": "active",
+    "legacyId": "cisco-svg",
+    "legacyIds": [
+      "cisco-svg"
+    ],
     "filename": "cisco.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/cisco.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/cisco-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000283.json",
+    "legacyApiUrl": "/api/icons/cisco-svg.json"
   },
   {
     "name": "cocacola",
@@ -4292,10 +5990,16 @@
       "Food & Beverage"
     ],
     "path": "./assets/svg/cocacola.svg",
-    "id": "cocacola-svg",
+    "id": "000284",
+    "status": "active",
+    "legacyId": "cocacola-svg",
+    "legacyIds": [
+      "cocacola-svg"
+    ],
     "filename": "cocacola.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/cocacola.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/cocacola-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000284.json",
+    "legacyApiUrl": "/api/icons/cocacola-svg.json"
   },
   {
     "name": "Daemonphk",
@@ -4307,10 +6011,16 @@
       "Other"
     ],
     "path": "./assets/svg/Daemonphk.svg",
-    "id": "daemonphk-svg",
+    "id": "000285",
+    "status": "active",
+    "legacyId": "daemonphk-svg",
+    "legacyIds": [
+      "daemonphk-svg"
+    ],
     "filename": "Daemonphk.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Daemonphk.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/daemonphk-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000285.json",
+    "legacyApiUrl": "/api/icons/daemonphk-svg.json"
   },
   {
     "name": "dashboardicons",
@@ -4322,10 +6032,16 @@
       "Technology"
     ],
     "path": "./assets/svg/dashboardicons.svg",
-    "id": "dashboardicons-svg",
+    "id": "000286",
+    "status": "active",
+    "legacyId": "dashboardicons-svg",
+    "legacyIds": [
+      "dashboardicons-svg"
+    ],
     "filename": "dashboardicons.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/dashboardicons.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dashboardicons-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000286.json",
+    "legacyApiUrl": "/api/icons/dashboardicons-svg.json"
   },
   {
     "name": "Dassaultsystemes",
@@ -4337,10 +6053,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/Dassaultsystemes.svg",
-    "id": "dassaultsystemes-svg",
+    "id": "000287",
+    "status": "active",
+    "legacyId": "dassaultsystemes-svg",
+    "legacyIds": [
+      "dassaultsystemes-svg"
+    ],
     "filename": "Dassaultsystemes.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Dassaultsystemes.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dassaultsystemes-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000287.json",
+    "legacyApiUrl": "/api/icons/dassaultsystemes-svg.json"
   },
   {
     "name": "debian",
@@ -4352,10 +6074,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/debian.svg",
-    "id": "debian-svg",
+    "id": "000288",
+    "status": "active",
+    "legacyId": "debian-svg",
+    "legacyIds": [
+      "debian-svg"
+    ],
     "filename": "debian.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/debian.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/debian-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000288.json",
+    "legacyApiUrl": "/api/icons/debian-svg.json"
   },
   {
     "name": "DisneyChannel",
@@ -4367,10 +6095,16 @@
       "Media"
     ],
     "path": "./assets/svg/DisneyChannel.svg",
-    "id": "disneychannel-svg",
+    "id": "000289",
+    "status": "active",
+    "legacyId": "disneychannel-svg",
+    "legacyIds": [
+      "disneychannel-svg"
+    ],
     "filename": "DisneyChannel.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/DisneyChannel.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/disneychannel-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000289.json",
+    "legacyApiUrl": "/api/icons/disneychannel-svg.json"
   },
   {
     "name": "Dominos",
@@ -4382,10 +6116,16 @@
       "Food & Beverage"
     ],
     "path": "./assets/svg/Dominos.svg",
-    "id": "dominos-svg",
+    "id": "000290",
+    "status": "active",
+    "legacyId": "dominos-svg",
+    "legacyIds": [
+      "dominos-svg"
+    ],
     "filename": "Dominos.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Dominos.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dominos-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000290.json",
+    "legacyApiUrl": "/api/icons/dominos-svg.json"
   },
   {
     "name": "dzfdd",
@@ -4397,10 +6137,16 @@
       "Other"
     ],
     "path": "./assets/svg/dzfdd.svg",
-    "id": "dzfdd-svg",
+    "id": "000291",
+    "status": "active",
+    "legacyId": "dzfdd-svg",
+    "legacyIds": [
+      "dzfdd-svg"
+    ],
     "filename": "dzfdd.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/dzfdd.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/dzfdd-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000291.json",
+    "legacyApiUrl": "/api/icons/dzfdd-svg.json"
   },
   {
     "name": "fanta",
@@ -4412,10 +6158,16 @@
       "Food & Beverage"
     ],
     "path": "./assets/svg/fanta.svg",
-    "id": "fanta-svg",
+    "id": "000292",
+    "status": "active",
+    "legacyId": "fanta-svg",
+    "legacyIds": [
+      "fanta-svg"
+    ],
     "filename": "fanta.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/fanta.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/fanta-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000292.json",
+    "legacyApiUrl": "/api/icons/fanta-svg.json"
   },
   {
     "name": "FCCsymbol",
@@ -4427,10 +6179,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/FCCsymbol.svg",
-    "id": "fccsymbol-svg",
+    "id": "000293",
+    "status": "active",
+    "legacyId": "fccsymbol-svg",
+    "legacyIds": [
+      "fccsymbol-svg"
+    ],
     "filename": "FCCsymbol.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/FCCsymbol.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/fccsymbol-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000293.json",
+    "legacyApiUrl": "/api/icons/fccsymbol-svg.json"
   },
   {
     "name": "fedex",
@@ -4442,10 +6200,16 @@
       "E-commerce"
     ],
     "path": "./assets/svg/fedex.svg",
-    "id": "fedex-svg",
+    "id": "000294",
+    "status": "active",
+    "legacyId": "fedex-svg",
+    "legacyIds": [
+      "fedex-svg"
+    ],
     "filename": "fedex.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/fedex.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/fedex-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000294.json",
+    "legacyApiUrl": "/api/icons/fedex-svg.json"
   },
   {
     "name": "Fila",
@@ -4457,10 +6221,16 @@
       "Other"
     ],
     "path": "./assets/svg/Fila.svg",
-    "id": "fila-svg",
+    "id": "000295",
+    "status": "active",
+    "legacyId": "fila-svg",
+    "legacyIds": [
+      "fila-svg"
+    ],
     "filename": "Fila.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Fila.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/fila-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000295.json",
+    "legacyApiUrl": "/api/icons/fila-svg.json"
   },
   {
     "name": "FSC",
@@ -4472,10 +6242,16 @@
       "Other"
     ],
     "path": "./assets/svg/FSC.svg",
-    "id": "fsc-svg",
+    "id": "000296",
+    "status": "active",
+    "legacyId": "fsc-svg",
+    "legacyIds": [
+      "fsc-svg"
+    ],
     "filename": "FSC.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/FSC.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/fsc-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000296.json",
+    "legacyApiUrl": "/api/icons/fsc-svg.json"
   },
   {
     "name": "generalelectric",
@@ -4487,10 +6263,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/generalelectric.svg",
-    "id": "generalelectric-svg",
+    "id": "000297",
+    "status": "active",
+    "legacyId": "generalelectric-svg",
+    "legacyIds": [
+      "generalelectric-svg"
+    ],
     "filename": "generalelectric.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/generalelectric.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/generalelectric-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000297.json",
+    "legacyApiUrl": "/api/icons/generalelectric-svg.json"
   },
   {
     "name": "GoodSmile",
@@ -4502,10 +6284,16 @@
       "Media"
     ],
     "path": "./assets/svg/GoodSmile.svg",
-    "id": "goodsmile-svg",
+    "id": "000298",
+    "status": "active",
+    "legacyId": "goodsmile-svg",
+    "legacyIds": [
+      "goodsmile-svg"
+    ],
     "filename": "GoodSmile.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/GoodSmile.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/goodsmile-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000298.json",
+    "legacyApiUrl": "/api/icons/goodsmile-svg.json"
   },
   {
     "name": "Greendot",
@@ -4517,10 +6305,16 @@
       "Finance"
     ],
     "path": "./assets/svg/Greendot.svg",
-    "id": "greendot-svg",
+    "id": "000299",
+    "status": "active",
+    "legacyId": "greendot-svg",
+    "legacyIds": [
+      "greendot-svg"
+    ],
     "filename": "Greendot.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Greendot.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/greendot-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000299.json",
+    "legacyApiUrl": "/api/icons/greendot-svg.json"
   },
   {
     "name": "hellokitty",
@@ -4532,10 +6326,16 @@
       "Media"
     ],
     "path": "./assets/svg/hellokitty.svg",
-    "id": "hellokitty-svg",
+    "id": "000300",
+    "status": "active",
+    "legacyId": "hellokitty-svg",
+    "legacyIds": [
+      "hellokitty-svg"
+    ],
     "filename": "hellokitty.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/hellokitty.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hellokitty-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000300.json",
+    "legacyApiUrl": "/api/icons/hellokitty-svg.json"
   },
   {
     "name": "HSBC",
@@ -4547,10 +6347,16 @@
       "Finance"
     ],
     "path": "./assets/svg/HSBC.svg",
-    "id": "hsbc-svg",
+    "id": "000301",
+    "status": "active",
+    "legacyId": "hsbc-svg",
+    "legacyIds": [
+      "hsbc-svg"
+    ],
     "filename": "HSBC.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/HSBC.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/hsbc-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000301.json",
+    "legacyApiUrl": "/api/icons/hsbc-svg.json"
   },
   {
     "name": "ISO90012015",
@@ -4562,10 +6368,16 @@
       "Other"
     ],
     "path": "./assets/svg/ISO90012015.svg",
-    "id": "iso90012015-svg",
+    "id": "000302",
+    "status": "active",
+    "legacyId": "iso90012015-svg",
+    "legacyIds": [
+      "iso90012015-svg"
+    ],
     "filename": "ISO90012015.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/ISO90012015.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/iso90012015-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000302.json",
+    "legacyApiUrl": "/api/icons/iso90012015-svg.json"
   },
   {
     "name": "kfc",
@@ -4578,10 +6390,16 @@
       "Food & Beverage"
     ],
     "path": "./assets/svg/kfc.svg",
-    "id": "kfc-svg",
+    "id": "000303",
+    "status": "active",
+    "legacyId": "kfc-svg",
+    "legacyIds": [
+      "kfc-svg"
+    ],
     "filename": "kfc.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/kfc.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/kfc-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000303.json",
+    "legacyApiUrl": "/api/icons/kfc-svg.json"
   },
   {
     "name": "Kodak",
@@ -4593,10 +6411,16 @@
       "Media"
     ],
     "path": "./assets/svg/Kodak.svg",
-    "id": "kodak-svg",
+    "id": "000304",
+    "status": "active",
+    "legacyId": "kodak-svg",
+    "legacyIds": [
+      "kodak-svg"
+    ],
     "filename": "Kodak.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Kodak.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/kodak-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000304.json",
+    "legacyApiUrl": "/api/icons/kodak-svg.json"
   },
   {
     "name": "kotobukiya",
@@ -4608,10 +6432,16 @@
       "Media"
     ],
     "path": "./assets/svg/kotobukiya.svg",
-    "id": "kotobukiya-svg",
+    "id": "000305",
+    "status": "active",
+    "legacyId": "kotobukiya-svg",
+    "legacyIds": [
+      "kotobukiya-svg"
+    ],
     "filename": "kotobukiya.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/kotobukiya.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/kotobukiya-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000305.json",
+    "legacyApiUrl": "/api/icons/kotobukiya-svg.json"
   },
   {
     "name": "kuromi",
@@ -4623,10 +6453,16 @@
       "Media"
     ],
     "path": "./assets/svg/kuromi.svg",
-    "id": "kuromi-svg",
+    "id": "000306",
+    "status": "active",
+    "legacyId": "kuromi-svg",
+    "legacyIds": [
+      "kuromi-svg"
+    ],
     "filename": "kuromi.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/kuromi.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/kuromi-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000306.json",
+    "legacyApiUrl": "/api/icons/kuromi-svg.json"
   },
   {
     "name": "l3harris",
@@ -4638,10 +6474,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/l3harris.svg",
-    "id": "l3harris-svg",
+    "id": "000307",
+    "status": "active",
+    "legacyId": "l3harris-svg",
+    "legacyIds": [
+      "l3harris-svg"
+    ],
     "filename": "l3harris.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/l3harris.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/l3harris-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000307.json",
+    "legacyApiUrl": "/api/icons/l3harris-svg.json"
   },
   {
     "name": "LEGO",
@@ -4653,10 +6495,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/LEGO.svg",
-    "id": "lego-svg",
+    "id": "000308",
+    "status": "active",
+    "legacyId": "lego-svg",
+    "legacyIds": [
+      "lego-svg"
+    ],
     "filename": "LEGO.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/LEGO.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/lego-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000308.json",
+    "legacyApiUrl": "/api/icons/lego-svg.json"
   },
   {
     "name": "man",
@@ -4668,10 +6516,16 @@
       "Automotive"
     ],
     "path": "./assets/svg/man.svg",
-    "id": "man-svg",
+    "id": "000309",
+    "status": "active",
+    "legacyId": "man-svg",
+    "legacyIds": [
+      "man-svg"
+    ],
     "filename": "man.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/man.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/man-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000309.json",
+    "legacyApiUrl": "/api/icons/man-svg.json"
   },
   {
     "name": "Marvel",
@@ -4683,10 +6537,16 @@
       "Media"
     ],
     "path": "./assets/svg/Marvel.svg",
-    "id": "marvel-svg",
+    "id": "000310",
+    "status": "active",
+    "legacyId": "marvel-svg",
+    "legacyIds": [
+      "marvel-svg"
+    ],
     "filename": "Marvel.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Marvel.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/marvel-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000310.json",
+    "legacyApiUrl": "/api/icons/marvel-svg.json"
   },
   {
     "name": "McDonalds",
@@ -4698,10 +6558,16 @@
       "Food & Beverage"
     ],
     "path": "./assets/svg/McDonalds.svg",
-    "id": "mcdonalds-svg",
+    "id": "000311",
+    "status": "active",
+    "legacyId": "mcdonalds-svg",
+    "legacyIds": [
+      "mcdonalds-svg"
+    ],
     "filename": "McDonalds.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/McDonalds.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/mcdonalds-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000311.json",
+    "legacyApiUrl": "/api/icons/mcdonalds-svg.json"
   },
   {
     "name": "Mærsk",
@@ -4713,10 +6579,16 @@
       "E-commerce"
     ],
     "path": "./assets/svg/Mærsk.svg",
-    "id": "m-rsk-svg",
+    "id": "000312",
+    "status": "active",
+    "legacyId": "m-rsk-svg",
+    "legacyIds": [
+      "m-rsk-svg"
+    ],
     "filename": "Mærsk.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Mærsk.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/m-rsk-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000312.json",
+    "legacyApiUrl": "/api/icons/m-rsk-svg.json"
   },
   {
     "name": "NASDAQ",
@@ -4728,10 +6600,16 @@
       "Finance"
     ],
     "path": "./assets/svg/NASDAQ.svg",
-    "id": "nasdaq-svg",
+    "id": "000313",
+    "status": "active",
+    "legacyId": "nasdaq-svg",
+    "legacyIds": [
+      "nasdaq-svg"
+    ],
     "filename": "NASDAQ.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/NASDAQ.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nasdaq-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000313.json",
+    "legacyApiUrl": "/api/icons/nasdaq-svg.json"
   },
   {
     "name": "NBC",
@@ -4743,10 +6621,16 @@
       "Media"
     ],
     "path": "./assets/svg/NBC.svg",
-    "id": "nbc-svg",
+    "id": "000314",
+    "status": "active",
+    "legacyId": "nbc-svg",
+    "legacyIds": [
+      "nbc-svg"
+    ],
     "filename": "NBC.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/NBC.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/nbc-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000314.json",
+    "legacyApiUrl": "/api/icons/nbc-svg.json"
   },
   {
     "name": "NoEWaste",
@@ -4758,10 +6642,16 @@
       "Other"
     ],
     "path": "./assets/svg/NoEWaste.svg",
-    "id": "noewaste-svg",
+    "id": "000315",
+    "status": "active",
+    "legacyId": "noewaste-svg",
+    "legacyIds": [
+      "noewaste-svg"
+    ],
     "filename": "NoEWaste.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/NoEWaste.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/noewaste-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000315.json",
+    "legacyApiUrl": "/api/icons/noewaste-svg.json"
   },
   {
     "name": "Pepsi",
@@ -4773,10 +6663,16 @@
       "Food & Beverage"
     ],
     "path": "./assets/svg/Pepsi.svg",
-    "id": "pepsi-svg",
+    "id": "000316",
+    "status": "active",
+    "legacyId": "pepsi-svg",
+    "legacyIds": [
+      "pepsi-svg"
+    ],
     "filename": "Pepsi.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Pepsi.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/pepsi-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000316.json",
+    "legacyApiUrl": "/api/icons/pepsi-svg.json"
   },
   {
     "name": "reachcompliant",
@@ -4788,10 +6684,16 @@
       "Security"
     ],
     "path": "./assets/svg/reachcompliant.svg",
-    "id": "reachcompliant-svg",
+    "id": "000317",
+    "status": "active",
+    "legacyId": "reachcompliant-svg",
+    "legacyIds": [
+      "reachcompliant-svg"
+    ],
     "filename": "reachcompliant.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/reachcompliant.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/reachcompliant-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000317.json",
+    "legacyApiUrl": "/api/icons/reachcompliant-svg.json"
   },
   {
     "name": "reachcompliant1",
@@ -4803,10 +6705,16 @@
       "Security"
     ],
     "path": "./assets/svg/reachcompliant1.svg",
-    "id": "reachcompliant1-svg",
+    "id": "000318",
+    "status": "active",
+    "legacyId": "reachcompliant1-svg",
+    "legacyIds": [
+      "reachcompliant1-svg"
+    ],
     "filename": "reachcompliant1.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/reachcompliant1.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/reachcompliant1-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000318.json",
+    "legacyApiUrl": "/api/icons/reachcompliant1-svg.json"
   },
   {
     "name": "Recycle001",
@@ -4818,10 +6726,16 @@
       "Other"
     ],
     "path": "./assets/svg/Recycle001.svg",
-    "id": "recycle001-svg",
+    "id": "000319",
+    "status": "active",
+    "legacyId": "recycle001-svg",
+    "legacyIds": [
+      "recycle001-svg"
+    ],
     "filename": "Recycle001.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Recycle001.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/recycle001-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000319.json",
+    "legacyApiUrl": "/api/icons/recycle001-svg.json"
   },
   {
     "name": "redbull",
@@ -4833,10 +6747,16 @@
       "Food & Beverage"
     ],
     "path": "./assets/svg/redbull.svg",
-    "id": "redbull-svg",
+    "id": "000320",
+    "status": "active",
+    "legacyId": "redbull-svg",
+    "legacyIds": [
+      "redbull-svg"
+    ],
     "filename": "redbull.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/redbull.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/redbull-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000320.json",
+    "legacyApiUrl": "/api/icons/redbull-svg.json"
   },
   {
     "name": "Rheinmetall",
@@ -4848,10 +6768,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/Rheinmetall.svg",
-    "id": "rheinmetall-svg",
+    "id": "000321",
+    "status": "active",
+    "legacyId": "rheinmetall-svg",
+    "legacyIds": [
+      "rheinmetall-svg"
+    ],
     "filename": "Rheinmetall.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Rheinmetall.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rheinmetall-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000321.json",
+    "legacyApiUrl": "/api/icons/rheinmetall-svg.json"
   },
   {
     "name": "RockstarGames",
@@ -4863,10 +6789,16 @@
       "Gaming"
     ],
     "path": "./assets/svg/RockstarGames.svg",
-    "id": "rockstargames-svg",
+    "id": "000322",
+    "status": "active",
+    "legacyId": "rockstargames-svg",
+    "legacyIds": [
+      "rockstargames-svg"
+    ],
     "filename": "RockstarGames.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/RockstarGames.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rockstargames-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000322.json",
+    "legacyApiUrl": "/api/icons/rockstargames-svg.json"
   },
   {
     "name": "RoHS",
@@ -4878,10 +6810,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/RoHS.svg",
-    "id": "rohs-svg",
+    "id": "000323",
+    "status": "active",
+    "legacyId": "rohs-svg",
+    "legacyIds": [
+      "rohs-svg"
+    ],
     "filename": "RoHS.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/RoHS.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rohs-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000323.json",
+    "legacyApiUrl": "/api/icons/rohs-svg.json"
   },
   {
     "name": "RoHSCompliance",
@@ -4893,10 +6831,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/RoHSCompliance.svg",
-    "id": "rohscompliance-svg",
+    "id": "000324",
+    "status": "active",
+    "legacyId": "rohscompliance-svg",
+    "legacyIds": [
+      "rohscompliance-svg"
+    ],
     "filename": "RoHSCompliance.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/RoHSCompliance.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rohscompliance-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000324.json",
+    "legacyApiUrl": "/api/icons/rohscompliance-svg.json"
   },
   {
     "name": "RoHSCompliance2",
@@ -4908,10 +6852,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/RoHSCompliance2.svg",
-    "id": "rohscompliance2-svg",
+    "id": "000325",
+    "status": "active",
+    "legacyId": "rohscompliance2-svg",
+    "legacyIds": [
+      "rohscompliance2-svg"
+    ],
     "filename": "RoHSCompliance2.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/RoHSCompliance2.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rohscompliance2-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000325.json",
+    "legacyApiUrl": "/api/icons/rohscompliance2-svg.json"
   },
   {
     "name": "RoHSCompliance3",
@@ -4923,10 +6873,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/RoHSCompliance3.svg",
-    "id": "rohscompliance3-svg",
+    "id": "000326",
+    "status": "active",
+    "legacyId": "rohscompliance3-svg",
+    "legacyIds": [
+      "rohscompliance3-svg"
+    ],
     "filename": "RoHSCompliance3.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/RoHSCompliance3.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rohscompliance3-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000326.json",
+    "legacyApiUrl": "/api/icons/rohscompliance3-svg.json"
   },
   {
     "name": "RTX",
@@ -4938,10 +6894,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/RTX.svg",
-    "id": "rtx-svg",
+    "id": "000327",
+    "status": "active",
+    "legacyId": "rtx-svg",
+    "legacyIds": [
+      "rtx-svg"
+    ],
     "filename": "RTX.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/RTX.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/rtx-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000327.json",
+    "legacyApiUrl": "/api/icons/rtx-svg.json"
   },
   {
     "name": "scania",
@@ -4953,10 +6915,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/scania.svg",
-    "id": "scania-svg",
+    "id": "000328",
+    "status": "active",
+    "legacyId": "scania-svg",
+    "legacyIds": [
+      "scania-svg"
+    ],
     "filename": "scania.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/scania.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/scania-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000328.json",
+    "legacyApiUrl": "/api/icons/scania-svg.json"
   },
   {
     "name": "Seagate",
@@ -4968,10 +6936,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/Seagate.svg",
-    "id": "seagate-svg",
+    "id": "000329",
+    "status": "active",
+    "legacyId": "seagate-svg",
+    "legacyIds": [
+      "seagate-svg"
+    ],
     "filename": "Seagate.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Seagate.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/seagate-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000329.json",
+    "legacyApiUrl": "/api/icons/seagate-svg.json"
   },
   {
     "name": "Siemens",
@@ -4983,10 +6957,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/Siemens.svg",
-    "id": "siemens-svg",
+    "id": "000330",
+    "status": "active",
+    "legacyId": "siemens-svg",
+    "legacyIds": [
+      "siemens-svg"
+    ],
     "filename": "Siemens.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Siemens.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/siemens-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000330.json",
+    "legacyApiUrl": "/api/icons/siemens-svg.json"
   },
   {
     "name": "simpleicons",
@@ -4999,10 +6979,16 @@
       "Open Source"
     ],
     "path": "./assets/svg/simpleicons.svg",
-    "id": "simpleicons-svg",
+    "id": "000331",
+    "status": "active",
+    "legacyId": "simpleicons-svg",
+    "legacyIds": [
+      "simpleicons-svg"
+    ],
     "filename": "simpleicons.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/simpleicons.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/simpleicons-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000331.json",
+    "legacyApiUrl": "/api/icons/simpleicons-svg.json"
   },
   {
     "name": "SKHynix",
@@ -5014,10 +7000,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/SKHynix.svg",
-    "id": "skhynix-svg",
+    "id": "000332",
+    "status": "active",
+    "legacyId": "skhynix-svg",
+    "legacyIds": [
+      "skhynix-svg"
+    ],
     "filename": "SKHynix.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/SKHynix.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/skhynix-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000332.json",
+    "legacyApiUrl": "/api/icons/skhynix-svg.json"
   },
   {
     "name": "spacex",
@@ -5029,10 +7021,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/spacex.svg",
-    "id": "spacex-svg",
+    "id": "000333",
+    "status": "active",
+    "legacyId": "spacex-svg",
+    "legacyIds": [
+      "spacex-svg"
+    ],
     "filename": "spacex.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/spacex.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/spacex-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000333.json",
+    "legacyApiUrl": "/api/icons/spacex-svg.json"
   },
   {
     "name": "starbucks",
@@ -5044,10 +7042,16 @@
       "Food & Beverage"
     ],
     "path": "./assets/svg/starbucks.svg",
-    "id": "starbucks-svg",
+    "id": "000334",
+    "status": "active",
+    "legacyId": "starbucks-svg",
+    "legacyIds": [
+      "starbucks-svg"
+    ],
     "filename": "starbucks.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/starbucks.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/starbucks-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000334.json",
+    "legacyApiUrl": "/api/icons/starbucks-svg.json"
   },
   {
     "name": "Sunrise",
@@ -5059,10 +7063,16 @@
       "Communication"
     ],
     "path": "./assets/svg/Sunrise.svg",
-    "id": "sunrise-svg",
+    "id": "000335",
+    "status": "active",
+    "legacyId": "sunrise-svg",
+    "legacyIds": [
+      "sunrise-svg"
+    ],
     "filename": "Sunrise.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Sunrise.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/sunrise-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000335.json",
+    "legacyApiUrl": "/api/icons/sunrise-svg.json"
   },
   {
     "name": "tata",
@@ -5074,10 +7084,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/tata.svg",
-    "id": "tata-svg",
+    "id": "000336",
+    "status": "active",
+    "legacyId": "tata-svg",
+    "legacyIds": [
+      "tata-svg"
+    ],
     "filename": "tata.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/tata.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/tata-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000336.json",
+    "legacyApiUrl": "/api/icons/tata-svg.json"
   },
   {
     "name": "TÜVRheinland",
@@ -5089,10 +7105,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/TÜVRheinland.svg",
-    "id": "tuvrheinland-svg",
+    "id": "000337",
+    "status": "active",
+    "legacyId": "tuvrheinland-svg",
+    "legacyIds": [
+      "tuvrheinland-svg"
+    ],
     "filename": "TÜVRheinland.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/TÜVRheinland.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/tuvrheinland-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000337.json",
+    "legacyApiUrl": "/api/icons/tuvrheinland-svg.json"
   },
   {
     "name": "TÜVRheinland1",
@@ -5104,10 +7126,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/TÜVRheinland1.svg",
-    "id": "tuvrheinland1-svg",
+    "id": "000338",
+    "status": "active",
+    "legacyId": "tuvrheinland1-svg",
+    "legacyIds": [
+      "tuvrheinland1-svg"
+    ],
     "filename": "TÜVRheinland1.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/TÜVRheinland1.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/tuvrheinland1-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000338.json",
+    "legacyApiUrl": "/api/icons/tuvrheinland1-svg.json"
   },
   {
     "name": "TÜVSüd",
@@ -5119,10 +7147,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/TÜVSüd.svg",
-    "id": "tuvsud-svg",
+    "id": "000339",
+    "status": "active",
+    "legacyId": "tuvsud-svg",
+    "legacyIds": [
+      "tuvsud-svg"
+    ],
     "filename": "TÜVSüd.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/TÜVSüd.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/tuvsud-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000339.json",
+    "legacyApiUrl": "/api/icons/tuvsud-svg.json"
   },
   {
     "name": "ULcertified",
@@ -5134,10 +7168,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/ULcertified.svg",
-    "id": "ulcertified-svg",
+    "id": "000340",
+    "status": "active",
+    "legacyId": "ulcertified-svg",
+    "legacyIds": [
+      "ulcertified-svg"
+    ],
     "filename": "ULcertified.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/ULcertified.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/ulcertified-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000340.json",
+    "legacyApiUrl": "/api/icons/ulcertified-svg.json"
   },
   {
     "name": "ULcertified1",
@@ -5149,10 +7189,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/ULcertified1.svg",
-    "id": "ulcertified1-svg",
+    "id": "000341",
+    "status": "active",
+    "legacyId": "ulcertified1-svg",
+    "legacyIds": [
+      "ulcertified1-svg"
+    ],
     "filename": "ULcertified1.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/ULcertified1.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/ulcertified1-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000341.json",
+    "legacyApiUrl": "/api/icons/ulcertified1-svg.json"
   },
   {
     "name": "Underground",
@@ -5164,10 +7210,16 @@
       "Other"
     ],
     "path": "./assets/svg/Underground.svg",
-    "id": "underground-svg",
+    "id": "000342",
+    "status": "active",
+    "legacyId": "underground-svg",
+    "legacyIds": [
+      "underground-svg"
+    ],
     "filename": "Underground.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/Underground.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/underground-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000342.json",
+    "legacyApiUrl": "/api/icons/underground-svg.json"
   },
   {
     "name": "USB",
@@ -5179,10 +7231,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/USB.svg",
-    "id": "usb-svg",
+    "id": "000343",
+    "status": "active",
+    "legacyId": "usb-svg",
+    "legacyIds": [
+      "usb-svg"
+    ],
     "filename": "USB.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/USB.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/usb-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000343.json",
+    "legacyApiUrl": "/api/icons/usb-svg.json"
   },
   {
     "name": "uspostalservice",
@@ -5194,10 +7252,16 @@
       "E-commerce"
     ],
     "path": "./assets/svg/uspostalservice.svg",
-    "id": "uspostalservice-svg",
+    "id": "000344",
+    "status": "active",
+    "legacyId": "uspostalservice-svg",
+    "legacyIds": [
+      "uspostalservice-svg"
+    ],
     "filename": "uspostalservice.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/uspostalservice.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/uspostalservice-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000344.json",
+    "legacyApiUrl": "/api/icons/uspostalservice-svg.json"
   },
   {
     "name": "vpnactive",
@@ -5209,10 +7273,16 @@
       "Networking"
     ],
     "path": "./assets/svg/vpnactive.svg",
-    "id": "vpnactive-svg",
+    "id": "000345",
+    "status": "active",
+    "legacyId": "vpnactive-svg",
+    "legacyIds": [
+      "vpnactive-svg"
+    ],
     "filename": "vpnactive.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/vpnactive.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/vpnactive-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000345.json",
+    "legacyApiUrl": "/api/icons/vpnactive-svg.json"
   },
   {
     "name": "WEEE",
@@ -5224,10 +7294,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/WEEE.svg",
-    "id": "weee-svg",
+    "id": "000346",
+    "status": "active",
+    "legacyId": "weee-svg",
+    "legacyIds": [
+      "weee-svg"
+    ],
     "filename": "WEEE.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/WEEE.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/weee-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000346.json",
+    "legacyApiUrl": "/api/icons/weee-svg.json"
   },
   {
     "name": "WEEECompliance",
@@ -5239,10 +7315,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/WEEECompliance.svg",
-    "id": "weeecompliance-svg",
+    "id": "000347",
+    "status": "active",
+    "legacyId": "weeecompliance-svg",
+    "legacyIds": [
+      "weeecompliance-svg"
+    ],
     "filename": "WEEECompliance.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/WEEECompliance.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/weeecompliance-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000347.json",
+    "legacyApiUrl": "/api/icons/weeecompliance-svg.json"
   },
   {
     "name": "WiFi",
@@ -5255,10 +7337,16 @@
       "Hardware"
     ],
     "path": "./assets/svg/WiFi.svg",
-    "id": "wifi-svg",
+    "id": "000348",
+    "status": "active",
+    "legacyId": "wifi-svg",
+    "legacyIds": [
+      "wifi-svg"
+    ],
     "filename": "WiFi.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/WiFi.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/wifi-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000348.json",
+    "legacyApiUrl": "/api/icons/wifi-svg.json"
   },
   {
     "name": "wikimedia",
@@ -5270,9 +7358,15 @@
       "Open Source"
     ],
     "path": "./assets/svg/wikimedia.svg",
-    "id": "wikimedia-svg",
+    "id": "000349",
+    "status": "active",
+    "legacyId": "wikimedia-svg",
+    "legacyIds": [
+      "wikimedia-svg"
+    ],
     "filename": "wikimedia.svg",
     "url": "https://icons.x0u0x.xyz/assets/svg/wikimedia.svg",
-    "apiUrl": "https://icons.x0u0x.xyz/api/icons/wikimedia-svg.json"
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000349.json",
+    "legacyApiUrl": "/api/icons/wikimedia-svg.json"
   }
 ]

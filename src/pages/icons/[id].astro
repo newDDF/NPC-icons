@@ -4,22 +4,38 @@ import path from "node:path";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import Header from "../../components/Header.astro";
 
-const dataPath = path.join(process.cwd(), "public/api/icons.json");
+const dataPath = path.join(process.cwd(), "public/data/icon-details.json");
 
 export function getStaticPaths() {
-  const dataPath = path.join(process.cwd(), "public/api/icons.json");
+  const dataPath = path.join(process.cwd(), "public/data/icon-details.json");
   const icons = JSON.parse(fs.readFileSync(dataPath, "utf8"));
+  const seenRoutes = new Set();
 
-  return icons.map((icon) => ({
-    params: { id: icon.id },
-    props: { icon }
-  }));
+  return icons.flatMap((icon) => {
+    const legacyIds = Array.isArray(icon.legacyIds)
+      ? icon.legacyIds
+      : (icon.legacyId ? [icon.legacyId] : []);
+    const paths = [];
+
+    for (const routeId of [icon.id, ...legacyIds]) {
+      if (!routeId || seenRoutes.has(routeId)) continue;
+      seenRoutes.add(routeId);
+      paths.push({ params: { id: routeId }, props: { icon } });
+    }
+
+    return paths;
+  });
 }
 
 const { icon } = Astro.props;
 const canonical = `https://icons.x0u0x.xyz/icons/${encodeURIComponent(icon.id)}/`;
-const title = `${icon.name} Icon — Free ${icon.format.toUpperCase()} Download | NPC-icons`;
-const description = `Explore the ${icon.name} icon. View its details, categories and source, and download the free ${icon.format.toUpperCase()} asset from NPC-icons.`;
+const isRetired = icon.status === "retired";
+const title = isRetired
+  ? `${icon.name} Icon — Retired | NPC-icons`
+  : `${icon.name} Icon — Free ${icon.format.toUpperCase()} Download | NPC-icons`;
+const description = isRetired
+  ? `The ${icon.name} icon has been retired and is no longer available for download.`
+  : `Explore the ${icon.name} icon. View its details, categories and source, and download the free ${icon.format.toUpperCase()} asset from NPC-icons.`;
 const stats = JSON.parse(fs.readFileSync(path.join(process.cwd(), "public/data/stats.json"), "utf8"));
 const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
 ---
@@ -44,7 +60,13 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
 
     <article class="detail-card">
       <div class="detail-preview">
-        <img src={icon.path} alt={`${icon.name} icon`} width="180" height="180" />
+        {isRetired ? (
+          <p role="status">
+            This icon has been retired and is no longer available for download.
+          </p>
+        ) : (
+          <img src={icon.path} alt={`${icon.name} icon`} width="180" height="180" />
+        )}
       </div>
 
       <h1>{icon.name}</h1>
@@ -93,7 +115,11 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
       </div>
 
       <div class="detail-actions">
-        <a class="detail-primary" href={icon.path} download={icon.filename}>Download {icon.format.toUpperCase()}</a>
+        {!isRetired && (
+          <a class="detail-primary" href={icon.path} download={icon.filename}>
+            Download {icon.format.toUpperCase()}
+          </a>
+        )}
         <a class="detail-secondary" href="/">Back to icon library</a>
       </div>
     </article>

@@ -23,8 +23,12 @@ export function getIcons(options = {}) {
 
 export function getIcon(name, format) {
   const icons = getIcons();
+  const query = String(name).toLowerCase();
   const matches = icon =>
-    icon.id === name || icon.name.toLowerCase() === String(name).toLowerCase();
+    icon.id === String(name) ||
+    icon.legacyId === String(name) ||
+    (Array.isArray(icon.legacyIds) && icon.legacyIds.includes(String(name))) ||
+    icon.name.toLowerCase() === query;
 
   return icons.find(icon => matches(icon) && icon.format === (format || 'svg'))
     ?? (format ? null : icons.find(matches))

@@ -1,5 +1,6 @@
 export type IconFormat = 'svg' | 'png';
-export interface NPCIcon { id: string; name: string; color: string; format: IconFormat; source: string; info: string; category: string[]; filename: string; path: string; url: string; apiUrl: string; }
+export type IconStatus = 'active';
+export interface NPCIcon { id: string; status: IconStatus; legacyId: string; legacyIds: string[]; name: string; color: string; format: IconFormat; source: string; info: string; category: string[]; filename: string; path: string; url: string; apiUrl: string; legacyApiUrl: string; }
 export interface IconQueryOptions { format?: IconFormat; category?: string; }
 export interface NPCIconStats { total: number; svg: number; png: number; }
 export function getIcons(options?: IconQueryOptions): NPCIcon[];
