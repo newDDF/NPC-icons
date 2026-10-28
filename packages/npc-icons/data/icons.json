@@ -9,6 +9,9 @@
       "Operating Systems",
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T03:39:55.000Z",
     "path": "./assets/svg/amd.svg",
     "id": "000001",
     "status": "active",
@@ -31,6 +34,9 @@
       "Operating Systems",
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T03:26:17.000Z",
     "path": "./assets/svg/apple.svg",
     "id": "000002",
     "status": "active",
@@ -52,6 +58,9 @@
     "category": [
       "Operating Systems"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T03:26:17.000Z",
     "path": "./assets/svg/android.svg",
     "id": "000003",
     "status": "active",
@@ -74,6 +83,9 @@
       "Operating Systems",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T03:26:17.000Z",
     "path": "./assets/svg/archlinux.svg",
     "id": "000004",
     "status": "active",
@@ -95,6 +107,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-26T13:26:26.000Z",
     "path": "./assets/svg/my_logo.svg",
     "id": "000005",
     "status": "active",
@@ -117,6 +132,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T06:56:57.000Z",
     "path": "./assets/svg/github.svg",
     "id": "000006",
     "status": "active",
@@ -139,6 +157,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T07:35:34.000Z",
     "path": "./assets/svg/git.svg",
     "id": "000007",
     "status": "active",
@@ -160,6 +181,9 @@
     "category": [
       "Education"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-26T13:19:47.000Z",
     "path": "./assets/png/DAYUAN.png",
     "id": "000008",
     "status": "active",
@@ -181,6 +205,9 @@
     "category": [
       "Education"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T11:05:31.000Z",
     "path": "./assets/png/DONGFANGCOLLEGE.png",
     "id": "000009",
     "status": "active",
@@ -202,6 +229,9 @@
     "category": [
       "Education"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T11:05:31.000Z",
     "path": "./assets/png/HAININGRUBLICBYCYCLE.png",
     "id": "000010",
     "status": "active",
@@ -223,6 +253,9 @@
     "category": [
       "Education"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T11:05:31.000Z",
     "path": "./assets/png/Hanghai-IR.png",
     "id": "000011",
     "status": "active",
@@ -244,6 +277,9 @@
     "category": [
       "Education"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T11:05:31.000Z",
     "path": "./assets/png/JIDIANCOLLEGE.png",
     "id": "000012",
     "status": "active",
@@ -265,6 +301,9 @@
     "category": [
       "Education"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-26T14:44:24.000Z",
     "path": "./assets/svg/DONGFANGCOLLEGE.svg",
     "id": "000013",
     "status": "active",
@@ -286,6 +325,9 @@
     "category": [
       "Education"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-26T14:44:24.000Z",
     "path": "./assets/svg/HAININGRUBLICBYCYCLE.svg",
     "id": "000014",
     "status": "active",
@@ -307,6 +349,9 @@
     "category": [
       "Education"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-26T14:44:24.000Z",
     "path": "./assets/svg/Hanghai-IR.svg",
     "id": "000015",
     "status": "active",
@@ -328,6 +373,9 @@
     "category": [
       "Education"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-26T14:44:24.000Z",
     "path": "./assets/svg/JIDIANCOLLEGE.svg",
     "id": "000016",
     "status": "active",
@@ -349,6 +397,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/line.svg",
     "id": "000017",
     "status": "active",
@@ -370,6 +421,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/spotify.svg",
     "id": "000018",
     "status": "active",
@@ -391,6 +445,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/pinterest.svg",
     "id": "000019",
     "status": "active",
@@ -412,6 +469,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/whatsapp.svg",
     "id": "000020",
     "status": "active",
@@ -433,6 +493,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/telegram.svg",
     "id": "000021",
     "status": "active",
@@ -454,6 +517,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/instagram.svg",
     "id": "000022",
     "status": "active",
@@ -475,6 +541,9 @@
     "category": [
       "Finance"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T10:43:46.000Z",
     "path": "./assets/svg/bitcoin.svg",
     "id": "000023",
     "status": "active",
@@ -496,6 +565,9 @@
     "category": [
       "Finance"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T10:43:46.000Z",
     "path": "./assets/svg/visa.svg",
     "id": "000024",
     "status": "active",
@@ -517,6 +589,9 @@
     "category": [
       "Finance"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T10:43:46.000Z",
     "path": "./assets/svg/mastercard.svg",
     "id": "000025",
     "status": "active",
@@ -538,6 +613,9 @@
     "category": [
       "Finance"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T10:43:46.000Z",
     "path": "./assets/svg/paypal.svg",
     "id": "000026",
     "status": "active",
@@ -559,6 +637,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/soundcloud.svg",
     "id": "000027",
     "status": "active",
@@ -580,6 +661,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/cloudflare.svg",
     "id": "000028",
     "status": "active",
@@ -601,6 +685,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/reddit.svg",
     "id": "000029",
     "status": "active",
@@ -622,6 +709,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:11:57.000Z",
     "path": "./assets/svg/capsule.svg",
     "id": "000030",
     "status": "active",
@@ -643,6 +733,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:11:06.000Z",
     "path": "./assets/svg/tomianime.svg",
     "id": "000031",
     "status": "active",
@@ -664,6 +757,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:15:17.000Z",
     "path": "./assets/svg/reddoribon.svg",
     "id": "000032",
     "status": "active",
@@ -685,6 +781,9 @@
     "category": [
       "Education"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/hainingzhongxue.svg",
     "id": "000033",
     "status": "active",
@@ -706,6 +805,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:10:37.000Z",
     "path": "./assets/svg/oracle.svg",
     "id": "000034",
     "status": "active",
@@ -728,6 +830,9 @@
       "Cloud",
       "E-commerce"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/amazon.svg",
     "id": "000035",
     "status": "active",
@@ -749,6 +854,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/synology.svg",
     "id": "000036",
     "status": "active",
@@ -770,6 +878,9 @@
     "category": [
       "Education"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/duolingo.svg",
     "id": "000037",
     "status": "active",
@@ -791,6 +902,9 @@
     "category": [
       "Finance"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/wise.svg",
     "id": "000038",
     "status": "active",
@@ -812,6 +926,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/netbird.svg",
     "id": "000039",
     "status": "active",
@@ -833,6 +950,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/dedirock.svg",
     "id": "000040",
     "status": "active",
@@ -854,6 +974,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/racknerd.svg",
     "id": "000041",
     "status": "active",
@@ -876,6 +999,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/7zip.svg",
     "id": "000042",
     "status": "active",
@@ -897,6 +1023,9 @@
     "category": [
       "Design"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/affine.svg",
     "id": "000043",
     "status": "active",
@@ -918,6 +1047,9 @@
     "category": [
       "E-commerce"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/aliexpress.svg",
     "id": "000044",
     "status": "active",
@@ -939,6 +1071,9 @@
     "category": [
       "E-commerce"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/amazon-prime.svg",
     "id": "000045",
     "status": "active",
@@ -961,6 +1096,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/anaconda.svg",
     "id": "000046",
     "status": "active",
@@ -983,6 +1121,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/ansible.svg",
     "id": "000047",
     "status": "active",
@@ -1004,6 +1145,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/archivedotorg.svg",
     "id": "000048",
     "status": "active",
@@ -1025,6 +1169,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/arm.svg",
     "id": "000049",
     "status": "active",
@@ -1046,6 +1193,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/aruba.svg",
     "id": "000050",
     "status": "active",
@@ -1068,6 +1218,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/astro.svg",
     "id": "000051",
     "status": "active",
@@ -1089,6 +1242,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/at-t.svg",
     "id": "000052",
     "status": "active",
@@ -1110,6 +1266,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/behance.svg",
     "id": "000053",
     "status": "active",
@@ -1131,6 +1290,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/bitwarden.svg",
     "id": "000054",
     "status": "active",
@@ -1152,6 +1314,9 @@
     "category": [
       "Design"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/blender.svg",
     "id": "000055",
     "status": "active",
@@ -1173,6 +1338,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/blogger.svg",
     "id": "000056",
     "status": "active",
@@ -1194,6 +1362,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/blu-ray-3d.svg",
     "id": "000057",
     "status": "active",
@@ -1215,6 +1386,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/bluesky.svg",
     "id": "000058",
     "status": "active",
@@ -1236,6 +1410,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/bluetooth.svg",
     "id": "000059",
     "status": "active",
@@ -1258,6 +1435,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/bootstrap.svg",
     "id": "000060",
     "status": "active",
@@ -1279,6 +1459,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/brave.svg",
     "id": "000061",
     "status": "active",
@@ -1300,6 +1483,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/bright-move.svg",
     "id": "000062",
     "status": "active",
@@ -1321,6 +1507,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/broadcastchannel.svg",
     "id": "000063",
     "status": "active",
@@ -1342,6 +1531,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/broadcom.svg",
     "id": "000064",
     "status": "active",
@@ -1363,6 +1555,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/brother.svg",
     "id": "000065",
     "status": "active",
@@ -1384,6 +1579,9 @@
     "category": [
       "E-commerce"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/carrefour.svg",
     "id": "000066",
     "status": "active",
@@ -1405,6 +1603,9 @@
     "category": [
       "Technology"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/cc.svg",
     "id": "000067",
     "status": "active",
@@ -1426,6 +1627,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/cd.svg",
     "id": "000068",
     "status": "active",
@@ -1447,6 +1651,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/cloudbeaver.svg",
     "id": "000069",
     "status": "active",
@@ -1468,6 +1675,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/cockpit.svg",
     "id": "000070",
     "status": "active",
@@ -1489,6 +1699,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/convertio-dark.svg",
     "id": "000071",
     "status": "active",
@@ -1510,6 +1723,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/couchdb.svg",
     "id": "000072",
     "status": "active",
@@ -1531,6 +1747,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/cpanel.svg",
     "id": "000073",
     "status": "active",
@@ -1552,6 +1771,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/crunchyroll.svg",
     "id": "000074",
     "status": "active",
@@ -1573,6 +1795,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/discord.svg",
     "id": "000075",
     "status": "active",
@@ -1594,6 +1819,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dlna.svg",
     "id": "000076",
     "status": "active",
@@ -1616,6 +1844,9 @@
       "Infrastructure",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/docker.svg",
     "id": "000077",
     "status": "active",
@@ -1637,6 +1868,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dockpeek.svg",
     "id": "000078",
     "status": "active",
@@ -1658,6 +1892,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/docuform.svg",
     "id": "000079",
     "status": "active",
@@ -1679,6 +1916,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/documenso.svg",
     "id": "000080",
     "status": "active",
@@ -1700,6 +1940,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dotnet.svg",
     "id": "000081",
     "status": "active",
@@ -1722,6 +1965,9 @@
       "Developer",
       "Design"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/draw-io.svg",
     "id": "000082",
     "status": "active",
@@ -1743,6 +1989,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dropbox.svg",
     "id": "000083",
     "status": "active",
@@ -1764,6 +2013,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dropout.svg",
     "id": "000084",
     "status": "active",
@@ -1785,6 +2037,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/duckdns.svg",
     "id": "000085",
     "status": "active",
@@ -1806,6 +2061,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dvd.svg",
     "id": "000086",
     "status": "active",
@@ -1828,6 +2086,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/electron.svg",
     "id": "000087",
     "status": "active",
@@ -1849,6 +2110,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/electronic-arts.svg",
     "id": "000088",
     "status": "active",
@@ -1870,6 +2134,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/emby.svg",
     "id": "000089",
     "status": "active",
@@ -1891,6 +2158,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/etherpad.svg",
     "id": "000090",
     "status": "active",
@@ -1913,6 +2183,9 @@
       "Operating Systems",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/fedora-alt.svg",
     "id": "000091",
     "status": "active",
@@ -1934,6 +2207,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/fluffychat.svg",
     "id": "000092",
     "status": "active",
@@ -1955,6 +2231,9 @@
     "category": [
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/forgejo.svg",
     "id": "000093",
     "status": "active",
@@ -1976,6 +2255,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/formbricks.svg",
     "id": "000094",
     "status": "active",
@@ -1997,6 +2279,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/fortinet.svg",
     "id": "000095",
     "status": "active",
@@ -2018,6 +2303,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/friendica.svg",
     "id": "000096",
     "status": "active",
@@ -2039,6 +2327,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/frp-manager.svg",
     "id": "000097",
     "status": "active",
@@ -2060,6 +2351,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/frp.svg",
     "id": "000098",
     "status": "active",
@@ -2081,6 +2375,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/github-copilot.svg",
     "id": "000099",
     "status": "active",
@@ -2102,6 +2399,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/golang.svg",
     "id": "000100",
     "status": "active",
@@ -2123,6 +2423,9 @@
     "category": [
       "AI"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/grok.svg",
     "id": "000101",
     "status": "active",
@@ -2144,6 +2447,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hashicorp-nomad.svg",
     "id": "000102",
     "status": "active",
@@ -2165,6 +2471,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hifiberry.svg",
     "id": "000103",
     "status": "active",
@@ -2186,6 +2495,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/home-assistant.svg",
     "id": "000104",
     "status": "active",
@@ -2207,6 +2519,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/homebox.svg",
     "id": "000105",
     "status": "active",
@@ -2229,6 +2544,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/homebrew.svg",
     "id": "000106",
     "status": "active",
@@ -2250,6 +2568,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hostinger.svg",
     "id": "000107",
     "status": "active",
@@ -2271,6 +2592,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/html.svg",
     "id": "000108",
     "status": "active",
@@ -2292,6 +2616,9 @@
     "category": [
       "AI"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hugging-face.svg",
     "id": "000109",
     "status": "active",
@@ -2314,6 +2641,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hugo.svg",
     "id": "000110",
     "status": "active",
@@ -2335,6 +2665,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hulu.svg",
     "id": "000111",
     "status": "active",
@@ -2356,6 +2689,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/ibm.svg",
     "id": "000112",
     "status": "active",
@@ -2377,6 +2713,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dell.svg",
     "id": "000113",
     "status": "active",
@@ -2398,6 +2737,9 @@
     "category": [
       "E-commerce"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/instacart.svg",
     "id": "000114",
     "status": "active",
@@ -2419,6 +2761,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/istio.svg",
     "id": "000115",
     "status": "active",
@@ -2440,6 +2785,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/it-tools.svg",
     "id": "000116",
     "status": "active",
@@ -2461,6 +2809,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/ivanti-icon.svg",
     "id": "000117",
     "status": "active",
@@ -2482,6 +2833,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/jamstack.svg",
     "id": "000118",
     "status": "active",
@@ -2503,6 +2857,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/java.svg",
     "id": "000119",
     "status": "active",
@@ -2524,6 +2881,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/javascript.svg",
     "id": "000120",
     "status": "active",
@@ -2545,6 +2905,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/jio.svg",
     "id": "000121",
     "status": "active",
@@ -2566,6 +2929,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/jumpserver.svg",
     "id": "000122",
     "status": "active",
@@ -2587,6 +2953,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/k3s.svg",
     "id": "000123",
     "status": "active",
@@ -2608,6 +2977,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/kagi.svg",
     "id": "000124",
     "status": "active",
@@ -2629,6 +3001,9 @@
     "category": [
       "E-commerce"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/kaufland.svg",
     "id": "000125",
     "status": "active",
@@ -2650,6 +3025,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/keeper-security.svg",
     "id": "000126",
     "status": "active",
@@ -2671,6 +3049,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/keila.svg",
     "id": "000127",
     "status": "active",
@@ -2692,6 +3073,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/kodi.svg",
     "id": "000128",
     "status": "active",
@@ -2714,6 +3098,9 @@
       "Infrastructure",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/kubernetes.svg",
     "id": "000129",
     "status": "active",
@@ -2736,6 +3123,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/libretranslate.svg",
     "id": "000130",
     "status": "active",
@@ -2758,6 +3148,9 @@
       "Design",
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/linear.svg",
     "id": "000131",
     "status": "active",
@@ -2779,6 +3172,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/linkedin.svg",
     "id": "000132",
     "status": "active",
@@ -2801,6 +3197,9 @@
       "Operating Systems",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/linux-mint.svg",
     "id": "000133",
     "status": "active",
@@ -2822,6 +3221,9 @@
     "category": [
       "Operating Systems"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/macmon.svg",
     "id": "000134",
     "status": "active",
@@ -2843,6 +3245,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/mailbox.svg",
     "id": "000135",
     "status": "active",
@@ -2864,6 +3269,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/mailgun.svg",
     "id": "000136",
     "status": "active",
@@ -2885,6 +3293,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/mailjet.svg",
     "id": "000137",
     "status": "active",
@@ -2906,6 +3317,9 @@
     "category": [
       "Operating Systems"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/manjaro-linux.svg",
     "id": "000138",
     "status": "active",
@@ -2927,6 +3341,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/mantrae-dark.svg",
     "id": "000139",
     "status": "active",
@@ -2948,6 +3365,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/mariadb.svg",
     "id": "000140",
     "status": "active",
@@ -2969,6 +3389,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/max.svg",
     "id": "000141",
     "status": "active",
@@ -2990,6 +3413,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mcaffee.svg",
     "id": "000142",
     "status": "active",
@@ -3011,6 +3437,9 @@
     "category": [
       "Food & Beverage"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mealie.svg",
     "id": "000143",
     "status": "active",
@@ -3032,6 +3461,9 @@
     "category": [
       "Technology"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/medama.svg",
     "id": "000144",
     "status": "active",
@@ -3053,6 +3485,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mega-nz.svg",
     "id": "000145",
     "status": "active",
@@ -3075,6 +3510,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/meilisearch.svg",
     "id": "000146",
     "status": "active",
@@ -3096,6 +3534,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mergeable.svg",
     "id": "000147",
     "status": "active",
@@ -3117,6 +3558,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/meta.svg",
     "id": "000148",
     "status": "active",
@@ -3138,6 +3582,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/microsoft-sql-server.svg",
     "id": "000149",
     "status": "active",
@@ -3159,6 +3606,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/minio.svg",
     "id": "000150",
     "status": "active",
@@ -3180,6 +3630,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mojeek.svg",
     "id": "000151",
     "status": "active",
@@ -3201,6 +3654,9 @@
     "category": [
       "Finance"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/monarch-money.svg",
     "id": "000152",
     "status": "active",
@@ -3222,6 +3678,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mongodb.svg",
     "id": "000153",
     "status": "active",
@@ -3243,6 +3702,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mysql.svg",
     "id": "000154",
     "status": "active",
@@ -3264,6 +3726,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/netflix.svg",
     "id": "000155",
     "status": "active",
@@ -3286,6 +3751,9 @@
       "Infrastructure",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nginx.svg",
     "id": "000156",
     "status": "active",
@@ -3307,6 +3775,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nintendo-switch.svg",
     "id": "000157",
     "status": "active",
@@ -3329,6 +3800,9 @@
       "Operating Systems",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nixos.svg",
     "id": "000158",
     "status": "active",
@@ -3350,6 +3824,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nocodb.svg",
     "id": "000159",
     "status": "active",
@@ -3371,6 +3848,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nodebb.svg",
     "id": "000160",
     "status": "active",
@@ -3392,6 +3872,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nodejs-alt.svg",
     "id": "000161",
     "status": "active",
@@ -3414,6 +3897,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nodejs.svg",
     "id": "000162",
     "status": "active",
@@ -3435,6 +3921,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/notion.svg",
     "id": "000163",
     "status": "active",
@@ -3456,6 +3945,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/npm.svg",
     "id": "000164",
     "status": "active",
@@ -3477,6 +3969,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nsg.svg",
     "id": "000165",
     "status": "active",
@@ -3498,6 +3993,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/ntfy.svg",
     "id": "000166",
     "status": "active",
@@ -3519,6 +4017,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nuxt-js.svg",
     "id": "000167",
     "status": "active",
@@ -3540,6 +4041,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nvidia.svg",
     "id": "000168",
     "status": "active",
@@ -3561,6 +4065,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/office-365.svg",
     "id": "000169",
     "status": "active",
@@ -3582,6 +4089,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/oh-my-posh.svg",
     "id": "000170",
     "status": "active",
@@ -3603,6 +4113,9 @@
     "category": [
       "AI"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/ollama.svg",
     "id": "000171",
     "status": "active",
@@ -3624,6 +4137,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/onedev.svg",
     "id": "000172",
     "status": "active",
@@ -3645,6 +4161,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/onlyfans.svg",
     "id": "000173",
     "status": "active",
@@ -3666,6 +4185,9 @@
     "category": [
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/open-source-initiative.svg",
     "id": "000174",
     "status": "active",
@@ -3687,6 +4209,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/open-webui.svg",
     "id": "000175",
     "status": "active",
@@ -3708,6 +4233,9 @@
     "category": [
       "AI"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/openai.svg",
     "id": "000176",
     "status": "active",
@@ -3729,6 +4257,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/openbao.svg",
     "id": "000177",
     "status": "active",
@@ -3750,6 +4281,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/openpanel.svg",
     "id": "000178",
     "status": "active",
@@ -3772,6 +4306,9 @@
       "Infrastructure",
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/openproject.svg",
     "id": "000179",
     "status": "active",
@@ -3794,6 +4331,9 @@
       "Operating Systems",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/opensuse.svg",
     "id": "000180",
     "status": "active",
@@ -3815,6 +4355,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/openvpn.svg",
     "id": "000181",
     "status": "active",
@@ -3836,6 +4379,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/origin.svg",
     "id": "000182",
     "status": "active",
@@ -3857,6 +4403,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/osu.svg",
     "id": "000183",
     "status": "active",
@@ -3879,6 +4428,9 @@
       "Design",
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/outline.svg",
     "id": "000184",
     "status": "active",
@@ -3900,6 +4452,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pangolin.svg",
     "id": "000185",
     "status": "active",
@@ -3921,6 +4476,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/papercut.svg",
     "id": "000186",
     "status": "active",
@@ -3942,6 +4500,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/papra.svg",
     "id": "000187",
     "status": "active",
@@ -3963,6 +4524,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/paramount-plus.svg",
     "id": "000188",
     "status": "active",
@@ -3984,6 +4548,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/passbolt.svg",
     "id": "000189",
     "status": "active",
@@ -4005,6 +4572,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pdfforge.svg",
     "id": "000190",
     "status": "active",
@@ -4026,6 +4596,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/peacock.svg",
     "id": "000191",
     "status": "active",
@@ -4047,6 +4620,9 @@
     "category": [
       "Operating Systems"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/peppermint.svg",
     "id": "000192",
     "status": "active",
@@ -4068,6 +4644,9 @@
     "category": [
       "AI"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/perplexity.svg",
     "id": "000193",
     "status": "active",
@@ -4089,6 +4668,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pgadmin.svg",
     "id": "000194",
     "status": "active",
@@ -4110,6 +4692,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/php.svg",
     "id": "000195",
     "status": "active",
@@ -4131,6 +4716,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pi-hole.svg",
     "id": "000196",
     "status": "active",
@@ -4152,6 +4740,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pigallery2.svg",
     "id": "000197",
     "status": "active",
@@ -4173,6 +4764,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pikapods.svg",
     "id": "000198",
     "status": "active",
@@ -4194,6 +4788,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pinia.svg",
     "id": "000199",
     "status": "active",
@@ -4215,6 +4812,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pioneer.svg",
     "id": "000200",
     "status": "active",
@@ -4236,6 +4836,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/piwigo.svg",
     "id": "000201",
     "status": "active",
@@ -4257,6 +4860,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/playstation.svg",
     "id": "000202",
     "status": "active",
@@ -4278,6 +4884,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/plex-alt.svg",
     "id": "000203",
     "status": "active",
@@ -4299,6 +4908,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pocket-casts.svg",
     "id": "000204",
     "status": "active",
@@ -4320,6 +4932,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/podfetch.svg",
     "id": "000205",
     "status": "active",
@@ -4341,6 +4956,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/podify.svg",
     "id": "000206",
     "status": "active",
@@ -4362,6 +4980,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/portabase.svg",
     "id": "000207",
     "status": "active",
@@ -4383,6 +5004,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/portainer-alt.svg",
     "id": "000208",
     "status": "active",
@@ -4404,6 +5028,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/postman.svg",
     "id": "000209",
     "status": "active",
@@ -4425,6 +5052,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/powerbi.svg",
     "id": "000210",
     "status": "active",
@@ -4446,6 +5076,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/powershell.svg",
     "id": "000211",
     "status": "active",
@@ -4468,6 +5101,9 @@
       "Security",
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/proton-mail.svg",
     "id": "000212",
     "status": "active",
@@ -4489,6 +5125,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/proton.svg",
     "id": "000213",
     "status": "active",
@@ -4510,6 +5149,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/proxmox.svg",
     "id": "000214",
     "status": "active",
@@ -4531,6 +5173,9 @@
     "category": [
       "Operating Systems"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/puppy-linux.svg",
     "id": "000215",
     "status": "active",
@@ -4553,6 +5198,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/python.svg",
     "id": "000216",
     "status": "active",
@@ -4574,6 +5222,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rainloop.svg",
     "id": "000217",
     "status": "active",
@@ -4595,6 +5246,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rallly.svg",
     "id": "000218",
     "status": "active",
@@ -4616,6 +5270,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/raspberry-pi.svg",
     "id": "000219",
     "status": "active",
@@ -4637,6 +5294,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rclone.svg",
     "id": "000220",
     "status": "active",
@@ -4658,6 +5318,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/reactjs.svg",
     "id": "000221",
     "status": "active",
@@ -4679,6 +5342,9 @@
     "category": [
       "Food & Beverage"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/recipesage.svg",
     "id": "000222",
     "status": "active",
@@ -4700,6 +5366,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/recyclarr.svg",
     "id": "000223",
     "status": "active",
@@ -4721,6 +5390,9 @@
     "category": [
       "Operating Systems"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/redhat-linux.svg",
     "id": "000224",
     "status": "active",
@@ -4742,6 +5414,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/redis.svg",
     "id": "000225",
     "status": "active",
@@ -4764,6 +5439,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/remmina.svg",
     "id": "000226",
     "status": "active",
@@ -4785,6 +5463,9 @@
     "category": [
       "Operating Systems"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rocky-linux.svg",
     "id": "000227",
     "status": "active",
@@ -4807,6 +5488,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rstudio.svg",
     "id": "000228",
     "status": "active",
@@ -4829,6 +5513,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rust.svg",
     "id": "000229",
     "status": "active",
@@ -4851,6 +5538,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rustdesk.svg",
     "id": "000230",
     "status": "active",
@@ -4872,6 +5562,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/send.svg",
     "id": "000231",
     "status": "active",
@@ -4893,6 +5586,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/shell-tips.svg",
     "id": "000232",
     "status": "active",
@@ -4914,6 +5610,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/shell.svg",
     "id": "000233",
     "status": "active",
@@ -4935,6 +5634,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/sinusbot.svg",
     "id": "000234",
     "status": "active",
@@ -4956,6 +5658,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/skype.svg",
     "id": "000235",
     "status": "active",
@@ -4977,6 +5682,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/sun-panel.svg",
     "id": "000236",
     "status": "active",
@@ -4998,6 +5706,9 @@
     "category": [
       "Cloud"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/supabase.svg",
     "id": "000237",
     "status": "active",
@@ -5019,6 +5730,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/surfshark.svg",
     "id": "000238",
     "status": "active",
@@ -5040,6 +5754,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/swagger.svg",
     "id": "000239",
     "status": "active",
@@ -5061,6 +5778,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/swift.svg",
     "id": "000240",
     "status": "active",
@@ -5082,6 +5802,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/syncthing.svg",
     "id": "000241",
     "status": "active",
@@ -5103,6 +5826,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/tailscale.svg",
     "id": "000242",
     "status": "active",
@@ -5124,6 +5850,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/telekom.svg",
     "id": "000243",
     "status": "active",
@@ -5145,6 +5874,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/threads.svg",
     "id": "000244",
     "status": "active",
@@ -5166,6 +5898,9 @@
     "category": [
       "Infrastructure"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/traefik.svg",
     "id": "000245",
     "status": "active",
@@ -5187,6 +5922,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/tumblr.svg",
     "id": "000246",
     "status": "active",
@@ -5208,6 +5946,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/twitch.svg",
     "id": "000247",
     "status": "active",
@@ -5229,6 +5970,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/twitter.svg",
     "id": "000248",
     "status": "active",
@@ -5250,6 +5994,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/tyepcho.svg",
     "id": "000249",
     "status": "active",
@@ -5271,6 +6018,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/typescript.svg",
     "id": "000250",
     "status": "active",
@@ -5293,6 +6043,9 @@
       "Operating Systems",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/ubuntu-linux.svg",
     "id": "000251",
     "status": "active",
@@ -5314,6 +6067,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/unreal-engine.svg",
     "id": "000252",
     "status": "active",
@@ -5336,6 +6092,9 @@
       "Developer",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/vim.svg",
     "id": "000253",
     "status": "active",
@@ -5357,6 +6116,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/visual-studio-code.svg",
     "id": "000254",
     "status": "active",
@@ -5378,6 +6140,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/vodafone.svg",
     "id": "000255",
     "status": "active",
@@ -5399,6 +6164,9 @@
     "category": [
       "Developer"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/vue-js.svg",
     "id": "000256",
     "status": "active",
@@ -5421,6 +6189,9 @@
       "Developer",
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/webhook.svg",
     "id": "000257",
     "status": "active",
@@ -5442,6 +6213,9 @@
     "category": [
       "Operating Systems"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/windows-10.svg",
     "id": "000258",
     "status": "active",
@@ -5463,6 +6237,9 @@
     "category": [
       "Operating Systems"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/windows-11.svg",
     "id": "000259",
     "status": "active",
@@ -5484,6 +6261,9 @@
     "category": [
       "Productivity"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/windows-explorer.svg",
     "id": "000260",
     "status": "active",
@@ -5505,6 +6285,9 @@
     "category": [
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/wordpress.svg",
     "id": "000261",
     "status": "active",
@@ -5526,6 +6309,9 @@
     "category": [
       "Social"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/x.svg",
     "id": "000262",
     "status": "active",
@@ -5547,6 +6333,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/xbox.svg",
     "id": "000263",
     "status": "active",
@@ -5568,6 +6357,9 @@
     "category": [
       "Operating Systems"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/xubuntu-linux.svg",
     "id": "000264",
     "status": "active",
@@ -5589,6 +6381,9 @@
     "category": [
       "Technology"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/yahoo.svg",
     "id": "000265",
     "status": "active",
@@ -5610,6 +6405,9 @@
     "category": [
       "Technology"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/yandex.svg",
     "id": "000266",
     "status": "active",
@@ -5631,6 +6429,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/youtube.svg",
     "id": "000267",
     "status": "active",
@@ -5652,6 +6453,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-04T22:47:06.000Z",
     "path": "./assets/svg/250.svg",
     "id": "000268",
     "status": "active",
@@ -5673,6 +6477,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/3m.svg",
     "id": "000269",
     "status": "active",
@@ -5694,6 +6501,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/alter.svg",
     "id": "000270",
     "status": "active",
@@ -5715,6 +6525,9 @@
     "category": [
       "Finance"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/amex.svg",
     "id": "000271",
     "status": "active",
@@ -5736,6 +6549,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Aniplex.svg",
     "id": "000272",
     "status": "active",
@@ -5757,6 +6573,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/ASML.svg",
     "id": "000273",
     "status": "active",
@@ -5778,6 +6597,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/ATI.svg",
     "id": "000274",
     "status": "active",
@@ -5799,6 +6621,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Bandai.svg",
     "id": "000275",
     "status": "active",
@@ -5820,6 +6645,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/BandaiNamco.svg",
     "id": "000276",
     "status": "active",
@@ -5841,6 +6669,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Banpresto.svg",
     "id": "000277",
     "status": "active",
@@ -5862,6 +6693,9 @@
     "category": [
       "Finance"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/boa.svg",
     "id": "000278",
     "status": "active",
@@ -5883,6 +6717,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/BochsVector.svg",
     "id": "000279",
     "status": "active",
@@ -5904,6 +6741,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/boeing.svg",
     "id": "000280",
     "status": "active",
@@ -5925,6 +6765,9 @@
     "category": [
       "Food & Beverage"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/BurgerKing.svg",
     "id": "000281",
     "status": "active",
@@ -5946,6 +6789,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Caterpillar.svg",
     "id": "000282",
     "status": "active",
@@ -5968,6 +6814,9 @@
       "Networking",
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/cisco.svg",
     "id": "000283",
     "status": "active",
@@ -5989,6 +6838,9 @@
     "category": [
       "Food & Beverage"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/cocacola.svg",
     "id": "000284",
     "status": "active",
@@ -6010,6 +6862,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Daemonphk.svg",
     "id": "000285",
     "status": "active",
@@ -6031,6 +6886,9 @@
     "category": [
       "Technology"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/dashboardicons.svg",
     "id": "000286",
     "status": "active",
@@ -6052,6 +6910,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Dassaultsystemes.svg",
     "id": "000287",
     "status": "active",
@@ -6073,6 +6934,9 @@
     "category": [
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/debian.svg",
     "id": "000288",
     "status": "active",
@@ -6094,6 +6958,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/DisneyChannel.svg",
     "id": "000289",
     "status": "active",
@@ -6115,6 +6982,9 @@
     "category": [
       "Food & Beverage"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Dominos.svg",
     "id": "000290",
     "status": "active",
@@ -6136,6 +7006,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/dzfdd.svg",
     "id": "000291",
     "status": "active",
@@ -6157,6 +7030,9 @@
     "category": [
       "Food & Beverage"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/fanta.svg",
     "id": "000292",
     "status": "active",
@@ -6178,6 +7054,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/FCCsymbol.svg",
     "id": "000293",
     "status": "active",
@@ -6199,6 +7078,9 @@
     "category": [
       "E-commerce"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/fedex.svg",
     "id": "000294",
     "status": "active",
@@ -6220,6 +7102,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Fila.svg",
     "id": "000295",
     "status": "active",
@@ -6241,6 +7126,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/FSC.svg",
     "id": "000296",
     "status": "active",
@@ -6262,6 +7150,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/generalelectric.svg",
     "id": "000297",
     "status": "active",
@@ -6283,6 +7174,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/GoodSmile.svg",
     "id": "000298",
     "status": "active",
@@ -6304,6 +7198,9 @@
     "category": [
       "Finance"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Greendot.svg",
     "id": "000299",
     "status": "active",
@@ -6325,6 +7222,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/hellokitty.svg",
     "id": "000300",
     "status": "active",
@@ -6346,6 +7246,9 @@
     "category": [
       "Finance"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/HSBC.svg",
     "id": "000301",
     "status": "active",
@@ -6367,6 +7270,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/ISO90012015.svg",
     "id": "000302",
     "status": "active",
@@ -6389,6 +7295,9 @@
       "E-commerce",
       "Food & Beverage"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/kfc.svg",
     "id": "000303",
     "status": "active",
@@ -6410,6 +7319,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Kodak.svg",
     "id": "000304",
     "status": "active",
@@ -6431,6 +7343,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/kotobukiya.svg",
     "id": "000305",
     "status": "active",
@@ -6452,6 +7367,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/kuromi.svg",
     "id": "000306",
     "status": "active",
@@ -6473,6 +7391,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/l3harris.svg",
     "id": "000307",
     "status": "active",
@@ -6494,6 +7415,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/LEGO.svg",
     "id": "000308",
     "status": "active",
@@ -6515,6 +7439,9 @@
     "category": [
       "Automotive"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/man.svg",
     "id": "000309",
     "status": "active",
@@ -6536,6 +7463,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Marvel.svg",
     "id": "000310",
     "status": "active",
@@ -6557,6 +7487,9 @@
     "category": [
       "Food & Beverage"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/McDonalds.svg",
     "id": "000311",
     "status": "active",
@@ -6578,6 +7511,9 @@
     "category": [
       "E-commerce"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Mærsk.svg",
     "id": "000312",
     "status": "active",
@@ -6599,6 +7535,9 @@
     "category": [
       "Finance"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/NASDAQ.svg",
     "id": "000313",
     "status": "active",
@@ -6620,6 +7559,9 @@
     "category": [
       "Media"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/NBC.svg",
     "id": "000314",
     "status": "active",
@@ -6641,6 +7583,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/NoEWaste.svg",
     "id": "000315",
     "status": "active",
@@ -6662,6 +7607,9 @@
     "category": [
       "Food & Beverage"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Pepsi.svg",
     "id": "000316",
     "status": "active",
@@ -6683,6 +7631,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/reachcompliant.svg",
     "id": "000317",
     "status": "active",
@@ -6704,6 +7655,9 @@
     "category": [
       "Security"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/reachcompliant1.svg",
     "id": "000318",
     "status": "active",
@@ -6725,6 +7679,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-04T22:47:06.000Z",
     "path": "./assets/svg/Recycle001.svg",
     "id": "000319",
     "status": "active",
@@ -6746,6 +7703,9 @@
     "category": [
       "Food & Beverage"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/redbull.svg",
     "id": "000320",
     "status": "active",
@@ -6767,6 +7727,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Rheinmetall.svg",
     "id": "000321",
     "status": "active",
@@ -6788,6 +7751,9 @@
     "category": [
       "Gaming"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RockstarGames.svg",
     "id": "000322",
     "status": "active",
@@ -6809,6 +7775,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RoHS.svg",
     "id": "000323",
     "status": "active",
@@ -6830,6 +7799,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RoHSCompliance.svg",
     "id": "000324",
     "status": "active",
@@ -6851,6 +7823,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RoHSCompliance2.svg",
     "id": "000325",
     "status": "active",
@@ -6872,6 +7847,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RoHSCompliance3.svg",
     "id": "000326",
     "status": "active",
@@ -6893,6 +7871,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RTX.svg",
     "id": "000327",
     "status": "active",
@@ -6914,6 +7895,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/scania.svg",
     "id": "000328",
     "status": "active",
@@ -6935,6 +7919,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Seagate.svg",
     "id": "000329",
     "status": "active",
@@ -6956,6 +7943,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-04T22:47:06.000Z",
     "path": "./assets/svg/Siemens.svg",
     "id": "000330",
     "status": "active",
@@ -6978,6 +7968,9 @@
       "Design",
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/simpleicons.svg",
     "id": "000331",
     "status": "active",
@@ -6999,6 +7992,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/SKHynix.svg",
     "id": "000332",
     "status": "active",
@@ -7020,6 +8016,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/spacex.svg",
     "id": "000333",
     "status": "active",
@@ -7041,6 +8040,9 @@
     "category": [
       "Food & Beverage"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/starbucks.svg",
     "id": "000334",
     "status": "active",
@@ -7062,6 +8064,9 @@
     "category": [
       "Communication"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Sunrise.svg",
     "id": "000335",
     "status": "active",
@@ -7083,6 +8088,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/tata.svg",
     "id": "000336",
     "status": "active",
@@ -7104,6 +8112,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/TÜVRheinland.svg",
     "id": "000337",
     "status": "active",
@@ -7125,6 +8136,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/TÜVRheinland1.svg",
     "id": "000338",
     "status": "active",
@@ -7146,6 +8160,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/TÜVSüd.svg",
     "id": "000339",
     "status": "active",
@@ -7167,6 +8184,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/ULcertified.svg",
     "id": "000340",
     "status": "active",
@@ -7188,6 +8208,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/ULcertified1.svg",
     "id": "000341",
     "status": "active",
@@ -7209,6 +8232,9 @@
     "category": [
       "Other"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Underground.svg",
     "id": "000342",
     "status": "active",
@@ -7230,6 +8256,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/USB.svg",
     "id": "000343",
     "status": "active",
@@ -7251,6 +8280,9 @@
     "category": [
       "E-commerce"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/uspostalservice.svg",
     "id": "000344",
     "status": "active",
@@ -7272,6 +8304,9 @@
     "category": [
       "Networking"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/vpnactive.svg",
     "id": "000345",
     "status": "active",
@@ -7293,6 +8328,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/WEEE.svg",
     "id": "000346",
     "status": "active",
@@ -7314,6 +8352,9 @@
     "category": [
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/WEEECompliance.svg",
     "id": "000347",
     "status": "active",
@@ -7336,6 +8377,9 @@
       "Networking",
       "Hardware"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/WiFi.svg",
     "id": "000348",
     "status": "active",
@@ -7357,6 +8401,9 @@
     "category": [
       "Open Source"
     ],
+    "origin": null,
+    "by": null,
+    "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/wikimedia.svg",
     "id": "000349",
     "status": "active",

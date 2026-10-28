@@ -390,3 +390,32 @@ footer.site-footer {
     flex: 0 0 20px;
     object-fit: contain;
 }
+
+/* Modal metadata columns — preserve existing text styling */
+#modalInfo .modal-meta-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 16px;
+    row-gap: 4px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+#modalInfo .modal-meta-item {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+#modalInfo .modal-meta-source {
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 420px) {
+    #modalInfo .modal-meta-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    #modalInfo .modal-meta-source {
+        grid-column: auto;
+    }
+}

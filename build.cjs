@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('node:child_process');
 
 const baseIconsDir = path.join(__dirname, 'icons');
 const configPath = path.join(__dirname, 'config.json');
@@ -32,6 +33,27 @@ if (!fs.existsSync(configPath)) {
 const iconConfig = JSON.parse(
     fs.readFileSync(configPath, 'utf8')
 );
+
+function getAssetUpdatedAt(filePath) {
+    try {
+        const timestamp = execFileSync(
+            'git',
+            ['log', '-1', '--format=%cI', '--', path.relative(__dirname, filePath)],
+            {
+                cwd: __dirname,
+                encoding: 'utf8',
+                stdio: ['ignore', 'pipe', 'ignore']
+            }
+        ).trim();
+
+        if (!timestamp) return null;
+
+        const date = new Date(timestamp);
+        return Number.isNaN(date.getTime()) ? null : date.toISOString();
+    } catch {
+        return null;
+    }
+}
 
 const iconList = [];
 let svgCount = 0;
@@ -100,6 +122,9 @@ iconConfig.forEach((icon) => {
             source: icon.source || '',
             info: icon.info || 'NPC-icons visual design asset.',
             category: Array.isArray(icon.category) ? icon.category : [],
+            origin: ['official', 'repository', 'traced', 'original', 'other'].includes(icon.origin) ? icon.origin : null,
+            by: typeof icon.by === 'string' && icon.by.trim() ? icon.by.trim() : null,
+            updatedAt: getAssetUpdatedAt(filePath),
             path: `./assets/svg/${filename}`
         });
 
@@ -116,6 +141,9 @@ iconConfig.forEach((icon) => {
             source: icon.source || '',
             info: icon.info || 'NPC-icons bitmap asset.',
             category: Array.isArray(icon.category) ? icon.category : [],
+            origin: ['official', 'repository', 'traced', 'original', 'other'].includes(icon.origin) ? icon.origin : null,
+            by: typeof icon.by === 'string' && icon.by.trim() ? icon.by.trim() : null,
+            updatedAt: getAssetUpdatedAt(filePath),
             path: `./assets/png/${filename}`
         });
 

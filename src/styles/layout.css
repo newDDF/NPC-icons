@@ -248,6 +248,16 @@ body {
     font-weight: 500;
 }
 
+:root[data-theme="light"] .menu-item select option {
+    color: #1c1c1e;
+    background-color: #ffffff;
+}
+
+:root[data-theme="dark"] .menu-item select option {
+    color: #f2f2f7;
+    background-color: #1c1c1e;
+}
+
 .menu-item select,
 .menu-item button {
     padding: 8px 10px;
@@ -563,4 +573,554 @@ body {
         gap: 13px;
         border-radius: 11px;
     }
+}
+
+
+/* Search and category filtering */
+.toolbar .search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 16px;
+}
+
+.toolbar .search-icon {
+    flex: 0 0 19px;
+    width: 19px;
+    height: 19px;
+    opacity: 0.62;
+}
+
+.toolbar .search-box input {
+    flex: 1;
+    min-width: 0;
+}
+
+.toolbar .clear-search-btn,
+.toolbar .clear-filters-btn {
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    padding: 7px 11px;
+    color: var(--text-color);
+    background: var(--blur-bg);
+    cursor: pointer;
+}
+
+.toolbar .clear-search-btn[hidden] {
+    display: none;
+}
+
+.category-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: min(1200px, calc(100% - 40px));
+    margin: 0 auto 18px;
+    color: var(--text-color);
+}
+
+.category-filter label {
+    flex: 0 0 auto;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.category-filter select {
+    flex: 1;
+    min-width: 0;
+    min-height: 42px;
+    padding: 8px 12px;
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    color: var(--text-color);
+    background: var(--blur-bg);
+}
+
+.category-filter select[multiple] {
+    height: 42px;
+}
+
+.toolbar .clear-filters-btn:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+
+@media (max-width: 600px) {
+    .category-filter {
+        width: calc(100% - 24px);
+        align-items: stretch;
+        flex-wrap: wrap;
+    }
+    .category-filter label {
+        width: 100%;
+    }
+    .category-filter select {
+        flex-basis: 100%;
+    }
+}
+
+
+/* Custom category popover */
+.toolbar .category-filter {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 0;
+    color: var(--text-color);
+}
+
+.toolbar .category-toggle-btn,
+.toolbar .clear-filters-btn,
+.category-panel button,
+.category-search-input {
+    font: inherit;
+}
+
+.toolbar .category-toggle-btn,
+.toolbar .clear-filters-btn {
+    min-height: 40px;
+    padding: 8px 10px;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    background: rgba(127, 127, 127, 0.06);
+    color: var(--text-color);
+    font: inherit;
+    cursor: pointer;
+    transition: background 0.18s ease, border-color 0.18s ease, opacity 0.18s ease;
+}
+
+.toolbar .category-toggle-btn:hover,
+.toolbar .clear-filters-btn:not(:disabled):hover,
+.category-action-btn:hover,
+.category-close-btn:hover {
+    background: rgba(127, 127, 127, 0.13);
+}
+
+.toolbar .category-toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+}
+
+.category-toggle-btn > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+}
+
+.category-toggle-btn svg {
+    flex: 0 0 16px;
+    width: 16px;
+    height: 16px;
+    transition: transform 0.18s ease;
+}
+
+.category-toggle-btn[aria-expanded="true"] svg {
+    transform: rotate(180deg);
+}
+
+.category-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 5px;
+    border-radius: 999px;
+    background: var(--accent-color);
+    color: #fff;
+    font-size: 0.72rem;
+    line-height: 1;
+}
+
+.category-count[hidden],
+.category-panel[hidden],
+.category-menu-item select[hidden] {
+    display: none !important;
+}
+
+.toolbar .clear-filters-btn:disabled,
+.category-action-btn:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.category-panel {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: min(360px, calc(100vw - 32px));
+    max-height: min(540px, calc(100vh - 100px));
+    padding: 14px;
+    overflow: hidden;
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    background: var(--blur-bg);
+    color: var(--text-color);
+    box-shadow: var(--glass-shadow);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+    box-sizing: border-box;
+}
+
+.category-panel-heading,
+.category-panel-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.category-panel-heading strong {
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.category-close-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 28px;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.category-search-input {
+    display: block;
+    width: 100%;
+    min-height: 38px;
+    padding: 8px 10px;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    outline: none;
+    background: rgba(127, 127, 127, 0.07);
+    color: var(--text-color);
+    font: inherit;
+    font-size: 0.82rem;
+    box-sizing: border-box;
+}
+
+.category-search-input:focus {
+    border-color: var(--accent-color);
+}
+
+.selected-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-height: 76px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(127, 127, 127, 0.38) transparent;
+}
+
+.selected-category-chip {
+    max-width: 100%;
+    padding: 4px 8px;
+    border: 1px solid var(--glass-border);
+    border-radius: 7px;
+    background: rgba(127, 127, 127, 0.08);
+    color: var(--text-color);
+    font-size: 0.74rem;
+    overflow-wrap: anywhere;
+    cursor: pointer;
+}
+
+.category-options {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-height: 36px;
+    max-height: 180px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(127, 127, 127, 0.38) transparent;
+}
+
+.category-option {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    min-height: 34px;
+    padding: 5px 8px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.category-option:hover {
+    background: rgba(127, 127, 127, 0.11);
+}
+
+.category-option input {
+    flex: 0 0 15px;
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    accent-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.category-option span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    font-size: 0.82rem;
+}
+
+.category-empty {
+    margin: 8px 0;
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    text-align: center;
+}
+
+.category-panel-footer {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 9px;
+    border-top: 1px solid var(--glass-border);
+}
+
+.category-action-btn,
+.category-done-btn,
+.category-menu-item .clear-filters-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 32px;
+    padding: 6px 9px;
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    background: rgba(127, 127, 127, 0.06);
+    color: var(--text-color);
+    font: inherit;
+    font-size: 0.76rem;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background 0.18s ease, border-color 0.18s ease, opacity 0.18s ease;
+}
+
+.category-menu-item .category-done-btn {
+    border-color: transparent;
+    background: var(--accent-color);
+    color: #fff;
+}
+
+.category-menu-item .category-done-btn:hover {
+    filter: brightness(1.06);
+}
+
+.toolbar.toolbar-floating .category-toggle-btn,
+.toolbar.toolbar-floating .clear-filters-btn {
+    background: var(--blur-bg);
+    border-color: var(--glass-border);
+    -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+    backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+}
+
+/* Category menu integration */
+.sidebar {
+    width: min(320px, calc(100vw - 48px));
+    max-height: min(80vh, 640px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(127, 127, 127, 0.38) transparent;
+    box-sizing: border-box;
+}
+
+.category-menu-item {
+    width: 100%;
+    min-width: 0;
+}
+
+.category-menu-item .category-toggle-btn {
+    width: 100%;
+    min-height: 38px;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+}
+
+.category-menu-item .category-panel {
+    position: static;
+    display: flex;
+    gap: 9px;
+    width: 100%;
+    max-height: none;
+    margin-top: 4px;
+    padding: 10px 0 0;
+    overflow: visible;
+    border: 0;
+    border-top: 1px solid var(--glass-border);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+
+.category-menu-item .category-panel[hidden] {
+    display: none !important;
+}
+
+.category-menu-item .category-panel-heading {
+    min-width: 0;
+}
+
+.category-menu-item .category-close-btn {
+    flex: 0 0 28px;
+}
+
+.category-menu-item .category-search-input {
+    font-size: 0.82rem;
+}
+
+.category-menu-item .selected-categories {
+    max-height: 68px;
+}
+
+.category-menu-item .category-options {
+    max-height: 168px;
+}
+
+.category-menu-item .category-panel-footer {
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+.category-menu-item .category-action-btn,
+.category-menu-item .clear-filters-btn,
+.category-menu-item .category-done-btn {
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 32px;
+    padding: 6px 7px;
+    font-size: 0.74rem;
+}
+
+.category-menu-item .clear-filters-btn:disabled {
+    opacity: 0.4;
+}
+
+.sidebar::-webkit-scrollbar,
+.category-options::-webkit-scrollbar,
+.selected-categories::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track,
+.category-options::-webkit-scrollbar-track,
+.selected-categories::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb,
+.category-options::-webkit-scrollbar-thumb,
+.selected-categories::-webkit-scrollbar-thumb {
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background: rgba(127, 127, 127, 0.32);
+    background-clip: padding-box;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover,
+.category-options::-webkit-scrollbar-thumb:hover,
+.selected-categories::-webkit-scrollbar-thumb:hover {
+    background: rgba(127, 127, 127, 0.55);
+    background-clip: padding-box;
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        left: 0;
+        width: min(320px, calc(100vw - 24px));
+        max-height: min(78vh, 600px);
+    }
+
+    .category-menu-item .category-panel {
+        padding-top: 9px;
+    }
+
+    .category-menu-item .category-panel-footer {
+        gap: 5px;
+    }
+
+    .category-menu-item .category-action-btn,
+    .category-menu-item .clear-filters-btn,
+    .category-menu-item .category-done-btn {
+        padding-inline: 5px;
+        font-size: 0.72rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .category-toggle-btn,
+    .category-toggle-btn svg,
+    .category-option,
+    .category-action-btn,
+    .category-done-btn {
+        transition: none;
+    }
+}
+
+
+
+
+.sidebar,
+.category-options,
+.selected-categories {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(127, 127, 127, 0.28) transparent;
+}
+
+.sidebar::-webkit-scrollbar,
+.category-options::-webkit-scrollbar,
+.selected-categories::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.sidebar::-webkit-scrollbar-track,
+.category-options::-webkit-scrollbar-track,
+.selected-categories::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb,
+.category-options::-webkit-scrollbar-thumb,
+.selected-categories::-webkit-scrollbar-thumb {
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background: rgba(127, 127, 127, 0.3);
+    background-clip: padding-box;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover,
+.category-options::-webkit-scrollbar-thumb:hover,
+.selected-categories::-webkit-scrollbar-thumb:hover {
+    background: rgba(127, 127, 127, 0.48);
+    background-clip: padding-box;
 }

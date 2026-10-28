@@ -124,7 +124,9 @@ try {
       format: "svg",
       source: "",
       info: "Smoke test SVG icon.",
-      category: ["Smoke Test"]
+      category: ["Smoke Test", "Hardware"],
+      origin: "official",
+      by: "NPC-icons test fixture"
     },
     {
       name: "smoke-wordmark",
@@ -132,7 +134,7 @@ try {
       format: "svg",
       source: "",
       info: "Smoke test SVG wordmark.",
-      category: ["Smoke Test"]
+      category: ["Smoke Test", "Wordmarks"]
     },
     {
       name: "smoke-pixel-png",
@@ -140,7 +142,7 @@ try {
       format: "png",
       source: "",
       info: "Smoke test PNG icon.",
-      category: ["Smoke Test"]
+      category: ["Smoke Test", "Raster"]
     }
   ];
 
@@ -297,6 +299,63 @@ try {
     )
   );
   assert(packageData.length === 3, "Test npm package contains only 3 active icons");
+
+  const metadataIcon = packageData.find(icon => icon.name === "smoke-circle");
+  assert(
+    metadataIcon.origin === "official" &&
+      metadataIcon.by === "NPC-icons test fixture" &&
+      metadataIcon.updatedAt === null,
+    "Metadata fields are generated and missing Git history returns null"
+  );
+
+  const query = spawnSync(
+    process.execPath,
+    [
+      "--input-type=module",
+      "-e",
+      "import { getIcons } from './packages/npc-icons/index.js'; console.log(JSON.stringify(getIcons({ category: ['Hardware', 'Wordmarks'] }).map(icon => icon.name).sort()));"
+    ],
+    {
+      cwd: temp,
+      encoding: "utf8",
+      env: process.env
+    }
+  );
+
+  if (query.error) throw query.error;
+  if (query.status !== 0) {
+    throw new Error("Category query test failed: " + query.stderr);
+  }
+
+  const matchedIcons = JSON.parse(query.stdout.trim());
+  assert(
+    JSON.stringify(matchedIcons) === JSON.stringify(["smoke-circle", "smoke-wordmark"]),
+    "Multiple categories use OR matching"
+  );
+
+  const singleCategoryQuery = spawnSync(
+    process.execPath,
+    [
+      "--input-type=module",
+      "-e",
+      "import { getIcons } from './packages/npc-icons/index.js'; console.log(JSON.stringify(getIcons({ category: 'Hardware' }).map(icon => icon.name)));"
+    ],
+    {
+      cwd: temp,
+      encoding: "utf8",
+      env: process.env
+    }
+  );
+
+  if (singleCategoryQuery.error) throw singleCategoryQuery.error;
+  if (singleCategoryQuery.status !== 0) {
+    throw new Error("Single category query test failed: " + singleCategoryQuery.stderr);
+  }
+
+  assert(
+    JSON.stringify(JSON.parse(singleCategoryQuery.stdout.trim())) === JSON.stringify(["smoke-circle"]),
+    "Existing single-category query remains compatible"
+  );
 
 } catch (error) {
   console.error("\nSMOKE BUILD FAILED");

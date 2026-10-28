@@ -13,9 +13,19 @@ export function getIcons(options = {}) {
   }
 
   if (options.category) {
-    icons = icons.filter(icon =>
-      icon.category.some(c => c.toLowerCase() === options.category.toLowerCase())
-    );
+    const categories = (
+      Array.isArray(options.category)
+        ? options.category
+        : [options.category]
+    ).map(category => String(category).toLowerCase());
+
+    if (categories.length > 0) {
+      icons = icons.filter(icon =>
+        categories.some(category =>
+          icon.category.some(item => item.toLowerCase() === category)
+        )
+      );
+    }
   }
 
   return icons;

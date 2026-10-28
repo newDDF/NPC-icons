@@ -5,6 +5,27 @@
             <div class="menu-item"><label>Theme Mode</label><button id="themeBtn">Switch Mode</button></div>
             <div class="menu-item"><label>Filter Format</label><select id="formatSelect"><option value="all">All Formats</option><option value="svg">Only SVG</option><option value="png">Only PNG</option></select></div>
             <div class="menu-item"><label>Display Density</label><select id="densitySelect"><option value="normal">Comfortable</option><option value="dense">Compact</option></select></div>
+            <div class="menu-item category-menu-item">
+                <label class="category-menu-label" for="categoryToggleBtn">Categories</label>
+                <button type="button" id="categoryToggleBtn" class="category-toggle-btn" aria-expanded="false" aria-controls="categoryPanel">
+                    <span>Choose categories <span id="categoryCount" class="category-count" hidden>0</span></span>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+                <div id="categoryPanel" class="category-panel" hidden>
+                    <div id="selectedCategories" class="selected-categories" aria-live="polite"></div>
+                    <div class="category-panel-footer">
+                        <button type="button" id="clearCategoriesBtn" class="category-action-btn">Clear categories</button>
+                        <button type="button" id="clearFiltersBtn" class="clear-filters-btn" disabled>Reset all filters</button>
+                        <button type="button" id="doneCategoryPanelBtn" class="category-done-btn">Done</button>
+                    </div>
+                    <div id="categoryOptions" class="category-options" aria-label="Available categories"></div>
+                </div>
+                <select id="categorySelect" multiple aria-label="Selected categories" hidden></select>
+            </div>
         </div>
-        <div class="search-box"><input type="text" id="searchInput" placeholder="Search icons..."></div>
+        <div class="search-box">
+            <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m16 16 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <input type="search" id="searchInput" placeholder="Search names, descriptions, categories..." aria-label="Search icons">
+            <button type="button" id="clearSearchBtn" class="clear-search-btn" aria-label="Clear search" hidden>×</button>
+        </div>
     </div>
