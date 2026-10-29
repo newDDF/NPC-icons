@@ -300,6 +300,24 @@ try {
   );
   assert(packageData.length === 3, "Test npm package contains only 3 active icons");
 
+  const packageRoot = path.join(temp, "packages/npc-icons");
+  const packageAssetsRoot = path.join(packageRoot, "assets") + path.sep;
+
+  for (const icon of packageData) {
+    assert(
+      typeof icon.path === "string" && icon.path.startsWith("./assets/"),
+      "npm package asset path is relative: " + icon.name
+    );
+
+    const assetPath = path.resolve(packageRoot, icon.path);
+    assert(
+      assetPath.startsWith(packageAssetsRoot) &&
+        fs.existsSync(assetPath) &&
+        fs.statSync(assetPath).isFile(),
+      "npm package asset exists: " + icon.path
+    );
+  }
+
   const metadataIcon = packageData.find(icon => icon.name === "smoke-circle");
   assert(
     metadataIcon.origin === "official" &&
@@ -355,6 +373,81 @@ try {
   assert(
     JSON.stringify(JSON.parse(singleCategoryQuery.stdout.trim())) === JSON.stringify(["smoke-circle"]),
     "Existing single-category query remains compatible"
+  );
+
+  const apiQuery = spawnSync(
+    process.execPath,
+    [
+      "--input-type=module",
+      "-e",
+      `
+import { getIcon, searchIcons, getIconSvg, getStats } from './packages/npc-icons/index.js';
+const icons = getIcon('900001');
+const legacy = getIcon('smoke-circle-svg');
+const named = getIcon('SMOKE-CIRCLE');
+const png = getIcon('900003', 'png');
+const missing = getIcon('not-found');
+const wrongFormat = getIcon('900003', 'svg');
+const svg = getIconSvg('900001');
+const pngSvg = getIconSvg('900003');
+const missingSvg = getIconSvg('not-found');
+const stats = getStats();
+const result = {
+  permanentId: icons?.id,
+  legacyId: legacy?.id,
+  namedId: named?.id,
+  pngFormat: png?.format,
+  missing: missing,
+  wrongFormat: wrongFormat,
+  nameSearch: searchIcons('SMOKE-CIRCLE').map(icon => icon.name),
+  infoSearch: searchIcons('Smoke test PNG').map(icon => icon.name),
+  categorySearch: searchIcons('wordmarks').map(icon => icon.name),
+  emptySearch: searchIcons('   '),
+  svgContainsTitle: typeof svg === 'string' && svg.includes('<title>Smoke Circle</title>'),
+  pngSvg: pngSvg,
+  missingSvg: missingSvg,
+  stats,
+  dataCounts: {
+    total: 3,
+    svg: 2,
+    png: 1
+  }
+};
+console.log(JSON.stringify(result));
+`
+    ],
+    {
+      cwd: temp,
+      encoding: "utf8",
+      env: process.env
+    }
+  );
+
+  if (apiQuery.error) throw apiQuery.error;
+  if (apiQuery.status !== 0) {
+    throw new Error("Package API test failed: " + apiQuery.stderr);
+  }
+
+  const apiResult = JSON.parse(apiQuery.stdout.trim());
+
+  assert(apiResult.permanentId === "900001", "getIcon resolves permanent IDs");
+  assert(apiResult.legacyId === "900001", "getIcon resolves legacy aliases");
+  assert(apiResult.namedId === "900001", "getIcon matches names case-insensitively");
+  assert(apiResult.pngFormat === "png", "getIcon supports explicit PNG format");
+  assert(apiResult.missing === null, "getIcon returns null for unknown icons");
+  assert(apiResult.wrongFormat === null, "getIcon returns null for unmatched explicit formats");
+  assert(apiResult.nameSearch.includes("smoke-circle"), "searchIcons matches icon names");
+  assert(apiResult.infoSearch.includes("smoke-pixel-png"), "searchIcons matches icon descriptions");
+  assert(apiResult.categorySearch.includes("smoke-wordmark"), "searchIcons matches categories");
+  assert(Array.isArray(apiResult.emptySearch) && apiResult.emptySearch.length === 0, "searchIcons returns no results for blank queries");
+  assert(apiResult.svgContainsTitle, "getIconSvg returns SVG content");
+  assert(apiResult.pngSvg === null, "getIconSvg returns null for PNG icons");
+  assert(apiResult.missingSvg === null, "getIconSvg returns null for unknown icons");
+  assert(
+    apiResult.stats.total === apiResult.dataCounts.total &&
+      apiResult.stats.svg === apiResult.dataCounts.svg &&
+      apiResult.stats.png === apiResult.dataCounts.png,
+    "getStats matches generated icon counts"
   );
 
 } catch (error) {
