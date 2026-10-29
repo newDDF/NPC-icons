@@ -56,21 +56,6 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
             <span class="workspace-format">{icon.format.toUpperCase()}</span>
           </div>
 
-          <nav class="workspace-tabs" aria-label="Icon workspace navigation">
-            <button type="button" class="workspace-tab" data-workspace-tab="details" aria-pressed="false">
-              <span class="workspace-tab-icon" aria-hidden="true">i</span>
-              <span>Details</span>
-            </button>
-            <button type="button" class="workspace-tab is-active" data-workspace-tab="customize" aria-pressed="true">
-              <span class="workspace-tab-icon" aria-hidden="true">✳</span>
-              <span>Customize</span>
-            </button>
-            <a class="workspace-tab workspace-library-link" href="/" aria-label="Return to icon library">
-              <span class="workspace-tab-icon" aria-hidden="true">▦</span>
-              <span>Icon Library</span>
-            </a>
-          </nav>
-
           <div class="detail-preview">
             {isRetired ? (
               <p role="status">
@@ -97,17 +82,21 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
         </section>
 
         <section class="workspace-editor-panel" aria-label="Icon details and customization">
-          <div class="workspace-editor-heading">
-            <div>
-              <span class="workspace-eyebrow">EDITOR</span>
-              <h2>Workspace</h2>
-            </div>
-            <span class="workspace-editor-mark" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M12 3v3m0 12v3M3 12h3m12 0h3M5.64 5.64l2.12 2.12m8.48 8.48 2.12 2.12m0-12.72-2.12 2.12m-8.48 8.48-2.12 2.12"/><circle cx="12" cy="12" r="4"/></svg>
-            </span>
-          </div>
+          <nav class="workspace-tabs" aria-label="Icon workspace navigation">
+            <button type="button" class="workspace-tab" data-workspace-tab="details" aria-pressed="false">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5"></path><path d="M12 8h.01"></path></svg>
+              <span>Details</span>
+            </button>
+            <button type="button" class="workspace-tab is-active" data-workspace-tab="customize" aria-pressed="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h9"></path><path d="M17 7h3"></path><path d="M4 17h3"></path><path d="M11 17h9"></path><path d="M13 4v6"></path><path d="M7 14v6"></path></svg>
+              <span>Customize</span>
+            </button>
+            <a class="workspace-tab workspace-library-link" href="/" aria-label="Back to icon library">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m14 18-6-6 6-6"></path><path d="M8 12h12"></path></svg>
+              <span>Back</span>
+            </a>
+          </nav>
 
-          <p class="workspace-editor-intro" data-workspace-view="customize">Adjust appearance. Your original asset remains unchanged.</p>
 
           {!isRetired && (
             <div
@@ -204,7 +193,28 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
 
           <div class="workspace-section workspace-export-section" data-workspace-view="customize">
             <h3>Export</h3>
-            <p>Choose a format and download.</p>
+            {!isRetired && (
+              <div class="editor-export-settings">
+                <span class="editor-control-title">Scale</span>
+                <div class="editor-export-scales" role="group" aria-label="Export scale">
+                  <button type="button" class="editor-export-scale is-active" data-export-scale="1" aria-pressed="true">1×</button>
+                  <button type="button" class="editor-export-scale" data-export-scale="2" aria-pressed="false">2×</button>
+                  <button type="button" class="editor-export-scale" data-export-scale="4" aria-pressed="false">4×</button>
+                  <button type="button" class="editor-export-scale" data-export-scale="8" aria-pressed="false">8×</button>
+                  <button type="button" class="editor-export-scale" data-export-scale="custom" aria-pressed="false">Custom</button>
+                </div>
+                <div class="editor-export-custom" data-export-custom hidden>
+                  <div class="editor-control-group">
+                    <label for="editor-export-width">Width (px)</label>
+                    <input id="editor-export-width" data-export-width type="number" min="16" max="4096" step="1" value="512" inputmode="numeric" />
+                  </div>
+                  <div class="editor-control-group">
+                    <label for="editor-export-height">Height (px)</label>
+                    <input id="editor-export-height" data-export-height type="number" min="16" max="4096" step="1" value="512" inputmode="numeric" />
+                  </div>
+                </div>
+              </div>
+            )}
             {!isRetired && (
               <div class="detail-actions editor-export-actions">
                 <a class="detail-primary" href={icon.path} download={icon.filename}>Original {icon.format.toUpperCase()}</a>
@@ -265,8 +275,7 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
     text-align: center;
   }
 
-  .workspace-panel-heading,
-  .workspace-editor-heading {
+  .workspace-panel-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -353,8 +362,15 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
   .workspace-tabs {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 8px;
-    margin: 20px 0 24px;
+    align-items: center;
+    gap: 4px;
+    margin: 0 0 16px;
+    padding: 4px;
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--blur-bg) 82%, transparent);
+    backdrop-filter: blur(12px) saturate(125%);
+    -webkit-backdrop-filter: blur(12px) saturate(125%);
   }
 
   .workspace-tab {
@@ -379,6 +395,16 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
     transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
   }
 
+  .workspace-tab svg {
+    width: 15px;
+    height: 15px;
+    flex: 0 0 auto;
+  }
+
+  .workspace-tab span {
+    min-width: 0;
+  }
+
   .workspace-tab:hover {
     border-color: var(--accent-color);
     color: var(--text-color);
@@ -388,19 +414,6 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
     border-color: var(--accent-color);
     background: color-mix(in srgb, var(--accent-color) 10%, var(--blur-bg));
     color: var(--accent-color);
-  }
-
-  .workspace-tab-icon {
-    display: inline-flex;
-    flex: 0 0 auto;
-    align-items: center;
-    justify-content: center;
-    width: 18px;
-    height: 18px;
-    border: 1px solid currentColor;
-    border-radius: 6px;
-    font-size: 0.72rem;
-    line-height: 1;
   }
 
   [data-workspace-view][hidden] {
@@ -428,40 +441,8 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
     text-align: left;
   }
 
-  .workspace-editor-heading {
-    margin-bottom: 12px;
-  }
-
-  .workspace-editor-heading h2 {
-    margin: 6px 0 0;
-    font-size: clamp(1.5rem, 2.5vw, 2rem);
-    letter-spacing: -0.035em;
-  }
-
-  .workspace-editor-mark {
-    display: grid;
-    place-items: center;
-    width: 42px;
-    height: 42px;
-    flex: 0 0 auto;
-    border: 1px solid var(--glass-border);
-    border-radius: 14px;
-    background: var(--card-bg);
-    color: var(--accent-color);
-  }
-
-  .workspace-editor-mark svg {
-    width: 21px;
-    height: 21px;
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 1.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-  }
-
   .workspace-editor-intro {
-    margin: 0 0 28px;
+    margin: 0 0 18px;
     color: var(--text-muted);
     font-size: 0.9rem;
     line-height: 1.7;
@@ -470,8 +451,8 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
   /* Appearance editor */
   .editor-controls {
     display: grid;
-    gap: 26px;
-    padding-bottom: 26px;
+    gap: 18px;
+    padding-bottom: 18px;
   }
 
   .editor-controls > h3 {
@@ -483,7 +464,7 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
 
   .editor-control-group {
     display: grid;
-    gap: 12px;
+    gap: 9px;
     min-width: 0;
   }
 
@@ -657,11 +638,31 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
   :global(.editor-palette-grid) {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(28px, 1fr));
-    gap: 9px;
+    gap: 8px;
     max-height: 144px;
+    overflow-x: hidden;
     overflow-y: auto;
-    padding: 2px 2px 6px;
+    padding: 3px 5px 6px 2px;
     overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--text-muted) 38%, transparent) transparent;
+  }
+
+  :global(.editor-palette-grid::-webkit-scrollbar) {
+    width: 5px;
+  }
+
+  :global(.editor-palette-grid::-webkit-scrollbar-track) {
+    background: transparent;
+  }
+
+  :global(.editor-palette-grid::-webkit-scrollbar-thumb) {
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--text-muted) 34%, transparent);
+  }
+
+  :global(.editor-palette-grid::-webkit-scrollbar-thumb:hover) {
+    background: color-mix(in srgb, var(--accent-color) 62%, transparent);
   }
 
   :global(.editor-palette-swatch) {
@@ -696,13 +697,13 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
 
   :global(.editor-palette-editor) {
     display: grid;
-    grid-template-columns: 42px minmax(0, 1fr);
+    grid-template-columns: 34px minmax(0, 1fr);
     align-items: center;
-    gap: 12px;
-    padding: 12px;
+    gap: 8px;
+    padding: 10px;
     border: 1px solid var(--glass-border);
-    border-radius: 14px;
-    background: color-mix(in srgb, var(--blur-bg) 82%, transparent);
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--blur-bg) 88%, transparent);
     backdrop-filter: blur(12px) saturate(125%);
     -webkit-backdrop-filter: blur(12px) saturate(125%);
   }
@@ -712,9 +713,9 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
   }
 
   :global(.editor-palette-editor input[type="color"]) {
-    width: 42px;
-    height: 42px;
-    padding: 3px;
+    width: 34px;
+    height: 34px;
+    padding: 2px;
     border: 1px solid var(--glass-border);
     border-radius: 11px;
     background: var(--card-bg);
@@ -724,8 +725,8 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
   :global(.editor-palette-hex) {
     width: 100%;
     min-width: 0;
-    height: 38px;
-    padding: 0 10px;
+    height: 34px;
+    padding: 0 9px;
     border: 1px solid var(--glass-border);
     border-radius: 9px;
     background: var(--card-bg);
@@ -741,8 +742,8 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
-    gap: 8px 12px;
-    padding-top: 10px;
+    gap: 8px 10px;
+    padding-top: 9px;
     border-top: 1px solid var(--glass-border);
   }
 
@@ -822,6 +823,73 @@ const displayColor = icon.color && icon.color !== "none" ? icon.color : "";
 
   .detail-preview[data-preview-bg="dark"] img {
     color-scheme: dark;
+  }
+
+  .editor-export-settings {
+    display: grid;
+    gap: 10px;
+    margin: 14px 0 18px;
+  }
+
+  .editor-export-scales {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 6px;
+    padding: 4px;
+    border: 1px solid var(--glass-border);
+    border-radius: 13px;
+    background: color-mix(in srgb, var(--blur-bg) 78%, transparent);
+    backdrop-filter: blur(12px) saturate(125%);
+    -webkit-backdrop-filter: blur(12px) saturate(125%);
+  }
+
+  .editor-export-scale {
+    min-width: 0;
+    min-height: 36px;
+    padding: 6px 3px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    background: transparent;
+    color: var(--text-muted);
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .18s ease, border-color .18s ease, color .18s ease;
+  }
+
+  .editor-export-scale:hover {
+    color: var(--text-color);
+    border-color: var(--glass-border);
+  }
+
+  .editor-export-scale.is-active {
+    border-color: color-mix(in srgb, var(--accent-color) 45%, var(--glass-border));
+    background: color-mix(in srgb, var(--accent-color) 10%, var(--blur-bg));
+    color: var(--accent-color);
+  }
+
+  .editor-export-custom {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    padding-top: 4px;
+  }
+
+  .editor-export-custom[hidden] {
+    display: none !important;
+  }
+
+  .editor-export-custom input {
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .editor-export-settings .editor-help {
+    margin: 0;
+    font-size: 0.78rem;
+    line-height: 1.55;
   }
 
   .editor-export-actions {
