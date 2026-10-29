@@ -343,6 +343,42 @@ For PNG:
 
 ---
 
+### Additional Metadata
+
+The supported metadata fields also include:
+
+| Field | Description |
+| :--- | :--- |
+| `by` | Creator or attribution, when known |
+| `origin` | Provenance of the icon asset |
+
+Follow the conventions used by existing entries. Do not invent attribution or provenance.
+
+### 3. Register a Permanent ID
+
+1. Open `data/id-registry.json` and read `nextId`.
+2. Add a record to `records` using that ID, with the matching `name`, `format`, `filename`, and `status`.
+3. Advance `nextId` to the next available ID, preserving the existing zero-padded format.
+4. Never reuse an assigned ID, including IDs belonging to retired icons.
+
+### 4. Register a Legacy Alias
+
+Add a unique entry to `mappings` in `data/legacy-id-map.json`, pointing the legacy alias to the permanent ID. Follow existing naming conventions and preserve all existing mappings.
+
+### 5. Validate the Changes
+
+Run these commands in order:
+
+- `npm run build:smoke` — validates the isolated build and related checks.
+- `npm run build` — regenerates project data and runs the production build.
+- `git diff --check` — checks for whitespace errors.
+
+Review `git status --short` and the diff before committing. Stage only the intended icon asset and source files; do not accidentally include unrelated backups or generated files.
+
+Do not edit generated files under `public/` or `dist/` manually. Build output and a successful smoke test do not replace a production build check.
+
+---
+
 ## 🔧 Local Development
 
 Clone the repository:
