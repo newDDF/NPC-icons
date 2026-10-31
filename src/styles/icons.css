@@ -145,10 +145,13 @@
 
         .card-bottom-bar {
             display: flex;
+            position: relative;
             width: 100%;
             height: 42px;
             border-top: 1px solid var(--border-color);
-            background: rgba(0,0,0,0.01);
+            background: var(--bar-color, var(--bg-color, transparent));
+            color: var(--bar-text-color, var(--text-color));
+            border-top-color: transparent;
             border-bottom-left-radius: var(--card-border-radius);
             border-bottom-right-radius: var(--card-border-radius);
             overflow: hidden;
@@ -236,12 +239,6 @@
 
 
 /* Icon card bottom bar: color-backed unified actions */
-.card-bottom-bar {
-    background: var(--bar-color, var(--bg-color, transparent));
-    color: var(--bar-text-color, var(--text-color));
-    border-top-color: transparent;
-}
-
 .card-bottom-bar .color-block-btn {
     flex: 1.3;
     min-width: 0;
@@ -282,10 +279,6 @@
 
 
 /* Inline download options replace the existing bottom-bar controls. */
-.card-bottom-bar {
-    position: relative;
-}
-
 .card-bottom-bar.download-options-open > .color-block-btn,
 .card-bottom-bar.download-options-open > .action-btn-zone {
     display: none;

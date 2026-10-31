@@ -83,6 +83,7 @@ try {
   temp = fs.mkdtempSync(path.join(os.tmpdir(), "npc-icons-smoke-"));
 
   for (const file of [
+    "icon-register.cjs",
     "build.cjs",
     "ecosystem.cjs",
     "package.json",
@@ -143,6 +144,14 @@ try {
       source: "",
       info: "Smoke test PNG icon.",
       category: ["Smoke Test", "Raster"]
+    },
+    {
+      name: "smoke-auto-id",
+      color: "#2457C5",
+      format: "svg",
+      source: "",
+      info: "Smoke test automatically registered icon.",
+      category: ["Smoke Test", "Automatic Registration"]
     }
   ];
 
@@ -211,6 +220,10 @@ try {
     path.join(svgDir, "smoke-wordmark.svg"),
     svg("#111111", "Smoke Wordmark")
   );
+  fs.writeFileSync(
+    path.join(svgDir, "smoke-auto-id.svg"),
+    svg("#2457C5", "Smoke Auto ID")
+  );
 
   // A valid, transparent 1x1 PNG fixture.
   fs.writeFileSync(
@@ -233,6 +246,32 @@ try {
     throw new Error("Isolated smoke build failed with exit code " + build.status);
   }
 
+  const registryFile = path.join(temp, "data/id-registry.json");
+  const registryAfterBuild = fs.readFileSync(registryFile, "utf8");
+  const registryData = JSON.parse(registryAfterBuild);
+  const autoRecord = registryData.records.find((record) => record.name === "smoke-auto-id");
+
+  assert(autoRecord && autoRecord.id === "900005", "New icon receives the next permanent ID");
+  assert(registryData.nextId === "900006", "Registry nextId advances after registration");
+  assert(
+    registryData.records.some((record) => record.id === "900004" && record.status === "retired"),
+    "Retired registry record remains unchanged"
+  );
+
+  const repeatedRegistration = spawnSync(
+    process.execPath,
+    ["icon-register.cjs"],
+    { cwd: temp, encoding: "utf8", env: process.env }
+  );
+  if (repeatedRegistration.error) throw repeatedRegistration.error;
+  if (repeatedRegistration.status !== 0) {
+    throw new Error("Repeated registration failed: " + repeatedRegistration.stderr);
+  }
+  assert(
+    fs.readFileSync(registryFile, "utf8") === registryAfterBuild,
+    "Repeated registration does not change assigned IDs"
+  );
+
   const dist = path.join(temp, "dist");
 
   for (const file of [
@@ -241,10 +280,14 @@ try {
     "icons/900002/index.html",
     "icons/900003/index.html",
     "icons/900004/index.html",
+    "icons/900005/index.html",
+    "icons/smoke-auto-id-svg/index.html",
     "icons/smoke-circle-svg/index.html",
     "icons/smoke-retired-svg/index.html",
     "api/icons/900001.json",
     "api/icons/900004.json",
+    "api/icons/900005.json",
+    "api/icons/smoke-auto-id-svg.json",
     "api/icons/smoke-circle-svg.json",
   ]) {
     assert(
@@ -255,6 +298,7 @@ try {
 
   assert(findByName(dist, "smoke-circle.svg"), "Generated SVG asset");
   assert(findByName(dist, "smoke-pixel.png"), "Generated PNG asset");
+  assert(findByName(dist, "smoke-auto-id.svg"), "Generated automatically registered SVG asset");
 
   const retiredPage = fs.readFileSync(
     path.join(dist, "icons/900004/index.html"),
@@ -298,7 +342,7 @@ try {
       "utf8"
     )
   );
-  assert(packageData.length === 3, "Test npm package contains only 3 active icons");
+  assert(packageData.length === 4, "Test npm package contains only 4 active icons");
 
   const packageRoot = path.join(temp, "packages/npc-icons");
   const packageAssetsRoot = path.join(packageRoot, "assets") + path.sep;
@@ -408,8 +452,8 @@ const result = {
   missingSvg: missingSvg,
   stats,
   dataCounts: {
-    total: 3,
-    svg: 2,
+    total: 4,
+    svg: 3,
     png: 1
   }
 };

@@ -1,4 +1,4 @@
-import { normalizeHex, getContrastTextColor, hexToHsl } from './modules/colors.js';
+import { getContrastTextColor, hexToHsl } from './modules/colors.js';
 import { initToolbar } from './modules/toolbar.js';
 import { initShare } from './modules/share.js';
 import { initModal } from './modules/modal.js';
@@ -61,6 +61,7 @@ function updateCategoryUI() {
         chip.setAttribute('aria-label', `Remove category ${option.value}`);
         chip.addEventListener('click', () => {
             option.selected = false;
+            updateCategoryUI();
             resetAndRender();
         });
         selectedCategoriesContainer.appendChild(chip);
@@ -87,6 +88,7 @@ function updateCategoryUI() {
             checkbox.checked = option.selected;
             checkbox.addEventListener('change', () => {
                 option.selected = checkbox.checked;
+                updateCategoryUI();
                 resetAndRender();
             });
             const name = document.createElement('span');
@@ -423,7 +425,10 @@ function resetAndRender() {
 searchInput.addEventListener('input', resetAndRender);
 sortSelect.addEventListener('change', renderGrid);
 formatSelect.addEventListener('change', resetAndRender);
-categorySelect.addEventListener('change', resetAndRender);
+categorySelect.addEventListener('change', () => {
+    updateCategoryUI();
+    resetAndRender();
+});
 
 function setCategoryPanelOpen(open) {
     categoryPanel.hidden = !open;
@@ -455,6 +460,7 @@ clearSearchBtn.addEventListener('click', () => {
 
 function clearSelectedCategories() {
     Array.from(categorySelect.options).forEach(option => { option.selected = false; });
+    updateCategoryUI();
     resetAndRender();
 }
 clearCategoriesBtn.addEventListener('click', clearSelectedCategories);
@@ -463,7 +469,6 @@ clearFiltersBtn.addEventListener('click', () => {
     searchInput.value = '';
     formatSelect.value = 'all';
     clearSelectedCategories();
-    resetAndRender();
 });
 
 loadMoreBtn.addEventListener('click', () => { displayLimit += 30; renderGrid(); });

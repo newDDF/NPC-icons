@@ -448,11 +448,13 @@ body {
 }
 
 
-/* NPC-icons refined brand header */
+/* NPC-icons unified brand header */
 .brand-header {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px 24px 24px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 14px clamp(24px, 3vw, 52px) 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1123,4 +1125,22 @@ body {
 .selected-categories::-webkit-scrollbar-thumb:hover {
     background: rgba(127, 127, 127, 0.48);
     background-clip: padding-box;
+}
+
+/* Shared page frame */
+body {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+.site-main {
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+footer.site-footer {
+    margin: auto auto 0;
 }

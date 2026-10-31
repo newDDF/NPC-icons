@@ -10,10 +10,21 @@ export function initControls({ sidebarMenu, toggleMenuBtn, themeBtn, iconGrid, d
         }
     });
 
+    const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+    themeBtn.innerText = currentTheme === 'light' ? 'Dark Mode' : 'Light Mode';
+
     themeBtn.addEventListener('click', () => {
         const isLight = document.documentElement.getAttribute('data-theme') === 'light';
-        document.documentElement.setAttribute('data-theme', isLight ? 'dark' : 'light');
-        themeBtn.innerText = isLight ? 'Dark Mode' : 'Light Mode';
+        const nextTheme = isLight ? 'dark' : 'light';
+
+        document.documentElement.setAttribute('data-theme', nextTheme);
+        themeBtn.innerText = nextTheme === 'light' ? 'Dark Mode' : 'Light Mode';
+
+        try {
+            localStorage.setItem('npc-icons-theme', nextTheme);
+        } catch (error) {
+            console.warn('Unable to save theme preference:', error);
+        }
     });
 
     densitySelect.addEventListener('change', () => {

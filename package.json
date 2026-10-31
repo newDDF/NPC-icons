@@ -7,14 +7,16 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "node build.cjs && node ecosystem.cjs && astro build",
+    "build": "node icon-register.cjs && node build.cjs && node ecosystem.cjs && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "predev": "node build.cjs && node ecosystem.cjs",
     "build:smoke": "node tests/smoke/build.cjs"
   },
   "dependencies": {
-    "astro": "^7.3.6"
+    "@astrojs/check": "^0.9.10",
+    "astro": "^7.3.6",
+    "typescript": "^6.0.3"
   },
   "allowScripts": {
     "esbuild": true
