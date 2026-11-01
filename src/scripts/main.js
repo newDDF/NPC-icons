@@ -179,7 +179,7 @@ function openDownloadMenu(icon, trigger) {
         '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8 14 9l6.2 2-6.2 2-2 6.2-2-6.2-6.2-2L10 9l2-6.2Z"/><path d="m19 15 .9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15Z"/></svg>',
         'Custom icon',
         () => {
-            window.location.href = `/icons/${encodeURIComponent(icon.id || icon.name)}/`;
+            window.location.href = `/icons/${encodeURIComponent(icon.id || icon.name)}/?view=customize`;
         }
     );
 
@@ -307,11 +307,31 @@ function renderGrid() {
     const selectedCategories = Array.from(categorySelect.selectedOptions)
         .map(option => option.value.toLowerCase());
     const sort = sortSelect.value;
+    const normalizeSearchText = value => value
+        .toLowerCase()
+        .replace(/[^\p{L}\p{N}]+/gu, ' ')
+        .trim();
+    const searchTerms = normalizeSearchText(searchTerm)
+        .split(/\s+/).filter(Boolean);
+    const matchesTerms = value => {
+        const words = normalizeSearchText(value).split(/\s+/).filter(Boolean);
+        return searchTerms.every(term =>
+            words.some(word =>
+                /^\d+$/.test(term)
+                    ? word.includes(term)
+                    : word.startsWith(term)
+            )
+        );
+    };
+    const hasNameMatches = searchTerms.length === 0 ||
+        icons.some(icon => matchesTerms(icon.name));
+
     let filtered = icons.filter(icon => {
         const categories = Array.isArray(icon.category) ? icon.category : [];
-        const searchableText = [icon.name, icon.info, ...categories]
-            .filter(Boolean).join(' ').toLowerCase();
-        const matchesSearch = searchableText.includes(searchTerm);
+        const matchesSearch = searchTerms.length === 0 ||
+            (hasNameMatches
+                ? matchesTerms(icon.name)
+                : matchesTerms([icon.info, ...categories].filter(Boolean).join(' ')));
         const matchesFormat = format === 'all' || icon.format === format;
         const matchesCategory = selectedCategories.length === 0 ||
             selectedCategories.some(category =>

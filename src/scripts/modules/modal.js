@@ -46,8 +46,12 @@ export function initModal() {
         })[char]);
 
         const sourceHtml = icon.source
-            ? `<a class="modal-source-link" href="${escapeHtml(icon.source)}" target="_blank" rel="noopener noreferrer">Official Website</a>`
+            ? `<a class="modal-source-link" href="${escapeHtml(icon.source)}" target="_blank" rel="noopener noreferrer">Related URL</a>`
             : `<span class="modal-none">None</span>`;
+
+        const updatedDate = icon.updatedAt
+            ? new Date(icon.updatedAt).toISOString().slice(0, 10)
+            : 'Not available';
 
         modalInfo.innerHTML = `
             <div class="modal-meta-grid">
@@ -58,6 +62,9 @@ export function initModal() {
                 <div class="modal-meta-item">
                     Hex Color: <b class="modal-color">${escapeHtml(displayColor || icon.color || 'Unknown')}</b>
                 </div>` : ''}
+                <div class="modal-meta-item">
+                    Updated: <b>${escapeHtml(updatedDate)}</b>
+                </div>
                 <div class="modal-meta-item">
                     Origin: ${icon.origin ? escapeHtml(icon.origin) : '<span class="modal-none">Not provided</span>'}
                 </div>

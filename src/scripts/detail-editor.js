@@ -40,7 +40,8 @@ if (root && controls && preview && previewImage) {
     });
   });
 
-  activateWorkspace("customize");
+  const requestedView = new URLSearchParams(window.location.search).get("view");
+  activateWorkspace(requestedView === "customize" ? "customize" : "details");
 
   let originalSvgText = null;
   let customizedSvgText = null;
@@ -627,11 +628,15 @@ if (root && controls && preview && previewImage) {
 
   async function exportRaster(targetFormat) {
     let objectUrl = "";
+
     try {
       let imageSource = path;
+
       if (format === "svg") {
-        const svgText = await getExportSvg(true);
-        objectUrl = URL.createObjectURL(new Blob([svgText], { type: "image/svg+xml;charset=utf-8" }));
+        const svgText = await getExportSvg(true, true);
+        objectUrl = URL.createObjectURL(
+          new Blob([svgText], { type: "image/svg+xml;charset=utf-8" })
+        );
         imageSource = objectUrl;
       }
 
@@ -639,29 +644,99 @@ if (root && controls && preview && previewImage) {
       image.src = imageSource;
       await image.decode();
 
-      const { width: outputWidth, height: outputHeight } = getExportDimensions(
-        image.naturalWidth || 512,
-        image.naturalHeight || 512
-      );
+      const isIco = targetFormat === "ico";
+      const dimensions = format === "svg"
+        ? {
+            width: image.naturalWidth,
+            height: image.naturalHeight
+          }
+        : getExportDimensions(
+            image.naturalWidth || 512,
+            image.naturalHeight || 512
+          );
+
+      const outputWidth = dimensions.width;
+      const outputHeight = dimensions.height;
+
+      if (isIco && (outputWidth > 256 || outputHeight > 256)) {
+        throw new Error("ICO dimensions cannot exceed 256 × 256 px. Choose a smaller scale.");
+      }
+
       const canvas = document.createElement("canvas");
       canvas.width = outputWidth;
       canvas.height = outputHeight;
+
       const context = canvas.getContext("2d");
       if (!context) throw new Error("Canvas is unavailable.");
 
-      context.clearRect(0, 0, outputWidth, outputHeight);
-      const scale = Math.min(outputWidth / image.naturalWidth, outputHeight / image.naturalHeight);
+      const background = preview.dataset.previewBg;
+      if (background === "light" || background === "dark") {
+        context.fillStyle = background === "light" ? "#ffffff" : "#121212";
+        context.fillRect(0, 0, outputWidth, outputHeight);
+      }
+
+      const scale = Math.min(
+        outputWidth / image.naturalWidth,
+        outputHeight / image.naturalHeight
+      );
       const drawWidth = image.naturalWidth * scale;
       const drawHeight = image.naturalHeight * scale;
-      context.drawImage(image, (outputWidth - drawWidth) / 2, (outputHeight - drawHeight) / 2, drawWidth, drawHeight);
 
-      const mime = targetFormat === "webp" ? "image/webp" : "image/png";
-      const blob = await new Promise((resolve) => canvas.toBlob(resolve, mime, 0.92));
-      if (!blob) throw new Error(`Could not encode ${targetFormat.toUpperCase()}.`);
-      if (targetFormat === "webp" && blob.type !== "image/webp") {
-        throw new Error("This browser does not support WebP export.");
+      context.drawImage(
+        image,
+        (outputWidth - drawWidth) / 2,
+        (outputHeight - drawHeight) / 2,
+        drawWidth,
+        drawHeight
+      );
+
+      const mime = isIco
+        ? "image/png"
+        : targetFormat === "webp"
+          ? "image/webp"
+          : "image/png";
+
+      const blob = await new Promise((resolve) =>
+        canvas.toBlob(resolve, mime, 0.92)
+      );
+
+      if (!blob) {
+        throw new Error(`Could not encode ${targetFormat.toUpperCase()}.`);
       }
-      saveBlob(blob, `${safeFilename(name)}.${targetFormat}`);
+
+      if (targetFormat === "webp") {
+        if (blob.type !== "image/webp") {
+          throw new Error("This browser does not support WebP export.");
+        }
+        saveBlob(blob, `${safeFilename(name)}.webp`);
+      } else if (isIco) {
+        const pngBytes = new Uint8Array(await blob.arrayBuffer());
+        const icoBuffer = new ArrayBuffer(22 + pngBytes.length);
+        const view = new DataView(icoBuffer);
+
+        view.setUint16(0, 0, true);
+        view.setUint16(2, 1, true);
+        view.setUint16(4, 1, true);
+
+        view.setUint8(6, outputWidth === 256 ? 0 : outputWidth);
+        view.setUint8(7, outputHeight === 256 ? 0 : outputHeight);
+        view.setUint8(8, 0);
+        view.setUint8(9, 0);
+        view.setUint16(10, 1, true);
+        view.setUint16(12, 32, true);
+        view.setUint32(14, pngBytes.length, true);
+        view.setUint32(18, 22, true);
+
+        new Uint8Array(icoBuffer, 22).set(pngBytes);
+
+        saveBlob(
+          new Blob([icoBuffer], { type: "image/x-icon" }),
+          `${safeFilename(name)}.ico`
+        );
+      } else {
+        saveBlob(blob, `${safeFilename(name)}.png`);
+      }
+
       say(`${targetFormat.toUpperCase()} export started. Processing stays in your browser.`);
     } catch (error) {
       say(error instanceof Error ? error.message : "Export failed.");
@@ -678,9 +753,29 @@ if (root && controls && preview && previewImage) {
       try {
         if (target === "svg") {
           const svgText = await getExportSvg(true, true);
-          saveBlob(new Blob([svgText], { type: "image/svg+xml;charset=utf-8" }), `${safeFilename(name)}-custom.svg`);
+          const doc = new DOMParser().parseFromString(svgText, "image/svg+xml");
+          const svg = doc.documentElement;
+
+          if (svg.nodeName.toLowerCase() !== "svg" || doc.querySelector("parsererror")) {
+            throw new Error("Could not prepare the customized SVG.");
+          }
+
+          const background = preview.dataset.previewBg;
+          if (background === "light" || background === "dark") {
+            const bgRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+            bgRect.setAttribute("width", "100%");
+            bgRect.setAttribute("height", "100%");
+            bgRect.setAttribute("fill", background === "light" ? "#ffffff" : "#121212");
+            svg.insertBefore(bgRect, svg.firstChild);
+          }
+
+          const output = new XMLSerializer().serializeToString(doc);
+          saveBlob(
+            new Blob([output], { type: "image/svg+xml;charset=utf-8" }),
+            `${safeFilename(name)}-customized.svg`
+          );
           say("Customized SVG export started.");
-        } else if (target === "png" || target === "webp") {
+        } else if (target === "png" || target === "webp" || target === "ico") {
           await exportRaster(target);
         }
       } catch (error) {

@@ -3,14 +3,14 @@
     "name": "amd",
     "color": "#ed1c24",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.amd.com/",
+    "info": "AMD (Advanced Micro Devices) is a leading global semiconductor company that designs and integrates technologies powering millions of intelligent devices, including personal computers, game consoles, and cloud servers. It is world-renowned for its Ryzen processors and Radeon graphics cards, driving innovation in high-performance computing.",
     "category": [
       "Operating Systems",
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T03:39:55.000Z",
     "path": "./assets/svg/amd.svg",
     "id": "000001",
@@ -28,14 +28,14 @@
     "name": "apple",
     "color": "#000000",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.apple.com/",
+    "info": "Apple Inc. is a pioneering American multinational technology company famous for its premium consumer electronics, software, and services. Known for iconic products like the iPhone, iPad, Mac, and Apple Watch, the company blends sleek hardware design with an intuitive ecosystem, making it one of the most valuable and influential brands in the world.",
     "category": [
       "Operating Systems",
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T03:26:17.000Z",
     "path": "./assets/svg/apple.svg",
     "id": "000002",
@@ -53,13 +53,13 @@
     "name": "android",
     "color": "#3DDC84",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.android.com/",
+    "info": "Android is an open-source, Linux-based operating system designed primarily for touchscreen mobile devices such as smartphones and tablets. Developed by Google and supported by a vast ecosystem of device manufacturers and developers, it is currently the world's most widely used mobile operating system.",
     "category": [
       "Operating Systems"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T03:26:17.000Z",
     "path": "./assets/svg/android.svg",
     "id": "000003",
@@ -77,14 +77,14 @@
     "name": "archlinux",
     "color": "#1793D1",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://archlinux.org/",
+    "info": "Arch Linux is an independent, lightweight, and highly customizable Linux distribution tailored for proficient Linux users. Operating under a rolling-release model and adhering to the \"Keep It Simple\" (KISS) principle, it allows users to fully construct and customize their operating system from the ground up.",
     "category": [
       "Operating Systems",
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T03:26:17.000Z",
     "path": "./assets/svg/archlinux.svg",
     "id": "000004",
@@ -107,7 +107,7 @@
     "category": [
       "Other"
     ],
-    "origin": null,
+    "origin": "original",
     "by": null,
     "updatedAt": "2026-09-26T13:26:26.000Z",
     "path": "./assets/svg/my_logo.svg",
@@ -126,14 +126,14 @@
     "name": "github",
     "color": "#181717",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://github.com/",
+    "info": "GitHub is the world's largest web-based platform for software development, version control, and collaboration, built on top of Git. It hosts millions of open-source and private repositories, allowing developers worldwide to share code, track changes, manage projects, and collaborate seamlessly.",
     "category": [
       "Developer",
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T06:56:57.000Z",
     "path": "./assets/svg/github.svg",
     "id": "000006",
@@ -151,14 +151,14 @@
     "name": "git",
     "color": "#F03C2E",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://git-scm.com/",
+    "info": "Git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Created by Linus Torvalds in 2005, it allows multiple developers to track code history, work on branches simultaneously, and merge code changes reliably.",
     "category": [
       "Developer",
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T07:35:34.000Z",
     "path": "./assets/svg/git.svg",
     "id": "000007",
@@ -179,10 +179,10 @@
     "source": "",
     "info": "NPC-icons library bitmapped graphic asset.",
     "category": [
-      "Education"
+      "Transport"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-26T13:19:47.000Z",
     "path": "./assets/png/DAYUAN.png",
     "id": "000008",
@@ -200,13 +200,13 @@
     "name": "DONGFANGCOLLEGE",
     "color": "none",
     "format": "png",
-    "source": "",
+    "source": "https://iceceng.zufedfc.edu.cn/xygk/xybs1.htm",
     "info": "NPC-icons library bitmapped graphic asset.",
     "category": [
       "Education"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-27T11:05:31.000Z",
     "path": "./assets/png/DONGFANGCOLLEGE.png",
     "id": "000009",
@@ -227,10 +227,10 @@
     "source": "",
     "info": "NPC-icons library bitmapped graphic asset.",
     "category": [
-      "Education"
+      "Transport"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-27T11:05:31.000Z",
     "path": "./assets/png/HAININGRUBLICBYCYCLE.png",
     "id": "000010",
@@ -251,10 +251,10 @@
     "source": "",
     "info": "NPC-icons library bitmapped graphic asset.",
     "category": [
-      "Education"
+      "Transport"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-27T11:05:31.000Z",
     "path": "./assets/png/Hanghai-IR.png",
     "id": "000011",
@@ -272,13 +272,13 @@
     "name": "JIDIANCOLLEGE",
     "color": "none",
     "format": "png",
-    "source": "",
+    "source": "https://www.zime.edu.cn/xqzl/xxjj.htm",
     "info": "NPC-icons library bitmapped graphic asset.",
     "category": [
       "Education"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-27T11:05:31.000Z",
     "path": "./assets/png/JIDIANCOLLEGE.png",
     "id": "000012",
@@ -301,8 +301,8 @@
     "category": [
       "Education"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-26T14:44:24.000Z",
     "path": "./assets/svg/DONGFANGCOLLEGE.svg",
     "id": "000013",
@@ -323,10 +323,10 @@
     "source": "",
     "info": "NPC-icons library trademark vector asset.",
     "category": [
-      "Education"
+      "Transport"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-26T14:44:24.000Z",
     "path": "./assets/svg/HAININGRUBLICBYCYCLE.svg",
     "id": "000014",
@@ -347,10 +347,10 @@
     "source": "",
     "info": "NPC-icons library trademark vector asset.",
     "category": [
-      "Education"
+      "Transport"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-26T14:44:24.000Z",
     "path": "./assets/svg/Hanghai-IR.svg",
     "id": "000015",
@@ -373,8 +373,8 @@
     "category": [
       "Education"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-26T14:44:24.000Z",
     "path": "./assets/svg/JIDIANCOLLEGE.svg",
     "id": "000016",
@@ -392,13 +392,13 @@
     "name": "line",
     "color": "#00C300",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://line.me/",
+    "info": "LINE is a highly popular freeware app for instant communications on electronic devices, developed by LY Corporation. Launched in Japan in 2011, it allows users to exchange texts, images, video, and audio, and conduct free VoIP conversations. It has evolved into a \"Super App,\" offering various services including mobile payment (LINE Pay), news feeds, and games.",
     "category": [
       "Communication"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/line.svg",
     "id": "000017",
@@ -416,13 +416,13 @@
     "name": "spotify",
     "color": "#1ED760",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.spotify.com/",
+    "info": "Spotify is a leading global audio streaming and media services provider, founded in Sweden in 2006. It offers millions of digital music tracks, podcasts, and videos from record labels and media companies worldwide. Operating under a freemium model, it provides basic features for free with advertisements, alongside premium subscriptions for ad-free listening.",
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/spotify.svg",
     "id": "000018",
@@ -440,13 +440,13 @@
     "name": "pinterest",
     "color": "#BD081C",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.pinterest.com/",
+    "info": "Pinterest is an American image sharing and social media service designed to enable saving and discovery of information on the internet using images, animated GIFs, and videos. Users create and manage theme-based image collections called \"boards,\" making it a popular hub for finding inspiration in lifestyle, fashion, decor, and DIY projects.",
     "category": [
       "Social"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/pinterest.svg",
     "id": "000019",
@@ -464,13 +464,13 @@
     "name": "whatsapp",
     "color": "#25D366",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.whatsapp.com/",
+    "info": "WhatsApp is an internationally available freeware, cross-platform centralized instant messaging and voice-over-IP service owned by Meta Platforms. It allows users to send text and voice messages, make voice and video calls, and share images, documents, and user locations, relying heavily on end-to-end encryption for security.",
     "category": [
       "Communication"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/whatsapp.svg",
     "id": "000020",
@@ -488,13 +488,13 @@
     "name": "telegram",
     "color": "#26A5E4",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://telegram.org/",
+    "info": "Telegram is a cloud-based, cross-platform, encrypted instant messaging service known for its speed, privacy, and expansive features. It supports self-destructing messages, massive group chats, channels for broadcasting, and large file sharing, making it a highly flexible communication tool globally.",
     "category": [
       "Communication"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/telegram.svg",
     "id": "000021",
@@ -512,13 +512,13 @@
     "name": "instagram",
     "color": "#FF0069",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.instagram.com/",
+    "info": "Instagram is a widely used photo and video sharing social networking service owned by Meta Platforms. Launched in 2010, the platform allows users to upload media that can be edited with filters, organized by hashtags, and shared publicly or with pre-approved followers, defining modern visual social culture.",
     "category": [
       "Social"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T09:32:39.000Z",
     "path": "./assets/svg/instagram.svg",
     "id": "000022",
@@ -536,13 +536,13 @@
     "name": "bitcoin",
     "color": "#F7931A",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://bitcoin.org/",
+    "info": "Bitcoin is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer bitcoin network. Created in 2009 by an anonymous developer named Satoshi Nakamoto, transactions are verified by network nodes through cryptography and recorded in a public ledger called a blockchain.",
     "category": [
       "Finance"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T10:43:46.000Z",
     "path": "./assets/svg/bitcoin.svg",
     "id": "000023",
@@ -560,13 +560,13 @@
     "name": "visa",
     "color": "#1A1F71",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.visa.com/",
+    "info": "Visa Inc. is an American multinational financial services corporation headquartered in California. It facilitates electronic funds transfers throughout the world, most commonly through Visa-branded credit cards, debit cards, and prepaid cards, operating one of the world's most advanced processing networks.",
     "category": [
       "Finance"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T10:43:46.000Z",
     "path": "./assets/svg/visa.svg",
     "id": "000024",
@@ -584,13 +584,13 @@
     "name": "mastercard",
     "color": "#EB001B",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.mastercard.com/",
+    "info": "Mastercard Inc. is a global pioneer in payment innovation and technology, connecting billions of consumers, issuers, merchants, and governments worldwide. The company processes payment transactions and offers a wide array of payment solutions, including credit, debit, and commercial payment programs.",
     "category": [
       "Finance"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T10:43:46.000Z",
     "path": "./assets/svg/mastercard.svg",
     "id": "000025",
@@ -608,13 +608,13 @@
     "name": "paypal",
     "color": "#002991",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.paypal.com/",
+    "info": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money transfers. It serves as an electronic alternative to traditional paper methods like checks and money orders, ensuring secure e-commerce transactions.",
     "category": [
       "Finance"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T10:43:46.000Z",
     "path": "./assets/svg/paypal.svg",
     "id": "000026",
@@ -632,13 +632,13 @@
     "name": "soundcloud",
     "color": "#FF5500",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://soundcloud.com/",
+    "info": "SoundCloud is a German-founded online audio distribution platform and music sharing website that enables its users to upload, promote, and share audio. It has played a pivotal role in the music industry by allowing independent artists to distribute their tracks directly to listeners and build global communities.",
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/soundcloud.svg",
     "id": "000027",
@@ -656,13 +656,13 @@
     "name": "cloudflare",
     "color": "#F38020",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.cloudflare.com/",
+    "info": "Cloudflare, Inc. is a major American web infrastructure and website security company. It provides content delivery network (CDN) services, DDoS mitigation, internet security, and distributed domain name server (DNS) services, acting as a reverse proxy to speed up and secure millions of websites globally.",
     "category": [
       "Cloud"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/cloudflare.svg",
     "id": "000028",
@@ -680,13 +680,13 @@
     "name": "reddit",
     "color": "#FF4500",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.reddit.com/",
+    "info": "Reddit is an American social news aggregation, web content rating, and discussion website. Registered users submit content to the site, such as links, text posts, images, and videos, which are then voted up or down by other members. Content is organized into user-created boards called \"subreddits,\" covering nearly every topic imaginable.",
     "category": [
       "Social"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/reddit.svg",
     "id": "000029",
@@ -705,12 +705,12 @@
     "color": "#000000",
     "format": "svg",
     "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "info": "Capsule Corporation is a fictional multinational company from Akira Toriyama's globally acclaimed manga and anime franchise, Dragon Ball. Founded by Dr. Brief (Bulma's father), the company is world-famous for its revolutionary \"Hoi-Poi Capsules,\" which can shrink large objects like vehicles and houses into tiny, pocket-sized capsules.",
     "category": [
       "Other"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-27T13:11:57.000Z",
     "path": "./assets/svg/capsule.svg",
     "id": "000030",
@@ -728,13 +728,13 @@
     "name": "tomianime",
     "color": "#EF4E46",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.toei-animation.com/",
+    "info": "Toei Animation is one of Japan's most iconic and pioneering animation studios, founded in 1948. The company has produced numerous legendary anime series that have gained massive global popularity, including Dragon Ball, One Piece, and Sailor Moon. It continues to lead the global anime industry through high-quality animation production and licensing.",
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-27T13:11:06.000Z",
     "path": "./assets/svg/tomianime.svg",
     "id": "000031",
@@ -753,12 +753,12 @@
     "color": "#EB1C25",
     "format": "svg",
     "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "info": "The Red Ribbon Army is a notorious fictional paramilitary organization in the Dragon Ball series. Known for its distinct red ribbon logo, the army seeks global domination and the Dragon Balls under the leadership of Commander Red, and is responsible for creating powerful androids.",
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-27T13:15:17.000Z",
     "path": "./assets/svg/reddoribon.svg",
     "id": "000032",
@@ -777,12 +777,12 @@
     "color": "#814A2B",
     "format": "svg",
     "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "info": "Haining Middle School is a well-established educational institution located in Haining City, Zhejiang Province, China. The school is dedicated to secondary education, fostering academic excellence, and cultivating talents with comprehensive capabilities and civic virtues.",
     "category": [
       "Education"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/hainingzhongxue.svg",
     "id": "000033",
@@ -800,13 +800,13 @@
     "name": "oracle",
     "color": "#ED0004",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.oracle.com/",
+    "info": "Oracle Corporation is an American multinational computer technology corporation headquartered in Texas. It is world-renowned for its flagship relational database management system, as well as its extensive suite of enterprise software, cloud infrastructure solutions (Oracle Cloud Infrastructure), and hardware products.",
     "category": [
       "Cloud"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-27T13:10:37.000Z",
     "path": "./assets/svg/oracle.svg",
     "id": "000034",
@@ -824,14 +824,14 @@
     "name": "amazon",
     "color": "#FA6306",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.amazon.com/",
+    "info": "Amazon.com, Inc. is an American multinational technology company focusing on e-commerce, cloud computing (AWS), digital streaming, and artificial intelligence. Amazon Prime is its premium subscription service that offers users benefits such as fast shipping, exclusive shopping deals, and access to Prime Video and Prime Music.",
     "category": [
       "Cloud",
       "E-commerce"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/amazon.svg",
     "id": "000035",
@@ -849,13 +849,13 @@
     "name": "synology",
     "color": "#B5B5B6",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.synology.com/",
+    "info": "Synology Inc. is a Taiwanese corporation that specializes in Network-Attached Storage (NAS) appliances. The company provides robust data management solutions, private cloud infrastructure, and video surveillance tools for both home users and large enterprises worldwide.",
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/synology.svg",
     "id": "000036",
@@ -873,13 +873,13 @@
     "name": "duolingo",
     "color": "#58CC02",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.duolingo.com/",
+    "info": "Duolingo is a leading American educational technology company that operates a popular gamified language-learning platform. It offers bite-sized lessons in dozens of world languages, making learning accessible and engaging through its mobile app and web browser interface.",
     "category": [
       "Education"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/duolingo.svg",
     "id": "000037",
@@ -897,13 +897,13 @@
     "name": "wise",
     "color": "#9FE870",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://wise.com/",
+    "info": "Wise (formerly TransferWise) is a prominent British financial technology company specializing in international money transfers. It provides a multi-currency account and debit card, enabling individuals and businesses to send, spend, and receive money globally with low, transparent fees and mid-market exchange rates.",
     "category": [
       "Finance"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/wise.svg",
     "id": "000038",
@@ -921,13 +921,13 @@
     "name": "netbird",
     "color": "#F68330",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://netbird.io/",
+    "info": "NetBird is an open-source zero-configuration VPN platform built on top of the WireGuard protocol. It simplifies secure network connectivity by automatically creating a mesh network between devices, allowing teams to securely connect servers, development environments, and cloud infrastructure.",
     "category": [
       "Networking"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/netbird.svg",
     "id": "000039",
@@ -945,13 +945,13 @@
     "name": "dedirock",
     "color": "#474596",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://dedirock.com/",
+    "info": "Dedirock is a specialized web hosting provider that offers high-performance bare metal servers and infrastructure solutions. It is designed to cater to businesses and developers seeking high reliability, unshared processing power, and customizable server setups.",
     "category": [
       "Cloud"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/dedirock.svg",
     "id": "000040",
@@ -969,13 +969,13 @@
     "name": "racknerd",
     "color": "#0877BA",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.racknerd.com/",
+    "info": "RackNerd is a prominent global hosting provider offering Virtual Private Servers (VPS), dedicated servers, hybrid hosting, and colocation services. It is popular among tech enthusiasts and businesses for delivering cost-effective infrastructure solutions across multiple datacenters worldwide.",
     "category": [
       "Cloud"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-27T13:02:15.000Z",
     "path": "./assets/svg/racknerd.svg",
     "id": "000041",
@@ -994,13 +994,13 @@
     "color": "#000000",
     "format": "svg",
     "source": "https://www.7-zip.org/",
-    "info": "7-Zip is a free, open-source file archiver supporting numerous compression formats. It offers high compression ratios, strong encryption, and file-management tools for users across Windows and other supported platforms.",
+    "info": " 7-Zip is a free and open-source file archiver with a high compression ratio. Developed by Igor Pavlov, it is widely utilized for packing or unpacking various file formats and is renowned for its proprietary 7z archive format, which offers superior data compression.",
     "category": [
       "Developer",
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/7zip.svg",
     "id": "000042",
@@ -1023,8 +1023,8 @@
     "category": [
       "Design"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/affine.svg",
     "id": "000043",
@@ -1047,8 +1047,8 @@
     "category": [
       "E-commerce"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/aliexpress.svg",
     "id": "000044",
@@ -1071,8 +1071,8 @@
     "category": [
       "E-commerce"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/amazon-prime.svg",
     "id": "000045",
@@ -1096,8 +1096,8 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/anaconda.svg",
     "id": "000046",
@@ -1116,13 +1116,13 @@
     "color": "#000000",
     "format": "svg",
     "source": "https://www.ansible.com/",
-    "info": "Ansible is an open-source automation platform used to configure systems, deploy applications, and orchestrate IT infrastructure through readable playbooks and agentless remote management.",
+    "info": "Ansible is an open-source IT automation engine developed by Red Hat. It automates software provisioning, configuration management, and application deployment by utilizing simple, human-readable YAML configurations without requiring agents on the target nodes.",
     "category": [
       "Developer",
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/ansible.svg",
     "id": "000047",
@@ -1141,12 +1141,12 @@
     "color": "#2c2c2c",
     "format": "svg",
     "source": "https://archive.org/",
-    "info": "NPC-icons library trademark design asset.",
+    "info": "The Internet Archive (archive.org) is an American digital library with the stated mission of providing universal access to all knowledge. It provides free public access to collections of digitized materials, including millions of books, audio recordings, videos, and archived web pages via its famous Wayback Machine.",
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/archivedotorg.svg",
     "id": "000048",
@@ -1169,8 +1169,8 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/arm.svg",
     "id": "000049",
@@ -1188,13 +1188,13 @@
     "name": "aruba",
     "color": "#ff8300",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://arubanetworking.hpe.com/",
+    "info": "Aruba Networks (a Hewlett Packard Enterprise company) is a prominent provider of next-generation network access solutions for enterprises. The company specializes in wireless LANs, wired switches, network security, and AI-powered network management tools to deliver secure and seamless edge-to-cloud connectivity.",
     "category": [
       "Networking"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/aruba.svg",
     "id": "000050",
@@ -1212,14 +1212,14 @@
     "name": "astro",
     "color": "#bc52ee",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://astro.build/",
+    "info": "Astro is a modern, open-source web framework designed for building fast, content-driven websites. It features a unique \"Component Islands\" architecture that renders HTML entirely on the server and strips away unused JavaScript by default, drastically improving page loading performance and SEO.",
     "category": [
       "Developer",
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/astro.svg",
     "id": "000051",
@@ -1237,13 +1237,13 @@
     "name": "at-t",
     "color": "#119bd7",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.att.com/",
+    "info": "AT&T Inc. is an American multinational telecommunications holding company and one of the largest telecommunications providers in the world. It delivers high-speed mobile networks, broadband internet, and enterprise communication solutions to millions of consumers and businesses across the United States.",
     "category": [
       "Communication"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/at-t.svg",
     "id": "000052",
@@ -1261,13 +1261,13 @@
     "name": "behance",
     "color": "#1d63f7",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.behance.net/",
+    "info": "Behance is a leading global social media platform owned by Adobe that is dedicated to showcasing and discovering creative work. Visual artists, graphic designers, photographers, and architects worldwide use the platform to build online portfolios, gain industry exposure, and connect with potential employers.",
     "category": [
       "Social"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/behance.svg",
     "id": "000053",
@@ -1285,13 +1285,13 @@
     "name": "bitwarden",
     "color": "#175ddc",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://bitwarden.com/",
+    "info": "Bitwarden is a highly popular, open-source password management service that allows individuals and teams to securely store, share, and sync sensitive credentials. It uses end-to-end encryption to protect user data, offering cross-platform support across mobile devices, web browsers, and desktop operating systems.",
     "category": [
       "Security"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/bitwarden.svg",
     "id": "000054",
@@ -1309,13 +1309,13 @@
     "name": "blender",
     "color": "#ea7600",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.blender.org/",
+    "info": "Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D-printed models, motion graphics, and interactive 3D applications. It features robust tools for modeling, sculpting, rigging, rendering, and video editing.",
     "category": [
       "Design"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/blender.svg",
     "id": "000055",
@@ -1333,13 +1333,13 @@
     "name": "blogger",
     "color": "#ef6a35",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.blogger.com/",
+    "info": "Blogger is an American online content management system and blog-publishing service owned by Google. Launched in 1999, it allows users to easily create and maintain personalized, multi-user blogs with time-stamped entries without requiring any coding or web hosting knowledge.",
     "category": [
       "Social"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/blogger.svg",
     "id": "000056",
@@ -1362,8 +1362,8 @@
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/blu-ray-3d.svg",
     "id": "000057",
@@ -1381,13 +1381,13 @@
     "name": "bluesky",
     "color": "#0082fc",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://bsky.app/",
+    "info": "Bluesky is a decentralized social media platform and public benefit corporation. Operating on the open-source AT Protocol (Authenticated Transfer Protocol), it allows users more control over their algorithmic feeds, moderation preferences, and data portability, offering a familiar, microblogging-style social network experience.",
     "category": [
       "Social"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/bluesky.svg",
     "id": "000058",
@@ -1405,13 +1405,13 @@
     "name": "bluetooth",
     "color": "#007dc5",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.bluetooth.com/",
+    "info": "Bluetooth is a global short-range wireless technology standard used for exchanging data between fixed and mobile devices over short distances. Managed by the Bluetooth Special Interest Group (SIG), it provides secure, low-power connections for audio streaming, file transfers, and smart device connectivity.",
     "category": [
       "Networking"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/bluetooth.svg",
     "id": "000059",
@@ -1429,14 +1429,14 @@
     "name": "bootstrap",
     "color": "#7511f6",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://getbootstrap.com/",
+    "info": "Bootstrap is a free, open-source front-end framework for faster and easier web development. It includes HTML and CSS-based design templates for typography, forms, buttons, navigation, and other interface components, alongside optional JavaScript extensions, making it ideal for creating responsive, mobile-first websites.",
     "category": [
       "Developer",
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/bootstrap.svg",
     "id": "000060",
@@ -1454,13 +1454,13 @@
     "name": "brave",
     "color": "#f1542b",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://brave.com/",
+    "info": "Brave is a free and open-source web browser developed by Brave Software, Inc., based on the Chromium web browser. It is strictly focused on privacy, automatically blocking online advertisements and website trackers by default while offering built-in features like a secure crypto wallet and private search.",
     "category": [
       "Networking"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/brave.svg",
     "id": "000061",
@@ -1476,15 +1476,15 @@
   },
   {
     "name": "bright-move",
-    "color": "#4d4d4d",
+    "color": "#F3CA2F",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.broadcom.com/",
+    "info": "Broadcom Inc. is an American multinational designer, developer, and global supplier of a wide range of semiconductor and infrastructure software products. Its product portfolio serves the data center, networking, enterprise software, broadband, wireless, storage, and industrial markets.",
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/bright-move.svg",
     "id": "000062",
@@ -1507,8 +1507,8 @@
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/broadcastchannel.svg",
     "id": "000063",
@@ -1526,13 +1526,13 @@
     "name": "broadcom",
     "color": "#cc092f",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.broadcom.com/",
+    "info": "Broadcom Inc. is an American multinational designer, developer, and global supplier of a wide range of semiconductor and infrastructure software products. Its product portfolio serves the data center, networking, enterprise software, broadband, wireless, storage, and industrial markets.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/broadcom.svg",
     "id": "000064",
@@ -1550,13 +1550,13 @@
     "name": "brother",
     "color": "#1535a3",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.brother-usa.com/",
+    "info": "Brother Industries, Ltd. is a Japanese multinational electronics and electrical equipment company. It is globally recognized for its high-quality office and home printing solutions, including laser and inkjet printers, Multi-Function Centers (MFCs), label printers, and sewing machines.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/brother.svg",
     "id": "000065",
@@ -1574,13 +1574,13 @@
     "name": "carrefour",
     "color": "#014fa0",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.carrefour.com/",
+    "info": "Carrefour SA is a French multinational retail and wholesaling corporation headquartered in Massy, France. As one of the world's largest hypermarket chains, it operates a vast network of grocery stores, supermarkets, and convenience stores globally, offering consumer goods and fresh food.",
     "category": [
       "E-commerce"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/carrefour.svg",
     "id": "000066",
@@ -1603,8 +1603,8 @@
     "category": [
       "Technology"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/cc.svg",
     "id": "000067",
@@ -1627,8 +1627,8 @@
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/cd.svg",
     "id": "000068",
@@ -1646,13 +1646,13 @@
     "name": "cloudbeaver",
     "color": "#4598d3",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://cloudbeaver.io/",
+    "info": "CloudBeaver is a free, open-source, web-based database management tool developed by DBeaver Corporation. It provides a lightweight web interface that allows developers and administrators to manage, query, and organize various SQL and NoSQL databases directly inside their web browsers.",
     "category": [
       "Cloud"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/cloudbeaver.svg",
     "id": "000069",
@@ -1670,13 +1670,13 @@
     "name": "cockpit",
     "color": "#000000",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://cockpit-project.org/",
+    "info": "Cockpit is an open-source, web-based server administration tool designed for Linux operating systems. It offers an intuitive graphical interface that enables system administrators to easily monitor system performance, manage storage, configure networks, and inspect system logs in real-time.",
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/cockpit.svg",
     "id": "000070",
@@ -1699,7 +1699,7 @@
     "category": [
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/convertio-dark.svg",
@@ -1718,13 +1718,13 @@
     "name": "couchdb",
     "color": "#e42528",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://couchdb.apache.org/",
+    "info": "Apache CouchDB is an open-source, document-oriented NoSQL database implemented in Erlang. It utilizes JSON to store data, JavaScript as its query language using MapReduce, and an HTTP API, making it highly reliable and well-suited for web-heavy and sync-centric applications.",
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/couchdb.svg",
     "id": "000072",
@@ -1742,13 +1742,13 @@
     "name": "cpanel",
     "color": "#ff6c2c",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://cpanel.net/",
+    "info": "cPanel is a widely popular, Linux-based web hosting control panel that provides a graphical user interface (GUI) and automation tools. It simplifies the process of hosting a website, allowing administrators and end-users to manage websites, databases, email accounts, and security settings seamlessly.",
     "category": [
       "Cloud"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/cpanel.svg",
     "id": "000073",
@@ -1766,13 +1766,13 @@
     "name": "crunchyroll",
     "color": "#f78b24",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.crunchyroll.com/",
+    "info": "Crunchyroll is an American subscription video-on-demand over-the-top streaming service owned by Sony Group Corporation. It is the world's leading streaming platform dedicated exclusively to anime, manga, and dorama (Asian dramas), connecting a massive global community of anime fans.",
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/crunchyroll.svg",
     "id": "000074",
@@ -1790,13 +1790,13 @@
     "name": "discord",
     "color": "#5865f2",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://discord.com/",
+    "info": "Discord is a prominent instant messaging and voice-over-IP social platform. Originally designed for gamers, it allows users to communicate via voice calls, video calls, text messaging, and media sharing in private communities called \"servers,\" making it a hub for diverse online interest groups.",
     "category": [
       "Communication"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/discord.svg",
     "id": "000075",
@@ -1819,7 +1819,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dlna.svg",
@@ -1838,14 +1838,14 @@
     "name": "docker",
     "color": "#2396ed",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.docker.com/",
+    "info": "Docker is an open-source platform designed to help developers build, share, and run applications using containerization technology. By packaging software into lightweight, isolated units called containers, it ensures that applications run consistently across any development or cloud environment.",
     "category": [
       "Infrastructure",
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/docker.svg",
     "id": "000077",
@@ -1868,7 +1868,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dockpeek.svg",
@@ -1892,7 +1892,7 @@
     "category": [
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/docuform.svg",
@@ -1911,13 +1911,13 @@
     "name": "documenso",
     "color": "#a7e575",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://documenso.com/",
+    "info": "Documenso is an open-source digital signing platform designed to provide a more transparent and customizable alternative to proprietary e-signature tools. It allows users to securely request, sign, and manage legally binding digital signatures on electronic documents.",
     "category": [
       "Productivity"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/documenso.svg",
     "id": "000080",
@@ -1935,13 +1935,13 @@
     "name": "dotnet",
     "color": "#512bd3",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://dotnet.microsoft.com/",
+    "info": ".NET is a free, open-source, cross-platform developer framework created by Microsoft. It is widely used for building a vast range of modern applications, including web, mobile, desktop, gaming, and IoT solutions, using programming languages like C# and F#.",
     "category": [
       "Developer"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dotnet.svg",
     "id": "000081",
@@ -1959,14 +1959,14 @@
     "name": "draw-io",
     "color": "#f08705",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://app.diagrams.net/",
+    "info": "draw.io (also known as diagrams.net) is a free, open-source, web-based diagramming and flowchart software tool. It features a highly intuitive interface that allows users to create process diagrams, organizational charts, UML models, and network architectures seamlessly.",
     "category": [
       "Developer",
       "Design"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/draw-io.svg",
     "id": "000082",
@@ -1984,13 +1984,13 @@
     "name": "dropbox",
     "color": "#007ee5",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.dropbox.com/",
+    "info": "Dropbox is a pioneering cloud storage and file synchronization service headquartered in the United States. It provides a centralized smart workspace where individuals and teams can securely store files, sync data across multiple devices, and collaborate on documents effortlessly.",
     "category": [
       "Cloud"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dropbox.svg",
     "id": "000083",
@@ -2008,13 +2008,13 @@
     "name": "dropout",
     "color": "#feea3b",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.dropout.tv/",
+    "info": "Dropout (formerly CollegeHumor) is an independent, subscription-based digital streaming service dedicated to original alternative comedy. It hosts a diverse catalog of popular unscripted comedy series, game shows, and tabletop gaming content like Dimension 20 and Game Changer.",
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dropout.svg",
     "id": "000084",
@@ -2032,13 +2032,13 @@
     "name": "duckdns",
     "color": "#fcfc01",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.duckdns.org/",
+    "info": "Duck DNS is a free Dynamic DNS (DDNS) service that points a fixed subdomain (e.g., yourname.duckdns.org) to a changing home or server IP address. It is a highly popular, lightweight solution used by home-lab enthusiasts to access their networks remotely.",
     "category": [
       "Networking"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/duckdns.svg",
     "id": "000085",
@@ -2061,7 +2061,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dvd.svg",
@@ -2080,14 +2080,14 @@
     "name": "electron",
     "color": "#2b2e3a",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.electronjs.org/",
+    "info": "Electron is a free and open-source software framework managed by the OpenJS Foundation. It enables developers to build cross-platform desktop applications using web technologies like JavaScript, HTML, and CSS, powering major apps like VS Code, Slack, and Discord.",
     "category": [
       "Developer",
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/electron.svg",
     "id": "000087",
@@ -2105,13 +2105,13 @@
     "name": "electronic-arts",
     "color": "#ff4747",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.ea.com/",
+    "info": "Electronic Arts (EA) is a premier American multinational video game company and one of the largest gaming publishers in the world. It is globally recognized for developing and distributing critically acclaimed franchises, including EA SPORTS FC (formerly FIFA), The Sims, Apex Legends, and Battlefield.",
     "category": [
       "Gaming"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/electronic-arts.svg",
     "id": "000088",
@@ -2129,13 +2129,13 @@
     "name": "emby",
     "color": "#52b54b",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://emby.media/",
+    "info": "Emby is a media server software platform designed to organize and stream personal audio and video collections to a wide range of client devices. It automatically converts and streams user-hosted media on the fly, offering a personalized Netflix-like streaming experience.",
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/emby.svg",
     "id": "000089",
@@ -2153,13 +2153,13 @@
     "name": "etherpad",
     "color": "#50b790",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://etherpad.org/",
+    "info": "Etherpad is an open-source, web-based collaborative real-time editor. It allows multiple authors to edit a text document simultaneously, tracking changes with distinct colors and offering built-in chat capabilities, making it ideal for instant team brainstorming sessions.",
     "category": [
       "Productivity"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/etherpad.svg",
     "id": "000090",
@@ -2183,7 +2183,7 @@
       "Operating Systems",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/fedora-alt.svg",
@@ -2202,13 +2202,13 @@
     "name": "fluffychat",
     "color": "#4d3f92",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://fluffychat.im/",
+    "info": "FluffyChat is an open-source, user-friendly instant messaging application built on top of the decentralized Matrix network. It focuses on providing a clean, cute, and intuitive user interface while maintaining robust end-to-end encryption for private and secure communication.",
     "category": [
       "Communication"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/fluffychat.svg",
     "id": "000092",
@@ -2226,13 +2226,13 @@
     "name": "forgejo",
     "color": "#d40000",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://forgejo.org/",
+    "info": "Forgejo is a self-hosted, lightweight software development platform for version control, issue tracking, and code collaboration. It is a community-driven, fully open-source fork of Gitea, designed to provide a highly secure and independent Git hosting service.",
     "category": [
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/forgejo.svg",
     "id": "000093",
@@ -2250,13 +2250,13 @@
     "name": "formbricks",
     "color": "#00dbc4",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://formbricks.com/",
+    "info": "Formbricks is an open-source micro-survey and user-feedback platform built for product managers and developers. It enables businesses to trigger highly targeted, privacy-compliant in-product surveys to collect valuable user insights at crucial points in the user journey.",
     "category": [
       "Productivity"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/formbricks.svg",
     "id": "000094",
@@ -2274,13 +2274,13 @@
     "name": "fortinet",
     "color": "#ee3124",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.fortinet.com/",
+    "info": "Fortinet is a major global cybersecurity corporation headquartered in California. It develops and markets cybersecurity software and appliances, such as its flagship FortiGate firewalls, offering comprehensive enterprise security solutions across networks, endpoints, and cloud environments.",
     "category": [
       "Security"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/fortinet.svg",
     "id": "000095",
@@ -2298,13 +2298,13 @@
     "name": "friendica",
     "color": "#f7c130",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://friendica.org/",
+    "info": "Friendica is a free, decentralized, open-source social communication platform and a part of the Fediverse. It emphasizes user privacy and ownership, allowing users to host their own servers while federating seamlessly with other platforms like Mastodon, Lemmy, and Diaspora.",
     "category": [
       "Social"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/friendica.svg",
     "id": "000096",
@@ -2327,7 +2327,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/frp-manager.svg",
@@ -2346,13 +2346,13 @@
     "name": "frp",
     "color": "#307fec",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://github.com/fatedier/frp",
+    "info": "frp is a high-performance, open-source reverse proxy application. It helps users expose a local server behind a NAT or firewall to the internet, making it an essential tool for remote access, web hosting, and development environments lacking public IP addresses.",
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/frp.svg",
     "id": "000098",
@@ -2370,13 +2370,13 @@
     "name": "github-copilot",
     "color": "#000000",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://github.com/features/copilot",
+    "info": "GitHub Copilot is a prominent cloud-based, AI-powered developer assistant developed by GitHub and OpenAI. Integrated directly into code editors, it suggests lines of code, full functions, and documentation in real-time, drastically accelerating the software development process.",
     "category": [
       "Developer"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "simpleicons.org",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/github-copilot.svg",
     "id": "000099",
@@ -2394,13 +2394,13 @@
     "name": "golang",
     "color": "#00add8",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://go.dev/",
+    "info": "Go (commonly referred to as Golang) is an open-source programming language developed by Google. Designed for simplicity, efficiency, and robust concurrency handling, it is widely utilized for backend web development, cloud-native engineering, and distributed systems.",
     "category": [
       "Developer"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/golang.svg",
     "id": "000100",
@@ -2423,7 +2423,7 @@
     "category": [
       "AI"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/grok.svg",
@@ -2447,7 +2447,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hashicorp-nomad.svg",
@@ -2471,7 +2471,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hifiberry.svg",
@@ -2495,7 +2495,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/home-assistant.svg",
@@ -2519,7 +2519,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/homebox.svg",
@@ -2544,7 +2544,7 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/homebrew.svg",
@@ -2568,7 +2568,7 @@
     "category": [
       "Cloud"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hostinger.svg",
@@ -2592,7 +2592,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/html.svg",
@@ -2616,7 +2616,7 @@
     "category": [
       "AI"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hugging-face.svg",
@@ -2641,7 +2641,7 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hugo.svg",
@@ -2665,7 +2665,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/hulu.svg",
@@ -2689,7 +2689,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/ibm.svg",
@@ -2713,7 +2713,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/dell.svg",
@@ -2737,7 +2737,7 @@
     "category": [
       "E-commerce"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/instacart.svg",
@@ -2761,7 +2761,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/istio.svg",
@@ -2785,7 +2785,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/it-tools.svg",
@@ -2809,7 +2809,7 @@
     "category": [
       "Security"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/ivanti-icon.svg",
@@ -2833,7 +2833,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/jamstack.svg",
@@ -2857,7 +2857,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/java.svg",
@@ -2881,7 +2881,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/javascript.svg",
@@ -2905,7 +2905,7 @@
     "category": [
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/jio.svg",
@@ -2929,7 +2929,7 @@
     "category": [
       "Security"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/jumpserver.svg",
@@ -2953,7 +2953,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/k3s.svg",
@@ -2977,7 +2977,7 @@
     "category": [
       "Networking"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/kagi.svg",
@@ -3001,7 +3001,7 @@
     "category": [
       "E-commerce"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/kaufland.svg",
@@ -3025,7 +3025,7 @@
     "category": [
       "Security"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/keeper-security.svg",
@@ -3049,7 +3049,7 @@
     "category": [
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/keila.svg",
@@ -3073,7 +3073,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/kodi.svg",
@@ -3098,7 +3098,7 @@
       "Infrastructure",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/kubernetes.svg",
@@ -3123,7 +3123,7 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/libretranslate.svg",
@@ -3148,7 +3148,7 @@
       "Design",
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/linear.svg",
@@ -3172,7 +3172,7 @@
     "category": [
       "Social"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/linkedin.svg",
@@ -3197,7 +3197,7 @@
       "Operating Systems",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/linux-mint.svg",
@@ -3221,7 +3221,7 @@
     "category": [
       "Operating Systems"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/macmon.svg",
@@ -3245,7 +3245,7 @@
     "category": [
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/mailbox.svg",
@@ -3269,7 +3269,7 @@
     "category": [
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/mailgun.svg",
@@ -3293,7 +3293,7 @@
     "category": [
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/mailjet.svg",
@@ -3317,7 +3317,7 @@
     "category": [
       "Operating Systems"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/manjaro-linux.svg",
@@ -3341,7 +3341,7 @@
     "category": [
       "Other"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/mantrae-dark.svg",
@@ -3365,7 +3365,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/mariadb.svg",
@@ -3389,7 +3389,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:07:36.000Z",
     "path": "./assets/svg/max.svg",
@@ -3413,7 +3413,7 @@
     "category": [
       "Security"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mcaffee.svg",
@@ -3437,7 +3437,7 @@
     "category": [
       "Food & Beverage"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mealie.svg",
@@ -3461,7 +3461,7 @@
     "category": [
       "Technology"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/medama.svg",
@@ -3485,7 +3485,7 @@
     "category": [
       "Cloud"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mega-nz.svg",
@@ -3510,7 +3510,7 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/meilisearch.svg",
@@ -3534,7 +3534,7 @@
     "category": [
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mergeable.svg",
@@ -3558,7 +3558,7 @@
     "category": [
       "Social"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/meta.svg",
@@ -3582,7 +3582,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/microsoft-sql-server.svg",
@@ -3606,7 +3606,7 @@
     "category": [
       "Cloud"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/minio.svg",
@@ -3630,7 +3630,7 @@
     "category": [
       "Networking"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mojeek.svg",
@@ -3654,7 +3654,7 @@
     "category": [
       "Finance"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/monarch-money.svg",
@@ -3678,7 +3678,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mongodb.svg",
@@ -3702,7 +3702,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/mysql.svg",
@@ -3726,7 +3726,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/netflix.svg",
@@ -3751,7 +3751,7 @@
       "Infrastructure",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nginx.svg",
@@ -3775,7 +3775,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nintendo-switch.svg",
@@ -3800,7 +3800,7 @@
       "Operating Systems",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nixos.svg",
@@ -3824,7 +3824,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nocodb.svg",
@@ -3848,7 +3848,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nodebb.svg",
@@ -3872,7 +3872,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nodejs-alt.svg",
@@ -3897,7 +3897,7 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nodejs.svg",
@@ -3921,7 +3921,7 @@
     "category": [
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/notion.svg",
@@ -3945,7 +3945,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/npm.svg",
@@ -3969,7 +3969,7 @@
     "category": [
       "Other"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nsg.svg",
@@ -3993,7 +3993,7 @@
     "category": [
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/ntfy.svg",
@@ -4017,7 +4017,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nuxt-js.svg",
@@ -4041,7 +4041,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/nvidia.svg",
@@ -4065,7 +4065,7 @@
     "category": [
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/office-365.svg",
@@ -4089,7 +4089,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/oh-my-posh.svg",
@@ -4113,7 +4113,7 @@
     "category": [
       "AI"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/ollama.svg",
@@ -4137,7 +4137,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/onedev.svg",
@@ -4161,7 +4161,7 @@
     "category": [
       "Social"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/onlyfans.svg",
@@ -4185,7 +4185,7 @@
     "category": [
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/open-source-initiative.svg",
@@ -4209,7 +4209,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/open-webui.svg",
@@ -4233,7 +4233,7 @@
     "category": [
       "AI"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/openai.svg",
@@ -4257,7 +4257,7 @@
     "category": [
       "Security"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/openbao.svg",
@@ -4281,7 +4281,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/openpanel.svg",
@@ -4306,7 +4306,7 @@
       "Infrastructure",
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/openproject.svg",
@@ -4331,7 +4331,7 @@
       "Operating Systems",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/opensuse.svg",
@@ -4355,7 +4355,7 @@
     "category": [
       "Networking"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/openvpn.svg",
@@ -4379,7 +4379,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/origin.svg",
@@ -4403,7 +4403,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/osu.svg",
@@ -4428,7 +4428,7 @@
       "Design",
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/outline.svg",
@@ -4452,7 +4452,7 @@
     "category": [
       "Networking"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pangolin.svg",
@@ -4476,7 +4476,7 @@
     "category": [
       "Security"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/papercut.svg",
@@ -4500,7 +4500,7 @@
     "category": [
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/papra.svg",
@@ -4524,7 +4524,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/paramount-plus.svg",
@@ -4548,7 +4548,7 @@
     "category": [
       "Security"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/passbolt.svg",
@@ -4572,7 +4572,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pdfforge.svg",
@@ -4596,7 +4596,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/peacock.svg",
@@ -4620,7 +4620,7 @@
     "category": [
       "Operating Systems"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/peppermint.svg",
@@ -4644,7 +4644,7 @@
     "category": [
       "AI"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/perplexity.svg",
@@ -4668,7 +4668,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pgadmin.svg",
@@ -4692,7 +4692,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/php.svg",
@@ -4716,7 +4716,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pi-hole.svg",
@@ -4740,7 +4740,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pigallery2.svg",
@@ -4764,7 +4764,7 @@
     "category": [
       "Cloud"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pikapods.svg",
@@ -4788,7 +4788,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pinia.svg",
@@ -4812,7 +4812,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pioneer.svg",
@@ -4836,7 +4836,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/piwigo.svg",
@@ -4860,7 +4860,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/playstation.svg",
@@ -4884,7 +4884,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/plex-alt.svg",
@@ -4908,7 +4908,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/pocket-casts.svg",
@@ -4932,7 +4932,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/podfetch.svg",
@@ -4956,7 +4956,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/podify.svg",
@@ -4980,7 +4980,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/portabase.svg",
@@ -5004,7 +5004,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/portainer-alt.svg",
@@ -5028,7 +5028,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/postman.svg",
@@ -5052,7 +5052,7 @@
     "category": [
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/powerbi.svg",
@@ -5076,7 +5076,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/powershell.svg",
@@ -5101,7 +5101,7 @@
       "Security",
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/proton-mail.svg",
@@ -5125,7 +5125,7 @@
     "category": [
       "Security"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/proton.svg",
@@ -5149,7 +5149,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/proxmox.svg",
@@ -5173,7 +5173,7 @@
     "category": [
       "Operating Systems"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/puppy-linux.svg",
@@ -5198,7 +5198,7 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/python.svg",
@@ -5222,7 +5222,7 @@
     "category": [
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rainloop.svg",
@@ -5246,7 +5246,7 @@
     "category": [
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rallly.svg",
@@ -5270,7 +5270,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/raspberry-pi.svg",
@@ -5294,7 +5294,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rclone.svg",
@@ -5318,7 +5318,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/reactjs.svg",
@@ -5342,7 +5342,7 @@
     "category": [
       "Food & Beverage"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/recipesage.svg",
@@ -5366,7 +5366,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/recyclarr.svg",
@@ -5390,7 +5390,7 @@
     "category": [
       "Operating Systems"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/redhat-linux.svg",
@@ -5414,7 +5414,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/redis.svg",
@@ -5439,7 +5439,7 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/remmina.svg",
@@ -5463,7 +5463,7 @@
     "category": [
       "Operating Systems"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rocky-linux.svg",
@@ -5488,7 +5488,7 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rstudio.svg",
@@ -5513,7 +5513,7 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rust.svg",
@@ -5538,7 +5538,7 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/rustdesk.svg",
@@ -5562,7 +5562,7 @@
     "category": [
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/send.svg",
@@ -5586,7 +5586,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/shell-tips.svg",
@@ -5610,7 +5610,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/shell.svg",
@@ -5634,7 +5634,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/sinusbot.svg",
@@ -5658,7 +5658,7 @@
     "category": [
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/skype.svg",
@@ -5682,7 +5682,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/sun-panel.svg",
@@ -5706,7 +5706,7 @@
     "category": [
       "Cloud"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/supabase.svg",
@@ -5730,7 +5730,7 @@
     "category": [
       "Networking"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/surfshark.svg",
@@ -5754,7 +5754,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/swagger.svg",
@@ -5778,7 +5778,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/swift.svg",
@@ -5802,7 +5802,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:10:58.000Z",
     "path": "./assets/svg/syncthing.svg",
@@ -5826,7 +5826,7 @@
     "category": [
       "Networking"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/tailscale.svg",
@@ -5850,7 +5850,7 @@
     "category": [
       "Networking"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/telekom.svg",
@@ -5874,7 +5874,7 @@
     "category": [
       "Social"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/threads.svg",
@@ -5898,7 +5898,7 @@
     "category": [
       "Infrastructure"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/traefik.svg",
@@ -5922,7 +5922,7 @@
     "category": [
       "Social"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/tumblr.svg",
@@ -5946,7 +5946,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/twitch.svg",
@@ -5970,7 +5970,7 @@
     "category": [
       "Social"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/twitter.svg",
@@ -5994,7 +5994,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/tyepcho.svg",
@@ -6018,7 +6018,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/typescript.svg",
@@ -6043,7 +6043,7 @@
       "Operating Systems",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/ubuntu-linux.svg",
@@ -6067,7 +6067,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/unreal-engine.svg",
@@ -6092,7 +6092,7 @@
       "Developer",
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/vim.svg",
@@ -6116,7 +6116,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/visual-studio-code.svg",
@@ -6140,7 +6140,7 @@
     "category": [
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/vodafone.svg",
@@ -6164,7 +6164,7 @@
     "category": [
       "Developer"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/vue-js.svg",
@@ -6189,7 +6189,7 @@
       "Developer",
       "Networking"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/webhook.svg",
@@ -6213,7 +6213,7 @@
     "category": [
       "Operating Systems"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/windows-10.svg",
@@ -6237,7 +6237,7 @@
     "category": [
       "Operating Systems"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/windows-11.svg",
@@ -6261,7 +6261,7 @@
     "category": [
       "Productivity"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/windows-explorer.svg",
@@ -6285,7 +6285,7 @@
     "category": [
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/wordpress.svg",
@@ -6309,7 +6309,7 @@
     "category": [
       "Social"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/x.svg",
@@ -6333,7 +6333,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/xbox.svg",
@@ -6357,7 +6357,7 @@
     "category": [
       "Operating Systems"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/xubuntu-linux.svg",
@@ -6381,7 +6381,7 @@
     "category": [
       "Technology"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/yahoo.svg",
@@ -6405,7 +6405,7 @@
     "category": [
       "Technology"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/yandex.svg",
@@ -6429,7 +6429,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-09-29T14:21:26.000Z",
     "path": "./assets/svg/youtube.svg",
@@ -6453,8 +6453,8 @@
     "category": [
       "Other"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-04T22:47:06.000Z",
     "path": "./assets/svg/250.svg",
     "id": "000268",
@@ -6477,7 +6477,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/3m.svg",
@@ -6496,13 +6496,13 @@
     "name": "alter",
     "color": "#e60118",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://alter-web.jp/",
+    "info": "Alter is a prominent Japanese manufacturer renowned for producing high-end, premium-quality anime figurines and collectibles. Established in 2005, the brand is widely praised by collectors worldwide for its exceptional attention to detail, intricate sculpting, and flawless paintwork, making it a benchmark for top-tier anime figures.",
     "category": [
       "Other"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/alter.svg",
     "id": "000270",
@@ -6525,7 +6525,7 @@
     "category": [
       "Finance"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/amex.svg",
@@ -6549,7 +6549,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Aniplex.svg",
@@ -6573,7 +6573,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/ASML.svg",
@@ -6597,7 +6597,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/ATI.svg",
@@ -6621,7 +6621,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Bandai.svg",
@@ -6645,7 +6645,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/BandaiNamco.svg",
@@ -6669,7 +6669,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Banpresto.svg",
@@ -6693,7 +6693,7 @@
     "category": [
       "Finance"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/boa.svg",
@@ -6717,7 +6717,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/BochsVector.svg",
@@ -6741,7 +6741,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/boeing.svg",
@@ -6765,7 +6765,7 @@
     "category": [
       "Food & Beverage"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/BurgerKing.svg",
@@ -6789,7 +6789,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Caterpillar.svg",
@@ -6814,7 +6814,7 @@
       "Networking",
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/cisco.svg",
@@ -6838,7 +6838,7 @@
     "category": [
       "Food & Beverage"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/cocacola.svg",
@@ -6862,7 +6862,7 @@
     "category": [
       "Other"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Daemonphk.svg",
@@ -6882,12 +6882,12 @@
     "color": "#ffffff",
     "format": "svg",
     "source": "https://dashboardicons.com/",
-    "info": "NPC-icons library trademark design asset.",
+    "info": "Dashboard Icons is a popular open-source icon pack designed primarily for self-hosted server dashboards, such as Homer, Heimdall, and Organizr. It provides web developers and home-lab enthusiasts with a comprehensive, visually cohesive set of high-quality brand and service icons to personalize their network layouts.",
     "category": [
       "Technology"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "official",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/dashboardicons.svg",
     "id": "000286",
@@ -6910,7 +6910,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Dassaultsystemes.svg",
@@ -6934,7 +6934,7 @@
     "category": [
       "Open Source"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/debian.svg",
@@ -6958,7 +6958,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/DisneyChannel.svg",
@@ -6982,7 +6982,7 @@
     "category": [
       "Food & Beverage"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Dominos.svg",
@@ -7006,8 +7006,8 @@
     "category": [
       "Other"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/dzfdd.svg",
     "id": "000291",
@@ -7030,7 +7030,7 @@
     "category": [
       "Food & Beverage"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/fanta.svg",
@@ -7054,7 +7054,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/FCCsymbol.svg",
@@ -7078,7 +7078,7 @@
     "category": [
       "E-commerce"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/fedex.svg",
@@ -7102,7 +7102,7 @@
     "category": [
       "Other"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Fila.svg",
@@ -7126,7 +7126,7 @@
     "category": [
       "Other"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/FSC.svg",
@@ -7150,7 +7150,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/generalelectric.svg",
@@ -7174,7 +7174,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/GoodSmile.svg",
@@ -7198,7 +7198,7 @@
     "category": [
       "Finance"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Greendot.svg",
@@ -7217,13 +7217,13 @@
     "name": "hellokitty",
     "color": "#000000",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.sanrio.co.jp/",
+    "info": "Hello Kitty is a globally recognized character created by the Japanese company Sanrio in 1974. Depicted as a cute anthropomorphic white cat with a red bow, she has become an international pop culture icon, symbolizing friendship, kindness, and Japan's kawaii (cute) culture across millions of branded products.",
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/hellokitty.svg",
     "id": "000300",
@@ -7246,7 +7246,7 @@
     "category": [
       "Finance"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/HSBC.svg",
@@ -7270,7 +7270,7 @@
     "category": [
       "Other"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/ISO90012015.svg",
@@ -7295,7 +7295,7 @@
       "E-commerce",
       "Food & Beverage"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/kfc.svg",
@@ -7319,7 +7319,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Kodak.svg",
@@ -7343,7 +7343,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/kotobukiya.svg",
@@ -7362,13 +7362,13 @@
     "name": "kuromi",
     "color": "#000000",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://kuromi.sanrio.co.jp/en/",
+    "info": "Kuromi is a highly popular character created by the Japanese company Sanrio in 2005. Known as the tomboy rival of My Melody, Kuromi is famous for her signature black jester's hat and punk-chic style. Embracing a \"cute but rebellious\" aesthetic, she has captured a massive international fanbase among youth and alternative fashion enthusiasts",
     "category": [
       "Media"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/kuromi.svg",
     "id": "000306",
@@ -7386,13 +7386,13 @@
     "name": "l3harris",
     "color": "#f9000a",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.l3harris.com/",
+    "info": "L3Harris Technologies is an American aerospace and defense technology innovator, formed by the merger of L3 Technologies and Harris Corporation in 2019. The company provides advanced defense and commercial technologies across air, land, sea, space, and cyber domains, specializing in secure communications, electronic warfare, and intelligence systems.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/l3harris.svg",
     "id": "000307",
@@ -7415,7 +7415,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/LEGO.svg",
@@ -7439,7 +7439,7 @@
     "category": [
       "Automotive"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/man.svg",
@@ -7463,7 +7463,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Marvel.svg",
@@ -7487,7 +7487,7 @@
     "category": [
       "Food & Beverage"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/McDonalds.svg",
@@ -7511,7 +7511,7 @@
     "category": [
       "E-commerce"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Mærsk.svg",
@@ -7535,7 +7535,7 @@
     "category": [
       "Finance"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/NASDAQ.svg",
@@ -7559,7 +7559,7 @@
     "category": [
       "Media"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/NBC.svg",
@@ -7583,7 +7583,7 @@
     "category": [
       "Other"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/NoEWaste.svg",
@@ -7607,7 +7607,7 @@
     "category": [
       "Food & Beverage"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Pepsi.svg",
@@ -7626,13 +7626,13 @@
     "name": "reachcompliant",
     "color": "#01459a",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://echa.europa.eu/regulations/reach/understanding-reach",
+    "info": "REACH Compliance indicates that a product complies with the European Union's REACH regulation (Registration, Evaluation, Authorisation and Restriction of Chemicals). This standard aims to improve the protection of human health and the environment from the risks posed by hazardous chemicals.",
     "category": [
       "Security"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/reachcompliant.svg",
     "id": "000317",
@@ -7650,13 +7650,13 @@
     "name": "reachcompliant1",
     "color": "#01459a",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://echa.europa.eu/regulations/reach/understanding-reach",
+    "info": "REACH Compliance indicates that a product complies with the European Union's REACH regulation (Registration, Evaluation, Authorisation and Restriction of Chemicals). This standard aims to improve the protection of human health and the environment from the risks posed by hazardous chemicals.",
     "category": [
       "Security"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/reachcompliant1.svg",
     "id": "000318",
@@ -7679,7 +7679,7 @@
     "category": [
       "Other"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-04T22:47:06.000Z",
     "path": "./assets/svg/Recycle001.svg",
@@ -7703,7 +7703,7 @@
     "category": [
       "Food & Beverage"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/redbull.svg",
@@ -7727,7 +7727,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Rheinmetall.svg",
@@ -7751,7 +7751,7 @@
     "category": [
       "Gaming"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RockstarGames.svg",
@@ -7775,7 +7775,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RoHS.svg",
@@ -7794,13 +7794,13 @@
     "name": "RoHSCompliance",
     "color": "#0f6d38",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://environment.ec.europa.eu/topics/waste-and-recycling/rohs-directive_en",
+    "info": "RoHS Compliance certifies that electrical and electronic equipment adheres to the EU's RoHS directive, restricting the use of specific hazardous substances (such as lead, mercury, and cadmium). It is a vital passport for selling electronic components and devices globally.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RoHSCompliance.svg",
     "id": "000324",
@@ -7818,13 +7818,13 @@
     "name": "RoHSCompliance2",
     "color": "#139b47",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://environment.ec.europa.eu/topics/waste-and-recycling/rohs-directive_en",
+    "info": "RoHS Compliance certifies that electrical and electronic equipment adheres to the EU's RoHS directive, restricting the use of specific hazardous substances (such as lead, mercury, and cadmium). It is a vital passport for selling electronic components and devices globally.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RoHSCompliance2.svg",
     "id": "000325",
@@ -7842,13 +7842,13 @@
     "name": "RoHSCompliance3",
     "color": "#93c021",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://environment.ec.europa.eu/topics/waste-and-recycling/rohs-directive_en",
+    "info": "RoHS Compliance certifies that electrical and electronic equipment adheres to the EU's RoHS directive, restricting the use of specific hazardous substances (such as lead, mercury, and cadmium). It is a vital passport for selling electronic components and devices globally.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RoHSCompliance3.svg",
     "id": "000326",
@@ -7866,13 +7866,13 @@
     "name": "RTX",
     "color": "#ce1126",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.rtx.com/",
+    "info": "RTX Corporation (formerly Raytheon Technologies) is one of the world's largest aerospace and defense manufacturers, headquartered in the United States. Comprising industry leaders Collins Aerospace, Pratt & Whitney, and Raytheon, RTX delivers state-of-the-art solutions, including aircraft engines, avionics, air defense systems, and advanced missiles.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/RTX.svg",
     "id": "000327",
@@ -7895,7 +7895,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/scania.svg",
@@ -7919,7 +7919,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Seagate.svg",
@@ -7943,7 +7943,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-04T22:47:06.000Z",
     "path": "./assets/svg/Siemens.svg",
@@ -7963,13 +7963,13 @@
     "color": "#000000",
     "format": "svg",
     "source": "https://simpleicons.org/",
-    "info": "NPC-icons library trademark design asset.",
+    "info": "Simple Icons is a widely acclaimed, open-source library that provides thousands of free SVG icons for popular global brands, applications, and digital services. Maintained by a vibrant developer community, it serves as an essential design resource for developers and designers to integrate clean, scalable brand logos into websites and portfolios.",
     "category": [
       "Design",
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "official",
+    "by": "simpleicons.org",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/simpleicons.svg",
     "id": "000331",
@@ -7992,7 +7992,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/SKHynix.svg",
@@ -8016,7 +8016,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/spacex.svg",
@@ -8040,7 +8040,7 @@
     "category": [
       "Food & Beverage"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/starbucks.svg",
@@ -8064,7 +8064,7 @@
     "category": [
       "Communication"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Sunrise.svg",
@@ -8088,7 +8088,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/tata.svg",
@@ -8107,13 +8107,13 @@
     "name": "TÜVRheinland",
     "color": "#0171be",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.tuv.com/usa/en/",
+    "info": "TÜV Rheinland is a leading global provider of technical, safety, and certification services headquartered in Germany. Established in 1872, the group inspects technical equipment, products, and services, ensuring compliance with international safety, quality, and environmental standards.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/TÜVRheinland.svg",
     "id": "000337",
@@ -8131,13 +8131,13 @@
     "name": "TÜVRheinland1",
     "color": "#0171be",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.tuv.com/usa/en/",
+    "info": "TÜV Rheinland is a leading global provider of technical, safety, and certification services headquartered in Germany. Established in 1872, the group inspects technical equipment, products, and services, ensuring compliance with international safety, quality, and environmental standards.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/TÜVRheinland1.svg",
     "id": "000338",
@@ -8160,7 +8160,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/TÜVSüd.svg",
@@ -8179,13 +8179,13 @@
     "name": "ULcertified",
     "color": "#000000",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.ul.com/",
+    "info": "UL Certified indicates that a product has been rigorously tested and evaluated by UL Solutions (formerly Underwriters Laboratories), a globally recognized safety science company based in the US. The mark proves that a product meets stringent safety and performance standards, particularly for electrical and consumer goods.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/ULcertified.svg",
     "id": "000340",
@@ -8203,13 +8203,13 @@
     "name": "ULcertified1",
     "color": "#ce1642",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.ul.com/",
+    "info": "UL Certified indicates that a product has been rigorously tested and evaluated by UL Solutions (formerly Underwriters Laboratories), a globally recognized safety science company based in the US. The mark proves that a product meets stringent safety and performance standards, particularly for electrical and consumer goods.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/ULcertified1.svg",
     "id": "000341",
@@ -8232,7 +8232,7 @@
     "category": [
       "Other"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/Underground.svg",
@@ -8256,7 +8256,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/USB.svg",
@@ -8275,13 +8275,13 @@
     "name": "uspostalservice",
     "color": "#00609d",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://www.usps.com/",
+    "info": "The United States Postal Service (USPS) is an independent agency of the U.S. federal government responsible for providing postal service throughout the United States. Founded in 1775, it operates one of the world's largest civilian technology and delivery networks, delivering mail and packages to millions of homes and businesses.",
     "category": [
       "E-commerce"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/uspostalservice.svg",
     "id": "000344",
@@ -8304,7 +8304,7 @@
     "category": [
       "Networking"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/vpnactive.svg",
@@ -8328,7 +8328,7 @@
     "category": [
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/WEEE.svg",
@@ -8347,13 +8347,13 @@
     "name": "WEEECompliance",
     "color": "#98ae4c",
     "format": "svg",
-    "source": "",
-    "info": "NPC-icons library trademark design asset.",
+    "source": "https://environment.ec.europa.eu/topics/waste-and-recycling/waste-electrical-and-electronic-equipment-weee_en",
+    "info": "WEEE Compliance ensures adherence to the EU's Waste Electrical and Electronic Equipment directive. It regulates the collection, recycling, and recovery of electronic waste, minimizing the environmental footprint of discarded appliances and digital devices.",
     "category": [
       "Hardware"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "traced",
+    "by": "newddf",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/WEEECompliance.svg",
     "id": "000347",
@@ -8377,7 +8377,7 @@
       "Networking",
       "Hardware"
     ],
-    "origin": null,
+    "origin": "repository",
     "by": null,
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/WiFi.svg",
@@ -8397,12 +8397,12 @@
     "color": "#339966",
     "format": "svg",
     "source": "https://commons.wikimedia.org/",
-    "info": "NPC-icons library trademark design asset.",
+    "info": "The Wikimedia Foundation, Inc. is an American nonprofit charitable organization headquartered in California. It is globally recognized for hosting and operating massive, community-driven collaborative projects, most notably Wikipedia (the world's largest free online encyclopedia), as well as Wikimedia Commons, Wiktionary, and Wikidata.",
     "category": [
       "Open Source"
     ],
-    "origin": null,
-    "by": null,
+    "origin": "repository",
+    "by": "dashboardicons.com",
     "updatedAt": "2026-10-01T14:15:09.000Z",
     "path": "./assets/svg/wikimedia.svg",
     "id": "000349",
@@ -8415,5 +8415,29 @@
     "url": "https://icons.x0u0x.xyz/assets/svg/wikimedia.svg",
     "apiUrl": "https://icons.x0u0x.xyz/api/icons/000349.json",
     "legacyApiUrl": "/api/icons/wikimedia-svg.json"
+  },
+  {
+    "name": "facebook",
+    "color": "0866ff",
+    "format": "svg",
+    "source": "",
+    "info": "NPC-icons visual design asset.",
+    "category": [
+      "Social"
+    ],
+    "origin": "repository",
+    "by": "dashboardicons.com",
+    "updatedAt": "2026-11-01T04:33:08.000Z",
+    "path": "./assets/svg/facebook.svg",
+    "id": "000350",
+    "status": "active",
+    "legacyId": "facebook-svg",
+    "legacyIds": [
+      "facebook-svg"
+    ],
+    "filename": "facebook.svg",
+    "url": "https://icons.x0u0x.xyz/assets/svg/facebook.svg",
+    "apiUrl": "https://icons.x0u0x.xyz/api/icons/000350.json",
+    "legacyApiUrl": "/api/icons/facebook-svg.json"
   }
 ]

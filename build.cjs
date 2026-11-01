@@ -34,6 +34,30 @@ const iconConfig = JSON.parse(
     fs.readFileSync(configPath, 'utf8')
 );
 
+function normalizeCategories(value) {
+    let categories = value;
+
+    if (typeof value === 'string') {
+        const trimmed = value.trim();
+        if (!trimmed) return [];
+
+        try {
+            categories = JSON.parse(trimmed);
+        } catch {
+            categories = [trimmed];
+        }
+    }
+
+    if (!Array.isArray(categories)) return [];
+
+    return [...new Set(
+        categories
+            .filter(item => typeof item === 'string')
+            .map(item => item.trim())
+            .filter(Boolean)
+    )];
+}
+
 function getAssetUpdatedAt(filePath) {
     try {
         const timestamp = execFileSync(
@@ -121,7 +145,7 @@ iconConfig.forEach((icon) => {
             format: 'svg',
             source: icon.source || '',
             info: icon.info || 'NPC-icons visual design asset.',
-            category: Array.isArray(icon.category) ? icon.category : [],
+            category: normalizeCategories(icon.category),
             origin: ['official', 'repository', 'traced', 'original', 'other'].includes(icon.origin) ? icon.origin : null,
             by: typeof icon.by === 'string' && icon.by.trim() ? icon.by.trim() : null,
             updatedAt: getAssetUpdatedAt(filePath),
@@ -140,7 +164,7 @@ iconConfig.forEach((icon) => {
             format: 'png',
             source: icon.source || '',
             info: icon.info || 'NPC-icons bitmap asset.',
-            category: Array.isArray(icon.category) ? icon.category : [],
+            category: normalizeCategories(icon.category),
             origin: ['official', 'repository', 'traced', 'original', 'other'].includes(icon.origin) ? icon.origin : null,
             by: typeof icon.by === 'string' && icon.by.trim() ? icon.by.trim() : null,
             updatedAt: getAssetUpdatedAt(filePath),
