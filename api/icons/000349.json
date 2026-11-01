@@ -3,13 +3,11 @@
   "color": "#339966",
   "format": "svg",
   "source": "https://commons.wikimedia.org/",
-  "info": "NPC-icons library trademark design asset.",
-  "category": [
-    "Open Source"
-  ],
-  "origin": null,
-  "by": null,
-  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "info": "The Wikimedia Foundation, Inc. is an American nonprofit charitable organization headquartered in California. It is globally recognized for hosting and operating massive, community-driven collaborative projects, most notably Wikipedia (the world's largest free online encyclopedia), as well as Wikimedia Commons, Wiktionary, and Wikidata.",
+  "category": [],
+  "origin": "repository",
+  "by": "dashboardicons.com",
+  "updatedAt": "2026-11-01T04:17:28.000Z",
   "path": "/assets/svg/wikimedia.svg",
   "id": "000349",
   "status": "active",

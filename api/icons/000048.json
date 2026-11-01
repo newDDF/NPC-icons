@@ -3,13 +3,11 @@
   "color": "#2c2c2c",
   "format": "svg",
   "source": "https://archive.org/",
-  "info": "NPC-icons library trademark design asset.",
-  "category": [
-    "Infrastructure"
-  ],
-  "origin": null,
-  "by": null,
-  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "info": "The Internet Archive (archive.org) is an American digital library with the stated mission of providing universal access to all knowledge. It provides free public access to collections of digitized materials, including millions of books, audio recordings, videos, and archived web pages via its famous Wayback Machine.",
+  "category": [],
+  "origin": "repository",
+  "by": "dashboardicons.com",
+  "updatedAt": "2026-11-01T04:17:28.000Z",
   "path": "/assets/svg/archivedotorg.svg",
   "id": "000048",
   "status": "active",

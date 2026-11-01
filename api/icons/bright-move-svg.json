@@ -1,15 +1,13 @@
 {
   "name": "bright-move",
-  "color": "#4d4d4d",
+  "color": "#F3CA2F",
   "format": "svg",
-  "source": "",
-  "info": "NPC-icons library trademark design asset.",
-  "category": [
-    "Media"
-  ],
-  "origin": null,
-  "by": null,
-  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "source": "https://www.broadcom.com/",
+  "info": "Broadcom Inc. is an American multinational designer, developer, and global supplier of a wide range of semiconductor and infrastructure software products. Its product portfolio serves the data center, networking, enterprise software, broadband, wireless, storage, and industrial markets.",
+  "category": [],
+  "origin": "repository",
+  "by": "dashboardicons.com",
+  "updatedAt": "2026-11-01T04:17:28.000Z",
   "path": "/assets/svg/bright-move.svg",
   "id": "bright-move-svg",
   "status": "active",

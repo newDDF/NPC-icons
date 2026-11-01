@@ -4,12 +4,10 @@
   "format": "png",
   "source": "",
   "info": "NPC-icons library bitmapped graphic asset.",
-  "category": [
-    "Education"
-  ],
-  "origin": null,
-  "by": null,
-  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "category": [],
+  "origin": "traced",
+  "by": "newddf",
+  "updatedAt": "2026-11-01T04:17:28.000Z",
   "path": "/assets/png/Hanghai-IR.png",
   "id": "hanghai-ir-png",
   "status": "active",
