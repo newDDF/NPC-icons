@@ -37,16 +37,39 @@ export function initModal() {
             .map(category => `<span class="modal-category">${category}</span>`)
             .join('');
 
+        const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;'
+        })[char]);
+
         const sourceHtml = icon.source
-            ? `<a class="modal-source-link" href="${icon.source}" target="_blank">Official Website</a>`
+            ? `<a class="modal-source-link" href="${escapeHtml(icon.source)}" target="_blank" rel="noopener noreferrer">Official Website</a>`
             : `<span class="modal-none">None</span>`;
 
         modalInfo.innerHTML = `
-            Format: <b class="modal-format">${icon.format}</b><br>
-            ${icon.format === 'svg' ? 'Hex Color: <b class="modal-color">' + displayColor + '</b><br>' : ''}
-            Source: ${sourceHtml}<br><br>
+            <div class="modal-meta-grid">
+                <div class="modal-meta-item">
+                    Format: <b class="modal-format">${escapeHtml(icon.format || 'Unknown')}</b>
+                </div>
+                ${icon.format === 'svg' ? `
+                <div class="modal-meta-item">
+                    Hex Color: <b class="modal-color">${escapeHtml(displayColor || icon.color || 'Unknown')}</b>
+                </div>` : ''}
+                <div class="modal-meta-item">
+                    Origin: ${icon.origin ? escapeHtml(icon.origin) : '<span class="modal-none">Not provided</span>'}
+                </div>
+                <div class="modal-meta-item">
+                    By: ${icon.by ? escapeHtml(icon.by) : '<span class="modal-none">Not provided</span>'}
+                </div>
+                <div class="modal-meta-item modal-meta-source">
+                    Source: ${sourceHtml}
+                </div>
+            </div>
             <div class="modal-info-scroll">
-                ${icon.info}
+                ${escapeHtml(icon.info || 'No additional information is available.')}
             </div>
         `;
 

@@ -13,9 +13,19 @@ export function getIcons(options = {}) {
   }
 
   if (options.category) {
-    icons = icons.filter(icon =>
-      icon.category.some(c => c.toLowerCase() === options.category.toLowerCase())
-    );
+    const categories = (
+      Array.isArray(options.category)
+        ? options.category
+        : [options.category]
+    ).map(category => String(category).toLowerCase());
+
+    if (categories.length > 0) {
+      icons = icons.filter(icon =>
+        categories.some(category =>
+          icon.category.some(item => item.toLowerCase() === category)
+        )
+      );
+    }
   }
 
   return icons;
@@ -23,8 +33,12 @@ export function getIcons(options = {}) {
 
 export function getIcon(name, format) {
   const icons = getIcons();
+  const query = String(name).toLowerCase();
   const matches = icon =>
-    icon.id === name || icon.name.toLowerCase() === String(name).toLowerCase();
+    icon.id === String(name) ||
+    icon.legacyId === String(name) ||
+    (Array.isArray(icon.legacyIds) && icon.legacyIds.includes(String(name))) ||
+    icon.name.toLowerCase() === query;
 
   return icons.find(icon => matches(icon) && icon.format === (format || 'svg'))
     ?? (format ? null : icons.find(matches))

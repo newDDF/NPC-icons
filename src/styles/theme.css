@@ -1,4 +1,5 @@
 :root[data-theme="light"] {
+    color-scheme: light;
             --bg-color: #f2f2f7;
             --card-bg: rgba(255, 255, 255, 0.66);
             --text-color: #1c1c1e;
@@ -18,6 +19,7 @@
             --wrapper-bg: #f2f2f7; 
         }
         :root[data-theme="dark"] {
+    color-scheme: dark;
             --bg-color: #000000;
             --card-bg: rgba(28, 28, 30, 0.68);
             --text-color: #f2f2f7;
