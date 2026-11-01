@@ -7,9 +7,20 @@
   "category": [
     "Networking"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/tailscale.svg",
   "id": "tailscale-svg",
+  "status": "active",
+  "legacyId": "tailscale-svg",
+  "legacyIds": [
+    "tailscale-svg"
+  ],
   "filename": "tailscale.svg",
   "url": "/assets/svg/tailscale.svg",
-  "apiUrl": "/api/icons/tailscale-svg.json"
+  "apiUrl": "/api/icons/tailscale-svg.json",
+  "legacyApiUrl": "/api/icons/tailscale-svg.json",
+  "permanentId": "000242",
+  "permanentApiUrl": "/api/icons/000242.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "racknerd",
+  "color": "#0877BA",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/racknerd.svg",
+  "id": "000041",
+  "status": "active",
+  "legacyId": "racknerd-svg",
+  "legacyIds": [
+    "racknerd-svg"
+  ],
+  "filename": "racknerd.svg",
+  "url": "/assets/svg/racknerd.svg",
+  "apiUrl": "/api/icons/000041.json",
+  "legacyApiUrl": "/api/icons/racknerd-svg.json"
+}

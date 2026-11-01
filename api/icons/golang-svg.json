@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/golang.svg",
   "id": "golang-svg",
+  "status": "active",
+  "legacyId": "golang-svg",
+  "legacyIds": [
+    "golang-svg"
+  ],
   "filename": "golang.svg",
   "url": "/assets/svg/golang.svg",
-  "apiUrl": "/api/icons/golang-svg.json"
+  "apiUrl": "/api/icons/golang-svg.json",
+  "legacyApiUrl": "/api/icons/golang-svg.json",
+  "permanentId": "000100",
+  "permanentApiUrl": "/api/icons/000100.json"
 }

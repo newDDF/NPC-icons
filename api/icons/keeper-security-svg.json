@@ -7,9 +7,20 @@
   "category": [
     "Security"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/keeper-security.svg",
   "id": "keeper-security-svg",
+  "status": "active",
+  "legacyId": "keeper-security-svg",
+  "legacyIds": [
+    "keeper-security-svg"
+  ],
   "filename": "keeper-security.svg",
   "url": "/assets/svg/keeper-security.svg",
-  "apiUrl": "/api/icons/keeper-security-svg.json"
+  "apiUrl": "/api/icons/keeper-security-svg.json",
+  "legacyApiUrl": "/api/icons/keeper-security-svg.json",
+  "permanentId": "000126",
+  "permanentApiUrl": "/api/icons/000126.json"
 }

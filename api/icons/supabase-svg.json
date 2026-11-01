@@ -7,9 +7,20 @@
   "category": [
     "Cloud"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/supabase.svg",
   "id": "supabase-svg",
+  "status": "active",
+  "legacyId": "supabase-svg",
+  "legacyIds": [
+    "supabase-svg"
+  ],
   "filename": "supabase.svg",
   "url": "/assets/svg/supabase.svg",
-  "apiUrl": "/api/icons/supabase-svg.json"
+  "apiUrl": "/api/icons/supabase-svg.json",
+  "legacyApiUrl": "/api/icons/supabase-svg.json",
+  "permanentId": "000237",
+  "permanentApiUrl": "/api/icons/000237.json"
 }

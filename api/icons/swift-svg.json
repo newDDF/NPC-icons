@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/swift.svg",
   "id": "swift-svg",
+  "status": "active",
+  "legacyId": "swift-svg",
+  "legacyIds": [
+    "swift-svg"
+  ],
   "filename": "swift.svg",
   "url": "/assets/svg/swift.svg",
-  "apiUrl": "/api/icons/swift-svg.json"
+  "apiUrl": "/api/icons/swift-svg.json",
+  "legacyApiUrl": "/api/icons/swift-svg.json",
+  "permanentId": "000240",
+  "permanentApiUrl": "/api/icons/000240.json"
 }

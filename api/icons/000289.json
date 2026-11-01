@@ -1,0 +1,24 @@
+{
+  "name": "DisneyChannel",
+  "color": "#2e2f61",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/DisneyChannel.svg",
+  "id": "000289",
+  "status": "active",
+  "legacyId": "disneychannel-svg",
+  "legacyIds": [
+    "disneychannel-svg"
+  ],
+  "filename": "DisneyChannel.svg",
+  "url": "/assets/svg/DisneyChannel.svg",
+  "apiUrl": "/api/icons/000289.json",
+  "legacyApiUrl": "/api/icons/disneychannel-svg.json"
+}

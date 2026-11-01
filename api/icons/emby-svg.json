@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/emby.svg",
   "id": "emby-svg",
+  "status": "active",
+  "legacyId": "emby-svg",
+  "legacyIds": [
+    "emby-svg"
+  ],
   "filename": "emby.svg",
   "url": "/assets/svg/emby.svg",
-  "apiUrl": "/api/icons/emby-svg.json"
+  "apiUrl": "/api/icons/emby-svg.json",
+  "legacyApiUrl": "/api/icons/emby-svg.json",
+  "permanentId": "000089",
+  "permanentApiUrl": "/api/icons/000089.json"
 }

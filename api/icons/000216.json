@@ -1,0 +1,25 @@
+{
+  "name": "python",
+  "color": "#336c9c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/python.svg",
+  "id": "000216",
+  "status": "active",
+  "legacyId": "python-svg",
+  "legacyIds": [
+    "python-svg"
+  ],
+  "filename": "python.svg",
+  "url": "/assets/svg/python.svg",
+  "apiUrl": "/api/icons/000216.json",
+  "legacyApiUrl": "/api/icons/python-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/html.svg",
   "id": "html-svg",
+  "status": "active",
+  "legacyId": "html-svg",
+  "legacyIds": [
+    "html-svg"
+  ],
   "filename": "html.svg",
   "url": "/assets/svg/html.svg",
-  "apiUrl": "/api/icons/html-svg.json"
+  "apiUrl": "/api/icons/html-svg.json",
+  "legacyApiUrl": "/api/icons/html-svg.json",
+  "permanentId": "000108",
+  "permanentApiUrl": "/api/icons/000108.json"
 }

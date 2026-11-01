@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/couchdb.svg",
   "id": "couchdb-svg",
+  "status": "active",
+  "legacyId": "couchdb-svg",
+  "legacyIds": [
+    "couchdb-svg"
+  ],
   "filename": "couchdb.svg",
   "url": "/assets/svg/couchdb.svg",
-  "apiUrl": "/api/icons/couchdb-svg.json"
+  "apiUrl": "/api/icons/couchdb-svg.json",
+  "legacyApiUrl": "/api/icons/couchdb-svg.json",
+  "permanentId": "000072",
+  "permanentApiUrl": "/api/icons/000072.json"
 }

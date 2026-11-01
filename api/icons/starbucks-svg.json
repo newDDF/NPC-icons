@@ -7,9 +7,20 @@
   "category": [
     "Food & Beverage"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/starbucks.svg",
   "id": "starbucks-svg",
+  "status": "active",
+  "legacyId": "starbucks-svg",
+  "legacyIds": [
+    "starbucks-svg"
+  ],
   "filename": "starbucks.svg",
   "url": "/assets/svg/starbucks.svg",
-  "apiUrl": "/api/icons/starbucks-svg.json"
+  "apiUrl": "/api/icons/starbucks-svg.json",
+  "legacyApiUrl": "/api/icons/starbucks-svg.json",
+  "permanentId": "000334",
+  "permanentApiUrl": "/api/icons/000334.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/mongodb.svg",
   "id": "mongodb-svg",
+  "status": "active",
+  "legacyId": "mongodb-svg",
+  "legacyIds": [
+    "mongodb-svg"
+  ],
   "filename": "mongodb.svg",
   "url": "/assets/svg/mongodb.svg",
-  "apiUrl": "/api/icons/mongodb-svg.json"
+  "apiUrl": "/api/icons/mongodb-svg.json",
+  "legacyApiUrl": "/api/icons/mongodb-svg.json",
+  "permanentId": "000153",
+  "permanentApiUrl": "/api/icons/000153.json"
 }

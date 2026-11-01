@@ -7,9 +7,20 @@
   "category": [
     "E-commerce"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/aliexpress.svg",
   "id": "aliexpress-svg",
+  "status": "active",
+  "legacyId": "aliexpress-svg",
+  "legacyIds": [
+    "aliexpress-svg"
+  ],
   "filename": "aliexpress.svg",
   "url": "/assets/svg/aliexpress.svg",
-  "apiUrl": "/api/icons/aliexpress-svg.json"
+  "apiUrl": "/api/icons/aliexpress-svg.json",
+  "legacyApiUrl": "/api/icons/aliexpress-svg.json",
+  "permanentId": "000044",
+  "permanentApiUrl": "/api/icons/000044.json"
 }

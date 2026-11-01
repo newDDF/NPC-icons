@@ -1,0 +1,24 @@
+{
+  "name": "convertio-dark",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/convertio-dark.svg",
+  "id": "000071",
+  "status": "active",
+  "legacyId": "convertio-dark-svg",
+  "legacyIds": [
+    "convertio-dark-svg"
+  ],
+  "filename": "convertio-dark.svg",
+  "url": "/assets/svg/convertio-dark.svg",
+  "apiUrl": "/api/icons/000071.json",
+  "legacyApiUrl": "/api/icons/convertio-dark-svg.json"
+}

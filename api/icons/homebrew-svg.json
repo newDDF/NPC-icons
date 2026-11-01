@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/homebrew.svg",
   "id": "homebrew-svg",
+  "status": "active",
+  "legacyId": "homebrew-svg",
+  "legacyIds": [
+    "homebrew-svg"
+  ],
   "filename": "homebrew.svg",
   "url": "/assets/svg/homebrew.svg",
-  "apiUrl": "/api/icons/homebrew-svg.json"
+  "apiUrl": "/api/icons/homebrew-svg.json",
+  "legacyApiUrl": "/api/icons/homebrew-svg.json",
+  "permanentId": "000106",
+  "permanentApiUrl": "/api/icons/000106.json"
 }

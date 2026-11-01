@@ -7,9 +7,20 @@
   "category": [
     "Operating Systems"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/peppermint.svg",
   "id": "peppermint-svg",
+  "status": "active",
+  "legacyId": "peppermint-svg",
+  "legacyIds": [
+    "peppermint-svg"
+  ],
   "filename": "peppermint.svg",
   "url": "/assets/svg/peppermint.svg",
-  "apiUrl": "/api/icons/peppermint-svg.json"
+  "apiUrl": "/api/icons/peppermint-svg.json",
+  "legacyApiUrl": "/api/icons/peppermint-svg.json",
+  "permanentId": "000192",
+  "permanentApiUrl": "/api/icons/000192.json"
 }

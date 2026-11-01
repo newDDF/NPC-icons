@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/frp-manager.svg",
   "id": "frp-manager-svg",
+  "status": "active",
+  "legacyId": "frp-manager-svg",
+  "legacyIds": [
+    "frp-manager-svg"
+  ],
   "filename": "frp-manager.svg",
   "url": "/assets/svg/frp-manager.svg",
-  "apiUrl": "/api/icons/frp-manager-svg.json"
+  "apiUrl": "/api/icons/frp-manager-svg.json",
+  "legacyApiUrl": "/api/icons/frp-manager-svg.json",
+  "permanentId": "000097",
+  "permanentApiUrl": "/api/icons/000097.json"
 }

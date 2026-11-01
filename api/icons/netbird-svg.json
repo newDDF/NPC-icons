@@ -7,9 +7,20 @@
   "category": [
     "Networking"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/netbird.svg",
   "id": "netbird-svg",
+  "status": "active",
+  "legacyId": "netbird-svg",
+  "legacyIds": [
+    "netbird-svg"
+  ],
   "filename": "netbird.svg",
   "url": "/assets/svg/netbird.svg",
-  "apiUrl": "/api/icons/netbird-svg.json"
+  "apiUrl": "/api/icons/netbird-svg.json",
+  "legacyApiUrl": "/api/icons/netbird-svg.json",
+  "permanentId": "000039",
+  "permanentApiUrl": "/api/icons/000039.json"
 }

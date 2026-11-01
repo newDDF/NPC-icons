@@ -7,9 +7,20 @@
   "category": [
     "Networking"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/kagi.svg",
   "id": "kagi-svg",
+  "status": "active",
+  "legacyId": "kagi-svg",
+  "legacyIds": [
+    "kagi-svg"
+  ],
   "filename": "kagi.svg",
   "url": "/assets/svg/kagi.svg",
-  "apiUrl": "/api/icons/kagi-svg.json"
+  "apiUrl": "/api/icons/kagi-svg.json",
+  "legacyApiUrl": "/api/icons/kagi-svg.json",
+  "permanentId": "000124",
+  "permanentApiUrl": "/api/icons/000124.json"
 }

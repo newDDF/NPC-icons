@@ -1,0 +1,24 @@
+{
+  "name": "origin",
+  "color": "#f15a23",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/origin.svg",
+  "id": "000182",
+  "status": "active",
+  "legacyId": "origin-svg",
+  "legacyIds": [
+    "origin-svg"
+  ],
+  "filename": "origin.svg",
+  "url": "/assets/svg/origin.svg",
+  "apiUrl": "/api/icons/000182.json",
+  "legacyApiUrl": "/api/icons/origin-svg.json"
+}

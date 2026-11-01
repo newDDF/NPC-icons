@@ -8,9 +8,20 @@
     "Design",
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/outline.svg",
   "id": "outline-svg",
+  "status": "active",
+  "legacyId": "outline-svg",
+  "legacyIds": [
+    "outline-svg"
+  ],
   "filename": "outline.svg",
   "url": "/assets/svg/outline.svg",
-  "apiUrl": "/api/icons/outline-svg.json"
+  "apiUrl": "/api/icons/outline-svg.json",
+  "legacyApiUrl": "/api/icons/outline-svg.json",
+  "permanentId": "000184",
+  "permanentApiUrl": "/api/icons/000184.json"
 }

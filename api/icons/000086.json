@@ -1,0 +1,24 @@
+{
+  "name": "dvd",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/dvd.svg",
+  "id": "000086",
+  "status": "active",
+  "legacyId": "dvd-svg",
+  "legacyIds": [
+    "dvd-svg"
+  ],
+  "filename": "dvd.svg",
+  "url": "/assets/svg/dvd.svg",
+  "apiUrl": "/api/icons/000086.json",
+  "legacyApiUrl": "/api/icons/dvd-svg.json"
+}

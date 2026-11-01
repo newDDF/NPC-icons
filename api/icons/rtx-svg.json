@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/RTX.svg",
   "id": "rtx-svg",
+  "status": "active",
+  "legacyId": "rtx-svg",
+  "legacyIds": [
+    "rtx-svg"
+  ],
   "filename": "RTX.svg",
   "url": "/assets/svg/RTX.svg",
-  "apiUrl": "/api/icons/rtx-svg.json"
+  "apiUrl": "/api/icons/rtx-svg.json",
+  "legacyApiUrl": "/api/icons/rtx-svg.json",
+  "permanentId": "000327",
+  "permanentApiUrl": "/api/icons/000327.json"
 }

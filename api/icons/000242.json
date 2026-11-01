@@ -1,0 +1,24 @@
+{
+  "name": "tailscale",
+  "color": "#3e3e3e",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/tailscale.svg",
+  "id": "000242",
+  "status": "active",
+  "legacyId": "tailscale-svg",
+  "legacyIds": [
+    "tailscale-svg"
+  ],
+  "filename": "tailscale.svg",
+  "url": "/assets/svg/tailscale.svg",
+  "apiUrl": "/api/icons/000242.json",
+  "legacyApiUrl": "/api/icons/tailscale-svg.json"
+}

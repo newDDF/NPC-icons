@@ -7,9 +7,20 @@
   "category": [
     "Gaming"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Bandai.svg",
   "id": "bandai-svg",
+  "status": "active",
+  "legacyId": "bandai-svg",
+  "legacyIds": [
+    "bandai-svg"
+  ],
   "filename": "Bandai.svg",
   "url": "/assets/svg/Bandai.svg",
-  "apiUrl": "/api/icons/bandai-svg.json"
+  "apiUrl": "/api/icons/bandai-svg.json",
+  "legacyApiUrl": "/api/icons/bandai-svg.json",
+  "permanentId": "000275",
+  "permanentApiUrl": "/api/icons/000275.json"
 }

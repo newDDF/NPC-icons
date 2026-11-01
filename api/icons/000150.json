@@ -1,0 +1,24 @@
+{
+  "name": "minio",
+  "color": "#cf5831",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/minio.svg",
+  "id": "000150",
+  "status": "active",
+  "legacyId": "minio-svg",
+  "legacyIds": [
+    "minio-svg"
+  ],
+  "filename": "minio.svg",
+  "url": "/assets/svg/minio.svg",
+  "apiUrl": "/api/icons/000150.json",
+  "legacyApiUrl": "/api/icons/minio-svg.json"
+}

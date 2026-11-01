@@ -7,9 +7,20 @@
   "category": [
     "Social"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/threads.svg",
   "id": "threads-svg",
+  "status": "active",
+  "legacyId": "threads-svg",
+  "legacyIds": [
+    "threads-svg"
+  ],
   "filename": "threads.svg",
   "url": "/assets/svg/threads.svg",
-  "apiUrl": "/api/icons/threads-svg.json"
+  "apiUrl": "/api/icons/threads-svg.json",
+  "legacyApiUrl": "/api/icons/threads-svg.json",
+  "permanentId": "000244",
+  "permanentApiUrl": "/api/icons/000244.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Education"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/duolingo.svg",
   "id": "duolingo-svg",
+  "status": "active",
+  "legacyId": "duolingo-svg",
+  "legacyIds": [
+    "duolingo-svg"
+  ],
   "filename": "duolingo.svg",
   "url": "/assets/svg/duolingo.svg",
-  "apiUrl": "/api/icons/duolingo-svg.json"
+  "apiUrl": "/api/icons/duolingo-svg.json",
+  "legacyApiUrl": "/api/icons/duolingo-svg.json",
+  "permanentId": "000037",
+  "permanentApiUrl": "/api/icons/000037.json"
 }

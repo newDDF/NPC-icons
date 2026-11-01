@@ -1,0 +1,24 @@
+{
+  "name": "mailjet",
+  "color": "#9585f4",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/mailjet.svg",
+  "id": "000137",
+  "status": "active",
+  "legacyId": "mailjet-svg",
+  "legacyIds": [
+    "mailjet-svg"
+  ],
+  "filename": "mailjet.svg",
+  "url": "/assets/svg/mailjet.svg",
+  "apiUrl": "/api/icons/000137.json",
+  "legacyApiUrl": "/api/icons/mailjet-svg.json"
+}

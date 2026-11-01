@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/scania.svg",
   "id": "scania-svg",
+  "status": "active",
+  "legacyId": "scania-svg",
+  "legacyIds": [
+    "scania-svg"
+  ],
   "filename": "scania.svg",
   "url": "/assets/svg/scania.svg",
-  "apiUrl": "/api/icons/scania-svg.json"
+  "apiUrl": "/api/icons/scania-svg.json",
+  "legacyApiUrl": "/api/icons/scania-svg.json",
+  "permanentId": "000328",
+  "permanentApiUrl": "/api/icons/000328.json"
 }

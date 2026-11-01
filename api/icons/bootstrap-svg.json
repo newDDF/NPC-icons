@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/bootstrap.svg",
   "id": "bootstrap-svg",
+  "status": "active",
+  "legacyId": "bootstrap-svg",
+  "legacyIds": [
+    "bootstrap-svg"
+  ],
   "filename": "bootstrap.svg",
   "url": "/assets/svg/bootstrap.svg",
-  "apiUrl": "/api/icons/bootstrap-svg.json"
+  "apiUrl": "/api/icons/bootstrap-svg.json",
+  "legacyApiUrl": "/api/icons/bootstrap-svg.json",
+  "permanentId": "000060",
+  "permanentApiUrl": "/api/icons/000060.json"
 }

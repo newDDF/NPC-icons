@@ -1,0 +1,24 @@
+{
+  "name": "vodafone",
+  "color": "#e60000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/vodafone.svg",
+  "id": "000255",
+  "status": "active",
+  "legacyId": "vodafone-svg",
+  "legacyIds": [
+    "vodafone-svg"
+  ],
+  "filename": "vodafone.svg",
+  "url": "/assets/svg/vodafone.svg",
+  "apiUrl": "/api/icons/000255.json",
+  "legacyApiUrl": "/api/icons/vodafone-svg.json"
+}

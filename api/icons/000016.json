@@ -1,0 +1,24 @@
+{
+  "name": "JIDIANCOLLEGE",
+  "color": "#A1CB3C",
+  "format": "svg",
+  "source": "https://www.zime.edu.cn/xqzl/xxjj.htm",
+  "info": "NPC-icons library trademark vector asset.",
+  "category": [
+    "Education"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/JIDIANCOLLEGE.svg",
+  "id": "000016",
+  "status": "active",
+  "legacyId": "jidiancollege-svg",
+  "legacyIds": [
+    "jidiancollege-svg"
+  ],
+  "filename": "JIDIANCOLLEGE.svg",
+  "url": "/assets/svg/JIDIANCOLLEGE.svg",
+  "apiUrl": "/api/icons/000016.json",
+  "legacyApiUrl": "/api/icons/jidiancollege-svg.json"
+}

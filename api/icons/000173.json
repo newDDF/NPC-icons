@@ -1,0 +1,24 @@
+{
+  "name": "onlyfans",
+  "color": "#008ccf",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/onlyfans.svg",
+  "id": "000173",
+  "status": "active",
+  "legacyId": "onlyfans-svg",
+  "legacyIds": [
+    "onlyfans-svg"
+  ],
+  "filename": "onlyfans.svg",
+  "url": "/assets/svg/onlyfans.svg",
+  "apiUrl": "/api/icons/000173.json",
+  "legacyApiUrl": "/api/icons/onlyfans-svg.json"
+}

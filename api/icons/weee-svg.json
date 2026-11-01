@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/WEEE.svg",
   "id": "weee-svg",
+  "status": "active",
+  "legacyId": "weee-svg",
+  "legacyIds": [
+    "weee-svg"
+  ],
   "filename": "WEEE.svg",
   "url": "/assets/svg/WEEE.svg",
-  "apiUrl": "/api/icons/weee-svg.json"
+  "apiUrl": "/api/icons/weee-svg.json",
+  "legacyApiUrl": "/api/icons/weee-svg.json",
+  "permanentId": "000346",
+  "permanentApiUrl": "/api/icons/000346.json"
 }

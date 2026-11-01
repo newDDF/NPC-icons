@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/rust.svg",
   "id": "rust-svg",
+  "status": "active",
+  "legacyId": "rust-svg",
+  "legacyIds": [
+    "rust-svg"
+  ],
   "filename": "rust.svg",
   "url": "/assets/svg/rust.svg",
-  "apiUrl": "/api/icons/rust-svg.json"
+  "apiUrl": "/api/icons/rust-svg.json",
+  "legacyApiUrl": "/api/icons/rust-svg.json",
+  "permanentId": "000229",
+  "permanentApiUrl": "/api/icons/000229.json"
 }

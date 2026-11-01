@@ -7,9 +7,20 @@
   "category": [
     "Other"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Underground.svg",
   "id": "underground-svg",
+  "status": "active",
+  "legacyId": "underground-svg",
+  "legacyIds": [
+    "underground-svg"
+  ],
   "filename": "Underground.svg",
   "url": "/assets/svg/Underground.svg",
-  "apiUrl": "/api/icons/underground-svg.json"
+  "apiUrl": "/api/icons/underground-svg.json",
+  "legacyApiUrl": "/api/icons/underground-svg.json",
+  "permanentId": "000342",
+  "permanentApiUrl": "/api/icons/000342.json"
 }

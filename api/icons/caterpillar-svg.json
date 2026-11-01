@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Caterpillar.svg",
   "id": "caterpillar-svg",
+  "status": "active",
+  "legacyId": "caterpillar-svg",
+  "legacyIds": [
+    "caterpillar-svg"
+  ],
   "filename": "Caterpillar.svg",
   "url": "/assets/svg/Caterpillar.svg",
-  "apiUrl": "/api/icons/caterpillar-svg.json"
+  "apiUrl": "/api/icons/caterpillar-svg.json",
+  "legacyApiUrl": "/api/icons/caterpillar-svg.json",
+  "permanentId": "000282",
+  "permanentApiUrl": "/api/icons/000282.json"
 }

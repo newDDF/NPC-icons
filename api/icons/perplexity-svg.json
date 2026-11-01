@@ -7,9 +7,20 @@
   "category": [
     "AI"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/perplexity.svg",
   "id": "perplexity-svg",
+  "status": "active",
+  "legacyId": "perplexity-svg",
+  "legacyIds": [
+    "perplexity-svg"
+  ],
   "filename": "perplexity.svg",
   "url": "/assets/svg/perplexity.svg",
-  "apiUrl": "/api/icons/perplexity-svg.json"
+  "apiUrl": "/api/icons/perplexity-svg.json",
+  "legacyApiUrl": "/api/icons/perplexity-svg.json",
+  "permanentId": "000193",
+  "permanentApiUrl": "/api/icons/000193.json"
 }

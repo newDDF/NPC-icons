@@ -1,0 +1,24 @@
+{
+  "name": "unreal-engine",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/unreal-engine.svg",
+  "id": "000252",
+  "status": "active",
+  "legacyId": "unreal-engine-svg",
+  "legacyIds": [
+    "unreal-engine-svg"
+  ],
+  "filename": "unreal-engine.svg",
+  "url": "/assets/svg/unreal-engine.svg",
+  "apiUrl": "/api/icons/000252.json",
+  "legacyApiUrl": "/api/icons/unreal-engine-svg.json"
+}

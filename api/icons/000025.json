@@ -1,0 +1,24 @@
+{
+  "name": "mastercard",
+  "color": "#EB001B",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/mastercard.svg",
+  "id": "000025",
+  "status": "active",
+  "legacyId": "mastercard-svg",
+  "legacyIds": [
+    "mastercard-svg"
+  ],
+  "filename": "mastercard.svg",
+  "url": "/assets/svg/mastercard.svg",
+  "apiUrl": "/api/icons/000025.json",
+  "legacyApiUrl": "/api/icons/mastercard-svg.json"
+}

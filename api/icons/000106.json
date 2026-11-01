@@ -1,0 +1,25 @@
+{
+  "name": "homebrew",
+  "color": "#fbb040",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/homebrew.svg",
+  "id": "000106",
+  "status": "active",
+  "legacyId": "homebrew-svg",
+  "legacyIds": [
+    "homebrew-svg"
+  ],
+  "filename": "homebrew.svg",
+  "url": "/assets/svg/homebrew.svg",
+  "apiUrl": "/api/icons/000106.json",
+  "legacyApiUrl": "/api/icons/homebrew-svg.json"
+}

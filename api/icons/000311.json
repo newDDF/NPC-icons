@@ -1,0 +1,24 @@
+{
+  "name": "McDonalds",
+  "color": "#d52b1e",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Food & Beverage"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/McDonalds.svg",
+  "id": "000311",
+  "status": "active",
+  "legacyId": "mcdonalds-svg",
+  "legacyIds": [
+    "mcdonalds-svg"
+  ],
+  "filename": "McDonalds.svg",
+  "url": "/assets/svg/McDonalds.svg",
+  "apiUrl": "/api/icons/000311.json",
+  "legacyApiUrl": "/api/icons/mcdonalds-svg.json"
+}

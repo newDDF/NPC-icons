@@ -1,0 +1,24 @@
+{
+  "name": "grok",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "AI"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/grok.svg",
+  "id": "000101",
+  "status": "active",
+  "legacyId": "grok-svg",
+  "legacyIds": [
+    "grok-svg"
+  ],
+  "filename": "grok.svg",
+  "url": "/assets/svg/grok.svg",
+  "apiUrl": "/api/icons/000101.json",
+  "legacyApiUrl": "/api/icons/grok-svg.json"
+}

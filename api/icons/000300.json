@@ -1,0 +1,24 @@
+{
+  "name": "hellokitty",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/hellokitty.svg",
+  "id": "000300",
+  "status": "active",
+  "legacyId": "hellokitty-svg",
+  "legacyIds": [
+    "hellokitty-svg"
+  ],
+  "filename": "hellokitty.svg",
+  "url": "/assets/svg/hellokitty.svg",
+  "apiUrl": "/api/icons/000300.json",
+  "legacyApiUrl": "/api/icons/hellokitty-svg.json"
+}

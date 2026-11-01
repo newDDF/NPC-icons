@@ -1,0 +1,24 @@
+{
+  "name": "BandaiNamco",
+  "color": "#ed6d00",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/BandaiNamco.svg",
+  "id": "000276",
+  "status": "active",
+  "legacyId": "bandainamco-svg",
+  "legacyIds": [
+    "bandainamco-svg"
+  ],
+  "filename": "BandaiNamco.svg",
+  "url": "/assets/svg/BandaiNamco.svg",
+  "apiUrl": "/api/icons/000276.json",
+  "legacyApiUrl": "/api/icons/bandainamco-svg.json"
+}

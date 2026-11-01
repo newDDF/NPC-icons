@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/ASML.svg",
   "id": "asml-svg",
+  "status": "active",
+  "legacyId": "asml-svg",
+  "legacyIds": [
+    "asml-svg"
+  ],
   "filename": "ASML.svg",
   "url": "/assets/svg/ASML.svg",
-  "apiUrl": "/api/icons/asml-svg.json"
+  "apiUrl": "/api/icons/asml-svg.json",
+  "legacyApiUrl": "/api/icons/asml-svg.json",
+  "permanentId": "000273",
+  "permanentApiUrl": "/api/icons/000273.json"
 }

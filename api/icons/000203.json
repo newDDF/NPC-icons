@@ -1,0 +1,24 @@
+{
+  "name": "plex-alt",
+  "color": "#ebaf00",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/plex-alt.svg",
+  "id": "000203",
+  "status": "active",
+  "legacyId": "plex-alt-svg",
+  "legacyIds": [
+    "plex-alt-svg"
+  ],
+  "filename": "plex-alt.svg",
+  "url": "/assets/svg/plex-alt.svg",
+  "apiUrl": "/api/icons/000203.json",
+  "legacyApiUrl": "/api/icons/plex-alt-svg.json"
+}

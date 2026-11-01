@@ -7,9 +7,20 @@
   "category": [
     "Design"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/blender.svg",
   "id": "blender-svg",
+  "status": "active",
+  "legacyId": "blender-svg",
+  "legacyIds": [
+    "blender-svg"
+  ],
   "filename": "blender.svg",
   "url": "/assets/svg/blender.svg",
-  "apiUrl": "/api/icons/blender-svg.json"
+  "apiUrl": "/api/icons/blender-svg.json",
+  "legacyApiUrl": "/api/icons/blender-svg.json",
+  "permanentId": "000055",
+  "permanentApiUrl": "/api/icons/000055.json"
 }

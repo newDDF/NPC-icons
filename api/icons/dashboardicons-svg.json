@@ -7,9 +7,20 @@
   "category": [
     "Technology"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/dashboardicons.svg",
   "id": "dashboardicons-svg",
+  "status": "active",
+  "legacyId": "dashboardicons-svg",
+  "legacyIds": [
+    "dashboardicons-svg"
+  ],
   "filename": "dashboardicons.svg",
   "url": "/assets/svg/dashboardicons.svg",
-  "apiUrl": "/api/icons/dashboardicons-svg.json"
+  "apiUrl": "/api/icons/dashboardicons-svg.json",
+  "legacyApiUrl": "/api/icons/dashboardicons-svg.json",
+  "permanentId": "000286",
+  "permanentApiUrl": "/api/icons/000286.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "skype",
+  "color": "#009bd9",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/skype.svg",
+  "id": "000235",
+  "status": "active",
+  "legacyId": "skype-svg",
+  "legacyIds": [
+    "skype-svg"
+  ],
+  "filename": "skype.svg",
+  "url": "/assets/svg/skype.svg",
+  "apiUrl": "/api/icons/000235.json",
+  "legacyApiUrl": "/api/icons/skype-svg.json"
+}

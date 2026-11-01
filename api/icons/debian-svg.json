@@ -7,9 +7,20 @@
   "category": [
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/debian.svg",
   "id": "debian-svg",
+  "status": "active",
+  "legacyId": "debian-svg",
+  "legacyIds": [
+    "debian-svg"
+  ],
   "filename": "debian.svg",
   "url": "/assets/svg/debian.svg",
-  "apiUrl": "/api/icons/debian-svg.json"
+  "apiUrl": "/api/icons/debian-svg.json",
+  "legacyApiUrl": "/api/icons/debian-svg.json",
+  "permanentId": "000288",
+  "permanentApiUrl": "/api/icons/000288.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/dvd.svg",
   "id": "dvd-svg",
+  "status": "active",
+  "legacyId": "dvd-svg",
+  "legacyIds": [
+    "dvd-svg"
+  ],
   "filename": "dvd.svg",
   "url": "/assets/svg/dvd.svg",
-  "apiUrl": "/api/icons/dvd-svg.json"
+  "apiUrl": "/api/icons/dvd-svg.json",
+  "legacyApiUrl": "/api/icons/dvd-svg.json",
+  "permanentId": "000086",
+  "permanentApiUrl": "/api/icons/000086.json"
 }

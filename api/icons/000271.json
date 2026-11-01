@@ -1,0 +1,24 @@
+{
+  "name": "amex",
+  "color": "#016fd0",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/amex.svg",
+  "id": "000271",
+  "status": "active",
+  "legacyId": "amex-svg",
+  "legacyIds": [
+    "amex-svg"
+  ],
+  "filename": "amex.svg",
+  "url": "/assets/svg/amex.svg",
+  "apiUrl": "/api/icons/000271.json",
+  "legacyApiUrl": "/api/icons/amex-svg.json"
+}

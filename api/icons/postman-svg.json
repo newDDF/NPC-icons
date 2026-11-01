@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/postman.svg",
   "id": "postman-svg",
+  "status": "active",
+  "legacyId": "postman-svg",
+  "legacyIds": [
+    "postman-svg"
+  ],
   "filename": "postman.svg",
   "url": "/assets/svg/postman.svg",
-  "apiUrl": "/api/icons/postman-svg.json"
+  "apiUrl": "/api/icons/postman-svg.json",
+  "legacyApiUrl": "/api/icons/postman-svg.json",
+  "permanentId": "000209",
+  "permanentApiUrl": "/api/icons/000209.json"
 }

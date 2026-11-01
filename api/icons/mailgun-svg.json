@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/mailgun.svg",
   "id": "mailgun-svg",
+  "status": "active",
+  "legacyId": "mailgun-svg",
+  "legacyIds": [
+    "mailgun-svg"
+  ],
   "filename": "mailgun.svg",
   "url": "/assets/svg/mailgun.svg",
-  "apiUrl": "/api/icons/mailgun-svg.json"
+  "apiUrl": "/api/icons/mailgun-svg.json",
+  "legacyApiUrl": "/api/icons/mailgun-svg.json",
+  "permanentId": "000136",
+  "permanentApiUrl": "/api/icons/000136.json"
 }

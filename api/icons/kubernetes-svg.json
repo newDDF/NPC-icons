@@ -8,9 +8,20 @@
     "Infrastructure",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/kubernetes.svg",
   "id": "kubernetes-svg",
+  "status": "active",
+  "legacyId": "kubernetes-svg",
+  "legacyIds": [
+    "kubernetes-svg"
+  ],
   "filename": "kubernetes.svg",
   "url": "/assets/svg/kubernetes.svg",
-  "apiUrl": "/api/icons/kubernetes-svg.json"
+  "apiUrl": "/api/icons/kubernetes-svg.json",
+  "legacyApiUrl": "/api/icons/kubernetes-svg.json",
+  "permanentId": "000129",
+  "permanentApiUrl": "/api/icons/000129.json"
 }

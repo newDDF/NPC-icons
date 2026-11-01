@@ -1,0 +1,24 @@
+{
+  "name": "wise",
+  "color": "#9FE870",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/wise.svg",
+  "id": "000038",
+  "status": "active",
+  "legacyId": "wise-svg",
+  "legacyIds": [
+    "wise-svg"
+  ],
+  "filename": "wise.svg",
+  "url": "/assets/svg/wise.svg",
+  "apiUrl": "/api/icons/000038.json",
+  "legacyApiUrl": "/api/icons/wise-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "Other"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Fila.svg",
   "id": "fila-svg",
+  "status": "active",
+  "legacyId": "fila-svg",
+  "legacyIds": [
+    "fila-svg"
+  ],
   "filename": "Fila.svg",
   "url": "/assets/svg/Fila.svg",
-  "apiUrl": "/api/icons/fila-svg.json"
+  "apiUrl": "/api/icons/fila-svg.json",
+  "legacyApiUrl": "/api/icons/fila-svg.json",
+  "permanentId": "000295",
+  "permanentApiUrl": "/api/icons/000295.json"
 }

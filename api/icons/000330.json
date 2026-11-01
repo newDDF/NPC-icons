@@ -1,0 +1,24 @@
+{
+  "name": "Siemens",
+  "color": "#009999",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/Siemens.svg",
+  "id": "000330",
+  "status": "active",
+  "legacyId": "siemens-svg",
+  "legacyIds": [
+    "siemens-svg"
+  ],
+  "filename": "Siemens.svg",
+  "url": "/assets/svg/Siemens.svg",
+  "apiUrl": "/api/icons/000330.json",
+  "legacyApiUrl": "/api/icons/siemens-svg.json"
+}

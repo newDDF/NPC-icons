@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/hellokitty.svg",
   "id": "hellokitty-svg",
+  "status": "active",
+  "legacyId": "hellokitty-svg",
+  "legacyIds": [
+    "hellokitty-svg"
+  ],
   "filename": "hellokitty.svg",
   "url": "/assets/svg/hellokitty.svg",
-  "apiUrl": "/api/icons/hellokitty-svg.json"
+  "apiUrl": "/api/icons/hellokitty-svg.json",
+  "legacyApiUrl": "/api/icons/hellokitty-svg.json",
+  "permanentId": "000300",
+  "permanentApiUrl": "/api/icons/000300.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "netflix",
+  "color": "#e50914",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/netflix.svg",
+  "id": "000155",
+  "status": "active",
+  "legacyId": "netflix-svg",
+  "legacyIds": [
+    "netflix-svg"
+  ],
+  "filename": "netflix.svg",
+  "url": "/assets/svg/netflix.svg",
+  "apiUrl": "/api/icons/000155.json",
+  "legacyApiUrl": "/api/icons/netflix-svg.json"
+}

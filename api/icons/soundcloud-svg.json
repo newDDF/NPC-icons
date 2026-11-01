@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/soundcloud.svg",
   "id": "soundcloud-svg",
+  "status": "active",
+  "legacyId": "soundcloud-svg",
+  "legacyIds": [
+    "soundcloud-svg"
+  ],
   "filename": "soundcloud.svg",
   "url": "/assets/svg/soundcloud.svg",
-  "apiUrl": "/api/icons/soundcloud-svg.json"
+  "apiUrl": "/api/icons/soundcloud-svg.json",
+  "legacyApiUrl": "/api/icons/soundcloud-svg.json",
+  "permanentId": "000027",
+  "permanentApiUrl": "/api/icons/000027.json"
 }

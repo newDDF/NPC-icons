@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/php.svg",
   "id": "php-svg",
+  "status": "active",
+  "legacyId": "php-svg",
+  "legacyIds": [
+    "php-svg"
+  ],
   "filename": "php.svg",
   "url": "/assets/svg/php.svg",
-  "apiUrl": "/api/icons/php-svg.json"
+  "apiUrl": "/api/icons/php-svg.json",
+  "legacyApiUrl": "/api/icons/php-svg.json",
+  "permanentId": "000195",
+  "permanentApiUrl": "/api/icons/000195.json"
 }

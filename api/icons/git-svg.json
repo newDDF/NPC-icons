@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/git.svg",
   "id": "git-svg",
+  "status": "active",
+  "legacyId": "git-svg",
+  "legacyIds": [
+    "git-svg"
+  ],
   "filename": "git.svg",
   "url": "/assets/svg/git.svg",
-  "apiUrl": "/api/icons/git-svg.json"
+  "apiUrl": "/api/icons/git-svg.json",
+  "legacyApiUrl": "/api/icons/git-svg.json",
+  "permanentId": "000007",
+  "permanentApiUrl": "/api/icons/000007.json"
 }

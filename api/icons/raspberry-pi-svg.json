@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/raspberry-pi.svg",
   "id": "raspberry-pi-svg",
+  "status": "active",
+  "legacyId": "raspberry-pi-svg",
+  "legacyIds": [
+    "raspberry-pi-svg"
+  ],
   "filename": "raspberry-pi.svg",
   "url": "/assets/svg/raspberry-pi.svg",
-  "apiUrl": "/api/icons/raspberry-pi-svg.json"
+  "apiUrl": "/api/icons/raspberry-pi-svg.json",
+  "legacyApiUrl": "/api/icons/raspberry-pi-svg.json",
+  "permanentId": "000219",
+  "permanentApiUrl": "/api/icons/000219.json"
 }

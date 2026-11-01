@@ -1,0 +1,24 @@
+{
+  "name": "Hanghai-IR",
+  "color": "none",
+  "format": "png",
+  "source": "",
+  "info": "NPC-icons library bitmapped graphic asset.",
+  "category": [
+    "Education"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/png/Hanghai-IR.png",
+  "id": "000011",
+  "status": "active",
+  "legacyId": "hanghai-ir-png",
+  "legacyIds": [
+    "hanghai-ir-png"
+  ],
+  "filename": "Hanghai-IR.png",
+  "url": "/assets/png/Hanghai-IR.png",
+  "apiUrl": "/api/icons/000011.json",
+  "legacyApiUrl": "/api/icons/hanghai-ir-png.json"
+}

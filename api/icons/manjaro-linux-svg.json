@@ -7,9 +7,20 @@
   "category": [
     "Operating Systems"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/manjaro-linux.svg",
   "id": "manjaro-linux-svg",
+  "status": "active",
+  "legacyId": "manjaro-linux-svg",
+  "legacyIds": [
+    "manjaro-linux-svg"
+  ],
   "filename": "manjaro-linux.svg",
   "url": "/assets/svg/manjaro-linux.svg",
-  "apiUrl": "/api/icons/manjaro-linux-svg.json"
+  "apiUrl": "/api/icons/manjaro-linux-svg.json",
+  "legacyApiUrl": "/api/icons/manjaro-linux-svg.json",
+  "permanentId": "000138",
+  "permanentApiUrl": "/api/icons/000138.json"
 }

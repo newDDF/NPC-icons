@@ -1,0 +1,24 @@
+{
+  "name": "reactjs",
+  "color": "#61dafb",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/reactjs.svg",
+  "id": "000221",
+  "status": "active",
+  "legacyId": "reactjs-svg",
+  "legacyIds": [
+    "reactjs-svg"
+  ],
+  "filename": "reactjs.svg",
+  "url": "/assets/svg/reactjs.svg",
+  "apiUrl": "/api/icons/000221.json",
+  "legacyApiUrl": "/api/icons/reactjs-svg.json"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "capsule",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/capsule.svg",
+  "id": "000030",
+  "status": "active",
+  "legacyId": "capsule-svg",
+  "legacyIds": [
+    "capsule-svg"
+  ],
+  "filename": "capsule.svg",
+  "url": "/assets/svg/capsule.svg",
+  "apiUrl": "/api/icons/000030.json",
+  "legacyApiUrl": "/api/icons/capsule-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "Other"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/mantrae-dark.svg",
   "id": "mantrae-dark-svg",
+  "status": "active",
+  "legacyId": "mantrae-dark-svg",
+  "legacyIds": [
+    "mantrae-dark-svg"
+  ],
   "filename": "mantrae-dark.svg",
   "url": "/assets/svg/mantrae-dark.svg",
-  "apiUrl": "/api/icons/mantrae-dark-svg.json"
+  "apiUrl": "/api/icons/mantrae-dark-svg.json",
+  "legacyApiUrl": "/api/icons/mantrae-dark-svg.json",
+  "permanentId": "000139",
+  "permanentApiUrl": "/api/icons/000139.json"
 }

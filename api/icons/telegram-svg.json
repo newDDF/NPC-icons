@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/telegram.svg",
   "id": "telegram-svg",
+  "status": "active",
+  "legacyId": "telegram-svg",
+  "legacyIds": [
+    "telegram-svg"
+  ],
   "filename": "telegram.svg",
   "url": "/assets/svg/telegram.svg",
-  "apiUrl": "/api/icons/telegram-svg.json"
+  "apiUrl": "/api/icons/telegram-svg.json",
+  "legacyApiUrl": "/api/icons/telegram-svg.json",
+  "permanentId": "000021",
+  "permanentApiUrl": "/api/icons/000021.json"
 }

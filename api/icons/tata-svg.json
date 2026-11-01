@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/tata.svg",
   "id": "tata-svg",
+  "status": "active",
+  "legacyId": "tata-svg",
+  "legacyIds": [
+    "tata-svg"
+  ],
   "filename": "tata.svg",
   "url": "/assets/svg/tata.svg",
-  "apiUrl": "/api/icons/tata-svg.json"
+  "apiUrl": "/api/icons/tata-svg.json",
+  "legacyApiUrl": "/api/icons/tata-svg.json",
+  "permanentId": "000336",
+  "permanentApiUrl": "/api/icons/000336.json"
 }

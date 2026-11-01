@@ -7,9 +7,20 @@
   "category": [
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/wikimedia.svg",
   "id": "wikimedia-svg",
+  "status": "active",
+  "legacyId": "wikimedia-svg",
+  "legacyIds": [
+    "wikimedia-svg"
+  ],
   "filename": "wikimedia.svg",
   "url": "/assets/svg/wikimedia.svg",
-  "apiUrl": "/api/icons/wikimedia-svg.json"
+  "apiUrl": "/api/icons/wikimedia-svg.json",
+  "legacyApiUrl": "/api/icons/wikimedia-svg.json",
+  "permanentId": "000349",
+  "permanentApiUrl": "/api/icons/000349.json"
 }

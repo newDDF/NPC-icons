@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/dotnet.svg",
   "id": "dotnet-svg",
+  "status": "active",
+  "legacyId": "dotnet-svg",
+  "legacyIds": [
+    "dotnet-svg"
+  ],
   "filename": "dotnet.svg",
   "url": "/assets/svg/dotnet.svg",
-  "apiUrl": "/api/icons/dotnet-svg.json"
+  "apiUrl": "/api/icons/dotnet-svg.json",
+  "legacyApiUrl": "/api/icons/dotnet-svg.json",
+  "permanentId": "000081",
+  "permanentApiUrl": "/api/icons/000081.json"
 }

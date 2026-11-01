@@ -7,9 +7,20 @@
   "category": [
     "Social"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/instagram.svg",
   "id": "instagram-svg",
+  "status": "active",
+  "legacyId": "instagram-svg",
+  "legacyIds": [
+    "instagram-svg"
+  ],
   "filename": "instagram.svg",
   "url": "/assets/svg/instagram.svg",
-  "apiUrl": "/api/icons/instagram-svg.json"
+  "apiUrl": "/api/icons/instagram-svg.json",
+  "legacyApiUrl": "/api/icons/instagram-svg.json",
+  "permanentId": "000022",
+  "permanentApiUrl": "/api/icons/000022.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "amazon-prime",
+  "color": "#00a8e1",
+  "format": "svg",
+  "source": "https://www.amazon.com/prime",
+  "info": "Amazon Prime is a subscription service offering eligible members shipping benefits, streaming entertainment, exclusive deals, and additional digital services across Amazon's international retail ecosystem.",
+  "category": [
+    "E-commerce"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/amazon-prime.svg",
+  "id": "000045",
+  "status": "active",
+  "legacyId": "amazon-prime-svg",
+  "legacyIds": [
+    "amazon-prime-svg"
+  ],
+  "filename": "amazon-prime.svg",
+  "url": "/assets/svg/amazon-prime.svg",
+  "apiUrl": "/api/icons/000045.json",
+  "legacyApiUrl": "/api/icons/amazon-prime-svg.json"
+}

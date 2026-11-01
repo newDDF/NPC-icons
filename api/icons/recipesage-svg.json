@@ -7,9 +7,20 @@
   "category": [
     "Food & Beverage"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/recipesage.svg",
   "id": "recipesage-svg",
+  "status": "active",
+  "legacyId": "recipesage-svg",
+  "legacyIds": [
+    "recipesage-svg"
+  ],
   "filename": "recipesage.svg",
   "url": "/assets/svg/recipesage.svg",
-  "apiUrl": "/api/icons/recipesage-svg.json"
+  "apiUrl": "/api/icons/recipesage-svg.json",
+  "legacyApiUrl": "/api/icons/recipesage-svg.json",
+  "permanentId": "000222",
+  "permanentApiUrl": "/api/icons/000222.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "frp-manager",
+  "color": "#4ade80",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/frp-manager.svg",
+  "id": "000097",
+  "status": "active",
+  "legacyId": "frp-manager-svg",
+  "legacyIds": [
+    "frp-manager-svg"
+  ],
+  "filename": "frp-manager.svg",
+  "url": "/assets/svg/frp-manager.svg",
+  "apiUrl": "/api/icons/000097.json",
+  "legacyApiUrl": "/api/icons/frp-manager-svg.json"
+}

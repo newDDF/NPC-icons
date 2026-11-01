@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/FCCsymbol.svg",
   "id": "fccsymbol-svg",
+  "status": "active",
+  "legacyId": "fccsymbol-svg",
+  "legacyIds": [
+    "fccsymbol-svg"
+  ],
   "filename": "FCCsymbol.svg",
   "url": "/assets/svg/FCCsymbol.svg",
-  "apiUrl": "/api/icons/fccsymbol-svg.json"
+  "apiUrl": "/api/icons/fccsymbol-svg.json",
+  "legacyApiUrl": "/api/icons/fccsymbol-svg.json",
+  "permanentId": "000293",
+  "permanentApiUrl": "/api/icons/000293.json"
 }

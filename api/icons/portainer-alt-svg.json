@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/portainer-alt.svg",
   "id": "portainer-alt-svg",
+  "status": "active",
+  "legacyId": "portainer-alt-svg",
+  "legacyIds": [
+    "portainer-alt-svg"
+  ],
   "filename": "portainer-alt.svg",
   "url": "/assets/svg/portainer-alt.svg",
-  "apiUrl": "/api/icons/portainer-alt-svg.json"
+  "apiUrl": "/api/icons/portainer-alt-svg.json",
+  "legacyApiUrl": "/api/icons/portainer-alt-svg.json",
+  "permanentId": "000208",
+  "permanentApiUrl": "/api/icons/000208.json"
 }

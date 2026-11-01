@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/proxmox.svg",
   "id": "proxmox-svg",
+  "status": "active",
+  "legacyId": "proxmox-svg",
+  "legacyIds": [
+    "proxmox-svg"
+  ],
   "filename": "proxmox.svg",
   "url": "/assets/svg/proxmox.svg",
-  "apiUrl": "/api/icons/proxmox-svg.json"
+  "apiUrl": "/api/icons/proxmox-svg.json",
+  "legacyApiUrl": "/api/icons/proxmox-svg.json",
+  "permanentId": "000214",
+  "permanentApiUrl": "/api/icons/000214.json"
 }

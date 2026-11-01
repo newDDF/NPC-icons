@@ -8,9 +8,20 @@
     "Infrastructure",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/nginx.svg",
   "id": "nginx-svg",
+  "status": "active",
+  "legacyId": "nginx-svg",
+  "legacyIds": [
+    "nginx-svg"
+  ],
   "filename": "nginx.svg",
   "url": "/assets/svg/nginx.svg",
-  "apiUrl": "/api/icons/nginx-svg.json"
+  "apiUrl": "/api/icons/nginx-svg.json",
+  "legacyApiUrl": "/api/icons/nginx-svg.json",
+  "permanentId": "000156",
+  "permanentApiUrl": "/api/icons/000156.json"
 }

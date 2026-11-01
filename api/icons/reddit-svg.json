@@ -7,9 +7,20 @@
   "category": [
     "Social"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/reddit.svg",
   "id": "reddit-svg",
+  "status": "active",
+  "legacyId": "reddit-svg",
+  "legacyIds": [
+    "reddit-svg"
+  ],
   "filename": "reddit.svg",
   "url": "/assets/svg/reddit.svg",
-  "apiUrl": "/api/icons/reddit-svg.json"
+  "apiUrl": "/api/icons/reddit-svg.json",
+  "legacyApiUrl": "/api/icons/reddit-svg.json",
+  "permanentId": "000029",
+  "permanentApiUrl": "/api/icons/000029.json"
 }

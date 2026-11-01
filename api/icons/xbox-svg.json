@@ -7,9 +7,20 @@
   "category": [
     "Gaming"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/xbox.svg",
   "id": "xbox-svg",
+  "status": "active",
+  "legacyId": "xbox-svg",
+  "legacyIds": [
+    "xbox-svg"
+  ],
   "filename": "xbox.svg",
   "url": "/assets/svg/xbox.svg",
-  "apiUrl": "/api/icons/xbox-svg.json"
+  "apiUrl": "/api/icons/xbox-svg.json",
+  "legacyApiUrl": "/api/icons/xbox-svg.json",
+  "permanentId": "000263",
+  "permanentApiUrl": "/api/icons/000263.json"
 }

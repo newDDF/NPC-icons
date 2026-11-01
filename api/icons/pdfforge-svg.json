@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/pdfforge.svg",
   "id": "pdfforge-svg",
+  "status": "active",
+  "legacyId": "pdfforge-svg",
+  "legacyIds": [
+    "pdfforge-svg"
+  ],
   "filename": "pdfforge.svg",
   "url": "/assets/svg/pdfforge.svg",
-  "apiUrl": "/api/icons/pdfforge-svg.json"
+  "apiUrl": "/api/icons/pdfforge-svg.json",
+  "legacyApiUrl": "/api/icons/pdfforge-svg.json",
+  "permanentId": "000190",
+  "permanentApiUrl": "/api/icons/000190.json"
 }

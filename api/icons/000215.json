@@ -1,0 +1,24 @@
+{
+  "name": "puppy-linux",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/puppy-linux.svg",
+  "id": "000215",
+  "status": "active",
+  "legacyId": "puppy-linux-svg",
+  "legacyIds": [
+    "puppy-linux-svg"
+  ],
+  "filename": "puppy-linux.svg",
+  "url": "/assets/svg/puppy-linux.svg",
+  "apiUrl": "/api/icons/000215.json",
+  "legacyApiUrl": "/api/icons/puppy-linux-svg.json"
+}

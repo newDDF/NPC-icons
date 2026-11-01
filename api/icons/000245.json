@@ -1,0 +1,24 @@
+{
+  "name": "traefik",
+  "color": "#24a1c1",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/traefik.svg",
+  "id": "000245",
+  "status": "active",
+  "legacyId": "traefik-svg",
+  "legacyIds": [
+    "traefik-svg"
+  ],
+  "filename": "traefik.svg",
+  "url": "/assets/svg/traefik.svg",
+  "apiUrl": "/api/icons/000245.json",
+  "legacyApiUrl": "/api/icons/traefik-svg.json"
+}

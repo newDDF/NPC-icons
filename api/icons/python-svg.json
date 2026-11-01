@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/python.svg",
   "id": "python-svg",
+  "status": "active",
+  "legacyId": "python-svg",
+  "legacyIds": [
+    "python-svg"
+  ],
   "filename": "python.svg",
   "url": "/assets/svg/python.svg",
-  "apiUrl": "/api/icons/python-svg.json"
+  "apiUrl": "/api/icons/python-svg.json",
+  "legacyApiUrl": "/api/icons/python-svg.json",
+  "permanentId": "000216",
+  "permanentApiUrl": "/api/icons/000216.json"
 }

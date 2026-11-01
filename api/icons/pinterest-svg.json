@@ -7,9 +7,20 @@
   "category": [
     "Social"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/pinterest.svg",
   "id": "pinterest-svg",
+  "status": "active",
+  "legacyId": "pinterest-svg",
+  "legacyIds": [
+    "pinterest-svg"
+  ],
   "filename": "pinterest.svg",
   "url": "/assets/svg/pinterest.svg",
-  "apiUrl": "/api/icons/pinterest-svg.json"
+  "apiUrl": "/api/icons/pinterest-svg.json",
+  "legacyApiUrl": "/api/icons/pinterest-svg.json",
+  "permanentId": "000019",
+  "permanentApiUrl": "/api/icons/000019.json"
 }

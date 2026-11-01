@@ -1,0 +1,24 @@
+{
+  "name": "generalelectric",
+  "color": "#0870d8",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/generalelectric.svg",
+  "id": "000297",
+  "status": "active",
+  "legacyId": "generalelectric-svg",
+  "legacyIds": [
+    "generalelectric-svg"
+  ],
+  "filename": "generalelectric.svg",
+  "url": "/assets/svg/generalelectric.svg",
+  "apiUrl": "/api/icons/000297.json",
+  "legacyApiUrl": "/api/icons/generalelectric-svg.json"
+}

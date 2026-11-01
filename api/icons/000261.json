@@ -1,0 +1,24 @@
+{
+  "name": "wordpress",
+  "color": "#0073aa",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/wordpress.svg",
+  "id": "000261",
+  "status": "active",
+  "legacyId": "wordpress-svg",
+  "legacyIds": [
+    "wordpress-svg"
+  ],
+  "filename": "wordpress.svg",
+  "url": "/assets/svg/wordpress.svg",
+  "apiUrl": "/api/icons/000261.json",
+  "legacyApiUrl": "/api/icons/wordpress-svg.json"
+}

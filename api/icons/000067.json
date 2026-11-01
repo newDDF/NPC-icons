@@ -1,0 +1,24 @@
+{
+  "name": "cc",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Technology"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/cc.svg",
+  "id": "000067",
+  "status": "active",
+  "legacyId": "cc-svg",
+  "legacyIds": [
+    "cc-svg"
+  ],
+  "filename": "cc.svg",
+  "url": "/assets/svg/cc.svg",
+  "apiUrl": "/api/icons/000067.json",
+  "legacyApiUrl": "/api/icons/cc-svg.json"
+}

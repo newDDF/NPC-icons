@@ -1,0 +1,24 @@
+{
+  "name": "mariadb",
+  "color": "#c49a6c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/mariadb.svg",
+  "id": "000140",
+  "status": "active",
+  "legacyId": "mariadb-svg",
+  "legacyIds": [
+    "mariadb-svg"
+  ],
+  "filename": "mariadb.svg",
+  "url": "/assets/svg/mariadb.svg",
+  "apiUrl": "/api/icons/000140.json",
+  "legacyApiUrl": "/api/icons/mariadb-svg.json"
+}

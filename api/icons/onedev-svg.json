@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/onedev.svg",
   "id": "onedev-svg",
+  "status": "active",
+  "legacyId": "onedev-svg",
+  "legacyIds": [
+    "onedev-svg"
+  ],
   "filename": "onedev.svg",
   "url": "/assets/svg/onedev.svg",
-  "apiUrl": "/api/icons/onedev-svg.json"
+  "apiUrl": "/api/icons/onedev-svg.json",
+  "legacyApiUrl": "/api/icons/onedev-svg.json",
+  "permanentId": "000172",
+  "permanentApiUrl": "/api/icons/000172.json"
 }

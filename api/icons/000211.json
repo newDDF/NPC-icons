@@ -1,0 +1,24 @@
+{
+  "name": "powershell",
+  "color": "#146fbf",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/powershell.svg",
+  "id": "000211",
+  "status": "active",
+  "legacyId": "powershell-svg",
+  "legacyIds": [
+    "powershell-svg"
+  ],
+  "filename": "powershell.svg",
+  "url": "/assets/svg/powershell.svg",
+  "apiUrl": "/api/icons/000211.json",
+  "legacyApiUrl": "/api/icons/powershell-svg.json"
+}

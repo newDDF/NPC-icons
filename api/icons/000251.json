@@ -1,0 +1,25 @@
+{
+  "name": "ubuntu-linux",
+  "color": "#ea4f06",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/ubuntu-linux.svg",
+  "id": "000251",
+  "status": "active",
+  "legacyId": "ubuntu-linux-svg",
+  "legacyIds": [
+    "ubuntu-linux-svg"
+  ],
+  "filename": "ubuntu-linux.svg",
+  "url": "/assets/svg/ubuntu-linux.svg",
+  "apiUrl": "/api/icons/000251.json",
+  "legacyApiUrl": "/api/icons/ubuntu-linux-svg.json"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "wikimedia",
+  "color": "#339966",
+  "format": "svg",
+  "source": "https://commons.wikimedia.org/",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/wikimedia.svg",
+  "id": "000349",
+  "status": "active",
+  "legacyId": "wikimedia-svg",
+  "legacyIds": [
+    "wikimedia-svg"
+  ],
+  "filename": "wikimedia.svg",
+  "url": "/assets/svg/wikimedia.svg",
+  "apiUrl": "/api/icons/000349.json",
+  "legacyApiUrl": "/api/icons/wikimedia-svg.json"
+}

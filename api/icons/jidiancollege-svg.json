@@ -7,9 +7,20 @@
   "category": [
     "Education"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/JIDIANCOLLEGE.svg",
   "id": "jidiancollege-svg",
+  "status": "active",
+  "legacyId": "jidiancollege-svg",
+  "legacyIds": [
+    "jidiancollege-svg"
+  ],
   "filename": "JIDIANCOLLEGE.svg",
   "url": "/assets/svg/JIDIANCOLLEGE.svg",
-  "apiUrl": "/api/icons/jidiancollege-svg.json"
+  "apiUrl": "/api/icons/jidiancollege-svg.json",
+  "legacyApiUrl": "/api/icons/jidiancollege-svg.json",
+  "permanentId": "000016",
+  "permanentApiUrl": "/api/icons/000016.json"
 }

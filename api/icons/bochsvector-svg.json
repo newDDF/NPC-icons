@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/BochsVector.svg",
   "id": "bochsvector-svg",
+  "status": "active",
+  "legacyId": "bochsvector-svg",
+  "legacyIds": [
+    "bochsvector-svg"
+  ],
   "filename": "BochsVector.svg",
   "url": "/assets/svg/BochsVector.svg",
-  "apiUrl": "/api/icons/bochsvector-svg.json"
+  "apiUrl": "/api/icons/bochsvector-svg.json",
+  "legacyApiUrl": "/api/icons/bochsvector-svg.json",
+  "permanentId": "000279",
+  "permanentApiUrl": "/api/icons/000279.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "portabase",
+  "color": "#ff6600",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/portabase.svg",
+  "id": "000207",
+  "status": "active",
+  "legacyId": "portabase-svg",
+  "legacyIds": [
+    "portabase-svg"
+  ],
+  "filename": "portabase.svg",
+  "url": "/assets/svg/portabase.svg",
+  "apiUrl": "/api/icons/000207.json",
+  "legacyApiUrl": "/api/icons/portabase-svg.json"
+}

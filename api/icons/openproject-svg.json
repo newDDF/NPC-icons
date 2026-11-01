@@ -8,9 +8,20 @@
     "Infrastructure",
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/openproject.svg",
   "id": "openproject-svg",
+  "status": "active",
+  "legacyId": "openproject-svg",
+  "legacyIds": [
+    "openproject-svg"
+  ],
   "filename": "openproject.svg",
   "url": "/assets/svg/openproject.svg",
-  "apiUrl": "/api/icons/openproject-svg.json"
+  "apiUrl": "/api/icons/openproject-svg.json",
+  "legacyApiUrl": "/api/icons/openproject-svg.json",
+  "permanentId": "000179",
+  "permanentApiUrl": "/api/icons/000179.json"
 }

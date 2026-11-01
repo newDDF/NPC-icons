@@ -7,9 +7,20 @@
   "category": [
     "Cloud"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/cpanel.svg",
   "id": "cpanel-svg",
+  "status": "active",
+  "legacyId": "cpanel-svg",
+  "legacyIds": [
+    "cpanel-svg"
+  ],
   "filename": "cpanel.svg",
   "url": "/assets/svg/cpanel.svg",
-  "apiUrl": "/api/icons/cpanel-svg.json"
+  "apiUrl": "/api/icons/cpanel-svg.json",
+  "legacyApiUrl": "/api/icons/cpanel-svg.json",
+  "permanentId": "000073",
+  "permanentApiUrl": "/api/icons/000073.json"
 }

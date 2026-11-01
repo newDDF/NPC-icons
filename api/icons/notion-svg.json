@@ -7,9 +7,20 @@
   "category": [
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/notion.svg",
   "id": "notion-svg",
+  "status": "active",
+  "legacyId": "notion-svg",
+  "legacyIds": [
+    "notion-svg"
+  ],
   "filename": "notion.svg",
   "url": "/assets/svg/notion.svg",
-  "apiUrl": "/api/icons/notion-svg.json"
+  "apiUrl": "/api/icons/notion-svg.json",
+  "legacyApiUrl": "/api/icons/notion-svg.json",
+  "permanentId": "000163",
+  "permanentApiUrl": "/api/icons/000163.json"
 }

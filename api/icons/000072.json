@@ -1,0 +1,24 @@
+{
+  "name": "couchdb",
+  "color": "#e42528",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/couchdb.svg",
+  "id": "000072",
+  "status": "active",
+  "legacyId": "couchdb-svg",
+  "legacyIds": [
+    "couchdb-svg"
+  ],
+  "filename": "couchdb.svg",
+  "url": "/assets/svg/couchdb.svg",
+  "apiUrl": "/api/icons/000072.json",
+  "legacyApiUrl": "/api/icons/couchdb-svg.json"
+}

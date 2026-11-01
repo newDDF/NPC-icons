@@ -1,0 +1,24 @@
+{
+  "name": "arm",
+  "color": "#0091bd",
+  "format": "svg",
+  "source": "https://www.arm.com/",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/arm.svg",
+  "id": "000049",
+  "status": "active",
+  "legacyId": "arm-svg",
+  "legacyIds": [
+    "arm-svg"
+  ],
+  "filename": "arm.svg",
+  "url": "/assets/svg/arm.svg",
+  "apiUrl": "/api/icons/000049.json",
+  "legacyApiUrl": "/api/icons/arm-svg.json"
+}

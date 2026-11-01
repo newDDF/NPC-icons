@@ -7,9 +7,20 @@
   "category": [
     "Gaming"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/pioneer.svg",
   "id": "pioneer-svg",
+  "status": "active",
+  "legacyId": "pioneer-svg",
+  "legacyIds": [
+    "pioneer-svg"
+  ],
   "filename": "pioneer.svg",
   "url": "/assets/svg/pioneer.svg",
-  "apiUrl": "/api/icons/pioneer-svg.json"
+  "apiUrl": "/api/icons/pioneer-svg.json",
+  "legacyApiUrl": "/api/icons/pioneer-svg.json",
+  "permanentId": "000200",
+  "permanentApiUrl": "/api/icons/000200.json"
 }

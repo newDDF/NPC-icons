@@ -1,0 +1,24 @@
+{
+  "name": "open-source-initiative",
+  "color": "#3da638",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/open-source-initiative.svg",
+  "id": "000174",
+  "status": "active",
+  "legacyId": "open-source-initiative-svg",
+  "legacyIds": [
+    "open-source-initiative-svg"
+  ],
+  "filename": "open-source-initiative.svg",
+  "url": "/assets/svg/open-source-initiative.svg",
+  "apiUrl": "/api/icons/000174.json",
+  "legacyApiUrl": "/api/icons/open-source-initiative-svg.json"
+}

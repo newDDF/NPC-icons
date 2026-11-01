@@ -7,9 +7,20 @@
   "category": [
     "Social"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/behance.svg",
   "id": "behance-svg",
+  "status": "active",
+  "legacyId": "behance-svg",
+  "legacyIds": [
+    "behance-svg"
+  ],
   "filename": "behance.svg",
   "url": "/assets/svg/behance.svg",
-  "apiUrl": "/api/icons/behance-svg.json"
+  "apiUrl": "/api/icons/behance-svg.json",
+  "legacyApiUrl": "/api/icons/behance-svg.json",
+  "permanentId": "000053",
+  "permanentApiUrl": "/api/icons/000053.json"
 }

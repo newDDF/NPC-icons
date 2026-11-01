@@ -1,0 +1,24 @@
+{
+  "name": "ULcertified1",
+  "color": "#ce1642",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/ULcertified1.svg",
+  "id": "000341",
+  "status": "active",
+  "legacyId": "ulcertified1-svg",
+  "legacyIds": [
+    "ulcertified1-svg"
+  ],
+  "filename": "ULcertified1.svg",
+  "url": "/assets/svg/ULcertified1.svg",
+  "apiUrl": "/api/icons/000341.json",
+  "legacyApiUrl": "/api/icons/ulcertified1-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "Operating Systems"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/xubuntu-linux.svg",
   "id": "xubuntu-linux-svg",
+  "status": "active",
+  "legacyId": "xubuntu-linux-svg",
+  "legacyIds": [
+    "xubuntu-linux-svg"
+  ],
   "filename": "xubuntu-linux.svg",
   "url": "/assets/svg/xubuntu-linux.svg",
-  "apiUrl": "/api/icons/xubuntu-linux-svg.json"
+  "apiUrl": "/api/icons/xubuntu-linux-svg.json",
+  "legacyApiUrl": "/api/icons/xubuntu-linux-svg.json",
+  "permanentId": "000264",
+  "permanentApiUrl": "/api/icons/000264.json"
 }

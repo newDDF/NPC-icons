@@ -7,9 +7,20 @@
   "category": [
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/formbricks.svg",
   "id": "formbricks-svg",
+  "status": "active",
+  "legacyId": "formbricks-svg",
+  "legacyIds": [
+    "formbricks-svg"
+  ],
   "filename": "formbricks.svg",
   "url": "/assets/svg/formbricks.svg",
-  "apiUrl": "/api/icons/formbricks-svg.json"
+  "apiUrl": "/api/icons/formbricks-svg.json",
+  "legacyApiUrl": "/api/icons/formbricks-svg.json",
+  "permanentId": "000094",
+  "permanentApiUrl": "/api/icons/000094.json"
 }

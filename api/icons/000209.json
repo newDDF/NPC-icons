@@ -1,0 +1,24 @@
+{
+  "name": "postman",
+  "color": "#ff6c37",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/postman.svg",
+  "id": "000209",
+  "status": "active",
+  "legacyId": "postman-svg",
+  "legacyIds": [
+    "postman-svg"
+  ],
+  "filename": "postman.svg",
+  "url": "/assets/svg/postman.svg",
+  "apiUrl": "/api/icons/000209.json",
+  "legacyApiUrl": "/api/icons/postman-svg.json"
+}

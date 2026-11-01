@@ -7,9 +7,20 @@
   "category": [
     "AI"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/ollama.svg",
   "id": "ollama-svg",
+  "status": "active",
+  "legacyId": "ollama-svg",
+  "legacyIds": [
+    "ollama-svg"
+  ],
   "filename": "ollama.svg",
   "url": "/assets/svg/ollama.svg",
-  "apiUrl": "/api/icons/ollama-svg.json"
+  "apiUrl": "/api/icons/ollama-svg.json",
+  "legacyApiUrl": "/api/icons/ollama-svg.json",
+  "permanentId": "000171",
+  "permanentApiUrl": "/api/icons/000171.json"
 }

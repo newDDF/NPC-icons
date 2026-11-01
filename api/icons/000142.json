@@ -1,0 +1,24 @@
+{
+  "name": "mcaffee",
+  "color": "#c01818",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/mcaffee.svg",
+  "id": "000142",
+  "status": "active",
+  "legacyId": "mcaffee-svg",
+  "legacyIds": [
+    "mcaffee-svg"
+  ],
+  "filename": "mcaffee.svg",
+  "url": "/assets/svg/mcaffee.svg",
+  "apiUrl": "/api/icons/000142.json",
+  "legacyApiUrl": "/api/icons/mcaffee-svg.json"
+}

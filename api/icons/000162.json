@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "color": "#8cc84b",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/nodejs.svg",
+  "id": "000162",
+  "status": "active",
+  "legacyId": "nodejs-svg",
+  "legacyIds": [
+    "nodejs-svg"
+  ],
+  "filename": "nodejs.svg",
+  "url": "/assets/svg/nodejs.svg",
+  "apiUrl": "/api/icons/000162.json",
+  "legacyApiUrl": "/api/icons/nodejs-svg.json"
+}

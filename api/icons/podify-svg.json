@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/podify.svg",
   "id": "podify-svg",
+  "status": "active",
+  "legacyId": "podify-svg",
+  "legacyIds": [
+    "podify-svg"
+  ],
   "filename": "podify.svg",
   "url": "/assets/svg/podify.svg",
-  "apiUrl": "/api/icons/podify-svg.json"
+  "apiUrl": "/api/icons/podify-svg.json",
+  "legacyApiUrl": "/api/icons/podify-svg.json",
+  "permanentId": "000206",
+  "permanentApiUrl": "/api/icons/000206.json"
 }

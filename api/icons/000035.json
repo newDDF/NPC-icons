@@ -1,0 +1,25 @@
+{
+  "name": "amazon",
+  "color": "#FA6306",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud",
+    "E-commerce"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/amazon.svg",
+  "id": "000035",
+  "status": "active",
+  "legacyId": "amazon-svg",
+  "legacyIds": [
+    "amazon-svg"
+  ],
+  "filename": "amazon.svg",
+  "url": "/assets/svg/amazon.svg",
+  "apiUrl": "/api/icons/000035.json",
+  "legacyApiUrl": "/api/icons/amazon-svg.json"
+}

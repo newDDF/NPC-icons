@@ -1,0 +1,24 @@
+{
+  "name": "TÜVSüd",
+  "color": "#1964b6",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/TÜVSüd.svg",
+  "id": "000339",
+  "status": "active",
+  "legacyId": "tuvsud-svg",
+  "legacyIds": [
+    "tuvsud-svg"
+  ],
+  "filename": "TÜVSüd.svg",
+  "url": "/assets/svg/TÜVSüd.svg",
+  "apiUrl": "/api/icons/000339.json",
+  "legacyApiUrl": "/api/icons/tuvsud-svg.json"
+}

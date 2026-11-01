@@ -1,0 +1,25 @@
+{
+  "name": "rust",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/rust.svg",
+  "id": "000229",
+  "status": "active",
+  "legacyId": "rust-svg",
+  "legacyIds": [
+    "rust-svg"
+  ],
+  "filename": "rust.svg",
+  "url": "/assets/svg/rust.svg",
+  "apiUrl": "/api/icons/000229.json",
+  "legacyApiUrl": "/api/icons/rust-svg.json"
+}

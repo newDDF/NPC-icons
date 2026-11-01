@@ -8,9 +8,20 @@
     "Operating Systems",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/linux-mint.svg",
   "id": "linux-mint-svg",
+  "status": "active",
+  "legacyId": "linux-mint-svg",
+  "legacyIds": [
+    "linux-mint-svg"
+  ],
   "filename": "linux-mint.svg",
   "url": "/assets/svg/linux-mint.svg",
-  "apiUrl": "/api/icons/linux-mint-svg.json"
+  "apiUrl": "/api/icons/linux-mint-svg.json",
+  "legacyApiUrl": "/api/icons/linux-mint-svg.json",
+  "permanentId": "000133",
+  "permanentApiUrl": "/api/icons/000133.json"
 }

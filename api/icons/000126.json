@@ -1,0 +1,24 @@
+{
+  "name": "keeper-security",
+  "color": "#ffc700",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/keeper-security.svg",
+  "id": "000126",
+  "status": "active",
+  "legacyId": "keeper-security-svg",
+  "legacyIds": [
+    "keeper-security-svg"
+  ],
+  "filename": "keeper-security.svg",
+  "url": "/assets/svg/keeper-security.svg",
+  "apiUrl": "/api/icons/000126.json",
+  "legacyApiUrl": "/api/icons/keeper-security-svg.json"
+}

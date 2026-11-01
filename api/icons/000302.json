@@ -1,0 +1,24 @@
+{
+  "name": "ISO90012015",
+  "color": "#00539f",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/ISO90012015.svg",
+  "id": "000302",
+  "status": "active",
+  "legacyId": "iso90012015-svg",
+  "legacyIds": [
+    "iso90012015-svg"
+  ],
+  "filename": "ISO90012015.svg",
+  "url": "/assets/svg/ISO90012015.svg",
+  "apiUrl": "/api/icons/000302.json",
+  "legacyApiUrl": "/api/icons/iso90012015-svg.json"
+}

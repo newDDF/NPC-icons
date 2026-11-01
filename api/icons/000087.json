@@ -1,0 +1,25 @@
+{
+  "name": "electron",
+  "color": "#2b2e3a",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/electron.svg",
+  "id": "000087",
+  "status": "active",
+  "legacyId": "electron-svg",
+  "legacyIds": [
+    "electron-svg"
+  ],
+  "filename": "electron.svg",
+  "url": "/assets/svg/electron.svg",
+  "apiUrl": "/api/icons/000087.json",
+  "legacyApiUrl": "/api/icons/electron-svg.json"
+}

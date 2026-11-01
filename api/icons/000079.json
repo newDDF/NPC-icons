@@ -1,0 +1,24 @@
+{
+  "name": "docuform",
+  "color": "#fe4503",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/docuform.svg",
+  "id": "000079",
+  "status": "active",
+  "legacyId": "docuform-svg",
+  "legacyIds": [
+    "docuform-svg"
+  ],
+  "filename": "docuform.svg",
+  "url": "/assets/svg/docuform.svg",
+  "apiUrl": "/api/icons/000079.json",
+  "legacyApiUrl": "/api/icons/docuform-svg.json"
+}

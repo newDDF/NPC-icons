@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/paramount-plus.svg",
   "id": "paramount-plus-svg",
+  "status": "active",
+  "legacyId": "paramount-plus-svg",
+  "legacyIds": [
+    "paramount-plus-svg"
+  ],
   "filename": "paramount-plus.svg",
   "url": "/assets/svg/paramount-plus.svg",
-  "apiUrl": "/api/icons/paramount-plus-svg.json"
+  "apiUrl": "/api/icons/paramount-plus-svg.json",
+  "legacyApiUrl": "/api/icons/paramount-plus-svg.json",
+  "permanentId": "000188",
+  "permanentApiUrl": "/api/icons/000188.json"
 }

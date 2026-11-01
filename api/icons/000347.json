@@ -1,0 +1,24 @@
+{
+  "name": "WEEECompliance",
+  "color": "#98ae4c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/WEEECompliance.svg",
+  "id": "000347",
+  "status": "active",
+  "legacyId": "weeecompliance-svg",
+  "legacyIds": [
+    "weeecompliance-svg"
+  ],
+  "filename": "WEEECompliance.svg",
+  "url": "/assets/svg/WEEECompliance.svg",
+  "apiUrl": "/api/icons/000347.json",
+  "legacyApiUrl": "/api/icons/weeecompliance-svg.json"
+}

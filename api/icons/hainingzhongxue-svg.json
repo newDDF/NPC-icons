@@ -7,9 +7,20 @@
   "category": [
     "Education"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/hainingzhongxue.svg",
   "id": "hainingzhongxue-svg",
+  "status": "active",
+  "legacyId": "hainingzhongxue-svg",
+  "legacyIds": [
+    "hainingzhongxue-svg"
+  ],
   "filename": "hainingzhongxue.svg",
   "url": "/assets/svg/hainingzhongxue.svg",
-  "apiUrl": "/api/icons/hainingzhongxue-svg.json"
+  "apiUrl": "/api/icons/hainingzhongxue-svg.json",
+  "legacyApiUrl": "/api/icons/hainingzhongxue-svg.json",
+  "permanentId": "000033",
+  "permanentApiUrl": "/api/icons/000033.json"
 }

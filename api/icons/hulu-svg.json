@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/hulu.svg",
   "id": "hulu-svg",
+  "status": "active",
+  "legacyId": "hulu-svg",
+  "legacyIds": [
+    "hulu-svg"
+  ],
   "filename": "hulu.svg",
   "url": "/assets/svg/hulu.svg",
-  "apiUrl": "/api/icons/hulu-svg.json"
+  "apiUrl": "/api/icons/hulu-svg.json",
+  "legacyApiUrl": "/api/icons/hulu-svg.json",
+  "permanentId": "000111",
+  "permanentApiUrl": "/api/icons/000111.json"
 }

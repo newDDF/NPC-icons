@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/open-webui.svg",
   "id": "open-webui-svg",
+  "status": "active",
+  "legacyId": "open-webui-svg",
+  "legacyIds": [
+    "open-webui-svg"
+  ],
   "filename": "open-webui.svg",
   "url": "/assets/svg/open-webui.svg",
-  "apiUrl": "/api/icons/open-webui-svg.json"
+  "apiUrl": "/api/icons/open-webui-svg.json",
+  "legacyApiUrl": "/api/icons/open-webui-svg.json",
+  "permanentId": "000175",
+  "permanentApiUrl": "/api/icons/000175.json"
 }

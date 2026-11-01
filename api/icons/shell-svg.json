@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/shell.svg",
   "id": "shell-svg",
+  "status": "active",
+  "legacyId": "shell-svg",
+  "legacyIds": [
+    "shell-svg"
+  ],
   "filename": "shell.svg",
   "url": "/assets/svg/shell.svg",
-  "apiUrl": "/api/icons/shell-svg.json"
+  "apiUrl": "/api/icons/shell-svg.json",
+  "legacyApiUrl": "/api/icons/shell-svg.json",
+  "permanentId": "000233",
+  "permanentApiUrl": "/api/icons/000233.json"
 }

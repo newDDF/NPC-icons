@@ -7,9 +7,20 @@
   "category": [
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/windows-explorer.svg",
   "id": "windows-explorer-svg",
+  "status": "active",
+  "legacyId": "windows-explorer-svg",
+  "legacyIds": [
+    "windows-explorer-svg"
+  ],
   "filename": "windows-explorer.svg",
   "url": "/assets/svg/windows-explorer.svg",
-  "apiUrl": "/api/icons/windows-explorer-svg.json"
+  "apiUrl": "/api/icons/windows-explorer-svg.json",
+  "legacyApiUrl": "/api/icons/windows-explorer-svg.json",
+  "permanentId": "000260",
+  "permanentApiUrl": "/api/icons/000260.json"
 }

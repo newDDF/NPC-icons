@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/ULcertified1.svg",
   "id": "ulcertified1-svg",
+  "status": "active",
+  "legacyId": "ulcertified1-svg",
+  "legacyIds": [
+    "ulcertified1-svg"
+  ],
   "filename": "ULcertified1.svg",
   "url": "/assets/svg/ULcertified1.svg",
-  "apiUrl": "/api/icons/ulcertified1-svg.json"
+  "apiUrl": "/api/icons/ulcertified1-svg.json",
+  "legacyApiUrl": "/api/icons/ulcertified1-svg.json",
+  "permanentId": "000341",
+  "permanentApiUrl": "/api/icons/000341.json"
 }

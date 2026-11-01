@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/libretranslate.svg",
   "id": "libretranslate-svg",
+  "status": "active",
+  "legacyId": "libretranslate-svg",
+  "legacyIds": [
+    "libretranslate-svg"
+  ],
   "filename": "libretranslate.svg",
   "url": "/assets/svg/libretranslate.svg",
-  "apiUrl": "/api/icons/libretranslate-svg.json"
+  "apiUrl": "/api/icons/libretranslate-svg.json",
+  "legacyApiUrl": "/api/icons/libretranslate-svg.json",
+  "permanentId": "000130",
+  "permanentApiUrl": "/api/icons/000130.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/hashicorp-nomad.svg",
   "id": "hashicorp-nomad-svg",
+  "status": "active",
+  "legacyId": "hashicorp-nomad-svg",
+  "legacyIds": [
+    "hashicorp-nomad-svg"
+  ],
   "filename": "hashicorp-nomad.svg",
   "url": "/assets/svg/hashicorp-nomad.svg",
-  "apiUrl": "/api/icons/hashicorp-nomad-svg.json"
+  "apiUrl": "/api/icons/hashicorp-nomad-svg.json",
+  "legacyApiUrl": "/api/icons/hashicorp-nomad-svg.json",
+  "permanentId": "000102",
+  "permanentApiUrl": "/api/icons/000102.json"
 }

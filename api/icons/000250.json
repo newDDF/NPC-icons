@@ -1,0 +1,24 @@
+{
+  "name": "typescript",
+  "color": "#3178c6",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/typescript.svg",
+  "id": "000250",
+  "status": "active",
+  "legacyId": "typescript-svg",
+  "legacyIds": [
+    "typescript-svg"
+  ],
+  "filename": "typescript.svg",
+  "url": "/assets/svg/typescript.svg",
+  "apiUrl": "/api/icons/000250.json",
+  "legacyApiUrl": "/api/icons/typescript-svg.json"
+}

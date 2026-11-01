@@ -1,0 +1,24 @@
+{
+  "name": "x",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/x.svg",
+  "id": "000262",
+  "status": "active",
+  "legacyId": "x-svg",
+  "legacyIds": [
+    "x-svg"
+  ],
+  "filename": "x.svg",
+  "url": "/assets/svg/x.svg",
+  "apiUrl": "/api/icons/000262.json",
+  "legacyApiUrl": "/api/icons/x-svg.json"
+}

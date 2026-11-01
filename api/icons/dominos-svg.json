@@ -7,9 +7,20 @@
   "category": [
     "Food & Beverage"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Dominos.svg",
   "id": "dominos-svg",
+  "status": "active",
+  "legacyId": "dominos-svg",
+  "legacyIds": [
+    "dominos-svg"
+  ],
   "filename": "Dominos.svg",
   "url": "/assets/svg/Dominos.svg",
-  "apiUrl": "/api/icons/dominos-svg.json"
+  "apiUrl": "/api/icons/dominos-svg.json",
+  "legacyApiUrl": "/api/icons/dominos-svg.json",
+  "permanentId": "000290",
+  "permanentApiUrl": "/api/icons/000290.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/visual-studio-code.svg",
   "id": "visual-studio-code-svg",
+  "status": "active",
+  "legacyId": "visual-studio-code-svg",
+  "legacyIds": [
+    "visual-studio-code-svg"
+  ],
   "filename": "visual-studio-code.svg",
   "url": "/assets/svg/visual-studio-code.svg",
-  "apiUrl": "/api/icons/visual-studio-code-svg.json"
+  "apiUrl": "/api/icons/visual-studio-code-svg.json",
+  "legacyApiUrl": "/api/icons/visual-studio-code-svg.json",
+  "permanentId": "000254",
+  "permanentApiUrl": "/api/icons/000254.json"
 }

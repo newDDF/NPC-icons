@@ -1,0 +1,24 @@
+{
+  "name": "recipesage",
+  "color": "#559545",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Food & Beverage"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/recipesage.svg",
+  "id": "000222",
+  "status": "active",
+  "legacyId": "recipesage-svg",
+  "legacyIds": [
+    "recipesage-svg"
+  ],
+  "filename": "recipesage.svg",
+  "url": "/assets/svg/recipesage.svg",
+  "apiUrl": "/api/icons/000222.json",
+  "legacyApiUrl": "/api/icons/recipesage-svg.json"
+}

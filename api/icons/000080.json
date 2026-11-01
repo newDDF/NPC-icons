@@ -1,0 +1,24 @@
+{
+  "name": "documenso",
+  "color": "#a7e575",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/documenso.svg",
+  "id": "000080",
+  "status": "active",
+  "legacyId": "documenso-svg",
+  "legacyIds": [
+    "documenso-svg"
+  ],
+  "filename": "documenso.svg",
+  "url": "/assets/svg/documenso.svg",
+  "apiUrl": "/api/icons/000080.json",
+  "legacyApiUrl": "/api/icons/documenso-svg.json"
+}

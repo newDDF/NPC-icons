@@ -7,9 +7,20 @@
   "category": [
     "Gaming"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/electronic-arts.svg",
   "id": "electronic-arts-svg",
+  "status": "active",
+  "legacyId": "electronic-arts-svg",
+  "legacyIds": [
+    "electronic-arts-svg"
+  ],
   "filename": "electronic-arts.svg",
   "url": "/assets/svg/electronic-arts.svg",
-  "apiUrl": "/api/icons/electronic-arts-svg.json"
+  "apiUrl": "/api/icons/electronic-arts-svg.json",
+  "legacyApiUrl": "/api/icons/electronic-arts-svg.json",
+  "permanentId": "000088",
+  "permanentApiUrl": "/api/icons/000088.json"
 }

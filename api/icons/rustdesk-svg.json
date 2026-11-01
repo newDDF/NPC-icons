@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/rustdesk.svg",
   "id": "rustdesk-svg",
+  "status": "active",
+  "legacyId": "rustdesk-svg",
+  "legacyIds": [
+    "rustdesk-svg"
+  ],
   "filename": "rustdesk.svg",
   "url": "/assets/svg/rustdesk.svg",
-  "apiUrl": "/api/icons/rustdesk-svg.json"
+  "apiUrl": "/api/icons/rustdesk-svg.json",
+  "legacyApiUrl": "/api/icons/rustdesk-svg.json",
+  "permanentId": "000230",
+  "permanentApiUrl": "/api/icons/000230.json"
 }

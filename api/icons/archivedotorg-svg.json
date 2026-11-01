@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/archivedotorg.svg",
   "id": "archivedotorg-svg",
+  "status": "active",
+  "legacyId": "archivedotorg-svg",
+  "legacyIds": [
+    "archivedotorg-svg"
+  ],
   "filename": "archivedotorg.svg",
   "url": "/assets/svg/archivedotorg.svg",
-  "apiUrl": "/api/icons/archivedotorg-svg.json"
+  "apiUrl": "/api/icons/archivedotorg-svg.json",
+  "legacyApiUrl": "/api/icons/archivedotorg-svg.json",
+  "permanentId": "000048",
+  "permanentApiUrl": "/api/icons/000048.json"
 }

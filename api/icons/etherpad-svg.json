@@ -7,9 +7,20 @@
   "category": [
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/etherpad.svg",
   "id": "etherpad-svg",
+  "status": "active",
+  "legacyId": "etherpad-svg",
+  "legacyIds": [
+    "etherpad-svg"
+  ],
   "filename": "etherpad.svg",
   "url": "/assets/svg/etherpad.svg",
-  "apiUrl": "/api/icons/etherpad-svg.json"
+  "apiUrl": "/api/icons/etherpad-svg.json",
+  "legacyApiUrl": "/api/icons/etherpad-svg.json",
+  "permanentId": "000090",
+  "permanentApiUrl": "/api/icons/000090.json"
 }

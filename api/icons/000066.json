@@ -1,0 +1,24 @@
+{
+  "name": "carrefour",
+  "color": "#014fa0",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "E-commerce"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/carrefour.svg",
+  "id": "000066",
+  "status": "active",
+  "legacyId": "carrefour-svg",
+  "legacyIds": [
+    "carrefour-svg"
+  ],
+  "filename": "carrefour.svg",
+  "url": "/assets/svg/carrefour.svg",
+  "apiUrl": "/api/icons/000066.json",
+  "legacyApiUrl": "/api/icons/carrefour-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "Networking"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/brave.svg",
   "id": "brave-svg",
+  "status": "active",
+  "legacyId": "brave-svg",
+  "legacyIds": [
+    "brave-svg"
+  ],
   "filename": "brave.svg",
   "url": "/assets/svg/brave.svg",
-  "apiUrl": "/api/icons/brave-svg.json"
+  "apiUrl": "/api/icons/brave-svg.json",
+  "legacyApiUrl": "/api/icons/brave-svg.json",
+  "permanentId": "000061",
+  "permanentApiUrl": "/api/icons/000061.json"
 }

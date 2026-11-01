@@ -1,0 +1,24 @@
+{
+  "name": "uspostalservice",
+  "color": "#00609d",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "E-commerce"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/uspostalservice.svg",
+  "id": "000344",
+  "status": "active",
+  "legacyId": "uspostalservice-svg",
+  "legacyIds": [
+    "uspostalservice-svg"
+  ],
+  "filename": "uspostalservice.svg",
+  "url": "/assets/svg/uspostalservice.svg",
+  "apiUrl": "/api/icons/000344.json",
+  "legacyApiUrl": "/api/icons/uspostalservice-svg.json"
+}

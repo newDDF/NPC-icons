@@ -1,0 +1,24 @@
+{
+  "name": "archivedotorg",
+  "color": "#2c2c2c",
+  "format": "svg",
+  "source": "https://archive.org/",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/archivedotorg.svg",
+  "id": "000048",
+  "status": "active",
+  "legacyId": "archivedotorg-svg",
+  "legacyIds": [
+    "archivedotorg-svg"
+  ],
+  "filename": "archivedotorg.svg",
+  "url": "/assets/svg/archivedotorg.svg",
+  "apiUrl": "/api/icons/000048.json",
+  "legacyApiUrl": "/api/icons/archivedotorg-svg.json"
+}

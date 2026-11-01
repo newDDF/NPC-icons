@@ -1,0 +1,24 @@
+{
+  "name": "DONGFANGCOLLEGE",
+  "color": "#0E6EB7",
+  "format": "svg",
+  "source": "https://iceceng.zufedfc.edu.cn/xygk/xybs1.htm",
+  "info": "NPC-icons library trademark vector asset.",
+  "category": [
+    "Education"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/DONGFANGCOLLEGE.svg",
+  "id": "000013",
+  "status": "active",
+  "legacyId": "dongfangcollege-svg",
+  "legacyIds": [
+    "dongfangcollege-svg"
+  ],
+  "filename": "DONGFANGCOLLEGE.svg",
+  "url": "/assets/svg/DONGFANGCOLLEGE.svg",
+  "apiUrl": "/api/icons/000013.json",
+  "legacyApiUrl": "/api/icons/dongfangcollege-svg.json"
+}

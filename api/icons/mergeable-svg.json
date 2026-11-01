@@ -7,9 +7,20 @@
   "category": [
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/mergeable.svg",
   "id": "mergeable-svg",
+  "status": "active",
+  "legacyId": "mergeable-svg",
+  "legacyIds": [
+    "mergeable-svg"
+  ],
   "filename": "mergeable.svg",
   "url": "/assets/svg/mergeable.svg",
-  "apiUrl": "/api/icons/mergeable-svg.json"
+  "apiUrl": "/api/icons/mergeable-svg.json",
+  "legacyApiUrl": "/api/icons/mergeable-svg.json",
+  "permanentId": "000147",
+  "permanentApiUrl": "/api/icons/000147.json"
 }

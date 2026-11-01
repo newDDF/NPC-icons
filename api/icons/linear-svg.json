@@ -8,9 +8,20 @@
     "Design",
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/linear.svg",
   "id": "linear-svg",
+  "status": "active",
+  "legacyId": "linear-svg",
+  "legacyIds": [
+    "linear-svg"
+  ],
   "filename": "linear.svg",
   "url": "/assets/svg/linear.svg",
-  "apiUrl": "/api/icons/linear-svg.json"
+  "apiUrl": "/api/icons/linear-svg.json",
+  "legacyApiUrl": "/api/icons/linear-svg.json",
+  "permanentId": "000131",
+  "permanentApiUrl": "/api/icons/000131.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "E-commerce"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/fedex.svg",
   "id": "fedex-svg",
+  "status": "active",
+  "legacyId": "fedex-svg",
+  "legacyIds": [
+    "fedex-svg"
+  ],
   "filename": "fedex.svg",
   "url": "/assets/svg/fedex.svg",
-  "apiUrl": "/api/icons/fedex-svg.json"
+  "apiUrl": "/api/icons/fedex-svg.json",
+  "legacyApiUrl": "/api/icons/fedex-svg.json",
+  "permanentId": "000294",
+  "permanentApiUrl": "/api/icons/000294.json"
 }

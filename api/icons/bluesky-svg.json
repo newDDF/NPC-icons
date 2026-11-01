@@ -7,9 +7,20 @@
   "category": [
     "Social"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/bluesky.svg",
   "id": "bluesky-svg",
+  "status": "active",
+  "legacyId": "bluesky-svg",
+  "legacyIds": [
+    "bluesky-svg"
+  ],
   "filename": "bluesky.svg",
   "url": "/assets/svg/bluesky.svg",
-  "apiUrl": "/api/icons/bluesky-svg.json"
+  "apiUrl": "/api/icons/bluesky-svg.json",
+  "legacyApiUrl": "/api/icons/bluesky-svg.json",
+  "permanentId": "000058",
+  "permanentApiUrl": "/api/icons/000058.json"
 }

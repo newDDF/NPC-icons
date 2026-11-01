@@ -7,9 +7,20 @@
   "category": [
     "Cloud"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/pikapods.svg",
   "id": "pikapods-svg",
+  "status": "active",
+  "legacyId": "pikapods-svg",
+  "legacyIds": [
+    "pikapods-svg"
+  ],
   "filename": "pikapods.svg",
   "url": "/assets/svg/pikapods.svg",
-  "apiUrl": "/api/icons/pikapods-svg.json"
+  "apiUrl": "/api/icons/pikapods-svg.json",
+  "legacyApiUrl": "/api/icons/pikapods-svg.json",
+  "permanentId": "000198",
+  "permanentApiUrl": "/api/icons/000198.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "man",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Automotive"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/man.svg",
+  "id": "000309",
+  "status": "active",
+  "legacyId": "man-svg",
+  "legacyIds": [
+    "man-svg"
+  ],
+  "filename": "man.svg",
+  "url": "/assets/svg/man.svg",
+  "apiUrl": "/api/icons/000309.json",
+  "legacyApiUrl": "/api/icons/man-svg.json"
+}

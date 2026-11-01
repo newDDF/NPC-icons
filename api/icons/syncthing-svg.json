@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/syncthing.svg",
   "id": "syncthing-svg",
+  "status": "active",
+  "legacyId": "syncthing-svg",
+  "legacyIds": [
+    "syncthing-svg"
+  ],
   "filename": "syncthing.svg",
   "url": "/assets/svg/syncthing.svg",
-  "apiUrl": "/api/icons/syncthing-svg.json"
+  "apiUrl": "/api/icons/syncthing-svg.json",
+  "legacyApiUrl": "/api/icons/syncthing-svg.json",
+  "permanentId": "000241",
+  "permanentApiUrl": "/api/icons/000241.json"
 }

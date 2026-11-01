@@ -1,0 +1,24 @@
+{
+  "name": "friendica",
+  "color": "#f7c130",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/friendica.svg",
+  "id": "000096",
+  "status": "active",
+  "legacyId": "friendica-svg",
+  "legacyIds": [
+    "friendica-svg"
+  ],
+  "filename": "friendica.svg",
+  "url": "/assets/svg/friendica.svg",
+  "apiUrl": "/api/icons/000096.json",
+  "legacyApiUrl": "/api/icons/friendica-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "E-commerce"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/amazon-prime.svg",
   "id": "amazon-prime-svg",
+  "status": "active",
+  "legacyId": "amazon-prime-svg",
+  "legacyIds": [
+    "amazon-prime-svg"
+  ],
   "filename": "amazon-prime.svg",
   "url": "/assets/svg/amazon-prime.svg",
-  "apiUrl": "/api/icons/amazon-prime-svg.json"
+  "apiUrl": "/api/icons/amazon-prime-svg.json",
+  "legacyApiUrl": "/api/icons/amazon-prime-svg.json",
+  "permanentId": "000045",
+  "permanentApiUrl": "/api/icons/000045.json"
 }

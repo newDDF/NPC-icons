@@ -1,0 +1,24 @@
+{
+  "name": "raspberry-pi",
+  "color": "#bc1142",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/raspberry-pi.svg",
+  "id": "000219",
+  "status": "active",
+  "legacyId": "raspberry-pi-svg",
+  "legacyIds": [
+    "raspberry-pi-svg"
+  ],
+  "filename": "raspberry-pi.svg",
+  "url": "/assets/svg/raspberry-pi.svg",
+  "apiUrl": "/api/icons/000219.json",
+  "legacyApiUrl": "/api/icons/raspberry-pi-svg.json"
+}

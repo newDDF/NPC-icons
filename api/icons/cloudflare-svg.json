@@ -7,9 +7,20 @@
   "category": [
     "Cloud"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/cloudflare.svg",
   "id": "cloudflare-svg",
+  "status": "active",
+  "legacyId": "cloudflare-svg",
+  "legacyIds": [
+    "cloudflare-svg"
+  ],
   "filename": "cloudflare.svg",
   "url": "/assets/svg/cloudflare.svg",
-  "apiUrl": "/api/icons/cloudflare-svg.json"
+  "apiUrl": "/api/icons/cloudflare-svg.json",
+  "legacyApiUrl": "/api/icons/cloudflare-svg.json",
+  "permanentId": "000028",
+  "permanentApiUrl": "/api/icons/000028.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "mealie",
+  "color": "#e58325",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Food & Beverage"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/mealie.svg",
+  "id": "000143",
+  "status": "active",
+  "legacyId": "mealie-svg",
+  "legacyIds": [
+    "mealie-svg"
+  ],
+  "filename": "mealie.svg",
+  "url": "/assets/svg/mealie.svg",
+  "apiUrl": "/api/icons/000143.json",
+  "legacyApiUrl": "/api/icons/mealie-svg.json"
+}

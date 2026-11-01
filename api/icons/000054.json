@@ -1,0 +1,24 @@
+{
+  "name": "bitwarden",
+  "color": "#175ddc",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/bitwarden.svg",
+  "id": "000054",
+  "status": "active",
+  "legacyId": "bitwarden-svg",
+  "legacyIds": [
+    "bitwarden-svg"
+  ],
+  "filename": "bitwarden.svg",
+  "url": "/assets/svg/bitwarden.svg",
+  "apiUrl": "/api/icons/000054.json",
+  "legacyApiUrl": "/api/icons/bitwarden-svg.json"
+}

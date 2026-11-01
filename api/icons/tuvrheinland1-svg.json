@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/TÜVRheinland1.svg",
   "id": "tuvrheinland1-svg",
+  "status": "active",
+  "legacyId": "tuvrheinland1-svg",
+  "legacyIds": [
+    "tuvrheinland1-svg"
+  ],
   "filename": "TÜVRheinland1.svg",
   "url": "/assets/svg/TÜVRheinland1.svg",
-  "apiUrl": "/api/icons/tuvrheinland1-svg.json"
+  "apiUrl": "/api/icons/tuvrheinland1-svg.json",
+  "legacyApiUrl": "/api/icons/tuvrheinland1-svg.json",
+  "permanentId": "000338",
+  "permanentApiUrl": "/api/icons/000338.json"
 }

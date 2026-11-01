@@ -1,0 +1,24 @@
+{
+  "name": "Dassaultsystemes",
+  "color": "#206a98",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/Dassaultsystemes.svg",
+  "id": "000287",
+  "status": "active",
+  "legacyId": "dassaultsystemes-svg",
+  "legacyIds": [
+    "dassaultsystemes-svg"
+  ],
+  "filename": "Dassaultsystemes.svg",
+  "url": "/assets/svg/Dassaultsystemes.svg",
+  "apiUrl": "/api/icons/000287.json",
+  "legacyApiUrl": "/api/icons/dassaultsystemes-svg.json"
+}

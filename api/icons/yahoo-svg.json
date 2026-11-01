@@ -7,9 +7,20 @@
   "category": [
     "Technology"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/yahoo.svg",
   "id": "yahoo-svg",
+  "status": "active",
+  "legacyId": "yahoo-svg",
+  "legacyIds": [
+    "yahoo-svg"
+  ],
   "filename": "yahoo.svg",
   "url": "/assets/svg/yahoo.svg",
-  "apiUrl": "/api/icons/yahoo-svg.json"
+  "apiUrl": "/api/icons/yahoo-svg.json",
+  "legacyApiUrl": "/api/icons/yahoo-svg.json",
+  "permanentId": "000265",
+  "permanentApiUrl": "/api/icons/000265.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "AI"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/grok.svg",
   "id": "grok-svg",
+  "status": "active",
+  "legacyId": "grok-svg",
+  "legacyIds": [
+    "grok-svg"
+  ],
   "filename": "grok.svg",
   "url": "/assets/svg/grok.svg",
-  "apiUrl": "/api/icons/grok-svg.json"
+  "apiUrl": "/api/icons/grok-svg.json",
+  "legacyApiUrl": "/api/icons/grok-svg.json",
+  "permanentId": "000101",
+  "permanentApiUrl": "/api/icons/000101.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "visual-studio-code",
+  "color": "#3ca9f2",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/visual-studio-code.svg",
+  "id": "000254",
+  "status": "active",
+  "legacyId": "visual-studio-code-svg",
+  "legacyIds": [
+    "visual-studio-code-svg"
+  ],
+  "filename": "visual-studio-code.svg",
+  "url": "/assets/svg/visual-studio-code.svg",
+  "apiUrl": "/api/icons/000254.json",
+  "legacyApiUrl": "/api/icons/visual-studio-code-svg.json"
+}

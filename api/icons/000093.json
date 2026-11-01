@@ -1,0 +1,24 @@
+{
+  "name": "forgejo",
+  "color": "#d40000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/forgejo.svg",
+  "id": "000093",
+  "status": "active",
+  "legacyId": "forgejo-svg",
+  "legacyIds": [
+    "forgejo-svg"
+  ],
+  "filename": "forgejo.svg",
+  "url": "/assets/svg/forgejo.svg",
+  "apiUrl": "/api/icons/000093.json",
+  "legacyApiUrl": "/api/icons/forgejo-svg.json"
+}

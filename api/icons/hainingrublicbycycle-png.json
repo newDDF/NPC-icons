@@ -7,9 +7,20 @@
   "category": [
     "Education"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/png/HAININGRUBLICBYCYCLE.png",
   "id": "hainingrublicbycycle-png",
+  "status": "active",
+  "legacyId": "hainingrublicbycycle-png",
+  "legacyIds": [
+    "hainingrublicbycycle-png"
+  ],
   "filename": "HAININGRUBLICBYCYCLE.png",
   "url": "/assets/png/HAININGRUBLICBYCYCLE.png",
-  "apiUrl": "/api/icons/hainingrublicbycycle-png.json"
+  "apiUrl": "/api/icons/hainingrublicbycycle-png.json",
+  "legacyApiUrl": "/api/icons/hainingrublicbycycle-png.json",
+  "permanentId": "000010",
+  "permanentApiUrl": "/api/icons/000010.json"
 }

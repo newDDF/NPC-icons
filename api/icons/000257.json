@@ -1,0 +1,25 @@
+{
+  "name": "webhook",
+  "color": "#7547dc",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Networking"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/webhook.svg",
+  "id": "000257",
+  "status": "active",
+  "legacyId": "webhook-svg",
+  "legacyIds": [
+    "webhook-svg"
+  ],
+  "filename": "webhook.svg",
+  "url": "/assets/svg/webhook.svg",
+  "apiUrl": "/api/icons/000257.json",
+  "legacyApiUrl": "/api/icons/webhook-svg.json"
+}

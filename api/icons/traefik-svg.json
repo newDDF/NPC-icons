@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/traefik.svg",
   "id": "traefik-svg",
+  "status": "active",
+  "legacyId": "traefik-svg",
+  "legacyIds": [
+    "traefik-svg"
+  ],
   "filename": "traefik.svg",
   "url": "/assets/svg/traefik.svg",
-  "apiUrl": "/api/icons/traefik-svg.json"
+  "apiUrl": "/api/icons/traefik-svg.json",
+  "legacyApiUrl": "/api/icons/traefik-svg.json",
+  "permanentId": "000245",
+  "permanentApiUrl": "/api/icons/000245.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/netflix.svg",
   "id": "netflix-svg",
+  "status": "active",
+  "legacyId": "netflix-svg",
+  "legacyIds": [
+    "netflix-svg"
+  ],
   "filename": "netflix.svg",
   "url": "/assets/svg/netflix.svg",
-  "apiUrl": "/api/icons/netflix-svg.json"
+  "apiUrl": "/api/icons/netflix-svg.json",
+  "legacyApiUrl": "/api/icons/netflix-svg.json",
+  "permanentId": "000155",
+  "permanentApiUrl": "/api/icons/000155.json"
 }

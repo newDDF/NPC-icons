@@ -1,0 +1,24 @@
+{
+  "name": "synology",
+  "color": "#B5B5B6",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/synology.svg",
+  "id": "000036",
+  "status": "active",
+  "legacyId": "synology-svg",
+  "legacyIds": [
+    "synology-svg"
+  ],
+  "filename": "synology.svg",
+  "url": "/assets/svg/synology.svg",
+  "apiUrl": "/api/icons/000036.json",
+  "legacyApiUrl": "/api/icons/synology-svg.json"
+}

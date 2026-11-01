@@ -7,9 +7,20 @@
   "category": [
     "Social"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/onlyfans.svg",
   "id": "onlyfans-svg",
+  "status": "active",
+  "legacyId": "onlyfans-svg",
+  "legacyIds": [
+    "onlyfans-svg"
+  ],
   "filename": "onlyfans.svg",
   "url": "/assets/svg/onlyfans.svg",
-  "apiUrl": "/api/icons/onlyfans-svg.json"
+  "apiUrl": "/api/icons/onlyfans-svg.json",
+  "legacyApiUrl": "/api/icons/onlyfans-svg.json",
+  "permanentId": "000173",
+  "permanentApiUrl": "/api/icons/000173.json"
 }

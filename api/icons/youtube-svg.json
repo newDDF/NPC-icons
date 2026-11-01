@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/youtube.svg",
   "id": "youtube-svg",
+  "status": "active",
+  "legacyId": "youtube-svg",
+  "legacyIds": [
+    "youtube-svg"
+  ],
   "filename": "youtube.svg",
   "url": "/assets/svg/youtube.svg",
-  "apiUrl": "/api/icons/youtube-svg.json"
+  "apiUrl": "/api/icons/youtube-svg.json",
+  "legacyApiUrl": "/api/icons/youtube-svg.json",
+  "permanentId": "000267",
+  "permanentApiUrl": "/api/icons/000267.json"
 }

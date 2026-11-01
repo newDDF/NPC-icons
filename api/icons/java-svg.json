@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/java.svg",
   "id": "java-svg",
+  "status": "active",
+  "legacyId": "java-svg",
+  "legacyIds": [
+    "java-svg"
+  ],
   "filename": "java.svg",
   "url": "/assets/svg/java.svg",
-  "apiUrl": "/api/icons/java-svg.json"
+  "apiUrl": "/api/icons/java-svg.json",
+  "legacyApiUrl": "/api/icons/java-svg.json",
+  "permanentId": "000119",
+  "permanentApiUrl": "/api/icons/000119.json"
 }

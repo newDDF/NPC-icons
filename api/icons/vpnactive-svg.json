@@ -7,9 +7,20 @@
   "category": [
     "Networking"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/vpnactive.svg",
   "id": "vpnactive-svg",
+  "status": "active",
+  "legacyId": "vpnactive-svg",
+  "legacyIds": [
+    "vpnactive-svg"
+  ],
   "filename": "vpnactive.svg",
   "url": "/assets/svg/vpnactive.svg",
-  "apiUrl": "/api/icons/vpnactive-svg.json"
+  "apiUrl": "/api/icons/vpnactive-svg.json",
+  "legacyApiUrl": "/api/icons/vpnactive-svg.json",
+  "permanentId": "000345",
+  "permanentApiUrl": "/api/icons/000345.json"
 }

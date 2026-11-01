@@ -1,0 +1,24 @@
+{
+  "name": "swift",
+  "color": "#f07637",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/swift.svg",
+  "id": "000240",
+  "status": "active",
+  "legacyId": "swift-svg",
+  "legacyIds": [
+    "swift-svg"
+  ],
+  "filename": "swift.svg",
+  "url": "/assets/svg/swift.svg",
+  "apiUrl": "/api/icons/000240.json",
+  "legacyApiUrl": "/api/icons/swift-svg.json"
+}

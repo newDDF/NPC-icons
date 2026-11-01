@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/RoHSCompliance3.svg",
   "id": "rohscompliance3-svg",
+  "status": "active",
+  "legacyId": "rohscompliance3-svg",
+  "legacyIds": [
+    "rohscompliance3-svg"
+  ],
   "filename": "RoHSCompliance3.svg",
   "url": "/assets/svg/RoHSCompliance3.svg",
-  "apiUrl": "/api/icons/rohscompliance3-svg.json"
+  "apiUrl": "/api/icons/rohscompliance3-svg.json",
+  "legacyApiUrl": "/api/icons/rohscompliance3-svg.json",
+  "permanentId": "000326",
+  "permanentApiUrl": "/api/icons/000326.json"
 }

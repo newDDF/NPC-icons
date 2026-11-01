@@ -7,9 +7,20 @@
   "category": [
     "Networking"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/pangolin.svg",
   "id": "pangolin-svg",
+  "status": "active",
+  "legacyId": "pangolin-svg",
+  "legacyIds": [
+    "pangolin-svg"
+  ],
   "filename": "pangolin.svg",
   "url": "/assets/svg/pangolin.svg",
-  "apiUrl": "/api/icons/pangolin-svg.json"
+  "apiUrl": "/api/icons/pangolin-svg.json",
+  "legacyApiUrl": "/api/icons/pangolin-svg.json",
+  "permanentId": "000185",
+  "permanentApiUrl": "/api/icons/000185.json"
 }

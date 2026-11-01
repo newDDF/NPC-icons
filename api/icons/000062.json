@@ -1,0 +1,24 @@
+{
+  "name": "bright-move",
+  "color": "#4d4d4d",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/bright-move.svg",
+  "id": "000062",
+  "status": "active",
+  "legacyId": "bright-move-svg",
+  "legacyIds": [
+    "bright-move-svg"
+  ],
+  "filename": "bright-move.svg",
+  "url": "/assets/svg/bright-move.svg",
+  "apiUrl": "/api/icons/000062.json",
+  "legacyApiUrl": "/api/icons/bright-move-svg.json"
+}

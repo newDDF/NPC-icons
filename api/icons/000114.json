@@ -1,0 +1,24 @@
+{
+  "name": "instacart",
+  "color": "#ff8200",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "E-commerce"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/instacart.svg",
+  "id": "000114",
+  "status": "active",
+  "legacyId": "instacart-svg",
+  "legacyIds": [
+    "instacart-svg"
+  ],
+  "filename": "instacart.svg",
+  "url": "/assets/svg/instacart.svg",
+  "apiUrl": "/api/icons/000114.json",
+  "legacyApiUrl": "/api/icons/instacart-svg.json"
+}

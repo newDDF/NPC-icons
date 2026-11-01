@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Aniplex.svg",
   "id": "aniplex-svg",
+  "status": "active",
+  "legacyId": "aniplex-svg",
+  "legacyIds": [
+    "aniplex-svg"
+  ],
   "filename": "Aniplex.svg",
   "url": "/assets/svg/Aniplex.svg",
-  "apiUrl": "/api/icons/aniplex-svg.json"
+  "apiUrl": "/api/icons/aniplex-svg.json",
+  "legacyApiUrl": "/api/icons/aniplex-svg.json",
+  "permanentId": "000272",
+  "permanentApiUrl": "/api/icons/000272.json"
 }

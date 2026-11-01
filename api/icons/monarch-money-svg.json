@@ -7,9 +7,20 @@
   "category": [
     "Finance"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/monarch-money.svg",
   "id": "monarch-money-svg",
+  "status": "active",
+  "legacyId": "monarch-money-svg",
+  "legacyIds": [
+    "monarch-money-svg"
+  ],
   "filename": "monarch-money.svg",
   "url": "/assets/svg/monarch-money.svg",
-  "apiUrl": "/api/icons/monarch-money-svg.json"
+  "apiUrl": "/api/icons/monarch-money-svg.json",
+  "legacyApiUrl": "/api/icons/monarch-money-svg.json",
+  "permanentId": "000152",
+  "permanentApiUrl": "/api/icons/000152.json"
 }

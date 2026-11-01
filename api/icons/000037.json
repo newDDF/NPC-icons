@@ -1,0 +1,24 @@
+{
+  "name": "duolingo",
+  "color": "#58CC02",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Education"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/duolingo.svg",
+  "id": "000037",
+  "status": "active",
+  "legacyId": "duolingo-svg",
+  "legacyIds": [
+    "duolingo-svg"
+  ],
+  "filename": "duolingo.svg",
+  "url": "/assets/svg/duolingo.svg",
+  "apiUrl": "/api/icons/000037.json",
+  "legacyApiUrl": "/api/icons/duolingo-svg.json"
+}

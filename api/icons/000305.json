@@ -1,0 +1,24 @@
+{
+  "name": "kotobukiya",
+  "color": "#00a54f",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/kotobukiya.svg",
+  "id": "000305",
+  "status": "active",
+  "legacyId": "kotobukiya-svg",
+  "legacyIds": [
+    "kotobukiya-svg"
+  ],
+  "filename": "kotobukiya.svg",
+  "url": "/assets/svg/kotobukiya.svg",
+  "apiUrl": "/api/icons/000305.json",
+  "legacyApiUrl": "/api/icons/kotobukiya-svg.json"
+}

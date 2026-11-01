@@ -1,0 +1,24 @@
+{
+  "name": "papra",
+  "color": "#d9ff7a",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/papra.svg",
+  "id": "000187",
+  "status": "active",
+  "legacyId": "papra-svg",
+  "legacyIds": [
+    "papra-svg"
+  ],
+  "filename": "papra.svg",
+  "url": "/assets/svg/papra.svg",
+  "apiUrl": "/api/icons/000187.json",
+  "legacyApiUrl": "/api/icons/papra-svg.json"
+}

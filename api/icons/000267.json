@@ -1,0 +1,24 @@
+{
+  "name": "youtube",
+  "color": "#ff0000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/youtube.svg",
+  "id": "000267",
+  "status": "active",
+  "legacyId": "youtube-svg",
+  "legacyIds": [
+    "youtube-svg"
+  ],
+  "filename": "youtube.svg",
+  "url": "/assets/svg/youtube.svg",
+  "apiUrl": "/api/icons/000267.json",
+  "legacyApiUrl": "/api/icons/youtube-svg.json"
+}

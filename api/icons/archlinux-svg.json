@@ -8,9 +8,20 @@
     "Operating Systems",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/archlinux.svg",
   "id": "archlinux-svg",
+  "status": "active",
+  "legacyId": "archlinux-svg",
+  "legacyIds": [
+    "archlinux-svg"
+  ],
   "filename": "archlinux.svg",
   "url": "/assets/svg/archlinux.svg",
-  "apiUrl": "/api/icons/archlinux-svg.json"
+  "apiUrl": "/api/icons/archlinux-svg.json",
+  "legacyApiUrl": "/api/icons/archlinux-svg.json",
+  "permanentId": "000004",
+  "permanentApiUrl": "/api/icons/000004.json"
 }

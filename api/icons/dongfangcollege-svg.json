@@ -7,9 +7,20 @@
   "category": [
     "Education"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/DONGFANGCOLLEGE.svg",
   "id": "dongfangcollege-svg",
+  "status": "active",
+  "legacyId": "dongfangcollege-svg",
+  "legacyIds": [
+    "dongfangcollege-svg"
+  ],
   "filename": "DONGFANGCOLLEGE.svg",
   "url": "/assets/svg/DONGFANGCOLLEGE.svg",
-  "apiUrl": "/api/icons/dongfangcollege-svg.json"
+  "apiUrl": "/api/icons/dongfangcollege-svg.json",
+  "legacyApiUrl": "/api/icons/dongfangcollege-svg.json",
+  "permanentId": "000013",
+  "permanentApiUrl": "/api/icons/000013.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Dassaultsystemes.svg",
   "id": "dassaultsystemes-svg",
+  "status": "active",
+  "legacyId": "dassaultsystemes-svg",
+  "legacyIds": [
+    "dassaultsystemes-svg"
+  ],
   "filename": "Dassaultsystemes.svg",
   "url": "/assets/svg/Dassaultsystemes.svg",
-  "apiUrl": "/api/icons/dassaultsystemes-svg.json"
+  "apiUrl": "/api/icons/dassaultsystemes-svg.json",
+  "legacyApiUrl": "/api/icons/dassaultsystemes-svg.json",
+  "permanentId": "000287",
+  "permanentApiUrl": "/api/icons/000287.json"
 }

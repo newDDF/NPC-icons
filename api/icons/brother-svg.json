@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/brother.svg",
   "id": "brother-svg",
+  "status": "active",
+  "legacyId": "brother-svg",
+  "legacyIds": [
+    "brother-svg"
+  ],
   "filename": "brother.svg",
   "url": "/assets/svg/brother.svg",
-  "apiUrl": "/api/icons/brother-svg.json"
+  "apiUrl": "/api/icons/brother-svg.json",
+  "legacyApiUrl": "/api/icons/brother-svg.json",
+  "permanentId": "000065",
+  "permanentApiUrl": "/api/icons/000065.json"
 }

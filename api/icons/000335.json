@@ -1,0 +1,24 @@
+{
+  "name": "Sunrise",
+  "color": "#e71c22",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/Sunrise.svg",
+  "id": "000335",
+  "status": "active",
+  "legacyId": "sunrise-svg",
+  "legacyIds": [
+    "sunrise-svg"
+  ],
+  "filename": "Sunrise.svg",
+  "url": "/assets/svg/Sunrise.svg",
+  "apiUrl": "/api/icons/000335.json",
+  "legacyApiUrl": "/api/icons/sunrise-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/pgadmin.svg",
   "id": "pgadmin-svg",
+  "status": "active",
+  "legacyId": "pgadmin-svg",
+  "legacyIds": [
+    "pgadmin-svg"
+  ],
   "filename": "pgadmin.svg",
   "url": "/assets/svg/pgadmin.svg",
-  "apiUrl": "/api/icons/pgadmin-svg.json"
+  "apiUrl": "/api/icons/pgadmin-svg.json",
+  "legacyApiUrl": "/api/icons/pgadmin-svg.json",
+  "permanentId": "000194",
+  "permanentApiUrl": "/api/icons/000194.json"
 }

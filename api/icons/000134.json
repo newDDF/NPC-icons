@@ -1,0 +1,24 @@
+{
+  "name": "macmon",
+  "color": "#003594",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/macmon.svg",
+  "id": "000134",
+  "status": "active",
+  "legacyId": "macmon-svg",
+  "legacyIds": [
+    "macmon-svg"
+  ],
+  "filename": "macmon.svg",
+  "url": "/assets/svg/macmon.svg",
+  "apiUrl": "/api/icons/000134.json",
+  "legacyApiUrl": "/api/icons/macmon-svg.json"
+}

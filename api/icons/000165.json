@@ -1,0 +1,24 @@
+{
+  "name": "nsg",
+  "color": "#50e6ff",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/nsg.svg",
+  "id": "000165",
+  "status": "active",
+  "legacyId": "nsg-svg",
+  "legacyIds": [
+    "nsg-svg"
+  ],
+  "filename": "nsg.svg",
+  "url": "/assets/svg/nsg.svg",
+  "apiUrl": "/api/icons/000165.json",
+  "legacyApiUrl": "/api/icons/nsg-svg.json"
+}

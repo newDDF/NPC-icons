@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/synology.svg",
   "id": "synology-svg",
+  "status": "active",
+  "legacyId": "synology-svg",
+  "legacyIds": [
+    "synology-svg"
+  ],
   "filename": "synology.svg",
   "url": "/assets/svg/synology.svg",
-  "apiUrl": "/api/icons/synology-svg.json"
+  "apiUrl": "/api/icons/synology-svg.json",
+  "legacyApiUrl": "/api/icons/synology-svg.json",
+  "permanentId": "000036",
+  "permanentApiUrl": "/api/icons/000036.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "ollama",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "AI"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/ollama.svg",
+  "id": "000171",
+  "status": "active",
+  "legacyId": "ollama-svg",
+  "legacyIds": [
+    "ollama-svg"
+  ],
+  "filename": "ollama.svg",
+  "url": "/assets/svg/ollama.svg",
+  "apiUrl": "/api/icons/000171.json",
+  "legacyApiUrl": "/api/icons/ollama-svg.json"
+}

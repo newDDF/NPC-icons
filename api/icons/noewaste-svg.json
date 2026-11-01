@@ -7,9 +7,20 @@
   "category": [
     "Other"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/NoEWaste.svg",
   "id": "noewaste-svg",
+  "status": "active",
+  "legacyId": "noewaste-svg",
+  "legacyIds": [
+    "noewaste-svg"
+  ],
   "filename": "NoEWaste.svg",
   "url": "/assets/svg/NoEWaste.svg",
-  "apiUrl": "/api/icons/noewaste-svg.json"
+  "apiUrl": "/api/icons/noewaste-svg.json",
+  "legacyApiUrl": "/api/icons/noewaste-svg.json",
+  "permanentId": "000315",
+  "permanentApiUrl": "/api/icons/000315.json"
 }

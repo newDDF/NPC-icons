@@ -1,0 +1,24 @@
+{
+  "name": "html",
+  "color": "#e44d26",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/html.svg",
+  "id": "000108",
+  "status": "active",
+  "legacyId": "html-svg",
+  "legacyIds": [
+    "html-svg"
+  ],
+  "filename": "html.svg",
+  "url": "/assets/svg/html.svg",
+  "apiUrl": "/api/icons/000108.json",
+  "legacyApiUrl": "/api/icons/html-svg.json"
+}

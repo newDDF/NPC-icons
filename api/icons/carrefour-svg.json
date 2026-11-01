@@ -7,9 +7,20 @@
   "category": [
     "E-commerce"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/carrefour.svg",
   "id": "carrefour-svg",
+  "status": "active",
+  "legacyId": "carrefour-svg",
+  "legacyIds": [
+    "carrefour-svg"
+  ],
   "filename": "carrefour.svg",
   "url": "/assets/svg/carrefour.svg",
-  "apiUrl": "/api/icons/carrefour-svg.json"
+  "apiUrl": "/api/icons/carrefour-svg.json",
+  "legacyApiUrl": "/api/icons/carrefour-svg.json",
+  "permanentId": "000066",
+  "permanentApiUrl": "/api/icons/000066.json"
 }

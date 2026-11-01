@@ -7,9 +7,20 @@
   "category": [
     "Operating Systems"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/puppy-linux.svg",
   "id": "puppy-linux-svg",
+  "status": "active",
+  "legacyId": "puppy-linux-svg",
+  "legacyIds": [
+    "puppy-linux-svg"
+  ],
   "filename": "puppy-linux.svg",
   "url": "/assets/svg/puppy-linux.svg",
-  "apiUrl": "/api/icons/puppy-linux-svg.json"
+  "apiUrl": "/api/icons/puppy-linux-svg.json",
+  "legacyApiUrl": "/api/icons/puppy-linux-svg.json",
+  "permanentId": "000215",
+  "permanentApiUrl": "/api/icons/000215.json"
 }

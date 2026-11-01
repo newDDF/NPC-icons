@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/line.svg",
   "id": "line-svg",
+  "status": "active",
+  "legacyId": "line-svg",
+  "legacyIds": [
+    "line-svg"
+  ],
   "filename": "line.svg",
   "url": "/assets/svg/line.svg",
-  "apiUrl": "/api/icons/line-svg.json"
+  "apiUrl": "/api/icons/line-svg.json",
+  "legacyApiUrl": "/api/icons/line-svg.json",
+  "permanentId": "000017",
+  "permanentApiUrl": "/api/icons/000017.json"
 }

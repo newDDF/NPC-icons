@@ -1,0 +1,24 @@
+{
+  "name": "android",
+  "color": "#3DDC84",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/android.svg",
+  "id": "000003",
+  "status": "active",
+  "legacyId": "android-svg",
+  "legacyIds": [
+    "android-svg"
+  ],
+  "filename": "android.svg",
+  "url": "/assets/svg/android.svg",
+  "apiUrl": "/api/icons/000003.json",
+  "legacyApiUrl": "/api/icons/android-svg.json"
+}

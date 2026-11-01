@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/recyclarr.svg",
   "id": "recyclarr-svg",
+  "status": "active",
+  "legacyId": "recyclarr-svg",
+  "legacyIds": [
+    "recyclarr-svg"
+  ],
   "filename": "recyclarr.svg",
   "url": "/assets/svg/recyclarr.svg",
-  "apiUrl": "/api/icons/recyclarr-svg.json"
+  "apiUrl": "/api/icons/recyclarr-svg.json",
+  "legacyApiUrl": "/api/icons/recyclarr-svg.json",
+  "permanentId": "000223",
+  "permanentApiUrl": "/api/icons/000223.json"
 }

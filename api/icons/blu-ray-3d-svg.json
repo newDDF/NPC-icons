@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/blu-ray-3d.svg",
   "id": "blu-ray-3d-svg",
+  "status": "active",
+  "legacyId": "blu-ray-3d-svg",
+  "legacyIds": [
+    "blu-ray-3d-svg"
+  ],
   "filename": "blu-ray-3d.svg",
   "url": "/assets/svg/blu-ray-3d.svg",
-  "apiUrl": "/api/icons/blu-ray-3d-svg.json"
+  "apiUrl": "/api/icons/blu-ray-3d-svg.json",
+  "legacyApiUrl": "/api/icons/blu-ray-3d-svg.json",
+  "permanentId": "000057",
+  "permanentApiUrl": "/api/icons/000057.json"
 }

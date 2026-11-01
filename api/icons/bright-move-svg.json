@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/bright-move.svg",
   "id": "bright-move-svg",
+  "status": "active",
+  "legacyId": "bright-move-svg",
+  "legacyIds": [
+    "bright-move-svg"
+  ],
   "filename": "bright-move.svg",
   "url": "/assets/svg/bright-move.svg",
-  "apiUrl": "/api/icons/bright-move-svg.json"
+  "apiUrl": "/api/icons/bright-move-svg.json",
+  "legacyApiUrl": "/api/icons/bright-move-svg.json",
+  "permanentId": "000062",
+  "permanentApiUrl": "/api/icons/000062.json"
 }

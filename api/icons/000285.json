@@ -1,0 +1,24 @@
+{
+  "name": "Daemonphk",
+  "color": "#ce0201",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/Daemonphk.svg",
+  "id": "000285",
+  "status": "active",
+  "legacyId": "daemonphk-svg",
+  "legacyIds": [
+    "daemonphk-svg"
+  ],
+  "filename": "Daemonphk.svg",
+  "url": "/assets/svg/Daemonphk.svg",
+  "apiUrl": "/api/icons/000285.json",
+  "legacyApiUrl": "/api/icons/daemonphk-svg.json"
+}

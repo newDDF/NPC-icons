@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/oh-my-posh.svg",
   "id": "oh-my-posh-svg",
+  "status": "active",
+  "legacyId": "oh-my-posh-svg",
+  "legacyIds": [
+    "oh-my-posh-svg"
+  ],
   "filename": "oh-my-posh.svg",
   "url": "/assets/svg/oh-my-posh.svg",
-  "apiUrl": "/api/icons/oh-my-posh-svg.json"
+  "apiUrl": "/api/icons/oh-my-posh-svg.json",
+  "legacyApiUrl": "/api/icons/oh-my-posh-svg.json",
+  "permanentId": "000170",
+  "permanentApiUrl": "/api/icons/000170.json"
 }

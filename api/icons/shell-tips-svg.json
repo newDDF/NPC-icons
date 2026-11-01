@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/shell-tips.svg",
   "id": "shell-tips-svg",
+  "status": "active",
+  "legacyId": "shell-tips-svg",
+  "legacyIds": [
+    "shell-tips-svg"
+  ],
   "filename": "shell-tips.svg",
   "url": "/assets/svg/shell-tips.svg",
-  "apiUrl": "/api/icons/shell-tips-svg.json"
+  "apiUrl": "/api/icons/shell-tips-svg.json",
+  "legacyApiUrl": "/api/icons/shell-tips-svg.json",
+  "permanentId": "000232",
+  "permanentApiUrl": "/api/icons/000232.json"
 }

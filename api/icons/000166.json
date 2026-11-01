@@ -1,0 +1,24 @@
+{
+  "name": "ntfy",
+  "color": "#45a28f",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/ntfy.svg",
+  "id": "000166",
+  "status": "active",
+  "legacyId": "ntfy-svg",
+  "legacyIds": [
+    "ntfy-svg"
+  ],
+  "filename": "ntfy.svg",
+  "url": "/assets/svg/ntfy.svg",
+  "apiUrl": "/api/icons/000166.json",
+  "legacyApiUrl": "/api/icons/ntfy-svg.json"
+}

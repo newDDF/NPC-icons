@@ -7,9 +7,20 @@
   "category": [
     "Other"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/alter.svg",
   "id": "alter-svg",
+  "status": "active",
+  "legacyId": "alter-svg",
+  "legacyIds": [
+    "alter-svg"
+  ],
   "filename": "alter.svg",
   "url": "/assets/svg/alter.svg",
-  "apiUrl": "/api/icons/alter-svg.json"
+  "apiUrl": "/api/icons/alter-svg.json",
+  "legacyApiUrl": "/api/icons/alter-svg.json",
+  "permanentId": "000270",
+  "permanentApiUrl": "/api/icons/000270.json"
 }

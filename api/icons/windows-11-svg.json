@@ -7,9 +7,20 @@
   "category": [
     "Operating Systems"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/windows-11.svg",
   "id": "windows-11-svg",
+  "status": "active",
+  "legacyId": "windows-11-svg",
+  "legacyIds": [
+    "windows-11-svg"
+  ],
   "filename": "windows-11.svg",
   "url": "/assets/svg/windows-11.svg",
-  "apiUrl": "/api/icons/windows-11-svg.json"
+  "apiUrl": "/api/icons/windows-11-svg.json",
+  "legacyApiUrl": "/api/icons/windows-11-svg.json",
+  "permanentId": "000259",
+  "permanentApiUrl": "/api/icons/000259.json"
 }

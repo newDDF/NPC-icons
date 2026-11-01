@@ -1,0 +1,24 @@
+{
+  "name": "jio",
+  "color": "#ff0000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/jio.svg",
+  "id": "000121",
+  "status": "active",
+  "legacyId": "jio-svg",
+  "legacyIds": [
+    "jio-svg"
+  ],
+  "filename": "jio.svg",
+  "url": "/assets/svg/jio.svg",
+  "apiUrl": "/api/icons/000121.json",
+  "legacyApiUrl": "/api/icons/jio-svg.json"
+}

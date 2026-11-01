@@ -7,9 +7,20 @@
   "category": [
     "Food & Beverage"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/redbull.svg",
   "id": "redbull-svg",
+  "status": "active",
+  "legacyId": "redbull-svg",
+  "legacyIds": [
+    "redbull-svg"
+  ],
   "filename": "redbull.svg",
   "url": "/assets/svg/redbull.svg",
-  "apiUrl": "/api/icons/redbull-svg.json"
+  "apiUrl": "/api/icons/redbull-svg.json",
+  "legacyApiUrl": "/api/icons/redbull-svg.json",
+  "permanentId": "000320",
+  "permanentApiUrl": "/api/icons/000320.json"
 }

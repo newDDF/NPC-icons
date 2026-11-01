@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/arm.svg",
   "id": "arm-svg",
+  "status": "active",
+  "legacyId": "arm-svg",
+  "legacyIds": [
+    "arm-svg"
+  ],
   "filename": "arm.svg",
   "url": "/assets/svg/arm.svg",
-  "apiUrl": "/api/icons/arm-svg.json"
+  "apiUrl": "/api/icons/arm-svg.json",
+  "legacyApiUrl": "/api/icons/arm-svg.json",
+  "permanentId": "000049",
+  "permanentApiUrl": "/api/icons/000049.json"
 }

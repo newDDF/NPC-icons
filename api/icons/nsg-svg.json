@@ -7,9 +7,20 @@
   "category": [
     "Other"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/nsg.svg",
   "id": "nsg-svg",
+  "status": "active",
+  "legacyId": "nsg-svg",
+  "legacyIds": [
+    "nsg-svg"
+  ],
   "filename": "nsg.svg",
   "url": "/assets/svg/nsg.svg",
-  "apiUrl": "/api/icons/nsg-svg.json"
+  "apiUrl": "/api/icons/nsg-svg.json",
+  "legacyApiUrl": "/api/icons/nsg-svg.json",
+  "permanentId": "000165",
+  "permanentApiUrl": "/api/icons/000165.json"
 }

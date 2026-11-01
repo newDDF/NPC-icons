@@ -7,9 +7,20 @@
   "category": [
     "Gaming"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/BandaiNamco.svg",
   "id": "bandainamco-svg",
+  "status": "active",
+  "legacyId": "bandainamco-svg",
+  "legacyIds": [
+    "bandainamco-svg"
+  ],
   "filename": "BandaiNamco.svg",
   "url": "/assets/svg/BandaiNamco.svg",
-  "apiUrl": "/api/icons/bandainamco-svg.json"
+  "apiUrl": "/api/icons/bandainamco-svg.json",
+  "legacyApiUrl": "/api/icons/bandainamco-svg.json",
+  "permanentId": "000276",
+  "permanentApiUrl": "/api/icons/000276.json"
 }

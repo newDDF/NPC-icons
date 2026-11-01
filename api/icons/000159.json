@@ -1,0 +1,24 @@
+{
+  "name": "nocodb",
+  "color": "#3b41d3",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/nocodb.svg",
+  "id": "000159",
+  "status": "active",
+  "legacyId": "nocodb-svg",
+  "legacyIds": [
+    "nocodb-svg"
+  ],
+  "filename": "nocodb.svg",
+  "url": "/assets/svg/nocodb.svg",
+  "apiUrl": "/api/icons/000159.json",
+  "legacyApiUrl": "/api/icons/nocodb-svg.json"
+}

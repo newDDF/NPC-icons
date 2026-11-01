@@ -1,0 +1,24 @@
+{
+  "name": "threads",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/threads.svg",
+  "id": "000244",
+  "status": "active",
+  "legacyId": "threads-svg",
+  "legacyIds": [
+    "threads-svg"
+  ],
+  "filename": "threads.svg",
+  "url": "/assets/svg/threads.svg",
+  "apiUrl": "/api/icons/000244.json",
+  "legacyApiUrl": "/api/icons/threads-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "Networking"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/bluetooth.svg",
   "id": "bluetooth-svg",
+  "status": "active",
+  "legacyId": "bluetooth-svg",
+  "legacyIds": [
+    "bluetooth-svg"
+  ],
   "filename": "bluetooth.svg",
   "url": "/assets/svg/bluetooth.svg",
-  "apiUrl": "/api/icons/bluetooth-svg.json"
+  "apiUrl": "/api/icons/bluetooth-svg.json",
+  "legacyApiUrl": "/api/icons/bluetooth-svg.json",
+  "permanentId": "000059",
+  "permanentApiUrl": "/api/icons/000059.json"
 }

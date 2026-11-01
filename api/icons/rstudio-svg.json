@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/rstudio.svg",
   "id": "rstudio-svg",
+  "status": "active",
+  "legacyId": "rstudio-svg",
+  "legacyIds": [
+    "rstudio-svg"
+  ],
   "filename": "rstudio.svg",
   "url": "/assets/svg/rstudio.svg",
-  "apiUrl": "/api/icons/rstudio-svg.json"
+  "apiUrl": "/api/icons/rstudio-svg.json",
+  "legacyApiUrl": "/api/icons/rstudio-svg.json",
+  "permanentId": "000228",
+  "permanentApiUrl": "/api/icons/000228.json"
 }

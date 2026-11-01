@@ -7,9 +7,20 @@
   "category": [
     "Gaming"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/nintendo-switch.svg",
   "id": "nintendo-switch-svg",
+  "status": "active",
+  "legacyId": "nintendo-switch-svg",
+  "legacyIds": [
+    "nintendo-switch-svg"
+  ],
   "filename": "nintendo-switch.svg",
   "url": "/assets/svg/nintendo-switch.svg",
-  "apiUrl": "/api/icons/nintendo-switch-svg.json"
+  "apiUrl": "/api/icons/nintendo-switch-svg.json",
+  "legacyApiUrl": "/api/icons/nintendo-switch-svg.json",
+  "permanentId": "000157",
+  "permanentApiUrl": "/api/icons/000157.json"
 }

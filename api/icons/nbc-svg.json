@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/NBC.svg",
   "id": "nbc-svg",
+  "status": "active",
+  "legacyId": "nbc-svg",
+  "legacyIds": [
+    "nbc-svg"
+  ],
   "filename": "NBC.svg",
   "url": "/assets/svg/NBC.svg",
-  "apiUrl": "/api/icons/nbc-svg.json"
+  "apiUrl": "/api/icons/nbc-svg.json",
+  "legacyApiUrl": "/api/icons/nbc-svg.json",
+  "permanentId": "000314",
+  "permanentApiUrl": "/api/icons/000314.json"
 }

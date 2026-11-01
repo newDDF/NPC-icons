@@ -8,9 +8,20 @@
     "Security",
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/proton-mail.svg",
   "id": "proton-mail-svg",
+  "status": "active",
+  "legacyId": "proton-mail-svg",
+  "legacyIds": [
+    "proton-mail-svg"
+  ],
   "filename": "proton-mail.svg",
   "url": "/assets/svg/proton-mail.svg",
-  "apiUrl": "/api/icons/proton-mail-svg.json"
+  "apiUrl": "/api/icons/proton-mail-svg.json",
+  "legacyApiUrl": "/api/icons/proton-mail-svg.json",
+  "permanentId": "000212",
+  "permanentApiUrl": "/api/icons/000212.json"
 }

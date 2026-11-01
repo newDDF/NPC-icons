@@ -1,0 +1,24 @@
+{
+  "name": "homebox",
+  "color": "#dadada",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/homebox.svg",
+  "id": "000105",
+  "status": "active",
+  "legacyId": "homebox-svg",
+  "legacyIds": [
+    "homebox-svg"
+  ],
+  "filename": "homebox.svg",
+  "url": "/assets/svg/homebox.svg",
+  "apiUrl": "/api/icons/000105.json",
+  "legacyApiUrl": "/api/icons/homebox-svg.json"
+}

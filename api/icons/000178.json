@@ -1,0 +1,24 @@
+{
+  "name": "openpanel",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/openpanel.svg",
+  "id": "000178",
+  "status": "active",
+  "legacyId": "openpanel-svg",
+  "legacyIds": [
+    "openpanel-svg"
+  ],
+  "filename": "openpanel.svg",
+  "url": "/assets/svg/openpanel.svg",
+  "apiUrl": "/api/icons/000178.json",
+  "legacyApiUrl": "/api/icons/openpanel-svg.json"
+}

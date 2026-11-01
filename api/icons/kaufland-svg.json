@@ -7,9 +7,20 @@
   "category": [
     "E-commerce"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/kaufland.svg",
   "id": "kaufland-svg",
+  "status": "active",
+  "legacyId": "kaufland-svg",
+  "legacyIds": [
+    "kaufland-svg"
+  ],
   "filename": "kaufland.svg",
   "url": "/assets/svg/kaufland.svg",
-  "apiUrl": "/api/icons/kaufland-svg.json"
+  "apiUrl": "/api/icons/kaufland-svg.json",
+  "legacyApiUrl": "/api/icons/kaufland-svg.json",
+  "permanentId": "000125",
+  "permanentApiUrl": "/api/icons/000125.json"
 }

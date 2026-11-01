@@ -7,9 +7,20 @@
   "category": [
     "Food & Beverage"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/McDonalds.svg",
   "id": "mcdonalds-svg",
+  "status": "active",
+  "legacyId": "mcdonalds-svg",
+  "legacyIds": [
+    "mcdonalds-svg"
+  ],
   "filename": "McDonalds.svg",
   "url": "/assets/svg/McDonalds.svg",
-  "apiUrl": "/api/icons/mcdonalds-svg.json"
+  "apiUrl": "/api/icons/mcdonalds-svg.json",
+  "legacyApiUrl": "/api/icons/mcdonalds-svg.json",
+  "permanentId": "000311",
+  "permanentApiUrl": "/api/icons/000311.json"
 }

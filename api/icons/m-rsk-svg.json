@@ -7,9 +7,20 @@
   "category": [
     "E-commerce"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Mærsk.svg",
   "id": "m-rsk-svg",
+  "status": "active",
+  "legacyId": "m-rsk-svg",
+  "legacyIds": [
+    "m-rsk-svg"
+  ],
   "filename": "Mærsk.svg",
   "url": "/assets/svg/Mærsk.svg",
-  "apiUrl": "/api/icons/m-rsk-svg.json"
+  "apiUrl": "/api/icons/m-rsk-svg.json",
+  "legacyApiUrl": "/api/icons/m-rsk-svg.json",
+  "permanentId": "000312",
+  "permanentApiUrl": "/api/icons/000312.json"
 }

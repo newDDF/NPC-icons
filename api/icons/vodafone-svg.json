@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/vodafone.svg",
   "id": "vodafone-svg",
+  "status": "active",
+  "legacyId": "vodafone-svg",
+  "legacyIds": [
+    "vodafone-svg"
+  ],
   "filename": "vodafone.svg",
   "url": "/assets/svg/vodafone.svg",
-  "apiUrl": "/api/icons/vodafone-svg.json"
+  "apiUrl": "/api/icons/vodafone-svg.json",
+  "legacyApiUrl": "/api/icons/vodafone-svg.json",
+  "permanentId": "000255",
+  "permanentApiUrl": "/api/icons/000255.json"
 }

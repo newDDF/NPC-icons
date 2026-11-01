@@ -7,9 +7,20 @@
   "category": [
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/convertio-dark.svg",
   "id": "convertio-dark-svg",
+  "status": "active",
+  "legacyId": "convertio-dark-svg",
+  "legacyIds": [
+    "convertio-dark-svg"
+  ],
   "filename": "convertio-dark.svg",
   "url": "/assets/svg/convertio-dark.svg",
-  "apiUrl": "/api/icons/convertio-dark-svg.json"
+  "apiUrl": "/api/icons/convertio-dark-svg.json",
+  "legacyApiUrl": "/api/icons/convertio-dark-svg.json",
+  "permanentId": "000071",
+  "permanentApiUrl": "/api/icons/000071.json"
 }

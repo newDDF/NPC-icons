@@ -1,0 +1,24 @@
+{
+  "name": "brother",
+  "color": "#1535a3",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/brother.svg",
+  "id": "000065",
+  "status": "active",
+  "legacyId": "brother-svg",
+  "legacyIds": [
+    "brother-svg"
+  ],
+  "filename": "brother.svg",
+  "url": "/assets/svg/brother.svg",
+  "apiUrl": "/api/icons/000065.json",
+  "legacyApiUrl": "/api/icons/brother-svg.json"
+}

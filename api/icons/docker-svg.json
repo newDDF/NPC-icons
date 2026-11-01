@@ -8,9 +8,20 @@
     "Infrastructure",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/docker.svg",
   "id": "docker-svg",
+  "status": "active",
+  "legacyId": "docker-svg",
+  "legacyIds": [
+    "docker-svg"
+  ],
   "filename": "docker.svg",
   "url": "/assets/svg/docker.svg",
-  "apiUrl": "/api/icons/docker-svg.json"
+  "apiUrl": "/api/icons/docker-svg.json",
+  "legacyApiUrl": "/api/icons/docker-svg.json",
+  "permanentId": "000077",
+  "permanentApiUrl": "/api/icons/000077.json"
 }

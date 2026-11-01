@@ -1,0 +1,24 @@
+{
+  "name": "at-t",
+  "color": "#119bd7",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Communication"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/at-t.svg",
+  "id": "000052",
+  "status": "active",
+  "legacyId": "at-t-svg",
+  "legacyIds": [
+    "at-t-svg"
+  ],
+  "filename": "at-t.svg",
+  "url": "/assets/svg/at-t.svg",
+  "apiUrl": "/api/icons/000052.json",
+  "legacyApiUrl": "/api/icons/at-t-svg.json"
+}

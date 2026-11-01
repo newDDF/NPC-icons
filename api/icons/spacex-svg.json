@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/spacex.svg",
   "id": "spacex-svg",
+  "status": "active",
+  "legacyId": "spacex-svg",
+  "legacyIds": [
+    "spacex-svg"
+  ],
   "filename": "spacex.svg",
   "url": "/assets/svg/spacex.svg",
-  "apiUrl": "/api/icons/spacex-svg.json"
+  "apiUrl": "/api/icons/spacex-svg.json",
+  "legacyApiUrl": "/api/icons/spacex-svg.json",
+  "permanentId": "000333",
+  "permanentApiUrl": "/api/icons/000333.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "Hanghai-IR",
+  "color": "#B40101",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark vector asset.",
+  "category": [
+    "Education"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/Hanghai-IR.svg",
+  "id": "000015",
+  "status": "active",
+  "legacyId": "hanghai-ir-svg",
+  "legacyIds": [
+    "hanghai-ir-svg"
+  ],
+  "filename": "Hanghai-IR.svg",
+  "url": "/assets/svg/Hanghai-IR.svg",
+  "apiUrl": "/api/icons/000015.json",
+  "legacyApiUrl": "/api/icons/hanghai-ir-svg.json"
+}

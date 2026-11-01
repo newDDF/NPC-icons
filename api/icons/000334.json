@@ -1,0 +1,24 @@
+{
+  "name": "starbucks",
+  "color": "#006241",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Food & Beverage"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/starbucks.svg",
+  "id": "000334",
+  "status": "active",
+  "legacyId": "starbucks-svg",
+  "legacyIds": [
+    "starbucks-svg"
+  ],
+  "filename": "starbucks.svg",
+  "url": "/assets/svg/starbucks.svg",
+  "apiUrl": "/api/icons/000334.json",
+  "legacyApiUrl": "/api/icons/starbucks-svg.json"
+}

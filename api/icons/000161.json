@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-alt",
+  "color": "#79b461",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/nodejs-alt.svg",
+  "id": "000161",
+  "status": "active",
+  "legacyId": "nodejs-alt-svg",
+  "legacyIds": [
+    "nodejs-alt-svg"
+  ],
+  "filename": "nodejs-alt.svg",
+  "url": "/assets/svg/nodejs-alt.svg",
+  "apiUrl": "/api/icons/000161.json",
+  "legacyApiUrl": "/api/icons/nodejs-alt-svg.json"
+}

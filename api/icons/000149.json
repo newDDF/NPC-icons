@@ -1,0 +1,24 @@
+{
+  "name": "microsoft-sql-server",
+  "color": "#a91f23",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/microsoft-sql-server.svg",
+  "id": "000149",
+  "status": "active",
+  "legacyId": "microsoft-sql-server-svg",
+  "legacyIds": [
+    "microsoft-sql-server-svg"
+  ],
+  "filename": "microsoft-sql-server.svg",
+  "url": "/assets/svg/microsoft-sql-server.svg",
+  "apiUrl": "/api/icons/000149.json",
+  "legacyApiUrl": "/api/icons/microsoft-sql-server-svg.json"
+}

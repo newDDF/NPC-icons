@@ -7,9 +7,20 @@
   "category": [
     "Finance"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/HSBC.svg",
   "id": "hsbc-svg",
+  "status": "active",
+  "legacyId": "hsbc-svg",
+  "legacyIds": [
+    "hsbc-svg"
+  ],
   "filename": "HSBC.svg",
   "url": "/assets/svg/HSBC.svg",
-  "apiUrl": "/api/icons/hsbc-svg.json"
+  "apiUrl": "/api/icons/hsbc-svg.json",
+  "legacyApiUrl": "/api/icons/hsbc-svg.json",
+  "permanentId": "000301",
+  "permanentApiUrl": "/api/icons/000301.json"
 }

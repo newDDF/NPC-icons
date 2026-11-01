@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/rclone.svg",
   "id": "rclone-svg",
+  "status": "active",
+  "legacyId": "rclone-svg",
+  "legacyIds": [
+    "rclone-svg"
+  ],
   "filename": "rclone.svg",
   "url": "/assets/svg/rclone.svg",
-  "apiUrl": "/api/icons/rclone-svg.json"
+  "apiUrl": "/api/icons/rclone-svg.json",
+  "legacyApiUrl": "/api/icons/rclone-svg.json",
+  "permanentId": "000220",
+  "permanentApiUrl": "/api/icons/000220.json"
 }

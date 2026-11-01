@@ -8,9 +8,20 @@
     "E-commerce",
     "Food & Beverage"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/kfc.svg",
   "id": "kfc-svg",
+  "status": "active",
+  "legacyId": "kfc-svg",
+  "legacyIds": [
+    "kfc-svg"
+  ],
   "filename": "kfc.svg",
   "url": "/assets/svg/kfc.svg",
-  "apiUrl": "/api/icons/kfc-svg.json"
+  "apiUrl": "/api/icons/kfc-svg.json",
+  "legacyApiUrl": "/api/icons/kfc-svg.json",
+  "permanentId": "000303",
+  "permanentApiUrl": "/api/icons/000303.json"
 }

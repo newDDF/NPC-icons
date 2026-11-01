@@ -7,9 +7,20 @@
   "category": [
     "Social"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/linkedin.svg",
   "id": "linkedin-svg",
+  "status": "active",
+  "legacyId": "linkedin-svg",
+  "legacyIds": [
+    "linkedin-svg"
+  ],
   "filename": "linkedin.svg",
   "url": "/assets/svg/linkedin.svg",
-  "apiUrl": "/api/icons/linkedin-svg.json"
+  "apiUrl": "/api/icons/linkedin-svg.json",
+  "legacyApiUrl": "/api/icons/linkedin-svg.json",
+  "permanentId": "000132",
+  "permanentApiUrl": "/api/icons/000132.json"
 }

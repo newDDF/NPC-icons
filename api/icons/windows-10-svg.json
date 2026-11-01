@@ -7,9 +7,20 @@
   "category": [
     "Operating Systems"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/windows-10.svg",
   "id": "windows-10-svg",
+  "status": "active",
+  "legacyId": "windows-10-svg",
+  "legacyIds": [
+    "windows-10-svg"
+  ],
   "filename": "windows-10.svg",
   "url": "/assets/svg/windows-10.svg",
-  "apiUrl": "/api/icons/windows-10-svg.json"
+  "apiUrl": "/api/icons/windows-10-svg.json",
+  "legacyApiUrl": "/api/icons/windows-10-svg.json",
+  "permanentId": "000258",
+  "permanentApiUrl": "/api/icons/000258.json"
 }

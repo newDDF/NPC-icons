@@ -1,0 +1,24 @@
+{
+  "name": "xbox",
+  "color": "#107c10",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/xbox.svg",
+  "id": "000263",
+  "status": "active",
+  "legacyId": "xbox-svg",
+  "legacyIds": [
+    "xbox-svg"
+  ],
+  "filename": "xbox.svg",
+  "url": "/assets/svg/xbox.svg",
+  "apiUrl": "/api/icons/000263.json",
+  "legacyApiUrl": "/api/icons/xbox-svg.json"
+}

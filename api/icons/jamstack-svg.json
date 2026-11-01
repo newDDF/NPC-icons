@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/jamstack.svg",
   "id": "jamstack-svg",
+  "status": "active",
+  "legacyId": "jamstack-svg",
+  "legacyIds": [
+    "jamstack-svg"
+  ],
   "filename": "jamstack.svg",
   "url": "/assets/svg/jamstack.svg",
-  "apiUrl": "/api/icons/jamstack-svg.json"
+  "apiUrl": "/api/icons/jamstack-svg.json",
+  "legacyApiUrl": "/api/icons/jamstack-svg.json",
+  "permanentId": "000118",
+  "permanentApiUrl": "/api/icons/000118.json"
 }

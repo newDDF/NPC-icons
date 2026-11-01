@@ -7,9 +7,20 @@
   "category": [
     "Finance"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Greendot.svg",
   "id": "greendot-svg",
+  "status": "active",
+  "legacyId": "greendot-svg",
+  "legacyIds": [
+    "greendot-svg"
+  ],
   "filename": "Greendot.svg",
   "url": "/assets/svg/Greendot.svg",
-  "apiUrl": "/api/icons/greendot-svg.json"
+  "apiUrl": "/api/icons/greendot-svg.json",
+  "legacyApiUrl": "/api/icons/greendot-svg.json",
+  "permanentId": "000299",
+  "permanentApiUrl": "/api/icons/000299.json"
 }

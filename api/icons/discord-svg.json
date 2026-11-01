@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/discord.svg",
   "id": "discord-svg",
+  "status": "active",
+  "legacyId": "discord-svg",
+  "legacyIds": [
+    "discord-svg"
+  ],
   "filename": "discord.svg",
   "url": "/assets/svg/discord.svg",
-  "apiUrl": "/api/icons/discord-svg.json"
+  "apiUrl": "/api/icons/discord-svg.json",
+  "legacyApiUrl": "/api/icons/discord-svg.json",
+  "permanentId": "000075",
+  "permanentApiUrl": "/api/icons/000075.json"
 }

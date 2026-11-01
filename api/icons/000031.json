@@ -1,0 +1,24 @@
+{
+  "name": "tomianime",
+  "color": "#EF4E46",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/tomianime.svg",
+  "id": "000031",
+  "status": "active",
+  "legacyId": "tomianime-svg",
+  "legacyIds": [
+    "tomianime-svg"
+  ],
+  "filename": "tomianime.svg",
+  "url": "/assets/svg/tomianime.svg",
+  "apiUrl": "/api/icons/000031.json",
+  "legacyApiUrl": "/api/icons/tomianime-svg.json"
+}

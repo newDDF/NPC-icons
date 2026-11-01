@@ -1,0 +1,24 @@
+{
+  "name": "windows-10",
+  "color": "#00adef",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/windows-10.svg",
+  "id": "000258",
+  "status": "active",
+  "legacyId": "windows-10-svg",
+  "legacyIds": [
+    "windows-10-svg"
+  ],
+  "filename": "windows-10.svg",
+  "url": "/assets/svg/windows-10.svg",
+  "apiUrl": "/api/icons/000258.json",
+  "legacyApiUrl": "/api/icons/windows-10-svg.json"
+}

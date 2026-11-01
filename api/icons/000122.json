@@ -1,0 +1,24 @@
+{
+  "name": "jumpserver",
+  "color": "#1ab394",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/jumpserver.svg",
+  "id": "000122",
+  "status": "active",
+  "legacyId": "jumpserver-svg",
+  "legacyIds": [
+    "jumpserver-svg"
+  ],
+  "filename": "jumpserver.svg",
+  "url": "/assets/svg/jumpserver.svg",
+  "apiUrl": "/api/icons/000122.json",
+  "legacyApiUrl": "/api/icons/jumpserver-svg.json"
+}

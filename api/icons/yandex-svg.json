@@ -7,9 +7,20 @@
   "category": [
     "Technology"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/yandex.svg",
   "id": "yandex-svg",
+  "status": "active",
+  "legacyId": "yandex-svg",
+  "legacyIds": [
+    "yandex-svg"
+  ],
   "filename": "yandex.svg",
   "url": "/assets/svg/yandex.svg",
-  "apiUrl": "/api/icons/yandex-svg.json"
+  "apiUrl": "/api/icons/yandex-svg.json",
+  "legacyApiUrl": "/api/icons/yandex-svg.json",
+  "permanentId": "000266",
+  "permanentApiUrl": "/api/icons/000266.json"
 }

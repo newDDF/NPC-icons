@@ -1,0 +1,24 @@
+{
+  "name": "scania",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/scania.svg",
+  "id": "000328",
+  "status": "active",
+  "legacyId": "scania-svg",
+  "legacyIds": [
+    "scania-svg"
+  ],
+  "filename": "scania.svg",
+  "url": "/assets/svg/scania.svg",
+  "apiUrl": "/api/icons/000328.json",
+  "legacyApiUrl": "/api/icons/scania-svg.json"
+}

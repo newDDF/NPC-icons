@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/mailbox.svg",
   "id": "mailbox-svg",
+  "status": "active",
+  "legacyId": "mailbox-svg",
+  "legacyIds": [
+    "mailbox-svg"
+  ],
   "filename": "mailbox.svg",
   "url": "/assets/svg/mailbox.svg",
-  "apiUrl": "/api/icons/mailbox-svg.json"
+  "apiUrl": "/api/icons/mailbox-svg.json",
+  "legacyApiUrl": "/api/icons/mailbox-svg.json",
+  "permanentId": "000135",
+  "permanentApiUrl": "/api/icons/000135.json"
 }

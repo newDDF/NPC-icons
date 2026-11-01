@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/keila.svg",
   "id": "keila-svg",
+  "status": "active",
+  "legacyId": "keila-svg",
+  "legacyIds": [
+    "keila-svg"
+  ],
   "filename": "keila.svg",
   "url": "/assets/svg/keila.svg",
-  "apiUrl": "/api/icons/keila-svg.json"
+  "apiUrl": "/api/icons/keila-svg.json",
+  "legacyApiUrl": "/api/icons/keila-svg.json",
+  "permanentId": "000127",
+  "permanentApiUrl": "/api/icons/000127.json"
 }

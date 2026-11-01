@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/cockpit.svg",
   "id": "cockpit-svg",
+  "status": "active",
+  "legacyId": "cockpit-svg",
+  "legacyIds": [
+    "cockpit-svg"
+  ],
   "filename": "cockpit.svg",
   "url": "/assets/svg/cockpit.svg",
-  "apiUrl": "/api/icons/cockpit-svg.json"
+  "apiUrl": "/api/icons/cockpit-svg.json",
+  "legacyApiUrl": "/api/icons/cockpit-svg.json",
+  "permanentId": "000070",
+  "permanentApiUrl": "/api/icons/000070.json"
 }

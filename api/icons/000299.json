@@ -1,0 +1,24 @@
+{
+  "name": "Greendot",
+  "color": "#01a43b",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/Greendot.svg",
+  "id": "000299",
+  "status": "active",
+  "legacyId": "greendot-svg",
+  "legacyIds": [
+    "greendot-svg"
+  ],
+  "filename": "Greendot.svg",
+  "url": "/assets/svg/Greendot.svg",
+  "apiUrl": "/api/icons/000299.json",
+  "legacyApiUrl": "/api/icons/greendot-svg.json"
+}

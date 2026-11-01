@@ -7,9 +7,20 @@
   "category": [
     "Security"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/papercut.svg",
   "id": "papercut-svg",
+  "status": "active",
+  "legacyId": "papercut-svg",
+  "legacyIds": [
+    "papercut-svg"
+  ],
   "filename": "papercut.svg",
   "url": "/assets/svg/papercut.svg",
-  "apiUrl": "/api/icons/papercut-svg.json"
+  "apiUrl": "/api/icons/papercut-svg.json",
+  "legacyApiUrl": "/api/icons/papercut-svg.json",
+  "permanentId": "000186",
+  "permanentApiUrl": "/api/icons/000186.json"
 }

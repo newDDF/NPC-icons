@@ -1,0 +1,24 @@
+{
+  "name": "peppermint",
+  "color": "#d4f14e",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/peppermint.svg",
+  "id": "000192",
+  "status": "active",
+  "legacyId": "peppermint-svg",
+  "legacyIds": [
+    "peppermint-svg"
+  ],
+  "filename": "peppermint.svg",
+  "url": "/assets/svg/peppermint.svg",
+  "apiUrl": "/api/icons/000192.json",
+  "legacyApiUrl": "/api/icons/peppermint-svg.json"
+}

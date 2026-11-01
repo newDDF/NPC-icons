@@ -1,0 +1,24 @@
+{
+  "name": "paramount-plus",
+  "color": "#0064ff",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/paramount-plus.svg",
+  "id": "000188",
+  "status": "active",
+  "legacyId": "paramount-plus-svg",
+  "legacyIds": [
+    "paramount-plus-svg"
+  ],
+  "filename": "paramount-plus.svg",
+  "url": "/assets/svg/paramount-plus.svg",
+  "apiUrl": "/api/icons/000188.json",
+  "legacyApiUrl": "/api/icons/paramount-plus-svg.json"
+}

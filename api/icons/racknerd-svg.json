@@ -7,9 +7,20 @@
   "category": [
     "Cloud"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/racknerd.svg",
   "id": "racknerd-svg",
+  "status": "active",
+  "legacyId": "racknerd-svg",
+  "legacyIds": [
+    "racknerd-svg"
+  ],
   "filename": "racknerd.svg",
   "url": "/assets/svg/racknerd.svg",
-  "apiUrl": "/api/icons/racknerd-svg.json"
+  "apiUrl": "/api/icons/racknerd-svg.json",
+  "legacyApiUrl": "/api/icons/racknerd-svg.json",
+  "permanentId": "000041",
+  "permanentApiUrl": "/api/icons/000041.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/nodebb.svg",
   "id": "nodebb-svg",
+  "status": "active",
+  "legacyId": "nodebb-svg",
+  "legacyIds": [
+    "nodebb-svg"
+  ],
   "filename": "nodebb.svg",
   "url": "/assets/svg/nodebb.svg",
-  "apiUrl": "/api/icons/nodebb-svg.json"
+  "apiUrl": "/api/icons/nodebb-svg.json",
+  "legacyApiUrl": "/api/icons/nodebb-svg.json",
+  "permanentId": "000160",
+  "permanentApiUrl": "/api/icons/000160.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/nocodb.svg",
   "id": "nocodb-svg",
+  "status": "active",
+  "legacyId": "nocodb-svg",
+  "legacyIds": [
+    "nocodb-svg"
+  ],
   "filename": "nocodb.svg",
   "url": "/assets/svg/nocodb.svg",
-  "apiUrl": "/api/icons/nocodb-svg.json"
+  "apiUrl": "/api/icons/nocodb-svg.json",
+  "legacyApiUrl": "/api/icons/nocodb-svg.json",
+  "permanentId": "000159",
+  "permanentApiUrl": "/api/icons/000159.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/broadcom.svg",
   "id": "broadcom-svg",
+  "status": "active",
+  "legacyId": "broadcom-svg",
+  "legacyIds": [
+    "broadcom-svg"
+  ],
   "filename": "broadcom.svg",
   "url": "/assets/svg/broadcom.svg",
-  "apiUrl": "/api/icons/broadcom-svg.json"
+  "apiUrl": "/api/icons/broadcom-svg.json",
+  "legacyApiUrl": "/api/icons/broadcom-svg.json",
+  "permanentId": "000064",
+  "permanentApiUrl": "/api/icons/000064.json"
 }

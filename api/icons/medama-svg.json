@@ -7,9 +7,20 @@
   "category": [
     "Technology"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/medama.svg",
   "id": "medama-svg",
+  "status": "active",
+  "legacyId": "medama-svg",
+  "legacyIds": [
+    "medama-svg"
+  ],
   "filename": "medama.svg",
   "url": "/assets/svg/medama.svg",
-  "apiUrl": "/api/icons/medama-svg.json"
+  "apiUrl": "/api/icons/medama-svg.json",
+  "legacyApiUrl": "/api/icons/medama-svg.json",
+  "permanentId": "000144",
+  "permanentApiUrl": "/api/icons/000144.json"
 }

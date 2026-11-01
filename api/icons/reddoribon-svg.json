@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/reddoribon.svg",
   "id": "reddoribon-svg",
+  "status": "active",
+  "legacyId": "reddoribon-svg",
+  "legacyIds": [
+    "reddoribon-svg"
+  ],
   "filename": "reddoribon.svg",
   "url": "/assets/svg/reddoribon.svg",
-  "apiUrl": "/api/icons/reddoribon-svg.json"
+  "apiUrl": "/api/icons/reddoribon-svg.json",
+  "legacyApiUrl": "/api/icons/reddoribon-svg.json",
+  "permanentId": "000032",
+  "permanentApiUrl": "/api/icons/000032.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "RTX",
+  "color": "#ce1126",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/RTX.svg",
+  "id": "000327",
+  "status": "active",
+  "legacyId": "rtx-svg",
+  "legacyIds": [
+    "rtx-svg"
+  ],
+  "filename": "RTX.svg",
+  "url": "/assets/svg/RTX.svg",
+  "apiUrl": "/api/icons/000327.json",
+  "legacyApiUrl": "/api/icons/rtx-svg.json"
+}

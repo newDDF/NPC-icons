@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/peacock.svg",
   "id": "peacock-svg",
+  "status": "active",
+  "legacyId": "peacock-svg",
+  "legacyIds": [
+    "peacock-svg"
+  ],
   "filename": "peacock.svg",
   "url": "/assets/svg/peacock.svg",
-  "apiUrl": "/api/icons/peacock-svg.json"
+  "apiUrl": "/api/icons/peacock-svg.json",
+  "legacyApiUrl": "/api/icons/peacock-svg.json",
+  "permanentId": "000191",
+  "permanentApiUrl": "/api/icons/000191.json"
 }

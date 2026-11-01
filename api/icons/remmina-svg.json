@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/remmina.svg",
   "id": "remmina-svg",
+  "status": "active",
+  "legacyId": "remmina-svg",
+  "legacyIds": [
+    "remmina-svg"
+  ],
   "filename": "remmina.svg",
   "url": "/assets/svg/remmina.svg",
-  "apiUrl": "/api/icons/remmina-svg.json"
+  "apiUrl": "/api/icons/remmina-svg.json",
+  "legacyApiUrl": "/api/icons/remmina-svg.json",
+  "permanentId": "000226",
+  "permanentApiUrl": "/api/icons/000226.json"
 }

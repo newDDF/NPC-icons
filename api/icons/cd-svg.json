@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/cd.svg",
   "id": "cd-svg",
+  "status": "active",
+  "legacyId": "cd-svg",
+  "legacyIds": [
+    "cd-svg"
+  ],
   "filename": "cd.svg",
   "url": "/assets/svg/cd.svg",
-  "apiUrl": "/api/icons/cd-svg.json"
+  "apiUrl": "/api/icons/cd-svg.json",
+  "legacyApiUrl": "/api/icons/cd-svg.json",
+  "permanentId": "000068",
+  "permanentApiUrl": "/api/icons/000068.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "frp",
+  "color": "#307fec",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/frp.svg",
+  "id": "000098",
+  "status": "active",
+  "legacyId": "frp-svg",
+  "legacyIds": [
+    "frp-svg"
+  ],
+  "filename": "frp.svg",
+  "url": "/assets/svg/frp.svg",
+  "apiUrl": "/api/icons/000098.json",
+  "legacyApiUrl": "/api/icons/frp-svg.json"
+}

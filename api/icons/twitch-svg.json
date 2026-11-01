@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/twitch.svg",
   "id": "twitch-svg",
+  "status": "active",
+  "legacyId": "twitch-svg",
+  "legacyIds": [
+    "twitch-svg"
+  ],
   "filename": "twitch.svg",
   "url": "/assets/svg/twitch.svg",
-  "apiUrl": "/api/icons/twitch-svg.json"
+  "apiUrl": "/api/icons/twitch-svg.json",
+  "legacyApiUrl": "/api/icons/twitch-svg.json",
+  "permanentId": "000247",
+  "permanentApiUrl": "/api/icons/000247.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "BochsVector",
+  "color": "#ffe680",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/BochsVector.svg",
+  "id": "000279",
+  "status": "active",
+  "legacyId": "bochsvector-svg",
+  "legacyIds": [
+    "bochsvector-svg"
+  ],
+  "filename": "BochsVector.svg",
+  "url": "/assets/svg/BochsVector.svg",
+  "apiUrl": "/api/icons/000279.json",
+  "legacyApiUrl": "/api/icons/bochsvector-svg.json"
+}

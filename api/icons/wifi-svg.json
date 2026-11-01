@@ -8,9 +8,20 @@
     "Networking",
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/WiFi.svg",
   "id": "wifi-svg",
+  "status": "active",
+  "legacyId": "wifi-svg",
+  "legacyIds": [
+    "wifi-svg"
+  ],
   "filename": "WiFi.svg",
   "url": "/assets/svg/WiFi.svg",
-  "apiUrl": "/api/icons/wifi-svg.json"
+  "apiUrl": "/api/icons/wifi-svg.json",
+  "legacyApiUrl": "/api/icons/wifi-svg.json",
+  "permanentId": "000348",
+  "permanentApiUrl": "/api/icons/000348.json"
 }

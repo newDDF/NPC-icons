@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/plex-alt.svg",
   "id": "plex-alt-svg",
+  "status": "active",
+  "legacyId": "plex-alt-svg",
+  "legacyIds": [
+    "plex-alt-svg"
+  ],
   "filename": "plex-alt.svg",
   "url": "/assets/svg/plex-alt.svg",
-  "apiUrl": "/api/icons/plex-alt-svg.json"
+  "apiUrl": "/api/icons/plex-alt-svg.json",
+  "legacyApiUrl": "/api/icons/plex-alt-svg.json",
+  "permanentId": "000203",
+  "permanentApiUrl": "/api/icons/000203.json"
 }

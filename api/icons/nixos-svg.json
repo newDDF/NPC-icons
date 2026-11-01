@@ -8,9 +8,20 @@
     "Operating Systems",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/nixos.svg",
   "id": "nixos-svg",
+  "status": "active",
+  "legacyId": "nixos-svg",
+  "legacyIds": [
+    "nixos-svg"
+  ],
   "filename": "nixos.svg",
   "url": "/assets/svg/nixos.svg",
-  "apiUrl": "/api/icons/nixos-svg.json"
+  "apiUrl": "/api/icons/nixos-svg.json",
+  "legacyApiUrl": "/api/icons/nixos-svg.json",
+  "permanentId": "000158",
+  "permanentApiUrl": "/api/icons/000158.json"
 }

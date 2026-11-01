@@ -7,9 +7,20 @@
   "category": [
     "Cloud"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/cloudbeaver.svg",
   "id": "cloudbeaver-svg",
+  "status": "active",
+  "legacyId": "cloudbeaver-svg",
+  "legacyIds": [
+    "cloudbeaver-svg"
+  ],
   "filename": "cloudbeaver.svg",
   "url": "/assets/svg/cloudbeaver.svg",
-  "apiUrl": "/api/icons/cloudbeaver-svg.json"
+  "apiUrl": "/api/icons/cloudbeaver-svg.json",
+  "legacyApiUrl": "/api/icons/cloudbeaver-svg.json",
+  "permanentId": "000069",
+  "permanentApiUrl": "/api/icons/000069.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Seagate.svg",
   "id": "seagate-svg",
+  "status": "active",
+  "legacyId": "seagate-svg",
+  "legacyIds": [
+    "seagate-svg"
+  ],
   "filename": "Seagate.svg",
   "url": "/assets/svg/Seagate.svg",
-  "apiUrl": "/api/icons/seagate-svg.json"
+  "apiUrl": "/api/icons/seagate-svg.json",
+  "legacyApiUrl": "/api/icons/seagate-svg.json",
+  "permanentId": "000329",
+  "permanentApiUrl": "/api/icons/000329.json"
 }

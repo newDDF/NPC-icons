@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/ntfy.svg",
   "id": "ntfy-svg",
+  "status": "active",
+  "legacyId": "ntfy-svg",
+  "legacyIds": [
+    "ntfy-svg"
+  ],
   "filename": "ntfy.svg",
   "url": "/assets/svg/ntfy.svg",
-  "apiUrl": "/api/icons/ntfy-svg.json"
+  "apiUrl": "/api/icons/ntfy-svg.json",
+  "legacyApiUrl": "/api/icons/ntfy-svg.json",
+  "permanentId": "000166",
+  "permanentApiUrl": "/api/icons/000166.json"
 }

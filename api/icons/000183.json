@@ -1,0 +1,24 @@
+{
+  "name": "osu",
+  "color": "#ff7db6",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/osu.svg",
+  "id": "000183",
+  "status": "active",
+  "legacyId": "osu-svg",
+  "legacyIds": [
+    "osu-svg"
+  ],
+  "filename": "osu.svg",
+  "url": "/assets/svg/osu.svg",
+  "apiUrl": "/api/icons/000183.json",
+  "legacyApiUrl": "/api/icons/osu-svg.json"
+}

@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/nodejs.svg",
   "id": "nodejs-svg",
+  "status": "active",
+  "legacyId": "nodejs-svg",
+  "legacyIds": [
+    "nodejs-svg"
+  ],
   "filename": "nodejs.svg",
   "url": "/assets/svg/nodejs.svg",
-  "apiUrl": "/api/icons/nodejs-svg.json"
+  "apiUrl": "/api/icons/nodejs-svg.json",
+  "legacyApiUrl": "/api/icons/nodejs-svg.json",
+  "permanentId": "000162",
+  "permanentApiUrl": "/api/icons/000162.json"
 }

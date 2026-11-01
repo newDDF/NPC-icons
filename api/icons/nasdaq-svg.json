@@ -7,9 +7,20 @@
   "category": [
     "Finance"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/NASDAQ.svg",
   "id": "nasdaq-svg",
+  "status": "active",
+  "legacyId": "nasdaq-svg",
+  "legacyIds": [
+    "nasdaq-svg"
+  ],
   "filename": "NASDAQ.svg",
   "url": "/assets/svg/NASDAQ.svg",
-  "apiUrl": "/api/icons/nasdaq-svg.json"
+  "apiUrl": "/api/icons/nasdaq-svg.json",
+  "legacyApiUrl": "/api/icons/nasdaq-svg.json",
+  "permanentId": "000313",
+  "permanentApiUrl": "/api/icons/000313.json"
 }

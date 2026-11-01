@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Kodak.svg",
   "id": "kodak-svg",
+  "status": "active",
+  "legacyId": "kodak-svg",
+  "legacyIds": [
+    "kodak-svg"
+  ],
   "filename": "Kodak.svg",
   "url": "/assets/svg/Kodak.svg",
-  "apiUrl": "/api/icons/kodak-svg.json"
+  "apiUrl": "/api/icons/kodak-svg.json",
+  "legacyApiUrl": "/api/icons/kodak-svg.json",
+  "permanentId": "000304",
+  "permanentApiUrl": "/api/icons/000304.json"
 }

@@ -8,9 +8,20 @@
     "Developer",
     "Design"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/draw-io.svg",
   "id": "draw-io-svg",
+  "status": "active",
+  "legacyId": "draw-io-svg",
+  "legacyIds": [
+    "draw-io-svg"
+  ],
   "filename": "draw-io.svg",
   "url": "/assets/svg/draw-io.svg",
-  "apiUrl": "/api/icons/draw-io-svg.json"
+  "apiUrl": "/api/icons/draw-io-svg.json",
+  "legacyApiUrl": "/api/icons/draw-io-svg.json",
+  "permanentId": "000082",
+  "permanentApiUrl": "/api/icons/000082.json"
 }

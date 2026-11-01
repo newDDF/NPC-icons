@@ -7,9 +7,20 @@
   "category": [
     "Social"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/friendica.svg",
   "id": "friendica-svg",
+  "status": "active",
+  "legacyId": "friendica-svg",
+  "legacyIds": [
+    "friendica-svg"
+  ],
   "filename": "friendica.svg",
   "url": "/assets/svg/friendica.svg",
-  "apiUrl": "/api/icons/friendica-svg.json"
+  "apiUrl": "/api/icons/friendica-svg.json",
+  "legacyApiUrl": "/api/icons/friendica-svg.json",
+  "permanentId": "000096",
+  "permanentApiUrl": "/api/icons/000096.json"
 }

@@ -8,9 +8,20 @@
     "Operating Systems",
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/apple.svg",
   "id": "apple-svg",
+  "status": "active",
+  "legacyId": "apple-svg",
+  "legacyIds": [
+    "apple-svg"
+  ],
   "filename": "apple.svg",
   "url": "/assets/svg/apple.svg",
-  "apiUrl": "/api/icons/apple-svg.json"
+  "apiUrl": "/api/icons/apple-svg.json",
+  "legacyApiUrl": "/api/icons/apple-svg.json",
+  "permanentId": "000002",
+  "permanentApiUrl": "/api/icons/000002.json"
 }

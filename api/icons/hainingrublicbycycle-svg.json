@@ -7,9 +7,20 @@
   "category": [
     "Education"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/HAININGRUBLICBYCYCLE.svg",
   "id": "hainingrublicbycycle-svg",
+  "status": "active",
+  "legacyId": "hainingrublicbycycle-svg",
+  "legacyIds": [
+    "hainingrublicbycycle-svg"
+  ],
   "filename": "HAININGRUBLICBYCYCLE.svg",
   "url": "/assets/svg/HAININGRUBLICBYCYCLE.svg",
-  "apiUrl": "/api/icons/hainingrublicbycycle-svg.json"
+  "apiUrl": "/api/icons/hainingrublicbycycle-svg.json",
+  "legacyApiUrl": "/api/icons/hainingrublicbycycle-svg.json",
+  "permanentId": "000014",
+  "permanentApiUrl": "/api/icons/000014.json"
 }

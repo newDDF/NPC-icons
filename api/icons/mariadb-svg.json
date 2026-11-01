@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/mariadb.svg",
   "id": "mariadb-svg",
+  "status": "active",
+  "legacyId": "mariadb-svg",
+  "legacyIds": [
+    "mariadb-svg"
+  ],
   "filename": "mariadb.svg",
   "url": "/assets/svg/mariadb.svg",
-  "apiUrl": "/api/icons/mariadb-svg.json"
+  "apiUrl": "/api/icons/mariadb-svg.json",
+  "legacyApiUrl": "/api/icons/mariadb-svg.json",
+  "permanentId": "000140",
+  "permanentApiUrl": "/api/icons/000140.json"
 }

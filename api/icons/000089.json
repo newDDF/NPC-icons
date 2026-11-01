@@ -1,0 +1,24 @@
+{
+  "name": "emby",
+  "color": "#52b54b",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/emby.svg",
+  "id": "000089",
+  "status": "active",
+  "legacyId": "emby-svg",
+  "legacyIds": [
+    "emby-svg"
+  ],
+  "filename": "emby.svg",
+  "url": "/assets/svg/emby.svg",
+  "apiUrl": "/api/icons/000089.json",
+  "legacyApiUrl": "/api/icons/emby-svg.json"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "playstation",
+  "color": "#de0029",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/playstation.svg",
+  "id": "000202",
+  "status": "active",
+  "legacyId": "playstation-svg",
+  "legacyIds": [
+    "playstation-svg"
+  ],
+  "filename": "playstation.svg",
+  "url": "/assets/svg/playstation.svg",
+  "apiUrl": "/api/icons/000202.json",
+  "legacyApiUrl": "/api/icons/playstation-svg.json"
+}

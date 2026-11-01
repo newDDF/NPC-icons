@@ -8,9 +8,20 @@
     "Cloud",
     "E-commerce"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/amazon.svg",
   "id": "amazon-svg",
+  "status": "active",
+  "legacyId": "amazon-svg",
+  "legacyIds": [
+    "amazon-svg"
+  ],
   "filename": "amazon.svg",
   "url": "/assets/svg/amazon.svg",
-  "apiUrl": "/api/icons/amazon-svg.json"
+  "apiUrl": "/api/icons/amazon-svg.json",
+  "legacyApiUrl": "/api/icons/amazon-svg.json",
+  "permanentId": "000035",
+  "permanentApiUrl": "/api/icons/000035.json"
 }

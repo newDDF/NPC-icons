@@ -7,9 +7,20 @@
   "category": [
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/forgejo.svg",
   "id": "forgejo-svg",
+  "status": "active",
+  "legacyId": "forgejo-svg",
+  "legacyIds": [
+    "forgejo-svg"
+  ],
   "filename": "forgejo.svg",
   "url": "/assets/svg/forgejo.svg",
-  "apiUrl": "/api/icons/forgejo-svg.json"
+  "apiUrl": "/api/icons/forgejo-svg.json",
+  "legacyApiUrl": "/api/icons/forgejo-svg.json",
+  "permanentId": "000093",
+  "permanentApiUrl": "/api/icons/000093.json"
 }

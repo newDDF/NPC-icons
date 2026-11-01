@@ -1,0 +1,25 @@
+{
+  "name": "outline",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Design",
+    "Productivity"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/outline.svg",
+  "id": "000184",
+  "status": "active",
+  "legacyId": "outline-svg",
+  "legacyIds": [
+    "outline-svg"
+  ],
+  "filename": "outline.svg",
+  "url": "/assets/svg/outline.svg",
+  "apiUrl": "/api/icons/000184.json",
+  "legacyApiUrl": "/api/icons/outline-svg.json"
+}

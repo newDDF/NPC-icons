@@ -1,0 +1,24 @@
+{
+  "name": "USB",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/USB.svg",
+  "id": "000343",
+  "status": "active",
+  "legacyId": "usb-svg",
+  "legacyIds": [
+    "usb-svg"
+  ],
+  "filename": "USB.svg",
+  "url": "/assets/svg/USB.svg",
+  "apiUrl": "/api/icons/000343.json",
+  "legacyApiUrl": "/api/icons/usb-svg.json"
+}

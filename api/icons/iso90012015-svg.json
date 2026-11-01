@@ -7,9 +7,20 @@
   "category": [
     "Other"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/ISO90012015.svg",
   "id": "iso90012015-svg",
+  "status": "active",
+  "legacyId": "iso90012015-svg",
+  "legacyIds": [
+    "iso90012015-svg"
+  ],
   "filename": "ISO90012015.svg",
   "url": "/assets/svg/ISO90012015.svg",
-  "apiUrl": "/api/icons/iso90012015-svg.json"
+  "apiUrl": "/api/icons/iso90012015-svg.json",
+  "legacyApiUrl": "/api/icons/iso90012015-svg.json",
+  "permanentId": "000302",
+  "permanentApiUrl": "/api/icons/000302.json"
 }

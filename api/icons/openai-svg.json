@@ -7,9 +7,20 @@
   "category": [
     "AI"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/openai.svg",
   "id": "openai-svg",
+  "status": "active",
+  "legacyId": "openai-svg",
+  "legacyIds": [
+    "openai-svg"
+  ],
   "filename": "openai.svg",
   "url": "/assets/svg/openai.svg",
-  "apiUrl": "/api/icons/openai-svg.json"
+  "apiUrl": "/api/icons/openai-svg.json",
+  "legacyApiUrl": "/api/icons/openai-svg.json",
+  "permanentId": "000176",
+  "permanentApiUrl": "/api/icons/000176.json"
 }

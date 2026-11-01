@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/pi-hole.svg",
   "id": "pi-hole-svg",
+  "status": "active",
+  "legacyId": "pi-hole-svg",
+  "legacyIds": [
+    "pi-hole-svg"
+  ],
   "filename": "pi-hole.svg",
   "url": "/assets/svg/pi-hole.svg",
-  "apiUrl": "/api/icons/pi-hole-svg.json"
+  "apiUrl": "/api/icons/pi-hole-svg.json",
+  "legacyApiUrl": "/api/icons/pi-hole-svg.json",
+  "permanentId": "000196",
+  "permanentApiUrl": "/api/icons/000196.json"
 }

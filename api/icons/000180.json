@@ -1,0 +1,25 @@
+{
+  "name": "opensuse",
+  "color": "#73ba25",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/opensuse.svg",
+  "id": "000180",
+  "status": "active",
+  "legacyId": "opensuse-svg",
+  "legacyIds": [
+    "opensuse-svg"
+  ],
+  "filename": "opensuse.svg",
+  "url": "/assets/svg/opensuse.svg",
+  "apiUrl": "/api/icons/000180.json",
+  "legacyApiUrl": "/api/icons/opensuse-svg.json"
+}

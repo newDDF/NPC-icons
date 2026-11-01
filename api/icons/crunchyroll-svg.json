@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/crunchyroll.svg",
   "id": "crunchyroll-svg",
+  "status": "active",
+  "legacyId": "crunchyroll-svg",
+  "legacyIds": [
+    "crunchyroll-svg"
+  ],
   "filename": "crunchyroll.svg",
   "url": "/assets/svg/crunchyroll.svg",
-  "apiUrl": "/api/icons/crunchyroll-svg.json"
+  "apiUrl": "/api/icons/crunchyroll-svg.json",
+  "legacyApiUrl": "/api/icons/crunchyroll-svg.json",
+  "permanentId": "000074",
+  "permanentApiUrl": "/api/icons/000074.json"
 }

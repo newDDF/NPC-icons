@@ -7,9 +7,20 @@
   "category": [
     "Operating Systems"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/macmon.svg",
   "id": "macmon-svg",
+  "status": "active",
+  "legacyId": "macmon-svg",
+  "legacyIds": [
+    "macmon-svg"
+  ],
   "filename": "macmon.svg",
   "url": "/assets/svg/macmon.svg",
-  "apiUrl": "/api/icons/macmon-svg.json"
+  "apiUrl": "/api/icons/macmon-svg.json",
+  "legacyApiUrl": "/api/icons/macmon-svg.json",
+  "permanentId": "000134",
+  "permanentApiUrl": "/api/icons/000134.json"
 }

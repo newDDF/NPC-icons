@@ -1,0 +1,24 @@
+{
+  "name": "Pepsi",
+  "color": "#0e7cc2",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Food & Beverage"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/Pepsi.svg",
+  "id": "000316",
+  "status": "active",
+  "legacyId": "pepsi-svg",
+  "legacyIds": [
+    "pepsi-svg"
+  ],
+  "filename": "Pepsi.svg",
+  "url": "/assets/svg/Pepsi.svg",
+  "apiUrl": "/api/icons/000316.json",
+  "legacyApiUrl": "/api/icons/pepsi-svg.json"
+}

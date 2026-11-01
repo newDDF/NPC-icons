@@ -7,9 +7,20 @@
   "category": [
     "Finance"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/wise.svg",
   "id": "wise-svg",
+  "status": "active",
+  "legacyId": "wise-svg",
+  "legacyIds": [
+    "wise-svg"
+  ],
   "filename": "wise.svg",
   "url": "/assets/svg/wise.svg",
-  "apiUrl": "/api/icons/wise-svg.json"
+  "apiUrl": "/api/icons/wise-svg.json",
+  "legacyApiUrl": "/api/icons/wise-svg.json",
+  "permanentId": "000038",
+  "permanentApiUrl": "/api/icons/000038.json"
 }

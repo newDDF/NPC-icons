@@ -8,9 +8,20 @@
     "Operating Systems",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/fedora-alt.svg",
   "id": "fedora-alt-svg",
+  "status": "active",
+  "legacyId": "fedora-alt-svg",
+  "legacyIds": [
+    "fedora-alt-svg"
+  ],
   "filename": "fedora-alt.svg",
   "url": "/assets/svg/fedora-alt.svg",
-  "apiUrl": "/api/icons/fedora-alt-svg.json"
+  "apiUrl": "/api/icons/fedora-alt-svg.json",
+  "legacyApiUrl": "/api/icons/fedora-alt-svg.json",
+  "permanentId": "000091",
+  "permanentApiUrl": "/api/icons/000091.json"
 }

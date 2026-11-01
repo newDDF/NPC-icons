@@ -1,0 +1,24 @@
+{
+  "name": "redhat-linux",
+  "color": "#ee0000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/redhat-linux.svg",
+  "id": "000224",
+  "status": "active",
+  "legacyId": "redhat-linux-svg",
+  "legacyIds": [
+    "redhat-linux-svg"
+  ],
+  "filename": "redhat-linux.svg",
+  "url": "/assets/svg/redhat-linux.svg",
+  "apiUrl": "/api/icons/000224.json",
+  "legacyApiUrl": "/api/icons/redhat-linux-svg.json"
+}

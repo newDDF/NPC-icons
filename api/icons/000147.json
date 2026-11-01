@@ -1,0 +1,24 @@
+{
+  "name": "mergeable",
+  "color": "#d33d17",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/mergeable.svg",
+  "id": "000147",
+  "status": "active",
+  "legacyId": "mergeable-svg",
+  "legacyIds": [
+    "mergeable-svg"
+  ],
+  "filename": "mergeable.svg",
+  "url": "/assets/svg/mergeable.svg",
+  "apiUrl": "/api/icons/000147.json",
+  "legacyApiUrl": "/api/icons/mergeable-svg.json"
+}

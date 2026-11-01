@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Sunrise.svg",
   "id": "sunrise-svg",
+  "status": "active",
+  "legacyId": "sunrise-svg",
+  "legacyIds": [
+    "sunrise-svg"
+  ],
   "filename": "Sunrise.svg",
   "url": "/assets/svg/Sunrise.svg",
-  "apiUrl": "/api/icons/sunrise-svg.json"
+  "apiUrl": "/api/icons/sunrise-svg.json",
+  "legacyApiUrl": "/api/icons/sunrise-svg.json",
+  "permanentId": "000335",
+  "permanentApiUrl": "/api/icons/000335.json"
 }

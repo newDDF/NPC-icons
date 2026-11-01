@@ -7,9 +7,20 @@
   "category": [
     "Other"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/dzfdd.svg",
   "id": "dzfdd-svg",
+  "status": "active",
+  "legacyId": "dzfdd-svg",
+  "legacyIds": [
+    "dzfdd-svg"
+  ],
   "filename": "dzfdd.svg",
   "url": "/assets/svg/dzfdd.svg",
-  "apiUrl": "/api/icons/dzfdd-svg.json"
+  "apiUrl": "/api/icons/dzfdd-svg.json",
+  "legacyApiUrl": "/api/icons/dzfdd-svg.json",
+  "permanentId": "000291",
+  "permanentApiUrl": "/api/icons/000291.json"
 }

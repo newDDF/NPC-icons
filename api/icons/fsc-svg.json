@@ -7,9 +7,20 @@
   "category": [
     "Other"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/FSC.svg",
   "id": "fsc-svg",
+  "status": "active",
+  "legacyId": "fsc-svg",
+  "legacyIds": [
+    "fsc-svg"
+  ],
   "filename": "FSC.svg",
   "url": "/assets/svg/FSC.svg",
-  "apiUrl": "/api/icons/fsc-svg.json"
+  "apiUrl": "/api/icons/fsc-svg.json",
+  "legacyApiUrl": "/api/icons/fsc-svg.json",
+  "permanentId": "000296",
+  "permanentApiUrl": "/api/icons/000296.json"
 }

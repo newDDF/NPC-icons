@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/send.svg",
   "id": "send-svg",
+  "status": "active",
+  "legacyId": "send-svg",
+  "legacyIds": [
+    "send-svg"
+  ],
   "filename": "send.svg",
   "url": "/assets/svg/send.svg",
-  "apiUrl": "/api/icons/send-svg.json"
+  "apiUrl": "/api/icons/send-svg.json",
+  "legacyApiUrl": "/api/icons/send-svg.json",
+  "permanentId": "000231",
+  "permanentApiUrl": "/api/icons/000231.json"
 }

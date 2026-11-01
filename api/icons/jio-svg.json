@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/jio.svg",
   "id": "jio-svg",
+  "status": "active",
+  "legacyId": "jio-svg",
+  "legacyIds": [
+    "jio-svg"
+  ],
   "filename": "jio.svg",
   "url": "/assets/svg/jio.svg",
-  "apiUrl": "/api/icons/jio-svg.json"
+  "apiUrl": "/api/icons/jio-svg.json",
+  "legacyApiUrl": "/api/icons/jio-svg.json",
+  "permanentId": "000121",
+  "permanentApiUrl": "/api/icons/000121.json"
 }

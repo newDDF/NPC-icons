@@ -1,0 +1,24 @@
+{
+  "name": "l3harris",
+  "color": "#f9000a",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/l3harris.svg",
+  "id": "000307",
+  "status": "active",
+  "legacyId": "l3harris-svg",
+  "legacyIds": [
+    "l3harris-svg"
+  ],
+  "filename": "l3harris.svg",
+  "url": "/assets/svg/l3harris.svg",
+  "apiUrl": "/api/icons/000307.json",
+  "legacyApiUrl": "/api/icons/l3harris-svg.json"
+}

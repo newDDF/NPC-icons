@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/7zip.svg",
   "id": "7zip-svg",
+  "status": "active",
+  "legacyId": "7zip-svg",
+  "legacyIds": [
+    "7zip-svg"
+  ],
   "filename": "7zip.svg",
   "url": "/assets/svg/7zip.svg",
-  "apiUrl": "/api/icons/7zip-svg.json"
+  "apiUrl": "/api/icons/7zip-svg.json",
+  "legacyApiUrl": "/api/icons/7zip-svg.json",
+  "permanentId": "000042",
+  "permanentApiUrl": "/api/icons/000042.json"
 }

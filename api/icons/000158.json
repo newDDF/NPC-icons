@@ -1,0 +1,25 @@
+{
+  "name": "nixos",
+  "color": "#5277c3",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/nixos.svg",
+  "id": "000158",
+  "status": "active",
+  "legacyId": "nixos-svg",
+  "legacyIds": [
+    "nixos-svg"
+  ],
+  "filename": "nixos.svg",
+  "url": "/assets/svg/nixos.svg",
+  "apiUrl": "/api/icons/000158.json",
+  "legacyApiUrl": "/api/icons/nixos-svg.json"
+}

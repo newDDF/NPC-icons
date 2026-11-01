@@ -1,0 +1,24 @@
+{
+  "name": "RockstarGames",
+  "color": "#ffab00",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/RockstarGames.svg",
+  "id": "000322",
+  "status": "active",
+  "legacyId": "rockstargames-svg",
+  "legacyIds": [
+    "rockstargames-svg"
+  ],
+  "filename": "RockstarGames.svg",
+  "url": "/assets/svg/RockstarGames.svg",
+  "apiUrl": "/api/icons/000322.json",
+  "legacyApiUrl": "/api/icons/rockstargames-svg.json"
+}

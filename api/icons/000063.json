@@ -1,0 +1,24 @@
+{
+  "name": "broadcastchannel",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/broadcastchannel.svg",
+  "id": "000063",
+  "status": "active",
+  "legacyId": "broadcastchannel-svg",
+  "legacyIds": [
+    "broadcastchannel-svg"
+  ],
+  "filename": "broadcastchannel.svg",
+  "url": "/assets/svg/broadcastchannel.svg",
+  "apiUrl": "/api/icons/000063.json",
+  "legacyApiUrl": "/api/icons/broadcastchannel-svg.json"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ivanti-icon",
+  "color": "#ff0d01",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/ivanti-icon.svg",
+  "id": "000117",
+  "status": "active",
+  "legacyId": "ivanti-icon-svg",
+  "legacyIds": [
+    "ivanti-icon-svg"
+  ],
+  "filename": "ivanti-icon.svg",
+  "url": "/assets/svg/ivanti-icon.svg",
+  "apiUrl": "/api/icons/000117.json",
+  "legacyApiUrl": "/api/icons/ivanti-icon-svg.json"
+}

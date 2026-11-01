@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/skype.svg",
   "id": "skype-svg",
+  "status": "active",
+  "legacyId": "skype-svg",
+  "legacyIds": [
+    "skype-svg"
+  ],
   "filename": "skype.svg",
   "url": "/assets/svg/skype.svg",
-  "apiUrl": "/api/icons/skype-svg.json"
+  "apiUrl": "/api/icons/skype-svg.json",
+  "legacyApiUrl": "/api/icons/skype-svg.json",
+  "permanentId": "000235",
+  "permanentApiUrl": "/api/icons/000235.json"
 }

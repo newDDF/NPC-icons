@@ -1,0 +1,24 @@
+{
+  "name": "istio",
+  "color": "#466bb0",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/istio.svg",
+  "id": "000115",
+  "status": "active",
+  "legacyId": "istio-svg",
+  "legacyIds": [
+    "istio-svg"
+  ],
+  "filename": "istio.svg",
+  "url": "/assets/svg/istio.svg",
+  "apiUrl": "/api/icons/000115.json",
+  "legacyApiUrl": "/api/icons/istio-svg.json"
+}

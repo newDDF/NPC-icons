@@ -7,9 +7,20 @@
   "category": [
     "Cloud"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/hostinger.svg",
   "id": "hostinger-svg",
+  "status": "active",
+  "legacyId": "hostinger-svg",
+  "legacyIds": [
+    "hostinger-svg"
+  ],
   "filename": "hostinger.svg",
   "url": "/assets/svg/hostinger.svg",
-  "apiUrl": "/api/icons/hostinger-svg.json"
+  "apiUrl": "/api/icons/hostinger-svg.json",
+  "legacyApiUrl": "/api/icons/hostinger-svg.json",
+  "permanentId": "000107",
+  "permanentApiUrl": "/api/icons/000107.json"
 }

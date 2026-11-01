@@ -1,0 +1,24 @@
+{
+  "name": "ATI",
+  "color": "#e43425",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/ATI.svg",
+  "id": "000274",
+  "status": "active",
+  "legacyId": "ati-svg",
+  "legacyIds": [
+    "ati-svg"
+  ],
+  "filename": "ATI.svg",
+  "url": "/assets/svg/ATI.svg",
+  "apiUrl": "/api/icons/000274.json",
+  "legacyApiUrl": "/api/icons/ati-svg.json"
+}

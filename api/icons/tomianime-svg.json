@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/tomianime.svg",
   "id": "tomianime-svg",
+  "status": "active",
+  "legacyId": "tomianime-svg",
+  "legacyIds": [
+    "tomianime-svg"
+  ],
   "filename": "tomianime.svg",
   "url": "/assets/svg/tomianime.svg",
-  "apiUrl": "/api/icons/tomianime-svg.json"
+  "apiUrl": "/api/icons/tomianime-svg.json",
+  "legacyApiUrl": "/api/icons/tomianime-svg.json",
+  "permanentId": "000031",
+  "permanentApiUrl": "/api/icons/000031.json"
 }

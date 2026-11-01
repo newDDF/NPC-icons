@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/typescript.svg",
   "id": "typescript-svg",
+  "status": "active",
+  "legacyId": "typescript-svg",
+  "legacyIds": [
+    "typescript-svg"
+  ],
   "filename": "typescript.svg",
   "url": "/assets/svg/typescript.svg",
-  "apiUrl": "/api/icons/typescript-svg.json"
+  "apiUrl": "/api/icons/typescript-svg.json",
+  "legacyApiUrl": "/api/icons/typescript-svg.json",
+  "permanentId": "000250",
+  "permanentApiUrl": "/api/icons/000250.json"
 }

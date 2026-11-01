@@ -7,9 +7,20 @@
   "category": [
     "Finance"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/boa.svg",
   "id": "boa-svg",
+  "status": "active",
+  "legacyId": "boa-svg",
+  "legacyIds": [
+    "boa-svg"
+  ],
   "filename": "boa.svg",
   "url": "/assets/svg/boa.svg",
-  "apiUrl": "/api/icons/boa-svg.json"
+  "apiUrl": "/api/icons/boa-svg.json",
+  "legacyApiUrl": "/api/icons/boa-svg.json",
+  "permanentId": "000278",
+  "permanentApiUrl": "/api/icons/000278.json"
 }

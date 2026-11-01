@@ -1,0 +1,24 @@
+{
+  "name": "HSBC",
+  "color": "#e52713",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/HSBC.svg",
+  "id": "000301",
+  "status": "active",
+  "legacyId": "hsbc-svg",
+  "legacyIds": [
+    "hsbc-svg"
+  ],
+  "filename": "HSBC.svg",
+  "url": "/assets/svg/HSBC.svg",
+  "apiUrl": "/api/icons/000301.json",
+  "legacyApiUrl": "/api/icons/hsbc-svg.json"
+}

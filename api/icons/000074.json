@@ -1,0 +1,24 @@
+{
+  "name": "crunchyroll",
+  "color": "#f78b24",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/crunchyroll.svg",
+  "id": "000074",
+  "status": "active",
+  "legacyId": "crunchyroll-svg",
+  "legacyIds": [
+    "crunchyroll-svg"
+  ],
+  "filename": "crunchyroll.svg",
+  "url": "/assets/svg/crunchyroll.svg",
+  "apiUrl": "/api/icons/000074.json",
+  "legacyApiUrl": "/api/icons/crunchyroll-svg.json"
+}

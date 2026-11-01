@@ -1,0 +1,24 @@
+{
+  "name": "hashicorp-nomad",
+  "color": "#00ca8e",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/hashicorp-nomad.svg",
+  "id": "000102",
+  "status": "active",
+  "legacyId": "hashicorp-nomad-svg",
+  "legacyIds": [
+    "hashicorp-nomad-svg"
+  ],
+  "filename": "hashicorp-nomad.svg",
+  "url": "/assets/svg/hashicorp-nomad.svg",
+  "apiUrl": "/api/icons/000102.json",
+  "legacyApiUrl": "/api/icons/hashicorp-nomad-svg.json"
+}

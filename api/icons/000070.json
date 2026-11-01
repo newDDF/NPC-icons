@@ -1,0 +1,24 @@
+{
+  "name": "cockpit",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/cockpit.svg",
+  "id": "000070",
+  "status": "active",
+  "legacyId": "cockpit-svg",
+  "legacyIds": [
+    "cockpit-svg"
+  ],
+  "filename": "cockpit.svg",
+  "url": "/assets/svg/cockpit.svg",
+  "apiUrl": "/api/icons/000070.json",
+  "legacyApiUrl": "/api/icons/cockpit-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/pinia.svg",
   "id": "pinia-svg",
+  "status": "active",
+  "legacyId": "pinia-svg",
+  "legacyIds": [
+    "pinia-svg"
+  ],
   "filename": "pinia.svg",
   "url": "/assets/svg/pinia.svg",
-  "apiUrl": "/api/icons/pinia-svg.json"
+  "apiUrl": "/api/icons/pinia-svg.json",
+  "legacyApiUrl": "/api/icons/pinia-svg.json",
+  "permanentId": "000199",
+  "permanentApiUrl": "/api/icons/000199.json"
 }

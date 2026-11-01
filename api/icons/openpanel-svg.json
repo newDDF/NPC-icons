@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/openpanel.svg",
   "id": "openpanel-svg",
+  "status": "active",
+  "legacyId": "openpanel-svg",
+  "legacyIds": [
+    "openpanel-svg"
+  ],
   "filename": "openpanel.svg",
   "url": "/assets/svg/openpanel.svg",
-  "apiUrl": "/api/icons/openpanel-svg.json"
+  "apiUrl": "/api/icons/openpanel-svg.json",
+  "legacyApiUrl": "/api/icons/openpanel-svg.json",
+  "permanentId": "000178",
+  "permanentApiUrl": "/api/icons/000178.json"
 }

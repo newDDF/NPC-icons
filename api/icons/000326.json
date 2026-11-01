@@ -1,0 +1,24 @@
+{
+  "name": "RoHSCompliance3",
+  "color": "#93c021",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/RoHSCompliance3.svg",
+  "id": "000326",
+  "status": "active",
+  "legacyId": "rohscompliance3-svg",
+  "legacyIds": [
+    "rohscompliance3-svg"
+  ],
+  "filename": "RoHSCompliance3.svg",
+  "url": "/assets/svg/RoHSCompliance3.svg",
+  "apiUrl": "/api/icons/000326.json",
+  "legacyApiUrl": "/api/icons/rohscompliance3-svg.json"
+}

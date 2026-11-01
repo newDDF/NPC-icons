@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/GoodSmile.svg",
   "id": "goodsmile-svg",
+  "status": "active",
+  "legacyId": "goodsmile-svg",
+  "legacyIds": [
+    "goodsmile-svg"
+  ],
   "filename": "GoodSmile.svg",
   "url": "/assets/svg/GoodSmile.svg",
-  "apiUrl": "/api/icons/goodsmile-svg.json"
+  "apiUrl": "/api/icons/goodsmile-svg.json",
+  "legacyApiUrl": "/api/icons/goodsmile-svg.json",
+  "permanentId": "000298",
+  "permanentApiUrl": "/api/icons/000298.json"
 }

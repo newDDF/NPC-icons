@@ -7,9 +7,20 @@
   "category": [
     "Other"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/my_logo.svg",
   "id": "my-logo-svg",
+  "status": "active",
+  "legacyId": "my-logo-svg",
+  "legacyIds": [
+    "my-logo-svg"
+  ],
   "filename": "my_logo.svg",
   "url": "/assets/svg/my_logo.svg",
-  "apiUrl": "/api/icons/my-logo-svg.json"
+  "apiUrl": "/api/icons/my-logo-svg.json",
+  "legacyApiUrl": "/api/icons/my-logo-svg.json",
+  "permanentId": "000005",
+  "permanentApiUrl": "/api/icons/000005.json"
 }

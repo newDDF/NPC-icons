@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/podfetch.svg",
   "id": "podfetch-svg",
+  "status": "active",
+  "legacyId": "podfetch-svg",
+  "legacyIds": [
+    "podfetch-svg"
+  ],
   "filename": "podfetch.svg",
   "url": "/assets/svg/podfetch.svg",
-  "apiUrl": "/api/icons/podfetch-svg.json"
+  "apiUrl": "/api/icons/podfetch-svg.json",
+  "legacyApiUrl": "/api/icons/podfetch-svg.json",
+  "permanentId": "000205",
+  "permanentApiUrl": "/api/icons/000205.json"
 }

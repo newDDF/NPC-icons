@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/generalelectric.svg",
   "id": "generalelectric-svg",
+  "status": "active",
+  "legacyId": "generalelectric-svg",
+  "legacyIds": [
+    "generalelectric-svg"
+  ],
   "filename": "generalelectric.svg",
   "url": "/assets/svg/generalelectric.svg",
-  "apiUrl": "/api/icons/generalelectric-svg.json"
+  "apiUrl": "/api/icons/generalelectric-svg.json",
+  "legacyApiUrl": "/api/icons/generalelectric-svg.json",
+  "permanentId": "000297",
+  "permanentApiUrl": "/api/icons/000297.json"
 }

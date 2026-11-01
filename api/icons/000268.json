@@ -1,0 +1,24 @@
+{
+  "name": "250",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/250.svg",
+  "id": "000268",
+  "status": "active",
+  "legacyId": "250-svg",
+  "legacyIds": [
+    "250-svg"
+  ],
+  "filename": "250.svg",
+  "url": "/assets/svg/250.svg",
+  "apiUrl": "/api/icons/000268.json",
+  "legacyApiUrl": "/api/icons/250-svg.json"
+}

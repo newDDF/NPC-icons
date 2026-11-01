@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/sun-panel.svg",
   "id": "sun-panel-svg",
+  "status": "active",
+  "legacyId": "sun-panel-svg",
+  "legacyIds": [
+    "sun-panel-svg"
+  ],
   "filename": "sun-panel.svg",
   "url": "/assets/svg/sun-panel.svg",
-  "apiUrl": "/api/icons/sun-panel-svg.json"
+  "apiUrl": "/api/icons/sun-panel-svg.json",
+  "legacyApiUrl": "/api/icons/sun-panel-svg.json",
+  "permanentId": "000236",
+  "permanentApiUrl": "/api/icons/000236.json"
 }

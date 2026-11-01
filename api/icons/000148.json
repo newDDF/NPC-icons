@@ -1,0 +1,24 @@
+{
+  "name": "meta",
+  "color": "#0f6fd3",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/meta.svg",
+  "id": "000148",
+  "status": "active",
+  "legacyId": "meta-svg",
+  "legacyIds": [
+    "meta-svg"
+  ],
+  "filename": "meta.svg",
+  "url": "/assets/svg/meta.svg",
+  "apiUrl": "/api/icons/000148.json",
+  "legacyApiUrl": "/api/icons/meta-svg.json"
+}

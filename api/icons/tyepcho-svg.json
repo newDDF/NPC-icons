@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/tyepcho.svg",
   "id": "tyepcho-svg",
+  "status": "active",
+  "legacyId": "tyepcho-svg",
+  "legacyIds": [
+    "tyepcho-svg"
+  ],
   "filename": "tyepcho.svg",
   "url": "/assets/svg/tyepcho.svg",
-  "apiUrl": "/api/icons/tyepcho-svg.json"
+  "apiUrl": "/api/icons/tyepcho-svg.json",
+  "legacyApiUrl": "/api/icons/tyepcho-svg.json",
+  "permanentId": "000249",
+  "permanentApiUrl": "/api/icons/000249.json"
 }

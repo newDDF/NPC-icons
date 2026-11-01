@@ -7,9 +7,20 @@
   "category": [
     "AI"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/hugging-face.svg",
   "id": "hugging-face-svg",
+  "status": "active",
+  "legacyId": "hugging-face-svg",
+  "legacyIds": [
+    "hugging-face-svg"
+  ],
   "filename": "hugging-face.svg",
   "url": "/assets/svg/hugging-face.svg",
-  "apiUrl": "/api/icons/hugging-face-svg.json"
+  "apiUrl": "/api/icons/hugging-face-svg.json",
+  "legacyApiUrl": "/api/icons/hugging-face-svg.json",
+  "permanentId": "000109",
+  "permanentApiUrl": "/api/icons/000109.json"
 }

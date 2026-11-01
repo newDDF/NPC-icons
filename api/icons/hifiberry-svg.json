@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/hifiberry.svg",
   "id": "hifiberry-svg",
+  "status": "active",
+  "legacyId": "hifiberry-svg",
+  "legacyIds": [
+    "hifiberry-svg"
+  ],
   "filename": "hifiberry.svg",
   "url": "/assets/svg/hifiberry.svg",
-  "apiUrl": "/api/icons/hifiberry-svg.json"
+  "apiUrl": "/api/icons/hifiberry-svg.json",
+  "legacyApiUrl": "/api/icons/hifiberry-svg.json",
+  "permanentId": "000103",
+  "permanentApiUrl": "/api/icons/000103.json"
 }

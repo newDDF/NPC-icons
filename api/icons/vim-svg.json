@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/vim.svg",
   "id": "vim-svg",
+  "status": "active",
+  "legacyId": "vim-svg",
+  "legacyIds": [
+    "vim-svg"
+  ],
   "filename": "vim.svg",
   "url": "/assets/svg/vim.svg",
-  "apiUrl": "/api/icons/vim-svg.json"
+  "apiUrl": "/api/icons/vim-svg.json",
+  "legacyApiUrl": "/api/icons/vim-svg.json",
+  "permanentId": "000253",
+  "permanentApiUrl": "/api/icons/000253.json"
 }

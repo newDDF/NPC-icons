@@ -1,0 +1,25 @@
+{
+  "name": "7zip",
+  "color": "#000000",
+  "format": "svg",
+  "source": "https://www.7-zip.org/",
+  "info": "7-Zip is a free, open-source file archiver supporting numerous compression formats. It offers high compression ratios, strong encryption, and file-management tools for users across Windows and other supported platforms.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/7zip.svg",
+  "id": "000042",
+  "status": "active",
+  "legacyId": "7zip-svg",
+  "legacyIds": [
+    "7zip-svg"
+  ],
+  "filename": "7zip.svg",
+  "url": "/assets/svg/7zip.svg",
+  "apiUrl": "/api/icons/000042.json",
+  "legacyApiUrl": "/api/icons/7zip-svg.json"
+}

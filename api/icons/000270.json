@@ -1,0 +1,24 @@
+{
+  "name": "alter",
+  "color": "#e60118",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Other"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/alter.svg",
+  "id": "000270",
+  "status": "active",
+  "legacyId": "alter-svg",
+  "legacyIds": [
+    "alter-svg"
+  ],
+  "filename": "alter.svg",
+  "url": "/assets/svg/alter.svg",
+  "apiUrl": "/api/icons/000270.json",
+  "legacyApiUrl": "/api/icons/alter-svg.json"
+}

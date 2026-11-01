@@ -7,9 +7,20 @@
   "category": [
     "Networking"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/openvpn.svg",
   "id": "openvpn-svg",
+  "status": "active",
+  "legacyId": "openvpn-svg",
+  "legacyIds": [
+    "openvpn-svg"
+  ],
   "filename": "openvpn.svg",
   "url": "/assets/svg/openvpn.svg",
-  "apiUrl": "/api/icons/openvpn-svg.json"
+  "apiUrl": "/api/icons/openvpn-svg.json",
+  "legacyApiUrl": "/api/icons/openvpn-svg.json",
+  "permanentId": "000181",
+  "permanentApiUrl": "/api/icons/000181.json"
 }

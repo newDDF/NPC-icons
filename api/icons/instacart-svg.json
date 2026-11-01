@@ -7,9 +7,20 @@
   "category": [
     "E-commerce"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/instacart.svg",
   "id": "instacart-svg",
+  "status": "active",
+  "legacyId": "instacart-svg",
+  "legacyIds": [
+    "instacart-svg"
+  ],
   "filename": "instacart.svg",
   "url": "/assets/svg/instacart.svg",
-  "apiUrl": "/api/icons/instacart-svg.json"
+  "apiUrl": "/api/icons/instacart-svg.json",
+  "legacyApiUrl": "/api/icons/instacart-svg.json",
+  "permanentId": "000114",
+  "permanentApiUrl": "/api/icons/000114.json"
 }

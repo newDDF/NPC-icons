@@ -7,9 +7,20 @@
   "category": [
     "Food & Beverage"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/cocacola.svg",
   "id": "cocacola-svg",
+  "status": "active",
+  "legacyId": "cocacola-svg",
+  "legacyIds": [
+    "cocacola-svg"
+  ],
   "filename": "cocacola.svg",
   "url": "/assets/svg/cocacola.svg",
-  "apiUrl": "/api/icons/cocacola-svg.json"
+  "apiUrl": "/api/icons/cocacola-svg.json",
+  "legacyApiUrl": "/api/icons/cocacola-svg.json",
+  "permanentId": "000284",
+  "permanentApiUrl": "/api/icons/000284.json"
 }

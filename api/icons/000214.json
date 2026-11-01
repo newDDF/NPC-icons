@@ -1,0 +1,24 @@
+{
+  "name": "proxmox",
+  "color": "#e57000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/proxmox.svg",
+  "id": "000214",
+  "status": "active",
+  "legacyId": "proxmox-svg",
+  "legacyIds": [
+    "proxmox-svg"
+  ],
+  "filename": "proxmox.svg",
+  "url": "/assets/svg/proxmox.svg",
+  "apiUrl": "/api/icons/000214.json",
+  "legacyApiUrl": "/api/icons/proxmox-svg.json"
+}

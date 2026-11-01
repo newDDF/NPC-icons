@@ -1,0 +1,24 @@
+{
+  "name": "hostinger",
+  "color": "#6747c7",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/hostinger.svg",
+  "id": "000107",
+  "status": "active",
+  "legacyId": "hostinger-svg",
+  "legacyIds": [
+    "hostinger-svg"
+  ],
+  "filename": "hostinger.svg",
+  "url": "/assets/svg/hostinger.svg",
+  "apiUrl": "/api/icons/000107.json",
+  "legacyApiUrl": "/api/icons/hostinger-svg.json"
+}

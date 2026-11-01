@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/piwigo.svg",
   "id": "piwigo-svg",
+  "status": "active",
+  "legacyId": "piwigo-svg",
+  "legacyIds": [
+    "piwigo-svg"
+  ],
   "filename": "piwigo.svg",
   "url": "/assets/svg/piwigo.svg",
-  "apiUrl": "/api/icons/piwigo-svg.json"
+  "apiUrl": "/api/icons/piwigo-svg.json",
+  "legacyApiUrl": "/api/icons/piwigo-svg.json",
+  "permanentId": "000201",
+  "permanentApiUrl": "/api/icons/000201.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Networking"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/aruba.svg",
   "id": "aruba-svg",
+  "status": "active",
+  "legacyId": "aruba-svg",
+  "legacyIds": [
+    "aruba-svg"
+  ],
   "filename": "aruba.svg",
   "url": "/assets/svg/aruba.svg",
-  "apiUrl": "/api/icons/aruba-svg.json"
+  "apiUrl": "/api/icons/aruba-svg.json",
+  "legacyApiUrl": "/api/icons/aruba-svg.json",
+  "permanentId": "000050",
+  "permanentApiUrl": "/api/icons/000050.json"
 }

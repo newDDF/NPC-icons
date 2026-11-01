@@ -7,9 +7,20 @@
   "category": [
     "E-commerce"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/uspostalservice.svg",
   "id": "uspostalservice-svg",
+  "status": "active",
+  "legacyId": "uspostalservice-svg",
+  "legacyIds": [
+    "uspostalservice-svg"
+  ],
   "filename": "uspostalservice.svg",
   "url": "/assets/svg/uspostalservice.svg",
-  "apiUrl": "/api/icons/uspostalservice-svg.json"
+  "apiUrl": "/api/icons/uspostalservice-svg.json",
+  "legacyApiUrl": "/api/icons/uspostalservice-svg.json",
+  "permanentId": "000344",
+  "permanentApiUrl": "/api/icons/000344.json"
 }

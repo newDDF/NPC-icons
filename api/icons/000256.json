@@ -1,0 +1,24 @@
+{
+  "name": "vue-js",
+  "color": "#42b883",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/vue-js.svg",
+  "id": "000256",
+  "status": "active",
+  "legacyId": "vue-js-svg",
+  "legacyIds": [
+    "vue-js-svg"
+  ],
+  "filename": "vue-js.svg",
+  "url": "/assets/svg/vue-js.svg",
+  "apiUrl": "/api/icons/000256.json",
+  "legacyApiUrl": "/api/icons/vue-js-svg.json"
+}

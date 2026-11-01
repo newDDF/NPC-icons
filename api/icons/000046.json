@@ -1,0 +1,25 @@
+{
+  "name": "anaconda",
+  "color": "#43b02a",
+  "format": "svg",
+  "source": "https://www.anaconda.com/",
+  "info": "Anaconda provides tools and services for Python and data science, including package management, environments, and enterprise AI infrastructure used by developers, researchers, and organizations worldwide.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/anaconda.svg",
+  "id": "000046",
+  "status": "active",
+  "legacyId": "anaconda-svg",
+  "legacyIds": [
+    "anaconda-svg"
+  ],
+  "filename": "anaconda.svg",
+  "url": "/assets/svg/anaconda.svg",
+  "apiUrl": "/api/icons/000046.json",
+  "legacyApiUrl": "/api/icons/anaconda-svg.json"
+}

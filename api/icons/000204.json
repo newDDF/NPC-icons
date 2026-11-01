@@ -1,0 +1,24 @@
+{
+  "name": "pocket-casts",
+  "color": "#f43e37",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/pocket-casts.svg",
+  "id": "000204",
+  "status": "active",
+  "legacyId": "pocket-casts-svg",
+  "legacyIds": [
+    "pocket-casts-svg"
+  ],
+  "filename": "pocket-casts.svg",
+  "url": "/assets/svg/pocket-casts.svg",
+  "apiUrl": "/api/icons/000204.json",
+  "legacyApiUrl": "/api/icons/pocket-casts-svg.json"
+}

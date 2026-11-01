@@ -1,0 +1,24 @@
+{
+  "name": "shell",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/shell.svg",
+  "id": "000233",
+  "status": "active",
+  "legacyId": "shell-svg",
+  "legacyIds": [
+    "shell-svg"
+  ],
+  "filename": "shell.svg",
+  "url": "/assets/svg/shell.svg",
+  "apiUrl": "/api/icons/000233.json",
+  "legacyApiUrl": "/api/icons/shell-svg.json"
+}

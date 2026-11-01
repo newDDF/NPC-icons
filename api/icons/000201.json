@@ -1,0 +1,24 @@
+{
+  "name": "piwigo",
+  "color": "#f58127",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Infrastructure"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/piwigo.svg",
+  "id": "000201",
+  "status": "active",
+  "legacyId": "piwigo-svg",
+  "legacyIds": [
+    "piwigo-svg"
+  ],
+  "filename": "piwigo.svg",
+  "url": "/assets/svg/piwigo.svg",
+  "apiUrl": "/api/icons/000201.json",
+  "legacyApiUrl": "/api/icons/piwigo-svg.json"
+}

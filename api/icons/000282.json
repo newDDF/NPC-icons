@@ -1,0 +1,24 @@
+{
+  "name": "Caterpillar",
+  "color": "#fec40e",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/Caterpillar.svg",
+  "id": "000282",
+  "status": "active",
+  "legacyId": "caterpillar-svg",
+  "legacyIds": [
+    "caterpillar-svg"
+  ],
+  "filename": "Caterpillar.svg",
+  "url": "/assets/svg/Caterpillar.svg",
+  "apiUrl": "/api/icons/000282.json",
+  "legacyApiUrl": "/api/icons/caterpillar-svg.json"
+}

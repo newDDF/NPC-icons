@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/whatsapp.svg",
   "id": "whatsapp-svg",
+  "status": "active",
+  "legacyId": "whatsapp-svg",
+  "legacyIds": [
+    "whatsapp-svg"
+  ],
   "filename": "whatsapp.svg",
   "url": "/assets/svg/whatsapp.svg",
-  "apiUrl": "/api/icons/whatsapp-svg.json"
+  "apiUrl": "/api/icons/whatsapp-svg.json",
+  "legacyApiUrl": "/api/icons/whatsapp-svg.json",
+  "permanentId": "000020",
+  "permanentApiUrl": "/api/icons/000020.json"
 }

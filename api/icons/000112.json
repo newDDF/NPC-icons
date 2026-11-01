@@ -1,0 +1,24 @@
+{
+  "name": "ibm",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/ibm.svg",
+  "id": "000112",
+  "status": "active",
+  "legacyId": "ibm-svg",
+  "legacyIds": [
+    "ibm-svg"
+  ],
+  "filename": "ibm.svg",
+  "url": "/assets/svg/ibm.svg",
+  "apiUrl": "/api/icons/000112.json",
+  "legacyApiUrl": "/api/icons/ibm-svg.json"
+}

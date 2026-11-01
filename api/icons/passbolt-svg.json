@@ -7,9 +7,20 @@
   "category": [
     "Security"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/passbolt.svg",
   "id": "passbolt-svg",
+  "status": "active",
+  "legacyId": "passbolt-svg",
+  "legacyIds": [
+    "passbolt-svg"
+  ],
   "filename": "passbolt.svg",
   "url": "/assets/svg/passbolt.svg",
-  "apiUrl": "/api/icons/passbolt-svg.json"
+  "apiUrl": "/api/icons/passbolt-svg.json",
+  "legacyApiUrl": "/api/icons/passbolt-svg.json",
+  "permanentId": "000189",
+  "permanentApiUrl": "/api/icons/000189.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "redbull",
+  "color": "#db0a40",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Food & Beverage"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/redbull.svg",
+  "id": "000320",
+  "status": "active",
+  "legacyId": "redbull-svg",
+  "legacyIds": [
+    "redbull-svg"
+  ],
+  "filename": "redbull.svg",
+  "url": "/assets/svg/redbull.svg",
+  "apiUrl": "/api/icons/000320.json",
+  "legacyApiUrl": "/api/icons/redbull-svg.json"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "LEGO",
+  "color": "#e3000b",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/LEGO.svg",
+  "id": "000308",
+  "status": "active",
+  "legacyId": "lego-svg",
+  "legacyIds": [
+    "lego-svg"
+  ],
+  "filename": "LEGO.svg",
+  "url": "/assets/svg/LEGO.svg",
+  "apiUrl": "/api/icons/000308.json",
+  "legacyApiUrl": "/api/icons/lego-svg.json"
+}

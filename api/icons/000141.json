@@ -1,0 +1,24 @@
+{
+  "name": "max",
+  "color": "#002be7",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/max.svg",
+  "id": "000141",
+  "status": "active",
+  "legacyId": "max-svg",
+  "legacyIds": [
+    "max-svg"
+  ],
+  "filename": "max.svg",
+  "url": "/assets/svg/max.svg",
+  "apiUrl": "/api/icons/000141.json",
+  "legacyApiUrl": "/api/icons/max-svg.json"
+}

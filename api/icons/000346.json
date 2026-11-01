@@ -1,0 +1,24 @@
+{
+  "name": "WEEE",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/WEEE.svg",
+  "id": "000346",
+  "status": "active",
+  "legacyId": "weee-svg",
+  "legacyIds": [
+    "weee-svg"
+  ],
+  "filename": "WEEE.svg",
+  "url": "/assets/svg/WEEE.svg",
+  "apiUrl": "/api/icons/000346.json",
+  "legacyApiUrl": "/api/icons/weee-svg.json"
+}

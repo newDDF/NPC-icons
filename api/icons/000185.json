@@ -1,0 +1,24 @@
+{
+  "name": "pangolin",
+  "color": "#f36118",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/pangolin.svg",
+  "id": "000185",
+  "status": "active",
+  "legacyId": "pangolin-svg",
+  "legacyIds": [
+    "pangolin-svg"
+  ],
+  "filename": "pangolin.svg",
+  "url": "/assets/svg/pangolin.svg",
+  "apiUrl": "/api/icons/000185.json",
+  "legacyApiUrl": "/api/icons/pangolin-svg.json"
+}

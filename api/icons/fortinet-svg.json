@@ -7,9 +7,20 @@
   "category": [
     "Security"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/fortinet.svg",
   "id": "fortinet-svg",
+  "status": "active",
+  "legacyId": "fortinet-svg",
+  "legacyIds": [
+    "fortinet-svg"
+  ],
   "filename": "fortinet.svg",
   "url": "/assets/svg/fortinet.svg",
-  "apiUrl": "/api/icons/fortinet-svg.json"
+  "apiUrl": "/api/icons/fortinet-svg.json",
+  "legacyApiUrl": "/api/icons/fortinet-svg.json",
+  "permanentId": "000095",
+  "permanentApiUrl": "/api/icons/000095.json"
 }

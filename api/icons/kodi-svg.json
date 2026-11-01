@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/kodi.svg",
   "id": "kodi-svg",
+  "status": "active",
+  "legacyId": "kodi-svg",
+  "legacyIds": [
+    "kodi-svg"
+  ],
   "filename": "kodi.svg",
   "url": "/assets/svg/kodi.svg",
-  "apiUrl": "/api/icons/kodi-svg.json"
+  "apiUrl": "/api/icons/kodi-svg.json",
+  "legacyApiUrl": "/api/icons/kodi-svg.json",
+  "permanentId": "000128",
+  "permanentApiUrl": "/api/icons/000128.json"
 }

@@ -1,0 +1,25 @@
+{
+  "name": "linear",
+  "color": "#222326",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Design",
+    "Productivity"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/linear.svg",
+  "id": "000131",
+  "status": "active",
+  "legacyId": "linear-svg",
+  "legacyIds": [
+    "linear-svg"
+  ],
+  "filename": "linear.svg",
+  "url": "/assets/svg/linear.svg",
+  "apiUrl": "/api/icons/000131.json",
+  "legacyApiUrl": "/api/icons/linear-svg.json"
+}

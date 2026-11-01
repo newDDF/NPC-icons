@@ -7,9 +7,20 @@
   "category": [
     "Security"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/proton.svg",
   "id": "proton-svg",
+  "status": "active",
+  "legacyId": "proton-svg",
+  "legacyIds": [
+    "proton-svg"
+  ],
   "filename": "proton.svg",
   "url": "/assets/svg/proton.svg",
-  "apiUrl": "/api/icons/proton-svg.json"
+  "apiUrl": "/api/icons/proton-svg.json",
+  "legacyApiUrl": "/api/icons/proton-svg.json",
+  "permanentId": "000213",
+  "permanentApiUrl": "/api/icons/000213.json"
 }

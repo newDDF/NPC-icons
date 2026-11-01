@@ -7,9 +7,20 @@
   "category": [
     "Social"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/meta.svg",
   "id": "meta-svg",
+  "status": "active",
+  "legacyId": "meta-svg",
+  "legacyIds": [
+    "meta-svg"
+  ],
   "filename": "meta.svg",
   "url": "/assets/svg/meta.svg",
-  "apiUrl": "/api/icons/meta-svg.json"
+  "apiUrl": "/api/icons/meta-svg.json",
+  "legacyApiUrl": "/api/icons/meta-svg.json",
+  "permanentId": "000148",
+  "permanentApiUrl": "/api/icons/000148.json"
 }

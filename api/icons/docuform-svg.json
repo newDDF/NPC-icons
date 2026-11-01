@@ -7,9 +7,20 @@
   "category": [
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/docuform.svg",
   "id": "docuform-svg",
+  "status": "active",
+  "legacyId": "docuform-svg",
+  "legacyIds": [
+    "docuform-svg"
+  ],
   "filename": "docuform.svg",
   "url": "/assets/svg/docuform.svg",
-  "apiUrl": "/api/icons/docuform-svg.json"
+  "apiUrl": "/api/icons/docuform-svg.json",
+  "legacyApiUrl": "/api/icons/docuform-svg.json",
+  "permanentId": "000079",
+  "permanentApiUrl": "/api/icons/000079.json"
 }

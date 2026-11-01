@@ -7,9 +7,20 @@
   "category": [
     "Security"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/ivanti-icon.svg",
   "id": "ivanti-icon-svg",
+  "status": "active",
+  "legacyId": "ivanti-icon-svg",
+  "legacyIds": [
+    "ivanti-icon-svg"
+  ],
   "filename": "ivanti-icon.svg",
   "url": "/assets/svg/ivanti-icon.svg",
-  "apiUrl": "/api/icons/ivanti-icon-svg.json"
+  "apiUrl": "/api/icons/ivanti-icon-svg.json",
+  "legacyApiUrl": "/api/icons/ivanti-icon-svg.json",
+  "permanentId": "000117",
+  "permanentApiUrl": "/api/icons/000117.json"
 }

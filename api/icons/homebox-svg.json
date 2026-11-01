@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/homebox.svg",
   "id": "homebox-svg",
+  "status": "active",
+  "legacyId": "homebox-svg",
+  "legacyIds": [
+    "homebox-svg"
+  ],
   "filename": "homebox.svg",
   "url": "/assets/svg/homebox.svg",
-  "apiUrl": "/api/icons/homebox-svg.json"
+  "apiUrl": "/api/icons/homebox-svg.json",
+  "legacyApiUrl": "/api/icons/homebox-svg.json",
+  "permanentId": "000105",
+  "permanentApiUrl": "/api/icons/000105.json"
 }

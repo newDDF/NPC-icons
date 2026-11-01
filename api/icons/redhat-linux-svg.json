@@ -7,9 +7,20 @@
   "category": [
     "Operating Systems"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/redhat-linux.svg",
   "id": "redhat-linux-svg",
+  "status": "active",
+  "legacyId": "redhat-linux-svg",
+  "legacyIds": [
+    "redhat-linux-svg"
+  ],
   "filename": "redhat-linux.svg",
   "url": "/assets/svg/redhat-linux.svg",
-  "apiUrl": "/api/icons/redhat-linux-svg.json"
+  "apiUrl": "/api/icons/redhat-linux-svg.json",
+  "legacyApiUrl": "/api/icons/redhat-linux-svg.json",
+  "permanentId": "000224",
+  "permanentApiUrl": "/api/icons/000224.json"
 }

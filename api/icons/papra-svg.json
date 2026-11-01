@@ -7,9 +7,20 @@
   "category": [
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/papra.svg",
   "id": "papra-svg",
+  "status": "active",
+  "legacyId": "papra-svg",
+  "legacyIds": [
+    "papra-svg"
+  ],
   "filename": "papra.svg",
   "url": "/assets/svg/papra.svg",
-  "apiUrl": "/api/icons/papra-svg.json"
+  "apiUrl": "/api/icons/papra-svg.json",
+  "legacyApiUrl": "/api/icons/papra-svg.json",
+  "permanentId": "000187",
+  "permanentApiUrl": "/api/icons/000187.json"
 }

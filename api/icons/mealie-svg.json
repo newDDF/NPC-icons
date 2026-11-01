@@ -7,9 +7,20 @@
   "category": [
     "Food & Beverage"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/mealie.svg",
   "id": "mealie-svg",
+  "status": "active",
+  "legacyId": "mealie-svg",
+  "legacyIds": [
+    "mealie-svg"
+  ],
   "filename": "mealie.svg",
   "url": "/assets/svg/mealie.svg",
-  "apiUrl": "/api/icons/mealie-svg.json"
+  "apiUrl": "/api/icons/mealie-svg.json",
+  "legacyApiUrl": "/api/icons/mealie-svg.json",
+  "permanentId": "000143",
+  "permanentApiUrl": "/api/icons/000143.json"
 }

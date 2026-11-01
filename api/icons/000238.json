@@ -1,0 +1,24 @@
+{
+  "name": "surfshark",
+  "color": "#44caca",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Networking"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/surfshark.svg",
+  "id": "000238",
+  "status": "active",
+  "legacyId": "surfshark-svg",
+  "legacyIds": [
+    "surfshark-svg"
+  ],
+  "filename": "surfshark.svg",
+  "url": "/assets/svg/surfshark.svg",
+  "apiUrl": "/api/icons/000238.json",
+  "legacyApiUrl": "/api/icons/surfshark-svg.json"
+}

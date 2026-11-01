@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/max.svg",
   "id": "max-svg",
+  "status": "active",
+  "legacyId": "max-svg",
+  "legacyIds": [
+    "max-svg"
+  ],
   "filename": "max.svg",
   "url": "/assets/svg/max.svg",
-  "apiUrl": "/api/icons/max-svg.json"
+  "apiUrl": "/api/icons/max-svg.json",
+  "legacyApiUrl": "/api/icons/max-svg.json",
+  "permanentId": "000141",
+  "permanentApiUrl": "/api/icons/000141.json"
 }

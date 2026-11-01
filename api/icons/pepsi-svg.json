@@ -7,9 +7,20 @@
   "category": [
     "Food & Beverage"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Pepsi.svg",
   "id": "pepsi-svg",
+  "status": "active",
+  "legacyId": "pepsi-svg",
+  "legacyIds": [
+    "pepsi-svg"
+  ],
   "filename": "Pepsi.svg",
   "url": "/assets/svg/Pepsi.svg",
-  "apiUrl": "/api/icons/pepsi-svg.json"
+  "apiUrl": "/api/icons/pepsi-svg.json",
+  "legacyApiUrl": "/api/icons/pepsi-svg.json",
+  "permanentId": "000316",
+  "permanentApiUrl": "/api/icons/000316.json"
 }

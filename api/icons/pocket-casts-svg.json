@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/pocket-casts.svg",
   "id": "pocket-casts-svg",
+  "status": "active",
+  "legacyId": "pocket-casts-svg",
+  "legacyIds": [
+    "pocket-casts-svg"
+  ],
   "filename": "pocket-casts.svg",
   "url": "/assets/svg/pocket-casts.svg",
-  "apiUrl": "/api/icons/pocket-casts-svg.json"
+  "apiUrl": "/api/icons/pocket-casts-svg.json",
+  "legacyApiUrl": "/api/icons/pocket-casts-svg.json",
+  "permanentId": "000204",
+  "permanentApiUrl": "/api/icons/000204.json"
 }

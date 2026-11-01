@@ -7,9 +7,20 @@
   "category": [
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/wordpress.svg",
   "id": "wordpress-svg",
+  "status": "active",
+  "legacyId": "wordpress-svg",
+  "legacyIds": [
+    "wordpress-svg"
+  ],
   "filename": "wordpress.svg",
   "url": "/assets/svg/wordpress.svg",
-  "apiUrl": "/api/icons/wordpress-svg.json"
+  "apiUrl": "/api/icons/wordpress-svg.json",
+  "legacyApiUrl": "/api/icons/wordpress-svg.json",
+  "permanentId": "000261",
+  "permanentApiUrl": "/api/icons/000261.json"
 }

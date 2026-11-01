@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/meilisearch.svg",
   "id": "meilisearch-svg",
+  "status": "active",
+  "legacyId": "meilisearch-svg",
+  "legacyIds": [
+    "meilisearch-svg"
+  ],
   "filename": "meilisearch.svg",
   "url": "/assets/svg/meilisearch.svg",
-  "apiUrl": "/api/icons/meilisearch-svg.json"
+  "apiUrl": "/api/icons/meilisearch-svg.json",
+  "legacyApiUrl": "/api/icons/meilisearch-svg.json",
+  "permanentId": "000146",
+  "permanentApiUrl": "/api/icons/000146.json"
 }

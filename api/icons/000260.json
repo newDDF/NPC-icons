@@ -1,0 +1,24 @@
+{
+  "name": "windows-explorer",
+  "color": "#fcd569",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Productivity"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/windows-explorer.svg",
+  "id": "000260",
+  "status": "active",
+  "legacyId": "windows-explorer-svg",
+  "legacyIds": [
+    "windows-explorer-svg"
+  ],
+  "filename": "windows-explorer.svg",
+  "url": "/assets/svg/windows-explorer.svg",
+  "apiUrl": "/api/icons/000260.json",
+  "legacyApiUrl": "/api/icons/windows-explorer-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "Gaming"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/unreal-engine.svg",
   "id": "unreal-engine-svg",
+  "status": "active",
+  "legacyId": "unreal-engine-svg",
+  "legacyIds": [
+    "unreal-engine-svg"
+  ],
   "filename": "unreal-engine.svg",
   "url": "/assets/svg/unreal-engine.svg",
-  "apiUrl": "/api/icons/unreal-engine-svg.json"
+  "apiUrl": "/api/icons/unreal-engine-svg.json",
+  "legacyApiUrl": "/api/icons/unreal-engine-svg.json",
+  "permanentId": "000252",
+  "permanentApiUrl": "/api/icons/000252.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Operating Systems"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/rocky-linux.svg",
   "id": "rocky-linux-svg",
+  "status": "active",
+  "legacyId": "rocky-linux-svg",
+  "legacyIds": [
+    "rocky-linux-svg"
+  ],
   "filename": "rocky-linux.svg",
   "url": "/assets/svg/rocky-linux.svg",
-  "apiUrl": "/api/icons/rocky-linux-svg.json"
+  "apiUrl": "/api/icons/rocky-linux-svg.json",
+  "legacyApiUrl": "/api/icons/rocky-linux-svg.json",
+  "permanentId": "000227",
+  "permanentApiUrl": "/api/icons/000227.json"
 }

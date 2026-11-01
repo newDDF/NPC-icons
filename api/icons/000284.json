@@ -1,0 +1,24 @@
+{
+  "name": "cocacola",
+  "color": "#d50115",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Food & Beverage"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/cocacola.svg",
+  "id": "000284",
+  "status": "active",
+  "legacyId": "cocacola-svg",
+  "legacyIds": [
+    "cocacola-svg"
+  ],
+  "filename": "cocacola.svg",
+  "url": "/assets/svg/cocacola.svg",
+  "apiUrl": "/api/icons/000284.json",
+  "legacyApiUrl": "/api/icons/cocacola-svg.json"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "visa",
+  "color": "#1A1F71",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Finance"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/visa.svg",
+  "id": "000024",
+  "status": "active",
+  "legacyId": "visa-svg",
+  "legacyIds": [
+    "visa-svg"
+  ],
+  "filename": "visa.svg",
+  "url": "/assets/svg/visa.svg",
+  "apiUrl": "/api/icons/000024.json",
+  "legacyApiUrl": "/api/icons/visa-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/3m.svg",
   "id": "3m-svg",
+  "status": "active",
+  "legacyId": "3m-svg",
+  "legacyIds": [
+    "3m-svg"
+  ],
   "filename": "3m.svg",
   "url": "/assets/svg/3m.svg",
-  "apiUrl": "/api/icons/3m-svg.json"
+  "apiUrl": "/api/icons/3m-svg.json",
+  "legacyApiUrl": "/api/icons/3m-svg.json",
+  "permanentId": "000269",
+  "permanentApiUrl": "/api/icons/000269.json"
 }

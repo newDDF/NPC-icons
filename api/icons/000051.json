@@ -1,0 +1,25 @@
+{
+  "name": "astro",
+  "color": "#bc52ee",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/astro.svg",
+  "id": "000051",
+  "status": "active",
+  "legacyId": "astro-svg",
+  "legacyIds": [
+    "astro-svg"
+  ],
+  "filename": "astro.svg",
+  "url": "/assets/svg/astro.svg",
+  "apiUrl": "/api/icons/000051.json",
+  "legacyApiUrl": "/api/icons/astro-svg.json"
+}

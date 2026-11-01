@@ -7,9 +7,20 @@
   "category": [
     "Productivity"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/rallly.svg",
   "id": "rallly-svg",
+  "status": "active",
+  "legacyId": "rallly-svg",
+  "legacyIds": [
+    "rallly-svg"
+  ],
   "filename": "rallly.svg",
   "url": "/assets/svg/rallly.svg",
-  "apiUrl": "/api/icons/rallly-svg.json"
+  "apiUrl": "/api/icons/rallly-svg.json",
+  "legacyApiUrl": "/api/icons/rallly-svg.json",
+  "permanentId": "000218",
+  "permanentApiUrl": "/api/icons/000218.json"
 }

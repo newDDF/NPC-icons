@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/broadcastchannel.svg",
   "id": "broadcastchannel-svg",
+  "status": "active",
+  "legacyId": "broadcastchannel-svg",
+  "legacyIds": [
+    "broadcastchannel-svg"
+  ],
   "filename": "broadcastchannel.svg",
   "url": "/assets/svg/broadcastchannel.svg",
-  "apiUrl": "/api/icons/broadcastchannel-svg.json"
+  "apiUrl": "/api/icons/broadcastchannel-svg.json",
+  "legacyApiUrl": "/api/icons/broadcastchannel-svg.json",
+  "permanentId": "000063",
+  "permanentApiUrl": "/api/icons/000063.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/WEEECompliance.svg",
   "id": "weeecompliance-svg",
+  "status": "active",
+  "legacyId": "weeecompliance-svg",
+  "legacyIds": [
+    "weeecompliance-svg"
+  ],
   "filename": "WEEECompliance.svg",
   "url": "/assets/svg/WEEECompliance.svg",
-  "apiUrl": "/api/icons/weeecompliance-svg.json"
+  "apiUrl": "/api/icons/weeecompliance-svg.json",
+  "legacyApiUrl": "/api/icons/weeecompliance-svg.json",
+  "permanentId": "000347",
+  "permanentApiUrl": "/api/icons/000347.json"
 }

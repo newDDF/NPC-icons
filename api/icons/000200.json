@@ -1,0 +1,24 @@
+{
+  "name": "pioneer",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Gaming"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/pioneer.svg",
+  "id": "000200",
+  "status": "active",
+  "legacyId": "pioneer-svg",
+  "legacyIds": [
+    "pioneer-svg"
+  ],
+  "filename": "pioneer.svg",
+  "url": "/assets/svg/pioneer.svg",
+  "apiUrl": "/api/icons/000200.json",
+  "legacyApiUrl": "/api/icons/pioneer-svg.json"
+}

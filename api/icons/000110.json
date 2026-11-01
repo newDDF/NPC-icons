@@ -1,0 +1,25 @@
+{
+  "name": "hugo",
+  "color": "#ff4088",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/hugo.svg",
+  "id": "000110",
+  "status": "active",
+  "legacyId": "hugo-svg",
+  "legacyIds": [
+    "hugo-svg"
+  ],
+  "filename": "hugo.svg",
+  "url": "/assets/svg/hugo.svg",
+  "apiUrl": "/api/icons/000110.json",
+  "legacyApiUrl": "/api/icons/hugo-svg.json"
+}

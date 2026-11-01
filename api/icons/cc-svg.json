@@ -7,9 +7,20 @@
   "category": [
     "Technology"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/cc.svg",
   "id": "cc-svg",
+  "status": "active",
+  "legacyId": "cc-svg",
+  "legacyIds": [
+    "cc-svg"
+  ],
   "filename": "cc.svg",
   "url": "/assets/svg/cc.svg",
-  "apiUrl": "/api/icons/cc-svg.json"
+  "apiUrl": "/api/icons/cc-svg.json",
+  "legacyApiUrl": "/api/icons/cc-svg.json",
+  "permanentId": "000067",
+  "permanentApiUrl": "/api/icons/000067.json"
 }

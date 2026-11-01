@@ -1,0 +1,24 @@
+{
+  "name": "yandex",
+  "color": "#d94327",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Technology"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/yandex.svg",
+  "id": "000266",
+  "status": "active",
+  "legacyId": "yandex-svg",
+  "legacyIds": [
+    "yandex-svg"
+  ],
+  "filename": "yandex.svg",
+  "url": "/assets/svg/yandex.svg",
+  "apiUrl": "/api/icons/000266.json",
+  "legacyApiUrl": "/api/icons/yandex-svg.json"
+}

@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/boeing.svg",
   "id": "boeing-svg",
+  "status": "active",
+  "legacyId": "boeing-svg",
+  "legacyIds": [
+    "boeing-svg"
+  ],
   "filename": "boeing.svg",
   "url": "/assets/svg/boeing.svg",
-  "apiUrl": "/api/icons/boeing-svg.json"
+  "apiUrl": "/api/icons/boeing-svg.json",
+  "legacyApiUrl": "/api/icons/boeing-svg.json",
+  "permanentId": "000280",
+  "permanentApiUrl": "/api/icons/000280.json"
 }

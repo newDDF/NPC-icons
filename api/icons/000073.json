@@ -1,0 +1,24 @@
+{
+  "name": "cpanel",
+  "color": "#ff6c2c",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Cloud"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/cpanel.svg",
+  "id": "000073",
+  "status": "active",
+  "legacyId": "cpanel-svg",
+  "legacyIds": [
+    "cpanel-svg"
+  ],
+  "filename": "cpanel.svg",
+  "url": "/assets/svg/cpanel.svg",
+  "apiUrl": "/api/icons/000073.json",
+  "legacyApiUrl": "/api/icons/cpanel-svg.json"
+}

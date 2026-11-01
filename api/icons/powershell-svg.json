@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/powershell.svg",
   "id": "powershell-svg",
+  "status": "active",
+  "legacyId": "powershell-svg",
+  "legacyIds": [
+    "powershell-svg"
+  ],
   "filename": "powershell.svg",
   "url": "/assets/svg/powershell.svg",
-  "apiUrl": "/api/icons/powershell-svg.json"
+  "apiUrl": "/api/icons/powershell-svg.json",
+  "legacyApiUrl": "/api/icons/powershell-svg.json",
+  "permanentId": "000211",
+  "permanentApiUrl": "/api/icons/000211.json"
 }

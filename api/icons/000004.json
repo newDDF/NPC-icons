@@ -1,0 +1,25 @@
+{
+  "name": "archlinux",
+  "color": "#1793D1",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Operating Systems",
+    "Open Source"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/archlinux.svg",
+  "id": "000004",
+  "status": "active",
+  "legacyId": "archlinux-svg",
+  "legacyIds": [
+    "archlinux-svg"
+  ],
+  "filename": "archlinux.svg",
+  "url": "/assets/svg/archlinux.svg",
+  "apiUrl": "/api/icons/000004.json",
+  "legacyApiUrl": "/api/icons/archlinux-svg.json"
+}

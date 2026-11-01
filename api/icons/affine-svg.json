@@ -7,9 +7,20 @@
   "category": [
     "Design"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/affine.svg",
   "id": "affine-svg",
+  "status": "active",
+  "legacyId": "affine-svg",
+  "legacyIds": [
+    "affine-svg"
+  ],
   "filename": "affine.svg",
   "url": "/assets/svg/affine.svg",
-  "apiUrl": "/api/icons/affine-svg.json"
+  "apiUrl": "/api/icons/affine-svg.json",
+  "legacyApiUrl": "/api/icons/affine-svg.json",
+  "permanentId": "000043",
+  "permanentApiUrl": "/api/icons/000043.json"
 }

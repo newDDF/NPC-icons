@@ -1,0 +1,24 @@
+{
+  "name": "papercut",
+  "color": "#27aa27",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Security"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/papercut.svg",
+  "id": "000186",
+  "status": "active",
+  "legacyId": "papercut-svg",
+  "legacyIds": [
+    "papercut-svg"
+  ],
+  "filename": "papercut.svg",
+  "url": "/assets/svg/papercut.svg",
+  "apiUrl": "/api/icons/000186.json",
+  "legacyApiUrl": "/api/icons/papercut-svg.json"
+}

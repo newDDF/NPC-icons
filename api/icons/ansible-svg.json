@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/ansible.svg",
   "id": "ansible-svg",
+  "status": "active",
+  "legacyId": "ansible-svg",
+  "legacyIds": [
+    "ansible-svg"
+  ],
   "filename": "ansible.svg",
   "url": "/assets/svg/ansible.svg",
-  "apiUrl": "/api/icons/ansible-svg.json"
+  "apiUrl": "/api/icons/ansible-svg.json",
+  "legacyApiUrl": "/api/icons/ansible-svg.json",
+  "permanentId": "000047",
+  "permanentApiUrl": "/api/icons/000047.json"
 }

@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/anaconda.svg",
   "id": "anaconda-svg",
+  "status": "active",
+  "legacyId": "anaconda-svg",
+  "legacyIds": [
+    "anaconda-svg"
+  ],
   "filename": "anaconda.svg",
   "url": "/assets/svg/anaconda.svg",
-  "apiUrl": "/api/icons/anaconda-svg.json"
+  "apiUrl": "/api/icons/anaconda-svg.json",
+  "legacyApiUrl": "/api/icons/anaconda-svg.json",
+  "permanentId": "000046",
+  "permanentApiUrl": "/api/icons/000046.json"
 }

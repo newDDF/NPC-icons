@@ -1,0 +1,24 @@
+{
+  "name": "openai",
+  "color": "#000000",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "AI"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/openai.svg",
+  "id": "000176",
+  "status": "active",
+  "legacyId": "openai-svg",
+  "legacyIds": [
+    "openai-svg"
+  ],
+  "filename": "openai.svg",
+  "url": "/assets/svg/openai.svg",
+  "apiUrl": "/api/icons/000176.json",
+  "legacyApiUrl": "/api/icons/openai-svg.json"
+}

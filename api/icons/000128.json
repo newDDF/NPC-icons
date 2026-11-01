@@ -1,0 +1,24 @@
+{
+  "name": "kodi",
+  "color": "#17b2e7",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/kodi.svg",
+  "id": "000128",
+  "status": "active",
+  "legacyId": "kodi-svg",
+  "legacyIds": [
+    "kodi-svg"
+  ],
+  "filename": "kodi.svg",
+  "url": "/assets/svg/kodi.svg",
+  "apiUrl": "/api/icons/000128.json",
+  "legacyApiUrl": "/api/icons/kodi-svg.json"
+}

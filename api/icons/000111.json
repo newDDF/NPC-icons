@@ -1,0 +1,24 @@
+{
+  "name": "hulu",
+  "color": "#1ce783",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/hulu.svg",
+  "id": "000111",
+  "status": "active",
+  "legacyId": "hulu-svg",
+  "legacyIds": [
+    "hulu-svg"
+  ],
+  "filename": "hulu.svg",
+  "url": "/assets/svg/hulu.svg",
+  "apiUrl": "/api/icons/000111.json",
+  "legacyApiUrl": "/api/icons/hulu-svg.json"
+}

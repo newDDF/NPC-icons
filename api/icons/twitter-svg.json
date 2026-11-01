@@ -7,9 +7,20 @@
   "category": [
     "Social"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/twitter.svg",
   "id": "twitter-svg",
+  "status": "active",
+  "legacyId": "twitter-svg",
+  "legacyIds": [
+    "twitter-svg"
+  ],
   "filename": "twitter.svg",
   "url": "/assets/svg/twitter.svg",
-  "apiUrl": "/api/icons/twitter-svg.json"
+  "apiUrl": "/api/icons/twitter-svg.json",
+  "legacyApiUrl": "/api/icons/twitter-svg.json",
+  "permanentId": "000248",
+  "permanentApiUrl": "/api/icons/000248.json"
 }

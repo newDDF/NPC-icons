@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/nodejs-alt.svg",
   "id": "nodejs-alt-svg",
+  "status": "active",
+  "legacyId": "nodejs-alt-svg",
+  "legacyIds": [
+    "nodejs-alt-svg"
+  ],
   "filename": "nodejs-alt.svg",
   "url": "/assets/svg/nodejs-alt.svg",
-  "apiUrl": "/api/icons/nodejs-alt-svg.json"
+  "apiUrl": "/api/icons/nodejs-alt-svg.json",
+  "legacyApiUrl": "/api/icons/nodejs-alt-svg.json",
+  "permanentId": "000161",
+  "permanentApiUrl": "/api/icons/000161.json"
 }

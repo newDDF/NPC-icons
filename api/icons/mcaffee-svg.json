@@ -7,9 +7,20 @@
   "category": [
     "Security"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/mcaffee.svg",
   "id": "mcaffee-svg",
+  "status": "active",
+  "legacyId": "mcaffee-svg",
+  "legacyIds": [
+    "mcaffee-svg"
+  ],
   "filename": "mcaffee.svg",
   "url": "/assets/svg/mcaffee.svg",
-  "apiUrl": "/api/icons/mcaffee-svg.json"
+  "apiUrl": "/api/icons/mcaffee-svg.json",
+  "legacyApiUrl": "/api/icons/mcaffee-svg.json",
+  "permanentId": "000142",
+  "permanentApiUrl": "/api/icons/000142.json"
 }

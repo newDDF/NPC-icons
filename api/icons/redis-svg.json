@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/redis.svg",
   "id": "redis-svg",
+  "status": "active",
+  "legacyId": "redis-svg",
+  "legacyIds": [
+    "redis-svg"
+  ],
   "filename": "redis.svg",
   "url": "/assets/svg/redis.svg",
-  "apiUrl": "/api/icons/redis-svg.json"
+  "apiUrl": "/api/icons/redis-svg.json",
+  "legacyApiUrl": "/api/icons/redis-svg.json",
+  "permanentId": "000225",
+  "permanentApiUrl": "/api/icons/000225.json"
 }

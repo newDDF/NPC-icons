@@ -7,9 +7,20 @@
   "category": [
     "Finance"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/paypal.svg",
   "id": "paypal-svg",
+  "status": "active",
+  "legacyId": "paypal-svg",
+  "legacyIds": [
+    "paypal-svg"
+  ],
   "filename": "paypal.svg",
   "url": "/assets/svg/paypal.svg",
-  "apiUrl": "/api/icons/paypal-svg.json"
+  "apiUrl": "/api/icons/paypal-svg.json",
+  "legacyApiUrl": "/api/icons/paypal-svg.json",
+  "permanentId": "000026",
+  "permanentApiUrl": "/api/icons/000026.json"
 }

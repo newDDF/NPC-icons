@@ -7,9 +7,20 @@
   "category": [
     "Communication"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/at-t.svg",
   "id": "at-t-svg",
+  "status": "active",
+  "legacyId": "at-t-svg",
+  "legacyIds": [
+    "at-t-svg"
+  ],
   "filename": "at-t.svg",
   "url": "/assets/svg/at-t.svg",
-  "apiUrl": "/api/icons/at-t-svg.json"
+  "apiUrl": "/api/icons/at-t-svg.json",
+  "legacyApiUrl": "/api/icons/at-t-svg.json",
+  "permanentId": "000052",
+  "permanentApiUrl": "/api/icons/000052.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/nvidia.svg",
   "id": "nvidia-svg",
+  "status": "active",
+  "legacyId": "nvidia-svg",
+  "legacyIds": [
+    "nvidia-svg"
+  ],
   "filename": "nvidia.svg",
   "url": "/assets/svg/nvidia.svg",
-  "apiUrl": "/api/icons/nvidia-svg.json"
+  "apiUrl": "/api/icons/nvidia-svg.json",
+  "legacyApiUrl": "/api/icons/nvidia-svg.json",
+  "permanentId": "000168",
+  "permanentApiUrl": "/api/icons/000168.json"
 }

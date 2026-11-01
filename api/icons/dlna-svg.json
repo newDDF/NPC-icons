@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/dlna.svg",
   "id": "dlna-svg",
+  "status": "active",
+  "legacyId": "dlna-svg",
+  "legacyIds": [
+    "dlna-svg"
+  ],
   "filename": "dlna.svg",
   "url": "/assets/svg/dlna.svg",
-  "apiUrl": "/api/icons/dlna-svg.json"
+  "apiUrl": "/api/icons/dlna-svg.json",
+  "legacyApiUrl": "/api/icons/dlna-svg.json",
+  "permanentId": "000076",
+  "permanentApiUrl": "/api/icons/000076.json"
 }

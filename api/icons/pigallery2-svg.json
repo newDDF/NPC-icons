@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/pigallery2.svg",
   "id": "pigallery2-svg",
+  "status": "active",
+  "legacyId": "pigallery2-svg",
+  "legacyIds": [
+    "pigallery2-svg"
+  ],
   "filename": "pigallery2.svg",
   "url": "/assets/svg/pigallery2.svg",
-  "apiUrl": "/api/icons/pigallery2-svg.json"
+  "apiUrl": "/api/icons/pigallery2-svg.json",
+  "legacyApiUrl": "/api/icons/pigallery2-svg.json",
+  "permanentId": "000197",
+  "permanentApiUrl": "/api/icons/000197.json"
 }

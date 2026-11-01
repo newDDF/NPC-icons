@@ -8,9 +8,20 @@
     "Developer",
     "Open Source"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/electron.svg",
   "id": "electron-svg",
+  "status": "active",
+  "legacyId": "electron-svg",
+  "legacyIds": [
+    "electron-svg"
+  ],
   "filename": "electron.svg",
   "url": "/assets/svg/electron.svg",
-  "apiUrl": "/api/icons/electron-svg.json"
+  "apiUrl": "/api/icons/electron-svg.json",
+  "legacyApiUrl": "/api/icons/electron-svg.json",
+  "permanentId": "000087",
+  "permanentApiUrl": "/api/icons/000087.json"
 }

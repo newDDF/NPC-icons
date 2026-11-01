@@ -7,9 +7,20 @@
   "category": [
     "Security"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/openbao.svg",
   "id": "openbao-svg",
+  "status": "active",
+  "legacyId": "openbao-svg",
+  "legacyIds": [
+    "openbao-svg"
+  ],
   "filename": "openbao.svg",
   "url": "/assets/svg/openbao.svg",
-  "apiUrl": "/api/icons/openbao-svg.json"
+  "apiUrl": "/api/icons/openbao-svg.json",
+  "legacyApiUrl": "/api/icons/openbao-svg.json",
+  "permanentId": "000177",
+  "permanentApiUrl": "/api/icons/000177.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "jamstack",
+  "color": "#f0047f",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/jamstack.svg",
+  "id": "000118",
+  "status": "active",
+  "legacyId": "jamstack-svg",
+  "legacyIds": [
+    "jamstack-svg"
+  ],
+  "filename": "jamstack.svg",
+  "url": "/assets/svg/jamstack.svg",
+  "apiUrl": "/api/icons/000118.json",
+  "legacyApiUrl": "/api/icons/jamstack-svg.json"
+}

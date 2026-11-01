@@ -1,0 +1,24 @@
+{
+  "name": "blu-ray-3d",
+  "color": "#1185fe",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Media"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/blu-ray-3d.svg",
+  "id": "000057",
+  "status": "active",
+  "legacyId": "blu-ray-3d-svg",
+  "legacyIds": [
+    "blu-ray-3d-svg"
+  ],
+  "filename": "blu-ray-3d.svg",
+  "url": "/assets/svg/blu-ray-3d.svg",
+  "apiUrl": "/api/icons/000057.json",
+  "legacyApiUrl": "/api/icons/blu-ray-3d-svg.json"
+}

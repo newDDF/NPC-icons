@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/DisneyChannel.svg",
   "id": "disneychannel-svg",
+  "status": "active",
+  "legacyId": "disneychannel-svg",
+  "legacyIds": [
+    "disneychannel-svg"
+  ],
   "filename": "DisneyChannel.svg",
   "url": "/assets/svg/DisneyChannel.svg",
-  "apiUrl": "/api/icons/disneychannel-svg.json"
+  "apiUrl": "/api/icons/disneychannel-svg.json",
+  "legacyApiUrl": "/api/icons/disneychannel-svg.json",
+  "permanentId": "000289",
+  "permanentApiUrl": "/api/icons/000289.json"
 }

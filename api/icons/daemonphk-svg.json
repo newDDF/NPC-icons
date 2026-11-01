@@ -7,9 +7,20 @@
   "category": [
     "Other"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Daemonphk.svg",
   "id": "daemonphk-svg",
+  "status": "active",
+  "legacyId": "daemonphk-svg",
+  "legacyIds": [
+    "daemonphk-svg"
+  ],
   "filename": "Daemonphk.svg",
   "url": "/assets/svg/Daemonphk.svg",
-  "apiUrl": "/api/icons/daemonphk-svg.json"
+  "apiUrl": "/api/icons/daemonphk-svg.json",
+  "legacyApiUrl": "/api/icons/daemonphk-svg.json",
+  "permanentId": "000285",
+  "permanentApiUrl": "/api/icons/000285.json"
 }

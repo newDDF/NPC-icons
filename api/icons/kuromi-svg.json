@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/kuromi.svg",
   "id": "kuromi-svg",
+  "status": "active",
+  "legacyId": "kuromi-svg",
+  "legacyIds": [
+    "kuromi-svg"
+  ],
   "filename": "kuromi.svg",
   "url": "/assets/svg/kuromi.svg",
-  "apiUrl": "/api/icons/kuromi-svg.json"
+  "apiUrl": "/api/icons/kuromi-svg.json",
+  "legacyApiUrl": "/api/icons/kuromi-svg.json",
+  "permanentId": "000306",
+  "permanentApiUrl": "/api/icons/000306.json"
 }

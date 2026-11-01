@@ -1,0 +1,24 @@
+{
+  "name": "twitter",
+  "color": "#1d9bf0",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/twitter.svg",
+  "id": "000248",
+  "status": "active",
+  "legacyId": "twitter-svg",
+  "legacyIds": [
+    "twitter-svg"
+  ],
+  "filename": "twitter.svg",
+  "url": "/assets/svg/twitter.svg",
+  "apiUrl": "/api/icons/000248.json",
+  "legacyApiUrl": "/api/icons/twitter-svg.json"
+}

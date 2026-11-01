@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/nuxt-js.svg",
   "id": "nuxt-js-svg",
+  "status": "active",
+  "legacyId": "nuxt-js-svg",
+  "legacyIds": [
+    "nuxt-js-svg"
+  ],
   "filename": "nuxt-js.svg",
   "url": "/assets/svg/nuxt-js.svg",
-  "apiUrl": "/api/icons/nuxt-js-svg.json"
+  "apiUrl": "/api/icons/nuxt-js-svg.json",
+  "legacyApiUrl": "/api/icons/nuxt-js-svg.json",
+  "permanentId": "000167",
+  "permanentApiUrl": "/api/icons/000167.json"
 }

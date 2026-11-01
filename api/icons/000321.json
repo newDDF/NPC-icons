@@ -1,0 +1,24 @@
+{
+  "name": "Rheinmetall",
+  "color": "#00406e",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Hardware"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/Rheinmetall.svg",
+  "id": "000321",
+  "status": "active",
+  "legacyId": "rheinmetall-svg",
+  "legacyIds": [
+    "rheinmetall-svg"
+  ],
+  "filename": "Rheinmetall.svg",
+  "url": "/assets/svg/Rheinmetall.svg",
+  "apiUrl": "/api/icons/000321.json",
+  "legacyApiUrl": "/api/icons/rheinmetall-svg.json"
+}

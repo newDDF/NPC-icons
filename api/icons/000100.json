@@ -1,0 +1,24 @@
+{
+  "name": "golang",
+  "color": "#00add8",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Developer"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/golang.svg",
+  "id": "000100",
+  "status": "active",
+  "legacyId": "golang-svg",
+  "legacyIds": [
+    "golang-svg"
+  ],
+  "filename": "golang.svg",
+  "url": "/assets/svg/golang.svg",
+  "apiUrl": "/api/icons/000100.json",
+  "legacyApiUrl": "/api/icons/golang-svg.json"
+}

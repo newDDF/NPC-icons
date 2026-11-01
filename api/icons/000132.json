@@ -1,0 +1,24 @@
+{
+  "name": "linkedin",
+  "color": "#007ebb",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/linkedin.svg",
+  "id": "000132",
+  "status": "active",
+  "legacyId": "linkedin-svg",
+  "legacyIds": [
+    "linkedin-svg"
+  ],
+  "filename": "linkedin.svg",
+  "url": "/assets/svg/linkedin.svg",
+  "apiUrl": "/api/icons/000132.json",
+  "legacyApiUrl": "/api/icons/linkedin-svg.json"
+}

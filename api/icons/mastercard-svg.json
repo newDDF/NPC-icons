@@ -7,9 +7,20 @@
   "category": [
     "Finance"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/mastercard.svg",
   "id": "mastercard-svg",
+  "status": "active",
+  "legacyId": "mastercard-svg",
+  "legacyIds": [
+    "mastercard-svg"
+  ],
   "filename": "mastercard.svg",
   "url": "/assets/svg/mastercard.svg",
-  "apiUrl": "/api/icons/mastercard-svg.json"
+  "apiUrl": "/api/icons/mastercard-svg.json",
+  "legacyApiUrl": "/api/icons/mastercard-svg.json",
+  "permanentId": "000025",
+  "permanentApiUrl": "/api/icons/000025.json"
 }

@@ -1,0 +1,24 @@
+{
+  "name": "DONGFANGCOLLEGE",
+  "color": "none",
+  "format": "png",
+  "source": "",
+  "info": "NPC-icons library bitmapped graphic asset.",
+  "category": [
+    "Education"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/png/DONGFANGCOLLEGE.png",
+  "id": "000009",
+  "status": "active",
+  "legacyId": "dongfangcollege-png",
+  "legacyIds": [
+    "dongfangcollege-png"
+  ],
+  "filename": "DONGFANGCOLLEGE.png",
+  "url": "/assets/png/DONGFANGCOLLEGE.png",
+  "apiUrl": "/api/icons/000009.json",
+  "legacyApiUrl": "/api/icons/dongfangcollege-png.json"
+}

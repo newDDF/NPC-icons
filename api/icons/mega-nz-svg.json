@@ -7,9 +7,20 @@
   "category": [
     "Cloud"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/mega-nz.svg",
   "id": "mega-nz-svg",
+  "status": "active",
+  "legacyId": "mega-nz-svg",
+  "legacyIds": [
+    "mega-nz-svg"
+  ],
   "filename": "mega-nz.svg",
   "url": "/assets/svg/mega-nz.svg",
-  "apiUrl": "/api/icons/mega-nz-svg.json"
+  "apiUrl": "/api/icons/mega-nz-svg.json",
+  "legacyApiUrl": "/api/icons/mega-nz-svg.json",
+  "permanentId": "000145",
+  "permanentApiUrl": "/api/icons/000145.json"
 }

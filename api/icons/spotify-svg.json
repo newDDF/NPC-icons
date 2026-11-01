@@ -7,9 +7,20 @@
   "category": [
     "Media"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/spotify.svg",
   "id": "spotify-svg",
+  "status": "active",
+  "legacyId": "spotify-svg",
+  "legacyIds": [
+    "spotify-svg"
+  ],
   "filename": "spotify.svg",
   "url": "/assets/svg/spotify.svg",
-  "apiUrl": "/api/icons/spotify-svg.json"
+  "apiUrl": "/api/icons/spotify-svg.json",
+  "legacyApiUrl": "/api/icons/spotify-svg.json",
+  "permanentId": "000018",
+  "permanentApiUrl": "/api/icons/000018.json"
 }

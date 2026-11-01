@@ -1,0 +1,24 @@
+{
+  "name": "pinterest",
+  "color": "#BD081C",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons library trademark design asset.",
+  "category": [
+    "Social"
+  ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
+  "path": "/assets/svg/pinterest.svg",
+  "id": "000019",
+  "status": "active",
+  "legacyId": "pinterest-svg",
+  "legacyIds": [
+    "pinterest-svg"
+  ],
+  "filename": "pinterest.svg",
+  "url": "/assets/svg/pinterest.svg",
+  "apiUrl": "/api/icons/000019.json",
+  "legacyApiUrl": "/api/icons/pinterest-svg.json"
+}

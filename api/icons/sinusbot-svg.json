@@ -7,9 +7,20 @@
   "category": [
     "Infrastructure"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/sinusbot.svg",
   "id": "sinusbot-svg",
+  "status": "active",
+  "legacyId": "sinusbot-svg",
+  "legacyIds": [
+    "sinusbot-svg"
+  ],
   "filename": "sinusbot.svg",
   "url": "/assets/svg/sinusbot.svg",
-  "apiUrl": "/api/icons/sinusbot-svg.json"
+  "apiUrl": "/api/icons/sinusbot-svg.json",
+  "legacyApiUrl": "/api/icons/sinusbot-svg.json",
+  "permanentId": "000234",
+  "permanentApiUrl": "/api/icons/000234.json"
 }

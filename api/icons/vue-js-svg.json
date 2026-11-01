@@ -7,9 +7,20 @@
   "category": [
     "Developer"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/vue-js.svg",
   "id": "vue-js-svg",
+  "status": "active",
+  "legacyId": "vue-js-svg",
+  "legacyIds": [
+    "vue-js-svg"
+  ],
   "filename": "vue-js.svg",
   "url": "/assets/svg/vue-js.svg",
-  "apiUrl": "/api/icons/vue-js-svg.json"
+  "apiUrl": "/api/icons/vue-js-svg.json",
+  "legacyApiUrl": "/api/icons/vue-js-svg.json",
+  "permanentId": "000256",
+  "permanentApiUrl": "/api/icons/000256.json"
 }

@@ -7,9 +7,20 @@
   "category": [
     "Hardware"
   ],
+  "origin": null,
+  "by": null,
+  "updatedAt": "2026-11-01T00:13:38.000Z",
   "path": "/assets/svg/Siemens.svg",
   "id": "siemens-svg",
+  "status": "active",
+  "legacyId": "siemens-svg",
+  "legacyIds": [
+    "siemens-svg"
+  ],
   "filename": "Siemens.svg",
   "url": "/assets/svg/Siemens.svg",
-  "apiUrl": "/api/icons/siemens-svg.json"
+  "apiUrl": "/api/icons/siemens-svg.json",
+  "legacyApiUrl": "/api/icons/siemens-svg.json",
+  "permanentId": "000330",
+  "permanentApiUrl": "/api/icons/000330.json"
 }
