@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "nextId": "000350",
+  "nextId": "000351",
   "records": [
     {
       "id": "000001",
@@ -2443,6 +2443,13 @@
       "name": "wikimedia",
       "format": "svg",
       "filename": "wikimedia.svg",
+      "status": "active"
+    },
+    {
+      "id": "000350",
+      "name": "facebook",
+      "format": "svg",
+      "filename": "facebook.svg",
       "status": "active"
     }
   ]
