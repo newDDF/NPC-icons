@@ -1,0 +1,22 @@
+{
+  "name": "facebook",
+  "color": "0866ff",
+  "format": "svg",
+  "source": "",
+  "info": "NPC-icons visual design asset.",
+  "category": [],
+  "origin": "repository",
+  "by": "dashboardicons.com",
+  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "path": "/assets/svg/facebook.svg",
+  "id": "000350",
+  "status": "active",
+  "legacyId": "facebook-svg",
+  "legacyIds": [
+    "facebook-svg"
+  ],
+  "filename": "facebook.svg",
+  "url": "/assets/svg/facebook.svg",
+  "apiUrl": "/api/icons/000350.json",
+  "legacyApiUrl": "/api/icons/facebook-svg.json"
+}
