@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://archive.org/",
   "info": "The Internet Archive (archive.org) is an American digital library with the stated mission of providing universal access to all knowledge. It provides free public access to collections of digitized materials, including millions of books, audio recordings, videos, and archived web pages via its famous Wayback Machine.",
-  "category": [],
+  "category": [
+    "Infrastructure"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/archivedotorg.svg",
   "id": "000048",
   "status": "active",

@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.dropout.tv/",
   "info": "Dropout (formerly CollegeHumor) is an independent, subscription-based digital streaming service dedicated to original alternative comedy. It hosts a diverse catalog of popular unscripted comedy series, game shows, and tabletop gaming content like Dimension 20 and Game Changer.",
-  "category": [],
+  "category": [
+    "Media"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/dropout.svg",
   "id": "000084",
   "status": "active",

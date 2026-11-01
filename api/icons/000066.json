@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.carrefour.com/",
   "info": "Carrefour SA is a French multinational retail and wholesaling corporation headquartered in Massy, France. As one of the world's largest hypermarket chains, it operates a vast network of grocery stores, supermarkets, and convenience stores globally, offering consumer goods and fresh food.",
-  "category": [],
+  "category": [
+    "E-commerce"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/carrefour.svg",
   "id": "000066",
   "status": "active",

@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://documenso.com/",
   "info": "Documenso is an open-source digital signing platform designed to provide a more transparent and customizable alternative to proprietary e-signature tools. It allows users to securely request, sign, and manage legally binding digital signatures on electronic documents.",
-  "category": [],
+  "category": [
+    "Productivity"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/documenso.svg",
   "id": "documenso-svg",
   "status": "active",

@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://www.7-zip.org/",
   "info": " 7-Zip is a free and open-source file archiver with a high compression ratio. Developed by Igor Pavlov, it is widely utilized for packing or unpacking various file formats and is renowned for its proprietary 7z archive format, which offers superior data compression.",
-  "category": [],
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/7zip.svg",
   "id": "000042",
   "status": "active",

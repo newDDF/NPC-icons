@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://www.amd.com/",
   "info": "AMD (Advanced Micro Devices) is a leading global semiconductor company that designs and integrates technologies powering millions of intelligent devices, including personal computers, game consoles, and cloud servers. It is world-renowned for its Ryzen processors and Radeon graphics cards, driving innovation in high-performance computing.",
-  "category": [],
+  "category": [
+    "Operating Systems",
+    "Hardware"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/amd.svg",
   "id": "amd-svg",
   "status": "active",

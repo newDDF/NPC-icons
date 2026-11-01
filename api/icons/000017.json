@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://line.me/",
   "info": "LINE is a highly popular freeware app for instant communications on electronic devices, developed by LY Corporation. Launched in Japan in 2011, it allows users to exchange texts, images, video, and audio, and conduct free VoIP conversations. It has evolved into a \"Super App,\" offering various services including mobile payment (LINE Pay), news feeds, and games.",
-  "category": [],
+  "category": [
+    "Communication"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/line.svg",
   "id": "000017",
   "status": "active",

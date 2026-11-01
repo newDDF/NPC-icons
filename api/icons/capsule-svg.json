@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "",
   "info": "Capsule Corporation is a fictional multinational company from Akira Toriyama's globally acclaimed manga and anime franchise, Dragon Ball. Founded by Dr. Brief (Bulma's father), the company is world-famous for its revolutionary \"Hoi-Poi Capsules,\" which can shrink large objects like vehicles and houses into tiny, pocket-sized capsules.",
-  "category": [],
+  "category": [
+    "Other"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/capsule.svg",
   "id": "capsule-svg",
   "status": "active",

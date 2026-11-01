@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.blogger.com/",
   "info": "Blogger is an American online content management system and blog-publishing service owned by Google. Launched in 1999, it allows users to easily create and maintain personalized, multi-user blogs with time-stamped entries without requiring any coding or web hosting knowledge.",
-  "category": [],
+  "category": [
+    "Social"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/blogger.svg",
   "id": "000056",
   "status": "active",

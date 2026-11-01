@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.whatsapp.com/",
   "info": "WhatsApp is an internationally available freeware, cross-platform centralized instant messaging and voice-over-IP service owned by Meta Platforms. It allows users to send text and voice messages, make voice and video calls, and share images, documents, and user locations, relying heavily on end-to-end encryption for security.",
-  "category": [],
+  "category": [
+    "Communication"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/whatsapp.svg",
   "id": "whatsapp-svg",
   "status": "active",

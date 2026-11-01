@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://getbootstrap.com/",
   "info": "Bootstrap is a free, open-source front-end framework for faster and easier web development. It includes HTML and CSS-based design templates for typography, forms, buttons, navigation, and other interface components, alongside optional JavaScript extensions, making it ideal for creating responsive, mobile-first websites.",
-  "category": [],
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/bootstrap.svg",
   "id": "000060",
   "status": "active",

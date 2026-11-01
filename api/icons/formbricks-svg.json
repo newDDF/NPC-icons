@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://formbricks.com/",
   "info": "Formbricks is an open-source micro-survey and user-feedback platform built for product managers and developers. It enables businesses to trigger highly targeted, privacy-compliant in-product surveys to collect valuable user insights at crucial points in the user journey.",
-  "category": [],
+  "category": [
+    "Productivity"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/formbricks.svg",
   "id": "formbricks-svg",
   "status": "active",

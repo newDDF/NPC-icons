@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.cloudflare.com/",
   "info": "Cloudflare, Inc. is a major American web infrastructure and website security company. It provides content delivery network (CDN) services, DDoS mitigation, internet security, and distributed domain name server (DNS) services, acting as a reverse proxy to speed up and secure millions of websites globally.",
-  "category": [],
+  "category": [
+    "Cloud"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/cloudflare.svg",
   "id": "cloudflare-svg",
   "status": "active",

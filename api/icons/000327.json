@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.rtx.com/",
   "info": "RTX Corporation (formerly Raytheon Technologies) is one of the world's largest aerospace and defense manufacturers, headquartered in the United States. Comprising industry leaders Collins Aerospace, Pratt & Whitney, and Raytheon, RTX delivers state-of-the-art solutions, including aircraft engines, avionics, air defense systems, and advanced missiles.",
-  "category": [],
+  "category": [
+    "Hardware"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/RTX.svg",
   "id": "000327",
   "status": "active",

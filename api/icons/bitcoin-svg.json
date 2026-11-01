@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://bitcoin.org/",
   "info": "Bitcoin is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer bitcoin network. Created in 2009 by an anonymous developer named Satoshi Nakamoto, transactions are verified by network nodes through cryptography and recorded in a public ledger called a blockchain.",
-  "category": [],
+  "category": [
+    "Finance"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/bitcoin.svg",
   "id": "bitcoin-svg",
   "status": "active",

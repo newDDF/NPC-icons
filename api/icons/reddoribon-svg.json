@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "",
   "info": "The Red Ribbon Army is a notorious fictional paramilitary organization in the Dragon Ball series. Known for its distinct red ribbon logo, the army seeks global domination and the Dragon Balls under the leadership of Commander Red, and is responsible for creating powerful androids.",
-  "category": [],
+  "category": [
+    "Media"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/reddoribon.svg",
   "id": "reddoribon-svg",
   "status": "active",

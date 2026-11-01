@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.brother-usa.com/",
   "info": "Brother Industries, Ltd. is a Japanese multinational electronics and electrical equipment company. It is globally recognized for its high-quality office and home printing solutions, including laser and inkjet printers, Multi-Function Centers (MFCs), label printers, and sewing machines.",
-  "category": [],
+  "category": [
+    "Hardware"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/brother.svg",
   "id": "000065",
   "status": "active",

@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.dropbox.com/",
   "info": "Dropbox is a pioneering cloud storage and file synchronization service headquartered in the United States. It provides a centralized smart workspace where individuals and teams can securely store files, sync data across multiple devices, and collaborate on documents effortlessly.",
-  "category": [],
+  "category": [
+    "Cloud"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/dropbox.svg",
   "id": "000083",
   "status": "active",

@@ -4,10 +4,12 @@
   "format": "png",
   "source": "https://iceceng.zufedfc.edu.cn/xygk/xybs1.htm",
   "info": "NPC-icons library bitmapped graphic asset.",
-  "category": [],
+  "category": [
+    "Education"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/png/DONGFANGCOLLEGE.png",
   "id": "000009",
   "status": "active",

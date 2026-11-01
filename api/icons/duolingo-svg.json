@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.duolingo.com/",
   "info": "Duolingo is a leading American educational technology company that operates a popular gamified language-learning platform. It offers bite-sized lessons in dozens of world languages, making learning accessible and engaging through its mobile app and web browser interface.",
-  "category": [],
+  "category": [
+    "Education"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/duolingo.svg",
   "id": "duolingo-svg",
   "status": "active",

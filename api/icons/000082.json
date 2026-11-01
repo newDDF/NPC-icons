@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://app.diagrams.net/",
   "info": "draw.io (also known as diagrams.net) is a free, open-source, web-based diagramming and flowchart software tool. It features a highly intuitive interface that allows users to create process diagrams, organizational charts, UML models, and network architectures seamlessly.",
-  "category": [],
+  "category": [
+    "Developer",
+    "Design"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/draw-io.svg",
   "id": "000082",
   "status": "active",

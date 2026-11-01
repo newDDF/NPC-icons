@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.pinterest.com/",
   "info": "Pinterest is an American image sharing and social media service designed to enable saving and discovery of information on the internet using images, animated GIFs, and videos. Users create and manage theme-based image collections called \"boards,\" making it a popular hub for finding inspiration in lifestyle, fashion, decor, and DIY projects.",
-  "category": [],
+  "category": [
+    "Social"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/pinterest.svg",
   "id": "pinterest-svg",
   "status": "active",

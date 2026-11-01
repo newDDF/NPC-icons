@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://fluffychat.im/",
   "info": "FluffyChat is an open-source, user-friendly instant messaging application built on top of the decentralized Matrix network. It focuses on providing a clean, cute, and intuitive user interface while maintaining robust end-to-end encryption for private and secure communication.",
-  "category": [],
+  "category": [
+    "Communication"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/fluffychat.svg",
   "id": "000092",
   "status": "active",

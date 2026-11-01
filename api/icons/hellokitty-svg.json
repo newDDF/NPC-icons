@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.sanrio.co.jp/",
   "info": "Hello Kitty is a globally recognized character created by the Japanese company Sanrio in 1974. Depicted as a cute anthropomorphic white cat with a red bow, she has become an international pop culture icon, symbolizing friendship, kindness, and Japan's kawaii (cute) culture across millions of branded products.",
-  "category": [],
+  "category": [
+    "Media"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/hellokitty.svg",
   "id": "hellokitty-svg",
   "status": "active",

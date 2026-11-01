@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://dashboardicons.com/",
   "info": "Dashboard Icons is a popular open-source icon pack designed primarily for self-hosted server dashboards, such as Homer, Heimdall, and Organizr. It provides web developers and home-lab enthusiasts with a comprehensive, visually cohesive set of high-quality brand and service icons to personalize their network layouts.",
-  "category": [],
+  "category": [
+    "Technology"
+  ],
   "origin": "official",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/dashboardicons.svg",
   "id": "dashboardicons-svg",
   "status": "active",

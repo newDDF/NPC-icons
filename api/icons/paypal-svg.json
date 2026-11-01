@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.paypal.com/",
   "info": "PayPal Holdings, Inc. is an American multinational financial technology company operating an online payments system in the majority of countries that support online money transfers. It serves as an electronic alternative to traditional paper methods like checks and money orders, ensuring secure e-commerce transactions.",
-  "category": [],
+  "category": [
+    "Finance"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/paypal.svg",
   "id": "paypal-svg",
   "status": "active",

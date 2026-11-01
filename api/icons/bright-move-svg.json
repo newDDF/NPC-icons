@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.broadcom.com/",
   "info": "Broadcom Inc. is an American multinational designer, developer, and global supplier of a wide range of semiconductor and infrastructure software products. Its product portfolio serves the data center, networking, enterprise software, broadband, wireless, storage, and industrial markets.",
-  "category": [],
+  "category": [
+    "Media"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/bright-move.svg",
   "id": "bright-move-svg",
   "status": "active",

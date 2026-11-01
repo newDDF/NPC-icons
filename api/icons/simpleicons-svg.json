@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://simpleicons.org/",
   "info": "Simple Icons is a widely acclaimed, open-source library that provides thousands of free SVG icons for popular global brands, applications, and digital services. Maintained by a vibrant developer community, it serves as an essential design resource for developers and designers to integrate clean, scalable brand logos into websites and portfolios.",
-  "category": [],
+  "category": [
+    "Design",
+    "Open Source"
+  ],
   "origin": "official",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/simpleicons.svg",
   "id": "simpleicons-svg",
   "status": "active",

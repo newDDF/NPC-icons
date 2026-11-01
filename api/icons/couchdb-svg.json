@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://couchdb.apache.org/",
   "info": "Apache CouchDB is an open-source, document-oriented NoSQL database implemented in Erlang. It utilizes JSON to store data, JavaScript as its query language using MapReduce, and an HTTP API, making it highly reliable and well-suited for web-heavy and sync-centric applications.",
-  "category": [],
+  "category": [
+    "Infrastructure"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/couchdb.svg",
   "id": "couchdb-svg",
   "status": "active",

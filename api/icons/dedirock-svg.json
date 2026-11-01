@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://dedirock.com/",
   "info": "Dedirock is a specialized web hosting provider that offers high-performance bare metal servers and infrastructure solutions. It is designed to cater to businesses and developers seeking high reliability, unshared processing power, and customizable server setups.",
-  "category": [],
+  "category": [
+    "Cloud"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/dedirock.svg",
   "id": "dedirock-svg",
   "status": "active",

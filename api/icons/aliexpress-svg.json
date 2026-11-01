@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.aliexpress.com/",
   "info": "AliExpress is a global online marketplace connecting consumers with merchants worldwide. It offers products across electronics, fashion, home goods, and many other categories, supporting cross-border e-commerce.",
-  "category": [],
+  "category": [
+    "E-commerce"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/aliexpress.svg",
   "id": "aliexpress-svg",
   "status": "active",

@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.crunchyroll.com/",
   "info": "Crunchyroll is an American subscription video-on-demand over-the-top streaming service owned by Sony Group Corporation. It is the world's leading streaming platform dedicated exclusively to anime, manga, and dorama (Asian dramas), connecting a massive global community of anime fans.",
-  "category": [],
+  "category": [
+    "Media"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/crunchyroll.svg",
   "id": "crunchyroll-svg",
   "status": "active",

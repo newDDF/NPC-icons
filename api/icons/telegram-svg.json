@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://telegram.org/",
   "info": "Telegram is a cloud-based, cross-platform, encrypted instant messaging service known for its speed, privacy, and expansive features. It supports self-destructing messages, massive group chats, channels for broadcasting, and large file sharing, making it a highly flexible communication tool globally.",
-  "category": [],
+  "category": [
+    "Communication"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/telegram.svg",
   "id": "telegram-svg",
   "status": "active",

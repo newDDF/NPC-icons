@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://brave.com/",
   "info": "Brave is a free and open-source web browser developed by Brave Software, Inc., based on the Chromium web browser. It is strictly focused on privacy, automatically blocking online advertisements and website trackers by default while offering built-in features like a secure crypto wallet and private search.",
-  "category": [],
+  "category": [
+    "Networking"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/brave.svg",
   "id": "000061",
   "status": "active",

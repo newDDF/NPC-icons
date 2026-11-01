@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "",
   "info": "Haining Middle School is a well-established educational institution located in Haining City, Zhejiang Province, China. The school is dedicated to secondary education, fostering academic excellence, and cultivating talents with comprehensive capabilities and civic virtues.",
-  "category": [],
+  "category": [
+    "Education"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/hainingzhongxue.svg",
   "id": "000033",
   "status": "active",

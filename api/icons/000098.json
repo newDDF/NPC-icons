@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://github.com/fatedier/frp",
   "info": "frp is a high-performance, open-source reverse proxy application. It helps users expose a local server behind a NAT or firewall to the internet, making it an essential tool for remote access, web hosting, and development environments lacking public IP addresses.",
-  "category": [],
+  "category": [
+    "Infrastructure"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/frp.svg",
   "id": "000098",
   "status": "active",

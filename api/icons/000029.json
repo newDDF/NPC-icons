@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.reddit.com/",
   "info": "Reddit is an American social news aggregation, web content rating, and discussion website. Registered users submit content to the site, such as links, text posts, images, and videos, which are then voted up or down by other members. Content is organized into user-created boards called \"subreddits,\" covering nearly every topic imaginable.",
-  "category": [],
+  "category": [
+    "Social"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/reddit.svg",
   "id": "000029",
   "status": "active",

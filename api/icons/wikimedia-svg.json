@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://commons.wikimedia.org/",
   "info": "The Wikimedia Foundation, Inc. is an American nonprofit charitable organization headquartered in California. It is globally recognized for hosting and operating massive, community-driven collaborative projects, most notably Wikipedia (the world's largest free online encyclopedia), as well as Wikimedia Commons, Wiktionary, and Wikidata.",
-  "category": [],
+  "category": [
+    "Open Source"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/wikimedia.svg",
   "id": "wikimedia-svg",
   "status": "active",

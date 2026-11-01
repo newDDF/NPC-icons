@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.synology.com/",
   "info": "Synology Inc. is a Taiwanese corporation that specializes in Network-Attached Storage (NAS) appliances. The company provides robust data management solutions, private cloud infrastructure, and video surveillance tools for both home users and large enterprises worldwide.",
-  "category": [],
+  "category": [
+    "Infrastructure"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/synology.svg",
   "id": "000036",
   "status": "active",

@@ -4,10 +4,12 @@
   "format": "png",
   "source": "",
   "info": "NPC-icons library bitmapped graphic asset.",
-  "category": [],
+  "category": [
+    "Transport"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/png/Hanghai-IR.png",
   "id": "000011",
   "status": "active",

@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.amazon.com/prime",
   "info": "Amazon Prime is a subscription service offering eligible members shipping benefits, streaming entertainment, exclusive deals, and additional digital services across Amazon's international retail ecosystem.",
-  "category": [],
+  "category": [
+    "E-commerce"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/amazon-prime.svg",
   "id": "amazon-prime-svg",
   "status": "active",

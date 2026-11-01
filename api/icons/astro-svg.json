@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://astro.build/",
   "info": "Astro is a modern, open-source web framework designed for building fast, content-driven websites. It features a unique \"Component Islands\" architecture that renders HTML entirely on the server and strips away unused JavaScript by default, drastically improving page loading performance and SEO.",
-  "category": [],
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/astro.svg",
   "id": "astro-svg",
   "status": "active",

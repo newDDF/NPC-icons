@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.mastercard.com/",
   "info": "Mastercard Inc. is a global pioneer in payment innovation and technology, connecting billions of consumers, issuers, merchants, and governments worldwide. The company processes payment transactions and offers a wide array of payment solutions, including credit, debit, and commercial payment programs.",
-  "category": [],
+  "category": [
+    "Finance"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/mastercard.svg",
   "id": "000025",
   "status": "active",

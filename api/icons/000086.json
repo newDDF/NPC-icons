@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "",
   "info": "NPC-icons library trademark design asset.",
-  "category": [],
+  "category": [
+    "Media"
+  ],
   "origin": "repository",
   "by": null,
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/dvd.svg",
   "id": "000086",
   "status": "active",

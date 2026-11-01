@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://www.ansible.com/",
   "info": "Ansible is an open-source IT automation engine developed by Red Hat. It automates software provisioning, configuration management, and application deployment by utilizing simple, human-readable YAML configurations without requiring agents on the target nodes.",
-  "category": [],
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/ansible.svg",
   "id": "000047",
   "status": "active",

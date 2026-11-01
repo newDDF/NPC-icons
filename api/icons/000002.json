@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://www.apple.com/",
   "info": "Apple Inc. is a pioneering American multinational technology company famous for its premium consumer electronics, software, and services. Known for iconic products like the iPhone, iPad, Mac, and Apple Watch, the company blends sleek hardware design with an intuitive ecosystem, making it one of the most valuable and influential brands in the world.",
-  "category": [],
+  "category": [
+    "Operating Systems",
+    "Hardware"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/apple.svg",
   "id": "000002",
   "status": "active",

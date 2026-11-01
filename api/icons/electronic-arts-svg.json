@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.ea.com/",
   "info": "Electronic Arts (EA) is a premier American multinational video game company and one of the largest gaming publishers in the world. It is globally recognized for developing and distributing critically acclaimed franchises, including EA SPORTS FC (formerly FIFA), The Sims, Apex Legends, and Battlefield.",
-  "category": [],
+  "category": [
+    "Gaming"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/electronic-arts.svg",
   "id": "electronic-arts-svg",
   "status": "active",

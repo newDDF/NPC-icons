@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.att.com/",
   "info": "AT&T Inc. is an American multinational telecommunications holding company and one of the largest telecommunications providers in the world. It delivers high-speed mobile networks, broadband internet, and enterprise communication solutions to millions of consumers and businesses across the United States.",
-  "category": [],
+  "category": [
+    "Communication"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/at-t.svg",
   "id": "at-t-svg",
   "status": "active",

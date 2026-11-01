@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://etherpad.org/",
   "info": "Etherpad is an open-source, web-based collaborative real-time editor. It allows multiple authors to edit a text document simultaneously, tracking changes with distinct colors and offering built-in chat capabilities, making it ideal for instant team brainstorming sessions.",
-  "category": [],
+  "category": [
+    "Productivity"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/etherpad.svg",
   "id": "000090",
   "status": "active",

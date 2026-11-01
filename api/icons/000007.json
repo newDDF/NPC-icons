@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://git-scm.com/",
   "info": "Git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Created by Linus Torvalds in 2005, it allows multiple developers to track code history, work on branches simultaneously, and merge code changes reliably.",
-  "category": [],
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/git.svg",
   "id": "000007",
   "status": "active",

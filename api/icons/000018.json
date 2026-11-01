@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.spotify.com/",
   "info": "Spotify is a leading global audio streaming and media services provider, founded in Sweden in 2006. It offers millions of digital music tracks, podcasts, and videos from record labels and media companies worldwide. Operating under a freemium model, it provides basic features for free with advertisements, alongside premium subscriptions for ad-free listening.",
-  "category": [],
+  "category": [
+    "Media"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/spotify.svg",
   "id": "000018",
   "status": "active",

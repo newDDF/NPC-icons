@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.toei-animation.com/",
   "info": "Toei Animation is one of Japan's most iconic and pioneering animation studios, founded in 1948. The company has produced numerous legendary anime series that have gained massive global popularity, including Dragon Ball, One Piece, and Sailor Moon. It continues to lead the global anime industry through high-quality animation production and licensing.",
-  "category": [],
+  "category": [
+    "Media"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/tomianime.svg",
   "id": "000031",
   "status": "active",

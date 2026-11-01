@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.ul.com/",
   "info": "UL Certified indicates that a product has been rigorously tested and evaluated by UL Solutions (formerly Underwriters Laboratories), a globally recognized safety science company based in the US. The mark proves that a product meets stringent safety and performance standards, particularly for electrical and consumer goods.",
-  "category": [],
+  "category": [
+    "Hardware"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/ULcertified1.svg",
   "id": "000341",
   "status": "active",

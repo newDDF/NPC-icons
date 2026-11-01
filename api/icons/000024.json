@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.visa.com/",
   "info": "Visa Inc. is an American multinational financial services corporation headquartered in California. It facilitates electronic funds transfers throughout the world, most commonly through Visa-branded credit cards, debit cards, and prepaid cards, operating one of the world's most advanced processing networks.",
-  "category": [],
+  "category": [
+    "Finance"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/visa.svg",
   "id": "000024",
   "status": "active",

@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://forgejo.org/",
   "info": "Forgejo is a self-hosted, lightweight software development platform for version control, issue tracking, and code collaboration. It is a community-driven, fully open-source fork of Gitea, designed to provide a highly secure and independent Git hosting service.",
-  "category": [],
+  "category": [
+    "Open Source"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/forgejo.svg",
   "id": "forgejo-svg",
   "status": "active",

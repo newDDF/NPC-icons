@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://arubanetworking.hpe.com/",
   "info": "Aruba Networks (a Hewlett Packard Enterprise company) is a prominent provider of next-generation network access solutions for enterprises. The company specializes in wireless LANs, wired switches, network security, and AI-powered network management tools to deliver secure and seamless edge-to-cloud connectivity.",
-  "category": [],
+  "category": [
+    "Networking"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/aruba.svg",
   "id": "000050",
   "status": "active",

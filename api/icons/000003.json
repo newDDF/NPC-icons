@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.android.com/",
   "info": "Android is an open-source, Linux-based operating system designed primarily for touchscreen mobile devices such as smartphones and tablets. Developed by Google and supported by a vast ecosystem of device manufacturers and developers, it is currently the world's most widely used mobile operating system.",
-  "category": [],
+  "category": [
+    "Operating Systems"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/android.svg",
   "id": "000003",
   "status": "active",

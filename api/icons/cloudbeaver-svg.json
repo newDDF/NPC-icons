@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://cloudbeaver.io/",
   "info": "CloudBeaver is a free, open-source, web-based database management tool developed by DBeaver Corporation. It provides a lightweight web interface that allows developers and administrators to manage, query, and organize various SQL and NoSQL databases directly inside their web browsers.",
-  "category": [],
+  "category": [
+    "Cloud"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/cloudbeaver.svg",
   "id": "cloudbeaver-svg",
   "status": "active",

@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://bitwarden.com/",
   "info": "Bitwarden is a highly popular, open-source password management service that allows individuals and teams to securely store, share, and sync sensitive credentials. It uses end-to-end encryption to protect user data, offering cross-platform support across mobile devices, web browsers, and desktop operating systems.",
-  "category": [],
+  "category": [
+    "Security"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/bitwarden.svg",
   "id": "bitwarden-svg",
   "status": "active",

@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.tuv.com/usa/en/",
   "info": "TÜV Rheinland is a leading global provider of technical, safety, and certification services headquartered in Germany. Established in 1872, the group inspects technical equipment, products, and services, ensuring compliance with international safety, quality, and environmental standards.",
-  "category": [],
+  "category": [
+    "Hardware"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/TÜVRheinland1.svg",
   "id": "000338",
   "status": "active",

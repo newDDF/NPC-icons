@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://github.com/",
   "info": "GitHub is the world's largest web-based platform for software development, version control, and collaboration, built on top of Git. It hosts millions of open-source and private repositories, allowing developers worldwide to share code, track changes, manage projects, and collaborate seamlessly.",
-  "category": [],
+  "category": [
+    "Developer",
+    "Open Source"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/github.svg",
   "id": "github-svg",
   "status": "active",

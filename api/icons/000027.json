@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://soundcloud.com/",
   "info": "SoundCloud is a German-founded online audio distribution platform and music sharing website that enables its users to upload, promote, and share audio. It has played a pivotal role in the music industry by allowing independent artists to distribute their tracks directly to listeners and build global communities.",
-  "category": [],
+  "category": [
+    "Media"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/soundcloud.svg",
   "id": "000027",
   "status": "active",

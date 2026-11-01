@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://kuromi.sanrio.co.jp/en/",
   "info": "Kuromi is a highly popular character created by the Japanese company Sanrio in 2005. Known as the tomboy rival of My Melody, Kuromi is famous for her signature black jester's hat and punk-chic style. Embracing a \"cute but rebellious\" aesthetic, she has captured a massive international fanbase among youth and alternative fashion enthusiasts",
-  "category": [],
+  "category": [
+    "Media"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/kuromi.svg",
   "id": "000306",
   "status": "active",

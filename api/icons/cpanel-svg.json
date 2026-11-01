@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://cpanel.net/",
   "info": "cPanel is a widely popular, Linux-based web hosting control panel that provides a graphical user interface (GUI) and automation tools. It simplifies the process of hosting a website, allowing administrators and end-users to manage websites, databases, email accounts, and security settings seamlessly.",
-  "category": [],
+  "category": [
+    "Cloud"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/cpanel.svg",
   "id": "cpanel-svg",
   "status": "active",

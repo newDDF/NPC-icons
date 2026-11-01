@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://netbird.io/",
   "info": "NetBird is an open-source zero-configuration VPN platform built on top of the WireGuard protocol. It simplifies secure network connectivity by automatically creating a mesh network between devices, allowing teams to securely connect servers, development environments, and cloud infrastructure.",
-  "category": [],
+  "category": [
+    "Networking"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/netbird.svg",
   "id": "netbird-svg",
   "status": "active",

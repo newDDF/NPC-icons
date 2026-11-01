@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.blender.org/",
   "info": "Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D-printed models, motion graphics, and interactive 3D applications. It features robust tools for modeling, sculpting, rigging, rendering, and video editing.",
-  "category": [],
+  "category": [
+    "Design"
+  ],
   "origin": "repository",
   "by": "dashboardicons.com",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/blender.svg",
   "id": "blender-svg",
   "status": "active",

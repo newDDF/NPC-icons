@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://www.instagram.com/",
   "info": "Instagram is a widely used photo and video sharing social networking service owned by Meta Platforms. Launched in 2010, the platform allows users to upload media that can be edited with filters, organized by hashtags, and shared publicly or with pre-approved followers, defining modern visual social culture.",
-  "category": [],
+  "category": [
+    "Social"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/instagram.svg",
   "id": "000022",
   "status": "active",

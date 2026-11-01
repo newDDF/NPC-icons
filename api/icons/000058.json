@@ -4,10 +4,12 @@
   "format": "svg",
   "source": "https://bsky.app/",
   "info": "Bluesky is a decentralized social media platform and public benefit corporation. Operating on the open-source AT Protocol (Authenticated Transfer Protocol), it allows users more control over their algorithmic feeds, moderation preferences, and data portability, offering a familiar, microblogging-style social network experience.",
-  "category": [],
+  "category": [
+    "Social"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/bluesky.svg",
   "id": "000058",
   "status": "active",

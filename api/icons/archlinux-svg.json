@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://archlinux.org/",
   "info": "Arch Linux is an independent, lightweight, and highly customizable Linux distribution tailored for proficient Linux users. Operating under a rolling-release model and adhering to the \"Keep It Simple\" (KISS) principle, it allows users to fully construct and customize their operating system from the ground up.",
-  "category": [],
+  "category": [
+    "Operating Systems",
+    "Open Source"
+  ],
   "origin": "repository",
   "by": "simpleicons.org",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/archlinux.svg",
   "id": "archlinux-svg",
   "status": "active",

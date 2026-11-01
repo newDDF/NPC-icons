@@ -4,10 +4,13 @@
   "format": "svg",
   "source": "https://www.amazon.com/",
   "info": "Amazon.com, Inc. is an American multinational technology company focusing on e-commerce, cloud computing (AWS), digital streaming, and artificial intelligence. Amazon Prime is its premium subscription service that offers users benefits such as fast shipping, exclusive shopping deals, and access to Prime Video and Prime Music.",
-  "category": [],
+  "category": [
+    "Cloud",
+    "E-commerce"
+  ],
   "origin": "traced",
   "by": "newddf",
-  "updatedAt": "2026-11-01T04:33:08.000Z",
+  "updatedAt": "2026-11-01T06:45:10.000Z",
   "path": "/assets/svg/amazon.svg",
   "id": "000035",
   "status": "active",
