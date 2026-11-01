@@ -3488,5 +3488,15 @@
             "category": "[\"Open Source\"]",
             "by": "dashboardicons.com",
             "origin": "repository"
+        },
+        {
+            "name": "facebook",
+            "color": "0866ff",
+            "format": "svg",
+            "source": "",
+            "info": "",
+            "category": "[\"Social\"]",
+            "by": "dashboardicons.com",
+            "origin": "repository"
         }
 ]
